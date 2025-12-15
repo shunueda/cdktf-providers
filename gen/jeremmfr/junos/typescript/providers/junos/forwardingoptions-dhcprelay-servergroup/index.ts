@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay_servergroup
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay_servergroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ForwardingoptionsDhcprelayServergroupConfig extends cdktf.Terra
   /**
   * IP Addresses of DHCP servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay_servergroup#ip_address ForwardingoptionsDhcprelayServergroup#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay_servergroup#ip_address ForwardingoptionsDhcprelayServergroup#ip_address}
   */
   readonly ipAddress?: string[];
   /**
   * Server group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay_servergroup#name ForwardingoptionsDhcprelayServergroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay_servergroup#name ForwardingoptionsDhcprelayServergroup#name}
   */
   readonly name: string;
   /**
   * Routing instance if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay_servergroup#routing_instance ForwardingoptionsDhcprelayServergroup#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay_servergroup#routing_instance ForwardingoptionsDhcprelayServergroup#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Version for DHCP or DHCPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay_servergroup#version ForwardingoptionsDhcprelayServergroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay_servergroup#version ForwardingoptionsDhcprelayServergroup#version}
   */
   readonly version?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay_servergroup junos_forwardingoptions_dhcprelay_servergroup}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay_servergroup junos_forwardingoptions_dhcprelay_servergroup}
 */
 export class ForwardingoptionsDhcprelayServergroup extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ForwardingoptionsDhcprelayServergroup extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ForwardingoptionsDhcprelayServergroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardingoptionsDhcprelayServergroup to import
-  * @param importFromId The id of the existing ForwardingoptionsDhcprelayServergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay_servergroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardingoptionsDhcprelayServergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay_servergroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardingoptionsDhcprelayServergroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ForwardingoptionsDhcprelayServergroup extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay_servergroup junos_forwardingoptions_dhcprelay_servergroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay_servergroup junos_forwardingoptions_dhcprelay_servergroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ForwardingoptionsDhcprelayServergroup extends cdktf.TerraformResour
       terraformResourceType: 'junos_forwardingoptions_dhcprelay_servergroup',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

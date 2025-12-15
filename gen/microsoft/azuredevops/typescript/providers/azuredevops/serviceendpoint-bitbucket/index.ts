@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointBitbucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#description ServiceendpointBitbucket#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#description ServiceendpointBitbucket#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#id ServiceendpointBitbucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#id ServiceendpointBitbucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,45 +21,45 @@ export interface ServiceendpointBitbucketConfig extends cdktf.TerraformMetaArgum
   /**
   * The bitbucket password which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#password ServiceendpointBitbucket#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#password ServiceendpointBitbucket#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#project_id ServiceendpointBitbucket#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#project_id ServiceendpointBitbucket#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#service_endpoint_name ServiceendpointBitbucket#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#service_endpoint_name ServiceendpointBitbucket#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * The bitbucket username which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#username ServiceendpointBitbucket#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#username ServiceendpointBitbucket#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#timeouts ServiceendpointBitbucket#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#timeouts ServiceendpointBitbucket#timeouts}
   */
   readonly timeouts?: ServiceendpointBitbucketTimeouts;
 }
 export interface ServiceendpointBitbucketTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#create ServiceendpointBitbucket#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#create ServiceendpointBitbucket#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#delete ServiceendpointBitbucket#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#delete ServiceendpointBitbucket#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#read ServiceendpointBitbucket#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#read ServiceendpointBitbucket#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#update ServiceendpointBitbucket#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#update ServiceendpointBitbucket#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class ServiceendpointBitbucketTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket azuredevops_serviceendpoint_bitbucket}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket azuredevops_serviceendpoint_bitbucket}
 */
 export class ServiceendpointBitbucket extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class ServiceendpointBitbucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointBitbucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointBitbucket to import
-  * @param importFromId The id of the existing ServiceendpointBitbucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointBitbucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointBitbucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class ServiceendpointBitbucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_bitbucket azuredevops_serviceendpoint_bitbucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_bitbucket azuredevops_serviceendpoint_bitbucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class ServiceendpointBitbucket extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_bitbucket',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

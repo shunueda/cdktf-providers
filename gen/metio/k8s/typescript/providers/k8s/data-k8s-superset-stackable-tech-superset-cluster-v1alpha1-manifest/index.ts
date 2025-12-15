@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#metadata DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#metadata DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestMetadata;
   /**
   * A Superset cluster stacklet. This resource is managed by the Stackable operator for Apache Superset. Find more information on how to use it and the resources that the operator generates in the [operator documentation](https://docs.stackable.tech/home/nightly/superset/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#spec DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#spec DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#annotations DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#annotations DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#labels DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#labels DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#name DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#name DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#namespace DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#namespace DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * A reference to the OIDC client credentials secret. The secret contains the client id and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#client_credentials_secret DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#client_credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#client_credentials_secret DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#client_credentials_secret}
   */
   readonly clientCredentialsSecret: string;
   /**
   * An optional list of extra scopes which get merged with the scopes defined in the ['AuthenticationClass'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#extra_scopes DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#extra_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#extra_scopes DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#extra_scopes}
   */
   readonly extraScopes?: string[];
 }
@@ -347,31 +347,31 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Name of the [AuthenticationClass](https://docs.stackable.tech/home/nightly/concepts/authentication) used to authenticate users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#authentication_class DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#authentication_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#authentication_class DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#authentication_class}
   */
   readonly authenticationClass: string;
   /**
   * This field contains OIDC-specific configuration. It is only required in case OIDC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#oidc DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#oidc DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#oidc}
   */
   readonly oidc?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecClusterConfigAuthenticationOidc;
   /**
   * If we should replace ALL the user's roles each login, or only on registration. Gets mapped to 'AUTH_ROLES_SYNC_AT_LOGIN'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#sync_roles_at DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#sync_roles_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#sync_roles_at DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#sync_roles_at}
   */
   readonly syncRolesAt?: string;
   /**
   * Allow users who are not already in the FAB DB. Gets mapped to 'AUTH_USER_REGISTRATION'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#user_registration DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#user_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#user_registration DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#user_registration}
   */
   readonly userRegistration?: boolean | cdktf.IResolvable;
   /**
   * This role will be given in addition to any AUTH_ROLES_MAPPING. Gets mapped to 'AUTH_USER_REGISTRATION_ROLE'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#user_registration_role DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#user_registration_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#user_registration_role DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#user_registration_role}
   */
   readonly userRegistrationRole?: string;
 }
@@ -602,13 +602,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Flag to stop cluster reconciliation by the operator. This means that all changes in the custom resource spec are ignored until this flag is set to false or removed. The operator will however still watch the deployed resources at the time and update the custom resource status field. If applied at the same time with 'stopped', 'reconciliationPaused' will take precedence over 'stopped' and stop the reconciliation immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#reconciliation_paused DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#reconciliation_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#reconciliation_paused DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#reconciliation_paused}
   */
   readonly reconciliationPaused?: boolean | cdktf.IResolvable;
   /**
   * Flag to stop the cluster. This means all deployed resources (e.g. Services, StatefulSets, ConfigMaps) are kept but all deployed Pods (e.g. replicas from a StatefulSet) are scaled to 0 and therefore stopped and removed. If applied at the same time with 'reconciliationPaused', the latter will pause reconciliation and 'stopped' will take no effect until 'reconciliationPaused' is set to false or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#stopped DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#stopped DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
 }
@@ -733,37 +733,37 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * List of AuthenticationClasses used to authenticate users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#authentication DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#authentication DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecClusterConfigAuthentication[] | cdktf.IResolvable;
   /**
   * Cluster operations like pause reconciliation or cluster stop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cluster_operation DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cluster_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cluster_operation DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cluster_operation}
   */
   readonly clusterOperation?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecClusterConfigClusterOperation;
   /**
   * The name of the Secret object containing the admin user credentials and database connection details. Read the [getting started guide first steps](https://docs.stackable.tech/home/nightly/superset/getting_started/first_steps) to find out more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#credentials_secret DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#credentials_secret DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#credentials_secret}
   */
   readonly credentialsSecret: string;
   /**
   * This field controls which type of Service the Operator creates for this SupersetCluster: * cluster-internal: Use a ClusterIP service * external-unstable: Use a NodePort service * external-stable: Use a LoadBalancer service This is a temporary solution with the goal to keep yaml manifests forward compatible. In the future, this setting will control which [ListenerClass](https://docs.stackable.tech/home/nightly/listener-operator/listenerclass.html) will be used to expose the service, and ListenerClass names will stay the same, allowing for a non-breaking change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#listener_class DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#listener_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#listener_class DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#listener_class}
   */
   readonly listenerClass?: string;
   /**
   * The name of a Secret object. The Secret should contain a key 'connections.mapboxApiKey'. This is the API key required for map charts to work that use mapbox. The token should be in the JWT format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#mapbox_secret DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#mapbox_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#mapbox_secret DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#mapbox_secret}
   */
   readonly mapboxSecret?: string;
   /**
   * Name of the Vector aggregator [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery). It must contain the key 'ADDRESS' with the address of the Vector aggregator. Follow the [logging tutorial](https://docs.stackable.tech/home/nightly/tutorials/logging-vector-aggregator) to learn how to configure log aggregation with Vector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
   */
   readonly vectorAggregatorConfigMapName?: string;
 }
@@ -1001,7 +1001,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#name DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#name DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1116,37 +1116,37 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Overwrite the docker image. Specify the full docker image name, e.g. 'docker.stackable.tech/stackable/superset:1.4.1-stackable2.1.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#custom DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#custom DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: string;
   /**
   * Version of the product, e.g. '1.4.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#product_version DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#product_version DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#product_version}
   */
   readonly productVersion?: string;
   /**
   * [Pull policy](https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy) used when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pull_policy DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pull_policy DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * [Image pull secrets](https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod) to pull images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pull_secrets DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pull_secrets DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Name of the docker repo, e.g. 'docker.stackable.tech/stackable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#repo DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#repo DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#repo}
   */
   readonly repo?: string;
   /**
   * Stackable version of the product, e.g. '23.4', '23.4.1' or '0.0.0-dev'. If not specified, the operator will use its own version, e.g. '23.4.1'. When using a nightly operator or a pr version, it will use the nightly '0.0.0-dev' image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#stackable_version DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#stackable_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#stackable_version DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#stackable_version}
   */
   readonly stackableVersion?: string;
 }
@@ -1387,25 +1387,25 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#node_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#node_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#node_selector DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#node_selector DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -1588,7 +1588,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -1684,7 +1684,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config_map DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config_map DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -1780,7 +1780,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -1876,7 +1876,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -1972,25 +1972,25 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#console DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#console DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#custom DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#custom DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#file DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#file DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#loggers DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#loggers DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigLoggingContainersLoggers;
 }
@@ -2173,13 +2173,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#containers DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#containers DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#enable_vector_agent DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#enable_vector_agent DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -2304,13 +2304,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#max DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#max DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#min DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#min DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -2435,13 +2435,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#limit DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#limit DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#runtime_limits DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#runtime_limits DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -2564,15 +2564,15 @@ export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNode
 }
 export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cpu DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cpu DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#memory DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#memory DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#storage DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#storage DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -2726,37 +2726,37 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#logging DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#logging DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigLogging;
   /**
   * CPU and memory limits for Superset pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#resources DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#resources DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfigResources;
   /**
   * Row limit when requesting chart data. Corresponds to ROW_LIMIT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#row_limit DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#row_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#row_limit DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#row_limit}
   */
   readonly rowLimit?: number;
   /**
   * Maximum time period a Superset request can take before timing out. This setting affects the maximum duration a query to an underlying datasource can take. If you get timeout errors before your query returns the result you may need to increase this timeout. Corresponds to SUPERSET_WEBSERVER_TIMEOUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#webserver_timeout DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#webserver_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#webserver_timeout DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#webserver_timeout}
   */
   readonly webserverTimeout?: number;
 }
@@ -2997,13 +2997,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#enabled DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#enabled DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#max_unavailable DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#max_unavailable DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -3128,7 +3128,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleConfigPodDisruptionBudget;
 }
@@ -3224,25 +3224,25 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#node_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#node_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#node_selector DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#node_selector DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -3425,7 +3425,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3521,7 +3521,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config_map DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config_map DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -3617,7 +3617,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3713,7 +3713,7 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#level DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3809,25 +3809,25 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#console DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#console DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#custom DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#custom DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#file DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#file DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#loggers DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#loggers DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -4010,13 +4010,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#containers DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#containers DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#enable_vector_agent DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#enable_vector_agent DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -4141,13 +4141,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#max DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#max DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#min DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#min DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -4272,13 +4272,13 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#limit DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#limit DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#runtime_limits DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#runtime_limits DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -4401,15 +4401,15 @@ export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNode
 }
 export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cpu DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cpu DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#memory DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#memory DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#storage DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#storage DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -4563,37 +4563,37 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#affinity DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#logging DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#logging DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigLogging;
   /**
   * CPU and memory limits for Superset pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#resources DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#resources DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfigResources;
   /**
   * Row limit when requesting chart data. Corresponds to ROW_LIMIT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#row_limit DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#row_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#row_limit DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#row_limit}
   */
   readonly rowLimit?: number;
   /**
   * Maximum time period a Superset request can take before timing out. This setting affects the maximum duration a query to an underlying datasource can take. If you get timeout errors before your query returns the result you may need to increase this timeout. Corresponds to SUPERSET_WEBSERVER_TIMEOUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#webserver_timeout DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#webserver_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#webserver_timeout DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#webserver_timeout}
   */
   readonly webserverTimeout?: number;
 }
@@ -4832,33 +4832,33 @@ export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNode
 }
 export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cli_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cli_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#env_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#env_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#replicas DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#replicas DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -5097,39 +5097,39 @@ export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNode
 }
 export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cli_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cli_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#config_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#env_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#env_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#pod_overrides DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#role_config DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#role_config DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#role_groups DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#role_groups DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodesRoleGroups;
 }
@@ -5396,19 +5396,19 @@ export interface DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpec
   /**
   * Settings that affect all roles and role groups. The settings in the 'clusterConfig' are cluster wide settings that do not need to be configurable at role or role group level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cluster_config DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#cluster_config DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecClusterConfig;
   /**
   * Specify which image to use, the easiest way is to only configure the 'productVersion'. You can also configure a custom image registry to pull from, as well as completely custom images. Consult the [Product image selection documentation](https://docs.stackable.tech/home/nightly/concepts/product_image_selection) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#image DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#image DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#image}
   */
   readonly image: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecImage;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#nodes DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#nodes DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest#nodes}
   */
   readonly nodes?: DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecNodes;
 }
@@ -5554,7 +5554,7 @@ export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest k8s_superset_stackable_tech_superset_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest k8s_superset_stackable_tech_superset_cluster_v1alpha1_manifest}
 */
 export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5570,7 +5570,7 @@ export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5582,7 +5582,7 @@ export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest k8s_superset_stackable_tech_superset_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/superset_stackable_tech_superset_cluster_v1alpha1_manifest k8s_superset_stackable_tech_superset_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5593,8 +5593,8 @@ export class DataK8SSupersetStackableTechSupersetClusterV1Alpha1Manifest extends
       terraformResourceType: 'k8s_superset_stackable_tech_superset_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

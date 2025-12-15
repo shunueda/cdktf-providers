@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cm_certificate_iam_member
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cm_certificate_iam_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CmCertificateIamMemberConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the compute `certificate` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cm_certificate_iam_member#certificate_id CmCertificateIamMember#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cm_certificate_iam_member#certificate_id CmCertificateIamMember#certificate_id}
   */
   readonly certificateId: string;
   /**
@@ -29,25 +29,25 @@ export interface CmCertificateIamMemberConfig extends cdktf.TerraformMetaArgumen
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cm_certificate_iam_member#member CmCertificateIamMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cm_certificate_iam_member#member CmCertificateIamMember#member}
   */
   readonly member: string;
   /**
   * The role that should be assigned. Only one yandex_cm_certificate_iam_member can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cm_certificate_iam_member#role CmCertificateIamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cm_certificate_iam_member#role CmCertificateIamMember#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cm_certificate_iam_member#sleep_after CmCertificateIamMember#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cm_certificate_iam_member#sleep_after CmCertificateIamMember#sleep_after}
   */
   readonly sleepAfter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cm_certificate_iam_member yandex_cm_certificate_iam_member}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cm_certificate_iam_member yandex_cm_certificate_iam_member}
 */
 export class CmCertificateIamMember extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CmCertificateIamMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmCertificateIamMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmCertificateIamMember to import
-  * @param importFromId The id of the existing CmCertificateIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cm_certificate_iam_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmCertificateIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cm_certificate_iam_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmCertificateIamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CmCertificateIamMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cm_certificate_iam_member yandex_cm_certificate_iam_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cm_certificate_iam_member yandex_cm_certificate_iam_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CmCertificateIamMember extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_cm_certificate_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

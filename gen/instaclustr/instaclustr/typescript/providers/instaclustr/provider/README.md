@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`instaclustr`](https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs).
+Refer to the Terraform Registry for docs: [`instaclustr`](https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#metadata DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#metadata DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestMetadata;
   /**
   * NodeFeatureRuleSpec describes a NodeFeatureRule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#spec DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#spec DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#annotations DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#annotations DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#labels DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#labels DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#name DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#name DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatc
   /**
   * Op is the operator to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#op DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#op DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#op}
   */
   readonly op: string;
   /**
   * Value is the list of values that the operand evaluates the input against. Value should be empty if the operator is Exists, DoesNotExist, IsTrue or IsFalse. Value should contain exactly one element if the operator is Gt or Lt and exactly two elements if the operator is GtLt. In other cases Value should contain at least one element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#value DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#value DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#value}
   */
   readonly value?: string[];
 }
@@ -313,13 +313,13 @@ export class DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchAny
 }
 export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchAnyMatchFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#feature DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#feature DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#feature}
   */
   readonly feature: string;
   /**
   * MatchExpressionSet contains a set of MatchExpressions, each of which is evaluated against a set of input values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_expressions DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_expressions DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions: DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchAnyMatchFeaturesMatchExpressions;
 }
@@ -460,7 +460,7 @@ export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatc
   /**
   * MatchFeatures specifies a set of matcher terms all of which must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_features DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_features DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_features}
   */
   readonly matchFeatures: DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchAnyMatchFeatures[] | cdktf.IResolvable;
 }
@@ -575,13 +575,13 @@ export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatc
   /**
   * Op is the operator to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#op DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#op DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#op}
   */
   readonly op: string;
   /**
   * Value is the list of values that the operand evaluates the input against. Value should be empty if the operator is Exists, DoesNotExist, IsTrue or IsFalse. Value should contain exactly one element if the operator is Gt or Lt and exactly two elements if the operator is GtLt. In other cases Value should contain at least one element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#value DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#value DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#value}
   */
   readonly value?: string[];
 }
@@ -701,13 +701,13 @@ export class DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchFea
 }
 export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#feature DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#feature DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#feature}
   */
   readonly feature: string;
   /**
   * MatchExpressionSet contains a set of MatchExpressions, each of which is evaluated against a set of input values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_expressions DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_expressions DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions: DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchFeaturesMatchExpressions;
 }
@@ -848,43 +848,43 @@ export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRules {
   /**
   * Labels to create if the rule matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#labels DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#labels DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * LabelsTemplate specifies a template to expand for dynamically generating multiple labels. Data (after template expansion) must be keys with an optional value (<key>[=<value>]) separated by newlines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#labels_template DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#labels_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#labels_template DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#labels_template}
   */
   readonly labelsTemplate?: string;
   /**
   * MatchAny specifies a list of matchers one of which must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_any DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_any DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_any}
   */
   readonly matchAny?: DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchAny[] | cdktf.IResolvable;
   /**
   * MatchFeatures specifies a set of matcher terms all of which must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_features DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#match_features DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#match_features}
   */
   readonly matchFeatures?: DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRulesMatchFeatures[] | cdktf.IResolvable;
   /**
   * Name of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#name DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#name DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Vars is the variables to store if the rule matches. Variables do not directly inflict any changes in the node object. However, they can be referenced from other rules enabling more complex rule hierarchies, without exposing intermediary output values as labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#vars DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#vars DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#vars}
   */
   readonly vars?: { [key: string]: string };
   /**
   * VarsTemplate specifies a template to expand for dynamically generating multiple variables. Data (after template expansion) must be keys with an optional value (<key>[=<value>]) separated by newlines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#vars_template DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#vars_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#vars_template DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#vars_template}
   */
   readonly varsTemplate?: string;
 }
@@ -1173,7 +1173,7 @@ export interface DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpec {
   /**
   * Rules is a list of node customization rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#rules DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#rules DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest#rules}
   */
   readonly rules: DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecRules[] | cdktf.IResolvable;
 }
@@ -1264,7 +1264,7 @@ export class DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest k8s_nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest k8s_nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest}
 */
 export class DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1280,7 +1280,7 @@ export class DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1292,7 +1292,7 @@ export class DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest k8s_nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest k8s_nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1303,8 +1303,8 @@ export class DataK8SNfdK8SSigsIoNodeFeatureRuleV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_nfd_k8s_sigs_io_node_feature_rule_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

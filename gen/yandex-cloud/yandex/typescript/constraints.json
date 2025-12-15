@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "yandex": "0.175.0"
+    "yandex": "0.176.0"
   }
 }

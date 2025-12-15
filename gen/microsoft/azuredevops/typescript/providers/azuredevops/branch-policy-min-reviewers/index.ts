@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface BranchPolicyMinReviewersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#blocking BranchPolicyMinReviewers#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#blocking BranchPolicyMinReviewers#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#enabled BranchPolicyMinReviewers#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#enabled BranchPolicyMinReviewers#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#id BranchPolicyMinReviewers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#id BranchPolicyMinReviewers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#project_id BranchPolicyMinReviewers#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#project_id BranchPolicyMinReviewers#project_id}
   */
   readonly projectId: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#settings BranchPolicyMinReviewers#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#settings BranchPolicyMinReviewers#settings}
   */
   readonly settings: BranchPolicyMinReviewersSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#timeouts BranchPolicyMinReviewers#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#timeouts BranchPolicyMinReviewers#timeouts}
   */
   readonly timeouts?: BranchPolicyMinReviewersTimeouts;
 }
 export interface BranchPolicyMinReviewersSettingsScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#match_type BranchPolicyMinReviewers#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#match_type BranchPolicyMinReviewers#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#repository_id BranchPolicyMinReviewers#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#repository_id BranchPolicyMinReviewers#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#repository_ref BranchPolicyMinReviewers#repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#repository_ref BranchPolicyMinReviewers#repository_ref}
   */
   readonly repositoryRef?: string;
 }
@@ -223,37 +223,37 @@ export class BranchPolicyMinReviewersSettingsScopeList extends cdktf.ComplexList
 }
 export interface BranchPolicyMinReviewersSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#allow_completion_with_rejects_or_waits BranchPolicyMinReviewers#allow_completion_with_rejects_or_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#allow_completion_with_rejects_or_waits BranchPolicyMinReviewers#allow_completion_with_rejects_or_waits}
   */
   readonly allowCompletionWithRejectsOrWaits?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#last_pusher_cannot_approve BranchPolicyMinReviewers#last_pusher_cannot_approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#last_pusher_cannot_approve BranchPolicyMinReviewers#last_pusher_cannot_approve}
   */
   readonly lastPusherCannotApprove?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#on_last_iteration_require_vote BranchPolicyMinReviewers#on_last_iteration_require_vote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#on_last_iteration_require_vote BranchPolicyMinReviewers#on_last_iteration_require_vote}
   */
   readonly onLastIterationRequireVote?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#on_push_reset_all_votes BranchPolicyMinReviewers#on_push_reset_all_votes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#on_push_reset_all_votes BranchPolicyMinReviewers#on_push_reset_all_votes}
   */
   readonly onPushResetAllVotes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#on_push_reset_approved_votes BranchPolicyMinReviewers#on_push_reset_approved_votes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#on_push_reset_approved_votes BranchPolicyMinReviewers#on_push_reset_approved_votes}
   */
   readonly onPushResetApprovedVotes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#reviewer_count BranchPolicyMinReviewers#reviewer_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#reviewer_count BranchPolicyMinReviewers#reviewer_count}
   */
   readonly reviewerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#submitter_can_vote BranchPolicyMinReviewers#submitter_can_vote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#submitter_can_vote BranchPolicyMinReviewers#submitter_can_vote}
   */
   readonly submitterCanVote?: boolean | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#scope BranchPolicyMinReviewers#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#scope BranchPolicyMinReviewers#scope}
   */
   readonly scope: BranchPolicyMinReviewersSettingsScope[] | cdktf.IResolvable;
 }
@@ -537,19 +537,19 @@ export class BranchPolicyMinReviewersSettingsOutputReference extends cdktf.Compl
 }
 export interface BranchPolicyMinReviewersTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#create BranchPolicyMinReviewers#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#create BranchPolicyMinReviewers#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#delete BranchPolicyMinReviewers#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#delete BranchPolicyMinReviewers#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#read BranchPolicyMinReviewers#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#read BranchPolicyMinReviewers#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#update BranchPolicyMinReviewers#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#update BranchPolicyMinReviewers#update}
   */
   readonly update?: string;
 }
@@ -730,7 +730,7 @@ export class BranchPolicyMinReviewersTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers azuredevops_branch_policy_min_reviewers}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers azuredevops_branch_policy_min_reviewers}
 */
 export class BranchPolicyMinReviewers extends cdktf.TerraformResource {
 
@@ -746,7 +746,7 @@ export class BranchPolicyMinReviewers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BranchPolicyMinReviewers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchPolicyMinReviewers to import
-  * @param importFromId The id of the existing BranchPolicyMinReviewers that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchPolicyMinReviewers that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchPolicyMinReviewers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -758,7 +758,7 @@ export class BranchPolicyMinReviewers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_min_reviewers azuredevops_branch_policy_min_reviewers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_min_reviewers azuredevops_branch_policy_min_reviewers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -769,8 +769,8 @@ export class BranchPolicyMinReviewers extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_branch_policy_min_reviewers',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

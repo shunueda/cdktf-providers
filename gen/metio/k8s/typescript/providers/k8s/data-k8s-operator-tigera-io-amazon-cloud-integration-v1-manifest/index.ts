@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoAmazonCloudIntegrationV1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#metadata DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#metadata DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoAmazonCloudIntegrationV1ManifestMetadata;
   /**
   * AmazonCloudIntegrationSpec defines the desired state of AmazonCloudIntegration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#spec DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#spec DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoAmazonCloudIntegrationV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoAmazonCloudIntegrationV1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#annotations DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#annotations DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#labels DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#labels DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#name DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#name DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,49 +187,49 @@ export interface DataK8SOperatorTigeraIoAmazonCloudIntegrationV1ManifestSpec {
   /**
   * AWSRegion is the region in which your cluster is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#aws_region DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#aws_region DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * DefaultPodMetadataAccess defines what the default behavior will be for accessing the AWS metadata service from a pod. Default: Denied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#default_pod_metadata_access DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#default_pod_metadata_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#default_pod_metadata_access DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#default_pod_metadata_access}
   */
   readonly defaultPodMetadataAccess?: string;
   /**
   * EnforcedSecurityGroupID is the ID of the Security Group which will be applied to all ENIs that are on a host that is also part of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#enforced_security_group_id DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#enforced_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#enforced_security_group_id DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#enforced_security_group_id}
   */
   readonly enforcedSecurityGroupId?: string;
   /**
   * NodeSecurityGroupIDs is a list of Security Group IDs that all nodes and masters will be in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#node_security_group_i_ds DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#node_security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#node_security_group_i_ds DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#node_security_group_i_ds}
   */
   readonly nodeSecurityGroupIDs?: string[];
   /**
   * PodSecurityGroupID is the ID of the Security Group which all pods should be placed in by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#pod_security_group_id DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#pod_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#pod_security_group_id DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#pod_security_group_id}
   */
   readonly podSecurityGroupId?: string;
   /**
   * SQSURL is the SQS URL needed to access the Simple Queue Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#sqs_url DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#sqs_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#sqs_url DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#sqs_url}
   */
   readonly sqsUrl?: string;
   /**
   * TrustEnforcedSecurityGroupID is the ID of the Security Group which will be applied to all ENIs in the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#trust_enforced_security_group_id DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#trust_enforced_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#trust_enforced_security_group_id DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#trust_enforced_security_group_id}
   */
   readonly trustEnforcedSecurityGroupId?: string;
   /**
   * VPCS is a list of VPC IDs to monitor for ENIs and Security Groups, only one is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#vpcs DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#vpcs DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest#vpcs}
   */
   readonly vpcs?: string[];
 }
@@ -526,7 +526,7 @@ export class DataK8SOperatorTigeraIoAmazonCloudIntegrationV1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest k8s_operator_tigera_io_amazon_cloud_integration_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest k8s_operator_tigera_io_amazon_cloud_integration_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest extends cdktf.TerraformDataSource {
 
@@ -542,7 +542,7 @@ export class DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -554,7 +554,7 @@ export class DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest k8s_operator_tigera_io_amazon_cloud_integration_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_amazon_cloud_integration_v1_manifest k8s_operator_tigera_io_amazon_cloud_integration_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -565,8 +565,8 @@ export class DataK8SOperatorTigeraIoAmazonCloudIntegrationV1Manifest extends cdk
       terraformResourceType: 'k8s_operator_tigera_io_amazon_cloud_integration_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

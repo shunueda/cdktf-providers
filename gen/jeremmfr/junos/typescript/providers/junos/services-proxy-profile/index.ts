@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_proxy_profile
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_proxy_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServicesProxyProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Proxy profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_proxy_profile#name ServicesProxyProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_proxy_profile#name ServicesProxyProfile#name}
   */
   readonly name: string;
   /**
   * Proxy server name or IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_proxy_profile#protocol_http_host ServicesProxyProfile#protocol_http_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_proxy_profile#protocol_http_host ServicesProxyProfile#protocol_http_host}
   */
   readonly protocolHttpHost: string;
   /**
   * Proxy server port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_proxy_profile#protocol_http_port ServicesProxyProfile#protocol_http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_proxy_profile#protocol_http_port ServicesProxyProfile#protocol_http_port}
   */
   readonly protocolHttpPort?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_proxy_profile junos_services_proxy_profile}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_proxy_profile junos_services_proxy_profile}
 */
 export class ServicesProxyProfile extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ServicesProxyProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServicesProxyProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicesProxyProfile to import
-  * @param importFromId The id of the existing ServicesProxyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_proxy_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicesProxyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_proxy_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicesProxyProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ServicesProxyProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_proxy_profile junos_services_proxy_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_proxy_profile junos_services_proxy_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ServicesProxyProfile extends cdktf.TerraformResource {
       terraformResourceType: 'junos_services_proxy_profile',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServicesSecurityIntelligenceProfileConfig extends cdktf.Terrafo
   /**
   * Profile category name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#category ServicesSecurityIntelligenceProfile#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#category ServicesSecurityIntelligenceProfile#category}
   */
   readonly category: string;
   /**
   * Text description of profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#description ServicesSecurityIntelligenceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#description ServicesSecurityIntelligenceProfile#description}
   */
   readonly description?: string;
   /**
   * Security intelligence profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#name ServicesSecurityIntelligenceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#name ServicesSecurityIntelligenceProfile#name}
   */
   readonly name: string;
   /**
   * default_rule_then block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#default_rule_then ServicesSecurityIntelligenceProfile#default_rule_then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#default_rule_then ServicesSecurityIntelligenceProfile#default_rule_then}
   */
   readonly defaultRuleThen?: ServicesSecurityIntelligenceProfileDefaultRuleThen;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#rule ServicesSecurityIntelligenceProfile#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#rule ServicesSecurityIntelligenceProfile#rule}
   */
   readonly rule?: ServicesSecurityIntelligenceProfileRule[] | cdktf.IResolvable;
 }
@@ -42,19 +42,19 @@ export interface ServicesSecurityIntelligenceProfileDefaultRuleThen {
   /**
   * Security intelligence profile action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#action ServicesSecurityIntelligenceProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#action ServicesSecurityIntelligenceProfile#action}
   */
   readonly action?: string;
   /**
   * Log security intelligence block action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#log ServicesSecurityIntelligenceProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#log ServicesSecurityIntelligenceProfile#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * Don't log security intelligence block action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#no_log ServicesSecurityIntelligenceProfile#no_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#no_log ServicesSecurityIntelligenceProfile#no_log}
   */
   readonly noLog?: boolean | cdktf.IResolvable;
 }
@@ -208,13 +208,13 @@ export interface ServicesSecurityIntelligenceProfileRuleMatch {
   /**
   * Profile matching feed name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#feed_name ServicesSecurityIntelligenceProfile#feed_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#feed_name ServicesSecurityIntelligenceProfile#feed_name}
   */
   readonly feedName?: string[];
   /**
   * Profile matching threat levels, higher number is more severe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#threat_level ServicesSecurityIntelligenceProfile#threat_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#threat_level ServicesSecurityIntelligenceProfile#threat_level}
   */
   readonly threatLevel: number[];
 }
@@ -336,25 +336,25 @@ export interface ServicesSecurityIntelligenceProfileRule {
   /**
   * Profile rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#name ServicesSecurityIntelligenceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#name ServicesSecurityIntelligenceProfile#name}
   */
   readonly name: string;
   /**
   * Security intelligence profile action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#then_action ServicesSecurityIntelligenceProfile#then_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#then_action ServicesSecurityIntelligenceProfile#then_action}
   */
   readonly thenAction: string;
   /**
   * Log security intelligence block action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#then_log ServicesSecurityIntelligenceProfile#then_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#then_log ServicesSecurityIntelligenceProfile#then_log}
   */
   readonly thenLog?: boolean | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#match ServicesSecurityIntelligenceProfile#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#match ServicesSecurityIntelligenceProfile#match}
   */
   readonly match?: ServicesSecurityIntelligenceProfileRuleMatch;
 }
@@ -551,7 +551,7 @@ export class ServicesSecurityIntelligenceProfileRuleList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile junos_services_security_intelligence_profile}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile junos_services_security_intelligence_profile}
 */
 export class ServicesSecurityIntelligenceProfile extends cdktf.TerraformResource {
 
@@ -567,7 +567,7 @@ export class ServicesSecurityIntelligenceProfile extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ServicesSecurityIntelligenceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicesSecurityIntelligenceProfile to import
-  * @param importFromId The id of the existing ServicesSecurityIntelligenceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicesSecurityIntelligenceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicesSecurityIntelligenceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -579,7 +579,7 @@ export class ServicesSecurityIntelligenceProfile extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_profile junos_services_security_intelligence_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_profile junos_services_security_intelligence_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -590,8 +590,8 @@ export class ServicesSecurityIntelligenceProfile extends cdktf.TerraformResource
       terraformResourceType: 'junos_services_security_intelligence_profile',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

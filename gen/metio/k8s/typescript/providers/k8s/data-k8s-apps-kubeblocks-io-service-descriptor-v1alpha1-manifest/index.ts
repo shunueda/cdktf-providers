@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestMetadata;
   /**
   * ServiceDescriptorSpec defines the desired state of ServiceDescriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,13 +382,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -510,19 +510,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -673,19 +673,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -836,25 +836,25 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthPasswordValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthPasswordValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthPasswordValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthPasswordValueFromSecretKeyRef;
 }
@@ -1037,13 +1037,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Holds a direct string or an expression that can be evaluated to a string. It can include variables denoted by $(VAR_NAME). These variables are expanded to the value of the environment variables defined in the container. If a variable cannot be resolved, it remains unchanged in the output. To escape variable expansion and retain the literal value, use double $ characters. For example: - '$(VAR_NAME)' will be expanded to the value of the environment variable VAR_NAME. - '$$(VAR_NAME)' will result in '$(VAR_NAME)' in the output, without any variable expansion. Default value is an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Specifies the source for the variable's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthPasswordValueFrom;
 }
@@ -1168,19 +1168,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1331,13 +1331,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1459,19 +1459,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1622,19 +1622,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1785,25 +1785,25 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthUsernameValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthUsernameValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthUsernameValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthUsernameValueFromSecretKeyRef;
 }
@@ -1986,13 +1986,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Holds a direct string or an expression that can be evaluated to a string. It can include variables denoted by $(VAR_NAME). These variables are expanded to the value of the environment variables defined in the container. If a variable cannot be resolved, it remains unchanged in the output. To escape variable expansion and retain the literal value, use double $ characters. For example: - '$(VAR_NAME)' will be expanded to the value of the environment variable VAR_NAME. - '$$(VAR_NAME)' will result in '$(VAR_NAME)' in the output, without any variable expansion. Default value is an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Specifies the source for the variable's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthUsernameValueFrom;
 }
@@ -2117,13 +2117,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAut
   /**
   * Specifies the password for the external service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#password DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#password DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthPassword;
   /**
   * Specifies the username for the external service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#username DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#username DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuthUsername;
 }
@@ -2248,19 +2248,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEnd
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2411,13 +2411,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEnd
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -2539,19 +2539,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEnd
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -2702,19 +2702,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEnd
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2865,25 +2865,25 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEnd
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEndpointValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEndpointValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEndpointValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEndpointValueFromSecretKeyRef;
 }
@@ -3066,13 +3066,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEnd
   /**
   * Holds a direct string or an expression that can be evaluated to a string. It can include variables denoted by $(VAR_NAME). These variables are expanded to the value of the environment variables defined in the container. If a variable cannot be resolved, it remains unchanged in the output. To escape variable expansion and retain the literal value, use double $ characters. For example: - '$(VAR_NAME)' will be expanded to the value of the environment variable VAR_NAME. - '$$(VAR_NAME)' will result in '$(VAR_NAME)' in the output, without any variable expansion. Default value is an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Specifies the source for the variable's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEndpointValueFrom;
 }
@@ -3197,19 +3197,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHos
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3360,13 +3360,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHos
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -3488,19 +3488,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHos
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -3651,19 +3651,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHos
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3814,25 +3814,25 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHos
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHostValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHostValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHostValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHostValueFromSecretKeyRef;
 }
@@ -4015,13 +4015,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHos
   /**
   * Holds a direct string or an expression that can be evaluated to a string. It can include variables denoted by $(VAR_NAME). These variables are expanded to the value of the environment variables defined in the container. If a variable cannot be resolved, it remains unchanged in the output. To escape variable expansion and retain the literal value, use double $ characters. For example: - '$(VAR_NAME)' will be expanded to the value of the environment variable VAR_NAME. - '$$(VAR_NAME)' will result in '$(VAR_NAME)' in the output, without any variable expansion. Default value is an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Specifies the source for the variable's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHostValueFrom;
 }
@@ -4146,19 +4146,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPor
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4309,13 +4309,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPor
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#api_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_path DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4437,19 +4437,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPor
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#container_name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#divisor DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -4600,19 +4600,19 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPor
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#key DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#name DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#optional DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4763,25 +4763,25 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPor
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPortValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPortValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPortValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPortValueFromSecretKeyRef;
 }
@@ -4964,13 +4964,13 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPor
   /**
   * Holds a direct string or an expression that can be evaluated to a string. It can include variables denoted by $(VAR_NAME). These variables are expanded to the value of the environment variables defined in the container. If a variable cannot be resolved, it remains unchanged in the output. To escape variable expansion and retain the literal value, use double $ characters. For example: - '$(VAR_NAME)' will be expanded to the value of the environment variable VAR_NAME. - '$$(VAR_NAME)' will result in '$(VAR_NAME)' in the output, without any variable expansion. Default value is an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Specifies the source for the variable's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#value_from DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPortValueFrom;
 }
@@ -5095,37 +5095,37 @@ export interface DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpec {
   /**
   * Specifies the authentication credentials required for accessing an external service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#auth DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#auth DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecAuth;
   /**
   * Specifies the endpoint of the external service. If the service is exposed via a cluster, the endpoint will be provided in the format of 'host:port'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#endpoint DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#endpoint DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecEndpoint;
   /**
   * Specifies the service or IP address of the external service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#host DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#host DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#host}
   */
   readonly host?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecHost;
   /**
   * Specifies the port of the external service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#port DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#port DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#port}
   */
   readonly port?: DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecPort;
   /**
   * Describes the type of database service provided by the external service. For example, 'mysql', 'redis', 'mongodb'. This field categorizes databases by their functionality, protocol and compatibility, facilitating appropriate service integration based on their unique capabilities. This field is case-insensitive. It also supports abbreviations for some well-known databases: - 'pg', 'pgsql', 'postgres', 'postgresql': PostgreSQL service - 'zk', 'zookeeper': ZooKeeper service - 'es', 'elasticsearch': Elasticsearch service - 'mongo', 'mongodb': MongoDB service - 'ch', 'clickhouse': ClickHouse service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#service_kind DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#service_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#service_kind DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#service_kind}
   */
   readonly serviceKind: string;
   /**
   * Describes the version of the service provided by the external service. This is crucial for ensuring compatibility between different components of the system, as different versions of a service may have varying features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#service_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#service_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#service_version DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest#service_version}
   */
   readonly serviceVersion: string;
 }
@@ -5358,7 +5358,7 @@ export class DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest k8s_apps_kubeblocks_io_service_descriptor_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest k8s_apps_kubeblocks_io_service_descriptor_v1alpha1_manifest}
 */
 export class DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5374,7 +5374,7 @@ export class DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5386,7 +5386,7 @@ export class DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest k8s_apps_kubeblocks_io_service_descriptor_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_service_descriptor_v1alpha1_manifest k8s_apps_kubeblocks_io_service_descriptor_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5397,8 +5397,8 @@ export class DataK8SAppsKubeblocksIoServiceDescriptorV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_apps_kubeblocks_io_service_descriptor_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

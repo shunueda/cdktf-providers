@@ -13,15 +13,15 @@ dataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAffinityToHcl
 DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAffinityOutputReference } from './structs1200'
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#operator DataK8SRayIoRayJobV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#operator DataK8SRayIoRayJobV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#values DataK8SRayIoRayJobV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#values DataK8SRayIoRayJobV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -189,11 +189,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPod
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#match_expressions DataK8SRayIoRayJobV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#match_expressions DataK8SRayIoRayJobV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#match_labels DataK8SRayIoRayJobV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#match_labels DataK8SRayIoRayJobV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -316,15 +316,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPod
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#operator DataK8SRayIoRayJobV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#operator DataK8SRayIoRayJobV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#values DataK8SRayIoRayJobV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#values DataK8SRayIoRayJobV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -492,11 +492,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPod
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#match_expressions DataK8SRayIoRayJobV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#match_expressions DataK8SRayIoRayJobV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#match_labels DataK8SRayIoRayJobV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#match_labels DataK8SRayIoRayJobV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -619,27 +619,27 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPod
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#label_selector DataK8SRayIoRayJobV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#label_selector DataK8SRayIoRayJobV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#match_label_keys DataK8SRayIoRayJobV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#match_label_keys DataK8SRayIoRayJobV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#mismatch_label_keys DataK8SRayIoRayJobV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#mismatch_label_keys DataK8SRayIoRayJobV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#namespace_selector DataK8SRayIoRayJobV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#namespace_selector DataK8SRayIoRayJobV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#namespaces DataK8SRayIoRayJobV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#namespaces DataK8SRayIoRayJobV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#topology_key DataK8SRayIoRayJobV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#topology_key DataK8SRayIoRayJobV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -897,11 +897,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPod
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRayIoRayJobV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRayIoRayJobV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SRayIoRayJobV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SRayIoRayJobV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -1024,15 +1024,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPod
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#node_affinity DataK8SRayIoRayJobV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#node_affinity DataK8SRayIoRayJobV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#pod_affinity DataK8SRayIoRayJobV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#pod_affinity DataK8SRayIoRayJobV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#pod_anti_affinity DataK8SRayIoRayJobV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#pod_anti_affinity DataK8SRayIoRayJobV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityPodAntiAffinity;
 }
@@ -1184,15 +1184,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecAffinityOut
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1341,11 +1341,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#api_version DataK8SRayIoRayJobV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#api_version DataK8SRayIoRayJobV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#field_path DataK8SRayIoRayJobV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#field_path DataK8SRayIoRayJobV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1465,15 +1465,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#container_name DataK8SRayIoRayJobV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#container_name DataK8SRayIoRayJobV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#divisor DataK8SRayIoRayJobV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#divisor DataK8SRayIoRayJobV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource DataK8SRayIoRayJobV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource DataK8SRayIoRayJobV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1622,15 +1622,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1779,19 +1779,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_key_ref DataK8SRayIoRayJobV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_key_ref DataK8SRayIoRayJobV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#field_ref DataK8SRayIoRayJobV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#field_ref DataK8SRayIoRayJobV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource_field_ref DataK8SRayIoRayJobV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource_field_ref DataK8SRayIoRayJobV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#secret_key_ref DataK8SRayIoRayJobV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#secret_key_ref DataK8SRayIoRayJobV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -1972,15 +1972,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value_from DataK8SRayIoRayJobV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value_from DataK8SRayIoRayJobV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvValueFrom;
 }
@@ -2151,11 +2151,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2278,11 +2278,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2405,15 +2405,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_ref DataK8SRayIoRayJobV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_ref DataK8SRayIoRayJobV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#prefix DataK8SRayIoRayJobV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#prefix DataK8SRayIoRayJobV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#secret_ref DataK8SRayIoRayJobV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#secret_ref DataK8SRayIoRayJobV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvFromSecretRef;
 }
@@ -2587,7 +2587,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersE
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2681,11 +2681,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -2824,23 +2824,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3047,7 +3047,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -3138,11 +3138,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -3262,19 +3262,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -3455,7 +3455,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3549,11 +3549,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -3692,23 +3692,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3915,7 +3915,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -4006,11 +4006,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -4130,19 +4130,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -4323,11 +4323,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#post_start DataK8SRayIoRayJobV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#post_start DataK8SRayIoRayJobV1Manifest#post_start}
   */
   readonly postStart?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#pre_stop DataK8SRayIoRayJobV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#pre_stop DataK8SRayIoRayJobV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecyclePreStop;
 }
@@ -4450,7 +4450,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4544,11 +4544,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -4668,11 +4668,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -4811,23 +4811,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5034,11 +5034,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -5158,43 +5158,43 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -5549,23 +5549,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#container_port DataK8SRayIoRayJobV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#container_port DataK8SRayIoRayJobV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host_ip DataK8SRayIoRayJobV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host_ip DataK8SRayIoRayJobV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host_port DataK8SRayIoRayJobV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host_port DataK8SRayIoRayJobV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#protocol DataK8SRayIoRayJobV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#protocol DataK8SRayIoRayJobV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -5794,7 +5794,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersP
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -5888,11 +5888,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -6012,11 +6012,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -6155,23 +6155,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -6378,11 +6378,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -6502,43 +6502,43 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -6893,11 +6893,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource_name DataK8SRayIoRayJobV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource_name DataK8SRayIoRayJobV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -7036,7 +7036,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
 }
@@ -7149,15 +7149,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#claims DataK8SRayIoRayJobV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#claims DataK8SRayIoRayJobV1Manifest#claims}
   */
   readonly claims?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#limits DataK8SRayIoRayJobV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#limits DataK8SRayIoRayJobV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#requests DataK8SRayIoRayJobV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#requests DataK8SRayIoRayJobV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7309,11 +7309,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersR
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type: string;
 }
@@ -7433,11 +7433,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#add DataK8SRayIoRayJobV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#add DataK8SRayIoRayJobV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#drop DataK8SRayIoRayJobV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#drop DataK8SRayIoRayJobV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -7560,19 +7560,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#level DataK8SRayIoRayJobV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#level DataK8SRayIoRayJobV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#role DataK8SRayIoRayJobV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#role DataK8SRayIoRayJobV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#user DataK8SRayIoRayJobV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#user DataK8SRayIoRayJobV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -7753,11 +7753,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type: string;
 }
@@ -7877,19 +7877,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#gmsa_credential_spec DataK8SRayIoRayJobV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#gmsa_credential_spec DataK8SRayIoRayJobV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#gmsa_credential_spec_name DataK8SRayIoRayJobV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#gmsa_credential_spec_name DataK8SRayIoRayJobV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host_process DataK8SRayIoRayJobV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host_process DataK8SRayIoRayJobV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_user_name DataK8SRayIoRayJobV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_user_name DataK8SRayIoRayJobV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -8070,51 +8070,51 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#allow_privilege_escalation DataK8SRayIoRayJobV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#allow_privilege_escalation DataK8SRayIoRayJobV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#app_armor_profile DataK8SRayIoRayJobV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#app_armor_profile DataK8SRayIoRayJobV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#capabilities DataK8SRayIoRayJobV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#capabilities DataK8SRayIoRayJobV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#privileged DataK8SRayIoRayJobV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#privileged DataK8SRayIoRayJobV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#proc_mount DataK8SRayIoRayJobV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#proc_mount DataK8SRayIoRayJobV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#read_only_root_filesystem DataK8SRayIoRayJobV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#read_only_root_filesystem DataK8SRayIoRayJobV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_group DataK8SRayIoRayJobV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_group DataK8SRayIoRayJobV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_non_root DataK8SRayIoRayJobV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_non_root DataK8SRayIoRayJobV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_user DataK8SRayIoRayJobV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_user DataK8SRayIoRayJobV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#se_linux_options DataK8SRayIoRayJobV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#se_linux_options DataK8SRayIoRayJobV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#seccomp_profile DataK8SRayIoRayJobV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#seccomp_profile DataK8SRayIoRayJobV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#windows_options DataK8SRayIoRayJobV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#windows_options DataK8SRayIoRayJobV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -8527,7 +8527,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8621,11 +8621,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -8745,11 +8745,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -8888,23 +8888,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9111,11 +9111,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -9235,43 +9235,43 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -9626,11 +9626,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersS
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#device_path DataK8SRayIoRayJobV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#device_path DataK8SRayIoRayJobV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
 }
@@ -9769,31 +9769,31 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersV
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#mount_path DataK8SRayIoRayJobV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#mount_path DataK8SRayIoRayJobV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#mount_propagation DataK8SRayIoRayJobV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#mount_propagation DataK8SRayIoRayJobV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#read_only DataK8SRayIoRayJobV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#read_only DataK8SRayIoRayJobV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#recursive_read_only DataK8SRayIoRayJobV1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#recursive_read_only DataK8SRayIoRayJobV1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sub_path DataK8SRayIoRayJobV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sub_path DataK8SRayIoRayJobV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sub_path_expr DataK8SRayIoRayJobV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sub_path_expr DataK8SRayIoRayJobV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -10077,99 +10077,99 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersV
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#args DataK8SRayIoRayJobV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#args DataK8SRayIoRayJobV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#env DataK8SRayIoRayJobV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#env DataK8SRayIoRayJobV1Manifest#env}
   */
   readonly env?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#env_from DataK8SRayIoRayJobV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#env_from DataK8SRayIoRayJobV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#image DataK8SRayIoRayJobV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#image DataK8SRayIoRayJobV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#image_pull_policy DataK8SRayIoRayJobV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#image_pull_policy DataK8SRayIoRayJobV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#lifecycle DataK8SRayIoRayJobV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#lifecycle DataK8SRayIoRayJobV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#liveness_probe DataK8SRayIoRayJobV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#liveness_probe DataK8SRayIoRayJobV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#ports DataK8SRayIoRayJobV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#ports DataK8SRayIoRayJobV1Manifest#ports}
   */
   readonly ports?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#readiness_probe DataK8SRayIoRayJobV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#readiness_probe DataK8SRayIoRayJobV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resize_policy DataK8SRayIoRayJobV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resize_policy DataK8SRayIoRayJobV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resources DataK8SRayIoRayJobV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resources DataK8SRayIoRayJobV1Manifest#resources}
   */
   readonly resources?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#security_context DataK8SRayIoRayJobV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#security_context DataK8SRayIoRayJobV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#startup_probe DataK8SRayIoRayJobV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#startup_probe DataK8SRayIoRayJobV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#stdin DataK8SRayIoRayJobV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#stdin DataK8SRayIoRayJobV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#stdin_once DataK8SRayIoRayJobV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#stdin_once DataK8SRayIoRayJobV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_message_path DataK8SRayIoRayJobV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_message_path DataK8SRayIoRayJobV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_message_policy DataK8SRayIoRayJobV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_message_policy DataK8SRayIoRayJobV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tty DataK8SRayIoRayJobV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tty DataK8SRayIoRayJobV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#volume_devices DataK8SRayIoRayJobV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#volume_devices DataK8SRayIoRayJobV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#volume_mounts DataK8SRayIoRayJobV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#volume_mounts DataK8SRayIoRayJobV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#working_dir DataK8SRayIoRayJobV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#working_dir DataK8SRayIoRayJobV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -10949,11 +10949,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecContainersL
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecDnsConfigOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11098,15 +11098,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecDnsConfigOp
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecDnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#nameservers DataK8SRayIoRayJobV1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#nameservers DataK8SRayIoRayJobV1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#options DataK8SRayIoRayJobV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#options DataK8SRayIoRayJobV1Manifest#options}
   */
   readonly options?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#searches DataK8SRayIoRayJobV1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#searches DataK8SRayIoRayJobV1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -11258,15 +11258,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecDnsConfigOu
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11415,11 +11415,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#api_version DataK8SRayIoRayJobV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#api_version DataK8SRayIoRayJobV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#field_path DataK8SRayIoRayJobV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#field_path DataK8SRayIoRayJobV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -11539,15 +11539,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#container_name DataK8SRayIoRayJobV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#container_name DataK8SRayIoRayJobV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#divisor DataK8SRayIoRayJobV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#divisor DataK8SRayIoRayJobV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource DataK8SRayIoRayJobV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource DataK8SRayIoRayJobV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -11696,15 +11696,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11853,19 +11853,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_key_ref DataK8SRayIoRayJobV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_key_ref DataK8SRayIoRayJobV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#field_ref DataK8SRayIoRayJobV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#field_ref DataK8SRayIoRayJobV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource_field_ref DataK8SRayIoRayJobV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource_field_ref DataK8SRayIoRayJobV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#secret_key_ref DataK8SRayIoRayJobV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#secret_key_ref DataK8SRayIoRayJobV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -12046,15 +12046,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value_from DataK8SRayIoRayJobV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value_from DataK8SRayIoRayJobV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -12225,11 +12225,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12352,11 +12352,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12479,15 +12479,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_ref DataK8SRayIoRayJobV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_ref DataK8SRayIoRayJobV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#prefix DataK8SRayIoRayJobV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#prefix DataK8SRayIoRayJobV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#secret_ref DataK8SRayIoRayJobV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#secret_ref DataK8SRayIoRayJobV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -12661,7 +12661,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12755,11 +12755,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -12898,23 +12898,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13121,7 +13121,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -13212,11 +13212,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -13336,19 +13336,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -13529,7 +13529,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13623,11 +13623,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -13766,23 +13766,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13989,7 +13989,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -14080,11 +14080,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -14204,19 +14204,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -14397,11 +14397,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#post_start DataK8SRayIoRayJobV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#post_start DataK8SRayIoRayJobV1Manifest#post_start}
   */
   readonly postStart?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#pre_stop DataK8SRayIoRayJobV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#pre_stop DataK8SRayIoRayJobV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -14524,7 +14524,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -14618,11 +14618,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -14742,11 +14742,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -14885,23 +14885,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -15108,11 +15108,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -15232,43 +15232,43 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15623,23 +15623,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#container_port DataK8SRayIoRayJobV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#container_port DataK8SRayIoRayJobV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host_ip DataK8SRayIoRayJobV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host_ip DataK8SRayIoRayJobV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host_port DataK8SRayIoRayJobV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host_port DataK8SRayIoRayJobV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#protocol DataK8SRayIoRayJobV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#protocol DataK8SRayIoRayJobV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -15868,7 +15868,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -15962,11 +15962,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -16086,11 +16086,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -16229,23 +16229,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -16452,11 +16452,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -16576,43 +16576,43 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -16967,11 +16967,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource_name DataK8SRayIoRayJobV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource_name DataK8SRayIoRayJobV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -17110,7 +17110,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
 }
@@ -17223,15 +17223,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#claims DataK8SRayIoRayJobV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#claims DataK8SRayIoRayJobV1Manifest#claims}
   */
   readonly claims?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#limits DataK8SRayIoRayJobV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#limits DataK8SRayIoRayJobV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#requests DataK8SRayIoRayJobV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#requests DataK8SRayIoRayJobV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17383,11 +17383,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type: string;
 }
@@ -17507,11 +17507,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#add DataK8SRayIoRayJobV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#add DataK8SRayIoRayJobV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#drop DataK8SRayIoRayJobV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#drop DataK8SRayIoRayJobV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -17634,19 +17634,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#level DataK8SRayIoRayJobV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#level DataK8SRayIoRayJobV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#role DataK8SRayIoRayJobV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#role DataK8SRayIoRayJobV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#user DataK8SRayIoRayJobV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#user DataK8SRayIoRayJobV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -17827,11 +17827,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type: string;
 }
@@ -17951,19 +17951,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#gmsa_credential_spec DataK8SRayIoRayJobV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#gmsa_credential_spec DataK8SRayIoRayJobV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#gmsa_credential_spec_name DataK8SRayIoRayJobV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#gmsa_credential_spec_name DataK8SRayIoRayJobV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host_process DataK8SRayIoRayJobV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host_process DataK8SRayIoRayJobV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_user_name DataK8SRayIoRayJobV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_user_name DataK8SRayIoRayJobV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -18144,51 +18144,51 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#allow_privilege_escalation DataK8SRayIoRayJobV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#allow_privilege_escalation DataK8SRayIoRayJobV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#app_armor_profile DataK8SRayIoRayJobV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#app_armor_profile DataK8SRayIoRayJobV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#capabilities DataK8SRayIoRayJobV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#capabilities DataK8SRayIoRayJobV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#privileged DataK8SRayIoRayJobV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#privileged DataK8SRayIoRayJobV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#proc_mount DataK8SRayIoRayJobV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#proc_mount DataK8SRayIoRayJobV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#read_only_root_filesystem DataK8SRayIoRayJobV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#read_only_root_filesystem DataK8SRayIoRayJobV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_group DataK8SRayIoRayJobV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_group DataK8SRayIoRayJobV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_non_root DataK8SRayIoRayJobV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_non_root DataK8SRayIoRayJobV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_user DataK8SRayIoRayJobV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#run_as_user DataK8SRayIoRayJobV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#se_linux_options DataK8SRayIoRayJobV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#se_linux_options DataK8SRayIoRayJobV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#seccomp_profile DataK8SRayIoRayJobV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#seccomp_profile DataK8SRayIoRayJobV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#windows_options DataK8SRayIoRayJobV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#windows_options DataK8SRayIoRayJobV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -18601,7 +18601,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -18695,11 +18695,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -18819,11 +18819,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -18962,23 +18962,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19185,11 +19185,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -19309,43 +19309,43 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -19700,11 +19700,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#device_path DataK8SRayIoRayJobV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#device_path DataK8SRayIoRayJobV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
 }
@@ -19843,31 +19843,31 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#mount_path DataK8SRayIoRayJobV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#mount_path DataK8SRayIoRayJobV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#mount_propagation DataK8SRayIoRayJobV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#mount_propagation DataK8SRayIoRayJobV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#read_only DataK8SRayIoRayJobV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#read_only DataK8SRayIoRayJobV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#recursive_read_only DataK8SRayIoRayJobV1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#recursive_read_only DataK8SRayIoRayJobV1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sub_path DataK8SRayIoRayJobV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sub_path DataK8SRayIoRayJobV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sub_path_expr DataK8SRayIoRayJobV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sub_path_expr DataK8SRayIoRayJobV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -20151,103 +20151,103 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#args DataK8SRayIoRayJobV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#args DataK8SRayIoRayJobV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#env DataK8SRayIoRayJobV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#env DataK8SRayIoRayJobV1Manifest#env}
   */
   readonly env?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#env_from DataK8SRayIoRayJobV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#env_from DataK8SRayIoRayJobV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#image DataK8SRayIoRayJobV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#image DataK8SRayIoRayJobV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#image_pull_policy DataK8SRayIoRayJobV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#image_pull_policy DataK8SRayIoRayJobV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#lifecycle DataK8SRayIoRayJobV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#lifecycle DataK8SRayIoRayJobV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#liveness_probe DataK8SRayIoRayJobV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#liveness_probe DataK8SRayIoRayJobV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#ports DataK8SRayIoRayJobV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#ports DataK8SRayIoRayJobV1Manifest#ports}
   */
   readonly ports?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#readiness_probe DataK8SRayIoRayJobV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#readiness_probe DataK8SRayIoRayJobV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resize_policy DataK8SRayIoRayJobV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resize_policy DataK8SRayIoRayJobV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resources DataK8SRayIoRayJobV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resources DataK8SRayIoRayJobV1Manifest#resources}
   */
   readonly resources?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#security_context DataK8SRayIoRayJobV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#security_context DataK8SRayIoRayJobV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#startup_probe DataK8SRayIoRayJobV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#startup_probe DataK8SRayIoRayJobV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#stdin DataK8SRayIoRayJobV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#stdin DataK8SRayIoRayJobV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#stdin_once DataK8SRayIoRayJobV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#stdin_once DataK8SRayIoRayJobV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#target_container_name DataK8SRayIoRayJobV1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#target_container_name DataK8SRayIoRayJobV1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_message_path DataK8SRayIoRayJobV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_message_path DataK8SRayIoRayJobV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_message_policy DataK8SRayIoRayJobV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_message_policy DataK8SRayIoRayJobV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tty DataK8SRayIoRayJobV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tty DataK8SRayIoRayJobV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#volume_devices DataK8SRayIoRayJobV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#volume_devices DataK8SRayIoRayJobV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#volume_mounts DataK8SRayIoRayJobV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#volume_mounts DataK8SRayIoRayJobV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#working_dir DataK8SRayIoRayJobV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#working_dir DataK8SRayIoRayJobV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -21056,11 +21056,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecEphemeralCo
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#hostnames DataK8SRayIoRayJobV1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#hostnames DataK8SRayIoRayJobV1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#ip DataK8SRayIoRayJobV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#ip DataK8SRayIoRayJobV1Manifest#ip}
   */
   readonly ip: string;
 }
@@ -21202,7 +21202,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecHostAliases
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -21318,15 +21318,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecImagePullSe
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21475,11 +21475,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#api_version DataK8SRayIoRayJobV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#api_version DataK8SRayIoRayJobV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#field_path DataK8SRayIoRayJobV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#field_path DataK8SRayIoRayJobV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -21599,15 +21599,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#container_name DataK8SRayIoRayJobV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#container_name DataK8SRayIoRayJobV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#divisor DataK8SRayIoRayJobV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#divisor DataK8SRayIoRayJobV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource DataK8SRayIoRayJobV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource DataK8SRayIoRayJobV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -21756,15 +21756,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#key DataK8SRayIoRayJobV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21913,19 +21913,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_key_ref DataK8SRayIoRayJobV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_key_ref DataK8SRayIoRayJobV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#field_ref DataK8SRayIoRayJobV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#field_ref DataK8SRayIoRayJobV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource_field_ref DataK8SRayIoRayJobV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource_field_ref DataK8SRayIoRayJobV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#secret_key_ref DataK8SRayIoRayJobV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#secret_key_ref DataK8SRayIoRayJobV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -22106,15 +22106,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value_from DataK8SRayIoRayJobV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value_from DataK8SRayIoRayJobV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvValueFrom;
 }
@@ -22285,11 +22285,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22412,11 +22412,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#optional DataK8SRayIoRayJobV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22539,15 +22539,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_ref DataK8SRayIoRayJobV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#config_map_ref DataK8SRayIoRayJobV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#prefix DataK8SRayIoRayJobV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#prefix DataK8SRayIoRayJobV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#secret_ref DataK8SRayIoRayJobV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#secret_ref DataK8SRayIoRayJobV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -22721,7 +22721,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -22815,11 +22815,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -22958,23 +22958,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -23181,7 +23181,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -23272,11 +23272,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -23396,19 +23396,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -23589,7 +23589,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -23683,11 +23683,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -23826,23 +23826,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -24049,7 +24049,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#seconds DataK8SRayIoRayJobV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -24140,11 +24140,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -24264,19 +24264,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#sleep DataK8SRayIoRayJobV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -24457,11 +24457,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#post_start DataK8SRayIoRayJobV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#post_start DataK8SRayIoRayJobV1Manifest#post_start}
   */
   readonly postStart?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#pre_stop DataK8SRayIoRayJobV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#pre_stop DataK8SRayIoRayJobV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLifecyclePreStop;
 }
@@ -24584,7 +24584,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -24678,11 +24678,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -24802,11 +24802,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -24945,23 +24945,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25168,11 +25168,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -25292,43 +25292,43 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -25683,23 +25683,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#container_port DataK8SRayIoRayJobV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#container_port DataK8SRayIoRayJobV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host_ip DataK8SRayIoRayJobV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host_ip DataK8SRayIoRayJobV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host_port DataK8SRayIoRayJobV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host_port DataK8SRayIoRayJobV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#protocol DataK8SRayIoRayJobV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#protocol DataK8SRayIoRayJobV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -25928,7 +25928,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#command DataK8SRayIoRayJobV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -26022,11 +26022,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#service DataK8SRayIoRayJobV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -26146,11 +26146,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#value DataK8SRayIoRayJobV1Manifest#value}
   */
   readonly value: string;
 }
@@ -26289,23 +26289,23 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_headers DataK8SRayIoRayJobV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#path DataK8SRayIoRayJobV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#scheme DataK8SRayIoRayJobV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -26512,11 +26512,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#host DataK8SRayIoRayJobV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#port DataK8SRayIoRayJobV1Manifest#port}
   */
   readonly port: string;
 }
@@ -26636,43 +26636,43 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#exec DataK8SRayIoRayJobV1Manifest#exec}
   */
   readonly exec?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#failure_threshold DataK8SRayIoRayJobV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#grpc DataK8SRayIoRayJobV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#http_get DataK8SRayIoRayJobV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#initial_delay_seconds DataK8SRayIoRayJobV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#period_seconds DataK8SRayIoRayJobV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#success_threshold DataK8SRayIoRayJobV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#tcp_socket DataK8SRayIoRayJobV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#termination_grace_period_seconds DataK8SRayIoRayJobV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#timeout_seconds DataK8SRayIoRayJobV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -27027,11 +27027,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#resource_name DataK8SRayIoRayJobV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#resource_name DataK8SRayIoRayJobV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#restart_policy DataK8SRayIoRayJobV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -27170,7 +27170,7 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#name DataK8SRayIoRayJobV1Manifest#name}
   */
   readonly name: string;
 }
@@ -27283,15 +27283,15 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#claims DataK8SRayIoRayJobV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#claims DataK8SRayIoRayJobV1Manifest#claims}
   */
   readonly claims?: DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#limits DataK8SRayIoRayJobV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#limits DataK8SRayIoRayJobV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#requests DataK8SRayIoRayJobV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#requests DataK8SRayIoRayJobV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -27443,11 +27443,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type: string;
 }
@@ -27567,11 +27567,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#add DataK8SRayIoRayJobV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#add DataK8SRayIoRayJobV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#drop DataK8SRayIoRayJobV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#drop DataK8SRayIoRayJobV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -27694,19 +27694,19 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#level DataK8SRayIoRayJobV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#level DataK8SRayIoRayJobV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#role DataK8SRayIoRayJobV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#role DataK8SRayIoRayJobV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#user DataK8SRayIoRayJobV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#user DataK8SRayIoRayJobV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -27887,11 +27887,11 @@ export class DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContain
 }
 export interface DataK8SRayIoRayJobV1ManifestSpecSubmitterPodTemplateSpecInitContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#localhost_profile DataK8SRayIoRayJobV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ray_io_ray_job_v1_manifest#type DataK8SRayIoRayJobV1Manifest#type}
   */
   readonly type: string;
 }

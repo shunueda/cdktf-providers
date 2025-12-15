@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SecurityNatSourcePoolConfig extends cdktf.TerraformMetaArgument
   /**
   * CIDR address to source nat pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#address SecurityNatSourcePool#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#address SecurityNatSourcePool#address}
   */
   readonly address: string[];
   /**
   * Type of address pooling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#address_pooling SecurityNatSourcePool#address_pooling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#address_pooling SecurityNatSourcePool#address_pooling}
   */
   readonly addressPooling?: string;
   /**
   * Text description of pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#description SecurityNatSourcePool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#description SecurityNatSourcePool#description}
   */
   readonly description?: string;
   /**
   * Pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#name SecurityNatSourcePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#name SecurityNatSourcePool#name}
   */
   readonly name: string;
   /**
   * Lower threshold at which an SNMP trap is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#pool_utilization_alarm_clear_threshold SecurityNatSourcePool#pool_utilization_alarm_clear_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#pool_utilization_alarm_clear_threshold SecurityNatSourcePool#pool_utilization_alarm_clear_threshold}
   */
   readonly poolUtilizationAlarmClearThreshold?: number;
   /**
   * Upper threshold at which an SNMP trap is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#pool_utilization_alarm_raise_threshold SecurityNatSourcePool#pool_utilization_alarm_raise_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#pool_utilization_alarm_raise_threshold SecurityNatSourcePool#pool_utilization_alarm_raise_threshold}
   */
   readonly poolUtilizationAlarmRaiseThreshold?: number;
   /**
   * Do not perform port translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#port_no_translation SecurityNatSourcePool#port_no_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#port_no_translation SecurityNatSourcePool#port_no_translation}
   */
   readonly portNoTranslation?: boolean | cdktf.IResolvable;
   /**
   * Port overloading factor for each IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#port_overloading_factor SecurityNatSourcePool#port_overloading_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#port_overloading_factor SecurityNatSourcePool#port_overloading_factor}
   */
   readonly portOverloadingFactor?: number;
   /**
   * Range of port to source nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#port_range SecurityNatSourcePool#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#port_range SecurityNatSourcePool#port_range}
   */
   readonly portRange?: string;
   /**
   * Name of routing instance to switch instance with nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#routing_instance SecurityNatSourcePool#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#routing_instance SecurityNatSourcePool#routing_instance}
   */
   readonly routingInstance?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool junos_security_nat_source_pool}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool junos_security_nat_source_pool}
 */
 export class SecurityNatSourcePool extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class SecurityNatSourcePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityNatSourcePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityNatSourcePool to import
-  * @param importFromId The id of the existing SecurityNatSourcePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityNatSourcePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityNatSourcePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class SecurityNatSourcePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source_pool junos_security_nat_source_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source_pool junos_security_nat_source_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class SecurityNatSourcePool extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_nat_source_pool',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

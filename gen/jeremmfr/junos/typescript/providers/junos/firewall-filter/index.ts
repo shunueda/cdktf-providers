@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FirewallFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Family where create this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#family FirewallFilter#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#family FirewallFilter#family}
   */
   readonly family: string;
   /**
   * Defined counters are interface specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#interface_specific FirewallFilter#interface_specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#interface_specific FirewallFilter#interface_specific}
   */
   readonly interfaceSpecific?: boolean | cdktf.IResolvable;
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#name FirewallFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#name FirewallFilter#name}
   */
   readonly name: string;
   /**
   * term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#term FirewallFilter#term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#term FirewallFilter#term}
   */
   readonly term?: FirewallFilterTerm[] | cdktf.IResolvable;
 }
@@ -36,259 +36,271 @@ export interface FirewallFilterTermFrom {
   /**
   * Match IP source or destination address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#address FirewallFilter#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#address FirewallFilter#address}
   */
   readonly address?: string[];
   /**
   * Match IP source or destination address not in this prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#address_except FirewallFilter#address_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#address_except FirewallFilter#address_except}
   */
   readonly addressExcept?: string[];
   /**
   * Match IP destination address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#destination_address FirewallFilter#destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#destination_address FirewallFilter#destination_address}
   */
   readonly destinationAddress?: string[];
   /**
   * Match IP destination address not in this prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#destination_address_except FirewallFilter#destination_address_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#destination_address_except FirewallFilter#destination_address_except}
   */
   readonly destinationAddressExcept?: string[];
   /**
   * Destination MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#destination_mac_address FirewallFilter#destination_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#destination_mac_address FirewallFilter#destination_mac_address}
   */
   readonly destinationMacAddress?: string[];
   /**
   * Destination MAC address not in this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#destination_mac_address_except FirewallFilter#destination_mac_address_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#destination_mac_address_except FirewallFilter#destination_mac_address_except}
   */
   readonly destinationMacAddressExcept?: string[];
   /**
   * Match TCP/UDP destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#destination_port FirewallFilter#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#destination_port FirewallFilter#destination_port}
   */
   readonly destinationPort?: string[];
   /**
   * Do not match TCP/UDP destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#destination_port_except FirewallFilter#destination_port_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#destination_port_except FirewallFilter#destination_port_except}
   */
   readonly destinationPortExcept?: string[];
   /**
   * Match IP destination prefixes in named list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#destination_prefix_list FirewallFilter#destination_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#destination_prefix_list FirewallFilter#destination_prefix_list}
   */
   readonly destinationPrefixList?: string[];
   /**
   * Match addresses not in this prefix list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#destination_prefix_list_except FirewallFilter#destination_prefix_list_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#destination_prefix_list_except FirewallFilter#destination_prefix_list_except}
   */
   readonly destinationPrefixListExcept?: string[];
   /**
   * Match forwarding class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#forwarding_class FirewallFilter#forwarding_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#forwarding_class FirewallFilter#forwarding_class}
   */
   readonly forwardingClass?: string[];
   /**
   * Do not match forwarding class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#forwarding_class_except FirewallFilter#forwarding_class_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#forwarding_class_except FirewallFilter#forwarding_class_except}
   */
   readonly forwardingClassExcept?: string[];
   /**
   * Match ICMP message code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#icmp_code FirewallFilter#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#icmp_code FirewallFilter#icmp_code}
   */
   readonly icmpCode?: string[];
   /**
   * Do not match ICMP message code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#icmp_code_except FirewallFilter#icmp_code_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#icmp_code_except FirewallFilter#icmp_code_except}
   */
   readonly icmpCodeExcept?: string[];
   /**
   * Match ICMP message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#icmp_type FirewallFilter#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#icmp_type FirewallFilter#icmp_type}
   */
   readonly icmpType?: string[];
   /**
   * Do not match ICMP message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#icmp_type_except FirewallFilter#icmp_type_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#icmp_type_except FirewallFilter#icmp_type_except}
   */
   readonly icmpTypeExcept?: string[];
   /**
   * Match interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#interface FirewallFilter#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#interface FirewallFilter#interface}
   */
   readonly interface?: string[];
   /**
+  * Match IP protocol type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#ip_protocol FirewallFilter#ip_protocol}
+  */
+  readonly ipProtocol?: string[];
+  /**
+  * Do not match IP protocol type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#ip_protocol_except FirewallFilter#ip_protocol_except}
+  */
+  readonly ipProtocolExcept?: string[];
+  /**
   * Match if packet is a fragment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#is_fragment FirewallFilter#is_fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#is_fragment FirewallFilter#is_fragment}
   */
   readonly isFragment?: boolean | cdktf.IResolvable;
   /**
   * Match Loss Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#loss_priority FirewallFilter#loss_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#loss_priority FirewallFilter#loss_priority}
   */
   readonly lossPriority?: string[];
   /**
   * Do not match Loss Priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#loss_priority_except FirewallFilter#loss_priority_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#loss_priority_except FirewallFilter#loss_priority_except}
   */
   readonly lossPriorityExcept?: string[];
   /**
   * Match next header protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#next_header FirewallFilter#next_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#next_header FirewallFilter#next_header}
   */
   readonly nextHeader?: string[];
   /**
   * Do not match next header protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#next_header_except FirewallFilter#next_header_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#next_header_except FirewallFilter#next_header_except}
   */
   readonly nextHeaderExcept?: string[];
   /**
   * Match packet length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#packet_length FirewallFilter#packet_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#packet_length FirewallFilter#packet_length}
   */
   readonly packetLength?: string[];
   /**
   * Do not match packet length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#packet_length_except FirewallFilter#packet_length_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#packet_length_except FirewallFilter#packet_length_except}
   */
   readonly packetLengthExcept?: string[];
   /**
   * Match policy map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#policy_map FirewallFilter#policy_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#policy_map FirewallFilter#policy_map}
   */
   readonly policyMap?: string[];
   /**
   * Do not match policy map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#policy_map_except FirewallFilter#policy_map_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#policy_map_except FirewallFilter#policy_map_except}
   */
   readonly policyMapExcept?: string[];
   /**
   * Match TCP/UDP source or destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#port FirewallFilter#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#port FirewallFilter#port}
   */
   readonly port?: string[];
   /**
   * Do not match TCP/UDP source or destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#port_except FirewallFilter#port_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#port_except FirewallFilter#port_except}
   */
   readonly portExcept?: string[];
   /**
   * Match IP source or destination prefixes in named list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#prefix_list FirewallFilter#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#prefix_list FirewallFilter#prefix_list}
   */
   readonly prefixList?: string[];
   /**
   * Match addresses not in this prefix list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#prefix_list_except FirewallFilter#prefix_list_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#prefix_list_except FirewallFilter#prefix_list_except}
   */
   readonly prefixListExcept?: string[];
   /**
   * Match IP protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#protocol FirewallFilter#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#protocol FirewallFilter#protocol}
   */
   readonly protocol?: string[];
   /**
   * Do not match IP protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#protocol_except FirewallFilter#protocol_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#protocol_except FirewallFilter#protocol_except}
   */
   readonly protocolExcept?: string[];
   /**
   * Match IP source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#source_address FirewallFilter#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#source_address FirewallFilter#source_address}
   */
   readonly sourceAddress?: string[];
   /**
   * Match IP source address not in this prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#source_address_except FirewallFilter#source_address_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#source_address_except FirewallFilter#source_address_except}
   */
   readonly sourceAddressExcept?: string[];
   /**
   * Source MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#source_mac_address FirewallFilter#source_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#source_mac_address FirewallFilter#source_mac_address}
   */
   readonly sourceMacAddress?: string[];
   /**
   * Source MAC address not in this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#source_mac_address_except FirewallFilter#source_mac_address_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#source_mac_address_except FirewallFilter#source_mac_address_except}
   */
   readonly sourceMacAddressExcept?: string[];
   /**
   * Match TCP/UDP source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#source_port FirewallFilter#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#source_port FirewallFilter#source_port}
   */
   readonly sourcePort?: string[];
   /**
   * Do not match TCP/UDP source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#source_port_except FirewallFilter#source_port_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#source_port_except FirewallFilter#source_port_except}
   */
   readonly sourcePortExcept?: string[];
   /**
   * Match IP source prefixes in named list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#source_prefix_list FirewallFilter#source_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#source_prefix_list FirewallFilter#source_prefix_list}
   */
   readonly sourcePrefixList?: string[];
   /**
   * Match IP source prefixes not in this prefix list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#source_prefix_list_except FirewallFilter#source_prefix_list_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#source_prefix_list_except FirewallFilter#source_prefix_list_except}
   */
   readonly sourcePrefixListExcept?: string[];
   /**
   * Match packet of an established TCP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#tcp_established FirewallFilter#tcp_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#tcp_established FirewallFilter#tcp_established}
   */
   readonly tcpEstablished?: boolean | cdktf.IResolvable;
   /**
   * Match TCP flags (in symbolic or hex formats).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#tcp_flags FirewallFilter#tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#tcp_flags FirewallFilter#tcp_flags}
   */
   readonly tcpFlags?: string;
   /**
   * Match initial packet of a TCP connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#tcp_initial FirewallFilter#tcp_initial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#tcp_initial FirewallFilter#tcp_initial}
   */
   readonly tcpInitial?: boolean | cdktf.IResolvable;
 }
@@ -316,6 +328,8 @@ export function firewallFilterTermFromToTerraform(struct?: FirewallFilterTermFro
     icmp_type: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.icmpType),
     icmp_type_except: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.icmpTypeExcept),
     interface: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.interface),
+    ip_protocol: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipProtocol),
+    ip_protocol_except: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipProtocolExcept),
     is_fragment: cdktf.booleanToTerraform(struct!.isFragment),
     loss_priority: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.lossPriority),
     loss_priority_except: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.lossPriorityExcept),
@@ -450,6 +464,18 @@ export function firewallFilterTermFromToHclTerraform(struct?: FirewallFilterTerm
     },
     interface: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.interface),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    ip_protocol: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipProtocol),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    ip_protocol_except: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipProtocolExcept),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -702,6 +728,14 @@ export class FirewallFilterTermFromOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.interface = this._interface;
     }
+    if (this._ipProtocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtocol = this._ipProtocol;
+    }
+    if (this._ipProtocolExcept !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtocolExcept = this._ipProtocolExcept;
+    }
     if (this._isFragment !== undefined) {
       hasAnyValues = true;
       internalValueResult.isFragment = this._isFragment;
@@ -830,6 +864,8 @@ export class FirewallFilterTermFromOutputReference extends cdktf.ComplexObject {
       this._icmpType = undefined;
       this._icmpTypeExcept = undefined;
       this._interface = undefined;
+      this._ipProtocol = undefined;
+      this._ipProtocolExcept = undefined;
       this._isFragment = undefined;
       this._lossPriority = undefined;
       this._lossPriorityExcept = undefined;
@@ -881,6 +917,8 @@ export class FirewallFilterTermFromOutputReference extends cdktf.ComplexObject {
       this._icmpType = value.icmpType;
       this._icmpTypeExcept = value.icmpTypeExcept;
       this._interface = value.interface;
+      this._ipProtocol = value.ipProtocol;
+      this._ipProtocolExcept = value.ipProtocolExcept;
       this._isFragment = value.isFragment;
       this._lossPriority = value.lossPriority;
       this._lossPriorityExcept = value.lossPriorityExcept;
@@ -1180,6 +1218,38 @@ export class FirewallFilterTermFromOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get interfaceInput() {
     return this._interface;
+  }
+
+  // ip_protocol - computed: false, optional: true, required: false
+  private _ipProtocol?: string[]; 
+  public get ipProtocol() {
+    return cdktf.Fn.tolist(this.getListAttribute('ip_protocol'));
+  }
+  public set ipProtocol(value: string[]) {
+    this._ipProtocol = value;
+  }
+  public resetIpProtocol() {
+    this._ipProtocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtocolInput() {
+    return this._ipProtocol;
+  }
+
+  // ip_protocol_except - computed: false, optional: true, required: false
+  private _ipProtocolExcept?: string[]; 
+  public get ipProtocolExcept() {
+    return cdktf.Fn.tolist(this.getListAttribute('ip_protocol_except'));
+  }
+  public set ipProtocolExcept(value: string[]) {
+    this._ipProtocolExcept = value;
+  }
+  public resetIpProtocolExcept() {
+    this._ipProtocolExcept = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtocolExceptInput() {
+    return this._ipProtocolExcept;
   }
 
   // is_fragment - computed: false, optional: true, required: false
@@ -1602,73 +1672,73 @@ export interface FirewallFilterTermThen {
   /**
   * Action for term if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#action FirewallFilter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#action FirewallFilter#action}
   */
   readonly action?: string;
   /**
   * Count the packet in the named counter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#count FirewallFilter#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#count FirewallFilter#count}
   */
   readonly count?: string;
   /**
   * Classify packet to forwarding class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#forwarding_class FirewallFilter#forwarding_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#forwarding_class FirewallFilter#forwarding_class}
   */
   readonly forwardingClass?: string;
   /**
   * Log the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#log FirewallFilter#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#log FirewallFilter#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * Packet's loss priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#loss_priority FirewallFilter#loss_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#loss_priority FirewallFilter#loss_priority}
   */
   readonly lossPriority?: string;
   /**
   * Bypass flow mode for the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#packet_mode FirewallFilter#packet_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#packet_mode FirewallFilter#packet_mode}
   */
   readonly packetMode?: boolean | cdktf.IResolvable;
   /**
   * Name of policer to use to rate-limit traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#policer FirewallFilter#policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#policer FirewallFilter#policer}
   */
   readonly policer?: string;
   /**
   * Port-mirror the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#port_mirror FirewallFilter#port_mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#port_mirror FirewallFilter#port_mirror}
   */
   readonly portMirror?: boolean | cdktf.IResolvable;
   /**
   * Packets are directed to specified routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#routing_instance FirewallFilter#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#routing_instance FirewallFilter#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Sample the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#sample FirewallFilter#sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#sample FirewallFilter#sample}
   */
   readonly sample?: boolean | cdktf.IResolvable;
   /**
   * Count the packets for service accounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#service_accounting FirewallFilter#service_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#service_accounting FirewallFilter#service_accounting}
   */
   readonly serviceAccounting?: boolean | cdktf.IResolvable;
   /**
   * System log (syslog) information about the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#syslog FirewallFilter#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#syslog FirewallFilter#syslog}
   */
   readonly syslog?: boolean | cdktf.IResolvable;
 }
@@ -2083,25 +2153,25 @@ export interface FirewallFilterTerm {
   /**
   * Filter to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#filter FirewallFilter#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#filter FirewallFilter#filter}
   */
   readonly filter?: string;
   /**
   * Term name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#name FirewallFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#name FirewallFilter#name}
   */
   readonly name: string;
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#from FirewallFilter#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#from FirewallFilter#from}
   */
   readonly from?: FirewallFilterTermFrom;
   /**
   * then block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#then FirewallFilter#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#then FirewallFilter#then}
   */
   readonly then?: FirewallFilterTermThen;
 }
@@ -2301,7 +2371,7 @@ export class FirewallFilterTermList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter junos_firewall_filter}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter junos_firewall_filter}
 */
 export class FirewallFilter extends cdktf.TerraformResource {
 
@@ -2317,7 +2387,7 @@ export class FirewallFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallFilter to import
-  * @param importFromId The id of the existing FirewallFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2329,7 +2399,7 @@ export class FirewallFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_filter junos_firewall_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_filter junos_firewall_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2340,8 +2410,8 @@ export class FirewallFilter extends cdktf.TerraformResource {
       terraformResourceType: 'junos_firewall_filter',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8STinkerbellOrgTemplateV1Alpha2ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#metadata DataK8STinkerbellOrgTemplateV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#metadata DataK8STinkerbellOrgTemplateV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8STinkerbellOrgTemplateV1Alpha2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#spec DataK8STinkerbellOrgTemplateV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#spec DataK8STinkerbellOrgTemplateV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8STinkerbellOrgTemplateV1Alpha2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8STinkerbellOrgTemplateV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#annotations DataK8STinkerbellOrgTemplateV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#annotations DataK8STinkerbellOrgTemplateV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#labels DataK8STinkerbellOrgTemplateV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#labels DataK8STinkerbellOrgTemplateV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#name DataK8STinkerbellOrgTemplateV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#name DataK8STinkerbellOrgTemplateV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#namespace DataK8STinkerbellOrgTemplateV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#namespace DataK8STinkerbellOrgTemplateV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,13 +217,13 @@ export interface DataK8STinkerbellOrgTemplateV1Alpha2ManifestSpecActionsNamespac
   /**
   * Network defines the network namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#network DataK8STinkerbellOrgTemplateV1Alpha2Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#network DataK8STinkerbellOrgTemplateV1Alpha2Manifest#network}
   */
   readonly network?: string;
   /**
   * PID defines the PID namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#pid DataK8STinkerbellOrgTemplateV1Alpha2Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#pid DataK8STinkerbellOrgTemplateV1Alpha2Manifest#pid}
   */
   readonly pid?: number;
 }
@@ -348,43 +348,43 @@ export interface DataK8STinkerbellOrgTemplateV1Alpha2ManifestSpecActions {
   /**
   * Args are a set of arguments to be passed to the command executed by the container on launch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#args DataK8STinkerbellOrgTemplateV1Alpha2Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#args DataK8STinkerbellOrgTemplateV1Alpha2Manifest#args}
   */
   readonly args?: string[];
   /**
   * Cmd defines the command to use when launching the image. It overrides the default command of the action. It must be a unix path to an executable program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#cmd DataK8STinkerbellOrgTemplateV1Alpha2Manifest#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#cmd DataK8STinkerbellOrgTemplateV1Alpha2Manifest#cmd}
   */
   readonly cmd?: string;
   /**
   * Env defines environment variables used when launching the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#env DataK8STinkerbellOrgTemplateV1Alpha2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#env DataK8STinkerbellOrgTemplateV1Alpha2Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Image is an OCI image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#image DataK8STinkerbellOrgTemplateV1Alpha2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#image DataK8STinkerbellOrgTemplateV1Alpha2Manifest#image}
   */
   readonly image: string;
   /**
   * Name is a name for the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#name DataK8STinkerbellOrgTemplateV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#name DataK8STinkerbellOrgTemplateV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the Linux namespaces this container should execute in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#namespaces DataK8STinkerbellOrgTemplateV1Alpha2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#namespaces DataK8STinkerbellOrgTemplateV1Alpha2Manifest#namespaces}
   */
   readonly namespaces?: DataK8STinkerbellOrgTemplateV1Alpha2ManifestSpecActionsNamespaces;
   /**
   * Volumes defines the volumes to mount into the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#volumes DataK8STinkerbellOrgTemplateV1Alpha2Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#volumes DataK8STinkerbellOrgTemplateV1Alpha2Manifest#volumes}
   */
   readonly volumes?: string[];
 }
@@ -670,19 +670,19 @@ export interface DataK8STinkerbellOrgTemplateV1Alpha2ManifestSpec {
   /**
   * Actions defines the set of actions to be run on a target machine. Actions are run sequentially in the order they are specified. At least 1 action must be specified. Names of actions must be unique within a Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#actions DataK8STinkerbellOrgTemplateV1Alpha2Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#actions DataK8STinkerbellOrgTemplateV1Alpha2Manifest#actions}
   */
   readonly actions?: DataK8STinkerbellOrgTemplateV1Alpha2ManifestSpecActions[] | cdktf.IResolvable;
   /**
   * Env defines environment variables to be available in all actions. If an action specifies the same environment variable it will take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#env DataK8STinkerbellOrgTemplateV1Alpha2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#env DataK8STinkerbellOrgTemplateV1Alpha2Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Volumes to be mounted on all actions. If an action specifies the same volume it will take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#volumes DataK8STinkerbellOrgTemplateV1Alpha2Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#volumes DataK8STinkerbellOrgTemplateV1Alpha2Manifest#volumes}
   */
   readonly volumes?: string[];
 }
@@ -834,7 +834,7 @@ export class DataK8STinkerbellOrgTemplateV1Alpha2ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest k8s_tinkerbell_org_template_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest k8s_tinkerbell_org_template_v1alpha2_manifest}
 */
 export class DataK8STinkerbellOrgTemplateV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -850,7 +850,7 @@ export class DataK8STinkerbellOrgTemplateV1Alpha2Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8STinkerbellOrgTemplateV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STinkerbellOrgTemplateV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8STinkerbellOrgTemplateV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STinkerbellOrgTemplateV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STinkerbellOrgTemplateV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -862,7 +862,7 @@ export class DataK8STinkerbellOrgTemplateV1Alpha2Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest k8s_tinkerbell_org_template_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tinkerbell_org_template_v1alpha2_manifest k8s_tinkerbell_org_template_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -873,8 +873,8 @@ export class DataK8STinkerbellOrgTemplateV1Alpha2Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_tinkerbell_org_template_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

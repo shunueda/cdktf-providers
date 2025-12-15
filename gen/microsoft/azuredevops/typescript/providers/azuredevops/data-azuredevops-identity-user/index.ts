@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsIdentityUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user#id DataAzuredevopsIdentityUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user#id DataAzuredevopsIdentityUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user#name DataAzuredevopsIdentityUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user#name DataAzuredevopsIdentityUser#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user#search_filter DataAzuredevopsIdentityUser#search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user#search_filter DataAzuredevopsIdentityUser#search_filter}
   */
   readonly searchFilter?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user#timeouts DataAzuredevopsIdentityUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user#timeouts DataAzuredevopsIdentityUser#timeouts}
   */
   readonly timeouts?: DataAzuredevopsIdentityUserTimeouts;
 }
 export interface DataAzuredevopsIdentityUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user#read DataAzuredevopsIdentityUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user#read DataAzuredevopsIdentityUser#read}
   */
   readonly read?: string;
 }
@@ -125,7 +125,7 @@ export class DataAzuredevopsIdentityUserTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user azuredevops_identity_user}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user azuredevops_identity_user}
 */
 export class DataAzuredevopsIdentityUser extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataAzuredevopsIdentityUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsIdentityUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsIdentityUser to import
-  * @param importFromId The id of the existing DataAzuredevopsIdentityUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsIdentityUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsIdentityUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataAzuredevopsIdentityUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/identity_user azuredevops_identity_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/identity_user azuredevops_identity_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataAzuredevopsIdentityUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_identity_user',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

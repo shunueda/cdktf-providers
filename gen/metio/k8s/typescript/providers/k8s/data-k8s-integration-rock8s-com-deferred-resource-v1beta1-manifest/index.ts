@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#metadata DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#metadata DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestMetadata;
   /**
   * DeferredResourceSpec defines the desired state of DeferredResource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#spec DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#spec DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#annotations DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#annotations DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#labels DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#labels DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#name DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#name DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#namespace DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#namespace DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,23 +217,23 @@ export class DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestMetadataO
 }
 export interface DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestSpecWaitFor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#api_version DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#api_version DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#group DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#group DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#kind DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#kind DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#name DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#name DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#version DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#version DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -467,25 +467,25 @@ export interface DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestSpec 
   /**
   * Resource is the resource to create after the defer is resolved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#resource DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#resource DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#resource}
   */
   readonly resource?: { [key: string]: string };
   /**
   * ServiceAccountName is the name of the ServiceAccount to use to create deferred resources from. More info: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#service_account_name DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#service_account_name DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * Timeout is the maximum time to wait before creating the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#timeout DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#timeout DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#timeout}
   */
   readonly timeout?: number;
   /**
   * WaitFor is a list of resources to wait for before creating the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#wait_for DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#wait_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#wait_for DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest#wait_for}
   */
   readonly waitFor?: DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestSpecWaitFor[] | cdktf.IResolvable;
 }
@@ -666,7 +666,7 @@ export class DataK8SIntegrationRock8SComDeferredResourceV1Beta1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest k8s_integration_rock8s_com_deferred_resource_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest k8s_integration_rock8s_com_deferred_resource_v1beta1_manifest}
 */
 export class DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -682,7 +682,7 @@ export class DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest extends 
   * Generates CDKTF code for importing a DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -694,7 +694,7 @@ export class DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest k8s_integration_rock8s_com_deferred_resource_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_deferred_resource_v1beta1_manifest k8s_integration_rock8s_com_deferred_resource_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -705,8 +705,8 @@ export class DataK8SIntegrationRock8SComDeferredResourceV1Beta1Manifest extends 
       terraformResourceType: 'k8s_integration_rock8s_com_deferred_resource_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

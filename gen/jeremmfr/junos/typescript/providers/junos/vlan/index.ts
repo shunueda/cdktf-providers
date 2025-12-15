@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface VlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of VLAN id or name of community vlans for primary vlan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#community_vlans Vlan#community_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#community_vlans Vlan#community_vlans}
   */
   readonly communityVlans?: string[];
   /**
   * Text description of VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#description Vlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#description Vlan#description}
   */
   readonly description?: string;
   /**
   * Input filter to apply for forwarded packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#forward_filter_input Vlan#forward_filter_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#forward_filter_input Vlan#forward_filter_input}
   */
   readonly forwardFilterInput?: string;
   /**
   * Output filter to apply for forwarded packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#forward_filter_output Vlan#forward_filter_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#forward_filter_output Vlan#forward_filter_output}
   */
   readonly forwardFilterOutput?: string;
   /**
   * Input filter to apply for ethernet switching flood packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#forward_flood_input Vlan#forward_flood_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#forward_flood_input Vlan#forward_flood_input}
   */
   readonly forwardFloodInput?: string;
   /**
   * Interface name for this VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#interface Vlan#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#interface Vlan#interface}
   */
   readonly interface?: string[];
   /**
   * VLAN id or name of isolated vlan for primary vlan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#isolated_vlan Vlan#isolated_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#isolated_vlan Vlan#isolated_vlan}
   */
   readonly isolatedVlan?: string;
   /**
   * L3 interface name for this VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#l3_interface Vlan#l3_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#l3_interface Vlan#l3_interface}
   */
   readonly l3Interface?: string;
   /**
   * The name of VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#name Vlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#name Vlan#name}
   */
   readonly name: string;
   /**
   * Turn off ARP suppression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#no_arp_suppression Vlan#no_arp_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#no_arp_suppression Vlan#no_arp_suppression}
   */
   readonly noArpSuppression?: boolean | cdktf.IResolvable;
   /**
   * Type of secondary VLAN for private vlan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#private_vlan Vlan#private_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#private_vlan Vlan#private_vlan}
   */
   readonly privateVlan?: string;
   /**
   * Routing instance for vlan if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#routing_instance Vlan#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#routing_instance Vlan#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Service id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#service_id Vlan#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#service_id Vlan#service_id}
   */
   readonly serviceId?: number;
   /**
   * 802.1q VLAN id or `all` or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#vlan_id Vlan#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#vlan_id Vlan#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * List of 802.1q VLAN id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#vlan_id_list Vlan#vlan_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#vlan_id_list Vlan#vlan_id_list}
   */
   readonly vlanIdList?: string[];
   /**
   * vxlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#vxlan Vlan#vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#vxlan Vlan#vxlan}
   */
   readonly vxlan?: VlanVxlan;
 }
@@ -108,55 +108,55 @@ export interface VlanVxlan {
   /**
   * Retain inner VLAN in the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#encapsulate_inner_vlan Vlan#encapsulate_inner_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#encapsulate_inner_vlan Vlan#encapsulate_inner_vlan}
   */
   readonly encapsulateInnerVlan?: boolean | cdktf.IResolvable;
   /**
   * Enable ingress node replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#ingress_node_replication Vlan#ingress_node_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#ingress_node_replication Vlan#ingress_node_replication}
   */
   readonly ingressNodeReplication?: boolean | cdktf.IResolvable;
   /**
   * Multicast group registered for VXLAN segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#multicast_group Vlan#multicast_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#multicast_group Vlan#multicast_group}
   */
   readonly multicastGroup?: string;
   /**
   * Bridge-domain is managed remotely via VXLAN OVSDB Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#ovsdb_managed Vlan#ovsdb_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#ovsdb_managed Vlan#ovsdb_managed}
   */
   readonly ovsdbManaged?: boolean | cdktf.IResolvable;
   /**
   * Configure vlan specific static remote VXLAN tunnel endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#static_remote_vtep_list Vlan#static_remote_vtep_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#static_remote_vtep_list Vlan#static_remote_vtep_list}
   */
   readonly staticRemoteVtepList?: string[];
   /**
   * Translated VXLAN identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#translation_vni Vlan#translation_vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#translation_vni Vlan#translation_vni}
   */
   readonly translationVni?: number;
   /**
   * Unreachable VXLAN tunnel endpoint removal timer (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#unreachable_vtep_aging_timer Vlan#unreachable_vtep_aging_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#unreachable_vtep_aging_timer Vlan#unreachable_vtep_aging_timer}
   */
   readonly unreachableVtepAgingTimer?: number;
   /**
   * VXLAN identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#vni Vlan#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#vni Vlan#vni}
   */
   readonly vni?: number;
   /**
   * Extend VNI to EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#vni_extend_evpn Vlan#vni_extend_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#vni_extend_evpn Vlan#vni_extend_evpn}
   */
   readonly vniExtendEvpn?: boolean | cdktf.IResolvable;
 }
@@ -482,7 +482,7 @@ export class VlanVxlanOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan junos_vlan}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan junos_vlan}
 */
 export class Vlan extends cdktf.TerraformResource {
 
@@ -498,7 +498,7 @@ export class Vlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vlan to import
-  * @param importFromId The id of the existing Vlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class Vlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vlan junos_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vlan junos_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +521,8 @@ export class Vlan extends cdktf.TerraformResource {
       terraformResourceType: 'junos_vlan',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

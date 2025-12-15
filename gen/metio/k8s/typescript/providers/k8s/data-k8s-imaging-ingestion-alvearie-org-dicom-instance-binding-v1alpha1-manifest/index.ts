@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1M
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#metadata DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#metadata DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1ManifestMetadata;
   /**
   * DicomInstanceBindingSpec defines the desired state of DicomInstanceBinding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#spec DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#spec DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1M
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#annotations DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#annotations DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#labels DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#labels DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#namespace DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#namespace DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1M
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -337,25 +337,25 @@ export interface DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1M
   /**
   * Container Concurrency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#concurrency DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#concurrency DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#image DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#image DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Max Replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#max_replicas DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#max_replicas DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
   * Min Replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#min_replicas DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#min_replicas DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
 }
@@ -538,37 +538,37 @@ export interface DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1M
   /**
   * Binding Config Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#binding_config_name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#binding_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#binding_config_name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#binding_config_name}
   */
   readonly bindingConfigName?: string;
   /**
   * Binding Secret Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#binding_secret_name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#binding_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#binding_secret_name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#binding_secret_name}
   */
   readonly bindingSecretName?: string;
   /**
   * DICOM Event Driven Ingestion Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#dicom_event_driven_ingestion_name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#dicom_event_driven_ingestion_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#dicom_event_driven_ingestion_name DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#dicom_event_driven_ingestion_name}
   */
   readonly dicomEventDrivenIngestionName: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#image_pull_policy DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#image_pull_policy DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Image Pull Secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#image_pull_secrets DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#image_pull_secrets DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Instance Binding Spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#instance_binding DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#instance_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#instance_binding DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest#instance_binding}
   */
   readonly instanceBinding?: DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1ManifestSpecInstanceBinding;
 }
@@ -804,7 +804,7 @@ export class DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manif
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest k8s_imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest k8s_imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest}
 */
 export class DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -820,7 +820,7 @@ export class DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manif
   * Generates CDKTF code for importing a DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -832,7 +832,7 @@ export class DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manif
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest k8s_imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest k8s_imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -843,8 +843,8 @@ export class DataK8SImagingIngestionAlvearieOrgDicomInstanceBindingV1Alpha1Manif
       terraformResourceType: 'k8s_imaging_ingestion_alvearie_org_dicom_instance_binding_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

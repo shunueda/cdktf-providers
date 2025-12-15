@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface VariableGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#allow_access VariableGroup#allow_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#allow_access VariableGroup#allow_access}
   */
   readonly allowAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#description VariableGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#description VariableGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#id VariableGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#id VariableGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#name VariableGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#name VariableGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#project_id VariableGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#project_id VariableGroup#project_id}
   */
   readonly projectId: string;
   /**
   * key_vault block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#key_vault VariableGroup#key_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#key_vault VariableGroup#key_vault}
   */
   readonly keyVault?: VariableGroupKeyVault;
   /**
   * secret_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#secret_variable VariableGroup#secret_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#secret_variable VariableGroup#secret_variable}
   */
   readonly secretVariable?: VariableGroupSecretVariable[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#timeouts VariableGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#timeouts VariableGroup#timeouts}
   */
   readonly timeouts?: VariableGroupTimeouts;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#variable VariableGroup#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#variable VariableGroup#variable}
   */
   readonly variable?: VariableGroupVariable[] | cdktf.IResolvable;
 }
 export interface VariableGroupKeyVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#name VariableGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#name VariableGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#search_depth VariableGroup#search_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#search_depth VariableGroup#search_depth}
   */
   readonly searchDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#service_endpoint_id VariableGroup#service_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#service_endpoint_id VariableGroup#service_endpoint_id}
   */
   readonly serviceEndpointId: string;
 }
@@ -201,11 +201,11 @@ export class VariableGroupKeyVaultOutputReference extends cdktf.ComplexObject {
 }
 export interface VariableGroupSecretVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#name VariableGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#name VariableGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#value VariableGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#value VariableGroup#value}
   */
   readonly value?: string;
 }
@@ -362,19 +362,19 @@ export class VariableGroupSecretVariableList extends cdktf.ComplexList {
 }
 export interface VariableGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#create VariableGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#create VariableGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#delete VariableGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#delete VariableGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#read VariableGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#read VariableGroup#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#update VariableGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#update VariableGroup#update}
   */
   readonly update?: string;
 }
@@ -555,11 +555,11 @@ export class VariableGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface VariableGroupVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#name VariableGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#name VariableGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#value VariableGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#value VariableGroup#value}
   */
   readonly value?: string;
 }
@@ -716,7 +716,7 @@ export class VariableGroupVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group azuredevops_variable_group}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group azuredevops_variable_group}
 */
 export class VariableGroup extends cdktf.TerraformResource {
 
@@ -732,7 +732,7 @@ export class VariableGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VariableGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VariableGroup to import
-  * @param importFromId The id of the existing VariableGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VariableGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VariableGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -744,7 +744,7 @@ export class VariableGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/variable_group azuredevops_variable_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/variable_group azuredevops_variable_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -755,8 +755,8 @@ export class VariableGroup extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_variable_group',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

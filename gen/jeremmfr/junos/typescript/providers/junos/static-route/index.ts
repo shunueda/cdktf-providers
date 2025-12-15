@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,157 +10,157 @@ export interface StaticRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Remove inactive route from forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#active StaticRoute#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#active StaticRoute#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Address of BGP system to add AGGREGATOR path attribute to route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#as_path_aggregator_address StaticRoute#as_path_aggregator_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#as_path_aggregator_address StaticRoute#as_path_aggregator_address}
   */
   readonly asPathAggregatorAddress?: string;
   /**
   * AS number to add AGGREGATOR path attribute to route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#as_path_aggregator_as_number StaticRoute#as_path_aggregator_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#as_path_aggregator_as_number StaticRoute#as_path_aggregator_as_number}
   */
   readonly asPathAggregatorAsNumber?: string;
   /**
   * Add ATOMIC_AGGREGATE path attribute to route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#as_path_atomic_aggregate StaticRoute#as_path_atomic_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#as_path_atomic_aggregate StaticRoute#as_path_atomic_aggregate}
   */
   readonly asPathAtomicAggregate?: boolean | cdktf.IResolvable;
   /**
   * Define origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#as_path_origin StaticRoute#as_path_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#as_path_origin StaticRoute#as_path_origin}
   */
   readonly asPathOrigin?: string;
   /**
   * Path to as-path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#as_path_path StaticRoute#as_path_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#as_path_path StaticRoute#as_path_path}
   */
   readonly asPathPath?: string;
   /**
   * BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#community StaticRoute#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#community StaticRoute#community}
   */
   readonly community?: string[];
   /**
   * Destination prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#destination StaticRoute#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#destination StaticRoute#destination}
   */
   readonly destination: string;
   /**
   * Drop packets to destination; send no ICMP unreachables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#discard StaticRoute#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#discard StaticRoute#discard}
   */
   readonly discard?: boolean | cdktf.IResolvable;
   /**
   * Install route into forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#install StaticRoute#install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#install StaticRoute#install}
   */
   readonly install?: boolean | cdktf.IResolvable;
   /**
   * Metric for static route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#metric StaticRoute#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#metric StaticRoute#metric}
   */
   readonly metric?: number;
   /**
   * Next-hop to destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
   */
   readonly nextHop?: string[];
   /**
   * Next hop to another table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#next_table StaticRoute#next_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#next_table StaticRoute#next_table}
   */
   readonly nextTable?: string;
   /**
   * Don't install route into forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#no_install StaticRoute#no_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#no_install StaticRoute#no_install}
   */
   readonly noInstall?: boolean | cdktf.IResolvable;
   /**
   * Don't mark route as eligible to be readvertised.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#no_readvertise StaticRoute#no_readvertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#no_readvertise StaticRoute#no_readvertise}
   */
   readonly noReadvertise?: boolean | cdktf.IResolvable;
   /**
   * Don't allow resolution of indirectly connected next hops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#no_resolve StaticRoute#no_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#no_resolve StaticRoute#no_resolve}
   */
   readonly noResolve?: boolean | cdktf.IResolvable;
   /**
   * Don't always keep route in forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#no_retain StaticRoute#no_retain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#no_retain StaticRoute#no_retain}
   */
   readonly noRetain?: boolean | cdktf.IResolvable;
   /**
   * Retain inactive route in forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#passive StaticRoute#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#passive StaticRoute#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Preference for aggregate route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#preference StaticRoute#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#preference StaticRoute#preference}
   */
   readonly preference?: number;
   /**
   * Mark route as eligible to be readvertised.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#readvertise StaticRoute#readvertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#readvertise StaticRoute#readvertise}
   */
   readonly readvertise?: boolean | cdktf.IResolvable;
   /**
   * Install a receive route for the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#receive StaticRoute#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#receive StaticRoute#receive}
   */
   readonly receive?: boolean | cdktf.IResolvable;
   /**
   * Drop packets to destination; send ICMP unreachables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#reject StaticRoute#reject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#reject StaticRoute#reject}
   */
   readonly reject?: boolean | cdktf.IResolvable;
   /**
   * Allow resolution of indirectly connected next hops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#resolve StaticRoute#resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#resolve StaticRoute#resolve}
   */
   readonly resolve?: boolean | cdktf.IResolvable;
   /**
   * Always keep route in forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#retain StaticRoute#retain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#retain StaticRoute#retain}
   */
   readonly retain?: boolean | cdktf.IResolvable;
   /**
   * Routing instance for static route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#routing_instance StaticRoute#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#routing_instance StaticRoute#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * qualified_next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#qualified_next_hop StaticRoute#qualified_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#qualified_next_hop StaticRoute#qualified_next_hop}
   */
   readonly qualifiedNextHop?: StaticRouteQualifiedNextHop[] | cdktf.IResolvable;
 }
@@ -168,25 +168,25 @@ export interface StaticRouteQualifiedNextHop {
   /**
   * Interface of qualified next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#interface StaticRoute#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#interface StaticRoute#interface}
   */
   readonly interface?: string;
   /**
   * Metric of qualified next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#metric StaticRoute#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#metric StaticRoute#metric}
   */
   readonly metric?: number;
   /**
   * Next-hop with qualifiers to destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#next_hop StaticRoute#next_hop}
   */
   readonly nextHop: string;
   /**
   * Preference of qualified next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#preference StaticRoute#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#preference StaticRoute#preference}
   */
   readonly preference?: number;
 }
@@ -386,7 +386,7 @@ export class StaticRouteQualifiedNextHopList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route junos_static_route}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route junos_static_route}
 */
 export class StaticRoute extends cdktf.TerraformResource {
 
@@ -402,7 +402,7 @@ export class StaticRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StaticRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StaticRoute to import
-  * @param importFromId The id of the existing StaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StaticRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class StaticRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/static_route junos_static_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/static_route junos_static_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class StaticRoute extends cdktf.TerraformResource {
       terraformResourceType: 'junos_static_route',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

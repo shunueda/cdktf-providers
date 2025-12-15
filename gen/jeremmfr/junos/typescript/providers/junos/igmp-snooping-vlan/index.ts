@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface IgmpSnoopingVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable immediate group leave on interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#immediate_leave IgmpSnoopingVlan#immediate_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#immediate_leave IgmpSnoopingVlan#immediate_leave}
   */
   readonly immediateLeave?: boolean | cdktf.IResolvable;
   /**
   * Enable L2 querier mode with source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#l2_querier_source_address IgmpSnoopingVlan#l2_querier_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#l2_querier_source_address IgmpSnoopingVlan#l2_querier_source_address}
   */
   readonly l2QuerierSourceAddress?: string;
   /**
   * VLAN name or `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#name IgmpSnoopingVlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#name IgmpSnoopingVlan#name}
   */
   readonly name: string;
   /**
   * Enable proxy mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#proxy IgmpSnoopingVlan#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#proxy IgmpSnoopingVlan#proxy}
   */
   readonly proxy?: boolean | cdktf.IResolvable;
   /**
   * Source IP address to use for proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#proxy_source_address IgmpSnoopingVlan#proxy_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#proxy_source_address IgmpSnoopingVlan#proxy_source_address}
   */
   readonly proxySourceAddress?: string;
   /**
   * When to send host query messages (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#query_interval IgmpSnoopingVlan#query_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#query_interval IgmpSnoopingVlan#query_interval}
   */
   readonly queryInterval?: number;
   /**
   * When to send group query messages (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#query_last_member_interval IgmpSnoopingVlan#query_last_member_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#query_last_member_interval IgmpSnoopingVlan#query_last_member_interval}
   */
   readonly queryLastMemberInterval?: string;
   /**
   * How long to wait for a host query response (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#query_response_interval IgmpSnoopingVlan#query_response_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#query_response_interval IgmpSnoopingVlan#query_response_interval}
   */
   readonly queryResponseInterval?: string;
   /**
   * Expected packet loss on a subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#robust_count IgmpSnoopingVlan#robust_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#robust_count IgmpSnoopingVlan#robust_count}
   */
   readonly robustCount?: number;
   /**
   * Routing instance for igmp-snooping protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#routing_instance IgmpSnoopingVlan#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#routing_instance IgmpSnoopingVlan#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#interface IgmpSnoopingVlan#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#interface IgmpSnoopingVlan#interface}
   */
   readonly interface?: IgmpSnoopingVlanInterface[] | cdktf.IResolvable;
 }
@@ -78,13 +78,13 @@ export interface IgmpSnoopingVlanInterfaceStaticGroup {
   /**
   * IP multicast group address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#address IgmpSnoopingVlan#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#address IgmpSnoopingVlan#address}
   */
   readonly address: string;
   /**
   * IP multicast source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#source IgmpSnoopingVlan#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#source IgmpSnoopingVlan#source}
   */
   readonly source?: string;
 }
@@ -228,37 +228,37 @@ export interface IgmpSnoopingVlanInterface {
   /**
   * Maximum number of groups an interface can join.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#group_limit IgmpSnoopingVlan#group_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#group_limit IgmpSnoopingVlan#group_limit}
   */
   readonly groupLimit?: number;
   /**
   * Enable interface to be treated as host-side interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#host_only_interface IgmpSnoopingVlan#host_only_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#host_only_interface IgmpSnoopingVlan#host_only_interface}
   */
   readonly hostOnlyInterface?: boolean | cdktf.IResolvable;
   /**
   * Enable immediate group leave on interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#immediate_leave IgmpSnoopingVlan#immediate_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#immediate_leave IgmpSnoopingVlan#immediate_leave}
   */
   readonly immediateLeave?: boolean | cdktf.IResolvable;
   /**
   * Enabling multicast-router-interface on the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#multicast_router_interface IgmpSnoopingVlan#multicast_router_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#multicast_router_interface IgmpSnoopingVlan#multicast_router_interface}
   */
   readonly multicastRouterInterface?: boolean | cdktf.IResolvable;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#name IgmpSnoopingVlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#name IgmpSnoopingVlan#name}
   */
   readonly name: string;
   /**
   * static_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#static_group IgmpSnoopingVlan#static_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#static_group IgmpSnoopingVlan#static_group}
   */
   readonly staticGroup?: IgmpSnoopingVlanInterfaceStaticGroup[] | cdktf.IResolvable;
 }
@@ -516,7 +516,7 @@ export class IgmpSnoopingVlanInterfaceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan junos_igmp_snooping_vlan}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan junos_igmp_snooping_vlan}
 */
 export class IgmpSnoopingVlan extends cdktf.TerraformResource {
 
@@ -532,7 +532,7 @@ export class IgmpSnoopingVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IgmpSnoopingVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IgmpSnoopingVlan to import
-  * @param importFromId The id of the existing IgmpSnoopingVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IgmpSnoopingVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IgmpSnoopingVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class IgmpSnoopingVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/igmp_snooping_vlan junos_igmp_snooping_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/igmp_snooping_vlan junos_igmp_snooping_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,8 +555,8 @@ export class IgmpSnoopingVlan extends cdktf.TerraformResource {
       terraformResourceType: 'junos_igmp_snooping_vlan',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

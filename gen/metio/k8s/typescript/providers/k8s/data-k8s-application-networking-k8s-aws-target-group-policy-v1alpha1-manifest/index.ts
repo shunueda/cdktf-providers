@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Mani
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#metadata DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#metadata DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1ManifestMetadata;
   /**
   * TargetGroupPolicySpec defines the desired state of TargetGroupPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#spec DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#spec DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Mani
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#annotations DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#annotations DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#labels DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#labels DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#name DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#name DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#namespace DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#namespace DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,61 +219,61 @@ export interface DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Mani
   /**
   * Indicates whether health checking is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#enabled DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#enabled DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of consecutive successful health checks required before considering an unhealthy target healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#healthy_threshold_count DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#healthy_threshold_count DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
   * The approximate amount of time, in seconds, between health checks of an individual target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#interval_seconds DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#interval_seconds DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * The destination for health checks on the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#path DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#path DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The port used when performing health checks on targets. If not specified, health check defaults to the port that a target receives traffic on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#port DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#port DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * The protocol used when performing health checks on targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#protocol DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#protocol DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * The protocol version used when performing health checks on targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#protocol_version DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#protocol_version DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#protocol_version}
   */
   readonly protocolVersion?: string;
   /**
   * A regular expression to match HTTP status codes when checking for successful response from a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#status_match DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#status_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#status_match DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#status_match}
   */
   readonly statusMatch?: string;
   /**
   * The amount of time, in seconds, to wait before reporting a target as unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#timeout_seconds DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#timeout_seconds DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * The number of consecutive failed health checks required before considering a target unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#unhealthy_threshold_count DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#unhealthy_threshold_count DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
 }
@@ -630,25 +630,25 @@ export interface DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Mani
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#group DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#group DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#kind DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#kind DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#name DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#name DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the referent. When unspecified, the local namespace is inferred. Even when policy targets a resource in a different namespace, it MUST only apply to traffic originating from the same namespace as the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#namespace DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#namespace DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -822,25 +822,25 @@ export interface DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Mani
   /**
   * The health check configuration. Changes to this value will update VPC Lattice resource in place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#health_check DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#health_check DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#health_check}
   */
   readonly healthCheck?: DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1ManifestSpecHealthCheck;
   /**
   * The protocol to use for routing traffic to the targets. Supported values are HTTP (default), HTTPS and TCP. Changes to this value results in a replacement of VPC Lattice target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#protocol DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#protocol DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * The protocol version to use. Supported values are HTTP1 (default) and HTTP2. When a policy Protocol is TCP, you should not set this field. Otherwise, the whole TargetGroupPolicy will not take effect. When a policy is behind GRPCRoute, this field value will be ignored as GRPC is only supported through HTTP/2. Changes to this value results in a replacement of VPC Lattice target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#protocol_version DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#protocol_version DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#protocol_version}
   */
   readonly protocolVersion?: string;
   /**
   * TargetRef points to the kubernetes Service resource that will have this policy attached. This field is following the guidelines of Kubernetes Gateway API policy attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#target_ref DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#target_ref DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1ManifestSpecTargetRef;
 }
@@ -1018,7 +1018,7 @@ export class DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest k8s_application_networking_k8s_aws_target_group_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest k8s_application_networking_k8s_aws_target_group_policy_v1alpha1_manifest}
 */
 export class DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1034,7 +1034,7 @@ export class DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest
   * Generates CDKTF code for importing a DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1046,7 +1046,7 @@ export class DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest k8s_application_networking_k8s_aws_target_group_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/application_networking_k8s_aws_target_group_policy_v1alpha1_manifest k8s_application_networking_k8s_aws_target_group_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1057,8 +1057,8 @@ export class DataK8SApplicationNetworkingK8SAwsTargetGroupPolicyV1Alpha1Manifest
       terraformResourceType: 'k8s_application_networking_k8s_aws_target_group_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

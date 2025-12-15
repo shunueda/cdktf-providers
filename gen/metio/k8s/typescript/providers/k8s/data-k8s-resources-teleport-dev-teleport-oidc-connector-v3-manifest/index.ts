@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#metadata DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#metadata DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#metadata}
   */
   readonly metadata: DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestMetadata;
   /**
   * OIDCConnector resource definition v3 from Teleport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#spec DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#spec DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#spec}
   */
   readonly spec?: DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#annotations DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#annotations DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#labels DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#labels DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#name DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#name DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#namespace DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#namespace DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpecC
   /**
   * Claim is a claim name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#claim DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#claim DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#claim}
   */
   readonly claim?: string;
   /**
   * Roles is a list of static teleport roles to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#roles DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#roles DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Value is a claim value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#value DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#value DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#value}
   */
   readonly value?: string;
 }
@@ -407,13 +407,13 @@ export interface DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpecC
   /**
   * a list of hostnames allowed for https client redirect URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#allowed_https_hostnames DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#allowed_https_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#allowed_https_hostnames DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#allowed_https_hostnames}
   */
   readonly allowedHttpsHostnames?: string[];
   /**
   * a list of CIDRs allowed for HTTP or HTTPS client redirect URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#insecure_allowed_cidr_ranges DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#insecure_allowed_cidr_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#insecure_allowed_cidr_ranges DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#insecure_allowed_cidr_ranges}
   */
   readonly insecureAllowedCidrRanges?: string[];
 }
@@ -538,37 +538,37 @@ export interface DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpecM
   /**
   * AcrValues are Authentication Context Class Reference values. The meaning of the ACR value is context-specific and varies for identity providers. Some identity providers support MFA specific contexts, such Okta with its 'phr' (phishing-resistant) ACR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#acr_values DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#acr_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#acr_values DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#acr_values}
   */
   readonly acrValues?: string;
   /**
   * ClientID is the OIDC OAuth app client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_id DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_id DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * ClientSecret is the OIDC OAuth app client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_secret DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_secret DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Enabled specified whether this OIDC connector supports MFA checks. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#enabled DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#enabled DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * MaxAge is the amount of time in nanoseconds that an IdP session is valid for. Defaults to 0 to always force re-authentication for MFA checks. This should only be set to a non-zero value if the IdP is setup to perform MFA checks on top of active user sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#max_age DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#max_age DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#max_age}
   */
   readonly maxAge?: string;
   /**
   * Prompt is an optional OIDC prompt. An empty string omits prompt. If not specified, it defaults to select_account for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#prompt DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#prompt DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#prompt}
   */
   readonly prompt?: string;
 }
@@ -809,109 +809,109 @@ export interface DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpec 
   /**
   * ACR is an Authentication Context Class Reference value. The meaning of the ACR value is context-specific and varies for identity providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#acr_values DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#acr_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#acr_values DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#acr_values}
   */
   readonly acrValues?: string;
   /**
   * AllowUnverifiedEmail tells the connector to accept OIDC users with unverified emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#allow_unverified_email DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#allow_unverified_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#allow_unverified_email DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#allow_unverified_email}
   */
   readonly allowUnverifiedEmail?: boolean | cdktf.IResolvable;
   /**
   * ClaimsToRoles specifies a dynamic mapping from claims to roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#claims_to_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#claims_to_roles}
   */
   readonly claimsToRoles?: DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpecClaimsToRoles[] | cdktf.IResolvable;
   /**
   * ClientID is the id of the authentication client (Teleport Auth Service).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_id DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_id DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * ClientRedirectSettings defines which client redirect URLs are allowed for non-browser SSO logins other than the standard localhost ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_redirect_settings DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_redirect_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_redirect_settings DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_redirect_settings}
   */
   readonly clientRedirectSettings?: DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpecClientRedirectSettings;
   /**
   * ClientSecret is used to authenticate the client. This field supports secret lookup. See the operator documentation for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_secret DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#client_secret DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Display is the friendly name for this provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#display DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#display DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#display}
   */
   readonly display?: string;
   /**
   * GoogleAdminEmail is the email of a google admin to impersonate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#google_admin_email DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#google_admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#google_admin_email DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#google_admin_email}
   */
   readonly googleAdminEmail?: string;
   /**
   * GoogleServiceAccount is a string containing google service account credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#google_service_account DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#google_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#google_service_account DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#google_service_account}
   */
   readonly googleServiceAccount?: string;
   /**
   * GoogleServiceAccountURI is a path to a google service account uri.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#google_service_account_uri DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#google_service_account_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#google_service_account_uri DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#google_service_account_uri}
   */
   readonly googleServiceAccountUri?: string;
   /**
   * IssuerURL is the endpoint of the provider, e.g. https://accounts.google.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#issuer_url DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#issuer_url DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
   * MaxAge is the amount of time that user logins are valid for. If a user logs in, but then does not login again within this time period, they will be forced to re-authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#max_age DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#max_age DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#max_age}
   */
   readonly maxAge?: string;
   /**
   * MFASettings contains settings to enable SSO MFA checks through this auth connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#mfa DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#mfa DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#mfa}
   */
   readonly mfa?: DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpecMfa;
   /**
   * Prompt is an optional OIDC prompt. An empty string omits prompt. If not specified, it defaults to select_account for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#prompt DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#prompt DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#prompt}
   */
   readonly prompt?: string;
   /**
   * Provider is the external identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#provider DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#provider DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#provider}
   */
   readonly provider?: string;
   /**
   * RedirectURLs is a list of callback URLs which the identity provider can use to redirect the client back to the Teleport Proxy to complete authentication. This list should match the URLs on the provider's side. The URL used for a given auth request will be chosen to match the requesting Proxy's public address. If there is no match, the first url in the list will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#redirect_url DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#redirect_url DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#redirect_url}
   */
   readonly redirectUrl?: string[];
   /**
   * Scope specifies additional scopes set by provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#scope DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#scope DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#scope}
   */
   readonly scope?: string[];
   /**
   * UsernameClaim specifies the name of the claim from the OIDC connector to be used as the user's username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#username_claim DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#username_claim DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest#username_claim}
   */
   readonly usernameClaim?: string;
 }
@@ -1498,7 +1498,7 @@ export class DataK8SResourcesTeleportDevTeleportOidcConnectorV3ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest k8s_resources_teleport_dev_teleport_oidc_connector_v3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest k8s_resources_teleport_dev_teleport_oidc_connector_v3_manifest}
 */
 export class DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest extends cdktf.TerraformDataSource {
 
@@ -1514,7 +1514,7 @@ export class DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest extends 
   * Generates CDKTF code for importing a DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest to import
-  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1526,7 +1526,7 @@ export class DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest k8s_resources_teleport_dev_teleport_oidc_connector_v3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_oidc_connector_v3_manifest k8s_resources_teleport_dev_teleport_oidc_connector_v3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1537,8 +1537,8 @@ export class DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest extends 
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_oidc_connector_v3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

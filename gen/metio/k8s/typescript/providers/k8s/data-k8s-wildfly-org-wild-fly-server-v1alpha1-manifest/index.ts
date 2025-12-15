@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#metadata DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#metadata DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestMetadata;
   /**
   * WildFlyServerSpec defines the desired state of WildFlyServer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#spec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#spec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#annotations DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#annotations DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#labels DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#labels DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#namespace DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#namespace DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFromC
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#key DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#key DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#optional DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#optional DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,13 +382,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFromF
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#api_version DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#api_version DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#field_path DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#field_path DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -510,19 +510,19 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFromR
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#container_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#container_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#divisor DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#divisor DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resource DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resource DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -673,19 +673,19 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFromS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#key DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#key DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#optional DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#optional DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -836,25 +836,25 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFrom 
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#config_map_key_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#config_map_key_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#field_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#field_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resource_field_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resource_field_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#secret_key_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#secret_key_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -1037,19 +1037,19 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value_from DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value_from DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvValueFrom;
 }
@@ -1222,13 +1222,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvFromConfig
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#optional DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#optional DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1353,13 +1353,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvFromSecret
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#optional DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#optional DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1484,19 +1484,19 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#config_map_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#config_map_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#prefix DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#prefix DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#secret_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#secret_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvFromSecretRef;
 }
@@ -1672,7 +1672,7 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecLivenessProbe
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#command DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#command DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1768,13 +1768,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecLivenessProbe
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1915,31 +1915,31 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecLivenessProbe
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#host DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#host DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_headers DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_headers DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#path DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#path DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#port DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#port DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#scheme DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#scheme DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2148,43 +2148,43 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecLivenessProbe
   /**
   * Exec specifies a command action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#exec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#exec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#failure_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#failure_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_get DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_get DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before probes are initiated. It defaults to 60 seconds for liveness probe. It defaults to 10 seconds for readiness probe. It defaults to 0 seconds for startup probe. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#initial_delay_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#initial_delay_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#period_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#period_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#success_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#success_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#timeout_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#timeout_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2454,7 +2454,7 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecReadinessProb
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#command DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#command DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2550,13 +2550,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecReadinessProb
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -2697,31 +2697,31 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecReadinessProb
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#host DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#host DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_headers DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_headers DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#path DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#path DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#port DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#port DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#scheme DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#scheme DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2930,43 +2930,43 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecReadinessProb
   /**
   * Exec specifies a command action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#exec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#exec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#failure_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#failure_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_get DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_get DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before probes are initiated. It defaults to 60 seconds for liveness probe. It defaults to 10 seconds for readiness probe. It defaults to 0 seconds for startup probe. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#initial_delay_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#initial_delay_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#period_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#period_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#success_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#success_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#timeout_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#timeout_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -3236,13 +3236,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecResources {
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#limits DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#limits DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#requests DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#requests DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3367,13 +3367,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityConte
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#add DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#add DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#drop DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#drop DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -3498,25 +3498,25 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityConte
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#level DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#level DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#role DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#role DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#type DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#type DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#user DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#user DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -3699,13 +3699,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityConte
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#localhost_profile DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#localhost_profile DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#type DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#type DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -3827,25 +3827,25 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityConte
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#gmsa_credential_spec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#gmsa_credential_spec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#gmsa_credential_spec_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#gmsa_credential_spec_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#host_process DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#host_process DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#run_as_user_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#run_as_user_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -4028,67 +4028,67 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityConte
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#allow_privilege_escalation DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#allow_privilege_escalation DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#capabilities DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#capabilities DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#privileged DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#privileged DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#proc_mount DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#proc_mount DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#read_only_root_filesystem DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#read_only_root_filesystem DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#run_as_group DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#run_as_group DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#run_as_non_root DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#run_as_non_root DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#run_as_user DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#run_as_user DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#se_linux_options DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#se_linux_options DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#seccomp_profile DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#seccomp_profile DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#windows_options DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#windows_options DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityContextWindowsOptions;
 }
@@ -4474,11 +4474,11 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStandaloneCon
   /**
   * Key of the config map whose value is the standalone XML configuration file ('standalone.xml' if omitted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#key DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#key DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4600,7 +4600,7 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStartupProbeE
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#command DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#command DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4696,13 +4696,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStartupProbeH
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#value DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -4843,31 +4843,31 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStartupProbeH
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#host DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#host DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_headers DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_headers DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#path DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#path DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#port DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#port DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#scheme DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#scheme DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5076,43 +5076,43 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStartupProbe 
   /**
   * Exec specifies a command action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#exec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#exec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#failure_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#failure_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_get DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#http_get DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before probes are initiated. It defaults to 60 seconds for liveness probe. It defaults to 10 seconds for readiness probe. It defaults to 0 seconds for startup probe. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#initial_delay_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#initial_delay_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#period_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#period_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#success_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#success_threshold DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#timeout_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#timeout_seconds DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -5382,13 +5382,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageEmptyD
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#medium DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#medium DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: http://kubernetes.io/docs/user-guide/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#size_limit DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#size_limit DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -5513,19 +5513,19 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#api_group DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#api_group DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#kind DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#kind DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5673,19 +5673,19 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#api_group DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#api_group DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#kind DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#kind DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5833,13 +5833,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#limits DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#limits DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#requests DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#requests DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5964,19 +5964,19 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#key DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#key DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#operator DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#operator DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#values DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#values DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6146,13 +6146,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#match_expressions DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#match_expressions DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#match_labels DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#match_labels DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6277,49 +6277,49 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#access_modes DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#access_modes DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. If the AnyVolumeDataSource feature gate is enabled, this field will always have the same contents as the DataSourceRef field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#data_source DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#data_source DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any local object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the DataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, both fields (DataSource and DataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. There are two important differences between DataSource and DataSourceRef: * While DataSource only allows two specific types of objects, DataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While DataSource ignores disallowed values (dropping them), DataSourceRef preserves all values, and generates an error if a disallowed value is specified. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#data_source_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#data_source_ref DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resources DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resources DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#selector DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#selector DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#storage_class_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#storage_class_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#volume_mode DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#volume_mode DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#volume_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#volume_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -6618,35 +6618,35 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * lastProbeTime is the time we probed the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#last_probe_time DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#last_probe_time DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
   * lastTransitionTime is the time the condition transitioned from one status to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#last_transition_time DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#last_transition_time DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * message is the human-readable message indicating details about last transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#message DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#message DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * reason is a unique, this should be a short, machine understandable string that gives the reason for condition's last transition. If it reports 'ResizeStarted' that means the underlying persistent volume is being resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#reason DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#reason DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#status DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#status DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * PersistentVolumeClaimConditionType is a valid value of PersistentVolumeClaimCondition.Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#type DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#type DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6903,37 +6903,37 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * accessModes contains the actual access modes the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#access_modes DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#access_modes DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * allocatedResources is the storage resource within AllocatedResources tracks the capacity allocated to a PVC. It may be larger than the actual capacity when a volume expansion operation is requested. For storage quota, the larger value from allocatedResources and PVC.spec.resources is used. If allocatedResources is not set, PVC.spec.resources alone is used for quota calculation. If a volume expansion capacity request is lowered, allocatedResources is only lowered if there are no expansion operations in progress and if the actual volume capacity is equal or lower than the requested capacity. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#allocated_resources DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#allocated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#allocated_resources DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#allocated_resources}
   */
   readonly allocatedResources?: { [key: string]: string };
   /**
   * capacity represents the actual resources of the underlying volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#capacity DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#capacity DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * conditions is the current Condition of persistent volume claim. If underlying persistent volume is being resized then the Condition will be set to 'ResizeStarted'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#conditions DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#conditions DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplateStatusConditions[] | cdktf.IResolvable;
   /**
   * phase represents the current phase of PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#phase DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#phase DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
   /**
   * resizeStatus stores status of resize operation. ResizeStatus is not set by default but when expansion is complete resizeStatus is set to empty string by resize controller or kubelet. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resize_status DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resize_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resize_status DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resize_status}
   */
   readonly resizeStatus?: string;
 }
@@ -7174,31 +7174,31 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolume
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#api_version DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#api_version DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#kind DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#kind DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#metadata DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#metadata DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#spec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#spec DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpec;
   /**
   * status represents the current information/status of a persistent volume claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#status DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#status DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplateStatus;
 }
@@ -7410,13 +7410,13 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorage {
   /**
   * Represents an empty directory for a pod. Empty directory volumes support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#empty_dir DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#empty_dir DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageEmptyDir;
   /**
   * VolumeClaimTemplate defines the template to store WildFlyServer standalone data directory. The name of the template is derived from the WildFlyServer name. The corresponding volume will be mounted in ReadWriteOnce access mode. This template should be used to specify specific Resources requirements in the template spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#volume_claim_template DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#volume_claim_template DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorageVolumeClaimTemplate;
 }
@@ -7541,107 +7541,107 @@ export interface DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpec {
   /**
   * ApplicationImage is the name of the application image to be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#application_image DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#application_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#application_image DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#application_image}
   */
   readonly applicationImage: string;
   /**
   * BootableJar specifies whether the application image is using S2I Builder/Runtime images or Bootable Jar. If omitted, it defaults to false (application image is expected to use S2I Builder/Runtime images)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#bootable_jar DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#bootable_jar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#bootable_jar DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#bootable_jar}
   */
   readonly bootableJar?: boolean | cdktf.IResolvable;
   /**
   * ConfigMaps is a list of ConfigMaps in the same namespace as the WildFlyServer object, which shall be mounted into the WildFlyServer Pods. The ConfigMaps are mounted into /etc/configmaps/<configmap-name>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#config_maps DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#config_maps DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#config_maps}
   */
   readonly configMaps?: string[];
   /**
   * DeactivateTransactionRecovery disables the process of recovering transactions (false if omitted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#deactivate_transaction_recovery DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#deactivate_transaction_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#deactivate_transaction_recovery DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#deactivate_transaction_recovery}
   */
   readonly deactivateTransactionRecovery?: boolean | cdktf.IResolvable;
   /**
   * DisableHTTPRoute disables the creation a route to the HTTP port of the application service (false if omitted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#disable_http_route DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#disable_http_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#disable_http_route DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#disable_http_route}
   */
   readonly disableHttpRoute?: boolean | cdktf.IResolvable;
   /**
   * Env contains environment variables for the containers running the WildFlyServer application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#env DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#env DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * EnvFrom contains environment variables from a source such as a ConfigMap or a Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#env_from DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#env_from DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecEnvFrom[] | cdktf.IResolvable;
   /**
   * LivenessProbe defines the periodic probe of container liveness. Container will be restarted if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#liveness_probe DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#liveness_probe DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecLivenessProbe;
   /**
   * ReadinessProbe defines the periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#readiness_probe DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#readiness_probe DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecReadinessProbe;
   /**
   * Replicas is the desired number of replicas for the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#replicas DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#replicas DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#replicas}
   */
   readonly replicas: number;
   /**
   * ResourcesSpec defines the resources used by the WildFlyServer, ie CPU and memory, use limits and requests. More info: https://pkg.go.dev/k8s.io/api@v0.18.14/core/v1#ResourceRequirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resources DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#resources DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecResources;
   /**
   * Secrets is a list of Secrets in the same namespace as the WildFlyServer object, which shall be mounted into the WildFlyServer Pods. The Secrets are mounted into /etc/secrets/<secret-name>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#secrets DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#secrets DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#secrets}
   */
   readonly secrets?: string[];
   /**
   * SecurityContext defines the security capabilities required to run the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#security_context DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#security_context DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#service_account_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#service_account_name DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * SessionAffinity defines if connections from the same client ip are passed to the same WildFlyServer instance/pod each time (false if omitted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#session_affinity DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#session_affinity DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#session_affinity}
   */
   readonly sessionAffinity?: boolean | cdktf.IResolvable;
   /**
   * StandaloneConfigMapSpec defines the desired configMap configuration to obtain the standalone configuration for WildFlyServer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#standalone_config_map DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#standalone_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#standalone_config_map DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#standalone_config_map}
   */
   readonly standaloneConfigMap?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStandaloneConfigMap;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#startup_probe DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#startup_probe DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStartupProbe;
   /**
   * StorageSpec defines specific storage required for the server own data directory. If omitted, an EmptyDir is used (that will not persist data across pod restart).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#storage DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#storage DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecStorage;
 }
@@ -8222,7 +8222,7 @@ export class DataK8SWildflyOrgWildFlyServerV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest k8s_wildfly_org_wild_fly_server_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest k8s_wildfly_org_wild_fly_server_v1alpha1_manifest}
 */
 export class DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -8238,7 +8238,7 @@ export class DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8250,7 +8250,7 @@ export class DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest k8s_wildfly_org_wild_fly_server_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/wildfly_org_wild_fly_server_v1alpha1_manifest k8s_wildfly_org_wild_fly_server_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8261,8 +8261,8 @@ export class DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_wildfly_org_wild_fly_server_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

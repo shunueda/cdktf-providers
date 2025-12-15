@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metadata DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metadata DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metadata}
   */
   readonly metadata: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestMetadata;
   /**
   * HorizontalPodAutoscalerSpec describes the desired functionality of the HorizontalPodAutoscaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#spec DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#spec DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#spec}
   */
   readonly spec?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#annotations DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#annotations DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#labels DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#labels DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#namespace DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#namespace DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehavior
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#period_seconds DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#period_seconds DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
   */
   readonly value: number;
 }
@@ -398,19 +398,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehavior
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#policies DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#policies DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#policies}
   */
   readonly policies?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehaviorScaleDownPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#select_policy DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#select_policy DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#stabilization_window_seconds DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#stabilization_window_seconds DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -564,19 +564,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehavior
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#period_seconds DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#period_seconds DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
   */
   readonly value: number;
 }
@@ -743,19 +743,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehavior
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#policies DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#policies DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#policies}
   */
   readonly policies?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehaviorScaleUpPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#select_policy DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#select_policy DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#stabilization_window_seconds DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#stabilization_window_seconds DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -909,13 +909,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehavior
   /**
   * HPAScalingRules configures the scaling behavior for one direction. These Rules are applied after calculating DesiredReplicas from metrics for the HPA. They can limit the scaling velocity by specifying scaling policies. They can prevent flapping by specifying the stabilization window, so that the number of replicas is not set instantly, instead, the safest value from the stabilization window is chosen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#scale_down DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#scale_down DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#scale_down}
   */
   readonly scaleDown?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehaviorScaleDown;
   /**
   * HPAScalingRules configures the scaling behavior for one direction. These Rules are applied after calculating DesiredReplicas from metrics for the HPA. They can limit the scaling velocity by specifying scaling policies. They can prevent flapping by specifying the stabilization window, so that the number of replicas is not set instantly, instead, the safest value from the stabilization window is chosen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#scale_up DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#scale_up DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#scale_up}
   */
   readonly scaleUp?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehaviorScaleUp;
 }
@@ -1040,25 +1040,25 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsC
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
   */
   readonly type: string;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -1238,19 +1238,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsC
   /**
   * container is the name of the container in the pods of the scaling target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#container DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#container DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#container}
   */
   readonly container: string;
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
   */
   readonly name: string;
   /**
   * MetricTarget defines the target value, average value, or average utilization of a specific metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
   */
   readonly target: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsContainerResourceTarget;
 }
@@ -1395,19 +1395,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsE
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#key DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#key DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#operator DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#operator DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#values DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#values DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1577,13 +1577,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsE
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_expressions DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_expressions DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsExternalMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_labels DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_labels DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1708,13 +1708,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsE
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
   */
   readonly name: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#selector DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#selector DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#selector}
   */
   readonly selector?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsExternalMetricSelector;
 }
@@ -1836,25 +1836,25 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsE
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
   */
   readonly type: string;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -2034,13 +2034,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsE
   /**
   * MetricIdentifier defines the name and optionally selector for a metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metric DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metric DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metric}
   */
   readonly metric: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsExternalMetric;
   /**
   * MetricTarget defines the target value, average value, or average utilization of a specific metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
   */
   readonly target: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsExternalTarget;
 }
@@ -2159,19 +2159,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsO
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#api_version DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#api_version DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#kind DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#kind DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
   */
   readonly name: string;
 }
@@ -2319,19 +2319,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsO
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#key DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#key DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#operator DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#operator DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#values DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#values DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2501,13 +2501,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsO
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_expressions DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_expressions DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsObjectMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_labels DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_labels DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2632,13 +2632,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsO
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
   */
   readonly name: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#selector DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#selector DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#selector}
   */
   readonly selector?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsObjectMetricSelector;
 }
@@ -2760,25 +2760,25 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsO
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
   */
   readonly type: string;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -2958,19 +2958,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsO
   /**
   * CrossVersionObjectReference contains enough information to let you identify the referred resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#described_object DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#described_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#described_object DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#described_object}
   */
   readonly describedObject: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsObjectDescribedObject;
   /**
   * MetricIdentifier defines the name and optionally selector for a metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metric DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metric DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metric}
   */
   readonly metric: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsObjectMetric;
   /**
   * MetricTarget defines the target value, average value, or average utilization of a specific metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
   */
   readonly target: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsObjectTarget;
 }
@@ -3115,19 +3115,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#key DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#key DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#operator DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#operator DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#values DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#values DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3297,13 +3297,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_expressions DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_expressions DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsPodsMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_labels DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#match_labels DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3428,13 +3428,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsP
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
   */
   readonly name: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#selector DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#selector DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#selector}
   */
   readonly selector?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsPodsMetricSelector;
 }
@@ -3556,25 +3556,25 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsP
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
   */
   readonly type: string;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -3754,13 +3754,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsP
   /**
   * MetricIdentifier defines the name and optionally selector for a metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metric DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metric DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metric}
   */
   readonly metric: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsPodsMetric;
   /**
   * MetricTarget defines the target value, average value, or average utilization of a specific metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
   */
   readonly target: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsPodsTarget;
 }
@@ -3879,25 +3879,25 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsR
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_utilization DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#average_value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
   */
   readonly type: string;
   /**
   * Quantity is a fixed-point representation of a number. It provides convenient marshaling/unmarshaling in JSON and YAML, in addition to String() and AsInt64() accessors. The serialization format is: ``` <quantity> ::= <signedNumber><suffix> (Note that <suffix> may be empty, from the '' case in <decimalSI>.) <digit> ::= 0 | 1 | ... | 9 <digits> ::= <digit> | <digit><digits> <number> ::= <digits> | <digits>.<digits> | <digits>. | .<digits> <sign> ::= '+' | '-' <signedNumber> ::= <number> | <sign><number> <suffix> ::= <binarySI> | <decimalExponent> | <decimalSI> <binarySI> ::= Ki | Mi | Gi | Ti | Pi | Ei (International System of units; See: http://physics.nist.gov/cuu/Units/binary.html) <decimalSI> ::= m | '' | k | M | G | T | P | E (Note that 1024 = 1Ki but 1000 = 1k; I didn't choose the capitalization.) <decimalExponent> ::= 'e' <signedNumber> | 'E' <signedNumber> ``` No matter which of the three exponent forms is used, no quantity may represent a number greater than 2^63-1 in magnitude, nor may it have more than 3 decimal places. Numbers larger or more precise will be capped or rounded up. (E.g.: 0.1m will rounded up to 1m.) This may be extended in the future if we require larger or smaller quantities. When a Quantity is parsed from a string, it will remember the type of suffix it had, and will use the same type again when it is serialized. Before serializing, Quantity will be put in 'canonical form'. This means that Exponent/suffix will be adjusted up or down (with a corresponding increase or decrease in Mantissa) such that: - No precision is lost - No fractional digits will be emitted - The exponent (or suffix) is as large as possible. The sign will be omitted unless the number is negative. Examples: - 1.5 will be serialized as '1500m' - 1.5Gi will be serialized as '1536Mi' Note that the quantity will NEVER be internally represented by a floating point number. That is the whole point of this exercise. Non-canonical values will still parse as long as they are well formed, but will be re-emitted in their canonical form. (So always use canonical form, or don't diff.) This format is intended to make it difficult to use these numbers without writing some sort of special handling code in the hopes that that will cause implementors to also use a fixed point implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#value DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -4077,13 +4077,13 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsR
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
   */
   readonly name: string;
   /**
   * MetricTarget defines the target value, average value, or average utilization of a specific metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#target DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#target}
   */
   readonly target: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsResourceTarget;
 }
@@ -4202,37 +4202,37 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetrics 
   /**
   * ContainerResourceMetricSource indicates how to scale on a resource metric known to Kubernetes, as specified in requests and limits, describing each pod in the current scale target (e.g. CPU or memory). The values will be averaged together before being compared to the target. Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source. Only one 'target' type should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#container_resource DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#container_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#container_resource DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#container_resource}
   */
   readonly containerResource?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsContainerResource;
   /**
   * ExternalMetricSource indicates how to scale on a metric not associated with any Kubernetes object (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#external DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#external DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#external}
   */
   readonly external?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsExternal;
   /**
   * ObjectMetricSource indicates how to scale on a metric describing a kubernetes object (for example, hits-per-second on an Ingress object).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#object DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#object DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#object}
   */
   readonly object?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsObject;
   /**
   * PodsMetricSource indicates how to scale on a metric describing each pod in the current scale target (for example, transactions-processed-per-second). The values will be averaged together before being compared to the target value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#pods DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#pods DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#pods}
   */
   readonly pods?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsPods;
   /**
   * ResourceMetricSource indicates how to scale on a resource metric known to Kubernetes, as specified in requests and limits, describing each pod in the current scale target (e.g. CPU or memory). The values will be averaged together before being compared to the target. Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source. Only one 'target' type should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#resource DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#resource DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#resource}
   */
   readonly resource?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetricsResource;
   /**
   * type is the type of metric source. It should be one of 'ContainerResource', 'External', 'Object', 'Pods' or 'Resource', each mapping to a matching field in the object. Note: 'ContainerResource' type is available on when the feature-gate HPAContainerMetrics is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#type DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#type}
   */
   readonly type: string;
 }
@@ -4492,19 +4492,19 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecScaleTar
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#api_version DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#api_version DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#kind DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#kind DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#name DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#name}
   */
   readonly name: string;
 }
@@ -4652,31 +4652,31 @@ export interface DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpec {
   /**
   * HorizontalPodAutoscalerBehavior configures the scaling behavior of the target in both Up and Down directions (scaleUp and scaleDown fields respectively).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#behavior DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#behavior DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#behavior}
   */
   readonly behavior?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecBehavior;
   /**
   * maxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#max_replicas DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#max_replicas DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa. See the individual metric source types for more information about how each type of metric must respond. If not set, the default metric will be set to 80% average CPU utilization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metrics DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#metrics DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#metrics}
   */
   readonly metrics?: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecMetrics[] | cdktf.IResolvable;
   /**
   * minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod. minReplicas is allowed to be 0 if the alpha feature gate HPAScaleToZero is enabled and at least one Object or External metric is configured. Scaling is active as long as at least one metric value is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#min_replicas DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#min_replicas DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * CrossVersionObjectReference contains enough information to let you identify the referred resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#scale_target_ref DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#scale_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#scale_target_ref DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest#scale_target_ref}
   */
   readonly scaleTargetRef: DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecScaleTargetRef;
 }
@@ -4880,7 +4880,7 @@ export class DataK8SAutoscalingHorizontalPodAutoscalerV2ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest k8s_autoscaling_horizontal_pod_autoscaler_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest k8s_autoscaling_horizontal_pod_autoscaler_v2_manifest}
 */
 export class DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest extends cdktf.TerraformDataSource {
 
@@ -4896,7 +4896,7 @@ export class DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest to import
-  * @param importFromId The id of the existing DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4908,7 +4908,7 @@ export class DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest k8s_autoscaling_horizontal_pod_autoscaler_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_horizontal_pod_autoscaler_v2_manifest k8s_autoscaling_horizontal_pod_autoscaler_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4919,8 +4919,8 @@ export class DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest extends cdktf.T
       terraformResourceType: 'k8s_autoscaling_horizontal_pod_autoscaler_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

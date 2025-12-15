@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/kubernetes_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexKubernetesClusterConfig extends cdktf.TerraformMetaAr
   /**
   * ID of a specific Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/kubernetes_cluster#cluster_id DataYandexKubernetesCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/kubernetes_cluster#cluster_id DataYandexKubernetesCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/kubernetes_cluster#folder_id DataYandexKubernetesCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/kubernetes_cluster#folder_id DataYandexKubernetesCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/kubernetes_cluster#id DataYandexKubernetesCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/kubernetes_cluster#id DataYandexKubernetesCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataYandexKubernetesClusterConfig extends cdktf.TerraformMetaAr
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/kubernetes_cluster#name DataYandexKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/kubernetes_cluster#name DataYandexKubernetesCluster#name}
   */
   readonly name?: string;
 }
@@ -1255,7 +1255,7 @@ export class DataYandexKubernetesClusterWorkloadIdentityFederationList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/kubernetes_cluster yandex_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/kubernetes_cluster yandex_kubernetes_cluster}
 */
 export class DataYandexKubernetesCluster extends cdktf.TerraformDataSource {
 
@@ -1271,7 +1271,7 @@ export class DataYandexKubernetesCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexKubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexKubernetesCluster to import
-  * @param importFromId The id of the existing DataYandexKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexKubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1283,7 +1283,7 @@ export class DataYandexKubernetesCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/kubernetes_cluster yandex_kubernetes_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/kubernetes_cluster yandex_kubernetes_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1294,8 +1294,8 @@ export class DataYandexKubernetesCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

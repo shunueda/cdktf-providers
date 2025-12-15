@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,145 +10,145 @@ export interface JunosProviderConfig {
   /**
   * Seconds of standby while waiting for Terraform provider to lock candidate configuration on a Junos device. May also be provided via JUNOS_SLEEP_LOCK environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#cmd_sleep_lock JunosProvider#cmd_sleep_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#cmd_sleep_lock JunosProvider#cmd_sleep_lock}
   */
   readonly cmdSleepLock?: number;
   /**
   * Milliseconds to wait after Terraform  provider executes an action on the Junos device. May also be provided via JUNOS_SLEEP_SHORT environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#cmd_sleep_short JunosProvider#cmd_sleep_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#cmd_sleep_short JunosProvider#cmd_sleep_short}
   */
   readonly cmdSleepShort?: number;
   /**
   * Number of minutes until automatic rollback. May also be provided via JUNOS_COMMIT_CONFIRMED environment variable. For each resource action with commit, commit with `confirmed` option and with the value ot this argument as `confirm-timeout`,  wait for `<commit_confirmed_wait_percent>`% of the minutes defined in the value of this argument, and confirm commit to avoid rollback with the `commit check` command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#commit_confirmed JunosProvider#commit_confirmed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#commit_confirmed JunosProvider#commit_confirmed}
   */
   readonly commitConfirmed?: number;
   /**
   * Percentage of `<commit_confirmed>` minute(s) to wait between `commit confirmed` (commit with automatic rollback) and `commit check` (confirmation) commands. No effect if `<commit_confirmed>` is not used. May also be provided via JUNOS_COMMIT_CONFIRMED_WAIT_PERCENT environment variable. Defaults to 90.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#commit_confirmed_wait_percent JunosProvider#commit_confirmed_wait_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#commit_confirmed_wait_percent JunosProvider#commit_confirmed_wait_percent}
   */
   readonly commitConfirmedWaitPercent?: number;
   /**
   * More detailed log (netconf) in the specified file. May also be provided via JUNOS_LOG_PATH environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#debug_netconf_log_path JunosProvider#debug_netconf_log_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#debug_netconf_log_path JunosProvider#debug_netconf_log_path}
   */
   readonly debugNetconfLogPath?: string;
   /**
   * The normal process to create resources skipped to generate set lines, append them to the specified file, and respond with a `fake` successful creation of resources to Terraform. May also be provided via JUNOS_FAKECREATE_SETFILE environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#fake_create_with_setfile JunosProvider#fake_create_with_setfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#fake_create_with_setfile JunosProvider#fake_create_with_setfile}
   */
   readonly fakeCreateWithSetfile?: string;
   /**
   * The normal process to delete resources skipped to generate delete lines, append them to the same file as `fake_create_with_setfile`, and respond with a `fake` successful delete of resources to Terraform. May also be enabled via JUNOS_FAKEDELETE_ALSO environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#fake_delete_also JunosProvider#fake_delete_also}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#fake_delete_also JunosProvider#fake_delete_also}
   */
   readonly fakeDeleteAlso?: boolean | cdktf.IResolvable;
   /**
   * The normal process to update resources skipped to generate set/delete lines, append them to the same file as `fake_create_with_setfile`, and respond with a `fake` successful update of resources to Terraform. May also be enabled via JUNOS_FAKEUPDATE_ALSO environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#fake_update_also JunosProvider#fake_update_also}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#fake_update_also JunosProvider#fake_update_also}
   */
   readonly fakeUpdateAlso?: boolean | cdktf.IResolvable;
   /**
   * The permission to set for the created file (debug, setfile). May also be provided via JUNOS_FILE_PERMISSION environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#file_permission JunosProvider#file_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#file_permission JunosProvider#file_permission}
   */
   readonly filePermission?: string;
   /**
   * This is the Junos group used to remove configuration on a physical interface. May also be provided via JUNOS_GROUP_INTERFACE_DELETE environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#group_interface_delete JunosProvider#group_interface_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#group_interface_delete JunosProvider#group_interface_delete}
   */
   readonly groupInterfaceDelete?: string;
   /**
   * This is the target for Netconf session (ip or dns name). May also be provided via JUNOS_HOST environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#ip JunosProvider#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#ip JunosProvider#ip}
   */
   readonly ip?: string;
   /**
   * This is the passphrase for open `sshkeyfile` or `sshkey_pem`. May also be provided via JUNOS_KEYPASS environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#keypass JunosProvider#keypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#keypass JunosProvider#keypass}
   */
   readonly keypass?: string;
   /**
   * Disable decoding secret $9$ hashes by Junos device when read resource data. So encoded secrets need to be set in resources config to avoid drift between Terraform config and state. May also be enabled via JUNOS_NO_DECODE_SECRETS environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#no_decode_secrets JunosProvider#no_decode_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#no_decode_secrets JunosProvider#no_decode_secrets}
   */
   readonly noDecodeSecrets?: boolean | cdktf.IResolvable;
   /**
   * This is a password for ssh connection. May also be provided via JUNOS_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#password JunosProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#password JunosProvider#password}
   */
   readonly password?: string;
   /**
   * This is the tcp port for ssh connection. May also be provided via JUNOS_PORT environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#port JunosProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#port JunosProvider#port}
   */
   readonly port?: number;
   /**
   * Ciphers used in SSH connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#ssh_ciphers JunosProvider#ssh_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#ssh_ciphers JunosProvider#ssh_ciphers}
   */
   readonly sshCiphers?: string[];
   /**
   * Number of retries to establish SSH connections.The provider waits after each try, with the sleep time increasing by 1 second each time. May also be provided via JUNOS_SSH_RETRY_TO_ESTABLISH environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#ssh_retry_to_establish JunosProvider#ssh_retry_to_establish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#ssh_retry_to_establish JunosProvider#ssh_retry_to_establish}
   */
   readonly sshRetryToEstablish?: number;
   /**
   * Seconds to wait after Terraform provider closed a ssh connection. May also be provided via JUNOS_SLEEP_SSH_CLOSED environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#ssh_sleep_closed JunosProvider#ssh_sleep_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#ssh_sleep_closed JunosProvider#ssh_sleep_closed}
   */
   readonly sshSleepClosed?: number;
   /**
   * Seconds to wait for establishing TCP connections when initiating SSH connections. May also be provided via JUNOS_SSH_TIMEOUT_TO_ESTABLISH environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#ssh_timeout_to_establish JunosProvider#ssh_timeout_to_establish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#ssh_timeout_to_establish JunosProvider#ssh_timeout_to_establish}
   */
   readonly sshTimeoutToEstablish?: number;
   /**
   * This is the ssh key in PEM format for establish ssh connection. May also be provided via JUNOS_KEYPEM environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#sshkey_pem JunosProvider#sshkey_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#sshkey_pem JunosProvider#sshkey_pem}
   */
   readonly sshkeyPem?: string;
   /**
   * This is the path to ssh key for establish ssh connection. May also be provided via JUNOS_KEYFILE environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#sshkeyfile JunosProvider#sshkeyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#sshkeyfile JunosProvider#sshkeyfile}
   */
   readonly sshkeyfile?: string;
   /**
   * This is the username for ssh connection. May also be provided via JUNOS_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#username JunosProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#username JunosProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#alias JunosProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#alias JunosProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs junos}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs junos}
 */
 export class JunosProvider extends cdktf.TerraformProvider {
 
@@ -164,7 +164,7 @@ export class JunosProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a JunosProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JunosProvider to import
-  * @param importFromId The id of the existing JunosProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JunosProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JunosProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -176,7 +176,7 @@ export class JunosProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs junos} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs junos} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -187,8 +187,8 @@ export class JunosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'junos',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       terraformProviderSource: 'jeremmfr/junos'
     });

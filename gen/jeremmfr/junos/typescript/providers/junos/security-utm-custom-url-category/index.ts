@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_url_category
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_url_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SecurityUtmCustomUrlCategoryConfig extends cdktf.TerraformMetaA
   /**
   * The name of security utm custom-object custom-url-category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_url_category#name SecurityUtmCustomUrlCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_url_category#name SecurityUtmCustomUrlCategory#name}
   */
   readonly name: string;
   /**
   * List of url patterns for security utm custom-object custom-url-category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_url_category#value SecurityUtmCustomUrlCategory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_url_category#value SecurityUtmCustomUrlCategory#value}
   */
   readonly value: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_url_category junos_security_utm_custom_url_category}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_url_category junos_security_utm_custom_url_category}
 */
 export class SecurityUtmCustomUrlCategory extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SecurityUtmCustomUrlCategory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityUtmCustomUrlCategory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityUtmCustomUrlCategory to import
-  * @param importFromId The id of the existing SecurityUtmCustomUrlCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_url_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityUtmCustomUrlCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_url_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityUtmCustomUrlCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SecurityUtmCustomUrlCategory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_url_category junos_security_utm_custom_url_category} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_url_category junos_security_utm_custom_url_category} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SecurityUtmCustomUrlCategory extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_utm_custom_url_category',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

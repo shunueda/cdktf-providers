@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface ServicesFlowmonitoringVipfixTemplateConfig extends cdktf.Terraf
   /**
   * Interval after which active flow is exported (10..600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#flow_active_timeout ServicesFlowmonitoringVipfixTemplate#flow_active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#flow_active_timeout ServicesFlowmonitoringVipfixTemplate#flow_active_timeout}
   */
   readonly flowActiveTimeout?: number;
   /**
   * Period of inactivity that marks a flow inactive (10..600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#flow_inactive_timeout ServicesFlowmonitoringVipfixTemplate#flow_inactive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#flow_inactive_timeout ServicesFlowmonitoringVipfixTemplate#flow_inactive_timeout}
   */
   readonly flowInactiveTimeout?: number;
   /**
   * Include flow direction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#flow_key_flow_direction ServicesFlowmonitoringVipfixTemplate#flow_key_flow_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#flow_key_flow_direction ServicesFlowmonitoringVipfixTemplate#flow_key_flow_direction}
   */
   readonly flowKeyFlowDirection?: boolean | cdktf.IResolvable;
   /**
   * Include output interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#flow_key_output_interface ServicesFlowmonitoringVipfixTemplate#flow_key_output_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#flow_key_output_interface ServicesFlowmonitoringVipfixTemplate#flow_key_output_interface}
   */
   readonly flowKeyOutputInterface?: boolean | cdktf.IResolvable;
   /**
   * Include vlan ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#flow_key_vlan_id ServicesFlowmonitoringVipfixTemplate#flow_key_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#flow_key_vlan_id ServicesFlowmonitoringVipfixTemplate#flow_key_vlan_id}
   */
   readonly flowKeyVlanId?: boolean | cdktf.IResolvable;
   /**
   * Export-extension for `ipv4-template`, `ipv6-template` type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#ip_template_export_extension ServicesFlowmonitoringVipfixTemplate#ip_template_export_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#ip_template_export_extension ServicesFlowmonitoringVipfixTemplate#ip_template_export_extension}
   */
   readonly ipTemplateExportExtension?: string[];
   /**
   * One or more MPLS label positions (1..8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#mpls_template_label_position ServicesFlowmonitoringVipfixTemplate#mpls_template_label_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#mpls_template_label_position ServicesFlowmonitoringVipfixTemplate#mpls_template_label_position}
   */
   readonly mplsTemplateLabelPosition?: number[];
   /**
   * Name of flow-monitoring version-ipfix template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#name ServicesFlowmonitoringVipfixTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#name ServicesFlowmonitoringVipfixTemplate#name}
   */
   readonly name: string;
   /**
   * Disable nexthop learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#nexthop_learning_disable ServicesFlowmonitoringVipfixTemplate#nexthop_learning_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#nexthop_learning_disable ServicesFlowmonitoringVipfixTemplate#nexthop_learning_disable}
   */
   readonly nexthopLearningDisable?: boolean | cdktf.IResolvable;
   /**
   * Enable nexthop learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#nexthop_learning_enable ServicesFlowmonitoringVipfixTemplate#nexthop_learning_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#nexthop_learning_enable ServicesFlowmonitoringVipfixTemplate#nexthop_learning_enable}
   */
   readonly nexthopLearningEnable?: boolean | cdktf.IResolvable;
   /**
   * Observation Domain Id (0..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#observation_domain_id ServicesFlowmonitoringVipfixTemplate#observation_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#observation_domain_id ServicesFlowmonitoringVipfixTemplate#observation_domain_id}
   */
   readonly observationDomainId?: number;
   /**
   * Options template id (1024..65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#option_template_id ServicesFlowmonitoringVipfixTemplate#option_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#option_template_id ServicesFlowmonitoringVipfixTemplate#option_template_id}
   */
   readonly optionTemplateId?: number;
   /**
   * Template id (1024..65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#template_id ServicesFlowmonitoringVipfixTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#template_id ServicesFlowmonitoringVipfixTemplate#template_id}
   */
   readonly templateId?: number;
   /**
   * Tunnel observation IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#tunnel_observation_ipv4 ServicesFlowmonitoringVipfixTemplate#tunnel_observation_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#tunnel_observation_ipv4 ServicesFlowmonitoringVipfixTemplate#tunnel_observation_ipv4}
   */
   readonly tunnelObservationIpv4?: boolean | cdktf.IResolvable;
   /**
   * Tunnel observation IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#tunnel_observation_ipv6 ServicesFlowmonitoringVipfixTemplate#tunnel_observation_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#tunnel_observation_ipv6 ServicesFlowmonitoringVipfixTemplate#tunnel_observation_ipv6}
   */
   readonly tunnelObservationIpv6?: boolean | cdktf.IResolvable;
   /**
   * Type of template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#type ServicesFlowmonitoringVipfixTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#type ServicesFlowmonitoringVipfixTemplate#type}
   */
   readonly type: string;
   /**
   * option_refresh_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#option_refresh_rate ServicesFlowmonitoringVipfixTemplate#option_refresh_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#option_refresh_rate ServicesFlowmonitoringVipfixTemplate#option_refresh_rate}
   */
   readonly optionRefreshRate?: ServicesFlowmonitoringVipfixTemplateOptionRefreshRate;
   /**
   * template_refresh_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#template_refresh_rate ServicesFlowmonitoringVipfixTemplate#template_refresh_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#template_refresh_rate ServicesFlowmonitoringVipfixTemplate#template_refresh_rate}
   */
   readonly templateRefreshRate?: ServicesFlowmonitoringVipfixTemplateTemplateRefreshRate;
 }
@@ -120,13 +120,13 @@ export interface ServicesFlowmonitoringVipfixTemplateOptionRefreshRate {
   /**
   * In number of packets (1..480000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#packets ServicesFlowmonitoringVipfixTemplate#packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#packets ServicesFlowmonitoringVipfixTemplate#packets}
   */
   readonly packets?: number;
   /**
   * In number of seconds (10..600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#seconds ServicesFlowmonitoringVipfixTemplate#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#seconds ServicesFlowmonitoringVipfixTemplate#seconds}
   */
   readonly seconds?: number;
 }
@@ -251,13 +251,13 @@ export interface ServicesFlowmonitoringVipfixTemplateTemplateRefreshRate {
   /**
   * In number of packets (1..480000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#packets ServicesFlowmonitoringVipfixTemplate#packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#packets ServicesFlowmonitoringVipfixTemplate#packets}
   */
   readonly packets?: number;
   /**
   * In number of seconds (10..600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#seconds ServicesFlowmonitoringVipfixTemplate#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#seconds ServicesFlowmonitoringVipfixTemplate#seconds}
   */
   readonly seconds?: number;
 }
@@ -380,7 +380,7 @@ export class ServicesFlowmonitoringVipfixTemplateTemplateRefreshRateOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template junos_services_flowmonitoring_vipfix_template}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template junos_services_flowmonitoring_vipfix_template}
 */
 export class ServicesFlowmonitoringVipfixTemplate extends cdktf.TerraformResource {
 
@@ -396,7 +396,7 @@ export class ServicesFlowmonitoringVipfixTemplate extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ServicesFlowmonitoringVipfixTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicesFlowmonitoringVipfixTemplate to import
-  * @param importFromId The id of the existing ServicesFlowmonitoringVipfixTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicesFlowmonitoringVipfixTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicesFlowmonitoringVipfixTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -408,7 +408,7 @@ export class ServicesFlowmonitoringVipfixTemplate extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_flowmonitoring_vipfix_template junos_services_flowmonitoring_vipfix_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_flowmonitoring_vipfix_template junos_services_flowmonitoring_vipfix_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -419,8 +419,8 @@ export class ServicesFlowmonitoringVipfixTemplate extends cdktf.TerraformResourc
       terraformResourceType: 'junos_services_flowmonitoring_vipfix_template',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

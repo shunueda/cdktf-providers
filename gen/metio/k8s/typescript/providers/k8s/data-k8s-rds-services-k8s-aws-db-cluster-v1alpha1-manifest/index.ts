@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#metadata DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#metadata DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestMetadata;
   /**
   * DBClusterSpec defines the desired state of DBCluster. Contains the details of an Amazon Aurora DB cluster or Multi-AZ DB cluster. For an Amazon Aurora DB cluster, this data type is used as a response element in the operations CreateDBCluster, DeleteDBCluster, DescribeDBClusters, FailoverDBCluster, ModifyDBCluster, PromoteReadReplicaDBCluster, RestoreDBClusterFromS3, RestoreDBClusterFromSnapshot, RestoreDBClusterToPointInTime, StartDBCluster, and StopDBCluster. For a Multi-AZ DB cluster, this data type is used as a response element in the operations CreateDBCluster, DeleteDBCluster, DescribeDBClusters, FailoverDBCluster, ModifyDBCluster, RebootDBCluster, RestoreDBClusterFromSnapshot, and RestoreDBClusterToPointInTime. For more information on Amazon Aurora DB clusters, see What is Amazon Aurora? (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html) in the Amazon Aurora User Guide. For more information on Multi-AZ DB clusters, see Multi-AZ deployments with two readable standby DB instances (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/multi-az-db-clusters-concepts.html) in the Amazon RDS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#spec DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#spec DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#annotations DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#annotations DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#labels DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#labels DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestMetadataOutputRefe
 }
 export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbClusterParameterGroupRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbClusterP
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbClusterParameterGroupRefFrom;
 }
@@ -440,11 +440,11 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbClusterParam
 }
 export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubnetGroupRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -569,7 +569,7 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubnetGr
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubnetGroupRefFrom;
 }
@@ -663,11 +663,11 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubnetGroupR
 }
 export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecKmsKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -792,7 +792,7 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecKmsKeyRef 
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecKmsKeyRefFrom;
 }
@@ -888,19 +888,19 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUser
   /**
   * Key is the key within the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#key DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#key DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1049,11 +1049,11 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUserPass
 }
 export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUserSecretKmsKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1178,7 +1178,7 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUser
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUserSecretKmsKeyRefFrom;
 }
@@ -1272,27 +1272,27 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUserSecr
 }
 export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecScalingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#auto_pause DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#auto_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#auto_pause DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#auto_pause}
   */
   readonly autoPause?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#max_capacity DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#max_capacity DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#min_capacity DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#min_capacity DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#min_capacity}
   */
   readonly minCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#seconds_before_timeout DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#seconds_before_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#seconds_before_timeout DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#seconds_before_timeout}
   */
   readonly secondsBeforeTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#seconds_until_auto_pause DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#seconds_until_auto_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#seconds_until_auto_pause DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#seconds_until_auto_pause}
   */
   readonly secondsUntilAutoPause?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#timeout_action DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#timeout_action DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#timeout_action}
   */
   readonly timeoutAction?: string;
 }
@@ -1531,11 +1531,11 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecScalingConfigu
 }
 export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecServerlessV2ScalingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#max_capacity DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#max_capacity DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#min_capacity DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#min_capacity DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#min_capacity}
   */
   readonly minCapacity?: number;
 }
@@ -1658,11 +1658,11 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecServerlessV2Sc
 }
 export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#key DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#key DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#value DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#value DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1807,11 +1807,11 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecTagsList exten
 }
 export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecVpcSecurityGroupRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1936,7 +1936,7 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecVpcSecurit
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecVpcSecurityGroupRefsFrom;
 }
@@ -2054,365 +2054,365 @@ export interface DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpec {
   /**
   * The amount of storage in gibibytes (GiB) to allocate to each DB instance in the Multi-AZ DB cluster. This setting is required to create a Multi-AZ DB cluster. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#allocated_storage DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#allocated_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#allocated_storage DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#allocated_storage}
   */
   readonly allocatedStorage?: number;
   /**
   * A value that indicates whether minor engine upgrades are applied automatically to the DB cluster during the maintenance window. By default, minor engine upgrades are applied automatically. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#auto_minor_version_upgrade DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#auto_minor_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#auto_minor_version_upgrade DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#auto_minor_version_upgrade}
   */
   readonly autoMinorVersionUpgrade?: boolean | cdktf.IResolvable;
   /**
   * A list of Availability Zones (AZs) where DB instances in the DB cluster can be created. For information on Amazon Web Services Regions and Availability Zones, see Choosing the Regions and Availability Zones (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.RegionsAndAvailabilityZones.html) in the Amazon Aurora User Guide. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#availability_zones DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#availability_zones DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * The target backtrack window, in seconds. To disable backtracking, set this value to 0. Default: 0 Constraints: * If specified, this value must be set to a number from 0 to 259,200 (72 hours). Valid for: Aurora MySQL DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#backtrack_window DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#backtrack_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#backtrack_window DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#backtrack_window}
   */
   readonly backtrackWindow?: number;
   /**
   * The number of days for which automated backups are retained. Default: 1 Constraints: * Must be a value from 1 to 35 Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#backup_retention_period DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#backup_retention_period DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#backup_retention_period}
   */
   readonly backupRetentionPeriod?: number;
   /**
   * A value that indicates that the DB cluster should be associated with the specified CharacterSet. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#character_set_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#character_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#character_set_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#character_set_name}
   */
   readonly characterSetName?: string;
   /**
   * A value that indicates whether to copy all tags from the DB cluster to snapshots of the DB cluster. The default is not to copy them. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#copy_tags_to_snapshot DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#copy_tags_to_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#copy_tags_to_snapshot DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#copy_tags_to_snapshot}
   */
   readonly copyTagsToSnapshot?: boolean | cdktf.IResolvable;
   /**
   * The name for your database of up to 64 alphanumeric characters. If you do not provide a name, Amazon RDS doesn't create a database in the DB cluster you are creating. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#database_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#database_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#database_name}
   */
   readonly databaseName?: string;
   /**
   * The DB cluster identifier. This parameter is stored as a lowercase string. Constraints: * Must contain from 1 to 63 letters, numbers, or hyphens. * First character must be a letter. * Can't end with a hyphen or contain two consecutive hyphens. Example: my-cluster1 Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_identifier}
   */
   readonly dbClusterIdentifier: string;
   /**
   * The compute and memory capacity of each DB instance in the Multi-AZ DB cluster, for example db.m6gd.xlarge. Not all DB instance classes are available in all Amazon Web Services Regions, or for all database engines. For the full list of DB instance classes and availability for your engine, see DB instance class (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.html) in the Amazon RDS User Guide. This setting is required to create a Multi-AZ DB cluster. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_instance_class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_instance_class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_instance_class}
   */
   readonly dbClusterInstanceClass?: string;
   /**
   * The name of the DB cluster parameter group to associate with this DB cluster. If you do not specify a value, then the default DB cluster parameter group for the specified DB engine and version is used. Constraints: * If supplied, must match the name of an existing DB cluster parameter group. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_parameter_group_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_parameter_group_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_parameter_group_name}
   */
   readonly dbClusterParameterGroupName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_parameter_group_ref DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_parameter_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_parameter_group_ref DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_parameter_group_ref}
   */
   readonly dbClusterParameterGroupRef?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbClusterParameterGroupRef;
   /**
   * A DB subnet group to associate with this DB cluster. This setting is required to create a Multi-AZ DB cluster. Constraints: Must match the name of an existing DBSubnetGroup. Must not be default. Example: mydbsubnetgroup Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_subnet_group_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_subnet_group_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_subnet_group_name}
   */
   readonly dbSubnetGroupName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_subnet_group_ref DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_subnet_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_subnet_group_ref DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_subnet_group_ref}
   */
   readonly dbSubnetGroupRef?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubnetGroupRef;
   /**
   * Reserved for future use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_system_id DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#db_system_id DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#db_system_id}
   */
   readonly dbSystemId?: string;
   /**
   * A value that indicates whether the DB cluster has deletion protection enabled. The database can't be deleted when deletion protection is enabled. By default, deletion protection isn't enabled. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#deletion_protection DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#deletion_protection DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * DestinationRegion is used for presigning the request to a given region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#destination_region DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#destination_region DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#destination_region}
   */
   readonly destinationRegion?: string;
   /**
   * The Active Directory directory ID to create the DB cluster in. For Amazon Aurora DB clusters, Amazon RDS can use Kerberos authentication to authenticate users that connect to the DB cluster. For more information, see Kerberos authentication (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/kerberos-authentication.html) in the Amazon Aurora User Guide. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#domain DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#domain DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#domain}
   */
   readonly domain?: string;
   /**
   * Specify the name of the IAM role to be used when making API calls to the Directory Service. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#domain_iam_role_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#domain_iam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#domain_iam_role_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#domain_iam_role_name}
   */
   readonly domainIamRoleName?: string;
   /**
   * The list of log types that need to be enabled for exporting to CloudWatch Logs. The values in the list depend on the DB engine being used. RDS for MySQL Possible values are error, general, and slowquery. RDS for PostgreSQL Possible values are postgresql and upgrade. Aurora MySQL Possible values are audit, error, general, and slowquery. Aurora PostgreSQL Possible value is postgresql. For more information about exporting CloudWatch Logs for Amazon RDS, see Publishing Database Logs to Amazon CloudWatch Logs (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_LogAccess.html#USER_LogAccess.Procedural.UploadtoCloudWatch) in the Amazon RDS User Guide. For more information about exporting CloudWatch Logs for Amazon Aurora, see Publishing Database Logs to Amazon CloudWatch Logs (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_LogAccess.html#USER_LogAccess.Procedural.UploadtoCloudWatch) in the Amazon Aurora User Guide. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_cloudwatch_logs_exports DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_cloudwatch_logs_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_cloudwatch_logs_exports DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_cloudwatch_logs_exports}
   */
   readonly enableCloudwatchLogsExports?: string[];
   /**
   * A value that indicates whether to enable this DB cluster to forward write operations to the primary cluster of an Aurora global database (GlobalCluster). By default, write operations are not allowed on Aurora DB clusters that are secondary clusters in an Aurora global database. You can set this value only on Aurora DB clusters that are members of an Aurora global database. With this parameter enabled, a secondary cluster can forward writes to the current primary cluster and the resulting changes are replicated back to this cluster. For the primary DB cluster of an Aurora global database, this value is used immediately if the primary is demoted by the FailoverGlobalCluster API operation, but it does nothing until then. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_global_write_forwarding DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_global_write_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_global_write_forwarding DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_global_write_forwarding}
   */
   readonly enableGlobalWriteForwarding?: boolean | cdktf.IResolvable;
   /**
   * A value that indicates whether to enable the HTTP endpoint for an Aurora Serverless v1 DB cluster. By default, the HTTP endpoint is disabled. When enabled, the HTTP endpoint provides a connectionless web service API for running SQL queries on the Aurora Serverless v1 DB cluster. You can also query your database from inside the RDS console with the query editor. For more information, see Using the Data API for Aurora Serverless v1 (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html) in the Amazon Aurora User Guide. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_http_endpoint DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_http_endpoint DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_http_endpoint}
   */
   readonly enableHttpEndpoint?: boolean | cdktf.IResolvable;
   /**
   * A value that indicates whether to enable mapping of Amazon Web Services Identity and Access Management (IAM) accounts to database accounts. By default, mapping isn't enabled. For more information, see IAM Database Authentication (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) in the Amazon Aurora User Guide. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_iam_database_authentication DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_iam_database_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_iam_database_authentication DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_iam_database_authentication}
   */
   readonly enableIamDatabaseAuthentication?: boolean | cdktf.IResolvable;
   /**
   * A value that indicates whether to turn on Performance Insights for the DB cluster. For more information, see Using Amazon Performance Insights (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html) in the Amazon RDS User Guide. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_performance_insights DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_performance_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_performance_insights DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#enable_performance_insights}
   */
   readonly enablePerformanceInsights?: boolean | cdktf.IResolvable;
   /**
   * The name of the database engine to be used for this DB cluster. Valid Values: * aurora-mysql * aurora-postgresql * mysql * postgres Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#engine DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#engine DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#engine}
   */
   readonly engine: string;
   /**
   * The DB engine mode of the DB cluster, either provisioned or serverless. The serverless engine mode only applies for Aurora Serverless v1 DB clusters. Limitations and requirements apply to some DB engine modes. For more information, see the following sections in the Amazon Aurora User Guide: * Limitations of Aurora Serverless v1 (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.html#aurora-serverless.limitations) * Requirements for Aurora Serverless v2 (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.requirements.html) * Limitations of parallel query (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-mysql-parallel-query.html#aurora-mysql-parallel-query-limitations) * Limitations of Aurora global databases (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html#aurora-global-database.limitations) Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#engine_mode DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#engine_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#engine_mode DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#engine_mode}
   */
   readonly engineMode?: string;
   /**
   * The version number of the database engine to use. To list all of the available engine versions for Aurora MySQL version 2 (5.7-compatible) and version 3 (MySQL 8.0-compatible), use the following command: aws rds describe-db-engine-versions --engine aurora-mysql --query 'DBEngineVersions[].EngineVersion' You can supply either 5.7 or 8.0 to use the default engine version for Aurora MySQL version 2 or version 3, respectively. To list all of the available engine versions for Aurora PostgreSQL, use the following command: aws rds describe-db-engine-versions --engine aurora-postgresql --query 'DBEngineVersions[].EngineVersion' To list all of the available engine versions for RDS for MySQL, use the following command: aws rds describe-db-engine-versions --engine mysql --query 'DBEngineVersions[].EngineVersion' To list all of the available engine versions for RDS for PostgreSQL, use the following command: aws rds describe-db-engine-versions --engine postgres --query 'DBEngineVersions[].EngineVersion' Aurora MySQL For information, see Database engine updates for Amazon Aurora MySQL (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) in the Amazon Aurora User Guide. Aurora PostgreSQL For information, see Amazon Aurora PostgreSQL releases and engine versions (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.20180305.html) in the Amazon Aurora User Guide. MySQL For information, see Amazon RDS for MySQL (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.VersionMgmt) in the Amazon RDS User Guide. PostgreSQL For information, see Amazon RDS for PostgreSQL (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts) in the Amazon RDS User Guide. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#engine_version DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#engine_version DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * The global cluster ID of an Aurora cluster that becomes the primary cluster in the new global database cluster. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#global_cluster_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#global_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#global_cluster_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#global_cluster_identifier}
   */
   readonly globalClusterIdentifier?: string;
   /**
   * The amount of Provisioned IOPS (input/output operations per second) to be initially allocated for each DB instance in the Multi-AZ DB cluster. For information about valid IOPS values, see Provisioned IOPS storage (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Storage.html#USER_PIOPS) in the Amazon RDS User Guide. This setting is required to create a Multi-AZ DB cluster. Constraints: Must be a multiple between .5 and 50 of the storage amount for the DB cluster. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#iops DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#iops DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#iops}
   */
   readonly iops?: number;
   /**
   * The Amazon Web Services KMS key identifier for an encrypted DB cluster. The Amazon Web Services KMS key identifier is the key ARN, key ID, alias ARN, or alias name for the KMS key. To use a KMS key in a different Amazon Web Services account, specify the key ARN or alias ARN. When a KMS key isn't specified in KmsKeyId: * If ReplicationSourceIdentifier identifies an encrypted source, then Amazon RDS will use the KMS key used to encrypt the source. Otherwise, Amazon RDS will use your default KMS key. * If the StorageEncrypted parameter is enabled and ReplicationSourceIdentifier isn't specified, then Amazon RDS will use your default KMS key. There is a default KMS key for your Amazon Web Services account. Your Amazon Web Services account has a different default KMS key for each Amazon Web Services Region. If you create a read replica of an encrypted DB cluster in another Amazon Web Services Region, you must set KmsKeyId to a KMS key identifier that is valid in the destination Amazon Web Services Region. This KMS key is used to encrypt the read replica in that Amazon Web Services Region. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#kms_key_id DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#kms_key_id DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#kms_key_ref DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#kms_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#kms_key_ref DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#kms_key_ref}
   */
   readonly kmsKeyRef?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecKmsKeyRef;
   /**
   * A value that indicates whether to manage the master user password with Amazon Web Services Secrets Manager. For more information, see Password management with Amazon Web Services Secrets Manager (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-secrets-manager.html) in the Amazon RDS User Guide and Password management with Amazon Web Services Secrets Manager (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/rds-secrets-manager.html) in the Amazon Aurora User Guide. Constraints: * Can't manage the master user password with Amazon Web Services Secrets Manager if MasterUserPassword is specified. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#manage_master_user_password DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#manage_master_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#manage_master_user_password DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#manage_master_user_password}
   */
   readonly manageMasterUserPassword?: boolean | cdktf.IResolvable;
   /**
   * The password for the master database user. This password can contain any printable ASCII character except '/', ```, or '@'. Constraints: * Must contain from 8 to 41 characters. * Can't be specified if ManageMasterUserPassword is turned on. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#master_user_password DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#master_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#master_user_password DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#master_user_password}
   */
   readonly masterUserPassword?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUserPassword;
   /**
   * The Amazon Web Services KMS key identifier to encrypt a secret that is automatically generated and managed in Amazon Web Services Secrets Manager. This setting is valid only if the master user password is managed by RDS in Amazon Web Services Secrets Manager for the DB cluster. The Amazon Web Services KMS key identifier is the key ARN, key ID, alias ARN, or alias name for the KMS key. To use a KMS key in a different Amazon Web Services account, specify the key ARN or alias ARN. If you don't specify MasterUserSecretKmsKeyId, then the aws/secretsmanager KMS key is used to encrypt the secret. If the secret is in a different Amazon Web Services account, then you can't use the aws/secretsmanager KMS key to encrypt the secret, and you must use a customer managed KMS key. There is a default KMS key for your Amazon Web Services account. Your Amazon Web Services account has a different default KMS key for each Amazon Web Services Region. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#master_user_secret_kms_key_id DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#master_user_secret_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#master_user_secret_kms_key_id DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#master_user_secret_kms_key_id}
   */
   readonly masterUserSecretKmsKeyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#master_user_secret_kms_key_ref DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#master_user_secret_kms_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#master_user_secret_kms_key_ref DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#master_user_secret_kms_key_ref}
   */
   readonly masterUserSecretKmsKeyRef?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUserSecretKmsKeyRef;
   /**
   * The name of the master user for the DB cluster. Constraints: * Must be 1 to 16 letters or numbers. * First character must be a letter. * Can't be a reserved word for the chosen database engine. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#master_username DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#master_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#master_username DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#master_username}
   */
   readonly masterUsername?: string;
   /**
   * The interval, in seconds, between points when Enhanced Monitoring metrics are collected for the DB cluster. To turn off collecting Enhanced Monitoring metrics, specify 0. The default is 0. If MonitoringRoleArn is specified, also set MonitoringInterval to a value other than 0. Valid Values: 0, 1, 5, 10, 15, 30, 60 Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#monitoring_interval DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#monitoring_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#monitoring_interval DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#monitoring_interval}
   */
   readonly monitoringInterval?: number;
   /**
   * The Amazon Resource Name (ARN) for the IAM role that permits RDS to send Enhanced Monitoring metrics to Amazon CloudWatch Logs. An example is arn:aws:iam:123456789012:role/emaccess. For information on creating a monitoring role, see Setting up and enabling Enhanced Monitoring (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html#USER_Monitoring.OS.Enabling) in the Amazon RDS User Guide. If MonitoringInterval is set to a value other than 0, supply a MonitoringRoleArn value. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#monitoring_role_arn DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#monitoring_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#monitoring_role_arn DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#monitoring_role_arn}
   */
   readonly monitoringRoleArn?: string;
   /**
   * The network type of the DB cluster. Valid values: * IPV4 * DUAL The network type is determined by the DBSubnetGroup specified for the DB cluster. A DBSubnetGroup can support only the IPv4 protocol or the IPv4 and the IPv6 protocols (DUAL). For more information, see Working with a DB instance in a VPC (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html) in the Amazon Aurora User Guide. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#network_type DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#network_type DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#network_type}
   */
   readonly networkType?: string;
   /**
   * A value that indicates that the DB cluster should be associated with the specified option group. DB clusters are associated with a default option group that can't be modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#option_group_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#option_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#option_group_name DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#option_group_name}
   */
   readonly optionGroupName?: string;
   /**
   * The Amazon Web Services KMS key identifier for encryption of Performance Insights data. The Amazon Web Services KMS key identifier is the key ARN, key ID, alias ARN, or alias name for the KMS key. If you don't specify a value for PerformanceInsightsKMSKeyId, then Amazon RDS uses your default KMS key. There is a default KMS key for your Amazon Web Services account. Your Amazon Web Services account has a different default KMS key for each Amazon Web Services Region. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#performance_insights_kms_key_id DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#performance_insights_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#performance_insights_kms_key_id DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#performance_insights_kms_key_id}
   */
   readonly performanceInsightsKmsKeyId?: string;
   /**
   * The number of days to retain Performance Insights data. The default is 7 days. The following values are valid: * 7 * month * 31, where month is a number of months from 1-23 * 731 For example, the following values are valid: * 93 (3 months * 31) * 341 (11 months * 31) * 589 (19 months * 31) * 731 If you specify a retention period such as 94, which isn't a valid value, RDS issues an error. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#performance_insights_retention_period DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#performance_insights_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#performance_insights_retention_period DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#performance_insights_retention_period}
   */
   readonly performanceInsightsRetentionPeriod?: number;
   /**
   * The port number on which the instances in the DB cluster accept connections. RDS for MySQL and Aurora MySQL Default: 3306 Valid values: 1150-65535 RDS for PostgreSQL and Aurora PostgreSQL Default: 5432 Valid values: 1150-65535 Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#port DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#port DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * When you are replicating a DB cluster from one Amazon Web Services GovCloud (US) Region to another, an URL that contains a Signature Version 4 signed request for the CreateDBCluster operation to be called in the source Amazon Web Services Region where the DB cluster is replicated from. Specify PreSignedUrl only when you are performing cross-Region replication from an encrypted DB cluster. The presigned URL must be a valid request for the CreateDBCluster API operation that can run in the source Amazon Web Services Region that contains the encrypted DB cluster to copy. The presigned URL request must contain the following parameter values: * KmsKeyId - The KMS key identifier for the KMS key to use to encrypt the copy of the DB cluster in the destination Amazon Web Services Region. This should refer to the same KMS key for both the CreateDBCluster operation that is called in the destination Amazon Web Services Region, and the operation contained in the presigned URL. * DestinationRegion - The name of the Amazon Web Services Region that Aurora read replica will be created in. * ReplicationSourceIdentifier - The DB cluster identifier for the encrypted DB cluster to be copied. This identifier must be in the Amazon Resource Name (ARN) format for the source Amazon Web Services Region. For example, if you are copying an encrypted DB cluster from the us-west-2 Amazon Web Services Region, then your ReplicationSourceIdentifier would look like Example: arn:aws:rds:us-west-2:123456789012:cluster:aurora-cluster1. To learn how to generate a Signature Version 4 signed request, see Authenticating Requests: Using Query Parameters (Amazon Web Services Signature Version 4) (https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-query-string-auth.html) and Signature Version 4 Signing Process (https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html). If you are using an Amazon Web Services SDK tool or the CLI, you can specify SourceRegion (or --source-region for the CLI) instead of specifying PreSignedUrl manually. Specifying SourceRegion autogenerates a presigned URL that is a valid request for the operation that can run in the source Amazon Web Services Region. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#pre_signed_url DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#pre_signed_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#pre_signed_url DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#pre_signed_url}
   */
   readonly preSignedUrl?: string;
   /**
   * The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. The default is a 30-minute window selected at random from an 8-hour block of time for each Amazon Web Services Region. To view the time blocks available, see Backup window (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Managing.Backups.html#Aurora.Managing.Backups.BackupWindow) in the Amazon Aurora User Guide. Constraints: * Must be in the format hh24:mi-hh24:mi. * Must be in Universal Coordinated Time (UTC). * Must not conflict with the preferred maintenance window. * Must be at least 30 minutes. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#preferred_backup_window DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#preferred_backup_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#preferred_backup_window DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#preferred_backup_window}
   */
   readonly preferredBackupWindow?: string;
   /**
   * The weekly time range during which system maintenance can occur, in Universal Coordinated Time (UTC). Format: ddd:hh24:mi-ddd:hh24:mi The default is a 30-minute window selected at random from an 8-hour block of time for each Amazon Web Services Region, occurring on a random day of the week. To see the time blocks available, see Adjusting the Preferred DB Cluster Maintenance Window (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_UpgradeDBInstance.Maintenance.html#AdjustingTheMaintenanceWindow.Aurora) in the Amazon Aurora User Guide. Valid Days: Mon, Tue, Wed, Thu, Fri, Sat, Sun. Constraints: Minimum 30-minute window. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#preferred_maintenance_window DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#preferred_maintenance_window DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
   * A value that indicates whether the DB cluster is publicly accessible. When the DB cluster is publicly accessible, its Domain Name System (DNS) endpoint resolves to the private IP address from within the DB cluster's virtual private cloud (VPC). It resolves to the public IP address from outside of the DB cluster's VPC. Access to the DB cluster is ultimately controlled by the security group it uses. That public access isn't permitted if the security group assigned to the DB cluster doesn't permit it. When the DB cluster isn't publicly accessible, it is an internal DB cluster with a DNS name that resolves to a private IP address. Default: The default behavior varies depending on whether DBSubnetGroupName is specified. If DBSubnetGroupName isn't specified, and PubliclyAccessible isn't specified, the following applies: * If the default VPC in the target Region doesn’t have an internet gateway attached to it, the DB cluster is private. * If the default VPC in the target Region has an internet gateway attached to it, the DB cluster is public. If DBSubnetGroupName is specified, and PubliclyAccessible isn't specified, the following applies: * If the subnets are part of a VPC that doesn’t have an internet gateway attached to it, the DB cluster is private. * If the subnets are part of a VPC that has an internet gateway attached to it, the DB cluster is public. Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#publicly_accessible DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#publicly_accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#publicly_accessible DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#publicly_accessible}
   */
   readonly publiclyAccessible?: boolean | cdktf.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the source DB instance or DB cluster if this DB cluster is created as a read replica. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#replication_source_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#replication_source_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#replication_source_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#replication_source_identifier}
   */
   readonly replicationSourceIdentifier?: string;
   /**
   * The date and time to restore the DB cluster to. Valid Values: Value must be a time in Universal Coordinated Time (UTC) format Constraints: * Must be before the latest restorable time for the DB instance * Must be specified if UseLatestRestorableTime parameter isn't provided * Can't be specified if the UseLatestRestorableTime parameter is enabled * Can't be specified if the RestoreType parameter is copy-on-write Example: 2015-03-07T23:45:00Z Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#restore_to_time DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#restore_to_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#restore_to_time DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#restore_to_time}
   */
   readonly restoreToTime?: string;
   /**
   * The type of restore to be performed. You can specify one of the following values: * full-copy - The new DB cluster is restored as a full copy of the source DB cluster. * copy-on-write - The new DB cluster is restored as a clone of the source DB cluster. Constraints: You can't specify copy-on-write if the engine version of the source DB cluster is earlier than 1.11. If you don't specify a RestoreType value, then the new DB cluster is restored as a full copy of the source DB cluster. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#restore_type DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#restore_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#restore_type DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#restore_type}
   */
   readonly restoreType?: string;
   /**
   * For DB clusters in serverless DB engine mode, the scaling properties of the DB cluster. Valid for: Aurora DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#scaling_configuration DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#scaling_configuration DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#scaling_configuration}
   */
   readonly scalingConfiguration?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecScalingConfiguration;
   /**
   * Contains the scaling configuration of an Aurora Serverless v2 DB cluster. For more information, see Using Amazon Aurora Serverless v2 (https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html) in the Amazon Aurora User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#serverless_v2_scaling_configuration DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#serverless_v2_scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#serverless_v2_scaling_configuration DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#serverless_v2_scaling_configuration}
   */
   readonly serverlessV2ScalingConfiguration?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecServerlessV2ScalingConfiguration;
   /**
   * The identifier for the DB snapshot or DB cluster snapshot to restore from. You can use either the name or the Amazon Resource Name (ARN) to specify a DB cluster snapshot. However, you can use only the ARN to specify a DB snapshot. Constraints: * Must match the identifier of an existing Snapshot. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#snapshot_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#snapshot_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#snapshot_identifier}
   */
   readonly snapshotIdentifier?: string;
   /**
   * The identifier of the source DB cluster from which to restore. Constraints: * Must match the identifier of an existing DBCluster. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#source_db_cluster_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#source_db_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#source_db_cluster_identifier DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#source_db_cluster_identifier}
   */
   readonly sourceDbClusterIdentifier?: string;
   /**
   * SourceRegion is the source region where the resource exists. This is not sent over the wire and is only used for presigning. This value should always have the same region as the source ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#source_region DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#source_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#source_region DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#source_region}
   */
   readonly sourceRegion?: string;
   /**
   * A value that indicates whether the DB cluster is encrypted. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#storage_encrypted DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#storage_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#storage_encrypted DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#storage_encrypted}
   */
   readonly storageEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Specifies the storage type to be associated with the DB cluster. This setting is required to create a Multi-AZ DB cluster. Valid values: io1 When specified, a value for the Iops parameter is required. Default: io1 Valid for: Multi-AZ DB clusters only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#storage_type DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#storage_type DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
   * Tags to assign to the DB cluster. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#tags DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#tags DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * A value that indicates whether to restore the DB cluster to the latest restorable backup time. By default, the DB cluster isn't restored to the latest restorable backup time. Constraints: Can't be specified if RestoreToTime parameter is provided. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#use_latest_restorable_time DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#use_latest_restorable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#use_latest_restorable_time DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#use_latest_restorable_time}
   */
   readonly useLatestRestorableTime?: boolean | cdktf.IResolvable;
   /**
   * A list of EC2 VPC security groups to associate with this DB cluster. Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#vpc_security_group_i_ds DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#vpc_security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#vpc_security_group_i_ds DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#vpc_security_group_i_ds}
   */
   readonly vpcSecurityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#vpc_security_group_refs DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#vpc_security_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#vpc_security_group_refs DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest#vpc_security_group_refs}
   */
   readonly vpcSecurityGroupRefs?: DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecVpcSecurityGroupRefs[] | cdktf.IResolvable;
 }
@@ -4240,7 +4240,7 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest k8s_rds_services_k8s_aws_db_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest k8s_rds_services_k8s_aws_db_cluster_v1alpha1_manifest}
 */
 export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4256,7 +4256,7 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4268,7 +4268,7 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest k8s_rds_services_k8s_aws_db_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_cluster_v1alpha1_manifest k8s_rds_services_k8s_aws_db_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4279,8 +4279,8 @@ export class DataK8SRdsServicesK8SAwsDbClusterV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_rds_services_k8s_aws_db_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

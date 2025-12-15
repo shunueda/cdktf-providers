@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#metadata DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#metadata DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestMetadata;
   /**
   * IngressClassParamsSpec defines the desired state of IngressClassParams
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#spec DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#spec DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#annotations DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#annotations DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#labels DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#labels DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#name DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#name DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecGroup {
   /**
   * Name is the name of IngressGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#name DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#name DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -280,13 +280,13 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecListener
   /**
   * The key of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#key DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#key DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * The value of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#value DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#value DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -427,19 +427,19 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecListener
   /**
   * The attributes of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#listener_attributes DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#listener_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#listener_attributes DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#listener_attributes}
   */
   readonly listenerAttributes?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecListenersListenerAttributes[] | cdktf.IResolvable;
   /**
   * The port of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#port DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#port DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * The protocol of the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#protocol DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#protocol DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -615,13 +615,13 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecLoadBala
   /**
   * The key of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#key DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#key DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * The value of the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#value DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#value DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -762,19 +762,19 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecNamespac
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#key DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#key DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#operator DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#operator DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#values DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#values DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -944,13 +944,13 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecNamespac
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#match_expressions DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#match_expressions DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#match_labels DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#match_labels DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1075,13 +1075,13 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecSubnets 
   /**
   * IDs specify the resource IDs of subnets. Exactly one of this or 'tags' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#ids DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#ids DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#ids}
   */
   readonly ids?: string[];
   /**
   * Tags specifies subnets in the load balancer's VPC where each tag specified in the map key contains one of the values in the corresponding value list. Exactly one of this or 'ids' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#tags DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#tags DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#tags}
   */
   readonly tags?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -1206,13 +1206,13 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#key DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#key DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#value DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#value DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -1353,67 +1353,67 @@ export interface DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpec {
   /**
   * CertificateArn specifies the ARN of the certificates for all Ingresses that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#certificate_arn DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#certificate_arn DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#certificate_arn}
   */
   readonly certificateArn?: string[];
   /**
   * Group defines the IngressGroup for all Ingresses that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#group DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#group DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#group}
   */
   readonly group?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecGroup;
   /**
   * InboundCIDRs specifies the CIDRs that are allowed to access the Ingresses that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#inbound_cidrs DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#inbound_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#inbound_cidrs DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#inbound_cidrs}
   */
   readonly inboundCidrs?: string[];
   /**
   * IPAddressType defines the ip address type for all Ingresses that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#ip_address_type DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#ip_address_type DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * Listeners define a list of listeners with their protocol, port and attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#listeners DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#listeners DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#listeners}
   */
   readonly listeners?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecListeners[] | cdktf.IResolvable;
   /**
   * LoadBalancerAttributes define the custom attributes to LoadBalancers for all Ingress that that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#load_balancer_attributes DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#load_balancer_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#load_balancer_attributes DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#load_balancer_attributes}
   */
   readonly loadBalancerAttributes?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecLoadBalancerAttributes[] | cdktf.IResolvable;
   /**
   * NamespaceSelector restrict the namespaces of Ingresses that are allowed to specify the IngressClass with this IngressClassParams. * if absent or present but empty, it selects all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#namespace_selector DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#namespace_selector DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecNamespaceSelector;
   /**
   * Scheme defines the scheme for all Ingresses that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#scheme DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#scheme DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * SSLPolicy specifies the SSL Policy for all Ingresses that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#ssl_policy DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#ssl_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#ssl_policy DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#ssl_policy}
   */
   readonly sslPolicy?: string;
   /**
   * Subnets defines the subnets for all Ingresses that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#subnets DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#subnets DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#subnets}
   */
   readonly subnets?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecSubnets;
   /**
   * Tags defines list of Tags on AWS resources provisioned for Ingresses that belong to IngressClass with this IngressClassParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#tags DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#tags DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest#tags}
   */
   readonly tags?: DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -1797,7 +1797,7 @@ export class DataK8SElbv2K8SAwsIngressClassParamsV1Beta1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest k8s_elbv2_k8s_aws_ingress_class_params_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest k8s_elbv2_k8s_aws_ingress_class_params_v1beta1_manifest}
 */
 export class DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1813,7 +1813,7 @@ export class DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1825,7 +1825,7 @@ export class DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest k8s_elbv2_k8s_aws_ingress_class_params_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_ingress_class_params_v1beta1_manifest k8s_elbv2_k8s_aws_ingress_class_params_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1836,8 +1836,8 @@ export class DataK8SElbv2K8SAwsIngressClassParamsV1Beta1Manifest extends cdktf.T
       terraformResourceType: 'k8s_elbv2_k8s_aws_ingress_class_params_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

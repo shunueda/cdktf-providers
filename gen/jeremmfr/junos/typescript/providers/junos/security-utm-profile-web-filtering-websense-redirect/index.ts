@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SecurityUtmProfileWebFilteringWebsenseRedirectConfig extends cd
   /**
   * Set websense redirect account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#account SecurityUtmProfileWebFilteringWebsenseRedirect#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#account SecurityUtmProfileWebFilteringWebsenseRedirect#account}
   */
   readonly account?: string;
   /**
   * Custom block message sent to HTTP client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#custom_block_message SecurityUtmProfileWebFilteringWebsenseRedirect#custom_block_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#custom_block_message SecurityUtmProfileWebFilteringWebsenseRedirect#custom_block_message}
   */
   readonly customBlockMessage?: string;
   /**
   * Custom message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#custom_message SecurityUtmProfileWebFilteringWebsenseRedirect#custom_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#custom_message SecurityUtmProfileWebFilteringWebsenseRedirect#custom_message}
   */
   readonly customMessage?: string;
   /**
   * The name of security utm feature-profile web-filtering websense-redirect profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#name SecurityUtmProfileWebFilteringWebsenseRedirect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#name SecurityUtmProfileWebFilteringWebsenseRedirect#name}
   */
   readonly name: string;
   /**
   * Do not perform safe-search for Juniper local protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#no_safe_search SecurityUtmProfileWebFilteringWebsenseRedirect#no_safe_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#no_safe_search SecurityUtmProfileWebFilteringWebsenseRedirect#no_safe_search}
   */
   readonly noSafeSearch?: boolean | cdktf.IResolvable;
   /**
   * Set sockets number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#sockets SecurityUtmProfileWebFilteringWebsenseRedirect#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#sockets SecurityUtmProfileWebFilteringWebsenseRedirect#sockets}
   */
   readonly sockets?: number;
   /**
   * Set timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#timeout SecurityUtmProfileWebFilteringWebsenseRedirect#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#timeout SecurityUtmProfileWebFilteringWebsenseRedirect#timeout}
   */
   readonly timeout?: number;
   /**
   * category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#category SecurityUtmProfileWebFilteringWebsenseRedirect#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#category SecurityUtmProfileWebFilteringWebsenseRedirect#category}
   */
   readonly category?: SecurityUtmProfileWebFilteringWebsenseRedirectCategory[] | cdktf.IResolvable;
   /**
   * fallback_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#fallback_settings SecurityUtmProfileWebFilteringWebsenseRedirect#fallback_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#fallback_settings SecurityUtmProfileWebFilteringWebsenseRedirect#fallback_settings}
   */
   readonly fallbackSettings?: SecurityUtmProfileWebFilteringWebsenseRedirectFallbackSettings;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#server SecurityUtmProfileWebFilteringWebsenseRedirect#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#server SecurityUtmProfileWebFilteringWebsenseRedirect#server}
   */
   readonly server?: SecurityUtmProfileWebFilteringWebsenseRedirectServer;
 }
@@ -72,19 +72,19 @@ export interface SecurityUtmProfileWebFilteringWebsenseRedirectCategory {
   /**
   * Action when web traffic matches category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#action SecurityUtmProfileWebFilteringWebsenseRedirect#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#action SecurityUtmProfileWebFilteringWebsenseRedirect#action}
   */
   readonly action: string;
   /**
   * Custom message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#custom_message SecurityUtmProfileWebFilteringWebsenseRedirect#custom_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#custom_message SecurityUtmProfileWebFilteringWebsenseRedirect#custom_message}
   */
   readonly customMessage?: string;
   /**
   * Name of category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#name SecurityUtmProfileWebFilteringWebsenseRedirect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#name SecurityUtmProfileWebFilteringWebsenseRedirect#name}
   */
   readonly name: string;
 }
@@ -254,25 +254,25 @@ export interface SecurityUtmProfileWebFilteringWebsenseRedirectFallbackSettings 
   /**
   * Default action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#default SecurityUtmProfileWebFilteringWebsenseRedirect#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#default SecurityUtmProfileWebFilteringWebsenseRedirect#default}
   */
   readonly default?: string;
   /**
   * Action when device cannot connect to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#server_connectivity SecurityUtmProfileWebFilteringWebsenseRedirect#server_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#server_connectivity SecurityUtmProfileWebFilteringWebsenseRedirect#server_connectivity}
   */
   readonly serverConnectivity?: string;
   /**
   * Action when connection to server timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#timeout SecurityUtmProfileWebFilteringWebsenseRedirect#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#timeout SecurityUtmProfileWebFilteringWebsenseRedirect#timeout}
   */
   readonly timeout?: string;
   /**
   * Action when requests exceed the limit of engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#too_many_requests SecurityUtmProfileWebFilteringWebsenseRedirect#too_many_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#too_many_requests SecurityUtmProfileWebFilteringWebsenseRedirect#too_many_requests}
   */
   readonly tooManyRequests?: string;
 }
@@ -455,25 +455,25 @@ export interface SecurityUtmProfileWebFilteringWebsenseRedirectServer {
   /**
   * Server host IP address or string host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#host SecurityUtmProfileWebFilteringWebsenseRedirect#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#host SecurityUtmProfileWebFilteringWebsenseRedirect#host}
   */
   readonly host?: string;
   /**
   * Server port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#port SecurityUtmProfileWebFilteringWebsenseRedirect#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#port SecurityUtmProfileWebFilteringWebsenseRedirect#port}
   */
   readonly port?: number;
   /**
   * Routing instance used to connect server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#routing_instance SecurityUtmProfileWebFilteringWebsenseRedirect#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#routing_instance SecurityUtmProfileWebFilteringWebsenseRedirect#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Source ip address used to connect server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#source_address SecurityUtmProfileWebFilteringWebsenseRedirect#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#source_address SecurityUtmProfileWebFilteringWebsenseRedirect#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -654,7 +654,7 @@ export class SecurityUtmProfileWebFilteringWebsenseRedirectServerOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect junos_security_utm_profile_web_filtering_websense_redirect}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect junos_security_utm_profile_web_filtering_websense_redirect}
 */
 export class SecurityUtmProfileWebFilteringWebsenseRedirect extends cdktf.TerraformResource {
 
@@ -670,7 +670,7 @@ export class SecurityUtmProfileWebFilteringWebsenseRedirect extends cdktf.Terraf
   * Generates CDKTF code for importing a SecurityUtmProfileWebFilteringWebsenseRedirect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityUtmProfileWebFilteringWebsenseRedirect to import
-  * @param importFromId The id of the existing SecurityUtmProfileWebFilteringWebsenseRedirect that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityUtmProfileWebFilteringWebsenseRedirect that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityUtmProfileWebFilteringWebsenseRedirect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -682,7 +682,7 @@ export class SecurityUtmProfileWebFilteringWebsenseRedirect extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_websense_redirect junos_security_utm_profile_web_filtering_websense_redirect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_websense_redirect junos_security_utm_profile_web_filtering_websense_redirect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -693,8 +693,8 @@ export class SecurityUtmProfileWebFilteringWebsenseRedirect extends cdktf.Terraf
       terraformResourceType: 'junos_security_utm_profile_web_filtering_websense_redirect',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

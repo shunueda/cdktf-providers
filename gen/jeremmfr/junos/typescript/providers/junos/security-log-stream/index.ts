@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SecurityLogStreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * Selects the type of events that may be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#category SecurityLogStream#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#category SecurityLogStream#category}
   */
   readonly category?: string[];
   /**
   * Threat-attack security events are logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#filter_threat_attack SecurityLogStream#filter_threat_attack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#filter_threat_attack SecurityLogStream#filter_threat_attack}
   */
   readonly filterThreatAttack?: boolean | cdktf.IResolvable;
   /**
   * Specify the log stream format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#format SecurityLogStream#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#format SecurityLogStream#format}
   */
   readonly format?: string;
   /**
   * Name of security log stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#name SecurityLogStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#name SecurityLogStream#name}
   */
   readonly name: string;
   /**
   * Rate-limit for security logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#rate_limit SecurityLogStream#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#rate_limit SecurityLogStream#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Severity threshold for security logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#severity SecurityLogStream#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#severity SecurityLogStream#severity}
   */
   readonly severity?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#file SecurityLogStream#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#file SecurityLogStream#file}
   */
   readonly file?: SecurityLogStreamFile;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#host SecurityLogStream#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#host SecurityLogStream#host}
   */
   readonly host?: SecurityLogStreamHost;
   /**
   * transport block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#transport SecurityLogStream#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#transport SecurityLogStream#transport}
   */
   readonly transport?: SecurityLogStreamTransport;
 }
@@ -66,25 +66,25 @@ export interface SecurityLogStreamFile {
   /**
   * To disable log consolidation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#allow_duplicates SecurityLogStream#allow_duplicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#allow_duplicates SecurityLogStream#allow_duplicates}
   */
   readonly allowDuplicates?: boolean | cdktf.IResolvable;
   /**
   * Name of local log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#name SecurityLogStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#name SecurityLogStream#name}
   */
   readonly name?: string;
   /**
   * Maximum number of rotate files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#rotation SecurityLogStream#rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#rotation SecurityLogStream#rotation}
   */
   readonly rotation?: number;
   /**
   * Maximum size of local log file in megabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#size SecurityLogStream#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#size SecurityLogStream#size}
   */
   readonly size?: number;
 }
@@ -267,19 +267,19 @@ export interface SecurityLogStreamHost {
   /**
   * IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#ip_address SecurityLogStream#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#ip_address SecurityLogStream#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Host port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#port SecurityLogStream#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#port SecurityLogStream#port}
   */
   readonly port?: number;
   /**
   * Routing instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#routing_instance SecurityLogStream#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#routing_instance SecurityLogStream#routing_instance}
   */
   readonly routingInstance?: string;
 }
@@ -433,19 +433,19 @@ export interface SecurityLogStreamTransport {
   /**
   * Set security log transport protocol for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#protocol SecurityLogStream#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#protocol SecurityLogStream#protocol}
   */
   readonly protocol?: string;
   /**
   * Set tcp connection number per-stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#tcp_connections SecurityLogStream#tcp_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#tcp_connections SecurityLogStream#tcp_connections}
   */
   readonly tcpConnections?: number;
   /**
   * TLS profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#tls_profile SecurityLogStream#tls_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#tls_profile SecurityLogStream#tls_profile}
   */
   readonly tlsProfile?: string;
 }
@@ -597,7 +597,7 @@ export class SecurityLogStreamTransportOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream junos_security_log_stream}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream junos_security_log_stream}
 */
 export class SecurityLogStream extends cdktf.TerraformResource {
 
@@ -613,7 +613,7 @@ export class SecurityLogStream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityLogStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityLogStream to import
-  * @param importFromId The id of the existing SecurityLogStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityLogStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityLogStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -625,7 +625,7 @@ export class SecurityLogStream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_log_stream junos_security_log_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_log_stream junos_security_log_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -636,8 +636,8 @@ export class SecurityLogStream extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_log_stream',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

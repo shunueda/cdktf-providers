@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface BranchPolicyAutoReviewersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#blocking BranchPolicyAutoReviewers#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#blocking BranchPolicyAutoReviewers#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#enabled BranchPolicyAutoReviewers#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#enabled BranchPolicyAutoReviewers#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#id BranchPolicyAutoReviewers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#id BranchPolicyAutoReviewers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#project_id BranchPolicyAutoReviewers#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#project_id BranchPolicyAutoReviewers#project_id}
   */
   readonly projectId: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#settings BranchPolicyAutoReviewers#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#settings BranchPolicyAutoReviewers#settings}
   */
   readonly settings: BranchPolicyAutoReviewersSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#timeouts BranchPolicyAutoReviewers#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#timeouts BranchPolicyAutoReviewers#timeouts}
   */
   readonly timeouts?: BranchPolicyAutoReviewersTimeouts;
 }
 export interface BranchPolicyAutoReviewersSettingsScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#match_type BranchPolicyAutoReviewers#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#match_type BranchPolicyAutoReviewers#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#repository_id BranchPolicyAutoReviewers#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#repository_id BranchPolicyAutoReviewers#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#repository_ref BranchPolicyAutoReviewers#repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#repository_ref BranchPolicyAutoReviewers#repository_ref}
   */
   readonly repositoryRef?: string;
 }
@@ -223,29 +223,29 @@ export class BranchPolicyAutoReviewersSettingsScopeList extends cdktf.ComplexLis
 }
 export interface BranchPolicyAutoReviewersSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#auto_reviewer_ids BranchPolicyAutoReviewers#auto_reviewer_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#auto_reviewer_ids BranchPolicyAutoReviewers#auto_reviewer_ids}
   */
   readonly autoReviewerIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#message BranchPolicyAutoReviewers#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#message BranchPolicyAutoReviewers#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#minimum_number_of_reviewers BranchPolicyAutoReviewers#minimum_number_of_reviewers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#minimum_number_of_reviewers BranchPolicyAutoReviewers#minimum_number_of_reviewers}
   */
   readonly minimumNumberOfReviewers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#path_filters BranchPolicyAutoReviewers#path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#path_filters BranchPolicyAutoReviewers#path_filters}
   */
   readonly pathFilters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#submitter_can_vote BranchPolicyAutoReviewers#submitter_can_vote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#submitter_can_vote BranchPolicyAutoReviewers#submitter_can_vote}
   */
   readonly submitterCanVote?: boolean | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#scope BranchPolicyAutoReviewers#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#scope BranchPolicyAutoReviewers#scope}
   */
   readonly scope: BranchPolicyAutoReviewersSettingsScope[] | cdktf.IResolvable;
 }
@@ -468,19 +468,19 @@ export class BranchPolicyAutoReviewersSettingsOutputReference extends cdktf.Comp
 }
 export interface BranchPolicyAutoReviewersTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#create BranchPolicyAutoReviewers#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#create BranchPolicyAutoReviewers#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#delete BranchPolicyAutoReviewers#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#delete BranchPolicyAutoReviewers#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#read BranchPolicyAutoReviewers#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#read BranchPolicyAutoReviewers#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#update BranchPolicyAutoReviewers#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#update BranchPolicyAutoReviewers#update}
   */
   readonly update?: string;
 }
@@ -661,7 +661,7 @@ export class BranchPolicyAutoReviewersTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers azuredevops_branch_policy_auto_reviewers}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers azuredevops_branch_policy_auto_reviewers}
 */
 export class BranchPolicyAutoReviewers extends cdktf.TerraformResource {
 
@@ -677,7 +677,7 @@ export class BranchPolicyAutoReviewers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BranchPolicyAutoReviewers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchPolicyAutoReviewers to import
-  * @param importFromId The id of the existing BranchPolicyAutoReviewers that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchPolicyAutoReviewers that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchPolicyAutoReviewers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -689,7 +689,7 @@ export class BranchPolicyAutoReviewers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_auto_reviewers azuredevops_branch_policy_auto_reviewers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_auto_reviewers azuredevops_branch_policy_auto_reviewers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -700,8 +700,8 @@ export class BranchPolicyAutoReviewers extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_branch_policy_auto_reviewers',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

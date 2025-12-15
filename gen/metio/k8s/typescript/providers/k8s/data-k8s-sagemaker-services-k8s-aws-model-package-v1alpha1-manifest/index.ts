@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestMetadata;
   /**
   * ModelPackageSpec defines the desired state of ModelPackage. A versioned model that can be deployed for SageMaker inference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestMetadataO
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAdditionalInferenceSpecificationsContainersAdditionalS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_data_type}
   */
   readonly s3DataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -377,7 +377,7 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAddit
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAdditionalInferenceSpecificationsContainersModelInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#data_input_config DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#data_input_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#data_input_config DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#data_input_config}
   */
   readonly dataInputConfig?: string;
 }
@@ -473,49 +473,49 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecA
   /**
   * A data source used for training or inference that is in addition to the input dataset or model data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#additional_s3_data_source DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#additional_s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#additional_s3_data_source DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#additional_s3_data_source}
   */
   readonly additionalS3DataSource?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAdditionalInferenceSpecificationsContainersAdditionalS3DataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#container_hostname DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#container_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#container_hostname DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#container_hostname}
   */
   readonly containerHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#framework DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#framework DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#framework}
   */
   readonly framework?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#framework_version DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#framework_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#framework_version DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#framework_version}
   */
   readonly frameworkVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#image DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#image DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#image_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#image_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_url DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_url DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_url}
   */
   readonly modelDataUrl?: string;
   /**
   * Input object for the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_input DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_input DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_input}
   */
   readonly modelInput?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAdditionalInferenceSpecificationsContainersModelInput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#nearest_model_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#nearest_model_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#nearest_model_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#nearest_model_name}
   */
   readonly nearestModelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#product_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#product_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#product_id}
   */
   readonly productId?: string;
 }
@@ -921,31 +921,31 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAddit
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAdditionalInferenceSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#containers DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#containers DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAdditionalInferenceSpecificationsContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#description DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#description DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_content_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_content_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_content_types}
   */
   readonly supportedContentTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_realtime_inference_instance_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_realtime_inference_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_realtime_inference_instance_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_realtime_inference_instance_types}
   */
   readonly supportedRealtimeInferenceInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_response_mime_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_response_mime_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_response_mime_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_response_mime_types}
   */
   readonly supportedResponseMimeTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_transform_instance_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_transform_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_transform_instance_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_transform_instance_types}
   */
   readonly supportedTransformInstanceTypes?: string[];
 }
@@ -1235,15 +1235,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAddit
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesBiasConfigFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -1395,15 +1395,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesBiasPostTrainingConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -1555,15 +1555,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesBiasPreTrainingConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -1717,19 +1717,19 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecD
   /**
   * Contains details regarding the file source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#config_file DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#config_file DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#config_file}
   */
   readonly configFile?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesBiasConfigFile;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#post_training_constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#post_training_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#post_training_constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#post_training_constraints}
   */
   readonly postTrainingConstraints?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesBiasPostTrainingConstraints;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#pre_training_constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#pre_training_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#pre_training_constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#pre_training_constraints}
   */
   readonly preTrainingConstraints?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesBiasPreTrainingConstraints;
 }
@@ -1881,15 +1881,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesExplainabilityConfigFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2041,15 +2041,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesExplainabilityConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2203,13 +2203,13 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecD
   /**
   * Contains details regarding the file source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#config_file DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#config_file DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#config_file}
   */
   readonly configFile?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesExplainabilityConfigFile;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
   */
   readonly constraints?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesExplainabilityConstraints;
 }
@@ -2332,15 +2332,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelDataQualityConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2492,15 +2492,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelDataQualityStatistics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2654,13 +2654,13 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecD
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
   */
   readonly constraints?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelDataQualityConstraints;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#statistics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#statistics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#statistics}
   */
   readonly statistics?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelDataQualityStatistics;
 }
@@ -2783,15 +2783,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelQualityConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2943,15 +2943,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelQualityStatistics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -3105,13 +3105,13 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecD
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
   */
   readonly constraints?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelQualityConstraints;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#statistics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#statistics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#statistics}
   */
   readonly statistics?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelQualityStatistics;
 }
@@ -3236,25 +3236,25 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecD
   /**
   * Represents the drift check bias baselines that can be used when the model monitor is set using the model package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#bias DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#bias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#bias DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#bias}
   */
   readonly bias?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesBias;
   /**
   * Represents the drift check explainability baselines that can be used when the model monitor is set using the model package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#explainability DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#explainability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#explainability DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#explainability}
   */
   readonly explainability?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesExplainability;
   /**
   * Represents the drift check data quality baselines that can be used when the model monitor is set using the model package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_quality DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_quality DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_quality}
   */
   readonly modelDataQuality?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelDataQuality;
   /**
   * Represents the drift check model quality baselines that can be used when the model monitor is set using the model package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_quality DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_quality DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_quality}
   */
   readonly modelQuality?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselinesModelQuality;
 }
@@ -3435,15 +3435,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDrift
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInferenceSpecificationContainersAdditionalS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_data_type}
   */
   readonly s3DataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -3595,7 +3595,7 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInfer
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInferenceSpecificationContainersModelInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#data_input_config DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#data_input_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#data_input_config DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#data_input_config}
   */
   readonly dataInputConfig?: string;
 }
@@ -3691,49 +3691,49 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecI
   /**
   * A data source used for training or inference that is in addition to the input dataset or model data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#additional_s3_data_source DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#additional_s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#additional_s3_data_source DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#additional_s3_data_source}
   */
   readonly additionalS3DataSource?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInferenceSpecificationContainersAdditionalS3DataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#container_hostname DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#container_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#container_hostname DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#container_hostname}
   */
   readonly containerHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#framework DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#framework DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#framework}
   */
   readonly framework?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#framework_version DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#framework_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#framework_version DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#framework_version}
   */
   readonly frameworkVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#image DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#image DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#image_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#image_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_url DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_url DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_url}
   */
   readonly modelDataUrl?: string;
   /**
   * Input object for the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_input DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_input DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_input}
   */
   readonly modelInput?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInferenceSpecificationContainersModelInput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#nearest_model_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#nearest_model_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#nearest_model_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#nearest_model_name}
   */
   readonly nearestModelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#product_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#product_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#product_id}
   */
   readonly productId?: string;
 }
@@ -4139,23 +4139,23 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInfer
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInferenceSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#containers DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#containers DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInferenceSpecificationContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_content_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_content_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_content_types}
   */
   readonly supportedContentTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_realtime_inference_instance_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_realtime_inference_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_realtime_inference_instance_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_realtime_inference_instance_types}
   */
   readonly supportedRealtimeInferenceInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_response_mime_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_response_mime_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_response_mime_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_response_mime_types}
   */
   readonly supportedResponseMimeTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_transform_instance_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_transform_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#supported_transform_instance_types DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#supported_transform_instance_types}
   */
   readonly supportedTransformInstanceTypes?: string[];
 }
@@ -4365,19 +4365,19 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInfer
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecMetadataProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#commit_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#commit_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#commit_id}
   */
   readonly commitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#generated_by DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#generated_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#generated_by DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#generated_by}
   */
   readonly generatedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#project_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#project_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#repository DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#repository DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
 }
@@ -4558,15 +4558,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecMetad
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsBiasPostTrainingReport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -4718,15 +4718,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModel
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsBiasPreTrainingReport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -4878,15 +4878,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModel
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsBiasReport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -5040,19 +5040,19 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecM
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#post_training_report DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#post_training_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#post_training_report DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#post_training_report}
   */
   readonly postTrainingReport?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsBiasPostTrainingReport;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#pre_training_report DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#pre_training_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#pre_training_report DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#pre_training_report}
   */
   readonly preTrainingReport?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsBiasPreTrainingReport;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#report DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#report DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#report}
   */
   readonly report?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsBiasReport;
 }
@@ -5204,15 +5204,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModel
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsExplainabilityReport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -5366,7 +5366,7 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecM
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#report DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#report DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#report}
   */
   readonly report?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsExplainabilityReport;
 }
@@ -5460,15 +5460,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModel
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelDataQualityConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -5620,15 +5620,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModel
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelDataQualityStatistics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -5782,13 +5782,13 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecM
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
   */
   readonly constraints?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelDataQualityConstraints;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#statistics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#statistics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#statistics}
   */
   readonly statistics?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelDataQualityStatistics;
 }
@@ -5911,15 +5911,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModel
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelQualityConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -6071,15 +6071,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModel
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelQualityStatistics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_digest DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_digest}
   */
   readonly contentDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -6233,13 +6233,13 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecM
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#constraints DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#constraints}
   */
   readonly constraints?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelQualityConstraints;
   /**
   * Details about the metrics source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#statistics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#statistics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#statistics}
   */
   readonly statistics?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelQualityStatistics;
 }
@@ -6364,25 +6364,25 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecM
   /**
   * Contains bias metrics for a model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#bias DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#bias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#bias DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#bias}
   */
   readonly bias?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsBias;
   /**
   * Contains explainability metrics for a model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#explainability DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#explainability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#explainability DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#explainability}
   */
   readonly explainability?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsExplainability;
   /**
   * Data quality constraints and statistics for a model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_quality DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_quality DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_quality}
   */
   readonly modelDataQuality?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelDataQuality;
   /**
   * Model quality statistics and constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_quality DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_quality DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_quality}
   */
   readonly modelQuality?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetricsModelQuality;
 }
@@ -6563,11 +6563,11 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModel
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecSourceAlgorithmSpecificationSourceAlgorithms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#algorithm_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#algorithm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#algorithm_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#algorithm_name}
   */
   readonly algorithmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_url DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_data_url DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_data_url}
   */
   readonly modelDataUrl?: string;
 }
@@ -6712,7 +6712,7 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecSourc
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecSourceAlgorithmSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#source_algorithms DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#source_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#source_algorithms DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#source_algorithms}
   */
   readonly sourceAlgorithms?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecSourceAlgorithmSpecificationSourceAlgorithms[] | cdktf.IResolvable;
 }
@@ -6806,11 +6806,11 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecSourc
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6955,11 +6955,11 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecTagsL
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_data_type}
   */
   readonly s3DataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -7084,7 +7084,7 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecV
   /**
   * Describes the S3 data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_data_source DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_data_source DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_data_source}
   */
   readonly s3DataSource?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSource;
 }
@@ -7178,21 +7178,21 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValid
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * Describes the location of the channel data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#data_source DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#data_source DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#split_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#split_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#split_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#split_type}
   */
   readonly splitType?: string;
 }
@@ -7373,19 +7373,19 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValid
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformOutput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#accept DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#accept DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#accept}
   */
   readonly accept?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#assemble_with DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#assemble_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#assemble_with DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#assemble_with}
   */
   readonly assembleWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -7566,15 +7566,15 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValid
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
 }
@@ -7726,37 +7726,37 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValid
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#batch_strategy DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#batch_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#batch_strategy DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#batch_strategy}
   */
   readonly batchStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#max_concurrent_transforms DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#max_concurrent_transforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#max_concurrent_transforms DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#max_concurrent_transforms}
   */
   readonly maxConcurrentTransforms?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#max_payload_in_mb DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#max_payload_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#max_payload_in_mb DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#max_payload_in_mb}
   */
   readonly maxPayloadInMb?: number;
   /**
   * Describes the input source of a transform job and the way the transform job consumes it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#transform_input DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#transform_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#transform_input DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#transform_input}
   */
   readonly transformInput?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformInput;
   /**
   * Describes the results of a transform job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#transform_output DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#transform_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#transform_output DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#transform_output}
   */
   readonly transformOutput?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformOutput;
   /**
   * Describes the resources, including ML instance types and ML instance count, to use for transform job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#transform_resources DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#transform_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#transform_resources DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#transform_resources}
   */
   readonly transformResources?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinitionTransformResources;
 }
@@ -8024,13 +8024,13 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValid
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#profile_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#profile_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#profile_name}
   */
   readonly profileName?: string;
   /**
   * Defines the input needed to run a transform job using the inference specification specified in the algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#transform_job_definition DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#transform_job_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#transform_job_definition DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#transform_job_definition}
   */
   readonly transformJobDefinition?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfilesTransformJobDefinition;
 }
@@ -8175,11 +8175,11 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValid
 }
 export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#validation_profiles DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#validation_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#validation_profiles DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#validation_profiles}
   */
   readonly validationProfiles?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecificationValidationProfiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#validation_role DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#validation_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#validation_role DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#validation_role}
   */
   readonly validationRole?: string;
 }
@@ -8304,121 +8304,121 @@ export interface DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpec 
   /**
   * An array of additional Inference Specification objects. Each additional Inference Specification specifies artifacts based on this model package that can be used on inference endpoints. Generally used with SageMaker Neo to store the compiled artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#additional_inference_specifications DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#additional_inference_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#additional_inference_specifications DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#additional_inference_specifications}
   */
   readonly additionalInferenceSpecifications?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecAdditionalInferenceSpecifications[] | cdktf.IResolvable;
   /**
   * A description for the approval status of the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#approval_description DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#approval_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#approval_description DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#approval_description}
   */
   readonly approvalDescription?: string;
   /**
   * Whether to certify the model package for listing on Amazon Web Services Marketplace. This parameter is optional for unversioned models, and does not apply to versioned models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#certify_for_marketplace DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#certify_for_marketplace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#certify_for_marketplace DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#certify_for_marketplace}
   */
   readonly certifyForMarketplace?: boolean | cdktf.IResolvable;
   /**
   * A unique token that guarantees that the call to this API is idempotent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#client_token DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#client_token DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#client_token}
   */
   readonly clientToken?: string;
   /**
   * The metadata properties associated with the model package versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#customer_metadata_properties DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#customer_metadata_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#customer_metadata_properties DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#customer_metadata_properties}
   */
   readonly customerMetadataProperties?: { [key: string]: string };
   /**
   * The machine learning domain of your model package and its components. Common machine learning domains include computer vision and natural language processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#domain DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#domain DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#domain}
   */
   readonly domain?: string;
   /**
   * Represents the drift check baselines that can be used when the model monitor is set using the model package. For more information, see the topic on Drift Detection against Previous Baselines in SageMaker Pipelines (https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines-quality-clarify-baseline-lifecycle.html#pipelines-quality-clarify-baseline-drift-detection) in the Amazon SageMaker Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#drift_check_baselines DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#drift_check_baselines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#drift_check_baselines DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#drift_check_baselines}
   */
   readonly driftCheckBaselines?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecDriftCheckBaselines;
   /**
   * Specifies details about inference jobs that can be run with models based on this model package, including the following: * The Amazon ECR paths of containers that contain the inference code and model artifacts. * The instance types that the model package supports for transform jobs and real-time endpoints used for inference. * The input and output content formats that the model package supports for inference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#inference_specification DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#inference_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#inference_specification DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#inference_specification}
   */
   readonly inferenceSpecification?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecInferenceSpecification;
   /**
   * Metadata properties of the tracking entity, trial, or trial component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#metadata_properties DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#metadata_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#metadata_properties DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#metadata_properties}
   */
   readonly metadataProperties?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecMetadataProperties;
   /**
   * Whether the model is approved for deployment. This parameter is optional for versioned models, and does not apply to unversioned models. For versioned models, the value of this parameter must be set to Approved to deploy the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_approval_status DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_approval_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_approval_status DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_approval_status}
   */
   readonly modelApprovalStatus?: string;
   /**
   * A structure that contains model metrics reports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_metrics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_metrics DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_metrics}
   */
   readonly modelMetrics?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecModelMetrics;
   /**
   * A description of the model package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_package_description DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_package_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_package_description DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_package_description}
   */
   readonly modelPackageDescription?: string;
   /**
   * The name or Amazon Resource Name (ARN) of the model package group that this model version belongs to. This parameter is required for versioned models, and does not apply to unversioned models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_package_group_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_package_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_package_group_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_package_group_name}
   */
   readonly modelPackageGroupName?: string;
   /**
   * The name of the model package. The name must have 1 to 63 characters. Valid characters are a-z, A-Z, 0-9, and - (hyphen). This parameter is required for unversioned models. It is not applicable to versioned models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_package_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#model_package_name DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#model_package_name}
   */
   readonly modelPackageName?: string;
   /**
   * The Amazon Simple Storage Service (Amazon S3) path where the sample payload is stored. This path must point to a single gzip compressed tar archive (.tar.gz suffix). This archive can hold multiple files that are all equally used in the load test. Each file in the archive must satisfy the size constraints of the InvokeEndpoint (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_runtime_InvokeEndpoint.html#API_runtime_InvokeEndpoint_RequestSyntax) call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#sample_payload_url DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#sample_payload_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#sample_payload_url DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#sample_payload_url}
   */
   readonly samplePayloadUrl?: string;
   /**
   * Indicates if you want to skip model validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#skip_model_validation DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#skip_model_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#skip_model_validation DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#skip_model_validation}
   */
   readonly skipModelValidation?: string;
   /**
   * Details about the algorithm that was used to create the model package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#source_algorithm_specification DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#source_algorithm_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#source_algorithm_specification DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#source_algorithm_specification}
   */
   readonly sourceAlgorithmSpecification?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecSourceAlgorithmSpecification;
   /**
   * A list of key value pairs associated with the model. For more information, see Tagging Amazon Web Services resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html) in the Amazon Web Services General Reference Guide. If you supply ModelPackageGroupName, your model package belongs to the model group you specify and uses the tags associated with the model group. In this case, you cannot supply a tag argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * The machine learning task your model package accomplishes. Common machine learning tasks include object detection and image classification. The following tasks are supported by Inference Recommender: 'IMAGE_CLASSIFICATION' | 'OBJECT_DETECTION' | 'TEXT_GENERATION' |'IMAGE_SEGMENTATION' | 'FILL_MASK' | 'CLASSIFICATION' | 'REGRESSION' | 'OTHER'. Specify 'OTHER' if none of the tasks listed fit your use case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#task DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#task DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#task}
   */
   readonly task?: string;
   /**
   * Specifies configurations for one or more transform jobs that SageMaker runs to test the model package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#validation_specification DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#validation_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#validation_specification DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest#validation_specification}
   */
   readonly validationSpecification?: DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecValidationSpecification;
 }
@@ -9063,7 +9063,7 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_model_package_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_model_package_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -9079,7 +9079,7 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9091,7 +9091,7 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_model_package_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_model_package_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_model_package_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9102,8 +9102,8 @@ export class DataK8SSagemakerServicesK8SAwsModelPackageV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_model_package_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

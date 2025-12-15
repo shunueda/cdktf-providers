@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPtpOpenshiftIoPtpOperatorConfigV1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#metadata DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#metadata DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#metadata}
   */
   readonly metadata: DataK8SPtpOpenshiftIoPtpOperatorConfigV1ManifestMetadata;
   /**
   * PtpOperatorConfigSpec defines the desired state of PtpOperatorConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#spec DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#spec DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#spec}
   */
   readonly spec?: DataK8SPtpOpenshiftIoPtpOperatorConfigV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPtpOpenshiftIoPtpOperatorConfigV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#annotations DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#annotations DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#labels DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#labels DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#name DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#name DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#namespace DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#namespace DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SPtpOpenshiftIoPtpOperatorConfigV1ManifestSpecPtpEventCon
   /**
   * ApiVersion is used to determine which API is used for the event service 1.0: default version. event service is mapped to internal REST-API. 2.x: event service is mapped to O-RAN v3.0 Compliant O-Cloud Notification REST-API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#api_version DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#api_version DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * EnableEventPublisher will deploy event proxy as a sidecar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#enable_event_publisher DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#enable_event_publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#enable_event_publisher DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#enable_event_publisher}
   */
   readonly enableEventPublisher?: boolean | cdktf.IResolvable;
   /**
   * StorageType is the type of storage to store subscription data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#storage_type DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#storage_type DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
   * TransportHost format is <protocol>://<transport-service>.<namespace>.svc.cluster.local:<transport-port> Example HTTP transport: 'http://ptp-event-publisher-service-NODE_NAME.openshift-ptp.svc.cluster.local:9043'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#transport_host DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#transport_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#transport_host DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#transport_host}
   */
   readonly transportHost?: string;
 }
@@ -420,19 +420,19 @@ export interface DataK8SPtpOpenshiftIoPtpOperatorConfigV1ManifestSpec {
   /**
   * DaemonNodeSelector specifies the node selector for the linuxptp daemon. This is a map of key-value pairs used to select the nodes where the linuxptp daemon will run. If empty {}, the linuxptp daemon will be deployed on each node of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#daemon_node_selector DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#daemon_node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#daemon_node_selector DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#daemon_node_selector}
   */
   readonly daemonNodeSelector: { [key: string]: string };
   /**
   * EnabledPlugins is a map of plugin names to their configuration settings. Each entry in the map specifies the configuration for a specific plugin. This field is optional and can be omitted if no plugins are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#plugins DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#plugins DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#plugins}
   */
   readonly plugins?: { [key: string]: string };
   /**
   * EventConfig contains the configuration settings for the PTP event sidecar. This field is optional and can be omitted if event sidecar configuration is not required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#ptp_event_config DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#ptp_event_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#ptp_event_config DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest#ptp_event_config}
   */
   readonly ptpEventConfig?: DataK8SPtpOpenshiftIoPtpOperatorConfigV1ManifestSpecPtpEventConfig;
 }
@@ -581,7 +581,7 @@ export class DataK8SPtpOpenshiftIoPtpOperatorConfigV1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest k8s_ptp_openshift_io_ptp_operator_config_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest k8s_ptp_openshift_io_ptp_operator_config_v1_manifest}
 */
 export class DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest extends cdktf.TerraformDataSource {
 
@@ -597,7 +597,7 @@ export class DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest to import
-  * @param importFromId The id of the existing DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -609,7 +609,7 @@ export class DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest k8s_ptp_openshift_io_ptp_operator_config_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ptp_openshift_io_ptp_operator_config_v1_manifest k8s_ptp_openshift_io_ptp_operator_config_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -620,8 +620,8 @@ export class DataK8SPtpOpenshiftIoPtpOperatorConfigV1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_ptp_openshift_io_ptp_operator_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

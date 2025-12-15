@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ForwardingoptionsSamplingConfig extends cdktf.TerraformMetaArgu
   /**
   * Disable global sampling instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#disable ForwardingoptionsSampling#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#disable ForwardingoptionsSampling#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Sample the packet retaining tos value before normalization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#pre_rewrite_tos ForwardingoptionsSampling#pre_rewrite_tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#pre_rewrite_tos ForwardingoptionsSampling#pre_rewrite_tos}
   */
   readonly preRewriteTos?: boolean | cdktf.IResolvable;
   /**
   * Routing instance if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#routing_instance ForwardingoptionsSampling#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#routing_instance ForwardingoptionsSampling#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Sample the packet for active-monitoring only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#sample_once ForwardingoptionsSampling#sample_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#sample_once ForwardingoptionsSampling#sample_once}
   */
   readonly sampleOnce?: boolean | cdktf.IResolvable;
   /**
   * family_inet6_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#family_inet6_input ForwardingoptionsSampling#family_inet6_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#family_inet6_input ForwardingoptionsSampling#family_inet6_input}
   */
   readonly familyInet6Input?: ForwardingoptionsSamplingFamilyInet6Input;
   /**
   * family_inet6_output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#family_inet6_output ForwardingoptionsSampling#family_inet6_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#family_inet6_output ForwardingoptionsSampling#family_inet6_output}
   */
   readonly familyInet6Output?: ForwardingoptionsSamplingFamilyInet6Output;
   /**
   * family_inet_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#family_inet_input ForwardingoptionsSampling#family_inet_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#family_inet_input ForwardingoptionsSampling#family_inet_input}
   */
   readonly familyInetInput?: ForwardingoptionsSamplingFamilyInetInput;
   /**
   * family_inet_output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#family_inet_output ForwardingoptionsSampling#family_inet_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#family_inet_output ForwardingoptionsSampling#family_inet_output}
   */
   readonly familyInetOutput?: ForwardingoptionsSamplingFamilyInetOutput;
   /**
   * family_mpls_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#family_mpls_input ForwardingoptionsSampling#family_mpls_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#family_mpls_input ForwardingoptionsSampling#family_mpls_input}
   */
   readonly familyMplsInput?: ForwardingoptionsSamplingFamilyMplsInput;
   /**
   * family_mpls_output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#family_mpls_output ForwardingoptionsSampling#family_mpls_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#family_mpls_output ForwardingoptionsSampling#family_mpls_output}
   */
   readonly familyMplsOutput?: ForwardingoptionsSamplingFamilyMplsOutput;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#input ForwardingoptionsSampling#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#input ForwardingoptionsSampling#input}
   */
   readonly input?: ForwardingoptionsSamplingInput;
 }
@@ -78,25 +78,25 @@ export interface ForwardingoptionsSamplingFamilyInet6Input {
   /**
   * Threshold of samples per second before dropping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#max_packets_per_second ForwardingoptionsSampling#max_packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#max_packets_per_second ForwardingoptionsSampling#max_packets_per_second}
   */
   readonly maxPacketsPerSecond?: number;
   /**
   * Maximum length of the sampled packet (0..9192 bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#maximum_packet_length ForwardingoptionsSampling#maximum_packet_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#maximum_packet_length ForwardingoptionsSampling#maximum_packet_length}
   */
   readonly maximumPacketLength?: number;
   /**
   * Ratio of packets to be sampled (1 out of N) (1..16000000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#rate ForwardingoptionsSampling#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#rate ForwardingoptionsSampling#rate}
   */
   readonly rate?: number;
   /**
   * Number of samples after initial trigger (0..20).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#run_length ForwardingoptionsSampling#run_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#run_length ForwardingoptionsSampling#run_length}
   */
   readonly runLength?: number;
 }
@@ -279,97 +279,97 @@ export interface ForwardingoptionsSamplingFamilyInet6OutputFlowServer {
   /**
   * Aggregate by autonomous system number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_autonomous_system ForwardingoptionsSampling#aggregation_autonomous_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_autonomous_system ForwardingoptionsSampling#aggregation_autonomous_system}
   */
   readonly aggregationAutonomousSystem?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by destination prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_destination_prefix ForwardingoptionsSampling#aggregation_destination_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_destination_prefix ForwardingoptionsSampling#aggregation_destination_prefix}
   */
   readonly aggregationDestinationPrefix?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by protocol and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_protocol_port ForwardingoptionsSampling#aggregation_protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_protocol_port ForwardingoptionsSampling#aggregation_protocol_port}
   */
   readonly aggregationProtocolPort?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by source and destination prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix ForwardingoptionsSampling#aggregation_source_destination_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix ForwardingoptionsSampling#aggregation_source_destination_prefix}
   */
   readonly aggregationSourceDestinationPrefix?: boolean | cdktf.IResolvable;
   /**
   * Compatible with Caida record format for prefix aggregation (v8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix_caida_compliant ForwardingoptionsSampling#aggregation_source_destination_prefix_caida_compliant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix_caida_compliant ForwardingoptionsSampling#aggregation_source_destination_prefix_caida_compliant}
   */
   readonly aggregationSourceDestinationPrefixCaidaCompliant?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by source prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_prefix ForwardingoptionsSampling#aggregation_source_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_prefix ForwardingoptionsSampling#aggregation_source_prefix}
   */
   readonly aggregationSourcePrefix?: boolean | cdktf.IResolvable;
   /**
   * Type of autonomous system number to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#autonomous_system_type ForwardingoptionsSampling#autonomous_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#autonomous_system_type ForwardingoptionsSampling#autonomous_system_type}
   */
   readonly autonomousSystemType?: string;
   /**
   * Numeric DSCP value in the range 0 to 63 (0..63).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#dscp ForwardingoptionsSampling#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#dscp ForwardingoptionsSampling#dscp}
   */
   readonly dscp?: number;
   /**
   * Forwarding-class for exported jflow packets, applicable only for inline-jflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#forwarding_class ForwardingoptionsSampling#forwarding_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#forwarding_class ForwardingoptionsSampling#forwarding_class}
   */
   readonly forwardingClass?: string;
   /**
   * Name of host collecting cflowd packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#hostname ForwardingoptionsSampling#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#hostname ForwardingoptionsSampling#hostname}
   */
   readonly hostname: string;
   /**
   * Dump cflowd records to log file before exporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#local_dump ForwardingoptionsSampling#local_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#local_dump ForwardingoptionsSampling#local_dump}
   */
   readonly localDump?: boolean | cdktf.IResolvable;
   /**
   * Don't dump cflowd records to log file before exporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#no_local_dump ForwardingoptionsSampling#no_local_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#no_local_dump ForwardingoptionsSampling#no_local_dump}
   */
   readonly noLocalDump?: boolean | cdktf.IResolvable;
   /**
   * UDP port number on host collecting cflowd packets (1..65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#port ForwardingoptionsSampling#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#port ForwardingoptionsSampling#port}
   */
   readonly port: number;
   /**
   * Name of routing instance on which flow collector is reachable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#routing_instance ForwardingoptionsSampling#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#routing_instance ForwardingoptionsSampling#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Source IPv4 address for cflowd packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Template to export data in version 9 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#version9_template ForwardingoptionsSampling#version9_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#version9_template ForwardingoptionsSampling#version9_template}
   */
   readonly version9Template?: string;
 }
@@ -916,25 +916,25 @@ export interface ForwardingoptionsSamplingFamilyInet6OutputInterface {
   /**
   * Identity (number) of this accounting interface (0..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#engine_id ForwardingoptionsSampling#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#engine_id ForwardingoptionsSampling#engine_id}
   */
   readonly engineId?: number;
   /**
   * Type (number) of this accounting interface (0..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#engine_type ForwardingoptionsSampling#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#engine_type ForwardingoptionsSampling#engine_type}
   */
   readonly engineType?: number;
   /**
   * Name of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#name ForwardingoptionsSampling#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#name ForwardingoptionsSampling#name}
   */
   readonly name: string;
   /**
   * Address to use for generating monitored packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -1136,49 +1136,49 @@ export interface ForwardingoptionsSamplingFamilyInet6Output {
   /**
   * Interval of exporting aggregate accounting information (90..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregate_export_interval ForwardingoptionsSampling#aggregate_export_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregate_export_interval ForwardingoptionsSampling#aggregate_export_interval}
   */
   readonly aggregateExportInterval?: number;
   /**
   * Define the customer specific sampling configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#extension_service ForwardingoptionsSampling#extension_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#extension_service ForwardingoptionsSampling#extension_service}
   */
   readonly extensionService?: string[];
   /**
   * Interval after which an active flow is exported (60..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_active_timeout ForwardingoptionsSampling#flow_active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_active_timeout ForwardingoptionsSampling#flow_active_timeout}
   */
   readonly flowActiveTimeout?: number;
   /**
   * Interval of inactivity that marks a flow inactive (15..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_inactive_timeout ForwardingoptionsSampling#flow_inactive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_inactive_timeout ForwardingoptionsSampling#flow_inactive_timeout}
   */
   readonly flowInactiveTimeout?: number;
   /**
   * Inline processing of sampled packets with flow export rate of monitored packets in kpps (1..3200).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#inline_jflow_export_rate ForwardingoptionsSampling#inline_jflow_export_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#inline_jflow_export_rate ForwardingoptionsSampling#inline_jflow_export_rate}
   */
   readonly inlineJflowExportRate?: number;
   /**
   * Inline processing of sampled packets with address to use for generating monitored packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#inline_jflow_source_address ForwardingoptionsSampling#inline_jflow_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#inline_jflow_source_address ForwardingoptionsSampling#inline_jflow_source_address}
   */
   readonly inlineJflowSourceAddress?: string;
   /**
   * flow_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_server ForwardingoptionsSampling#flow_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_server ForwardingoptionsSampling#flow_server}
   */
   readonly flowServer?: ForwardingoptionsSamplingFamilyInet6OutputFlowServer[] | cdktf.IResolvable;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#interface ForwardingoptionsSampling#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#interface ForwardingoptionsSampling#interface}
   */
   readonly interface?: ForwardingoptionsSamplingFamilyInet6OutputInterface[] | cdktf.IResolvable;
 }
@@ -1477,25 +1477,25 @@ export interface ForwardingoptionsSamplingFamilyInetInput {
   /**
   * Threshold of samples per second before dropping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#max_packets_per_second ForwardingoptionsSampling#max_packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#max_packets_per_second ForwardingoptionsSampling#max_packets_per_second}
   */
   readonly maxPacketsPerSecond?: number;
   /**
   * Maximum length of the sampled packet (0..9192 bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#maximum_packet_length ForwardingoptionsSampling#maximum_packet_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#maximum_packet_length ForwardingoptionsSampling#maximum_packet_length}
   */
   readonly maximumPacketLength?: number;
   /**
   * Ratio of packets to be sampled (1 out of N) (1..16000000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#rate ForwardingoptionsSampling#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#rate ForwardingoptionsSampling#rate}
   */
   readonly rate?: number;
   /**
   * Number of samples after initial trigger (0..20).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#run_length ForwardingoptionsSampling#run_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#run_length ForwardingoptionsSampling#run_length}
   */
   readonly runLength?: number;
 }
@@ -1678,49 +1678,49 @@ export interface ForwardingoptionsSamplingFamilyInetOutputFile {
   /**
   * Disable sampled packet dumps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#disable ForwardingoptionsSampling#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#disable ForwardingoptionsSampling#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Name of file to contain sampled packet dumps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#filename ForwardingoptionsSampling#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#filename ForwardingoptionsSampling#filename}
   */
   readonly filename?: string;
   /**
   * Maximum number of sampled packet dump files (2..10000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#files ForwardingoptionsSampling#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#files ForwardingoptionsSampling#files}
   */
   readonly files?: number;
   /**
   * Don't timestamp every packet in the dump.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#no_stamp ForwardingoptionsSampling#no_stamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#no_stamp ForwardingoptionsSampling#no_stamp}
   */
   readonly noStamp?: boolean | cdktf.IResolvable;
   /**
   * Don't allow any user to read the sampled dump.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#no_world_readable ForwardingoptionsSampling#no_world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#no_world_readable ForwardingoptionsSampling#no_world_readable}
   */
   readonly noWorldReadable?: boolean | cdktf.IResolvable;
   /**
   * Maximum sample dump file size (1024..104857600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#size ForwardingoptionsSampling#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#size ForwardingoptionsSampling#size}
   */
   readonly size?: number;
   /**
   * Timestamp every packet in the dump.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#stamp ForwardingoptionsSampling#stamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#stamp ForwardingoptionsSampling#stamp}
   */
   readonly stamp?: boolean | cdktf.IResolvable;
   /**
   * Allow any user to read the sampled dump.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#world_readable ForwardingoptionsSampling#world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#world_readable ForwardingoptionsSampling#world_readable}
   */
   readonly worldReadable?: boolean | cdktf.IResolvable;
 }
@@ -2019,103 +2019,103 @@ export interface ForwardingoptionsSamplingFamilyInetOutputFlowServer {
   /**
   * Aggregate by autonomous system number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_autonomous_system ForwardingoptionsSampling#aggregation_autonomous_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_autonomous_system ForwardingoptionsSampling#aggregation_autonomous_system}
   */
   readonly aggregationAutonomousSystem?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by destination prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_destination_prefix ForwardingoptionsSampling#aggregation_destination_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_destination_prefix ForwardingoptionsSampling#aggregation_destination_prefix}
   */
   readonly aggregationDestinationPrefix?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by protocol and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_protocol_port ForwardingoptionsSampling#aggregation_protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_protocol_port ForwardingoptionsSampling#aggregation_protocol_port}
   */
   readonly aggregationProtocolPort?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by source and destination prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix ForwardingoptionsSampling#aggregation_source_destination_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix ForwardingoptionsSampling#aggregation_source_destination_prefix}
   */
   readonly aggregationSourceDestinationPrefix?: boolean | cdktf.IResolvable;
   /**
   * Compatible with Caida record format for prefix aggregation (v8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix_caida_compliant ForwardingoptionsSampling#aggregation_source_destination_prefix_caida_compliant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix_caida_compliant ForwardingoptionsSampling#aggregation_source_destination_prefix_caida_compliant}
   */
   readonly aggregationSourceDestinationPrefixCaidaCompliant?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by source prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_prefix ForwardingoptionsSampling#aggregation_source_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_prefix ForwardingoptionsSampling#aggregation_source_prefix}
   */
   readonly aggregationSourcePrefix?: boolean | cdktf.IResolvable;
   /**
   * Type of autonomous system number to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#autonomous_system_type ForwardingoptionsSampling#autonomous_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#autonomous_system_type ForwardingoptionsSampling#autonomous_system_type}
   */
   readonly autonomousSystemType?: string;
   /**
   * Numeric DSCP value in the range 0 to 63 (0..63).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#dscp ForwardingoptionsSampling#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#dscp ForwardingoptionsSampling#dscp}
   */
   readonly dscp?: number;
   /**
   * Forwarding-class for exported jflow packets, applicable only for inline-jflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#forwarding_class ForwardingoptionsSampling#forwarding_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#forwarding_class ForwardingoptionsSampling#forwarding_class}
   */
   readonly forwardingClass?: string;
   /**
   * Name of host collecting cflowd packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#hostname ForwardingoptionsSampling#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#hostname ForwardingoptionsSampling#hostname}
   */
   readonly hostname: string;
   /**
   * Dump cflowd records to log file before exporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#local_dump ForwardingoptionsSampling#local_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#local_dump ForwardingoptionsSampling#local_dump}
   */
   readonly localDump?: boolean | cdktf.IResolvable;
   /**
   * Don't dump cflowd records to log file before exporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#no_local_dump ForwardingoptionsSampling#no_local_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#no_local_dump ForwardingoptionsSampling#no_local_dump}
   */
   readonly noLocalDump?: boolean | cdktf.IResolvable;
   /**
   * UDP port number on host collecting cflowd packets (1..65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#port ForwardingoptionsSampling#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#port ForwardingoptionsSampling#port}
   */
   readonly port: number;
   /**
   * Name of routing instance on which flow collector is reachable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#routing_instance ForwardingoptionsSampling#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#routing_instance ForwardingoptionsSampling#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Source IPv4 address for cflowd packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Format of exported cflowd aggregates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#version ForwardingoptionsSampling#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#version ForwardingoptionsSampling#version}
   */
   readonly version?: number;
   /**
   * Template to export data in version 9 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#version9_template ForwardingoptionsSampling#version9_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#version9_template ForwardingoptionsSampling#version9_template}
   */
   readonly version9Template?: string;
 }
@@ -2691,25 +2691,25 @@ export interface ForwardingoptionsSamplingFamilyInetOutputInterface {
   /**
   * Identity (number) of this accounting interface (0..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#engine_id ForwardingoptionsSampling#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#engine_id ForwardingoptionsSampling#engine_id}
   */
   readonly engineId?: number;
   /**
   * Type (number) of this accounting interface (0..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#engine_type ForwardingoptionsSampling#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#engine_type ForwardingoptionsSampling#engine_type}
   */
   readonly engineType?: number;
   /**
   * Name of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#name ForwardingoptionsSampling#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#name ForwardingoptionsSampling#name}
   */
   readonly name: string;
   /**
   * Address to use for generating monitored packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -2911,55 +2911,55 @@ export interface ForwardingoptionsSamplingFamilyInetOutput {
   /**
   * Interval of exporting aggregate accounting information (90..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregate_export_interval ForwardingoptionsSampling#aggregate_export_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregate_export_interval ForwardingoptionsSampling#aggregate_export_interval}
   */
   readonly aggregateExportInterval?: number;
   /**
   * Define the customer specific sampling configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#extension_service ForwardingoptionsSampling#extension_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#extension_service ForwardingoptionsSampling#extension_service}
   */
   readonly extensionService?: string[];
   /**
   * Interval after which an active flow is exported (60..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_active_timeout ForwardingoptionsSampling#flow_active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_active_timeout ForwardingoptionsSampling#flow_active_timeout}
   */
   readonly flowActiveTimeout?: number;
   /**
   * Interval of inactivity that marks a flow inactive (15..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_inactive_timeout ForwardingoptionsSampling#flow_inactive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_inactive_timeout ForwardingoptionsSampling#flow_inactive_timeout}
   */
   readonly flowInactiveTimeout?: number;
   /**
   * Inline processing of sampled packets with flow export rate of monitored packets in kpps (1..3200).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#inline_jflow_export_rate ForwardingoptionsSampling#inline_jflow_export_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#inline_jflow_export_rate ForwardingoptionsSampling#inline_jflow_export_rate}
   */
   readonly inlineJflowExportRate?: number;
   /**
   * Inline processing of sampled packets with address to use for generating monitored packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#inline_jflow_source_address ForwardingoptionsSampling#inline_jflow_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#inline_jflow_source_address ForwardingoptionsSampling#inline_jflow_source_address}
   */
   readonly inlineJflowSourceAddress?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#file ForwardingoptionsSampling#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#file ForwardingoptionsSampling#file}
   */
   readonly file?: ForwardingoptionsSamplingFamilyInetOutputFile;
   /**
   * flow_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_server ForwardingoptionsSampling#flow_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_server ForwardingoptionsSampling#flow_server}
   */
   readonly flowServer?: ForwardingoptionsSamplingFamilyInetOutputFlowServer[] | cdktf.IResolvable;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#interface ForwardingoptionsSampling#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#interface ForwardingoptionsSampling#interface}
   */
   readonly interface?: ForwardingoptionsSamplingFamilyInetOutputInterface[] | cdktf.IResolvable;
 }
@@ -3287,25 +3287,25 @@ export interface ForwardingoptionsSamplingFamilyMplsInput {
   /**
   * Threshold of samples per second before dropping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#max_packets_per_second ForwardingoptionsSampling#max_packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#max_packets_per_second ForwardingoptionsSampling#max_packets_per_second}
   */
   readonly maxPacketsPerSecond?: number;
   /**
   * Maximum length of the sampled packet (0..9192 bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#maximum_packet_length ForwardingoptionsSampling#maximum_packet_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#maximum_packet_length ForwardingoptionsSampling#maximum_packet_length}
   */
   readonly maximumPacketLength?: number;
   /**
   * Ratio of packets to be sampled (1 out of N) (1..16000000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#rate ForwardingoptionsSampling#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#rate ForwardingoptionsSampling#rate}
   */
   readonly rate?: number;
   /**
   * Number of samples after initial trigger (0..20).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#run_length ForwardingoptionsSampling#run_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#run_length ForwardingoptionsSampling#run_length}
   */
   readonly runLength?: number;
 }
@@ -3488,97 +3488,97 @@ export interface ForwardingoptionsSamplingFamilyMplsOutputFlowServer {
   /**
   * Aggregate by autonomous system number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_autonomous_system ForwardingoptionsSampling#aggregation_autonomous_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_autonomous_system ForwardingoptionsSampling#aggregation_autonomous_system}
   */
   readonly aggregationAutonomousSystem?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by destination prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_destination_prefix ForwardingoptionsSampling#aggregation_destination_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_destination_prefix ForwardingoptionsSampling#aggregation_destination_prefix}
   */
   readonly aggregationDestinationPrefix?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by protocol and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_protocol_port ForwardingoptionsSampling#aggregation_protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_protocol_port ForwardingoptionsSampling#aggregation_protocol_port}
   */
   readonly aggregationProtocolPort?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by source and destination prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix ForwardingoptionsSampling#aggregation_source_destination_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix ForwardingoptionsSampling#aggregation_source_destination_prefix}
   */
   readonly aggregationSourceDestinationPrefix?: boolean | cdktf.IResolvable;
   /**
   * Compatible with Caida record format for prefix aggregation (v8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix_caida_compliant ForwardingoptionsSampling#aggregation_source_destination_prefix_caida_compliant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_destination_prefix_caida_compliant ForwardingoptionsSampling#aggregation_source_destination_prefix_caida_compliant}
   */
   readonly aggregationSourceDestinationPrefixCaidaCompliant?: boolean | cdktf.IResolvable;
   /**
   * Aggregate by source prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregation_source_prefix ForwardingoptionsSampling#aggregation_source_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregation_source_prefix ForwardingoptionsSampling#aggregation_source_prefix}
   */
   readonly aggregationSourcePrefix?: boolean | cdktf.IResolvable;
   /**
   * Type of autonomous system number to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#autonomous_system_type ForwardingoptionsSampling#autonomous_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#autonomous_system_type ForwardingoptionsSampling#autonomous_system_type}
   */
   readonly autonomousSystemType?: string;
   /**
   * Numeric DSCP value in the range 0 to 63 (0..63).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#dscp ForwardingoptionsSampling#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#dscp ForwardingoptionsSampling#dscp}
   */
   readonly dscp?: number;
   /**
   * Forwarding-class for exported jflow packets, applicable only for inline-jflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#forwarding_class ForwardingoptionsSampling#forwarding_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#forwarding_class ForwardingoptionsSampling#forwarding_class}
   */
   readonly forwardingClass?: string;
   /**
   * Name of host collecting cflowd packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#hostname ForwardingoptionsSampling#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#hostname ForwardingoptionsSampling#hostname}
   */
   readonly hostname: string;
   /**
   * Dump cflowd records to log file before exporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#local_dump ForwardingoptionsSampling#local_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#local_dump ForwardingoptionsSampling#local_dump}
   */
   readonly localDump?: boolean | cdktf.IResolvable;
   /**
   * Don't dump cflowd records to log file before exporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#no_local_dump ForwardingoptionsSampling#no_local_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#no_local_dump ForwardingoptionsSampling#no_local_dump}
   */
   readonly noLocalDump?: boolean | cdktf.IResolvable;
   /**
   * UDP port number on host collecting cflowd packets (1..65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#port ForwardingoptionsSampling#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#port ForwardingoptionsSampling#port}
   */
   readonly port: number;
   /**
   * Name of routing instance on which flow collector is reachable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#routing_instance ForwardingoptionsSampling#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#routing_instance ForwardingoptionsSampling#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Source IPv4 address for cflowd packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Template to export data in version 9 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#version9_template ForwardingoptionsSampling#version9_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#version9_template ForwardingoptionsSampling#version9_template}
   */
   readonly version9Template?: string;
 }
@@ -4125,25 +4125,25 @@ export interface ForwardingoptionsSamplingFamilyMplsOutputInterface {
   /**
   * Identity (number) of this accounting interface (0..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#engine_id ForwardingoptionsSampling#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#engine_id ForwardingoptionsSampling#engine_id}
   */
   readonly engineId?: number;
   /**
   * Type (number) of this accounting interface (0..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#engine_type ForwardingoptionsSampling#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#engine_type ForwardingoptionsSampling#engine_type}
   */
   readonly engineType?: number;
   /**
   * Name of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#name ForwardingoptionsSampling#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#name ForwardingoptionsSampling#name}
   */
   readonly name: string;
   /**
   * Address to use for generating monitored packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#source_address ForwardingoptionsSampling#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -4345,31 +4345,31 @@ export interface ForwardingoptionsSamplingFamilyMplsOutput {
   /**
   * Interval of exporting aggregate accounting information (90..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#aggregate_export_interval ForwardingoptionsSampling#aggregate_export_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#aggregate_export_interval ForwardingoptionsSampling#aggregate_export_interval}
   */
   readonly aggregateExportInterval?: number;
   /**
   * Interval after which an active flow is exported (60..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_active_timeout ForwardingoptionsSampling#flow_active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_active_timeout ForwardingoptionsSampling#flow_active_timeout}
   */
   readonly flowActiveTimeout?: number;
   /**
   * Interval of inactivity that marks a flow inactive (15..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_inactive_timeout ForwardingoptionsSampling#flow_inactive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_inactive_timeout ForwardingoptionsSampling#flow_inactive_timeout}
   */
   readonly flowInactiveTimeout?: number;
   /**
   * flow_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#flow_server ForwardingoptionsSampling#flow_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#flow_server ForwardingoptionsSampling#flow_server}
   */
   readonly flowServer?: ForwardingoptionsSamplingFamilyMplsOutputFlowServer[] | cdktf.IResolvable;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#interface ForwardingoptionsSampling#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#interface ForwardingoptionsSampling#interface}
   */
   readonly interface?: ForwardingoptionsSamplingFamilyMplsOutputInterface[] | cdktf.IResolvable;
 }
@@ -4581,25 +4581,25 @@ export interface ForwardingoptionsSamplingInput {
   /**
   * Threshold of samples per second before dropping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#max_packets_per_second ForwardingoptionsSampling#max_packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#max_packets_per_second ForwardingoptionsSampling#max_packets_per_second}
   */
   readonly maxPacketsPerSecond?: number;
   /**
   * Maximum length of the sampled packet (0..9192 bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#maximum_packet_length ForwardingoptionsSampling#maximum_packet_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#maximum_packet_length ForwardingoptionsSampling#maximum_packet_length}
   */
   readonly maximumPacketLength?: number;
   /**
   * Ratio of packets to be sampled (1 out of N) (1..16000000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#rate ForwardingoptionsSampling#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#rate ForwardingoptionsSampling#rate}
   */
   readonly rate?: number;
   /**
   * Number of samples after initial trigger (0..20).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#run_length ForwardingoptionsSampling#run_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#run_length ForwardingoptionsSampling#run_length}
   */
   readonly runLength?: number;
 }
@@ -4780,7 +4780,7 @@ export class ForwardingoptionsSamplingInputOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling junos_forwardingoptions_sampling}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling junos_forwardingoptions_sampling}
 */
 export class ForwardingoptionsSampling extends cdktf.TerraformResource {
 
@@ -4796,7 +4796,7 @@ export class ForwardingoptionsSampling extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ForwardingoptionsSampling resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardingoptionsSampling to import
-  * @param importFromId The id of the existing ForwardingoptionsSampling that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardingoptionsSampling that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardingoptionsSampling to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4808,7 +4808,7 @@ export class ForwardingoptionsSampling extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_sampling junos_forwardingoptions_sampling} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_sampling junos_forwardingoptions_sampling} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4819,8 +4819,8 @@ export class ForwardingoptionsSampling extends cdktf.TerraformResource {
       terraformResourceType: 'junos_forwardingoptions_sampling',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

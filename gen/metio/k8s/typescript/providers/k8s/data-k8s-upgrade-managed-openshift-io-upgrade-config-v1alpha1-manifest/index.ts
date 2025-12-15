@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#metadata DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#metadata DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1ManifestMetadata;
   /**
   * UpgradeConfigSpec defines the desired state of UpgradeConfig and upgrade window and freeze window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#spec DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#spec DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#annotations DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#annotations DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#labels DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#labels DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#name DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#name DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#namespace DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#namespace DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1ManifestSp
   /**
   * Channel used for upgrades
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#channel DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#channel DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#channel}
   */
   readonly channel?: string;
   /**
   * Image reference used for upgrades
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#image DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#image DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Version of openshift release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#version DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#version DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -385,31 +385,31 @@ export interface DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1ManifestSp
   /**
   * Specify if scaling up an extra node for capacity reservation before upgrade starts is needed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#capacity_reservation DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#capacity_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#capacity_reservation DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#capacity_reservation}
   */
   readonly capacityReservation?: boolean | cdktf.IResolvable;
   /**
   * Specify the desired OpenShift release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#desired DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#desired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#desired DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#desired}
   */
   readonly desired: DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1ManifestSpecDesired;
   /**
   * The maximum grace period granted to a node whose drain is blocked by a Pod Disruption Budget, before that drain is forced. Measured in minutes. The minimum accepted value is 0 and in this case it will trigger force drain after the expectedNodeDrainTime lapsed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#pdb_force_drain_timeout DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#pdb_force_drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#pdb_force_drain_timeout DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#pdb_force_drain_timeout}
   */
   readonly pdbForceDrainTimeout: number;
   /**
   * Type indicates the ClusterUpgrader implementation to use to perform an upgrade of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#type DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#type DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Specify the upgrade start time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#upgrade_at DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#upgrade_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#upgrade_at DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest#upgrade_at}
   */
   readonly upgradeAt: string;
 }
@@ -607,7 +607,7 @@ export class DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest k8s_upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest k8s_upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest}
 */
 export class DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -623,7 +623,7 @@ export class DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -635,7 +635,7 @@ export class DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest k8s_upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest k8s_upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -646,8 +646,8 @@ export class DataK8SUpgradeManagedOpenshiftIoUpgradeConfigV1Alpha1Manifest exten
       terraformResourceType: 'k8s_upgrade_managed_openshift_io_upgrade_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

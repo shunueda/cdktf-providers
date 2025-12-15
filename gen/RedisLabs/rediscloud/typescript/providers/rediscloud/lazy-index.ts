@@ -11,6 +11,7 @@ Object.defineProperty(exports, 'activeActiveSubscriptionDatabase', { get: functi
 Object.defineProperty(exports, 'activeActiveSubscriptionPeering', { get: function () { return require('./active-active-subscription-peering'); } });
 Object.defineProperty(exports, 'activeActiveSubscriptionRegions', { get: function () { return require('./active-active-subscription-regions'); } });
 Object.defineProperty(exports, 'activeActiveTransitGatewayAttachment', { get: function () { return require('./active-active-transit-gateway-attachment'); } });
+Object.defineProperty(exports, 'activeActiveTransitGatewayInvitationAcceptor', { get: function () { return require('./active-active-transit-gateway-invitation-acceptor'); } });
 Object.defineProperty(exports, 'cloudAccount', { get: function () { return require('./cloud-account'); } });
 Object.defineProperty(exports, 'essentialsDatabase', { get: function () { return require('./essentials-database'); } });
 Object.defineProperty(exports, 'essentialsSubscription', { get: function () { return require('./essentials-subscription'); } });
@@ -22,6 +23,7 @@ Object.defineProperty(exports, 'subscription', { get: function () { return requi
 Object.defineProperty(exports, 'subscriptionDatabase', { get: function () { return require('./subscription-database'); } });
 Object.defineProperty(exports, 'subscriptionPeering', { get: function () { return require('./subscription-peering'); } });
 Object.defineProperty(exports, 'transitGatewayAttachment', { get: function () { return require('./transit-gateway-attachment'); } });
+Object.defineProperty(exports, 'transitGatewayInvitationAcceptor', { get: function () { return require('./transit-gateway-invitation-acceptor'); } });
 Object.defineProperty(exports, 'dataRediscloudAclRole', { get: function () { return require('./data-rediscloud-acl-role'); } });
 Object.defineProperty(exports, 'dataRediscloudAclRule', { get: function () { return require('./data-rediscloud-acl-rule'); } });
 Object.defineProperty(exports, 'dataRediscloudAclUser', { get: function () { return require('./data-rediscloud-acl-user'); } });
@@ -33,6 +35,7 @@ Object.defineProperty(exports, 'dataRediscloudActiveActiveSubscription', { get: 
 Object.defineProperty(exports, 'dataRediscloudActiveActiveSubscriptionDatabase', { get: function () { return require('./data-rediscloud-active-active-subscription-database'); } });
 Object.defineProperty(exports, 'dataRediscloudActiveActiveSubscriptionRegions', { get: function () { return require('./data-rediscloud-active-active-subscription-regions'); } });
 Object.defineProperty(exports, 'dataRediscloudActiveActiveTransitGateway', { get: function () { return require('./data-rediscloud-active-active-transit-gateway'); } });
+Object.defineProperty(exports, 'dataRediscloudActiveActiveTransitGatewayInvitations', { get: function () { return require('./data-rediscloud-active-active-transit-gateway-invitations'); } });
 Object.defineProperty(exports, 'dataRediscloudCloudAccount', { get: function () { return require('./data-rediscloud-cloud-account'); } });
 Object.defineProperty(exports, 'dataRediscloudDataPersistence', { get: function () { return require('./data-rediscloud-data-persistence'); } });
 Object.defineProperty(exports, 'dataRediscloudDatabase', { get: function () { return require('./data-rediscloud-database'); } });
@@ -49,5 +52,6 @@ Object.defineProperty(exports, 'dataRediscloudRegions', { get: function () { ret
 Object.defineProperty(exports, 'dataRediscloudSubscription', { get: function () { return require('./data-rediscloud-subscription'); } });
 Object.defineProperty(exports, 'dataRediscloudSubscriptionPeerings', { get: function () { return require('./data-rediscloud-subscription-peerings'); } });
 Object.defineProperty(exports, 'dataRediscloudTransitGateway', { get: function () { return require('./data-rediscloud-transit-gateway'); } });
+Object.defineProperty(exports, 'dataRediscloudTransitGatewayInvitations', { get: function () { return require('./data-rediscloud-transit-gateway-invitations'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

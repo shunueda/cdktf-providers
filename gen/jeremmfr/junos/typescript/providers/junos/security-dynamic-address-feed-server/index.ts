@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SecurityDynamicAddressFeedServerConfig extends cdktf.TerraformM
   /**
   * Text description of feed-server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#description SecurityDynamicAddressFeedServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#description SecurityDynamicAddressFeedServer#description}
   */
   readonly description?: string;
   /**
   * Time to keep IP entry when update failed (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#hold_interval SecurityDynamicAddressFeedServer#hold_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#hold_interval SecurityDynamicAddressFeedServer#hold_interval}
   */
   readonly holdInterval?: number;
   /**
   * Hostname or IP address of feed-server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#hostname SecurityDynamicAddressFeedServer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#hostname SecurityDynamicAddressFeedServer#hostname}
   */
   readonly hostname?: string;
   /**
   * Security dynamic address feed-server name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#name SecurityDynamicAddressFeedServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#name SecurityDynamicAddressFeedServer#name}
   */
   readonly name: string;
   /**
   * TLS profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#tls_profile SecurityDynamicAddressFeedServer#tls_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#tls_profile SecurityDynamicAddressFeedServer#tls_profile}
   */
   readonly tlsProfile?: string;
   /**
   *  Interval to retrieve update (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#update_interval SecurityDynamicAddressFeedServer#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#update_interval SecurityDynamicAddressFeedServer#update_interval}
   */
   readonly updateInterval?: number;
   /**
   * URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#url SecurityDynamicAddressFeedServer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#url SecurityDynamicAddressFeedServer#url}
   */
   readonly url?: string;
   /**
   * Validate certificate attributes subject or subject alternative names must match feed server host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#validate_certificate_attributes_subject_or_san SecurityDynamicAddressFeedServer#validate_certificate_attributes_subject_or_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#validate_certificate_attributes_subject_or_san SecurityDynamicAddressFeedServer#validate_certificate_attributes_subject_or_san}
   */
   readonly validateCertificateAttributesSubjectOrSan?: boolean | cdktf.IResolvable;
   /**
   * feed_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#feed_name SecurityDynamicAddressFeedServer#feed_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#feed_name SecurityDynamicAddressFeedServer#feed_name}
   */
   readonly feedName?: SecurityDynamicAddressFeedServerFeedName[] | cdktf.IResolvable;
 }
@@ -66,31 +66,31 @@ export interface SecurityDynamicAddressFeedServerFeedName {
   /**
   * Text description of feed in feed-server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#description SecurityDynamicAddressFeedServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#description SecurityDynamicAddressFeedServer#description}
   */
   readonly description?: string;
   /**
   * Time to keep IP entry when update failed (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#hold_interval SecurityDynamicAddressFeedServer#hold_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#hold_interval SecurityDynamicAddressFeedServer#hold_interval}
   */
   readonly holdInterval?: number;
   /**
   * Security dynamic address feed name in feed-server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#name SecurityDynamicAddressFeedServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#name SecurityDynamicAddressFeedServer#name}
   */
   readonly name: string;
   /**
   * Path of feed, appended to feed-server to form a complete URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#path SecurityDynamicAddressFeedServer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#path SecurityDynamicAddressFeedServer#path}
   */
   readonly path: string;
   /**
   * Interval to retrieve update (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#update_interval SecurityDynamicAddressFeedServer#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#update_interval SecurityDynamicAddressFeedServer#update_interval}
   */
   readonly updateInterval?: number;
 }
@@ -316,7 +316,7 @@ export class SecurityDynamicAddressFeedServerFeedNameList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server junos_security_dynamic_address_feed_server}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server junos_security_dynamic_address_feed_server}
 */
 export class SecurityDynamicAddressFeedServer extends cdktf.TerraformResource {
 
@@ -332,7 +332,7 @@ export class SecurityDynamicAddressFeedServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityDynamicAddressFeedServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityDynamicAddressFeedServer to import
-  * @param importFromId The id of the existing SecurityDynamicAddressFeedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityDynamicAddressFeedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityDynamicAddressFeedServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -344,7 +344,7 @@ export class SecurityDynamicAddressFeedServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_feed_server junos_security_dynamic_address_feed_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_feed_server junos_security_dynamic_address_feed_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -355,8 +355,8 @@ export class SecurityDynamicAddressFeedServer extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_dynamic_address_feed_server',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

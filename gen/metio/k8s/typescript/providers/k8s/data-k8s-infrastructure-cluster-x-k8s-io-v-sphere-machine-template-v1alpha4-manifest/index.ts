@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestMetadata;
   /**
   * VSphereMachineTemplateSpec defines the desired state of VSphereMachineTemplate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#namespace DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#namespace DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -350,19 +350,19 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * Metric is the weight/priority of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#metric DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#metric DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#metric}
   */
   readonly metric: number;
   /**
   * To is an IPv4 or IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#to DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#to DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#to}
   */
   readonly to: string;
   /**
   * Via is an IPv4 or IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#via DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#via DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#via}
   */
   readonly via: string;
 }
@@ -529,73 +529,73 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * DeviceName may be used to explicitly assign a name to the network device as it exists in the guest operating system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#device_name DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#device_name DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * DHCP4 is a flag that indicates whether or not to use DHCP for IPv4 on this device. If true then IPAddrs should not contain any IPv4 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#dhcp4 DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#dhcp4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#dhcp4 DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#dhcp4}
   */
   readonly dhcp4?: boolean | cdktf.IResolvable;
   /**
   * DHCP6 is a flag that indicates whether or not to use DHCP for IPv6 on this device. If true then IPAddrs should not contain any IPv6 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#dhcp6 DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#dhcp6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#dhcp6 DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#dhcp6}
   */
   readonly dhcp6?: boolean | cdktf.IResolvable;
   /**
   * Gateway4 is the IPv4 gateway used by this device. Required when DHCP4 is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#gateway4 DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#gateway4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#gateway4 DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#gateway4}
   */
   readonly gateway4?: string;
   /**
   * Gateway4 is the IPv4 gateway used by this device. Required when DHCP6 is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#gateway6 DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#gateway6 DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#gateway6}
   */
   readonly gateway6?: string;
   /**
   * IPAddrs is a list of one or more IPv4 and/or IPv6 addresses to assign to this device. IP addresses must also specify the segment length in CIDR notation. Required when DHCP4 and DHCP6 are both false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#ip_addrs DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#ip_addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#ip_addrs DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#ip_addrs}
   */
   readonly ipAddrs?: string[];
   /**
   * MACAddr is the MAC address used by this device. It is generally a good idea to omit this field and allow a MAC address to be generated. Please note that this value must use the VMware OUI to work with the in-tree vSphere cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#mac_addr DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#mac_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#mac_addr DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#mac_addr}
   */
   readonly macAddr?: string;
   /**
   * MTU is the device’s Maximum Transmission Unit size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#mtu DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#mtu DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#mtu}
   */
   readonly mtu?: number;
   /**
   * Nameservers is a list of IPv4 and/or IPv6 addresses used as DNS nameservers. Please note that Linux allows only three nameservers (https://linux.die.net/man/5/resolv.conf).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#nameservers DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#nameservers DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * NetworkName is the name of the vSphere network to which the device will be connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#network_name DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#network_name DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#network_name}
   */
   readonly networkName: string;
   /**
   * Routes is a list of optional, static routes applied to the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#routes DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#routes DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#routes}
   */
   readonly routes?: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestSpecTemplateSpecNetworkDevicesRoutes[] | cdktf.IResolvable;
   /**
   * SearchDomains is a list of search domains used when resolving IP addresses with DNS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#search_domains DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#search_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#search_domains DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#search_domains}
   */
   readonly searchDomains?: string[];
 }
@@ -1029,19 +1029,19 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * Metric is the weight/priority of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#metric DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#metric DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#metric}
   */
   readonly metric: number;
   /**
   * To is an IPv4 or IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#to DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#to DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#to}
   */
   readonly to: string;
   /**
   * Via is an IPv4 or IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#via DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#via DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#via}
   */
   readonly via: string;
 }
@@ -1208,19 +1208,19 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * Devices is the list of network devices used by the virtual machine. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#devices DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#devices DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#devices}
   */
   readonly devices: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestSpecTemplateSpecNetworkDevices[] | cdktf.IResolvable;
   /**
   * PreferredAPIServeCIDR is the preferred CIDR for the Kubernetes API server endpoint on this machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#preferred_api_server_cidr DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#preferred_api_server_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#preferred_api_server_cidr DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#preferred_api_server_cidr}
   */
   readonly preferredApiServerCidr?: string;
   /**
   * Routes is a list of optional, static routes applied to the virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#routes DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#routes DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#routes}
   */
   readonly routes?: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestSpecTemplateSpecNetworkRoutes[] | cdktf.IResolvable;
 }
@@ -1371,109 +1371,109 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * CloneMode specifies the type of clone operation. The LinkedClone mode is only support for templates that have at least one snapshot. If the template has no snapshots, then CloneMode defaults to FullClone. When LinkedClone mode is enabled the DiskGiB field is ignored as it is not possible to expand disks of linked clones. Defaults to LinkedClone, but fails gracefully to FullClone if the source of the clone operation has no snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#clone_mode DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#clone_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#clone_mode DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#clone_mode}
   */
   readonly cloneMode?: string;
   /**
   * CustomVMXKeys is a dictionary of advanced VMX options that can be set on VM Defaults to empty map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#custom_vmx_keys DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#custom_vmx_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#custom_vmx_keys DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#custom_vmx_keys}
   */
   readonly customVmxKeys?: { [key: string]: string };
   /**
   * Datacenter is the name or inventory path of the datacenter in which the virtual machine is created/located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#datacenter DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#datacenter DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#datacenter}
   */
   readonly datacenter?: string;
   /**
   * Datastore is the name or inventory path of the datastore in which the virtual machine is created/located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#datastore DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#datastore DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#datastore}
   */
   readonly datastore?: string;
   /**
   * DiskGiB is the size of a virtual machine's disk, in GiB. Defaults to the eponymous property value in the template from which the virtual machine is cloned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#disk_gi_b DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#disk_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#disk_gi_b DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#disk_gi_b}
   */
   readonly diskGiB?: number;
   /**
   * FailureDomain is the failure domain unique identifier this Machine should be attached to, as defined in Cluster API. For this infrastructure provider, the name is equivalent to the name of the VSphereDeploymentZone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#failure_domain DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#failure_domain DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#failure_domain}
   */
   readonly failureDomain?: string;
   /**
   * Folder is the name or inventory path of the folder in which the virtual machine is created/located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#folder DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#folder DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#folder}
   */
   readonly folder?: string;
   /**
   * MemoryMiB is the size of a virtual machine's memory, in MiB. Defaults to the eponymous property value in the template from which the virtual machine is cloned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#memory_mi_b DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#memory_mi_b DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#memory_mi_b}
   */
   readonly memoryMiB?: number;
   /**
   * Network is the network configuration for this machine's VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#network DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#network DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#network}
   */
   readonly network: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestSpecTemplateSpecNetwork;
   /**
   * NumCPUs is the number of cores among which to distribute CPUs in this virtual machine. Defaults to the eponymous property value in the template from which the virtual machine is cloned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#num_cores_per_socket DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#num_cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#num_cores_per_socket DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#num_cores_per_socket}
   */
   readonly numCoresPerSocket?: number;
   /**
   * NumCPUs is the number of virtual processors in a virtual machine. Defaults to the eponymous property value in the template from which the virtual machine is cloned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#num_cp_us DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#num_cp_us}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#num_cp_us DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#num_cp_us}
   */
   readonly numCpUs?: number;
   /**
   * ProviderID is the virtual machine's BIOS UUID formated as vsphere://12345678-1234-1234-1234-123456789abc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#provider_id DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#provider_id DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
   * ResourcePool is the name or inventory path of the resource pool in which the virtual machine is created/located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#resource_pool DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#resource_pool DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#resource_pool}
   */
   readonly resourcePool?: string;
   /**
   * Server is the IP address or FQDN of the vSphere server on which the virtual machine is created/located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#server DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#server DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#server}
   */
   readonly server?: string;
   /**
   * Snapshot is the name of the snapshot from which to create a linked clone. This field is ignored if LinkedClone is not enabled. Defaults to the source's current snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#snapshot DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#snapshot DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#snapshot}
   */
   readonly snapshot?: string;
   /**
   * StoragePolicyName of the storage policy to use with this Virtual Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#storage_policy_name DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#storage_policy_name DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * Template is the name or inventory path of the template used to clone the virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#template DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#template DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#template}
   */
   readonly template: string;
   /**
   * Thumbprint is the colon-separated SHA-1 checksum of the given vCenter server's host certificate When this is set to empty, this VirtualMachine would be created without TLS certificate validation of the communication between Cluster API Provider vSphere and the VMware vCenter server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#thumbprint DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#thumbprint DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#thumbprint}
   */
   readonly thumbprint?: string;
 }
@@ -2056,13 +2056,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#metadata}
   */
   readonly metadata?: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestSpecTemplateMetadata;
   /**
   * Spec is the specification of the desired behavior of the machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#spec}
   */
   readonly spec: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestSpecTemplateSpec;
 }
@@ -2184,7 +2184,7 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha
   /**
   * VSphereMachineTemplateResource describes the data needed to create a VSphereMachine from a template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#template DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#template DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest#template}
   */
   readonly template: DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4ManifestSpecTemplate;
 }
@@ -2275,7 +2275,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Man
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest extends cdktf.TerraformDataSource {
 
@@ -2291,7 +2291,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Man
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2303,7 +2303,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Man
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2314,8 +2314,8 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Man
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRediscloudActiveActiveTransitGatewayConfig extends cdktf.Te
   /**
   * The id of the Transit Gateway as known to AWS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway#aws_tgw_uid DataRediscloudActiveActiveTransitGateway#aws_tgw_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway#aws_tgw_uid DataRediscloudActiveActiveTransitGateway#aws_tgw_uid}
   */
   readonly awsTgwUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway#id DataRediscloudActiveActiveTransitGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway#id DataRediscloudActiveActiveTransitGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataRediscloudActiveActiveTransitGatewayConfig extends cdktf.Te
   /**
   * The id of the AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway#region_id DataRediscloudActiveActiveTransitGateway#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway#region_id DataRediscloudActiveActiveTransitGateway#region_id}
   */
   readonly regionId: number;
   /**
   * The id of an Active Active subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway#subscription_id DataRediscloudActiveActiveTransitGateway#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway#subscription_id DataRediscloudActiveActiveTransitGateway#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The id of the Transit Gateway relative to the associated subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway#tgw_id DataRediscloudActiveActiveTransitGateway#tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway#tgw_id DataRediscloudActiveActiveTransitGateway#tgw_id}
   */
   readonly tgwId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway rediscloud_active_active_transit_gateway}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway rediscloud_active_active_transit_gateway}
 */
 export class DataRediscloudActiveActiveTransitGateway extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataRediscloudActiveActiveTransitGateway extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataRediscloudActiveActiveTransitGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudActiveActiveTransitGateway to import
-  * @param importFromId The id of the existing DataRediscloudActiveActiveTransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudActiveActiveTransitGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudActiveActiveTransitGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataRediscloudActiveActiveTransitGateway extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_transit_gateway rediscloud_active_active_transit_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/active_active_transit_gateway rediscloud_active_active_transit_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataRediscloudActiveActiveTransitGateway extends cdktf.TerraformDat
       terraformResourceType: 'rediscloud_active_active_transit_gateway',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.8.0',
-        providerVersionConstraint: '2.8.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

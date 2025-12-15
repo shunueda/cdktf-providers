@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecurityDynamicAddressNameConfig extends cdktf.TerraformMetaArg
   /**
   * Text description of dynamic address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#description SecurityDynamicAddressName#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#description SecurityDynamicAddressName#description}
   */
   readonly description?: string;
   /**
   * Security dynamic address name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#name SecurityDynamicAddressName#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#name SecurityDynamicAddressName#name}
   */
   readonly name: string;
   /**
   * Name of feed in feed-server for this dynamic address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#profile_feed_name SecurityDynamicAddressName#profile_feed_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#profile_feed_name SecurityDynamicAddressName#profile_feed_name}
   */
   readonly profileFeedName?: string;
   /**
   * Trigger session scan when the IP address is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#session_scan SecurityDynamicAddressName#session_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#session_scan SecurityDynamicAddressName#session_scan}
   */
   readonly sessionScan?: boolean | cdktf.IResolvable;
   /**
   * profile_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#profile_category SecurityDynamicAddressName#profile_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#profile_category SecurityDynamicAddressName#profile_category}
   */
   readonly profileCategory?: SecurityDynamicAddressNameProfileCategory;
 }
@@ -42,13 +42,13 @@ export interface SecurityDynamicAddressNameProfileCategoryProperty {
   /**
   * Name of property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#name SecurityDynamicAddressName#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#name SecurityDynamicAddressName#name}
   */
   readonly name: string;
   /**
   * String value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#string SecurityDynamicAddressName#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#string SecurityDynamicAddressName#string}
   */
   readonly string: string[];
 }
@@ -189,19 +189,19 @@ export interface SecurityDynamicAddressNameProfileCategory {
   /**
   * Name of feed under category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#feed SecurityDynamicAddressName#feed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#feed SecurityDynamicAddressName#feed}
   */
   readonly feed?: string;
   /**
   * Name of category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#name SecurityDynamicAddressName#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#name SecurityDynamicAddressName#name}
   */
   readonly name?: string;
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#property SecurityDynamicAddressName#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#property SecurityDynamicAddressName#property}
   */
   readonly property?: SecurityDynamicAddressNameProfileCategoryProperty[] | cdktf.IResolvable;
 }
@@ -353,7 +353,7 @@ export class SecurityDynamicAddressNameProfileCategoryOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name junos_security_dynamic_address_name}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name junos_security_dynamic_address_name}
 */
 export class SecurityDynamicAddressName extends cdktf.TerraformResource {
 
@@ -369,7 +369,7 @@ export class SecurityDynamicAddressName extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityDynamicAddressName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityDynamicAddressName to import
-  * @param importFromId The id of the existing SecurityDynamicAddressName that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityDynamicAddressName that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityDynamicAddressName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class SecurityDynamicAddressName extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_dynamic_address_name junos_security_dynamic_address_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_dynamic_address_name junos_security_dynamic_address_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class SecurityDynamicAddressName extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_dynamic_address_name',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

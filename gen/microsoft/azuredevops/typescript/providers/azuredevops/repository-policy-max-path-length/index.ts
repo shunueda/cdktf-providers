@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface RepositoryPolicyMaxPathLengthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#blocking RepositoryPolicyMaxPathLength#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#blocking RepositoryPolicyMaxPathLength#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#enabled RepositoryPolicyMaxPathLength#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#enabled RepositoryPolicyMaxPathLength#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#id RepositoryPolicyMaxPathLength#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#id RepositoryPolicyMaxPathLength#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#max_path_length RepositoryPolicyMaxPathLength#max_path_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#max_path_length RepositoryPolicyMaxPathLength#max_path_length}
   */
   readonly maxPathLength: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#project_id RepositoryPolicyMaxPathLength#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#project_id RepositoryPolicyMaxPathLength#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#repository_ids RepositoryPolicyMaxPathLength#repository_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#repository_ids RepositoryPolicyMaxPathLength#repository_ids}
   */
   readonly repositoryIds?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#timeouts RepositoryPolicyMaxPathLength#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#timeouts RepositoryPolicyMaxPathLength#timeouts}
   */
   readonly timeouts?: RepositoryPolicyMaxPathLengthTimeouts;
 }
 export interface RepositoryPolicyMaxPathLengthTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#create RepositoryPolicyMaxPathLength#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#create RepositoryPolicyMaxPathLength#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#delete RepositoryPolicyMaxPathLength#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#delete RepositoryPolicyMaxPathLength#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#read RepositoryPolicyMaxPathLength#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#read RepositoryPolicyMaxPathLength#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#update RepositoryPolicyMaxPathLength#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#update RepositoryPolicyMaxPathLength#update}
   */
   readonly update?: string;
 }
@@ -236,7 +236,7 @@ export class RepositoryPolicyMaxPathLengthTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length azuredevops_repository_policy_max_path_length}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length azuredevops_repository_policy_max_path_length}
 */
 export class RepositoryPolicyMaxPathLength extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class RepositoryPolicyMaxPathLength extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryPolicyMaxPathLength resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryPolicyMaxPathLength to import
-  * @param importFromId The id of the existing RepositoryPolicyMaxPathLength that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryPolicyMaxPathLength that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryPolicyMaxPathLength to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class RepositoryPolicyMaxPathLength extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_path_length azuredevops_repository_policy_max_path_length} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/repository_policy_max_path_length azuredevops_repository_policy_max_path_length} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class RepositoryPolicyMaxPathLength extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_repository_policy_max_path_length',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical_disable
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical_disable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface InterfacePhysicalDisableConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of physical interface (without dot).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical_disable#name InterfacePhysicalDisable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical_disable#name InterfacePhysicalDisable#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical_disable junos_interface_physical_disable}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical_disable junos_interface_physical_disable}
 */
 export class InterfacePhysicalDisable extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class InterfacePhysicalDisable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacePhysicalDisable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacePhysicalDisable to import
-  * @param importFromId The id of the existing InterfacePhysicalDisable that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical_disable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacePhysicalDisable that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical_disable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacePhysicalDisable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class InterfacePhysicalDisable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical_disable junos_interface_physical_disable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical_disable junos_interface_physical_disable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class InterfacePhysicalDisable extends cdktf.TerraformResource {
       terraformResourceType: 'junos_interface_physical_disable',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

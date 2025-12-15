@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#metadata DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#metadata DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestMetadata;
   /**
   * StageSpec defines the desired state of Stage. Represents an API stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#spec DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#spec DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#annotations DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#annotations DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#labels DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#labels DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecAcces
   /**
   * Represents an Amazon Resource Name (ARN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#destination_arn DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#destination_arn DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#destination_arn}
   */
   readonly destinationArn?: string;
   /**
   * A string with a length between [1-1024].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#format DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#format DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#format}
   */
   readonly format?: string;
 }
@@ -348,11 +348,11 @@ export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecAccessLog
 }
 export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecApiRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -477,7 +477,7 @@ export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecApiRe
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#from DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#from DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecApiRefFrom;
 }
@@ -571,25 +571,25 @@ export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecApiRefOut
 }
 export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecDefaultRouteSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#data_trace_enabled DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#data_trace_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#data_trace_enabled DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#data_trace_enabled}
   */
   readonly dataTraceEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#detailed_metrics_enabled DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#detailed_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#detailed_metrics_enabled DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#detailed_metrics_enabled}
   */
   readonly detailedMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The logging level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#logging_level DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#logging_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#logging_level DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#logging_level}
   */
   readonly loggingLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#throttling_burst_limit DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#throttling_burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#throttling_burst_limit DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#throttling_burst_limit}
   */
   readonly throttlingBurstLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#throttling_rate_limit DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#throttling_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#throttling_rate_limit DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#throttling_rate_limit}
   */
   readonly throttlingRateLimit?: number;
 }
@@ -799,11 +799,11 @@ export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecDefaultRo
 }
 export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecDeploymentRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -928,7 +928,7 @@ export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecDeplo
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#from DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#from DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecDeploymentRefFrom;
 }
@@ -1022,25 +1022,25 @@ export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecDeploymen
 }
 export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecRouteSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#data_trace_enabled DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#data_trace_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#data_trace_enabled DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#data_trace_enabled}
   */
   readonly dataTraceEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#detailed_metrics_enabled DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#detailed_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#detailed_metrics_enabled DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#detailed_metrics_enabled}
   */
   readonly detailedMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The logging level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#logging_level DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#logging_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#logging_level DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#logging_level}
   */
   readonly loggingLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#throttling_burst_limit DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#throttling_burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#throttling_burst_limit DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#throttling_burst_limit}
   */
   readonly throttlingBurstLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#throttling_rate_limit DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#throttling_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#throttling_rate_limit DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#throttling_rate_limit}
   */
   readonly throttlingRateLimit?: number;
 }
@@ -1252,61 +1252,61 @@ export interface DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpec {
   /**
   * Settings for logging access in a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#access_log_settings DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#access_log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#access_log_settings DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#access_log_settings}
   */
   readonly accessLogSettings?: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecAccessLogSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#api_id DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#api_id DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#api_id}
   */
   readonly apiId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#api_ref DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#api_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#api_ref DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#api_ref}
   */
   readonly apiRef?: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecApiRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#auto_deploy DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#auto_deploy DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#auto_deploy}
   */
   readonly autoDeploy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#client_certificate_id DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#client_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#client_certificate_id DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#client_certificate_id}
   */
   readonly clientCertificateId?: string;
   /**
   * Represents a collection of route settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#default_route_settings DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#default_route_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#default_route_settings DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#default_route_settings}
   */
   readonly defaultRouteSettings?: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecDefaultRouteSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#deployment_id DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#deployment_id DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#deployment_ref DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#deployment_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#deployment_ref DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#deployment_ref}
   */
   readonly deploymentRef?: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecDeploymentRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#description DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#description DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#route_settings DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#route_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#route_settings DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#route_settings}
   */
   readonly routeSettings?: DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecRouteSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#stage_name DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#stage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#stage_name DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#stage_name}
   */
   readonly stageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#stage_variables DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#stage_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#stage_variables DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#stage_variables}
   */
   readonly stageVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#tags DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#tags DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1745,7 +1745,7 @@ export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest k8s_apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest k8s_apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest}
 */
 export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1761,7 +1761,7 @@ export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1773,7 +1773,7 @@ export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest k8s_apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest k8s_apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1784,8 +1784,8 @@ export class DataK8SApigatewayv2ServicesK8SAwsStageV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_apigatewayv2_services_k8s_aws_stage_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

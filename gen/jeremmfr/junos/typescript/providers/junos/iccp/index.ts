@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IccpConfig extends cdktf.TerraformMetaArguments {
   /**
   * MD5 authentication key for all peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp#authentication_key Iccp#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp#authentication_key Iccp#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Local IP address to use by default for all peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp#local_ip_addr Iccp#local_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp#local_ip_addr Iccp#local_ip_addr}
   */
   readonly localIpAddr: string;
   /**
   * Time within which connection must succeed with peers (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp#session_establishment_hold_time Iccp#session_establishment_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp#session_establishment_hold_time Iccp#session_establishment_hold_time}
   */
   readonly sessionEstablishmentHoldTime?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp junos_iccp}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp junos_iccp}
 */
 export class Iccp extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Iccp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Iccp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Iccp to import
-  * @param importFromId The id of the existing Iccp that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Iccp that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Iccp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Iccp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp junos_iccp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp junos_iccp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Iccp extends cdktf.TerraformResource {
       terraformResourceType: 'junos_iccp',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

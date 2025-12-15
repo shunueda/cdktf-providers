@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SResourcesTeleportDevTeleportUserV2ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#metadata DataK8SResourcesTeleportDevTeleportUserV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#metadata DataK8SResourcesTeleportDevTeleportUserV2Manifest#metadata}
   */
   readonly metadata: DataK8SResourcesTeleportDevTeleportUserV2ManifestMetadata;
   /**
   * User resource definition v2 from Teleport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#spec DataK8SResourcesTeleportDevTeleportUserV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#spec DataK8SResourcesTeleportDevTeleportUserV2Manifest#spec}
   */
   readonly spec?: DataK8SResourcesTeleportDevTeleportUserV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SResourcesTeleportDevTeleportUserV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#annotations DataK8SResourcesTeleportDevTeleportUserV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#annotations DataK8SResourcesTeleportDevTeleportUserV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#labels DataK8SResourcesTeleportDevTeleportUserV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#labels DataK8SResourcesTeleportDevTeleportUserV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#name DataK8SResourcesTeleportDevTeleportUserV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#name DataK8SResourcesTeleportDevTeleportUserV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#namespace DataK8SResourcesTeleportDevTeleportUserV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#namespace DataK8SResourcesTeleportDevTeleportUserV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SResourcesTeleportDevTeleportUserV2ManifestSpecGithubIden
   /**
   * ConnectorID is id of registered OIDC connector, e.g. 'google-example.com'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#connector_id DataK8SResourcesTeleportDevTeleportUserV2Manifest#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#connector_id DataK8SResourcesTeleportDevTeleportUserV2Manifest#connector_id}
   */
   readonly connectorId?: string;
   /**
   * SAMLSingleLogoutURL is the SAML Single log-out URL to initiate SAML SLO (single log-out), if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#saml_single_logout_url DataK8SResourcesTeleportDevTeleportUserV2Manifest#saml_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#saml_single_logout_url DataK8SResourcesTeleportDevTeleportUserV2Manifest#saml_single_logout_url}
   */
   readonly samlSingleLogoutUrl?: string;
   /**
   * Username is username supplied by external identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#username DataK8SResourcesTeleportDevTeleportUserV2Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#username DataK8SResourcesTeleportDevTeleportUserV2Manifest#username}
   */
   readonly username?: string;
 }
@@ -407,19 +407,19 @@ export interface DataK8SResourcesTeleportDevTeleportUserV2ManifestSpecOidcIdenti
   /**
   * ConnectorID is id of registered OIDC connector, e.g. 'google-example.com'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#connector_id DataK8SResourcesTeleportDevTeleportUserV2Manifest#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#connector_id DataK8SResourcesTeleportDevTeleportUserV2Manifest#connector_id}
   */
   readonly connectorId?: string;
   /**
   * SAMLSingleLogoutURL is the SAML Single log-out URL to initiate SAML SLO (single log-out), if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#saml_single_logout_url DataK8SResourcesTeleportDevTeleportUserV2Manifest#saml_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#saml_single_logout_url DataK8SResourcesTeleportDevTeleportUserV2Manifest#saml_single_logout_url}
   */
   readonly samlSingleLogoutUrl?: string;
   /**
   * Username is username supplied by external identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#username DataK8SResourcesTeleportDevTeleportUserV2Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#username DataK8SResourcesTeleportDevTeleportUserV2Manifest#username}
   */
   readonly username?: string;
 }
@@ -595,19 +595,19 @@ export interface DataK8SResourcesTeleportDevTeleportUserV2ManifestSpecSamlIdenti
   /**
   * ConnectorID is id of registered OIDC connector, e.g. 'google-example.com'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#connector_id DataK8SResourcesTeleportDevTeleportUserV2Manifest#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#connector_id DataK8SResourcesTeleportDevTeleportUserV2Manifest#connector_id}
   */
   readonly connectorId?: string;
   /**
   * SAMLSingleLogoutURL is the SAML Single log-out URL to initiate SAML SLO (single log-out), if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#saml_single_logout_url DataK8SResourcesTeleportDevTeleportUserV2Manifest#saml_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#saml_single_logout_url DataK8SResourcesTeleportDevTeleportUserV2Manifest#saml_single_logout_url}
   */
   readonly samlSingleLogoutUrl?: string;
   /**
   * Username is username supplied by external identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#username DataK8SResourcesTeleportDevTeleportUserV2Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#username DataK8SResourcesTeleportDevTeleportUserV2Manifest#username}
   */
   readonly username?: string;
 }
@@ -783,37 +783,37 @@ export interface DataK8SResourcesTeleportDevTeleportUserV2ManifestSpec {
   /**
   * GithubIdentities list associated Github OAuth2 identities that let user log in using externally verified identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#github_identities DataK8SResourcesTeleportDevTeleportUserV2Manifest#github_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#github_identities DataK8SResourcesTeleportDevTeleportUserV2Manifest#github_identities}
   */
   readonly githubIdentities?: DataK8SResourcesTeleportDevTeleportUserV2ManifestSpecGithubIdentities[] | cdktf.IResolvable;
   /**
   * OIDCIdentities lists associated OpenID Connect identities that let user log in using externally verified identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#oidc_identities DataK8SResourcesTeleportDevTeleportUserV2Manifest#oidc_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#oidc_identities DataK8SResourcesTeleportDevTeleportUserV2Manifest#oidc_identities}
   */
   readonly oidcIdentities?: DataK8SResourcesTeleportDevTeleportUserV2ManifestSpecOidcIdentities[] | cdktf.IResolvable;
   /**
   * Roles is a list of roles assigned to user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#roles DataK8SResourcesTeleportDevTeleportUserV2Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#roles DataK8SResourcesTeleportDevTeleportUserV2Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * SAMLIdentities lists associated SAML identities that let user log in using externally verified identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#saml_identities DataK8SResourcesTeleportDevTeleportUserV2Manifest#saml_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#saml_identities DataK8SResourcesTeleportDevTeleportUserV2Manifest#saml_identities}
   */
   readonly samlIdentities?: DataK8SResourcesTeleportDevTeleportUserV2ManifestSpecSamlIdentities[] | cdktf.IResolvable;
   /**
   * Traits are key/value pairs received from an identity provider (through OIDC claims or SAML assertions) or from a system administrator for local accounts. Traits are used to populate role variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#traits DataK8SResourcesTeleportDevTeleportUserV2Manifest#traits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#traits DataK8SResourcesTeleportDevTeleportUserV2Manifest#traits}
   */
   readonly traits?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * TrustedDeviceIDs contains the IDs of trusted devices enrolled by the user. Note that SSO users are transient and thus may contain an empty TrustedDeviceIDs field, even though the user->device association exists under the Device Trust subsystem. Do not rely on this field to determine device associations or ownership, it exists for legacy/informative purposes only. Managed by the Device Trust subsystem, avoid manual edits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#trusted_device_ids DataK8SResourcesTeleportDevTeleportUserV2Manifest#trusted_device_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#trusted_device_ids DataK8SResourcesTeleportDevTeleportUserV2Manifest#trusted_device_ids}
   */
   readonly trustedDeviceIds?: string[];
 }
@@ -1052,7 +1052,7 @@ export class DataK8SResourcesTeleportDevTeleportUserV2ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest k8s_resources_teleport_dev_teleport_user_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest k8s_resources_teleport_dev_teleport_user_v2_manifest}
 */
 export class DataK8SResourcesTeleportDevTeleportUserV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1068,7 +1068,7 @@ export class DataK8SResourcesTeleportDevTeleportUserV2Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SResourcesTeleportDevTeleportUserV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SResourcesTeleportDevTeleportUserV2Manifest to import
-  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportUserV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportUserV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SResourcesTeleportDevTeleportUserV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1080,7 +1080,7 @@ export class DataK8SResourcesTeleportDevTeleportUserV2Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest k8s_resources_teleport_dev_teleport_user_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/resources_teleport_dev_teleport_user_v2_manifest k8s_resources_teleport_dev_teleport_user_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1091,8 +1091,8 @@ export class DataK8SResourcesTeleportDevTeleportUserV2Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_user_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/application_set
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/application_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApplicationSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Application-set to be included in the set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/application_set#application_set ApplicationSet#application_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/application_set#application_set ApplicationSet#application_set}
   */
   readonly applicationSet?: string[];
   /**
   * Application to be included in the set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/application_set#applications ApplicationSet#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/application_set#applications ApplicationSet#applications}
   */
   readonly applications?: string[];
   /**
   * Description for application-set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/application_set#description ApplicationSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/application_set#description ApplicationSet#description}
   */
   readonly description?: string;
   /**
   * Application set name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/application_set#name ApplicationSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/application_set#name ApplicationSet#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/application_set junos_application_set}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/application_set junos_application_set}
 */
 export class ApplicationSet extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ApplicationSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationSet to import
-  * @param importFromId The id of the existing ApplicationSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/application_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/application_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ApplicationSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/application_set junos_application_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/application_set junos_application_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ApplicationSet extends cdktf.TerraformResource {
       terraformResourceType: 'junos_application_set',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

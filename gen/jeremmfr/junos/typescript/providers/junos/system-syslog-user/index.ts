@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface SystemSyslogUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Do not suppress the repeated message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#allow_duplicates SystemSyslogUser#allow_duplicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#allow_duplicates SystemSyslogUser#allow_duplicates}
   */
   readonly allowDuplicates?: boolean | cdktf.IResolvable;
   /**
   * All facilities sseverity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#any_severity SystemSyslogUser#any_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#any_severity SystemSyslogUser#any_severity}
   */
   readonly anySeverity?: string;
   /**
   * Authorization system severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#authorization_severity SystemSyslogUser#authorization_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#authorization_severity SystemSyslogUser#authorization_severity}
   */
   readonly authorizationSeverity?: string;
   /**
   * Configuration change log severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#changelog_severity SystemSyslogUser#changelog_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#changelog_severity SystemSyslogUser#changelog_severity}
   */
   readonly changelogSeverity?: string;
   /**
   * Configuration conflict log severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#conflictlog_severity SystemSyslogUser#conflictlog_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#conflictlog_severity SystemSyslogUser#conflictlog_severity}
   */
   readonly conflictlogSeverity?: string;
   /**
   * Various system processes severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#daemon_severity SystemSyslogUser#daemon_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#daemon_severity SystemSyslogUser#daemon_severity}
   */
   readonly daemonSeverity?: string;
   /**
   * Dynamic flow capture severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#dfc_severity SystemSyslogUser#dfc_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#dfc_severity SystemSyslogUser#dfc_severity}
   */
   readonly dfcSeverity?: string;
   /**
   * Local external applications severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#external_severity SystemSyslogUser#external_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#external_severity SystemSyslogUser#external_severity}
   */
   readonly externalSeverity?: string;
   /**
   * Firewall filtering system severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#firewall_severity SystemSyslogUser#firewall_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#firewall_severity SystemSyslogUser#firewall_severity}
   */
   readonly firewallSeverity?: string;
   /**
   * FTP process severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#ftp_severity SystemSyslogUser#ftp_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#ftp_severity SystemSyslogUser#ftp_severity}
   */
   readonly ftpSeverity?: string;
   /**
   * Commands executed by the UI severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#interactivecommands_severity SystemSyslogUser#interactivecommands_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#interactivecommands_severity SystemSyslogUser#interactivecommands_severity}
   */
   readonly interactivecommandsSeverity?: string;
   /**
   * Kernel severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#kernel_severity SystemSyslogUser#kernel_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#kernel_severity SystemSyslogUser#kernel_severity}
   */
   readonly kernelSeverity?: string;
   /**
   * Regular expression for lines to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#match SystemSyslogUser#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#match SystemSyslogUser#match}
   */
   readonly match?: string;
   /**
   * Matching string(s) for lines to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#match_strings SystemSyslogUser#match_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#match_strings SystemSyslogUser#match_strings}
   */
   readonly matchStrings?: string[];
   /**
   * NTP process severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#ntp_severity SystemSyslogUser#ntp_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#ntp_severity SystemSyslogUser#ntp_severity}
   */
   readonly ntpSeverity?: string;
   /**
   * Packet Forwarding Engine severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#pfe_severity SystemSyslogUser#pfe_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#pfe_severity SystemSyslogUser#pfe_severity}
   */
   readonly pfeSeverity?: string;
   /**
   * Security related severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#security_severity SystemSyslogUser#security_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#security_severity SystemSyslogUser#security_severity}
   */
   readonly securitySeverity?: string;
   /**
   * User processes severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#user_severity SystemSyslogUser#user_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#user_severity SystemSyslogUser#user_severity}
   */
   readonly userSeverity?: string;
   /**
   * Name of user to notify (or `*` for all).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#username SystemSyslogUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#username SystemSyslogUser#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user junos_system_syslog_user}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user junos_system_syslog_user}
 */
 export class SystemSyslogUser extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class SystemSyslogUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemSyslogUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemSyslogUser to import
-  * @param importFromId The id of the existing SystemSyslogUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemSyslogUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemSyslogUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class SystemSyslogUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_user junos_system_syslog_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_user junos_system_syslog_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class SystemSyslogUser extends cdktf.TerraformResource {
       terraformResourceType: 'junos_system_syslog_user',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

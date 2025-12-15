@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interfaces_physical_present
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interfaces_physical_present
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataJunosInterfacesPhysicalPresentConfig extends cdktf.Terrafor
   /**
   * Filter on interfaces that have admin status `up`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interfaces_physical_present#match_admin_up DataJunosInterfacesPhysicalPresent#match_admin_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interfaces_physical_present#match_admin_up DataJunosInterfacesPhysicalPresent#match_admin_up}
   */
   readonly matchAdminUp?: boolean | cdktf.IResolvable;
   /**
   * A regexp to apply filter on name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interfaces_physical_present#match_name DataJunosInterfacesPhysicalPresent#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interfaces_physical_present#match_name DataJunosInterfacesPhysicalPresent#match_name}
   */
   readonly matchName?: string;
   /**
   * Filter on interfaces that have operational status `up`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interfaces_physical_present#match_oper_up DataJunosInterfacesPhysicalPresent#match_oper_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interfaces_physical_present#match_oper_up DataJunosInterfacesPhysicalPresent#match_oper_up}
   */
   readonly matchOperUp?: boolean | cdktf.IResolvable;
 }
@@ -201,7 +201,7 @@ export class DataJunosInterfacesPhysicalPresentInterfacesMap extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interfaces_physical_present junos_interfaces_physical_present}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interfaces_physical_present junos_interfaces_physical_present}
 */
 export class DataJunosInterfacesPhysicalPresent extends cdktf.TerraformDataSource {
 
@@ -217,7 +217,7 @@ export class DataJunosInterfacesPhysicalPresent extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataJunosInterfacesPhysicalPresent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataJunosInterfacesPhysicalPresent to import
-  * @param importFromId The id of the existing DataJunosInterfacesPhysicalPresent that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interfaces_physical_present#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataJunosInterfacesPhysicalPresent that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interfaces_physical_present#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataJunosInterfacesPhysicalPresent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class DataJunosInterfacesPhysicalPresent extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interfaces_physical_present junos_interfaces_physical_present} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interfaces_physical_present junos_interfaces_physical_present} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class DataJunosInterfacesPhysicalPresent extends cdktf.TerraformDataSourc
       terraformResourceType: 'junos_interfaces_physical_present',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

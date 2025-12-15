@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCouchbaseComCouchbaseCollectionGroupV2ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#metadata DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#metadata DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseCollectionGroupV2ManifestMetadata;
   /**
   * Spec defines the desired state of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#spec DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#spec DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#spec}
   */
   readonly spec: DataK8SCouchbaseComCouchbaseCollectionGroupV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCouchbaseComCouchbaseCollectionGroupV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#annotations DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#annotations DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#labels DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#labels DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#name DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#name DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#namespace DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#namespace DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SCouchbaseComCouchbaseCollectionGroupV2ManifestSpec {
   /**
   * MaxTTL defines how long a document is permitted to exist for, without modification, until it is automatically deleted. This field takes precedence over any TTL defined at the bucket level. This is a default, and maximum time-to-live and may be set to a lower value by the client. If the client specifies a higher value, then it is truncated to the maximum durability. Documents are removed by Couchbase, after they have expired, when either accessed, the expiry pager is run, or the bucket is compacted. When set to 0, then documents are not expired by default. This field must be a duration in the range 0-2147483648s, defaulting to 0. More info: https://golang.org/pkg/time/#ParseDuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#max_ttl DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#max_ttl DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#max_ttl}
   */
   readonly maxTtl?: string;
   /**
   * Names specifies the names of the collections. Unlike CouchbaseCollection, which specifies a single collection, a collection group specifies multiple, and the collection group must specify at least one collection name. Any collection names specified must be unique. Collection names must be 1-251 characters in length, contain only [a-zA-Z0-9_-%] and not start with either _ or %.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#names DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#names DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest#names}
   */
   readonly names: string[];
 }
@@ -345,7 +345,7 @@ export class DataK8SCouchbaseComCouchbaseCollectionGroupV2ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest k8s_couchbase_com_couchbase_collection_group_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest k8s_couchbase_com_couchbase_collection_group_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest extends cdktf.TerraformDataSource {
 
@@ -361,7 +361,7 @@ export class DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest k8s_couchbase_com_couchbase_collection_group_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_collection_group_v2_manifest k8s_couchbase_com_couchbase_collection_group_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,8 +384,8 @@ export class DataK8SCouchbaseComCouchbaseCollectionGroupV2Manifest extends cdktf
       terraformResourceType: 'k8s_couchbase_com_couchbase_collection_group_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

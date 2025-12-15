@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#metadata DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#metadata DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#metadata}
   */
   readonly metadata: DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestMetadata;
   /**
   * SriovNetworkNodePolicySpec defines the desired state of SriovNetworkNodePolicy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#spec DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#spec DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#spec}
   */
   readonly spec?: DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#annotations DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#annotations DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#labels DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#labels DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#name DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#name DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#namespace DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#namespace DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestS
   /**
   * configure datapath_type field in the Bridge table in OVSDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#datapath_type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#datapath_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#datapath_type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#datapath_type}
   */
   readonly datapathType?: string;
   /**
   * IDs to inject to external_ids field in the Bridge table in OVSDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#external_i_ds DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#external_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#external_i_ds DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#external_i_ds}
   */
   readonly externalIDs?: { [key: string]: string };
   /**
   * additional options to inject to other_config field in the bridge table in OVSDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#other_config DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#other_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#other_config DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#other_config}
   */
   readonly otherConfig?: { [key: string]: string };
 }
@@ -385,25 +385,25 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestS
   /**
   * external_ids field in the Interface table in OVSDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#external_i_ds DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#external_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#external_i_ds DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#external_i_ds}
   */
   readonly externalIDs?: { [key: string]: string };
   /**
   * options field in the Interface table in OVSDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#options DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#options DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * other_config field in the Interface table in OVSDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#other_config DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#other_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#other_config DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#other_config}
   */
   readonly otherConfig?: { [key: string]: string };
   /**
   * type field in the Interface table in OVSDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -586,7 +586,7 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestS
   /**
   * contains settings for PF interface in the OVS bridge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#interface}
   */
   readonly interface?: DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestSpecBridgeOvsUplinkInterface;
 }
@@ -682,13 +682,13 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestS
   /**
   * contains bridge level settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#bridge DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#bridge DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#bridge}
   */
   readonly bridge?: DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestSpecBridgeOvsBridge;
   /**
   * contains settings for uplink (PF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#uplink DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#uplink DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#uplink}
   */
   readonly uplink?: DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestSpecBridgeOvsUplink;
 }
@@ -813,7 +813,7 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestS
   /**
   * contains configuration for the OVS bridge,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#ovs DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#ovs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#ovs DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#ovs}
   */
   readonly ovs?: DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestSpecBridgeOvs;
 }
@@ -909,31 +909,31 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestS
   /**
   * The device hex code of SR-IoV device. Allowed value '0d58', '1572', '158b', '1013', '1015', '1017', '101b'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#device_id DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#device_id DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#device_id}
   */
   readonly deviceId?: string;
   /**
   * Infrastructure Networking selection filter. Allowed value 'openstack/NetworkID:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#net_filter DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#net_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#net_filter DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#net_filter}
   */
   readonly netFilter?: string;
   /**
   * Name of SR-IoV PF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#pf_names DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#pf_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#pf_names DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#pf_names}
   */
   readonly pfNames?: string[];
   /**
   * PCI address of SR-IoV PF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#root_devices DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#root_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#root_devices DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#root_devices}
   */
   readonly rootDevices?: string[];
   /**
   * The vendor hex code of SR-IoV device. Allowed value '8086', '15b3'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#vendor DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#vendor DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#vendor}
   */
   readonly vendor?: string;
 }
@@ -1145,91 +1145,91 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestS
   /**
   * contains bridge configuration for matching PFs, valid only for eSwitchMode==switchdev
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#bridge DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#bridge DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#bridge}
   */
   readonly bridge?: DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestSpecBridge;
   /**
   * The driver type for configured VFs. Allowed value 'netdevice', 'vfio-pci'. Defaults to netdevice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#device_type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#device_type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#device_type}
   */
   readonly deviceType?: string;
   /**
   * NIC Device Mode. Allowed value 'legacy','switchdev'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#e_switch_mode DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#e_switch_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#e_switch_mode DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#e_switch_mode}
   */
   readonly eSwitchMode?: string;
   /**
   * Exclude device's NUMA node when advertising this resource by SRIOV network device plugin. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#exclude_topology DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#exclude_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#exclude_topology DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#exclude_topology}
   */
   readonly excludeTopology?: boolean | cdktf.IResolvable;
   /**
   * don't create the virtual function only allocated them to the device plugin. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#externally_managed DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#externally_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#externally_managed DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#externally_managed}
   */
   readonly externallyManaged?: boolean | cdktf.IResolvable;
   /**
   * RDMA mode. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#is_rdma DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#is_rdma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#is_rdma DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#is_rdma}
   */
   readonly isRdma?: boolean | cdktf.IResolvable;
   /**
   * NIC Link Type. Allowed value 'eth', 'ETH', 'ib', and 'IB'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#link_type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#link_type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#link_type}
   */
   readonly linkType?: string;
   /**
   * MTU of VF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#mtu DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#mtu DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#mtu}
   */
   readonly mtu?: number;
   /**
   * mount vhost-net device. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#need_vhost_net DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#need_vhost_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#need_vhost_net DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#need_vhost_net}
   */
   readonly needVhostNet?: boolean | cdktf.IResolvable;
   /**
   * NicSelector selects the NICs to be configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#nic_selector DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#nic_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#nic_selector DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#nic_selector}
   */
   readonly nicSelector: DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestSpecNicSelector;
   /**
   * NodeSelector selects the nodes to be configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#node_selector DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#node_selector DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#node_selector}
   */
   readonly nodeSelector: { [key: string]: string };
   /**
   * Number of VFs for each PF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#num_vfs DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#num_vfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#num_vfs DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#num_vfs}
   */
   readonly numVfs: number;
   /**
   * Priority of the policy, higher priority policies can override lower ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#priority DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#priority DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * SRIOV Network device plugin endpoint resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#resource_name DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#resource_name DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * VDPA device type. Allowed value 'virtio', 'vhost'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#vdpa_type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#vdpa_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#vdpa_type DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest#vdpa_type}
   */
   readonly vdpaType?: string;
 }
@@ -1717,7 +1717,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest k8s_sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest k8s_sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest}
 */
 export class DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1733,7 +1733,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest exte
   * Generates CDKTF code for importing a DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1745,7 +1745,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest k8s_sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest k8s_sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1756,8 +1756,8 @@ export class DataK8SSriovnetworkOpenshiftIoSriovNetworkNodePolicyV1Manifest exte
       terraformResourceType: 'k8s_sriovnetwork_openshift_io_sriov_network_node_policy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

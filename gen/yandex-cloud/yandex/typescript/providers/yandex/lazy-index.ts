@@ -144,6 +144,7 @@ Object.defineProperty(exports, 'organizationmanagerIdpApplicationSamlApplication
 Object.defineProperty(exports, 'organizationmanagerIdpApplicationSamlSignatureCertificate', { get: function () { return require('./organizationmanager-idp-application-saml-signature-certificate'); } });
 Object.defineProperty(exports, 'organizationmanagerIdpUser', { get: function () { return require('./organizationmanager-idp-user'); } });
 Object.defineProperty(exports, 'organizationmanagerIdpUserpool', { get: function () { return require('./organizationmanager-idp-userpool'); } });
+Object.defineProperty(exports, 'organizationmanagerMfaEnforcement', { get: function () { return require('./organizationmanager-mfa-enforcement'); } });
 Object.defineProperty(exports, 'organizationmanagerOrganizationIamBinding', { get: function () { return require('./organizationmanager-organization-iam-binding'); } });
 Object.defineProperty(exports, 'organizationmanagerOrganizationIamMember', { get: function () { return require('./organizationmanager-organization-iam-member'); } });
 Object.defineProperty(exports, 'organizationmanagerOsLoginSettings', { get: function () { return require('./organizationmanager-os-login-settings'); } });
@@ -297,6 +298,7 @@ Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpApplicationSamlA
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate', { get: function () { return require('./data-yandex-organizationmanager-idp-application-saml-signature-certificate'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpUser', { get: function () { return require('./data-yandex-organizationmanager-idp-user'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpUserpool', { get: function () { return require('./data-yandex-organizationmanager-idp-userpool'); } });
+Object.defineProperty(exports, 'dataYandexOrganizationmanagerMfaEnforcement', { get: function () { return require('./data-yandex-organizationmanager-mfa-enforcement'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerOsLoginSettings', { get: function () { return require('./data-yandex-organizationmanager-os-login-settings'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerSamlFederation', { get: function () { return require('./data-yandex-organizationmanager-saml-federation'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerSamlFederationUserAccount', { get: function () { return require('./data-yandex-organizationmanager-saml-federation-user-account'); } });

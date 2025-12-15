@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SecurityZoneBookAddressSetConfig extends cdktf.TerraformMetaArg
   /**
   * List of address names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set#address SecurityZoneBookAddressSet#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set#address SecurityZoneBookAddressSet#address}
   */
   readonly address?: string[];
   /**
   * List of address-set names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set#address_set SecurityZoneBookAddressSet#address_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set#address_set SecurityZoneBookAddressSet#address_set}
   */
   readonly addressSet?: string[];
   /**
   * Description of address-set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set#description SecurityZoneBookAddressSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set#description SecurityZoneBookAddressSet#description}
   */
   readonly description?: string;
   /**
   * The name of address-set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set#name SecurityZoneBookAddressSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set#name SecurityZoneBookAddressSet#name}
   */
   readonly name: string;
   /**
   * The name of security zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set#zone SecurityZoneBookAddressSet#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set#zone SecurityZoneBookAddressSet#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set junos_security_zone_book_address_set}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set junos_security_zone_book_address_set}
 */
 export class SecurityZoneBookAddressSet extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SecurityZoneBookAddressSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityZoneBookAddressSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityZoneBookAddressSet to import
-  * @param importFromId The id of the existing SecurityZoneBookAddressSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityZoneBookAddressSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityZoneBookAddressSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SecurityZoneBookAddressSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address_set junos_security_zone_book_address_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address_set junos_security_zone_book_address_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SecurityZoneBookAddressSet extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_zone_book_address_set',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface Layer2ControlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable nonstop operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#nonstop_bridging Layer2Control#nonstop_bridging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#nonstop_bridging Layer2Control#nonstop_bridging}
   */
   readonly nonstopBridging?: boolean | cdktf.IResolvable;
   /**
   * bpdu_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#bpdu_block Layer2Control#bpdu_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#bpdu_block Layer2Control#bpdu_block}
   */
   readonly bpduBlock?: Layer2ControlBpduBlock;
   /**
   * mac_rewrite_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#mac_rewrite_interface Layer2Control#mac_rewrite_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#mac_rewrite_interface Layer2Control#mac_rewrite_interface}
   */
   readonly macRewriteInterface?: Layer2ControlMacRewriteInterface[] | cdktf.IResolvable;
 }
@@ -30,19 +30,19 @@ export interface Layer2ControlBpduBlockInterface {
   /**
   * Disable bpdu-block on a port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#disable Layer2Control#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#disable Layer2Control#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Drop xSTP BPDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#drop Layer2Control#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#drop Layer2Control#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * Name of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#name Layer2Control#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#name Layer2Control#name}
   */
   readonly name: string;
 }
@@ -215,13 +215,13 @@ export interface Layer2ControlBpduBlock {
   /**
   * Disable timeout for BPDU Protect (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#disable_timeout Layer2Control#disable_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#disable_timeout Layer2Control#disable_timeout}
   */
   readonly disableTimeout?: number;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#interface Layer2Control#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#interface Layer2Control#interface}
   */
   readonly interface?: Layer2ControlBpduBlockInterface[] | cdktf.IResolvable;
 }
@@ -346,19 +346,19 @@ export interface Layer2ControlMacRewriteInterface {
   /**
   * Enable tunneling for all the IFLs under the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#enable_all_ifl Layer2Control#enable_all_ifl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#enable_all_ifl Layer2Control#enable_all_ifl}
   */
   readonly enableAllIfl?: boolean | cdktf.IResolvable;
   /**
   * Name of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#name Layer2Control#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#name Layer2Control#name}
   */
   readonly name: string;
   /**
   * Protocols for which mac rewrite need to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#protocol Layer2Control#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#protocol Layer2Control#protocol}
   */
   readonly protocol?: string[];
 }
@@ -529,7 +529,7 @@ export class Layer2ControlMacRewriteInterfaceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control junos_layer2_control}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control junos_layer2_control}
 */
 export class Layer2Control extends cdktf.TerraformResource {
 
@@ -545,7 +545,7 @@ export class Layer2Control extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Layer2Control resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Layer2Control to import
-  * @param importFromId The id of the existing Layer2Control that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Layer2Control that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Layer2Control to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +557,7 @@ export class Layer2Control extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/layer2_control junos_layer2_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/layer2_control junos_layer2_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +568,8 @@ export class Layer2Control extends cdktf.TerraformResource {
       terraformResourceType: 'junos_layer2_control',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

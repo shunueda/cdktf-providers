@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MdbKafkaConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#cluster_id MdbKafkaConnector#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#cluster_id MdbKafkaConnector#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#id MdbKafkaConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#id MdbKafkaConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface MdbKafkaConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#name MdbKafkaConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#name MdbKafkaConnector#name}
   */
   readonly name: string;
   /**
   * Additional properties for connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#properties MdbKafkaConnector#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#properties MdbKafkaConnector#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The number of the connector's parallel working tasks. Default is the number of brokers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#tasks_max MdbKafkaConnector#tasks_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#tasks_max MdbKafkaConnector#tasks_max}
   */
   readonly tasksMax?: number;
   /**
   * connector_config_mirrormaker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#connector_config_mirrormaker MdbKafkaConnector#connector_config_mirrormaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#connector_config_mirrormaker MdbKafkaConnector#connector_config_mirrormaker}
   */
   readonly connectorConfigMirrormaker?: MdbKafkaConnectorConnectorConfigMirrormaker[] | cdktf.IResolvable;
   /**
   * connector_config_s3_sink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#connector_config_s3_sink MdbKafkaConnector#connector_config_s3_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#connector_config_s3_sink MdbKafkaConnector#connector_config_s3_sink}
   */
   readonly connectorConfigS3Sink?: MdbKafkaConnectorConnectorConfigS3Sink[] | cdktf.IResolvable;
 }
@@ -55,31 +55,31 @@ export interface MdbKafkaConnectorConnectorConfigMirrormakerSourceClusterExterna
   /**
   * List of bootstrap servers to connect to cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#bootstrap_servers MdbKafkaConnector#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#bootstrap_servers MdbKafkaConnector#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * Type of SASL authentification mechanism to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#sasl_mechanism MdbKafkaConnector#sasl_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#sasl_mechanism MdbKafkaConnector#sasl_mechanism}
   */
   readonly saslMechanism?: string;
   /**
   * Password to use in SASL authentification mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#sasl_password MdbKafkaConnector#sasl_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#sasl_password MdbKafkaConnector#sasl_password}
   */
   readonly saslPassword?: string;
   /**
   * Username to use in SASL authentification mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#sasl_username MdbKafkaConnector#sasl_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#sasl_username MdbKafkaConnector#sasl_username}
   */
   readonly saslUsername?: string;
   /**
   * Security protocol to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#security_protocol MdbKafkaConnector#security_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#security_protocol MdbKafkaConnector#security_protocol}
   */
   readonly securityProtocol?: string;
 }
@@ -391,19 +391,19 @@ export interface MdbKafkaConnectorConnectorConfigMirrormakerSourceCluster {
   /**
   * Name of the cluster. Used also as a topic prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#alias MdbKafkaConnector#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#alias MdbKafkaConnector#alias}
   */
   readonly alias?: string;
   /**
   * external_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#external_cluster MdbKafkaConnector#external_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#external_cluster MdbKafkaConnector#external_cluster}
   */
   readonly externalCluster?: MdbKafkaConnectorConnectorConfigMirrormakerSourceClusterExternalCluster[] | cdktf.IResolvable;
   /**
   * this_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#this_cluster MdbKafkaConnector#this_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#this_cluster MdbKafkaConnector#this_cluster}
   */
   readonly thisCluster?: MdbKafkaConnectorConnectorConfigMirrormakerSourceClusterThisCluster[] | cdktf.IResolvable;
 }
@@ -547,31 +547,31 @@ export interface MdbKafkaConnectorConnectorConfigMirrormakerTargetClusterExterna
   /**
   * List of bootstrap servers to connect to cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#bootstrap_servers MdbKafkaConnector#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#bootstrap_servers MdbKafkaConnector#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * Type of SASL authentification mechanism to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#sasl_mechanism MdbKafkaConnector#sasl_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#sasl_mechanism MdbKafkaConnector#sasl_mechanism}
   */
   readonly saslMechanism?: string;
   /**
   * Password to use in SASL authentification mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#sasl_password MdbKafkaConnector#sasl_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#sasl_password MdbKafkaConnector#sasl_password}
   */
   readonly saslPassword?: string;
   /**
   * Username to use in SASL authentification mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#sasl_username MdbKafkaConnector#sasl_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#sasl_username MdbKafkaConnector#sasl_username}
   */
   readonly saslUsername?: string;
   /**
   * Security protocol to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#security_protocol MdbKafkaConnector#security_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#security_protocol MdbKafkaConnector#security_protocol}
   */
   readonly securityProtocol?: string;
 }
@@ -883,19 +883,19 @@ export interface MdbKafkaConnectorConnectorConfigMirrormakerTargetCluster {
   /**
   * Name of the cluster. Used also as a topic prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#alias MdbKafkaConnector#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#alias MdbKafkaConnector#alias}
   */
   readonly alias?: string;
   /**
   * external_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#external_cluster MdbKafkaConnector#external_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#external_cluster MdbKafkaConnector#external_cluster}
   */
   readonly externalCluster?: MdbKafkaConnectorConnectorConfigMirrormakerTargetClusterExternalCluster[] | cdktf.IResolvable;
   /**
   * this_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#this_cluster MdbKafkaConnector#this_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#this_cluster MdbKafkaConnector#this_cluster}
   */
   readonly thisCluster?: MdbKafkaConnectorConnectorConfigMirrormakerTargetClusterThisCluster[] | cdktf.IResolvable;
 }
@@ -1039,25 +1039,25 @@ export interface MdbKafkaConnectorConnectorConfigMirrormaker {
   /**
   * Replication factor for topics created in target cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#replication_factor MdbKafkaConnector#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#replication_factor MdbKafkaConnector#replication_factor}
   */
   readonly replicationFactor: number;
   /**
   * The pattern for topic names to be replicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#topics MdbKafkaConnector#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#topics MdbKafkaConnector#topics}
   */
   readonly topics: string;
   /**
   * source_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#source_cluster MdbKafkaConnector#source_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#source_cluster MdbKafkaConnector#source_cluster}
   */
   readonly sourceCluster: MdbKafkaConnectorConnectorConfigMirrormakerSourceCluster;
   /**
   * target_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#target_cluster MdbKafkaConnector#target_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#target_cluster MdbKafkaConnector#target_cluster}
   */
   readonly targetCluster: MdbKafkaConnectorConnectorConfigMirrormakerTargetCluster;
 }
@@ -1250,25 +1250,25 @@ export interface MdbKafkaConnectorConnectorConfigS3SinkS3ConnectionExternalS3 {
   /**
   * ID of aws-compatible static key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#access_key_id MdbKafkaConnector#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#access_key_id MdbKafkaConnector#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * URL of s3-compatible storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#endpoint MdbKafkaConnector#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#endpoint MdbKafkaConnector#endpoint}
   */
   readonly endpoint: string;
   /**
   * Region of s3-compatible storage. [Available region list](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/regions/Regions.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#region MdbKafkaConnector#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#region MdbKafkaConnector#region}
   */
   readonly region?: string;
   /**
   * Secret key of aws-compatible static key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#secret_access_key MdbKafkaConnector#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#secret_access_key MdbKafkaConnector#secret_access_key}
   */
   readonly secretAccessKey?: string;
 }
@@ -1470,13 +1470,13 @@ export interface MdbKafkaConnectorConnectorConfigS3SinkS3Connection {
   /**
   * Name of the bucket in s3-compatible storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#bucket_name MdbKafkaConnector#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#bucket_name MdbKafkaConnector#bucket_name}
   */
   readonly bucketName: string;
   /**
   * external_s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#external_s3 MdbKafkaConnector#external_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#external_s3 MdbKafkaConnector#external_s3}
   */
   readonly externalS3: MdbKafkaConnectorConnectorConfigS3SinkS3ConnectionExternalS3[] | cdktf.IResolvable;
 }
@@ -1585,25 +1585,25 @@ export interface MdbKafkaConnectorConnectorConfigS3Sink {
   /**
   * Compression type for messages. Cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#file_compression_type MdbKafkaConnector#file_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#file_compression_type MdbKafkaConnector#file_compression_type}
   */
   readonly fileCompressionType: string;
   /**
   * Max records per file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#file_max_records MdbKafkaConnector#file_max_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#file_max_records MdbKafkaConnector#file_max_records}
   */
   readonly fileMaxRecords?: number;
   /**
   * The pattern for topic names to be copied to s3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#topics MdbKafkaConnector#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#topics MdbKafkaConnector#topics}
   */
   readonly topics: string;
   /**
   * s3_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#s3_connection MdbKafkaConnector#s3_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#s3_connection MdbKafkaConnector#s3_connection}
   */
   readonly s3Connection: MdbKafkaConnectorConnectorConfigS3SinkS3Connection;
 }
@@ -1797,7 +1797,7 @@ export class MdbKafkaConnectorConnectorConfigS3SinkList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector yandex_mdb_kafka_connector}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector yandex_mdb_kafka_connector}
 */
 export class MdbKafkaConnector extends cdktf.TerraformResource {
 
@@ -1813,7 +1813,7 @@ export class MdbKafkaConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbKafkaConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbKafkaConnector to import
-  * @param importFromId The id of the existing MdbKafkaConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbKafkaConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbKafkaConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1825,7 +1825,7 @@ export class MdbKafkaConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_kafka_connector yandex_mdb_kafka_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_connector yandex_mdb_kafka_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1836,8 +1836,8 @@ export class MdbKafkaConnector extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_kafka_connector',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -43,17 +43,17 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * ContainerName is the name of the container to attach this volume to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#container_name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#container_name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#container_name}
   */
   readonly containerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mount_options DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mount_options DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mount_options}
   */
   readonly mountOptions?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesInitContainersMountOptions;
   /**
   * Path to attach the volume on the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -223,25 +223,25 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mount_propagation DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mount_propagation DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#read_only DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#read_only DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#sub_path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#sub_path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $( VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#sub_path_expr DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#sub_path_expr DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -424,17 +424,17 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * ContainerName is the name of the container to attach this volume to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#container_name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#container_name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#container_name}
   */
   readonly containerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mount_options DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mount_options DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mount_options}
   */
   readonly mountOptions?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSidecarsMountOptions;
   /**
   * Path to attach the volume on the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -604,19 +604,19 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#key DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#key DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -786,25 +786,25 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#default_mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#default_mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#items DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#items DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourceConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#optional DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#optional DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -987,13 +987,13 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#medium DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#medium DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#size_limit DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#size_limit DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -1118,13 +1118,13 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * Key - Value pair that may be set by external tools to store and retrieve arbitrary metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#annotations DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#annotations DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Key - Value pairs that can be used to organize and categorize scope and select objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#labels DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#labels DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1249,19 +1249,19 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#key DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#key DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#operator DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#operator DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#values DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#values DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1431,13 +1431,13 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#match_expressions DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#match_expressions DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourcePersistentVolumeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#match_labels DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#match_labels DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1562,35 +1562,35 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * Name for creating PVC for this volume, Name or path should be given Name string 'json:'name''
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#access_modes DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#access_modes DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#metadata DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#metadata DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourcePersistentVolumeMetadata;
   /**
   * A label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#selector DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#selector DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourcePersistentVolumeSelector;
   /**
   * Size of volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#size DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#size DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#size}
   */
   readonly size: string;
   /**
   * StorageClass should be pre-created by user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#storage_class DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#storage_class DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#storage_class}
   */
   readonly storageClass: string;
   /**
   * VolumeMode specifies if the volume is block/raw or a filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#volume_mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#volume_mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#volume_mode}
   */
   readonly volumeMode: string;
 }
@@ -1822,19 +1822,19 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#key DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#key DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#path DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -2004,25 +2004,25 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#default_mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#default_mode DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#items DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#items DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourceSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#optional DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#optional DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#secret_name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#secret_name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -2205,25 +2205,25 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * ConfigMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#config_map DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#config_map DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourceConfigMap;
   /**
   * EmptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#empty_dir DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#empty_dir DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourceEmptyDir;
   /**
   * PersistentVolumeSpec describes a persistent volume to claim and attach to Aerospike pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#persistent_volume DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#persistent_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#persistent_volume DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#persistent_volume}
   */
   readonly persistentVolume?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourcePersistentVolume;
   /**
   * Adapts a Secret into a volume. The contents of the target Secret's Data field will be presented in a volume as files using the keys in the Data field as the file names. Secret volumes support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#secret DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#secret DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSourceSecret;
 }
@@ -2406,67 +2406,67 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * Aerospike attachment of this volume on Aerospike server container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#aerospike DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#aerospike}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#aerospike DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#aerospike}
   */
   readonly aerospike?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesAerospike;
   /**
   * CascadeDelete determines if the persistent volumes are deleted after the pod this volume binds to is terminated and removed from the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#cascade_delete DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#cascade_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#cascade_delete DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#cascade_delete}
   */
   readonly cascadeDelete?: boolean | cdktf.IResolvable;
   /**
   * Effective/operative value to use for cascade delete after applying defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#effective_cascade_delete DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#effective_cascade_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#effective_cascade_delete DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#effective_cascade_delete}
   */
   readonly effectiveCascadeDelete?: boolean | cdktf.IResolvable;
   /**
   * Effective/operative value to use as the volume init method after applying defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#effective_init_method DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#effective_init_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#effective_init_method DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#effective_init_method}
   */
   readonly effectiveInitMethod?: string;
   /**
   * Effective/operative value to use as the volume wipe method after applying defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#effective_wipe_method DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#effective_wipe_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#effective_wipe_method DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#effective_wipe_method}
   */
   readonly effectiveWipeMethod?: string;
   /**
   * InitContainers are additional init containers where this volume will be mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#init_containers DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#init_containers DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesInitContainers[] | cdktf.IResolvable;
   /**
   * InitMethod determines how volumes attached to Aerospike server pods are initialized when the pods come up the first time. Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#init_method DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#init_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#init_method DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#init_method}
   */
   readonly initMethod?: string;
   /**
   * Name for this volume, Name or path should be given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#name DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Sidecars are side containers where this volume will be mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#sidecars DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#sidecars DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#sidecars}
   */
   readonly sidecars?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSidecars[] | cdktf.IResolvable;
   /**
   * Source of this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#source DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#source DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#source}
   */
   readonly source?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumesSource;
   /**
   * WipeMethod determines how volumes attached to Aerospike server pods are wiped for dealing with storage format changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#wipe_method DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#wipe_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#wipe_method DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#wipe_method}
   */
   readonly wipeMethod?: string;
 }
@@ -2871,25 +2871,25 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStora
   /**
   * BlockVolumePolicy contains default policies for block volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#block_volume_policy DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#block_volume_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#block_volume_policy DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#block_volume_policy}
   */
   readonly blockVolumePolicy?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageBlockVolumePolicy;
   /**
   * CleanupThreads contains maximum number of cleanup threads(dd or blkdiscard) per init container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#cleanup_threads DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#cleanup_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#cleanup_threads DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#cleanup_threads}
   */
   readonly cleanupThreads?: number;
   /**
   * FileSystemVolumePolicy contains default policies for filesystem volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#filesystem_volume_policy DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#filesystem_volume_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#filesystem_volume_policy DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#filesystem_volume_policy}
   */
   readonly filesystemVolumePolicy?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageFilesystemVolumePolicy;
   /**
   * Volumes list to attach to created pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#volumes DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#volumes DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#volumes}
   */
   readonly volumes?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorageVolumes[] | cdktf.IResolvable;
 }
@@ -3072,13 +3072,13 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecValid
   /**
   * skipWorkDirValidate validates that Aerospike work directory is mounted on a persistent file storage. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#skip_work_dir_validate DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#skip_work_dir_validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#skip_work_dir_validate DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#skip_work_dir_validate}
   */
   readonly skipWorkDirValidate: boolean | cdktf.IResolvable;
   /**
   * ValidateXdrDigestLogFile validates that xdr digest log file is mounted on a persistent file storage. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#skip_xdr_dlog_file_validate DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#skip_xdr_dlog_file_validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#skip_xdr_dlog_file_validate DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#skip_xdr_dlog_file_validate}
   */
   readonly skipXdrDlogFileValidate: boolean | cdktf.IResolvable;
 }
@@ -3197,73 +3197,73 @@ export interface DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpec {
   /**
   * Has the Aerospike roles and users definitions. Required if aerospike cluster security is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#aerospike_access_control DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#aerospike_access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#aerospike_access_control DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#aerospike_access_control}
   */
   readonly aerospikeAccessControl?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecAerospikeAccessControl;
   /**
   * Sets config in aerospike.conf file. Other configs are taken as default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#aerospike_config DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#aerospike_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#aerospike_config DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#aerospike_config}
   */
   readonly aerospikeConfig: { [key: string]: string };
   /**
   * AerospikeNetworkPolicy specifies how clients and tools access the Aerospike cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#aerospike_network_policy DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#aerospike_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#aerospike_network_policy DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#aerospike_network_policy}
   */
   readonly aerospikeNetworkPolicy?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecAerospikeNetworkPolicy;
   /**
   * Aerospike server image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#image DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#image DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#image}
   */
   readonly image: string;
   /**
   * Certificates to connect to Aerospike.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#operator_client_cert DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#operator_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#operator_client_cert DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#operator_client_cert}
   */
   readonly operatorClientCert?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecOperatorClientCert;
   /**
   * Specify additional configuration for the Aerospike pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#pod_spec DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#pod_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#pod_spec DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#pod_spec}
   */
   readonly podSpec?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecPodSpec;
   /**
   * RackConfig Configures the operator to deploy rack aware Aerospike cluster. Pods will be deployed in given racks based on given configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#rack_config DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#rack_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#rack_config DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#rack_config}
   */
   readonly rackConfig?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecRackConfig;
   /**
   * RosterNodeBlockList is a list of blocked nodeIDs from roster in a strong-consistency setup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#roster_node_block_list DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#roster_node_block_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#roster_node_block_list DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#roster_node_block_list}
   */
   readonly rosterNodeBlockList?: string[];
   /**
   * SeedsFinderServices creates additional Kubernetes service that allow clients to discover Aerospike cluster nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#seeds_finder_services DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#seeds_finder_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#seeds_finder_services DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#seeds_finder_services}
   */
   readonly seedsFinderServices?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecSeedsFinderServices;
   /**
   * Aerospike cluster size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#size DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#size DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#size}
   */
   readonly size: number;
   /**
   * Storage specify persistent storage to use for the Aerospike pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#storage DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#storage DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#storage}
   */
   readonly storage?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecStorage;
   /**
   * ValidationPolicy controls validation of the Aerospike cluster resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#validation_policy DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#validation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/asdb_aerospike_com_aerospike_cluster_v1beta1_manifest#validation_policy DataK8SAsdbAerospikeComAerospikeClusterV1Beta1Manifest#validation_policy}
   */
   readonly validationPolicy?: DataK8SAsdbAerospikeComAerospikeClusterV1Beta1ManifestSpecValidationPolicy;
 }

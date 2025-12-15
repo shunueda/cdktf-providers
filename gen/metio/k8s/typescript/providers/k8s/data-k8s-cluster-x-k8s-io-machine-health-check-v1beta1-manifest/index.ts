@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#metadata DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#metadata DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestMetadata;
   /**
   * Specification of machine health check policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#spec DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#spec DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#annotations DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#annotations DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#labels DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#labels DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#name DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#name DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecRemedi
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#api_version DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#api_version DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#field_path DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#field_path DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#kind DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#kind DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#name DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#name DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#resource_version DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#resource_version DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#uid DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#uid DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -525,19 +525,19 @@ export interface DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecSelect
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#key DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#key DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#operator DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#operator DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#values DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#values DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -707,13 +707,13 @@ export interface DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecSelect
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#match_expressions DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#match_expressions DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#match_labels DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#match_labels DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -836,15 +836,15 @@ export class DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecSelectorOu
 }
 export interface DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecUnhealthyConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#status DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#status DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#timeout DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#timeout DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#timeout}
   */
   readonly timeout: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#type DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#type DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -1011,43 +1011,43 @@ export interface DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpec {
   /**
   * ClusterName is the name of the Cluster this object belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#cluster_name DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#cluster_name DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Any further remediation is only allowed if at most 'MaxUnhealthy' machines selected by 'selector' are not healthy. Deprecated: This field is deprecated and is going to be removed in the next apiVersion. Please see https://github.com/kubernetes-sigs/cluster-api/issues/10722 for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#max_unhealthy DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#max_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#max_unhealthy DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#max_unhealthy}
   */
   readonly maxUnhealthy?: string;
   /**
   * NodeStartupTimeout allows to set the maximum time for MachineHealthCheck to consider a Machine unhealthy if a corresponding Node isn't associated through a 'Spec.ProviderID' field. The duration set in this field is compared to the greatest of: - Cluster's infrastructure ready condition timestamp (if and when available) - Control Plane's initialized condition timestamp (if and when available) - Machine's infrastructure ready condition timestamp (if and when available) - Machine's metadata creation timestamp Defaults to 10 minutes. If you wish to disable this feature, set the value explicitly to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#node_startup_timeout DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#node_startup_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#node_startup_timeout DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#node_startup_timeout}
   */
   readonly nodeStartupTimeout?: string;
   /**
   * RemediationTemplate is a reference to a remediation template provided by an infrastructure provider. This field is completely optional, when filled, the MachineHealthCheck controller creates a new object from the template referenced and hands off remediation of the machine to a controller that lives outside of Cluster API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#remediation_template DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#remediation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#remediation_template DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#remediation_template}
   */
   readonly remediationTemplate?: DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecRemediationTemplate;
   /**
   * Label selector to match machines whose health will be exercised
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#selector DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#selector DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#selector}
   */
   readonly selector: DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecSelector;
   /**
   * UnhealthyConditions contains a list of the conditions that determine whether a node is considered unhealthy. The conditions are combined in a logical OR, i.e. if any of the conditions is met, the node is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#unhealthy_conditions DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#unhealthy_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#unhealthy_conditions DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#unhealthy_conditions}
   */
   readonly unhealthyConditions?: DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecUnhealthyConditions[] | cdktf.IResolvable;
   /**
   * Any further remediation is only allowed if the number of machines selected by 'selector' as not healthy is within the range of 'UnhealthyRange'. Takes precedence over MaxUnhealthy. Eg. '[3-5]' - This means that remediation will be allowed only when: (a) there are at least 3 unhealthy machines (and) (b) there are at most 5 unhealthy machines Deprecated: This field is deprecated and is going to be removed in the next apiVersion. Please see https://github.com/kubernetes-sigs/cluster-api/issues/10722 for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#unhealthy_range DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#unhealthy_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#unhealthy_range DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest#unhealthy_range}
   */
   readonly unhealthyRange?: string;
 }
@@ -1309,7 +1309,7 @@ export class DataK8SClusterXK8SIoMachineHealthCheckV1Beta1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest k8s_cluster_x_k8s_io_machine_health_check_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest k8s_cluster_x_k8s_io_machine_health_check_v1beta1_manifest}
 */
 export class DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1325,7 +1325,7 @@ export class DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1337,7 +1337,7 @@ export class DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest k8s_cluster_x_k8s_io_machine_health_check_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cluster_x_k8s_io_machine_health_check_v1beta1_manifest k8s_cluster_x_k8s_io_machine_health_check_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1348,8 +1348,8 @@ export class DataK8SClusterXK8SIoMachineHealthCheckV1Beta1Manifest extends cdktf
       terraformResourceType: 'k8s_cluster_x_k8s_io_machine_health_check_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

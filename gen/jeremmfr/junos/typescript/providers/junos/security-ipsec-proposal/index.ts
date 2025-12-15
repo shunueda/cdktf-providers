@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SecurityIpsecProposalConfig extends cdktf.TerraformMetaArgument
   /**
   * Authentication algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal#authentication_algorithm SecurityIpsecProposal#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal#authentication_algorithm SecurityIpsecProposal#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * Text description of IPSec proposal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal#description SecurityIpsecProposal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal#description SecurityIpsecProposal#description}
   */
   readonly description?: string;
   /**
   * Encryption algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal#encryption_algorithm SecurityIpsecProposal#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal#encryption_algorithm SecurityIpsecProposal#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
   * Lifetime, in kilobytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal#lifetime_kilobytes SecurityIpsecProposal#lifetime_kilobytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal#lifetime_kilobytes SecurityIpsecProposal#lifetime_kilobytes}
   */
   readonly lifetimeKilobytes?: number;
   /**
   * Lifetime, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal#lifetime_seconds SecurityIpsecProposal#lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal#lifetime_seconds SecurityIpsecProposal#lifetime_seconds}
   */
   readonly lifetimeSeconds?: number;
   /**
   * The name of IPSec proposal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal#name SecurityIpsecProposal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal#name SecurityIpsecProposal#name}
   */
   readonly name: string;
   /**
   * IPSec protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal#protocol SecurityIpsecProposal#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal#protocol SecurityIpsecProposal#protocol}
   */
   readonly protocol?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal junos_security_ipsec_proposal}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal junos_security_ipsec_proposal}
 */
 export class SecurityIpsecProposal extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class SecurityIpsecProposal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityIpsecProposal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityIpsecProposal to import
-  * @param importFromId The id of the existing SecurityIpsecProposal that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityIpsecProposal that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityIpsecProposal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class SecurityIpsecProposal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_proposal junos_security_ipsec_proposal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_proposal junos_security_ipsec_proposal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class SecurityIpsecProposal extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_ipsec_proposal',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

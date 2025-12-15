@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SnmpV3CommunityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique index value in this community table entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community#community_index SnmpV3Community#community_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community#community_index SnmpV3Community#community_index}
   */
   readonly communityIndex: string;
   /**
   * SNMPv1/v2c community name (default is same as community-index).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community#community_name SnmpV3Community#community_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community#community_name SnmpV3Community#community_name}
   */
   readonly communityName?: string;
   /**
   * Context used when performing access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community#context SnmpV3Community#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community#context SnmpV3Community#context}
   */
   readonly context?: string;
   /**
   * Security name used when performing access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community#security_name SnmpV3Community#security_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community#security_name SnmpV3Community#security_name}
   */
   readonly securityName: string;
   /**
   * Tag identifier for set of targets allowed to use this community string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community#tag SnmpV3Community#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community#tag SnmpV3Community#tag}
   */
   readonly tag?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community junos_snmp_v3_community}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community junos_snmp_v3_community}
 */
 export class SnmpV3Community extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SnmpV3Community extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpV3Community resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpV3Community to import
-  * @param importFromId The id of the existing SnmpV3Community that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpV3Community that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpV3Community to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SnmpV3Community extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_community junos_snmp_v3_community} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_community junos_snmp_v3_community} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SnmpV3Community extends cdktf.TerraformResource {
       terraformResourceType: 'junos_snmp_v3_community',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

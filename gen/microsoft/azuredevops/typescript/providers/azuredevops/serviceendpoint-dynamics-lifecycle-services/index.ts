@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointDynamicsLifecycleServicesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#authorization_endpoint ServiceendpointDynamicsLifecycleServices#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#authorization_endpoint ServiceendpointDynamicsLifecycleServices#authorization_endpoint}
   */
   readonly authorizationEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#client_id ServiceendpointDynamicsLifecycleServices#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#client_id ServiceendpointDynamicsLifecycleServices#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#description ServiceendpointDynamicsLifecycleServices#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#description ServiceendpointDynamicsLifecycleServices#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#id ServiceendpointDynamicsLifecycleServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#id ServiceendpointDynamicsLifecycleServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#lifecycle_services_api_endpoint ServiceendpointDynamicsLifecycleServices#lifecycle_services_api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#lifecycle_services_api_endpoint ServiceendpointDynamicsLifecycleServices#lifecycle_services_api_endpoint}
   */
   readonly lifecycleServicesApiEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#password ServiceendpointDynamicsLifecycleServices#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#password ServiceendpointDynamicsLifecycleServices#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#project_id ServiceendpointDynamicsLifecycleServices#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#project_id ServiceendpointDynamicsLifecycleServices#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#service_endpoint_name ServiceendpointDynamicsLifecycleServices#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#service_endpoint_name ServiceendpointDynamicsLifecycleServices#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#username ServiceendpointDynamicsLifecycleServices#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#username ServiceendpointDynamicsLifecycleServices#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#timeouts ServiceendpointDynamicsLifecycleServices#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#timeouts ServiceendpointDynamicsLifecycleServices#timeouts}
   */
   readonly timeouts?: ServiceendpointDynamicsLifecycleServicesTimeouts;
 }
 export interface ServiceendpointDynamicsLifecycleServicesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#create ServiceendpointDynamicsLifecycleServices#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#create ServiceendpointDynamicsLifecycleServices#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#delete ServiceendpointDynamicsLifecycleServices#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#delete ServiceendpointDynamicsLifecycleServices#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#read ServiceendpointDynamicsLifecycleServices#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#read ServiceendpointDynamicsLifecycleServices#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#update ServiceendpointDynamicsLifecycleServices#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#update ServiceendpointDynamicsLifecycleServices#update}
   */
   readonly update?: string;
 }
@@ -248,7 +248,7 @@ export class ServiceendpointDynamicsLifecycleServicesTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services azuredevops_serviceendpoint_dynamics_lifecycle_services}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services azuredevops_serviceendpoint_dynamics_lifecycle_services}
 */
 export class ServiceendpointDynamicsLifecycleServices extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class ServiceendpointDynamicsLifecycleServices extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ServiceendpointDynamicsLifecycleServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointDynamicsLifecycleServices to import
-  * @param importFromId The id of the existing ServiceendpointDynamicsLifecycleServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointDynamicsLifecycleServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointDynamicsLifecycleServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class ServiceendpointDynamicsLifecycleServices extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dynamics_lifecycle_services azuredevops_serviceendpoint_dynamics_lifecycle_services} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_dynamics_lifecycle_services azuredevops_serviceendpoint_dynamics_lifecycle_services} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class ServiceendpointDynamicsLifecycleServices extends cdktf.TerraformRes
       terraformResourceType: 'azuredevops_serviceendpoint_dynamics_lifecycle_services',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

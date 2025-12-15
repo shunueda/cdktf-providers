@@ -5,6 +5,8 @@ Object.defineProperty(exports, 'application', { get: function () { return requir
 Object.defineProperty(exports, 'applicationSet', { get: function () { return require('./application-set'); } });
 Object.defineProperty(exports, 'applications', { get: function () { return require('./applications'); } });
 Object.defineProperty(exports, 'applicationsOrdered', { get: function () { return require('./applications-ordered'); } });
+Object.defineProperty(exports, 'applyGroup', { get: function () { return require('./apply-group'); } });
+Object.defineProperty(exports, 'applyGroupExcept', { get: function () { return require('./apply-group-except'); } });
 Object.defineProperty(exports, 'bgpGroup', { get: function () { return require('./bgp-group'); } });
 Object.defineProperty(exports, 'bgpNeighbor', { get: function () { return require('./bgp-neighbor'); } });
 Object.defineProperty(exports, 'bridgeDomain', { get: function () { return require('./bridge-domain'); } });
@@ -25,6 +27,7 @@ Object.defineProperty(exports, 'forwardingoptionsSamplingInstance', { get: funct
 Object.defineProperty(exports, 'forwardingoptionsStormControlProfile', { get: function () { return require('./forwardingoptions-storm-control-profile'); } });
 Object.defineProperty(exports, 'generateRoute', { get: function () { return require('./generate-route'); } });
 Object.defineProperty(exports, 'groupDualSystem', { get: function () { return require('./group-dual-system'); } });
+Object.defineProperty(exports, 'groupRaw', { get: function () { return require('./group-raw'); } });
 Object.defineProperty(exports, 'iccp', { get: function () { return require('./iccp'); } });
 Object.defineProperty(exports, 'iccpPeer', { get: function () { return require('./iccp-peer'); } });
 Object.defineProperty(exports, 'igmpSnoopingVlan', { get: function () { return require('./igmp-snooping-vlan'); } });
@@ -41,6 +44,7 @@ Object.defineProperty(exports, 'mstpMsti', { get: function () { return require('
 Object.defineProperty(exports, 'multichassis', { get: function () { return require('./multichassis'); } });
 Object.defineProperty(exports, 'multichassisProtectionPeer', { get: function () { return require('./multichassis-protection-peer'); } });
 Object.defineProperty(exports, 'nullCommitFile', { get: function () { return require('./null-commit-file'); } });
+Object.defineProperty(exports, 'nullLoadConfig', { get: function () { return require('./null-load-config'); } });
 Object.defineProperty(exports, 'oamGretunnelInterface', { get: function () { return require('./oam-gretunnel-interface'); } });
 Object.defineProperty(exports, 'ospf', { get: function () { return require('./ospf'); } });
 Object.defineProperty(exports, 'ospfArea', { get: function () { return require('./ospf-area'); } });
@@ -137,6 +141,7 @@ Object.defineProperty(exports, 'vstpVlanGroup', { get: function () { return requ
 Object.defineProperty(exports, 'dataJunosApplicationSets', { get: function () { return require('./data-junos-application-sets'); } });
 Object.defineProperty(exports, 'dataJunosApplications', { get: function () { return require('./data-junos-applications'); } });
 Object.defineProperty(exports, 'dataJunosChassisInventory', { get: function () { return require('./data-junos-chassis-inventory'); } });
+Object.defineProperty(exports, 'dataJunosConfigRaw', { get: function () { return require('./data-junos-config-raw'); } });
 Object.defineProperty(exports, 'dataJunosInterfaceLogical', { get: function () { return require('./data-junos-interface-logical'); } });
 Object.defineProperty(exports, 'dataJunosInterfaceLogicalInfo', { get: function () { return require('./data-junos-interface-logical-info'); } });
 Object.defineProperty(exports, 'dataJunosInterfacePhysical', { get: function () { return require('./data-junos-interface-physical'); } });

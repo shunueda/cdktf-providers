@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#metadata DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#metadata DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2ManifestMetadata;
   /**
   * PreflightValidationSpec describes the desired state of the resource, such as the kernel version that Module CRs need to be verified against as well as the debug configuration of the logs More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#spec DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#spec DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#spec}
   */
   readonly spec: DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#annotations DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#annotations DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#labels DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#labels DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#name DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#name DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2ManifestSpec {
   /**
   * KernelVersion describes the kernel image that all Modules need to be checked against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#kernel_version DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#kernel_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#kernel_version DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#kernel_version}
   */
   readonly kernelVersion: string;
   /**
   * Boolean flag that determines whether images build during preflight must also be pushed to a defined repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#push_built_image DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#push_built_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#push_built_image DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest#push_built_image}
   */
   readonly pushBuiltImage?: boolean | cdktf.IResolvable;
 }
@@ -313,7 +313,7 @@ export class DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest k8s_kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest k8s_kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest}
 */
 export class DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -329,7 +329,7 @@ export class DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -341,7 +341,7 @@ export class DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest k8s_kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest k8s_kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -352,8 +352,8 @@ export class DataK8SKmmSigsXK8SIoPreflightValidationV1Beta2Manifest extends cdkt
       terraformResourceType: 'k8s_kmm_sigs_x_k8s_io_preflight_validation_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

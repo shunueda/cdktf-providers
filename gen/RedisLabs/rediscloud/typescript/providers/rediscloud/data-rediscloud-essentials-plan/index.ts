@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataRediscloudEssentialsPlanConfig extends cdktf.TerraformMetaA
   /**
   * 'No replication', 'Single-zone' or 'Multi-zone'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#availability DataRediscloudEssentialsPlan#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#availability DataRediscloudEssentialsPlan#availability}
   */
   readonly availability?: string;
   /**
   * The cloud provider: 'AWS', 'GCP' or 'Azure'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#cloud_provider DataRediscloudEssentialsPlan#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#cloud_provider DataRediscloudEssentialsPlan#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * The plan's unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#id DataRediscloudEssentialsPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#id DataRediscloudEssentialsPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,49 +31,49 @@ export interface DataRediscloudEssentialsPlanConfig extends cdktf.TerraformMetaA
   /**
   * A convenient name for the plan. Not guaranteed to be unique, especially across provider/region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#name DataRediscloudEssentialsPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#name DataRediscloudEssentialsPlan#name}
   */
   readonly name?: string;
   /**
   * The region to place databases in, format and availability dependent on cloud_provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#region DataRediscloudEssentialsPlan#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#region DataRediscloudEssentialsPlan#region}
   */
   readonly region?: string;
   /**
   * The capacity of databases created in this plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#size DataRediscloudEssentialsPlan#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#size DataRediscloudEssentialsPlan#size}
   */
   readonly size?: number;
   /**
   * The units of 'size', usually 'MB' or 'GB'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#size_measurement_unit DataRediscloudEssentialsPlan#size_measurement_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#size_measurement_unit DataRediscloudEssentialsPlan#size_measurement_unit}
   */
   readonly sizeMeasurementUnit?: string;
   /**
   * Filter plans by what is available for a given subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#subscription_id DataRediscloudEssentialsPlan#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#subscription_id DataRediscloudEssentialsPlan#subscription_id}
   */
   readonly subscriptionId?: number;
   /**
   * Self-explanatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#support_data_persistence DataRediscloudEssentialsPlan#support_data_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#support_data_persistence DataRediscloudEssentialsPlan#support_data_persistence}
   */
   readonly supportDataPersistence?: boolean | cdktf.IResolvable;
   /**
   * Self-explanatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#support_replication DataRediscloudEssentialsPlan#support_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#support_replication DataRediscloudEssentialsPlan#support_replication}
   */
   readonly supportReplication?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan rediscloud_essentials_plan}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan rediscloud_essentials_plan}
 */
 export class DataRediscloudEssentialsPlan extends cdktf.TerraformDataSource {
 
@@ -89,7 +89,7 @@ export class DataRediscloudEssentialsPlan extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRediscloudEssentialsPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudEssentialsPlan to import
-  * @param importFromId The id of the existing DataRediscloudEssentialsPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudEssentialsPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudEssentialsPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class DataRediscloudEssentialsPlan extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/essentials_plan rediscloud_essentials_plan} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/essentials_plan rediscloud_essentials_plan} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class DataRediscloudEssentialsPlan extends cdktf.TerraformDataSource {
       terraformResourceType: 'rediscloud_essentials_plan',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.8.0',
-        providerVersionConstraint: '2.8.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

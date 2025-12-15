@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkitemtrackingprocessProcessConfig extends cdktf.TerraformMet
   /**
   * Description of the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#description WorkitemtrackingprocessProcess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#description WorkitemtrackingprocessProcess#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#id WorkitemtrackingprocessProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#id WorkitemtrackingprocessProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface WorkitemtrackingprocessProcessConfig extends cdktf.TerraformMet
   /**
   * Is the process default?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#is_default WorkitemtrackingprocessProcess#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#is_default WorkitemtrackingprocessProcess#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Is the process enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#is_enabled WorkitemtrackingprocessProcess#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#is_enabled WorkitemtrackingprocessProcess#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#name WorkitemtrackingprocessProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#name WorkitemtrackingprocessProcess#name}
   */
   readonly name: string;
   /**
   * ID of the parent process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#parent_process_type_id WorkitemtrackingprocessProcess#parent_process_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#parent_process_type_id WorkitemtrackingprocessProcess#parent_process_type_id}
   */
   readonly parentProcessTypeId: string;
   /**
   * Reference name of process being created. If not specified, server will assign a unique reference name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#reference_name WorkitemtrackingprocessProcess#reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#reference_name WorkitemtrackingprocessProcess#reference_name}
   */
   readonly referenceName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#timeouts WorkitemtrackingprocessProcess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#timeouts WorkitemtrackingprocessProcess#timeouts}
   */
   readonly timeouts?: WorkitemtrackingprocessProcessTimeouts;
 }
 export interface WorkitemtrackingprocessProcessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#create WorkitemtrackingprocessProcess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#create WorkitemtrackingprocessProcess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#delete WorkitemtrackingprocessProcess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#delete WorkitemtrackingprocessProcess#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#read WorkitemtrackingprocessProcess#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#read WorkitemtrackingprocessProcess#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#update WorkitemtrackingprocessProcess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#update WorkitemtrackingprocessProcess#update}
   */
   readonly update?: string;
 }
@@ -252,7 +252,7 @@ export class WorkitemtrackingprocessProcessTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process azuredevops_workitemtrackingprocess_process}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process azuredevops_workitemtrackingprocess_process}
 */
 export class WorkitemtrackingprocessProcess extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class WorkitemtrackingprocessProcess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkitemtrackingprocessProcess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkitemtrackingprocessProcess to import
-  * @param importFromId The id of the existing WorkitemtrackingprocessProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkitemtrackingprocessProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkitemtrackingprocessProcess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class WorkitemtrackingprocessProcess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/workitemtrackingprocess_process azuredevops_workitemtrackingprocess_process} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/workitemtrackingprocess_process azuredevops_workitemtrackingprocess_process} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class WorkitemtrackingprocessProcess extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_workitemtrackingprocess_process',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs
+// https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface GroundcoverProviderConfig {
   /**
   * groundcover API Key. Can also be set via the GROUNDCOVER_API_KEY environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs#api_key GroundcoverProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs#api_key GroundcoverProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * groundcover API URL. Defaults to the groundcover production URL. Can also be set via the GROUNDCOVER_API_URL environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs#api_url GroundcoverProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs#api_url GroundcoverProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * groundcover Backend ID. Can also be set via the GROUNDCOVER_BACKEND_ID environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs#backend_id GroundcoverProvider#backend_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs#backend_id GroundcoverProvider#backend_id}
   */
   readonly backendId?: string;
   /**
   * groundcover Organization Name. Can also be set via the GROUNDCOVER_ORG_NAME environment variable. Deprecated: Use backend_id instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs#org_name GroundcoverProvider#org_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs#org_name GroundcoverProvider#org_name}
   */
   readonly orgName?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs#alias GroundcoverProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs#alias GroundcoverProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs groundcover}
+* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs groundcover}
 */
 export class GroundcoverProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class GroundcoverProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a GroundcoverProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroundcoverProvider to import
-  * @param importFromId The id of the existing GroundcoverProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroundcoverProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroundcoverProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class GroundcoverProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs groundcover} Resource
+  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs groundcover} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class GroundcoverProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'groundcover',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       terraformProviderSource: 'groundcover-com/groundcover'
     });

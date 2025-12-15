@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IamOauthClientSecretConfig extends cdktf.TerraformMetaArguments
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret#description IamOauthClientSecret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret#description IamOauthClientSecret#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret#id IamOauthClientSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret#id IamOauthClientSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface IamOauthClientSecretConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the OAuth client to create a secret for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret#oauth_client_id IamOauthClientSecret#oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret#oauth_client_id IamOauthClientSecret#oauth_client_id}
   */
   readonly oauthClientId: string;
   /**
   * An optional PGP key to encrypt the resulting secret value. May either be a base64-encoded public key or a keybase username in the form `keybase:keybaseusername`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret#pgp_key IamOauthClientSecret#pgp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret#pgp_key IamOauthClientSecret#pgp_key}
   */
   readonly pgpKey?: string;
   /**
   * output_to_lockbox block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret#output_to_lockbox IamOauthClientSecret#output_to_lockbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret#output_to_lockbox IamOauthClientSecret#output_to_lockbox}
   */
   readonly outputToLockbox?: IamOauthClientSecretOutputToLockbox;
 }
@@ -43,13 +43,13 @@ export interface IamOauthClientSecretOutputToLockbox {
   /**
   * entry that will store the value of secret_value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret#entry_for_secret_value IamOauthClientSecret#entry_for_secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret#entry_for_secret_value IamOauthClientSecret#entry_for_secret_value}
   */
   readonly entryForSecretValue: string;
   /**
   * ID of the Lockbox secret where to store the sensible values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret#secret_id IamOauthClientSecret#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret#secret_id IamOauthClientSecret#secret_id}
   */
   readonly secretId: string;
 }
@@ -156,7 +156,7 @@ export class IamOauthClientSecretOutputToLockboxOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret yandex_iam_oauth_client_secret}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret yandex_iam_oauth_client_secret}
 */
 export class IamOauthClientSecret extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class IamOauthClientSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamOauthClientSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamOauthClientSecret to import
-  * @param importFromId The id of the existing IamOauthClientSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamOauthClientSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamOauthClientSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class IamOauthClientSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/iam_oauth_client_secret yandex_iam_oauth_client_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client_secret yandex_iam_oauth_client_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class IamOauthClientSecret extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iam_oauth_client_secret',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

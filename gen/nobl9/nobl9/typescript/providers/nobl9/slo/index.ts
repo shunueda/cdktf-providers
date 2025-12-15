@@ -35,109 +35,109 @@ export interface SloConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alert Policies attached to SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#alert_policies Slo#alert_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#alert_policies Slo#alert_policies}
   */
   readonly alertPolicies?: string[];
   /**
   * [Metadata annotations](https://docs.nobl9.com/features/labels/#metadata-annotations) attached to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#annotations Slo#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#annotations Slo#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Method which will be use to calculate budget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#budgeting_method Slo#budgeting_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#budgeting_method Slo#budgeting_method}
   */
   readonly budgetingMethod: string;
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#description Slo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#description Slo#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#display_name Slo#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#display_name Slo#display_name}
   */
   readonly displayName?: string;
   /**
   * Unique name of the resource, must conform to the [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names) naming convention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names) naming convention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project Slo#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project Slo#project}
   */
   readonly project: string;
   /**
   * If set, the retrieval of historical data for a newly created SLO will be triggered, starting from the specified date. Needs to be RFC3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#retrieve_historical_data_from Slo#retrieve_historical_data_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#retrieve_historical_data_from Slo#retrieve_historical_data_from}
   */
   readonly retrieveHistoricalDataFrom?: string;
   /**
   * Name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#service Slo#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#service Slo#service}
   */
   readonly service: string;
   /**
   * Internal field, do not use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tier Slo#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tier Slo#tier}
   */
   readonly tier?: string;
   /**
   * anomaly_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#anomaly_config Slo#anomaly_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#anomaly_config Slo#anomaly_config}
   */
   readonly anomalyConfig?: SloAnomalyConfig[] | cdktf.IResolvable;
   /**
   * attachment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#attachment Slo#attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#attachment Slo#attachment}
   */
   readonly attachment?: SloAttachment[] | cdktf.IResolvable;
   /**
   * composite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#composite Slo#composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#composite Slo#composite}
   */
   readonly composite?: SloComposite[] | cdktf.IResolvable;
   /**
   * indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#indicator Slo#indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#indicator Slo#indicator}
   */
   readonly indicator?: SloIndicator[] | cdktf.IResolvable;
   /**
   * label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#label Slo#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#label Slo#label}
   */
   readonly label?: SloLabel[] | cdktf.IResolvable;
   /**
   * objective block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#objective Slo#objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#objective Slo#objective}
   */
   readonly objective?: SloObjective[] | cdktf.IResolvable;
   /**
   * time_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#time_window Slo#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#time_window Slo#time_window}
   */
   readonly timeWindow?: SloTimeWindow[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo nobl9_slo}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo nobl9_slo}
 */
 export class Slo extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class Slo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Slo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Slo to import
-  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Slo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class Slo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo nobl9_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo nobl9_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class Slo extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_slo',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

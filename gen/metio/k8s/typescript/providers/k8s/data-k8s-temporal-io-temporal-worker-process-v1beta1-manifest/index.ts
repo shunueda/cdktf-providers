@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#metadata DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#metadata DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestMetadata;
   /**
   * TemporalWorkerProcessSpec defines the desired state of TemporalWorkerProcess.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#spec DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#spec DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#annotations DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#annotations DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#labels DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#labels DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#name DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#name DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#namespace DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#namespace DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilde
   /**
   * Key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#key DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#key DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#name DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#name DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -347,19 +347,19 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilde
   /**
   * PasswordSecret is the reference to the secret holding the docker repo password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#password_secret_ref DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#password_secret_ref}
   */
   readonly passwordSecretRef: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilderBuildRegistryPasswordSecretRef;
   /**
   * Repository is the fqdn to the image repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#repository DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#repository DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#repository}
   */
   readonly repository: string;
   /**
   * Username is the username for the container repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#username DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#username DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#username}
   */
   readonly username: string;
 }
@@ -504,7 +504,7 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilde
   /**
   * Branch to check out, defaults to 'main' if no other field is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#branch DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#branch DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#branch}
   */
   readonly branch?: string;
 }
@@ -600,13 +600,13 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilde
   /**
   * Reference specifies the Git reference to resolve and monitor for changes, defaults to the 'master' branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#reference DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#reference DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#reference}
   */
   readonly reference?: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilderGitRepositoryReference;
   /**
   * URL specifies the Git repository URL, it can be an HTTP/S or SSH address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#url DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#url DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#url}
   */
   readonly url: string;
 }
@@ -728,43 +728,43 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilde
   /**
   * BuildAttempt is the build attempt number of a given version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#attempt DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#attempt DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#attempt}
   */
   readonly attempt?: number;
   /**
   * BuildDir is the location of where the sources will be built.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#build_dir DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#build_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#build_dir DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#build_dir}
   */
   readonly buildDir?: string;
   /**
   * BuildRegistry specifies how to connect to container registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#build_registry DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#build_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#build_registry DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#build_registry}
   */
   readonly buildRegistry?: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilderBuildRegistry;
   /**
   * Enabled defines if the operator should build the temporal worker process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#enabled DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#enabled DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * GitRepository specifies how to connect to Git source control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#git_repository DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#git_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#git_repository DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#git_repository}
   */
   readonly gitRepository?: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilderGitRepository;
   /**
   * Image is the image that will be used to build worker image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#image DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#image DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Version is the version of the image that will be used to build worker image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#version DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#version DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1031,13 +1031,13 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecCluste
   /**
   * The name of the TemporalCluster to reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#name DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#name DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The namespace of the TemporalCluster to reference. Defaults to the namespace of the requested resource if omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#namespace DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#namespace DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1162,7 +1162,7 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecImageP
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#name DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#name DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1280,55 +1280,55 @@ export interface DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpec {
   /**
   * Builder is the configuration for building a TemporalWorkerProcess. THIS FEATURE IS HIGHLY EXPERIMENTAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#builder DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#builder DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#builder}
   */
   readonly builder?: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecBuilder;
   /**
   * Reference to the temporal cluster the worker will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#cluster_ref DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#cluster_ref DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#cluster_ref}
   */
   readonly clusterRef: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecClusterRef;
   /**
   * Image defines the temporal worker docker image the instance should run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#image DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#image DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#image}
   */
   readonly image: string;
   /**
   * An optional list of references to secrets in the same namespace to use for pulling temporal images from registries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#image_pull_secrets DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#image_pull_secrets DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * JobTTLSecondsAfterFinished is amount of time to keep job pods after jobs are completed. Defaults to 300 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#job_ttl_seconds_after_finished DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#job_ttl_seconds_after_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#job_ttl_seconds_after_finished DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#job_ttl_seconds_after_finished}
   */
   readonly jobTtlSecondsAfterFinished?: number;
   /**
   * Image pull policy for determining how to pull worker process images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#pull_policy DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#pull_policy DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * Number of desired replicas. Default to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#replicas DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#replicas DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * TemporalNamespace that worker will poll.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#temporal_namespace DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#temporal_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#temporal_namespace DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#temporal_namespace}
   */
   readonly temporalNamespace: string;
   /**
   * Version defines the worker process version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#version DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#version DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1645,7 +1645,7 @@ export class DataK8STemporalIoTemporalWorkerProcessV1Beta1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest k8s_temporal_io_temporal_worker_process_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest k8s_temporal_io_temporal_worker_process_v1beta1_manifest}
 */
 export class DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1661,7 +1661,7 @@ export class DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1673,7 +1673,7 @@ export class DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest k8s_temporal_io_temporal_worker_process_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/temporal_io_temporal_worker_process_v1beta1_manifest k8s_temporal_io_temporal_worker_process_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1684,8 +1684,8 @@ export class DataK8STemporalIoTemporalWorkerProcessV1Beta1Manifest extends cdktf
       terraformResourceType: 'k8s_temporal_io_temporal_worker_process_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGetambassadorIoListenerV3Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#metadata DataK8SGetambassadorIoListenerV3Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#metadata DataK8SGetambassadorIoListenerV3Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGetambassadorIoListenerV3Alpha1ManifestMetadata;
   /**
   * ListenerSpec defines the desired state of this Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#spec DataK8SGetambassadorIoListenerV3Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#spec DataK8SGetambassadorIoListenerV3Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SGetambassadorIoListenerV3Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGetambassadorIoListenerV3Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#annotations DataK8SGetambassadorIoListenerV3Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#annotations DataK8SGetambassadorIoListenerV3Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#labels DataK8SGetambassadorIoListenerV3Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#labels DataK8SGetambassadorIoListenerV3Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#name DataK8SGetambassadorIoListenerV3Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#name DataK8SGetambassadorIoListenerV3Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#namespace DataK8SGetambassadorIoListenerV3Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#namespace DataK8SGetambassadorIoListenerV3Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecHostBindingNa
   /**
   * NamespaceFromType defines how we evaluate a NamespaceBindingType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#from DataK8SGetambassadorIoListenerV3Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#from DataK8SGetambassadorIoListenerV3Alpha1Manifest#from}
   */
   readonly from?: string;
 }
@@ -315,19 +315,19 @@ export interface DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecHostBindingSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#key DataK8SGetambassadorIoListenerV3Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#key DataK8SGetambassadorIoListenerV3Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#operator DataK8SGetambassadorIoListenerV3Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#operator DataK8SGetambassadorIoListenerV3Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#values DataK8SGetambassadorIoListenerV3Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#values DataK8SGetambassadorIoListenerV3Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -497,13 +497,13 @@ export interface DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecHostBindingSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#match_expressions DataK8SGetambassadorIoListenerV3Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#match_expressions DataK8SGetambassadorIoListenerV3Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecHostBindingSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#match_labels DataK8SGetambassadorIoListenerV3Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#match_labels DataK8SGetambassadorIoListenerV3Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -628,13 +628,13 @@ export interface DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecHostBinding {
   /**
   * NamespaceBindingType defines we we specify which namespaces to look for Hosts in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#namespace DataK8SGetambassadorIoListenerV3Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#namespace DataK8SGetambassadorIoListenerV3Alpha1Manifest#namespace}
   */
   readonly namespace?: DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecHostBindingNamespace;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#selector DataK8SGetambassadorIoListenerV3Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#selector DataK8SGetambassadorIoListenerV3Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecHostBindingSelector;
 }
@@ -759,49 +759,49 @@ export interface DataK8SGetambassadorIoListenerV3Alpha1ManifestSpec {
   /**
   * AmbassadorID declares which Ambassador instances should pay attention to this resource. If no value is provided, the default is: ambassador_id: - 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#ambassador_id DataK8SGetambassadorIoListenerV3Alpha1Manifest#ambassador_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#ambassador_id DataK8SGetambassadorIoListenerV3Alpha1Manifest#ambassador_id}
   */
   readonly ambassadorId?: string[];
   /**
   * HostBinding allows restricting which Hosts will be used for this Listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#host_binding DataK8SGetambassadorIoListenerV3Alpha1Manifest#host_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#host_binding DataK8SGetambassadorIoListenerV3Alpha1Manifest#host_binding}
   */
   readonly hostBinding: DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecHostBinding;
   /**
   * L7Depth specifies how many layer 7 load balancers are between us and the edge of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#l7_depth DataK8SGetambassadorIoListenerV3Alpha1Manifest#l7_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#l7_depth DataK8SGetambassadorIoListenerV3Alpha1Manifest#l7_depth}
   */
   readonly l7Depth?: number;
   /**
   * Port is the network port. Only one Listener can use a given port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#port DataK8SGetambassadorIoListenerV3Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#port DataK8SGetambassadorIoListenerV3Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol is a shorthand for certain predefined stacks. Exactly one of Protocol or ProtocolStack must be supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#protocol DataK8SGetambassadorIoListenerV3Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#protocol DataK8SGetambassadorIoListenerV3Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * ProtocolStack explicitly specifies the protocol stack to set up. Exactly one of Protocol or ProtocolStack must be supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#protocol_stack DataK8SGetambassadorIoListenerV3Alpha1Manifest#protocol_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#protocol_stack DataK8SGetambassadorIoListenerV3Alpha1Manifest#protocol_stack}
   */
   readonly protocolStack?: string[];
   /**
   * SecurityModel specifies how to determine whether connections to this port are secure or insecure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#security_model DataK8SGetambassadorIoListenerV3Alpha1Manifest#security_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#security_model DataK8SGetambassadorIoListenerV3Alpha1Manifest#security_model}
   */
   readonly securityModel: string;
   /**
   * StatsPrefix specifies the prefix for statistics sent by Envoy about this Listener. The default depends on the protocol: 'ingress-http', 'ingress-https', 'ingress-tls-$port', or 'ingress-$port'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#stats_prefix DataK8SGetambassadorIoListenerV3Alpha1Manifest#stats_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#stats_prefix DataK8SGetambassadorIoListenerV3Alpha1Manifest#stats_prefix}
   */
   readonly statsPrefix?: string;
 }
@@ -1089,7 +1089,7 @@ export class DataK8SGetambassadorIoListenerV3Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest k8s_getambassador_io_listener_v3alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest k8s_getambassador_io_listener_v3alpha1_manifest}
 */
 export class DataK8SGetambassadorIoListenerV3Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1105,7 +1105,7 @@ export class DataK8SGetambassadorIoListenerV3Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SGetambassadorIoListenerV3Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGetambassadorIoListenerV3Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGetambassadorIoListenerV3Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGetambassadorIoListenerV3Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGetambassadorIoListenerV3Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1117,7 +1117,7 @@ export class DataK8SGetambassadorIoListenerV3Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_listener_v3alpha1_manifest k8s_getambassador_io_listener_v3alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_listener_v3alpha1_manifest k8s_getambassador_io_listener_v3alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1128,8 +1128,8 @@ export class DataK8SGetambassadorIoListenerV3Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_getambassador_io_listener_v3alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

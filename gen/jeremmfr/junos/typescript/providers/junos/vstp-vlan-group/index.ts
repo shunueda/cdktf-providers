@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface VstpVlanGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Priority of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#backup_bridge_priority VstpVlanGroup#backup_bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#backup_bridge_priority VstpVlanGroup#backup_bridge_priority}
   */
   readonly backupBridgePriority?: string;
   /**
   * Priority of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#bridge_priority VstpVlanGroup#bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#bridge_priority VstpVlanGroup#bridge_priority}
   */
   readonly bridgePriority?: string;
   /**
   * Time spent in listening or learning state (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#forward_delay VstpVlanGroup#forward_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#forward_delay VstpVlanGroup#forward_delay}
   */
   readonly forwardDelay?: number;
   /**
   * Time interval between configuration BPDUs (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#hello_time VstpVlanGroup#hello_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#hello_time VstpVlanGroup#hello_time}
   */
   readonly helloTime?: number;
   /**
   * Maximum age of received protocol bpdu (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#max_age VstpVlanGroup#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#max_age VstpVlanGroup#max_age}
   */
   readonly maxAge?: number;
   /**
   * VLAN group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#name VstpVlanGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#name VstpVlanGroup#name}
   */
   readonly name: string;
   /**
   * Routing instance for vstp protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#routing_instance VstpVlanGroup#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#routing_instance VstpVlanGroup#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * System identifier to represent this node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#system_identifier VstpVlanGroup#system_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#system_identifier VstpVlanGroup#system_identifier}
   */
   readonly systemIdentifier?: string;
   /**
   *  VLAN IDs or VLAN ID ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#vlan VstpVlanGroup#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#vlan VstpVlanGroup#vlan}
   */
   readonly vlan: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group junos_vstp_vlan_group}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group junos_vstp_vlan_group}
 */
 export class VstpVlanGroup extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class VstpVlanGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VstpVlanGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VstpVlanGroup to import
-  * @param importFromId The id of the existing VstpVlanGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VstpVlanGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VstpVlanGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class VstpVlanGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan_group junos_vstp_vlan_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan_group junos_vstp_vlan_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class VstpVlanGroup extends cdktf.TerraformResource {
       terraformResourceType: 'junos_vstp_vlan_group',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

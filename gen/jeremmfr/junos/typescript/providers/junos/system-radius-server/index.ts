@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface SystemRadiusServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * RADIUS server accounting port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#accounting_port SystemRadiusServer#accounting_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#accounting_port SystemRadiusServer#accounting_port}
   */
   readonly accountingPort?: number;
   /**
   * Accounting retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#accounting_retry SystemRadiusServer#accounting_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#accounting_retry SystemRadiusServer#accounting_retry}
   */
   readonly accountingRetry?: number;
   /**
   * Accounting request timeout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#accounting_timeout SystemRadiusServer#accounting_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#accounting_timeout SystemRadiusServer#accounting_timeout}
   */
   readonly accountingTimeout?: number;
   /**
   * RADIUS server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#address SystemRadiusServer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#address SystemRadiusServer#address}
   */
   readonly address: string;
   /**
   * RADIUS client dynamic request port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#dynamic_request_port SystemRadiusServer#dynamic_request_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#dynamic_request_port SystemRadiusServer#dynamic_request_port}
   */
   readonly dynamicRequestPort?: number;
   /**
   * Maximum requests in flight to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#max_outstanding_requests SystemRadiusServer#max_outstanding_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#max_outstanding_requests SystemRadiusServer#max_outstanding_requests}
   */
   readonly maxOutstandingRequests?: number;
   /**
   * RADIUS server authentication port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#port SystemRadiusServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#port SystemRadiusServer#port}
   */
   readonly port?: number;
   /**
   * RADIUS server preauthentication port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#preauthentication_port SystemRadiusServer#preauthentication_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#preauthentication_port SystemRadiusServer#preauthentication_port}
   */
   readonly preauthenticationPort?: number;
   /**
   * Shared secret with the RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#preauthentication_secret SystemRadiusServer#preauthentication_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#preauthentication_secret SystemRadiusServer#preauthentication_secret}
   */
   readonly preauthenticationSecret?: string;
   /**
   * Retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#retry SystemRadiusServer#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#retry SystemRadiusServer#retry}
   */
   readonly retry?: number;
   /**
   * Routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#routing_instance SystemRadiusServer#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#routing_instance SystemRadiusServer#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Shared secret with the RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#secret SystemRadiusServer#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#secret SystemRadiusServer#secret}
   */
   readonly secret: string;
   /**
   * Use specified address as source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#source_address SystemRadiusServer#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#source_address SystemRadiusServer#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Request timeout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#timeout SystemRadiusServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#timeout SystemRadiusServer#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server junos_system_radius_server}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server junos_system_radius_server}
 */
 export class SystemRadiusServer extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class SystemRadiusServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemRadiusServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemRadiusServer to import
-  * @param importFromId The id of the existing SystemRadiusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemRadiusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemRadiusServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class SystemRadiusServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_radius_server junos_system_radius_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_radius_server junos_system_radius_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class SystemRadiusServer extends cdktf.TerraformResource {
       terraformResourceType: 'junos_system_radius_server',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

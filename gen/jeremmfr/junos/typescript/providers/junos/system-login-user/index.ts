@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SystemLoginUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Login class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#class SystemLoginUser#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#class SystemLoginUser#class}
   */
   readonly class: string;
   /**
   * Cli prompt name for this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#cli_prompt SystemLoginUser#cli_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#cli_prompt SystemLoginUser#cli_prompt}
   */
   readonly cliPrompt?: string;
   /**
   * Full name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#full_name SystemLoginUser#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#full_name SystemLoginUser#full_name}
   */
   readonly fullName?: string;
   /**
   * The name of system login user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#name SystemLoginUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#name SystemLoginUser#name}
   */
   readonly name: string;
   /**
   * User identifier (uid).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#uid SystemLoginUser#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#uid SystemLoginUser#uid}
   */
   readonly uid?: number;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#authentication SystemLoginUser#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#authentication SystemLoginUser#authentication}
   */
   readonly authentication?: SystemLoginUserAuthentication;
 }
@@ -48,25 +48,25 @@ export interface SystemLoginUserAuthentication {
   /**
   * Encrypted password string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#encrypted_password SystemLoginUser#encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#encrypted_password SystemLoginUser#encrypted_password}
   */
   readonly encryptedPassword?: string;
   /**
   * Disables ssh public key based authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#no_public_keys SystemLoginUser#no_public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#no_public_keys SystemLoginUser#no_public_keys}
   */
   readonly noPublicKeys?: boolean | cdktf.IResolvable;
   /**
   * Plain text password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#plain_text_password SystemLoginUser#plain_text_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#plain_text_password SystemLoginUser#plain_text_password}
   */
   readonly plainTextPassword?: string;
   /**
   * Secure shell (ssh) public key string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#ssh_public_keys SystemLoginUser#ssh_public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#ssh_public_keys SystemLoginUser#ssh_public_keys}
   */
   readonly sshPublicKeys?: string[];
 }
@@ -247,7 +247,7 @@ export class SystemLoginUserAuthenticationOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user junos_system_login_user}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user junos_system_login_user}
 */
 export class SystemLoginUser extends cdktf.TerraformResource {
 
@@ -263,7 +263,7 @@ export class SystemLoginUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLoginUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLoginUser to import
-  * @param importFromId The id of the existing SystemLoginUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLoginUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLoginUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class SystemLoginUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_user junos_system_login_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_user junos_system_login_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class SystemLoginUser extends cdktf.TerraformResource {
       terraformResourceType: 'junos_system_login_user',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

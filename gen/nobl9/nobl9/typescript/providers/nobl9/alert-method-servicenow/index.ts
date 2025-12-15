@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AlertMethodServicenowConfig extends cdktf.TerraformMetaArgument
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#description AlertMethodServicenow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#description AlertMethodServicenow#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#display_name AlertMethodServicenow#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#display_name AlertMethodServicenow#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#id AlertMethodServicenow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#id AlertMethodServicenow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface AlertMethodServicenowConfig extends cdktf.TerraformMetaArgument
   /**
   * ServiceNow InstanceName. For details see [Nobl9 documentation](https://docs.nobl9.com/alerting/alert-methods/servicenow#servicenow-credentials).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#instance_name AlertMethodServicenow#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#instance_name AlertMethodServicenow#instance_name}
   */
   readonly instanceName: string;
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#name AlertMethodServicenow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#name AlertMethodServicenow#name}
   */
   readonly name: string;
   /**
   * ServiceNow password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#password AlertMethodServicenow#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#password AlertMethodServicenow#password}
   */
   readonly password?: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#project AlertMethodServicenow#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#project AlertMethodServicenow#project}
   */
   readonly project: string;
   /**
   * ServiceNow username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#username AlertMethodServicenow#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#username AlertMethodServicenow#username}
   */
   readonly username: string;
   /**
   * send_resolution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#send_resolution AlertMethodServicenow#send_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#send_resolution AlertMethodServicenow#send_resolution}
   */
   readonly sendResolution?: AlertMethodServicenowSendResolution;
 }
@@ -67,7 +67,7 @@ export interface AlertMethodServicenowSendResolution {
   /**
   * A message that will be attached to your 'all clear' notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#message AlertMethodServicenow#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#message AlertMethodServicenow#message}
   */
   readonly message?: string;
 }
@@ -151,7 +151,7 @@ export class AlertMethodServicenowSendResolutionOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow nobl9_alert_method_servicenow}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow nobl9_alert_method_servicenow}
 */
 export class AlertMethodServicenow extends cdktf.TerraformResource {
 
@@ -167,7 +167,7 @@ export class AlertMethodServicenow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertMethodServicenow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertMethodServicenow to import
-  * @param importFromId The id of the existing AlertMethodServicenow that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertMethodServicenow that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertMethodServicenow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class AlertMethodServicenow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_servicenow nobl9_alert_method_servicenow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_servicenow nobl9_alert_method_servicenow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class AlertMethodServicenow extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_alert_method_servicenow',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

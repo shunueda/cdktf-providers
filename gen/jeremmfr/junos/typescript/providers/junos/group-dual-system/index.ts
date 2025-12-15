@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface GroupDualSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apply the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#apply_groups GroupDualSystem#apply_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#apply_groups GroupDualSystem#apply_groups}
   */
   readonly applyGroups?: boolean | cdktf.IResolvable;
   /**
   * Name of group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#name GroupDualSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#name GroupDualSystem#name}
   */
   readonly name: string;
   /**
   * interface_fxp0 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#interface_fxp0 GroupDualSystem#interface_fxp0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#interface_fxp0 GroupDualSystem#interface_fxp0}
   */
   readonly interfaceFxp0?: GroupDualSystemInterfaceFxp0;
   /**
   * routing_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#routing_options GroupDualSystem#routing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#routing_options GroupDualSystem#routing_options}
   */
   readonly routingOptions?: GroupDualSystemRoutingOptions;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#security GroupDualSystem#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#security GroupDualSystem#security}
   */
   readonly security?: GroupDualSystemSecurity;
   /**
   * system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#system GroupDualSystem#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#system GroupDualSystem#system}
   */
   readonly systemAttribute?: GroupDualSystemSystem;
 }
@@ -48,25 +48,25 @@ export interface GroupDualSystemInterfaceFxp0FamilyInet6Address {
   /**
   * IPv6 address in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#cidr_ip GroupDualSystem#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#cidr_ip GroupDualSystem#cidr_ip}
   */
   readonly cidrIp: string;
   /**
   * Master management IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#master_only GroupDualSystem#master_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#master_only GroupDualSystem#master_only}
   */
   readonly masterOnly?: boolean | cdktf.IResolvable;
   /**
   * Preferred address on interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#preferred GroupDualSystem#preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#preferred GroupDualSystem#preferred}
   */
   readonly preferred?: boolean | cdktf.IResolvable;
   /**
   * Candidate for primary address in system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#primary GroupDualSystem#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#primary GroupDualSystem#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
 }
@@ -268,25 +268,25 @@ export interface GroupDualSystemInterfaceFxp0FamilyInetAddress {
   /**
   * IPv4 address in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#cidr_ip GroupDualSystem#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#cidr_ip GroupDualSystem#cidr_ip}
   */
   readonly cidrIp: string;
   /**
   * Master management IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#master_only GroupDualSystem#master_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#master_only GroupDualSystem#master_only}
   */
   readonly masterOnly?: boolean | cdktf.IResolvable;
   /**
   * Preferred address on interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#preferred GroupDualSystem#preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#preferred GroupDualSystem#preferred}
   */
   readonly preferred?: boolean | cdktf.IResolvable;
   /**
   * Candidate for primary address in system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#primary GroupDualSystem#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#primary GroupDualSystem#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
 }
@@ -488,19 +488,19 @@ export interface GroupDualSystemInterfaceFxp0 {
   /**
   * Description for interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#description GroupDualSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#description GroupDualSystem#description}
   */
   readonly description?: string;
   /**
   * family_inet6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#family_inet6_address GroupDualSystem#family_inet6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#family_inet6_address GroupDualSystem#family_inet6_address}
   */
   readonly familyInet6Address?: GroupDualSystemInterfaceFxp0FamilyInet6Address[] | cdktf.IResolvable;
   /**
   * family_inet_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#family_inet_address GroupDualSystem#family_inet_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#family_inet_address GroupDualSystem#family_inet_address}
   */
   readonly familyInetAddress?: GroupDualSystemInterfaceFxp0FamilyInetAddress[] | cdktf.IResolvable;
 }
@@ -654,13 +654,13 @@ export interface GroupDualSystemRoutingOptionsStaticRoute {
   /**
   * The destination for static route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#destination GroupDualSystem#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#destination GroupDualSystem#destination}
   */
   readonly destination: string;
   /**
   * List of next-hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#next_hop GroupDualSystem#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#next_hop GroupDualSystem#next_hop}
   */
   readonly nextHop: string[];
 }
@@ -801,7 +801,7 @@ export interface GroupDualSystemRoutingOptions {
   /**
   * static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#static_route GroupDualSystem#static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#static_route GroupDualSystem#static_route}
   */
   readonly staticRoute?: GroupDualSystemRoutingOptionsStaticRoute[] | cdktf.IResolvable;
 }
@@ -897,7 +897,7 @@ export interface GroupDualSystemSecurity {
   /**
   * Source IP address used when exporting security logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#log_source_address GroupDualSystem#log_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#log_source_address GroupDualSystem#log_source_address}
   */
   readonly logSourceAddress?: string;
 }
@@ -993,31 +993,31 @@ export interface GroupDualSystemSystem {
   /**
   * IPv4 address backup router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#backup_router_address GroupDualSystem#backup_router_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#backup_router_address GroupDualSystem#backup_router_address}
   */
   readonly backupRouterAddress?: string;
   /**
   * Destinations network reachable through the IPv4 router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#backup_router_destination GroupDualSystem#backup_router_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#backup_router_destination GroupDualSystem#backup_router_destination}
   */
   readonly backupRouterDestination?: string[];
   /**
   * Hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#host_name GroupDualSystem#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#host_name GroupDualSystem#host_name}
   */
   readonly hostName?: string;
   /**
   * IPv6 address backup router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#inet6_backup_router_address GroupDualSystem#inet6_backup_router_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#inet6_backup_router_address GroupDualSystem#inet6_backup_router_address}
   */
   readonly inet6BackupRouterAddress?: string;
   /**
   * Destinations network reachable through the IPv6 router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#inet6_backup_router_destination GroupDualSystem#inet6_backup_router_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#inet6_backup_router_destination GroupDualSystem#inet6_backup_router_destination}
   */
   readonly inet6BackupRouterDestination?: string[];
 }
@@ -1227,7 +1227,7 @@ export class GroupDualSystemSystemOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system junos_group_dual_system}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system junos_group_dual_system}
 */
 export class GroupDualSystem extends cdktf.TerraformResource {
 
@@ -1243,7 +1243,7 @@ export class GroupDualSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupDualSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupDualSystem to import
-  * @param importFromId The id of the existing GroupDualSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupDualSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupDualSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1255,7 +1255,7 @@ export class GroupDualSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/group_dual_system junos_group_dual_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/group_dual_system junos_group_dual_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1266,8 +1266,8 @@ export class GroupDualSystem extends cdktf.TerraformResource {
       terraformResourceType: 'junos_group_dual_system',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

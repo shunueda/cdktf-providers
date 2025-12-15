@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestConfig extends
   /**
   * The explicit mappings to use for replication which are optional. For Scopes and Collection replication support we can specify a set of implicit and explicit mappings to use. If none is specified then it is assumed to be existing bucket level replication. https://docs.couchbase.com/server/current/learn/clusters-and-availability/xdcr-with-scopes-and-collections.html#explicit-mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#explicit_mapping DataK8SCouchbaseComCouchbaseReplicationV2Manifest#explicit_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#explicit_mapping DataK8SCouchbaseComCouchbaseReplicationV2Manifest#explicit_mapping}
   */
   readonly explicitMapping?: DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMapping;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#metadata DataK8SCouchbaseComCouchbaseReplicationV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#metadata DataK8SCouchbaseComCouchbaseReplicationV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseReplicationV2ManifestMetadata;
   /**
   * CouchbaseReplicationSpec allows configuration of an XDCR replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#spec DataK8SCouchbaseComCouchbaseReplicationV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#spec DataK8SCouchbaseComCouchbaseReplicationV2Manifest#spec}
   */
   readonly spec: DataK8SCouchbaseComCouchbaseReplicationV2ManifestSpec;
 }
@@ -30,13 +30,13 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappin
   /**
   * The optional collection within the scope. May be empty to just work at scope level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#collection DataK8SCouchbaseComCouchbaseReplicationV2Manifest#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#collection DataK8SCouchbaseComCouchbaseReplicationV2Manifest#collection}
   */
   readonly collection?: string;
   /**
   * The scope to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#scope DataK8SCouchbaseComCouchbaseReplicationV2Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#scope DataK8SCouchbaseComCouchbaseReplicationV2Manifest#scope}
   */
   readonly scope: string;
 }
@@ -158,13 +158,13 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappin
   /**
   * The optional collection within the scope. May be empty to just work at scope level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#collection DataK8SCouchbaseComCouchbaseReplicationV2Manifest#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#collection DataK8SCouchbaseComCouchbaseReplicationV2Manifest#collection}
   */
   readonly collection?: string;
   /**
   * The scope to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#scope DataK8SCouchbaseComCouchbaseReplicationV2Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#scope DataK8SCouchbaseComCouchbaseReplicationV2Manifest#scope}
   */
   readonly scope: string;
 }
@@ -286,13 +286,13 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappin
   /**
   * The source keyspace: where to replicate from. Source and target must match whether they have a collection or not, i.e. you cannot replicate from a scope to a collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#source_keyspace DataK8SCouchbaseComCouchbaseReplicationV2Manifest#source_keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#source_keyspace DataK8SCouchbaseComCouchbaseReplicationV2Manifest#source_keyspace}
   */
   readonly sourceKeyspace: DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappingAllowRulesSourceKeyspace;
   /**
   * The target keyspace: where to replicate to. Source and target must match whether they have a collection or not, i.e. you cannot replicate from a scope to a collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#target_keyspace DataK8SCouchbaseComCouchbaseReplicationV2Manifest#target_keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#target_keyspace DataK8SCouchbaseComCouchbaseReplicationV2Manifest#target_keyspace}
   */
   readonly targetKeyspace: DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappingAllowRulesTargetKeyspace;
 }
@@ -433,13 +433,13 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappin
   /**
   * The optional collection within the scope. May be empty to just work at scope level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#collection DataK8SCouchbaseComCouchbaseReplicationV2Manifest#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#collection DataK8SCouchbaseComCouchbaseReplicationV2Manifest#collection}
   */
   readonly collection?: string;
   /**
   * The scope to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#scope DataK8SCouchbaseComCouchbaseReplicationV2Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#scope DataK8SCouchbaseComCouchbaseReplicationV2Manifest#scope}
   */
   readonly scope: string;
 }
@@ -561,7 +561,7 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappin
   /**
   * The source keyspace: where to block replication from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#source_keyspace DataK8SCouchbaseComCouchbaseReplicationV2Manifest#source_keyspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#source_keyspace DataK8SCouchbaseComCouchbaseReplicationV2Manifest#source_keyspace}
   */
   readonly sourceKeyspace: DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappingDenyRulesSourceKeyspace;
 }
@@ -676,13 +676,13 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappin
   /**
   * The list of explicit replications to carry out including any nested implicit replications: specifying a scope implicitly replicates all collections within it. There should be no duplicates, including more-specific duplicates, e.g. if you specify replication of a scope then you can only deny replication of collections within it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#allow_rules DataK8SCouchbaseComCouchbaseReplicationV2Manifest#allow_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#allow_rules DataK8SCouchbaseComCouchbaseReplicationV2Manifest#allow_rules}
   */
   readonly allowRules?: DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappingAllowRules[] | cdktf.IResolvable;
   /**
   * The list of explicit replications to prevent including any nested implicit denials: specifying a scope implicitly denies all collections within it. There should be no duplicates, including more-specific duplicates, e.g. if you specify denial of replication of a scope then you can only specify replication of collections within it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#deny_rules DataK8SCouchbaseComCouchbaseReplicationV2Manifest#deny_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#deny_rules DataK8SCouchbaseComCouchbaseReplicationV2Manifest#deny_rules}
   */
   readonly denyRules?: DataK8SCouchbaseComCouchbaseReplicationV2ManifestExplicitMappingDenyRules[] | cdktf.IResolvable;
 }
@@ -807,25 +807,25 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#annotations DataK8SCouchbaseComCouchbaseReplicationV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#annotations DataK8SCouchbaseComCouchbaseReplicationV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#labels DataK8SCouchbaseComCouchbaseReplicationV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#labels DataK8SCouchbaseComCouchbaseReplicationV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#name DataK8SCouchbaseComCouchbaseReplicationV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#name DataK8SCouchbaseComCouchbaseReplicationV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#namespace DataK8SCouchbaseComCouchbaseReplicationV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#namespace DataK8SCouchbaseComCouchbaseReplicationV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -1002,31 +1002,31 @@ export interface DataK8SCouchbaseComCouchbaseReplicationV2ManifestSpec {
   /**
   * Bucket is the source bucket to replicate from. This refers to the Couchbase bucket name, not the resource name of the bucket. A bucket with this name must be defined on this cluster. Legal bucket names have a maximum length of 100 characters and may be composed of any character from 'a-z', 'A-Z', '0-9' and '-_%.'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#bucket DataK8SCouchbaseComCouchbaseReplicationV2Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#bucket DataK8SCouchbaseComCouchbaseReplicationV2Manifest#bucket}
   */
   readonly bucket: string;
   /**
   * CompressionType is the type of compression to apply to the replication. When None, no compression will be applied to documents as they are transferred between clusters. When Auto, Couchbase server will automatically compress documents as they are transferred to reduce bandwidth requirements. This field must be one of 'None' or 'Auto', defaulting to 'Auto'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#compression_type DataK8SCouchbaseComCouchbaseReplicationV2Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#compression_type DataK8SCouchbaseComCouchbaseReplicationV2Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
   * FilterExpression allows certain documents to be filtered out of the replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#filter_expression DataK8SCouchbaseComCouchbaseReplicationV2Manifest#filter_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#filter_expression DataK8SCouchbaseComCouchbaseReplicationV2Manifest#filter_expression}
   */
   readonly filterExpression?: string;
   /**
   * Paused allows a replication to be stopped and restarted without having to restart the replication from the beginning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#paused DataK8SCouchbaseComCouchbaseReplicationV2Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#paused DataK8SCouchbaseComCouchbaseReplicationV2Manifest#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * RemoteBucket is the remote bucket name to synchronize to. This refers to the Couchbase bucket name, not the resource name of the bucket. Legal bucket names have a maximum length of 100 characters and may be composed of any character from 'a-z', 'A-Z', '0-9' and '-_%.'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#remote_bucket DataK8SCouchbaseComCouchbaseReplicationV2Manifest#remote_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#remote_bucket DataK8SCouchbaseComCouchbaseReplicationV2Manifest#remote_bucket}
   */
   readonly remoteBucket: string;
 }
@@ -1230,7 +1230,7 @@ export class DataK8SCouchbaseComCouchbaseReplicationV2ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest k8s_couchbase_com_couchbase_replication_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest k8s_couchbase_com_couchbase_replication_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseReplicationV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1246,7 +1246,7 @@ export class DataK8SCouchbaseComCouchbaseReplicationV2Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseReplicationV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseReplicationV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseReplicationV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseReplicationV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseReplicationV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1258,7 +1258,7 @@ export class DataK8SCouchbaseComCouchbaseReplicationV2Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest k8s_couchbase_com_couchbase_replication_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_replication_v2_manifest k8s_couchbase_com_couchbase_replication_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1269,8 +1269,8 @@ export class DataK8SCouchbaseComCouchbaseReplicationV2Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_couchbase_com_couchbase_replication_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

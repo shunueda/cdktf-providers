@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/null_commit_file
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/null_commit_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NullCommitFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of lines append to lines in the loaded file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/null_commit_file#append_lines NullCommitFile#append_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/null_commit_file#append_lines NullCommitFile#append_lines}
   */
   readonly appendLines?: string[];
   /**
   * Truncate file after successful commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/null_commit_file#clear_file_after_commit NullCommitFile#clear_file_after_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/null_commit_file#clear_file_after_commit NullCommitFile#clear_file_after_commit}
   */
   readonly clearFileAfterCommit?: boolean | cdktf.IResolvable;
   /**
   * The path of the file to load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/null_commit_file#filename NullCommitFile#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/null_commit_file#filename NullCommitFile#filename}
   */
   readonly filename: string;
   /**
   * Any value that, when changed, will force the resource to be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/null_commit_file#triggers NullCommitFile#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/null_commit_file#triggers NullCommitFile#triggers}
   */
   readonly triggers?: { [key: string]: any };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/null_commit_file junos_null_commit_file}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/null_commit_file junos_null_commit_file}
 */
 export class NullCommitFile extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class NullCommitFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NullCommitFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NullCommitFile to import
-  * @param importFromId The id of the existing NullCommitFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/null_commit_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NullCommitFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/null_commit_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NullCommitFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class NullCommitFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/null_commit_file junos_null_commit_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/null_commit_file junos_null_commit_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class NullCommitFile extends cdktf.TerraformResource {
       terraformResourceType: 'junos_null_commit_file',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

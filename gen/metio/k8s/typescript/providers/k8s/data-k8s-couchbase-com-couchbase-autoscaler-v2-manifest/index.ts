@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCouchbaseComCouchbaseAutoscalerV2ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#metadata DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#metadata DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseAutoscalerV2ManifestMetadata;
   /**
   * CouchbaseAutoscalerSpec allows control over an autoscaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#spec DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#spec DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#spec}
   */
   readonly spec: DataK8SCouchbaseComCouchbaseAutoscalerV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCouchbaseComCouchbaseAutoscalerV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#annotations DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#annotations DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#labels DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#labels DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#name DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#name DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#namespace DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#namespace DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SCouchbaseComCouchbaseAutoscalerV2ManifestSpec {
   /**
   * Servers specifies the server group that this autoscaler belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#servers DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#servers DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#servers}
   */
   readonly servers: string;
   /**
   * Size allows the server group to be dynamically scaled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#size DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#size DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest#size}
   */
   readonly size: number;
 }
@@ -342,7 +342,7 @@ export class DataK8SCouchbaseComCouchbaseAutoscalerV2ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest k8s_couchbase_com_couchbase_autoscaler_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest k8s_couchbase_com_couchbase_autoscaler_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest extends cdktf.TerraformDataSource {
 
@@ -358,7 +358,7 @@ export class DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -370,7 +370,7 @@ export class DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest k8s_couchbase_com_couchbase_autoscaler_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_autoscaler_v2_manifest k8s_couchbase_com_couchbase_autoscaler_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,8 +381,8 @@ export class DataK8SCouchbaseComCouchbaseAutoscalerV2Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_couchbase_com_couchbase_autoscaler_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

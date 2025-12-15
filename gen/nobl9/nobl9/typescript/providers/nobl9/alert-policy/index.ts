@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AlertPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Metadata annotations](https://docs.nobl9.com/features/labels/#metadata-annotations) attached to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#annotations AlertPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#annotations AlertPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * An interval measured from the last time stamp when all alert policy conditions were satisfied before alert is marked as resolved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#cooldown AlertPolicy#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#cooldown AlertPolicy#cooldown}
   */
   readonly cooldown?: string;
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#description AlertPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#description AlertPolicy#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#display_name AlertPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#display_name AlertPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#id AlertPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#id AlertPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface AlertPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#name AlertPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#name AlertPolicy#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#project AlertPolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#project AlertPolicy#project}
   */
   readonly project: string;
   /**
   * Alert severity. One of `Low` | `Medium` | `High`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#severity AlertPolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#severity AlertPolicy#severity}
   */
   readonly severity: string;
   /**
   * alert_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#alert_method AlertPolicy#alert_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#alert_method AlertPolicy#alert_method}
   */
   readonly alertMethod?: AlertPolicyAlertMethod[] | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#condition AlertPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#condition AlertPolicy#condition}
   */
   readonly condition: AlertPolicyCondition[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface AlertPolicyAlertMethod {
   /**
   * The name of the previously defined alert method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#name AlertPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#name AlertPolicy#name}
   */
   readonly name: string;
   /**
   * Project name the Alert Method is in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names). If not defined, Nobl9 returns a default value for this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#project AlertPolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#project AlertPolicy#project}
   */
   readonly project?: string;
 }
@@ -223,37 +223,37 @@ export interface AlertPolicyCondition {
   /**
   * Duration over which the burn rate is evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#alerting_window AlertPolicy#alerting_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#alerting_window AlertPolicy#alerting_window}
   */
   readonly alertingWindow?: string;
   /**
   * Indicates how long a given condition needs to be valid to mark the condition as true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#lasts_for AlertPolicy#lasts_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#lasts_for AlertPolicy#lasts_for}
   */
   readonly lastsFor?: string;
   /**
   * One of `timeToBurnBudget` | `timeToBurnEntireBudget` | `averageBurnRate` | `burnedBudget` | `budgetDrop`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#measurement AlertPolicy#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#measurement AlertPolicy#measurement}
   */
   readonly measurement: string;
   /**
   * A mathematical inequality operator. One of `lt` | `lte` | `gt` | `gte`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#op AlertPolicy#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#op AlertPolicy#op}
   */
   readonly op?: string;
   /**
   * For `averageBurnRate`, it indicates how fast the error budget is burning. For `burnedBudget`, it tells how much error budget is already burned. For `budgetDrop`, it tells how much budget dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#value AlertPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#value AlertPolicy#value}
   */
   readonly value?: number;
   /**
   * Used with `timeToBurnBudget` or `timeToBurnEntireBudget`, indicates when the budget would be exhausted. The expected value is a string in time duration string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#value_string AlertPolicy#value_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#value_string AlertPolicy#value_string}
   */
   readonly valueString?: string;
 }
@@ -511,7 +511,7 @@ export class AlertPolicyConditionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy nobl9_alert_policy}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy nobl9_alert_policy}
 */
 export class AlertPolicy extends cdktf.TerraformResource {
 
@@ -527,7 +527,7 @@ export class AlertPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertPolicy to import
-  * @param importFromId The id of the existing AlertPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -539,7 +539,7 @@ export class AlertPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_policy nobl9_alert_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_policy nobl9_alert_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -550,8 +550,8 @@ export class AlertPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_alert_policy',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

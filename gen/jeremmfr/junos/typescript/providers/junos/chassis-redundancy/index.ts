@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ChassisRedundancyConfig extends cdktf.TerraformMetaArguments {
   /**
   * To failover, read threshold (ms) on disk underperform monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#failover_disk_read_threshold ChassisRedundancy#failover_disk_read_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#failover_disk_read_threshold ChassisRedundancy#failover_disk_read_threshold}
   */
   readonly failoverDiskReadThreshold?: number;
   /**
   * To failover, write threshold (ms) on disk underperform monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#failover_disk_write_threshold ChassisRedundancy#failover_disk_write_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#failover_disk_write_threshold ChassisRedundancy#failover_disk_write_threshold}
   */
   readonly failoverDiskWriteThreshold?: number;
   /**
   * Prevent gstatd from initiating failovers in response to slow disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#failover_not_on_disk_underperform ChassisRedundancy#failover_not_on_disk_underperform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#failover_not_on_disk_underperform ChassisRedundancy#failover_not_on_disk_underperform}
   */
   readonly failoverNotOnDiskUnderperform?: boolean | cdktf.IResolvable;
   /**
   * Failover on disk failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#failover_on_disk_failure ChassisRedundancy#failover_on_disk_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#failover_on_disk_failure ChassisRedundancy#failover_on_disk_failure}
   */
   readonly failoverOnDiskFailure?: boolean | cdktf.IResolvable;
   /**
   * Failover on loss of keepalives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#failover_on_loss_of_keepalives ChassisRedundancy#failover_on_loss_of_keepalives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#failover_on_loss_of_keepalives ChassisRedundancy#failover_on_loss_of_keepalives}
   */
   readonly failoverOnLossOfKeepalives?: boolean | cdktf.IResolvable;
   /**
   * Enable graceful switchover on supported hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#graceful_switchover ChassisRedundancy#graceful_switchover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#graceful_switchover ChassisRedundancy#graceful_switchover}
   */
   readonly gracefulSwitchover?: boolean | cdktf.IResolvable;
   /**
   * Time before Routing Engine failover (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#keepalive_time ChassisRedundancy#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#keepalive_time ChassisRedundancy#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * routing_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#routing_engine ChassisRedundancy#routing_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#routing_engine ChassisRedundancy#routing_engine}
   */
   readonly routingEngine?: ChassisRedundancyRoutingEngine[] | cdktf.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface ChassisRedundancyRoutingEngine {
   /**
   * Define role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#role ChassisRedundancy#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#role ChassisRedundancy#role}
   */
   readonly role: string;
   /**
   * Routing Engine slot number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#slot ChassisRedundancy#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#slot ChassisRedundancy#slot}
   */
   readonly slot: number;
 }
@@ -205,7 +205,7 @@ export class ChassisRedundancyRoutingEngineList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy junos_chassis_redundancy}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy junos_chassis_redundancy}
 */
 export class ChassisRedundancy extends cdktf.TerraformResource {
 
@@ -221,7 +221,7 @@ export class ChassisRedundancy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChassisRedundancy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChassisRedundancy to import
-  * @param importFromId The id of the existing ChassisRedundancy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChassisRedundancy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChassisRedundancy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class ChassisRedundancy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_redundancy junos_chassis_redundancy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_redundancy junos_chassis_redundancy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class ChassisRedundancy extends cdktf.TerraformResource {
       terraformResourceType: 'junos_chassis_redundancy',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

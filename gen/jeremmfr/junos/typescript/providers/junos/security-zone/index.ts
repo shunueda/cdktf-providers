@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface SecurityZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disable management of address-book in this resource to be able to manage them with specific resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#address_book_configure_singly SecurityZone#address_book_configure_singly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#address_book_configure_singly SecurityZone#address_book_configure_singly}
   */
   readonly addressBookConfigureSingly?: boolean | cdktf.IResolvable;
   /**
   * Enable Advance Policy Based Routing on this zone with a profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#advance_policy_based_routing_profile SecurityZone#advance_policy_based_routing_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#advance_policy_based_routing_profile SecurityZone#advance_policy_based_routing_profile}
   */
   readonly advancePolicyBasedRoutingProfile?: string;
   /**
   * Enable Application tracking support for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#application_tracking SecurityZone#application_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#application_tracking SecurityZone#application_tracking}
   */
   readonly applicationTracking?: boolean | cdktf.IResolvable;
   /**
   * Text description of zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#description SecurityZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#description SecurityZone#description}
   */
   readonly description?: string;
   /**
   * The inbound protocols allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#inbound_protocols SecurityZone#inbound_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#inbound_protocols SecurityZone#inbound_protocols}
   */
   readonly inboundProtocols?: string[];
   /**
   * The inbound services allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#inbound_services SecurityZone#inbound_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#inbound_services SecurityZone#inbound_services}
   */
   readonly inboundServices?: string[];
   /**
   * The name of security zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#name SecurityZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#name SecurityZone#name}
   */
   readonly name: string;
   /**
   * Enable Reverse route lookup when there is change in ingress interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#reverse_reroute SecurityZone#reverse_reroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#reverse_reroute SecurityZone#reverse_reroute}
   */
   readonly reverseReroute?: boolean | cdktf.IResolvable;
   /**
   * Name of ids option object (screen) applied to the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#screen SecurityZone#screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#screen SecurityZone#screen}
   */
   readonly screen?: string;
   /**
   * Show user and group info in session log for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#source_identity_log SecurityZone#source_identity_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#source_identity_log SecurityZone#source_identity_log}
   */
   readonly sourceIdentityLog?: boolean | cdktf.IResolvable;
   /**
   * Send RST for NON-SYN packet not matching TCP session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#tcp_rst SecurityZone#tcp_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#tcp_rst SecurityZone#tcp_rst}
   */
   readonly tcpRst?: boolean | cdktf.IResolvable;
   /**
   * address_book block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#address_book SecurityZone#address_book}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#address_book SecurityZone#address_book}
   */
   readonly addressBook?: SecurityZoneAddressBook[] | cdktf.IResolvable;
   /**
   * address_book_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#address_book_dns SecurityZone#address_book_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#address_book_dns SecurityZone#address_book_dns}
   */
   readonly addressBookDns?: SecurityZoneAddressBookDns[] | cdktf.IResolvable;
   /**
   * address_book_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#address_book_range SecurityZone#address_book_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#address_book_range SecurityZone#address_book_range}
   */
   readonly addressBookRange?: SecurityZoneAddressBookRange[] | cdktf.IResolvable;
   /**
   * address_book_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#address_book_set SecurityZone#address_book_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#address_book_set SecurityZone#address_book_set}
   */
   readonly addressBookSet?: SecurityZoneAddressBookSet[] | cdktf.IResolvable;
   /**
   * address_book_wildcard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#address_book_wildcard SecurityZone#address_book_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#address_book_wildcard SecurityZone#address_book_wildcard}
   */
   readonly addressBookWildcard?: SecurityZoneAddressBookWildcard[] | cdktf.IResolvable;
 }
@@ -108,19 +108,19 @@ export interface SecurityZoneAddressBook {
   /**
   * Description of network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#description SecurityZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#description SecurityZone#description}
   */
   readonly description?: string;
   /**
   * Name of network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#name SecurityZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#name SecurityZone#name}
   */
   readonly name: string;
   /**
   * CIDR value of network address (`192.0.0.0/24`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#network SecurityZone#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#network SecurityZone#network}
   */
   readonly network: string;
 }
@@ -290,31 +290,31 @@ export interface SecurityZoneAddressBookDns {
   /**
   * Description of dns name address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#description SecurityZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#description SecurityZone#description}
   */
   readonly description?: string;
   /**
   * Fully qualified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#fqdn SecurityZone#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#fqdn SecurityZone#fqdn}
   */
   readonly fqdn: string;
   /**
   * IPv4 dns address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#ipv4_only SecurityZone#ipv4_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#ipv4_only SecurityZone#ipv4_only}
   */
   readonly ipv4Only?: boolean | cdktf.IResolvable;
   /**
   * IPv6 dns address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#ipv6_only SecurityZone#ipv6_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#ipv6_only SecurityZone#ipv6_only}
   */
   readonly ipv6Only?: boolean | cdktf.IResolvable;
   /**
   * Name of dns name address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#name SecurityZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#name SecurityZone#name}
   */
   readonly name: string;
 }
@@ -542,25 +542,25 @@ export interface SecurityZoneAddressBookRange {
   /**
   * Description of range address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#description SecurityZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#description SecurityZone#description}
   */
   readonly description?: string;
   /**
   * Lower limit of address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#from SecurityZone#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#from SecurityZone#from}
   */
   readonly from: string;
   /**
   * Name of range address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#name SecurityZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#name SecurityZone#name}
   */
   readonly name: string;
   /**
   * Upper limit of address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#to SecurityZone#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#to SecurityZone#to}
   */
   readonly to: string;
 }
@@ -756,25 +756,25 @@ export interface SecurityZoneAddressBookSet {
   /**
   * List of address names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#address SecurityZone#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#address SecurityZone#address}
   */
   readonly address?: string[];
   /**
   * List of address-set names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#address_set SecurityZone#address_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#address_set SecurityZone#address_set}
   */
   readonly addressSet?: string[];
   /**
   * Description of address-set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#description SecurityZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#description SecurityZone#description}
   */
   readonly description?: string;
   /**
   * Name of address-set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#name SecurityZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#name SecurityZone#name}
   */
   readonly name: string;
 }
@@ -976,19 +976,19 @@ export interface SecurityZoneAddressBookWildcard {
   /**
   * Description of wildcard address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#description SecurityZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#description SecurityZone#description}
   */
   readonly description?: string;
   /**
   * Name of wildcard address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#name SecurityZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#name SecurityZone#name}
   */
   readonly name: string;
   /**
   * Numeric IPv4 wildcard address with in the form of a.d.d.r/netmask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#network SecurityZone#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#network SecurityZone#network}
   */
   readonly network: string;
 }
@@ -1156,7 +1156,7 @@ export class SecurityZoneAddressBookWildcardList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone junos_security_zone}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone junos_security_zone}
 */
 export class SecurityZone extends cdktf.TerraformResource {
 
@@ -1172,7 +1172,7 @@ export class SecurityZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityZone to import
-  * @param importFromId The id of the existing SecurityZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1184,7 +1184,7 @@ export class SecurityZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone junos_security_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone junos_security_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1195,8 +1195,8 @@ export class SecurityZone extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_zone',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

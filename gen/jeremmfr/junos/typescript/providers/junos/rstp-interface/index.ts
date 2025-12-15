@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface RstpInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Send/Receive untagged RSTP BPDUs on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#access_trunk RstpInterface#access_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#access_trunk RstpInterface#access_trunk}
   */
   readonly accessTrunk?: boolean | cdktf.IResolvable;
   /**
   * Generate an alarm on BPDU expiry (Loop Protect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#bpdu_timeout_action_alarm RstpInterface#bpdu_timeout_action_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#bpdu_timeout_action_alarm RstpInterface#bpdu_timeout_action_alarm}
   */
   readonly bpduTimeoutActionAlarm?: boolean | cdktf.IResolvable;
   /**
   * Block the interface on BPDU expiry (Loop Protect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#bpdu_timeout_action_block RstpInterface#bpdu_timeout_action_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#bpdu_timeout_action_block RstpInterface#bpdu_timeout_action_block}
   */
   readonly bpduTimeoutActionBlock?: boolean | cdktf.IResolvable;
   /**
   * Cost of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#cost RstpInterface#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#cost RstpInterface#cost}
   */
   readonly cost?: number;
   /**
   * Port is an edge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#edge RstpInterface#edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#edge RstpInterface#edge}
   */
   readonly edge?: boolean | cdktf.IResolvable;
   /**
   * Interface mode (P2P or shared).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#mode RstpInterface#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#mode RstpInterface#mode}
   */
   readonly mode?: string;
   /**
   * Interface name or `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#name RstpInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#name RstpInterface#name}
   */
   readonly name: string;
   /**
   * Do not allow the interface to become root (Root Protect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#no_root_port RstpInterface#no_root_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#no_root_port RstpInterface#no_root_port}
   */
   readonly noRootPort?: boolean | cdktf.IResolvable;
   /**
   * Interface priority (in increments of 16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#priority RstpInterface#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#priority RstpInterface#priority}
   */
   readonly priority?: number;
   /**
   * Routing instance for rstp protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#routing_instance RstpInterface#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#routing_instance RstpInterface#routing_instance}
   */
   readonly routingInstance?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface junos_rstp_interface}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface junos_rstp_interface}
 */
 export class RstpInterface extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class RstpInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RstpInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RstpInterface to import
-  * @param importFromId The id of the existing RstpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RstpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RstpInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class RstpInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rstp_interface junos_rstp_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rstp_interface junos_rstp_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class RstpInterface extends cdktf.TerraformResource {
       terraformResourceType: 'junos_rstp_interface',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

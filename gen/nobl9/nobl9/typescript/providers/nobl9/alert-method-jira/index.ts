@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AlertMethodJiraConfig extends cdktf.TerraformMetaArguments {
   /**
   * [API Token](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/) with access rights to the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#apitoken AlertMethodJira#apitoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#apitoken AlertMethodJira#apitoken}
   */
   readonly apitoken?: string;
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#description AlertMethodJira#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#description AlertMethodJira#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#display_name AlertMethodJira#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#display_name AlertMethodJira#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#id AlertMethodJira#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#id AlertMethodJira#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface AlertMethodJiraConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#name AlertMethodJira#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#name AlertMethodJira#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#project AlertMethodJira#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#project AlertMethodJira#project}
   */
   readonly project: string;
   /**
   * The code of the Jira project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#project_key AlertMethodJira#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#project_key AlertMethodJira#project_key}
   */
   readonly projectKey: string;
   /**
   * Jira instance URL. The `https://` prefix is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#url AlertMethodJira#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#url AlertMethodJira#url}
   */
   readonly url: string;
   /**
   * Jira username for the owner of the API Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#username AlertMethodJira#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#username AlertMethodJira#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira nobl9_alert_method_jira}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira nobl9_alert_method_jira}
 */
 export class AlertMethodJira extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class AlertMethodJira extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertMethodJira resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertMethodJira to import
-  * @param importFromId The id of the existing AlertMethodJira that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertMethodJira that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertMethodJira to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class AlertMethodJira extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_jira nobl9_alert_method_jira} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_jira nobl9_alert_method_jira} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class AlertMethodJira extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_alert_method_jira',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

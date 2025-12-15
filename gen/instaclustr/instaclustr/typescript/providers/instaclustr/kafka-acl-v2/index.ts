@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface KafkaAclV2Config extends cdktf.TerraformMetaArguments {
   /**
   * UUID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#cluster_id KafkaAclV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#cluster_id KafkaAclV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#id KafkaAclV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#id KafkaAclV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface KafkaAclV2Config extends cdktf.TerraformMetaArguments {
   /**
   * This is the principal without the `User:` prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#user_query KafkaAclV2#user_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#user_query KafkaAclV2#user_query}
   */
   readonly userQuery: string;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#acl KafkaAclV2#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#acl KafkaAclV2#acl}
   */
   readonly acl: KafkaAclV2Acl[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#timeouts KafkaAclV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#timeouts KafkaAclV2#timeouts}
   */
   readonly timeouts?: KafkaAclV2Timeouts;
 }
@@ -43,43 +43,43 @@ export interface KafkaAclV2Acl {
   /**
   * The IP address to which this ACL applies. It takes any string including the wildcard `*` for all IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#host KafkaAclV2#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#host KafkaAclV2#host}
   */
   readonly host: string;
   /**
   * The operation that will be allowed or denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#operation KafkaAclV2#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#operation KafkaAclV2#operation}
   */
   readonly operation: string;
   /**
   * Indicates the resource-pattern-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#pattern_type KafkaAclV2#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#pattern_type KafkaAclV2#pattern_type}
   */
   readonly patternType: string;
   /**
   * Specifies whether to allow or deny the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#permission_type KafkaAclV2#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#permission_type KafkaAclV2#permission_type}
   */
   readonly permissionType: string;
   /**
   * Specifies the users(s) for which this ACL applies and can include the wildcard `*`. Valid values must start with "User:" including the wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#principal KafkaAclV2#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#principal KafkaAclV2#principal}
   */
   readonly principal: string;
   /**
   * Any string that fits the resource name, e.g. topic name if the resource type is TOPIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#resource_name KafkaAclV2#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#resource_name KafkaAclV2#resource_name}
   */
   readonly resourceName: string;
   /**
   * Specifies the type of resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#resource_type KafkaAclV2#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#resource_type KafkaAclV2#resource_type}
   */
   readonly resourceType: string;
 }
@@ -348,7 +348,7 @@ export class KafkaAclV2AclList extends cdktf.ComplexList {
 }
 export interface KafkaAclV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#default KafkaAclV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#default KafkaAclV2#default}
   */
   readonly default?: string;
 }
@@ -442,7 +442,7 @@ export class KafkaAclV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2 instaclustr_kafka_acl_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2 instaclustr_kafka_acl_v2}
 */
 export class KafkaAclV2 extends cdktf.TerraformResource {
 
@@ -458,7 +458,7 @@ export class KafkaAclV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaAclV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaAclV2 to import
-  * @param importFromId The id of the existing KafkaAclV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaAclV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaAclV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class KafkaAclV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/kafka_acl_v2 instaclustr_kafka_acl_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/resources/kafka_acl_v2 instaclustr_kafka_acl_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class KafkaAclV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_kafka_acl_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.35',
-        providerVersionConstraint: '2.1.35'
+        providerVersion: '2.1.36',
+        providerVersionConstraint: '2.1.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

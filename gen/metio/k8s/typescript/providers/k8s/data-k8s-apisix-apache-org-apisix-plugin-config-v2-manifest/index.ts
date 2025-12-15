@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SApisixApacheOrgApisixPluginConfigV2ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#metadata DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#metadata DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#metadata}
   */
   readonly metadata: DataK8SApisixApacheOrgApisixPluginConfigV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#spec DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#spec DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#spec}
   */
   readonly spec?: DataK8SApisixApacheOrgApisixPluginConfigV2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SApisixApacheOrgApisixPluginConfigV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#annotations DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#annotations DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#labels DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#labels DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#name DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#name DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#namespace DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#namespace DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,19 +215,19 @@ export class DataK8SApisixApacheOrgApisixPluginConfigV2ManifestMetadataOutputRef
 }
 export interface DataK8SApisixApacheOrgApisixPluginConfigV2ManifestSpecPlugins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#config DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#config DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#enable DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#enable DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#name DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#name DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#secret_ref}
   */
   readonly secretRef?: string;
 }
@@ -430,11 +430,11 @@ export class DataK8SApisixApacheOrgApisixPluginConfigV2ManifestSpecPluginsList e
 }
 export interface DataK8SApisixApacheOrgApisixPluginConfigV2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#plugins DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#plugins DataK8SApisixApacheOrgApisixPluginConfigV2Manifest#plugins}
   */
   readonly plugins: DataK8SApisixApacheOrgApisixPluginConfigV2ManifestSpecPlugins[] | cdktf.IResolvable;
 }
@@ -554,7 +554,7 @@ export class DataK8SApisixApacheOrgApisixPluginConfigV2ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest k8s_apisix_apache_org_apisix_plugin_config_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest k8s_apisix_apache_org_apisix_plugin_config_v2_manifest}
 */
 export class DataK8SApisixApacheOrgApisixPluginConfigV2Manifest extends cdktf.TerraformDataSource {
 
@@ -570,7 +570,7 @@ export class DataK8SApisixApacheOrgApisixPluginConfigV2Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SApisixApacheOrgApisixPluginConfigV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApisixApacheOrgApisixPluginConfigV2Manifest to import
-  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixPluginConfigV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixPluginConfigV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApisixApacheOrgApisixPluginConfigV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -582,7 +582,7 @@ export class DataK8SApisixApacheOrgApisixPluginConfigV2Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest k8s_apisix_apache_org_apisix_plugin_config_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apisix_apache_org_apisix_plugin_config_v2_manifest k8s_apisix_apache_org_apisix_plugin_config_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -593,8 +593,8 @@ export class DataK8SApisixApacheOrgApisixPluginConfigV2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_apisix_apache_org_apisix_plugin_config_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#metadata DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#metadata DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestMetadata;
   /**
   * CoreProviderSpec defines the desired state of CoreProvider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#spec DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#spec DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#annotations DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#annotations DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecAdd
   /**
   * Name defines the name of the configmap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the configmap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -347,19 +347,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -529,19 +529,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -711,13 +711,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_fields DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_fields DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -842,13 +842,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#preference DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#preference DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#weight DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#weight DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -989,19 +989,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1171,19 +1171,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1353,13 +1353,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_fields DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_fields DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1506,7 +1506,7 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#node_selector_terms DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#node_selector_terms DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1599,13 +1599,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1730,19 +1730,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1912,13 +1912,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2043,19 +2043,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2225,13 +2225,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2356,37 +2356,37 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#label_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#label_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespaces DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespaces DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#topology_key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#topology_key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2624,13 +2624,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#pod_affinity_term DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#pod_affinity_term DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#weight DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#weight DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2771,19 +2771,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2953,13 +2953,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3084,19 +3084,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3266,13 +3266,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3397,37 +3397,37 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#label_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#label_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespaces DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespaces DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#topology_key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#topology_key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3687,13 +3687,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3818,19 +3818,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4000,13 +4000,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4131,19 +4131,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4313,13 +4313,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4444,37 +4444,37 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#label_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#label_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespaces DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespaces DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#topology_key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#topology_key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4712,13 +4712,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#pod_affinity_term DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#pod_affinity_term DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#weight DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#weight DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4859,19 +4859,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5041,13 +5041,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5172,19 +5172,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5354,13 +5354,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5485,37 +5485,37 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#label_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#label_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespace_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespaces DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#namespaces DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#topology_key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#topology_key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5775,13 +5775,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5906,19 +5906,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#node_affinity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#node_affinity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#pod_affinity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#pod_affinity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#pod_anti_affinity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#pod_anti_affinity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinityPodAntiAffinity;
 }
@@ -6072,19 +6072,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#optional DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#optional DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6235,13 +6235,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#api_version DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#api_version DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#field_path DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#field_path DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6363,19 +6363,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#container_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#container_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#divisor DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#divisor DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6526,19 +6526,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#optional DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#optional DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6689,25 +6689,25 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#config_map_key_ref DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#config_map_key_ref DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#field_ref DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#field_ref DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource_field_ref DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource_field_ref DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#secret_key_ref DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#secret_key_ref DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersEnvValueFromSecretKeyRef;
 }
@@ -6890,19 +6890,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#value DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#value DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#value_from DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#value_from DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersEnvValueFrom;
 }
@@ -7075,19 +7075,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Name allows to specify a name for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Repository sets the container registry to pull images from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#repository DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#repository DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Tag allows to specify a tag for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#tag DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#tag DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -7241,7 +7241,7 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7356,19 +7356,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#claims DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#claims DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#limits DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#limits DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#requests DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#requests DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7522,37 +7522,37 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Args represents extra provider specific flags that are not encoded as fields in this API. Explicit controller manager properties defined in the 'Provider.ManagerSpec' will have higher precedence than those defined in 'ContainerSpec.Args'. For example, 'ManagerSpec.SyncPeriod' will be used instead of the container arg '--sync-period' if both are defined. The same holds for 'ManagerSpec.FeatureGates' and '--feature-gates'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#args DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#args DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#args}
   */
   readonly args?: { [key: string]: string };
   /**
   * Command allows override container's entrypoint array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#command DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#command DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#env DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#env DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersEnv[] | cdktf.IResolvable;
   /**
   * Container Image Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#image DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#image DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#image}
   */
   readonly image?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersImage;
   /**
   * Name of the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Compute resources required by this container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resources DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resources DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainersResources;
 }
@@ -7812,7 +7812,7 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7930,31 +7930,31 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#effect DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#effect DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#toleration_seconds DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#toleration_seconds DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#value DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#value DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -8188,43 +8188,43 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDep
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#affinity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#affinity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentAffinity;
   /**
   * List of containers specified in the Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#containers DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#containers DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentContainers[] | cdktf.IResolvable;
   /**
   * List of image pull secrets specified in the Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#image_pull_secrets DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#image_pull_secrets DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentImagePullSecrets[] | cdktf.IResolvable;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#node_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#node_selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Number of desired pods. This is a pointer to distinguish between explicit zero and not specified. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#replicas DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#replicas DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * If specified, the pod's service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#service_account_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#service_account_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#tolerations DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#tolerations DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeploymentTolerations[] | cdktf.IResolvable;
 }
@@ -8494,19 +8494,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecFet
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#key DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#operator DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#values DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8676,13 +8676,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecFet
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_expressions DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecFetchConfigSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#match_labels DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8807,13 +8807,13 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecFet
   /**
   * Selector to be used for fetching provider’s components and metadata from ConfigMaps stored inside the cluster. Each ConfigMap is expected to contain components and metadata for a specific version only. Note: the name of the ConfigMap should be set to the version or to override this add a label like the following: provider.cluster.x-k8s.io/version=v1.4.3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#selector DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecFetchConfigSelector;
   /**
   * URL to be used for fetching the provider’s components and metadata from a remote Github repository. For example, https://github.com/{owner}/{repository}/releases You must set 'providerSpec.Version' field for operator to pick up desired version of the release from GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#url DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#url DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -8938,19 +8938,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecMan
   /**
   * CacheSyncTimeout refers to the time limit set to wait for syncing caches. Defaults to 2 minutes if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#cache_sync_timeout DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#cache_sync_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#cache_sync_timeout DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#cache_sync_timeout}
   */
   readonly cacheSyncTimeout?: number;
   /**
   * GroupKindConcurrency is a map from a Kind to the number of concurrent reconciliation allowed for that controller. When a controller is registered within this manager using the builder utilities, users have to specify the type the controller reconciles in the For(...) call. If the object's kind passed matches one of the keys in this map, the concurrency for that controller is set to the number specified. The key is expected to be consistent in form with GroupKind.String(), e.g. ReplicaSet in apps group (regardless of version) would be 'ReplicaSet.apps'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#group_kind_concurrency DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#group_kind_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#group_kind_concurrency DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#group_kind_concurrency}
   */
   readonly groupKindConcurrency?: { [key: string]: string };
   /**
   * RecoverPanic indicates if panics should be recovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#recover_panic DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#recover_panic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#recover_panic DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#recover_panic}
   */
   readonly recoverPanic?: boolean | cdktf.IResolvable;
 }
@@ -9104,19 +9104,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecMan
   /**
   * HealthProbeBindAddress is the TCP address that the controller should bind to for serving health probes It can be set to '0' or '' to disable serving the health probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#health_probe_bind_address DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#health_probe_bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#health_probe_bind_address DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#health_probe_bind_address}
   */
   readonly healthProbeBindAddress?: string;
   /**
   * LivenessEndpointName, defaults to 'healthz'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#liveness_endpoint_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#liveness_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#liveness_endpoint_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#liveness_endpoint_name}
   */
   readonly livenessEndpointName?: string;
   /**
   * ReadinessEndpointName, defaults to 'readyz'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#readiness_endpoint_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#readiness_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#readiness_endpoint_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#readiness_endpoint_name}
   */
   readonly readinessEndpointName?: string;
 }
@@ -9270,43 +9270,43 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecMan
   /**
   * leaderElect enables a leader election client to gain leadership before executing the main loop. Enable this when running replicated components for high availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#leader_elect DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#leader_elect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#leader_elect DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#leader_elect}
   */
   readonly leaderElect: boolean | cdktf.IResolvable;
   /**
   * leaseDuration is the duration that non-leader candidates will wait after observing a leadership renewal until attempting to acquire leadership of a led but unrenewed leader slot. This is effectively the maximum duration that a leader can be stopped before it is replaced by another candidate. This is only applicable if leader election is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#lease_duration DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#lease_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#lease_duration DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#lease_duration}
   */
   readonly leaseDuration: string;
   /**
   * renewDeadline is the interval between attempts by the acting master to renew a leadership slot before it stops leading. This must be less than or equal to the lease duration. This is only applicable if leader election is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#renew_deadline DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#renew_deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#renew_deadline DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#renew_deadline}
   */
   readonly renewDeadline: string;
   /**
   * resourceLock indicates the resource object type that will be used to lock during leader election cycles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource_lock DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource_lock DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource_lock}
   */
   readonly resourceLock: string;
   /**
   * resourceName indicates the name of resource object that will be used to lock during leader election cycles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * resourceName indicates the namespace of resource object that will be used to lock during leader election cycles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource_namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#resource_namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#resource_namespace}
   */
   readonly resourceNamespace: string;
   /**
   * retryPeriod is the duration the clients should wait between attempting acquisition and renewal of a leadership. This is only applicable if leader election is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#retry_period DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#retry_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#retry_period DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#retry_period}
   */
   readonly retryPeriod: string;
 }
@@ -9555,7 +9555,7 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecMan
   /**
   * BindAddress is the TCP address that the controller should bind to for serving prometheus metrics. It can be set to '0' to disable the metrics serving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#bind_address DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#bind_address DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#bind_address}
   */
   readonly bindAddress?: string;
 }
@@ -9651,19 +9651,19 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecMan
   /**
   * CertDir is the directory that contains the server key and certificate. if not set, webhook server would look up the server key and certificate in {TempDir}/k8s-webhook-server/serving-certs. The server key and certificate must be named tls.key and tls.crt, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#cert_dir DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#cert_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#cert_dir DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#cert_dir}
   */
   readonly certDir?: string;
   /**
   * Host is the hostname that the webhook server binds to. It is used to set webhook.Server.Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#host DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#host DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Port is the port that the webhook server serves at. It is used to set webhook.Server.Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#port DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#port DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -9817,73 +9817,73 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecMan
   /**
   * CacheNamespace if specified restricts the manager's cache to watch objects in the desired namespace Defaults to all namespaces Note: If a namespace is specified, controllers can still Watch for a cluster-scoped resource (e.g Node). For namespaced resources the cache will only hold objects from the desired namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#cache_namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#cache_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#cache_namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#cache_namespace}
   */
   readonly cacheNamespace?: string;
   /**
   * Controller contains global configuration options for controllers registered within this manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#controller DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#controller DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#controller}
   */
   readonly controller?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecManagerController;
   /**
   * FeatureGates define provider specific feature flags that will be passed in as container args to the provider's controller manager. Controller Manager flag is --feature-gates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#feature_gates DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#feature_gates DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#feature_gates}
   */
   readonly featureGates?: { [key: string]: string };
   /**
   * GracefulShutdownTimeout is the duration given to runnable to stop before the manager actually returns on stop. To disable graceful shutdown, set to time.Duration(0) To use graceful shutdown without timeout, set to a negative duration, e.G. time.Duration(-1) The graceful shutdown is skipped for safety reasons in case the leader election lease is lost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#graceful_shut_down DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#graceful_shut_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#graceful_shut_down DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#graceful_shut_down}
   */
   readonly gracefulShutDown?: string;
   /**
   * Health contains the controller health configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#health DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#health DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#health}
   */
   readonly health?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecManagerHealth;
   /**
   * LeaderElection is the LeaderElection config to be used when configuring the manager.Manager leader election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#leader_election DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#leader_election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#leader_election DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#leader_election}
   */
   readonly leaderElection?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecManagerLeaderElection;
   /**
   * MaxConcurrentReconciles is the maximum number of concurrent Reconciles which can be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#max_concurrent_reconciles DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#max_concurrent_reconciles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#max_concurrent_reconciles DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#max_concurrent_reconciles}
   */
   readonly maxConcurrentReconciles?: number;
   /**
   * Metrics contains the controller metrics configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#metrics DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#metrics DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecManagerMetrics;
   /**
   * ProfilerAddress defines the bind address to expose the pprof profiler (e.g. localhost:6060). Default empty, meaning the profiler is disabled. Controller Manager flag is --profiler-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#profiler_address DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#profiler_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#profiler_address DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#profiler_address}
   */
   readonly profilerAddress?: string;
   /**
   * SyncPeriod determines the minimum frequency at which watched resources are reconciled. A lower period will correct entropy more quickly, but reduce responsiveness to change if there are many watched resources. Change this value only if you know what you are doing. Defaults to 10 hours if unset. there will a 10 percent jitter between the SyncPeriod of all controllers so that all controllers will not send list requests simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#sync_period DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#sync_period DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#sync_period}
   */
   readonly syncPeriod?: string;
   /**
   * Verbosity set the logs verbosity. Defaults to 1. Controller Manager flag is --verbosity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#verbosity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#verbosity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#verbosity DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#verbosity}
   */
   readonly verbosity?: number;
   /**
   * Webhook contains the controllers webhook configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#webhook DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#webhook DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#webhook}
   */
   readonly webhook?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecManagerWebhook;
 }
@@ -10298,43 +10298,43 @@ export interface DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpec {
   /**
   * AdditionalManifests is reference to configmap that contains additional manifests that will be applied together with the provider components. The key for storing these manifests has to be 'manifests'. The manifests are applied only once when a certain release is installed/upgraded. If namespace is not specified, the namespace of the provider will be used. There is no validation of the yaml content inside the configmap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#additional_manifests DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#additional_manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#additional_manifests DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#additional_manifests}
   */
   readonly additionalManifests?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecAdditionalManifests;
   /**
   * Deployment defines the properties that can be enabled on the deployment for the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#deployment DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#deployment DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#deployment}
   */
   readonly deployment?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecDeployment;
   /**
   * FetchConfig determines how the operator will fetch the components and metadata for the provider. If nil, the operator will try to fetch components according to default embedded fetch configuration for the given kind and 'ObjectMeta.Name'. For example, the infrastructure name 'aws' will fetch artifacts from https://github.com/kubernetes-sigs/cluster-api-provider-aws/releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#fetch_config DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#fetch_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#fetch_config DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#fetch_config}
   */
   readonly fetchConfig?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecFetchConfig;
   /**
   * Manager defines the properties that can be enabled on the controller manager for the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#manager DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#manager DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#manager}
   */
   readonly manager?: DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecManager;
   /**
   * SecretName is the name of the Secret providing the configuration variables for the current provider instance, like e.g. credentials. Such configurations will be used when creating or upgrading provider components. The contents of the secret will be treated as immutable. If changes need to be made, a new object can be created and the name should be updated. The contents should be in the form of key:value. This secret must be in the same namespace as the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#secret_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#secret_name DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * SecretNamespace is the namespace of the Secret providing the configuration variables. If not specified, the namespace of the provider will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#secret_namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#secret_namespace DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#secret_namespace}
   */
   readonly secretNamespace?: string;
   /**
   * Version indicates the provider version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#version DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#version DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -10602,7 +10602,7 @@ export class DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest k8s_operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest k8s_operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest}
 */
 export class DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -10618,7 +10618,7 @@ export class DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10630,7 +10630,7 @@ export class DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest k8s_operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest k8s_operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10641,8 +10641,8 @@ export class DataK8SOperatorClusterXK8SIoCoreProviderV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_operator_cluster_x_k8s_io_core_provider_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

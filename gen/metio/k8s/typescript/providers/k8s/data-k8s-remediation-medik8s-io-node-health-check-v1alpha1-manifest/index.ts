@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#metadata DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#metadata DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestMetadata;
   /**
   * NodeHealthCheckSpec defines the desired state of NodeHealthCheck
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#spec DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#spec DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#annotations DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#annotations DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#labels DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#labels DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#name DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#name DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,43 +187,43 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecE
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#api_version DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#api_version DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#field_path DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#field_path DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#kind DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#kind DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#name DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#name DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#namespace DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#namespace DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#resource_version DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#resource_version DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#uid DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#uid DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -493,19 +493,19 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecE
   /**
   * Order defines the order for this remediation. Remediations with lower order will be used before remediations with higher order. Remediations must not have the same order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#order DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#order DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#order}
   */
   readonly order: number;
   /**
   * RemediationTemplate is a reference to a remediation template provided by a remediation provider. If a node needs remediation the controller will create an object from this template and then it should be picked up by a remediation provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#remediation_template DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#remediation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#remediation_template DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#remediation_template}
   */
   readonly remediationTemplate: DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecEscalatingRemediationsRemediationTemplate;
   /**
   * Timeout defines how long NHC will wait for the node getting healthy before the next remediation (if any) will be used. When the last remediation times out, the overall remediation is considered as failed. As a safeguard for preventing parallel remediations, a minimum of 60s is enforced. Expects a string of decimal numbers each with optional fraction and a unit suffix, eg '300ms', '1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#timeout DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#timeout DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#timeout}
   */
   readonly timeout: string;
 }
@@ -672,43 +672,43 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecR
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#api_version DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#api_version DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#field_path DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#field_path DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#kind DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#kind DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#name DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#name DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#namespace DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#namespace DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#resource_version DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#resource_version DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#uid DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#uid DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -978,19 +978,19 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#key DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#key DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#operator DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#operator DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#values DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#values DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1160,13 +1160,13 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#match_expressions DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#match_expressions DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#match_labels DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#match_labels DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1291,19 +1291,19 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecU
   /**
   * Duration of the condition specified when a node is considered unhealthy. Expects a string of decimal numbers each with optional fraction and a unit suffix, eg '300ms', '1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#duration DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#duration DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#duration}
   */
   readonly duration: string;
   /**
   * The condition status in the node's status to watch for. Typically False, True or Unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#status DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#status DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * The condition type in the node's status to watch for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#type DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#type DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -1470,37 +1470,37 @@ export interface DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpec 
   /**
   * EscalatingRemediations contain a list of ordered remediation templates with a timeout. The remediation templates will be used one after another, until the unhealthy node gets healthy within the timeout of the currently processed remediation. The order of remediation is defined by the 'order' field of each 'escalatingRemediation'. Mutually exclusive with RemediationTemplate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#escalating_remediations DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#escalating_remediations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#escalating_remediations DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#escalating_remediations}
   */
   readonly escalatingRemediations?: DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecEscalatingRemediations[] | cdktf.IResolvable;
   /**
   * Remediation is allowed if at least 'MinHealthy' nodes selected by 'selector' are healthy. Expects either a positive integer value or a percentage value. Percentage values must be positive whole numbers and are capped at 100%. 100% is valid and will block all remediation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#min_healthy DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#min_healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#min_healthy DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#min_healthy}
   */
   readonly minHealthy?: string;
   /**
   * PauseRequests will prevent any new remediation to start, while in-flight remediations keep running. Each entry is free form, and ideally represents the requested party reason for this pausing - i.e: 'imaginary-cluster-upgrade-manager-operator'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#pause_requests DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#pause_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#pause_requests DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#pause_requests}
   */
   readonly pauseRequests?: string[];
   /**
   * RemediationTemplate is a reference to a remediation template provided by an infrastructure provider. If a node needs remediation the controller will create an object from this template and then it should be picked up by a remediation provider. Mutually exclusive with EscalatingRemediations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#remediation_template DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#remediation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#remediation_template DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#remediation_template}
   */
   readonly remediationTemplate?: DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecRemediationTemplate;
   /**
   * Label selector to match nodes whose health will be exercised. Selecting both control-plane and worker nodes in one NHC CR is highly discouraged and can result in undesired behaviour. Note: mandatory now for above reason, but for backwards compatibility existing CRs will continue to work with an empty selector, which matches all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#selector DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#selector DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecSelector;
   /**
   * UnhealthyConditions contains a list of the conditions that determine whether a node is considered unhealthy. The conditions are combined in a logical OR, i.e. if any of the conditions is met, the node is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#unhealthy_conditions DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#unhealthy_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#unhealthy_conditions DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest#unhealthy_conditions}
   */
   readonly unhealthyConditions?: DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecUnhealthyConditions[] | cdktf.IResolvable;
 }
@@ -1739,7 +1739,7 @@ export class DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest k8s_remediation_medik8s_io_node_health_check_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest k8s_remediation_medik8s_io_node_health_check_v1alpha1_manifest}
 */
 export class DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1755,7 +1755,7 @@ export class DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1767,7 +1767,7 @@ export class DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest k8s_remediation_medik8s_io_node_health_check_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/remediation_medik8s_io_node_health_check_v1alpha1_manifest k8s_remediation_medik8s_io_node_health_check_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1778,8 +1778,8 @@ export class DataK8SRemediationMedik8SIoNodeHealthCheckV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_remediation_medik8s_io_node_health_check_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

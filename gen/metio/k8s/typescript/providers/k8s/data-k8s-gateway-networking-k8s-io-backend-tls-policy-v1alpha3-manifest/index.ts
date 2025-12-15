@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#metadata DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#metadata DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#metadata}
   */
   readonly metadata: DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestMetadata;
   /**
   * Spec defines the desired state of BackendTLSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#spec DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#spec DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#spec}
   */
   readonly spec: DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#annotations DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#annotations DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#labels DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#labels DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#name DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#name DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#namespace DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#namespace DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSp
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#group DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#group DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#kind DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#kind DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#name DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#name DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#name}
   */
   readonly name: string;
   /**
   * SectionName is the name of a section within the target resource. When unspecified, this targetRef targets the entire resource. In the following resources, SectionName is interpreted as the following: * Gateway: Listener name * HTTPRoute: HTTPRouteRule name * Service: Port name If a SectionName is specified, but does not exist on the targeted object, the Policy must fail to attach, and the policy implementation should record a 'ResolvedRefs' or similar Condition in the Policy's status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#section_name DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#section_name DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#section_name}
   */
   readonly sectionName?: string;
 }
@@ -433,19 +433,19 @@ export interface DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSp
   /**
   * Group is the group of the referent. For example, 'gateway.networking.k8s.io'. When unspecified or empty string, core API group is inferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#group DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#group DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the referent. For example 'HTTPRoute' or 'Service'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#kind DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#kind DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#name DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#name DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#name}
   */
   readonly name: string;
 }
@@ -612,19 +612,19 @@ export interface DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSp
   /**
   * Hostname contains Subject Alternative Name specified in DNS name format. Required when Type is set to Hostname, ignored otherwise. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#hostname DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#hostname DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Type determines the format of the Subject Alternative Name. Always required. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#type DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#type DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#type}
   */
   readonly type: string;
   /**
   * URI contains Subject Alternative Name specified in a full URI format. It MUST include both a scheme (e.g., 'http' or 'ftp') and a scheme-specific-part. Common values include SPIFFE IDs like 'spiffe://mycluster.example.com/ns/myns/sa/svc1sa'. Required when Type is set to URI, ignored otherwise. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#uri DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#uri DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -797,25 +797,25 @@ export interface DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSp
   /**
   * CACertificateRefs contains one or more references to Kubernetes objects that contain a PEM-encoded TLS CA certificate bundle, which is used to validate a TLS handshake between the Gateway and backend Pod. If CACertificateRefs is empty or unspecified, then WellKnownCACertificates must be specified. Only one of CACertificateRefs or WellKnownCACertificates may be specified, not both. If CACertifcateRefs is empty or unspecified, the configuration for WellKnownCACertificates MUST be honored instead if supported by the implementation. References to a resource in a different namespace are invalid for the moment, although we will revisit this in the future. A single CACertificateRef to a Kubernetes ConfigMap kind has 'Core' support. Implementations MAY choose to support attaching multiple certificates to a backend, but this behavior is implementation-specific. Support: Core - An optional single reference to a Kubernetes ConfigMap, with the CA certificate in a key named 'ca.crt'. Support: Implementation-specific (More than one reference, or other kinds of resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#ca_certificate_refs DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#ca_certificate_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#ca_certificate_refs DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#ca_certificate_refs}
   */
   readonly caCertificateRefs?: DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSpecValidationCaCertificateRefs[] | cdktf.IResolvable;
   /**
   * Hostname is used for two purposes in the connection between Gateways and backends: 1. Hostname MUST be used as the SNI to connect to the backend (RFC 6066). 2. If SubjectAltNames is not specified, Hostname MUST be used for authentication and MUST match the certificate served by the matching backend. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#hostname DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#hostname DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#hostname}
   */
   readonly hostname: string;
   /**
   * SubjectAltNames contains one or more Subject Alternative Names. When specified, the certificate served from the backend MUST have at least one Subject Alternate Name matching one of the specified SubjectAltNames. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#subject_alt_names DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#subject_alt_names DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSpecValidationSubjectAltNames[] | cdktf.IResolvable;
   /**
   * WellKnownCACertificates specifies whether system CA certificates may be used in the TLS handshake between the gateway and backend pod. If WellKnownCACertificates is unspecified or empty (''), then CACertificateRefs must be specified with at least one entry for a valid configuration. Only one of CACertificateRefs or WellKnownCACertificates may be specified, not both. If an implementation does not support the WellKnownCACertificates field or the value supplied is not supported, the Status Conditions on the Policy MUST be updated to include an Accepted: False Condition with Reason: Invalid. Support: Implementation-specific
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#well_known_ca_certificates DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#well_known_ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#well_known_ca_certificates DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#well_known_ca_certificates}
   */
   readonly wellKnownCaCertificates?: string;
 }
@@ -995,19 +995,19 @@ export interface DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSp
   /**
   * Options are a list of key/value pairs to enable extended TLS configuration for each implementation. For example, configuring the minimum TLS version or supported cipher suites. A set of common keys MAY be defined by the API in the future. To avoid any ambiguity, implementation-specific definitions MUST use domain-prefixed names, such as 'example.com/my-custom-option'. Un-prefixed names are reserved for key names defined by Gateway API. Support: Implementation-specific
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#options DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#options DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * TargetRefs identifies an API object to apply the policy to. Only Services have Extended support. Implementations MAY support additional objects, with Implementation Specific support. Note that this config applies to the entire referenced resource by default, but this default may change in the future to provide a more granular application of the policy. Support: Extended for Kubernetes Service Support: Implementation-specific for any other resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#target_refs DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#target_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#target_refs DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#target_refs}
   */
   readonly targetRefs: DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSpecTargetRefs[] | cdktf.IResolvable;
   /**
   * Validation contains backend TLS validation configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#validation DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#validation DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest#validation}
   */
   readonly validation: DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSpecValidation;
 }
@@ -1153,7 +1153,7 @@ export class DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest k8s_gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest k8s_gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest}
 */
 export class DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest extends cdktf.TerraformDataSource {
 
@@ -1169,7 +1169,7 @@ export class DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest exten
   * Generates CDKTF code for importing a DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest to import
-  * @param importFromId The id of the existing DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1181,7 +1181,7 @@ export class DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest k8s_gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest k8s_gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1192,8 +1192,8 @@ export class DataK8SGatewayNetworkingK8SIoBackendTlsPolicyV1Alpha3Manifest exten
       terraformResourceType: 'k8s_gateway_networking_k8s_io_backend_tls_policy_v1alpha3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

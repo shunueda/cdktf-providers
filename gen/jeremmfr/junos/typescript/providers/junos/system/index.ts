@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,229 +10,229 @@ export interface SystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Order in which authentication methods are invoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#authentication_order System#authentication_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#authentication_order System#authentication_order}
   */
   readonly authenticationOrder?: string[];
   /**
   * Enable auto-snapshot when boots from alternate slice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#auto_snapshot System#auto_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#auto_snapshot System#auto_snapshot}
   */
   readonly autoSnapshot?: boolean | cdktf.IResolvable;
   /**
   * Use loopback interface as source address for locally generated packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#default_address_selection System#default_address_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#default_address_selection System#default_address_selection}
   */
   readonly defaultAddressSelection?: boolean | cdktf.IResolvable;
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#domain_name System#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#domain_name System#domain_name}
   */
   readonly domainName?: string;
   /**
   * Hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#host_name System#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#host_name System#host_name}
   */
   readonly hostName?: string;
   /**
   * Maximum rollback configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#max_configuration_rollbacks System#max_configuration_rollbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#max_configuration_rollbacks System#max_configuration_rollbacks}
   */
   readonly maxConfigurationRollbacks?: number;
   /**
   * Number of configuration files stored on flash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#max_configurations_on_flash System#max_configurations_on_flash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#max_configurations_on_flash System#max_configurations_on_flash}
   */
   readonly maxConfigurationsOnFlash?: number;
   /**
   * DNS name servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#name_server System#name_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#name_server System#name_server}
   */
   readonly nameServer?: string[];
   /**
   * Disable responding to ICMP echo requests sent to multicast group addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_multicast_echo System#no_multicast_echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_multicast_echo System#no_multicast_echo}
   */
   readonly noMulticastEcho?: boolean | cdktf.IResolvable;
   /**
   * Do not insert IP address in ping replies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_ping_record_route System#no_ping_record_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_ping_record_route System#no_ping_record_route}
   */
   readonly noPingRecordRoute?: boolean | cdktf.IResolvable;
   /**
   * Do not insert time stamp in ping replies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_ping_time_stamp System#no_ping_time_stamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_ping_time_stamp System#no_ping_time_stamp}
   */
   readonly noPingTimeStamp?: boolean | cdktf.IResolvable;
   /**
   * Disable ICMP redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_redirects System#no_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_redirects System#no_redirects}
   */
   readonly noRedirects?: boolean | cdktf.IResolvable;
   /**
   * Disable IPV6 ICMP redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_redirects_ipv6 System#no_redirects_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_redirects_ipv6 System#no_redirects_ipv6}
   */
   readonly noRedirectsIpv6?: boolean | cdktf.IResolvable;
   /**
   * Value of NAS-ID in outgoing RADIUS packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#radius_options_attributes_nas_id System#radius_options_attributes_nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#radius_options_attributes_nas_id System#radius_options_attributes_nas_id}
   */
   readonly radiusOptionsAttributesNasId?: string;
   /**
   * Value of NAS-IP-Address in outgoing RADIUS packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#radius_options_attributes_nas_ipaddress System#radius_options_attributes_nas_ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#radius_options_attributes_nas_ipaddress System#radius_options_attributes_nas_ipaddress}
   */
   readonly radiusOptionsAttributesNasIpaddress?: string;
   /**
   * Include authentication method, remote port and user-privileges in `login` accounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#radius_options_enhanced_accounting System#radius_options_enhanced_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#radius_options_enhanced_accounting System#radius_options_enhanced_accounting}
   */
   readonly radiusOptionsEnhancedAccounting?: boolean | cdktf.IResolvable;
   /**
   * MSCHAP version 2 for password protocol used in RADIUS packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#radius_options_password_protocol_mschapv2 System#radius_options_password_protocol_mschapv2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#radius_options_password_protocol_mschapv2 System#radius_options_password_protocol_mschapv2}
   */
   readonly radiusOptionsPasswordProtocolMschapv2?: boolean | cdktf.IResolvable;
   /**
   * TACACS+ authorization refresh time interval (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tacplus_options_authorization_time_interval System#tacplus_options_authorization_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tacplus_options_authorization_time_interval System#tacplus_options_authorization_time_interval}
   */
   readonly tacplusOptionsAuthorizationTimeInterval?: number;
   /**
   * Include authentication method, remote port and user-privileges in `login` accounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tacplus_options_enhanced_accounting System#tacplus_options_enhanced_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tacplus_options_enhanced_accounting System#tacplus_options_enhanced_accounting}
   */
   readonly tacplusOptionsEnhancedAccounting?: boolean | cdktf.IResolvable;
   /**
   * In start/stop requests, do not include `cmd` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tacplus_options_exclude_cmd_attribute System#tacplus_options_exclude_cmd_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tacplus_options_exclude_cmd_attribute System#tacplus_options_exclude_cmd_attribute}
   */
   readonly tacplusOptionsExcludeCmdAttribute?: boolean | cdktf.IResolvable;
   /**
   * In start/stop requests, set `cmd` attribute value to empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tacplus_options_no_cmd_attribute_value System#tacplus_options_no_cmd_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tacplus_options_no_cmd_attribute_value System#tacplus_options_no_cmd_attribute_value}
   */
   readonly tacplusOptionsNoCmdAttributeValue?: boolean | cdktf.IResolvable;
   /**
   * Don't deny login if authorization request fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tacplus_options_no_strict_authorization System#tacplus_options_no_strict_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tacplus_options_no_strict_authorization System#tacplus_options_no_strict_authorization}
   */
   readonly tacplusOptionsNoStrictAuthorization?: boolean | cdktf.IResolvable;
   /**
   * TACACS+ service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tacplus_options_service_name System#tacplus_options_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tacplus_options_service_name System#tacplus_options_service_name}
   */
   readonly tacplusOptionsServiceName?: string;
   /**
   * Deny login if authorization request fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tacplus_options_strict_authorization System#tacplus_options_strict_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tacplus_options_strict_authorization System#tacplus_options_strict_authorization}
   */
   readonly tacplusOptionsStrictAuthorization?: boolean | cdktf.IResolvable;
   /**
   * In start/stop accounting packets, include `start-time`, `stop-time` and `timezone` attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tacplus_options_timestamp_and_timezone System#tacplus_options_timestamp_and_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tacplus_options_timestamp_and_timezone System#tacplus_options_timestamp_and_timezone}
   */
   readonly tacplusOptionsTimestampAndTimezone?: boolean | cdktf.IResolvable;
   /**
   * Time zone name or POSIX-compliant time zone string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#time_zone System#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#time_zone System#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Send trace messages to remote syslog server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tracing_dest_override_syslog_host System#tracing_dest_override_syslog_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tracing_dest_override_syslog_host System#tracing_dest_override_syslog_host}
   */
   readonly tracingDestOverrideSyslogHost?: string;
   /**
   * accounting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#accounting System#accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#accounting System#accounting}
   */
   readonly accounting?: SystemAccounting;
   /**
   * archival_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#archival_configuration System#archival_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#archival_configuration System#archival_configuration}
   */
   readonly archivalConfiguration?: SystemArchivalConfiguration;
   /**
   * inet6_backup_router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#inet6_backup_router System#inet6_backup_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#inet6_backup_router System#inet6_backup_router}
   */
   readonly inet6BackupRouter?: SystemInet6BackupRouter;
   /**
   * internet_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#internet_options System#internet_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#internet_options System#internet_options}
   */
   readonly internetOptions?: SystemInternetOptions;
   /**
   * license block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#license System#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#license System#license}
   */
   readonly license?: SystemLicense;
   /**
   * login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#login System#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#login System#login}
   */
   readonly login?: SystemLogin;
   /**
   * name_server_opts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#name_server_opts System#name_server_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#name_server_opts System#name_server_opts}
   */
   readonly nameServerOpts?: SystemNameServerOpts[] | cdktf.IResolvable;
   /**
   * ntp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ntp System#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ntp System#ntp}
   */
   readonly ntp?: SystemNtp;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ports System#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ports System#ports}
   */
   readonly ports?: SystemPorts;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#services System#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#services System#services}
   */
   readonly services?: SystemServices;
   /**
   * syslog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#syslog System#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#syslog System#syslog}
   */
   readonly syslog?: SystemSyslog;
 }
@@ -240,85 +240,85 @@ export interface SystemAccountingDestinationRadiusServer {
   /**
   * RADIUS server accounting port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#accounting_port System#accounting_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#accounting_port System#accounting_port}
   */
   readonly accountingPort?: number;
   /**
   * Accounting retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#accounting_retry System#accounting_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#accounting_retry System#accounting_retry}
   */
   readonly accountingRetry?: number;
   /**
   * Accounting request timeout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#accounting_timeout System#accounting_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#accounting_timeout System#accounting_timeout}
   */
   readonly accountingTimeout?: number;
   /**
   * RADIUS server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#address System#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#address System#address}
   */
   readonly address: string;
   /**
   * RADIUS client dynamic request port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#dynamic_request_port System#dynamic_request_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#dynamic_request_port System#dynamic_request_port}
   */
   readonly dynamicRequestPort?: number;
   /**
   * Maximum requests in flight to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#max_outstanding_requests System#max_outstanding_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#max_outstanding_requests System#max_outstanding_requests}
   */
   readonly maxOutstandingRequests?: number;
   /**
   * RADIUS server authentication port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#port System#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#port System#port}
   */
   readonly port?: number;
   /**
   * RADIUS server preauthentication port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#preauthentication_port System#preauthentication_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#preauthentication_port System#preauthentication_port}
   */
   readonly preauthenticationPort?: number;
   /**
   * Shared secret with the RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#preauthentication_secret System#preauthentication_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#preauthentication_secret System#preauthentication_secret}
   */
   readonly preauthenticationSecret?: string;
   /**
   * Retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#retry System#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#retry System#retry}
   */
   readonly retry?: number;
   /**
   * Routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#routing_instance System#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#routing_instance System#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Shared secret with the RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#secret System#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#secret System#secret}
   */
   readonly secret: string;
   /**
   * Use specified address as source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#source_address System#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#source_address System#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Request timeout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#timeout System#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#timeout System#timeout}
   */
   readonly timeout?: number;
 }
@@ -807,43 +807,43 @@ export interface SystemAccountingDestinationTacplusServer {
   /**
   * TACACS+ authentication server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#address System#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#address System#address}
   */
   readonly address: string;
   /**
   * TACACS+ authentication server port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#port System#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#port System#port}
   */
   readonly port?: number;
   /**
   * Routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#routing_instance System#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#routing_instance System#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Shared secret with the authentication server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#secret System#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#secret System#secret}
   */
   readonly secret?: string;
   /**
   * Optimize TCP connection attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#single_connection System#single_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#single_connection System#single_connection}
   */
   readonly singleConnection?: boolean | cdktf.IResolvable;
   /**
   * Use specified address as source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#source_address System#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#source_address System#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Request timeout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#timeout System#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#timeout System#timeout}
   */
   readonly timeout?: number;
 }
@@ -1132,37 +1132,37 @@ export interface SystemAccounting {
   /**
   * Send RADIUS accounting records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#destination_radius System#destination_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#destination_radius System#destination_radius}
   */
   readonly destinationRadius?: boolean | cdktf.IResolvable;
   /**
   * Send TACACS+ accounting records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#destination_tacplus System#destination_tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#destination_tacplus System#destination_tacplus}
   */
   readonly destinationTacplus?: boolean | cdktf.IResolvable;
   /**
   * No. of AV pairs each of which can store a max of 250 Bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#enhanced_avs_max System#enhanced_avs_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#enhanced_avs_max System#enhanced_avs_max}
   */
   readonly enhancedAvsMax?: number;
   /**
   * Events to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#events System#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#events System#events}
   */
   readonly events?: string[];
   /**
   * destination_radius_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#destination_radius_server System#destination_radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#destination_radius_server System#destination_radius_server}
   */
   readonly destinationRadiusServer?: SystemAccountingDestinationRadiusServer[] | cdktf.IResolvable;
   /**
   * destination_tacplus_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#destination_tacplus_server System#destination_tacplus_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#destination_tacplus_server System#destination_tacplus_server}
   */
   readonly destinationTacplusServer?: SystemAccountingDestinationTacplusServer[] | cdktf.IResolvable;
 }
@@ -1403,13 +1403,13 @@ export interface SystemArchivalConfigurationArchiveSite {
   /**
   * Password for login into the archive site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#password System#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#password System#password}
   */
   readonly password?: string;
   /**
   * URLs to receive configuration files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#url System#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#url System#url}
   */
   readonly url: string;
 }
@@ -1553,19 +1553,19 @@ export interface SystemArchivalConfiguration {
   /**
   * Frequency at which file transfer happens (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#transfer_interval System#transfer_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#transfer_interval System#transfer_interval}
   */
   readonly transferInterval?: number;
   /**
   * Transfer after each commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#transfer_on_commit System#transfer_on_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#transfer_on_commit System#transfer_on_commit}
   */
   readonly transferOnCommit?: boolean | cdktf.IResolvable;
   /**
   * archive_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#archive_site System#archive_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#archive_site System#archive_site}
   */
   readonly archiveSite?: SystemArchivalConfigurationArchiveSite[] | cdktf.IResolvable;
 }
@@ -1719,13 +1719,13 @@ export interface SystemInet6BackupRouter {
   /**
   * Address of router to use while booting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#address System#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#address System#address}
   */
   readonly address?: string;
   /**
   * Destination networks reachable through the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#destination System#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#destination System#destination}
   */
   readonly destination?: string[];
 }
@@ -1850,13 +1850,13 @@ export interface SystemInternetOptionsIcmpv4RateLimit {
   /**
   * ICMP rate-limiting maximum bucket size (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#bucket_size System#bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#bucket_size System#bucket_size}
   */
   readonly bucketSize?: number;
   /**
   * ICMP rate-limiting packets earned per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#packet_rate System#packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#packet_rate System#packet_rate}
   */
   readonly packetRate?: number;
 }
@@ -1981,13 +1981,13 @@ export interface SystemInternetOptionsIcmpv6RateLimit {
   /**
   * ICMPv6 rate-limiting maximum bucket size (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#bucket_size System#bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#bucket_size System#bucket_size}
   */
   readonly bucketSize?: number;
   /**
   * ICMPv6 rate-limiting packets earned per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#packet_rate System#packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#packet_rate System#packet_rate}
   */
   readonly packetRate?: number;
 }
@@ -2112,133 +2112,133 @@ export interface SystemInternetOptions {
   /**
   * Enable path MTU discovery for GRE tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#gre_path_mtu_discovery System#gre_path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#gre_path_mtu_discovery System#gre_path_mtu_discovery}
   */
   readonly grePathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Enable path MTU discovery for IP-IP tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ipip_path_mtu_discovery System#ipip_path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ipip_path_mtu_discovery System#ipip_path_mtu_discovery}
   */
   readonly ipipPathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * IPv6 Duplicate address detection transmits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ipv6_duplicate_addr_detection_transmits System#ipv6_duplicate_addr_detection_transmits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ipv6_duplicate_addr_detection_transmits System#ipv6_duplicate_addr_detection_transmits}
   */
   readonly ipv6DuplicateAddrDetectionTransmits?: number;
   /**
   * Enable IPv6 Path MTU discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ipv6_path_mtu_discovery System#ipv6_path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ipv6_path_mtu_discovery System#ipv6_path_mtu_discovery}
   */
   readonly ipv6PathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * IPv6 Path MTU Discovery timeout (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ipv6_path_mtu_discovery_timeout System#ipv6_path_mtu_discovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ipv6_path_mtu_discovery_timeout System#ipv6_path_mtu_discovery_timeout}
   */
   readonly ipv6PathMtuDiscoveryTimeout?: number;
   /**
   * Enable dropping IPv6 packets with zero hop-limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ipv6_reject_zero_hop_limit System#ipv6_reject_zero_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ipv6_reject_zero_hop_limit System#ipv6_reject_zero_hop_limit}
   */
   readonly ipv6RejectZeroHopLimit?: boolean | cdktf.IResolvable;
   /**
   * Don't enable path MTU discovery for GRE tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_gre_path_mtu_discovery System#no_gre_path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_gre_path_mtu_discovery System#no_gre_path_mtu_discovery}
   */
   readonly noGrePathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Don't enable path MTU discovery for IP-IP tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_ipip_path_mtu_discovery System#no_ipip_path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_ipip_path_mtu_discovery System#no_ipip_path_mtu_discovery}
   */
   readonly noIpipPathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Don't enable IPv6 Path MTU discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_ipv6_path_mtu_discovery System#no_ipv6_path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_ipv6_path_mtu_discovery System#no_ipv6_path_mtu_discovery}
   */
   readonly noIpv6PathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Don't enable dropping IPv6 packets with zero hop-limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_ipv6_reject_zero_hop_limit System#no_ipv6_reject_zero_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_ipv6_reject_zero_hop_limit System#no_ipv6_reject_zero_hop_limit}
   */
   readonly noIpv6RejectZeroHopLimit?: boolean | cdktf.IResolvable;
   /**
   * Don't enable Path MTU discovery on TCP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_path_mtu_discovery System#no_path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_path_mtu_discovery System#no_path_mtu_discovery}
   */
   readonly noPathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Don't react to incoming ICMP Source Quench messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_source_quench System#no_source_quench}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_source_quench System#no_source_quench}
   */
   readonly noSourceQuench?: boolean | cdktf.IResolvable;
   /**
   * Do not send RST TCP packet for packets sent to non-listening ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_tcp_reset System#no_tcp_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_tcp_reset System#no_tcp_reset}
   */
   readonly noTcpReset?: string;
   /**
   * Disable RFC 1323 TCP extensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_tcp_rfc1323 System#no_tcp_rfc1323}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_tcp_rfc1323 System#no_tcp_rfc1323}
   */
   readonly noTcpRfc1323?: boolean | cdktf.IResolvable;
   /**
   * Disable RFC 1323 Protection Against Wrapped Sequence Number extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_tcp_rfc1323_paws System#no_tcp_rfc1323_paws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_tcp_rfc1323_paws System#no_tcp_rfc1323_paws}
   */
   readonly noTcpRfc1323Paws?: boolean | cdktf.IResolvable;
   /**
   * Enable Path MTU discovery on TCP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#path_mtu_discovery System#path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#path_mtu_discovery System#path_mtu_discovery}
   */
   readonly pathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Specify upper limit of source port selection range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#source_port_upper_limit System#source_port_upper_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#source_port_upper_limit System#source_port_upper_limit}
   */
   readonly sourcePortUpperLimit?: number;
   /**
   * React to incoming ICMP Source Quench messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#source_quench System#source_quench}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#source_quench System#source_quench}
   */
   readonly sourceQuench?: boolean | cdktf.IResolvable;
   /**
   * Drop TCP packets that have both SYN and FIN flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tcp_drop_synfin_set System#tcp_drop_synfin_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tcp_drop_synfin_set System#tcp_drop_synfin_set}
   */
   readonly tcpDropSynfinSet?: boolean | cdktf.IResolvable;
   /**
   *  Maximum value of TCP MSS for IPV4 traffic (bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tcp_mss System#tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tcp_mss System#tcp_mss}
   */
   readonly tcpMss?: number;
   /**
   * icmpv4_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#icmpv4_rate_limit System#icmpv4_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#icmpv4_rate_limit System#icmpv4_rate_limit}
   */
   readonly icmpv4RateLimit?: SystemInternetOptionsIcmpv4RateLimit;
   /**
   * icmpv6_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#icmpv6_rate_limit System#icmpv6_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#icmpv6_rate_limit System#icmpv6_rate_limit}
   */
   readonly icmpv6RateLimit?: SystemInternetOptionsIcmpv6RateLimit;
 }
@@ -2943,37 +2943,37 @@ export interface SystemLicense {
   /**
   * Enable autoupdate license keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#autoupdate System#autoupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#autoupdate System#autoupdate}
   */
   readonly autoupdate?: boolean | cdktf.IResolvable;
   /**
   * Password for autoupdate license keys from license servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#autoupdate_password System#autoupdate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#autoupdate_password System#autoupdate_password}
   */
   readonly autoupdatePassword?: string;
   /**
   * Url for autoupdate license keys from license servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#autoupdate_url System#autoupdate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#autoupdate_url System#autoupdate_url}
   */
   readonly autoupdateUrl?: string;
   /**
   * License keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#keys System#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#keys System#keys}
   */
   readonly keys?: string[];
   /**
   * License renewal lead time before expiration, in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#renew_before_expiration System#renew_before_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#renew_before_expiration System#renew_before_expiration}
   */
   readonly renewBeforeExpiration?: number;
   /**
   * License checking interval, in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#renew_interval System#renew_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#renew_interval System#renew_interval}
   */
   readonly renewInterval?: number;
 }
@@ -3214,67 +3214,67 @@ export interface SystemLoginPassword {
   /**
   * Password change type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#change_type System#change_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#change_type System#change_type}
   */
   readonly changeType?: string;
   /**
   * Encryption method to use for password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#format System#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#format System#format}
   */
   readonly format?: string;
   /**
   * Maximum password length for all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#maximum_length System#maximum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#maximum_length System#maximum_length}
   */
   readonly maximumLength?: number;
   /**
   * Minimum number of changes in password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_changes System#minimum_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_changes System#minimum_changes}
   */
   readonly minimumChanges?: number;
   /**
   * Minimum number of character changes between old and new passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_character_changes System#minimum_character_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_character_changes System#minimum_character_changes}
   */
   readonly minimumCharacterChanges?: number;
   /**
   * Minimum password length for all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_length System#minimum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_length System#minimum_length}
   */
   readonly minimumLength?: number;
   /**
   * Minimum number of lower-case class characters in password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_lower_cases System#minimum_lower_cases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_lower_cases System#minimum_lower_cases}
   */
   readonly minimumLowerCases?: number;
   /**
   * Minimum number of numeric class characters in password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_numerics System#minimum_numerics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_numerics System#minimum_numerics}
   */
   readonly minimumNumerics?: number;
   /**
   * Minimum number of punctuation class characters in password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_punctuations System#minimum_punctuations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_punctuations System#minimum_punctuations}
   */
   readonly minimumPunctuations?: number;
   /**
   * Minimum number of old passwords which should not be same as the new password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_reuse System#minimum_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_reuse System#minimum_reuse}
   */
   readonly minimumReuse?: number;
   /**
   * Minimum number of upper-case class characters in password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_upper_cases System#minimum_upper_cases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_upper_cases System#minimum_upper_cases}
   */
   readonly minimumUpperCases?: number;
 }
@@ -3660,37 +3660,37 @@ export interface SystemLoginRetryOptions {
   /**
   * Delay factor after `backoff-threshold` password failures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#backoff_factor System#backoff_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#backoff_factor System#backoff_factor}
   */
   readonly backoffFactor?: number;
   /**
   * Number of password failures before delay is introduced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#backoff_threshold System#backoff_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#backoff_threshold System#backoff_threshold}
   */
   readonly backoffThreshold?: number;
   /**
   * Amount of time user account is locked after `tries_before_disconnect` failures (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#lockout_period System#lockout_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#lockout_period System#lockout_period}
   */
   readonly lockoutPeriod?: number;
   /**
   * Maximum time the connection will remain for user to enter username and password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#maximum_time System#maximum_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#maximum_time System#maximum_time}
   */
   readonly maximumTime?: number;
   /**
   *  Minimum total connection time if all attempts fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#minimum_time System#minimum_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#minimum_time System#minimum_time}
   */
   readonly minimumTime?: number;
   /**
   * Number of times user is allowed to try password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tries_before_disconnect System#tries_before_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tries_before_disconnect System#tries_before_disconnect}
   */
   readonly triesBeforeDisconnect?: number;
 }
@@ -3931,37 +3931,37 @@ export interface SystemLogin {
   /**
   * System announcement message (displayed after login).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#announcement System#announcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#announcement System#announcement}
   */
   readonly announcement?: string;
   /**
   * Sources from which logins are denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#deny_sources_address System#deny_sources_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#deny_sources_address System#deny_sources_address}
   */
   readonly denySourcesAddress?: string[];
   /**
   * Maximum idle time before logout (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#idle_timeout System#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#idle_timeout System#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * System login message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#message System#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#message System#message}
   */
   readonly message?: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#password System#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#password System#password}
   */
   readonly password?: SystemLoginPassword;
   /**
   * retry_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#retry_options System#retry_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#retry_options System#retry_options}
   */
   readonly retryOptions?: SystemLoginRetryOptions;
 }
@@ -4202,13 +4202,13 @@ export interface SystemNameServerOpts {
   /**
   * Address of the name server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#address System#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#address System#address}
   */
   readonly address: string;
   /**
   * Routing instance through which the name server is reachable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#routing_instance System#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#routing_instance System#routing_instance}
   */
   readonly routingInstance?: string;
 }
@@ -4352,43 +4352,43 @@ export interface SystemNtp {
   /**
   * Server to query during boot sequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#boot_server System#boot_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#boot_server System#boot_server}
   */
   readonly bootServer?: string;
   /**
   * Listen to broadcast NTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#broadcast_client System#broadcast_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#broadcast_client System#broadcast_client}
   */
   readonly broadcastClient?: boolean | cdktf.IResolvable;
   /**
   * Set the minpoll and maxpoll interval range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#interval_range System#interval_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#interval_range System#interval_range}
   */
   readonly intervalRange?: number;
   /**
   * Listen to multicast NTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#multicast_client System#multicast_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#multicast_client System#multicast_client}
   */
   readonly multicastClient?: boolean | cdktf.IResolvable;
   /**
   * Multicast address to listen to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#multicast_client_address System#multicast_client_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#multicast_client_address System#multicast_client_address}
   */
   readonly multicastClientAddress?: string;
   /**
   * Select actions for NTP abnormal adjustment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#threshold_action System#threshold_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#threshold_action System#threshold_action}
   */
   readonly thresholdAction?: string;
   /**
   * Set the maximum threshold(sec) allowed for NTP adjustment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#threshold_value System#threshold_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#threshold_value System#threshold_value}
   */
   readonly thresholdValue?: number;
 }
@@ -4658,61 +4658,61 @@ export interface SystemPorts {
   /**
   * Order in which authentication methods are invoked on auxiliary port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#auxiliary_authentication_order System#auxiliary_authentication_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#auxiliary_authentication_order System#auxiliary_authentication_order}
   */
   readonly auxiliaryAuthenticationOrder?: string[];
   /**
   * Disable console on auxiliary port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#auxiliary_disable System#auxiliary_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#auxiliary_disable System#auxiliary_disable}
   */
   readonly auxiliaryDisable?: boolean | cdktf.IResolvable;
   /**
   * Disallow superuser access on auxiliary port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#auxiliary_insecure System#auxiliary_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#auxiliary_insecure System#auxiliary_insecure}
   */
   readonly auxiliaryInsecure?: boolean | cdktf.IResolvable;
   /**
   * Log out the console session when cable is unplugged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#auxiliary_logout_on_disconnect System#auxiliary_logout_on_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#auxiliary_logout_on_disconnect System#auxiliary_logout_on_disconnect}
   */
   readonly auxiliaryLogoutOnDisconnect?: boolean | cdktf.IResolvable;
   /**
   * Terminal type on auxiliary port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#auxiliary_type System#auxiliary_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#auxiliary_type System#auxiliary_type}
   */
   readonly auxiliaryType?: string;
   /**
   * Order in which authentication methods are invoked on console port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#console_authentication_order System#console_authentication_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#console_authentication_order System#console_authentication_order}
   */
   readonly consoleAuthenticationOrder?: string[];
   /**
   * Disable console on console port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#console_disable System#console_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#console_disable System#console_disable}
   */
   readonly consoleDisable?: boolean | cdktf.IResolvable;
   /**
   * Disallow superuser access on console port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#console_insecure System#console_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#console_insecure System#console_insecure}
   */
   readonly consoleInsecure?: boolean | cdktf.IResolvable;
   /**
   * Log out the console session when cable is unplugged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#console_logout_on_disconnect System#console_logout_on_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#console_logout_on_disconnect System#console_logout_on_disconnect}
   */
   readonly consoleLogoutOnDisconnect?: boolean | cdktf.IResolvable;
   /**
   * Terminal type on console port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#console_type System#console_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#console_type System#console_type}
   */
   readonly consoleType?: string;
 }
@@ -5069,25 +5069,25 @@ export interface SystemServicesNetconfSsh {
   /**
   * Threshold of missing client-alive responses that triggers a disconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#client_alive_count_max System#client_alive_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#client_alive_count_max System#client_alive_count_max}
   */
   readonly clientAliveCountMax?: number;
   /**
   * Frequency of client-alive requests (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#client_alive_interval System#client_alive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#client_alive_interval System#client_alive_interval}
   */
   readonly clientAliveInterval?: number;
   /**
   * Limit number of simultaneous connections (connections).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#connection_limit System#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#connection_limit System#connection_limit}
   */
   readonly connectionLimit?: number;
   /**
   * Limit incoming connection rate (connections per minute).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#rate_limit System#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#rate_limit System#rate_limit}
   */
   readonly rateLimit?: number;
 }
@@ -5270,55 +5270,55 @@ export interface SystemServicesNetconfTraceoptions {
   /**
   * Maximum number of trace files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#file_files System#file_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#file_files System#file_files}
   */
   readonly fileFiles?: number;
   /**
   * Regular expression for lines to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#file_match System#file_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#file_match System#file_match}
   */
   readonly fileMatch?: string;
   /**
   * Name of file in which to write trace information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#file_name System#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#file_name System#file_name}
   */
   readonly fileName?: string;
   /**
   * Don't allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#file_no_world_readable System#file_no_world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#file_no_world_readable System#file_no_world_readable}
   */
   readonly fileNoWorldReadable?: boolean | cdktf.IResolvable;
   /**
   * Maximum trace file size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#file_size System#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#file_size System#file_size}
   */
   readonly fileSize?: number;
   /**
   * Allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#file_world_readable System#file_world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#file_world_readable System#file_world_readable}
   */
   readonly fileWorldReadable?: boolean | cdktf.IResolvable;
   /**
   * Tracing parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#flag System#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#flag System#flag}
   */
   readonly flag?: string[];
   /**
   * Disable remote tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_remote_trace System#no_remote_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_remote_trace System#no_remote_trace}
   */
   readonly noRemoteTrace?: boolean | cdktf.IResolvable;
   /**
   * Enable on-demand tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#on_demand System#on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#on_demand System#on_demand}
   */
   readonly onDemand?: boolean | cdktf.IResolvable;
 }
@@ -5646,121 +5646,121 @@ export interface SystemServicesSsh {
   /**
   * Order in which authentication methods are invoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#authentication_order System#authentication_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#authentication_order System#authentication_order}
   */
   readonly authenticationOrder?: string[];
   /**
   * Specify the ciphers allowed for protocol version 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ciphers System#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ciphers System#ciphers}
   */
   readonly ciphers?: string[];
   /**
   * Threshold of missing client-alive responses that triggers a disconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#client_alive_count_max System#client_alive_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#client_alive_count_max System#client_alive_count_max}
   */
   readonly clientAliveCountMax?: number;
   /**
   * Frequency of client-alive requests (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#client_alive_interval System#client_alive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#client_alive_interval System#client_alive_interval}
   */
   readonly clientAliveInterval?: number;
   /**
   * Maximum number of allowed connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#connection_limit System#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#connection_limit System#connection_limit}
   */
   readonly connectionLimit?: number;
   /**
   * Configure hash algorithm used when displaying key fingerprints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#fingerprint_hash System#fingerprint_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#fingerprint_hash System#fingerprint_hash}
   */
   readonly fingerprintHash?: string;
   /**
   * Specify permissible SSH host-key algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#hostkey_algorithm System#hostkey_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#hostkey_algorithm System#hostkey_algorithm}
   */
   readonly hostkeyAlgorithm?: string[];
   /**
   * Specify ssh key-exchange for Diffie-Hellman keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#key_exchange System#key_exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#key_exchange System#key_exchange}
   */
   readonly keyExchange?: string[];
   /**
   * Log changes to authorized keys to syslog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#log_key_changes System#log_key_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#log_key_changes System#log_key_changes}
   */
   readonly logKeyChanges?: boolean | cdktf.IResolvable;
   /**
   * Message Authentication Code algorithms allowed (SSHv2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#macs System#macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#macs System#macs}
   */
   readonly macs?: string[];
   /**
   * Maximum number of pre-authentication SSH packets per single SSH connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#max_pre_authentication_packets System#max_pre_authentication_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#max_pre_authentication_packets System#max_pre_authentication_packets}
   */
   readonly maxPreAuthenticationPackets?: number;
   /**
   * Maximum number of sessions per single SSH connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#max_sessions_per_connection System#max_sessions_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#max_sessions_per_connection System#max_sessions_per_connection}
   */
   readonly maxSessionsPerConnection?: number;
   /**
   * Disables ssh password based authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_passwords System#no_passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_passwords System#no_passwords}
   */
   readonly noPasswords?: boolean | cdktf.IResolvable;
   /**
   * Disables ssh public key based authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_public_keys System#no_public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_public_keys System#no_public_keys}
   */
   readonly noPublicKeys?: boolean | cdktf.IResolvable;
   /**
   * Do not allow forwarding TCP connections via SSH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_tcp_forwarding System#no_tcp_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_tcp_forwarding System#no_tcp_forwarding}
   */
   readonly noTcpForwarding?: boolean | cdktf.IResolvable;
   /**
   * Port number to accept incoming connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#port System#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#port System#port}
   */
   readonly port?: number;
   /**
   * Specify ssh protocol versions supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#protocol_version System#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#protocol_version System#protocol_version}
   */
   readonly protocolVersion?: string[];
   /**
   * Maximum number of connections per minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#rate_limit System#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#rate_limit System#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Configure root access via ssh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#root_login System#root_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#root_login System#root_login}
   */
   readonly rootLogin?: string;
   /**
   * Allow forwarding TCP connections via SSH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#tcp_forwarding System#tcp_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#tcp_forwarding System#tcp_forwarding}
   */
   readonly tcpForwarding?: boolean | cdktf.IResolvable;
 }
@@ -6407,13 +6407,13 @@ export interface SystemServicesWebManagementHttp {
   /**
   * Specify the name of one or more interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#interface System#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#interface System#interface}
   */
   readonly interface?: string[];
   /**
   * Port number to connect to HTTP service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#port System#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#port System#port}
   */
   readonly port?: number;
 }
@@ -6538,31 +6538,31 @@ export interface SystemServicesWebManagementHttps {
   /**
   * Specify the name of one or more interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#interface System#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#interface System#interface}
   */
   readonly interface?: string[];
   /**
   * Specify the name of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#local_certificate System#local_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#local_certificate System#local_certificate}
   */
   readonly localCertificate?: string;
   /**
   * Specify the name of the certificate that is generated by the PKI and authenticated by a CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#pki_local_certificate System#pki_local_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#pki_local_certificate System#pki_local_certificate}
   */
   readonly pkiLocalCertificate?: string;
   /**
   * Port number to connect to HTTPS service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#port System#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#port System#port}
   */
   readonly port?: number;
   /**
   * Will automatically generate a self-signed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#system_generated_certificate System#system_generated_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#system_generated_certificate System#system_generated_certificate}
   */
   readonly systemGeneratedCertificate?: boolean | cdktf.IResolvable;
 }
@@ -6774,43 +6774,43 @@ export interface SystemServices {
   /**
   * Default timeout of web-management sessions (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#web_management_session_idle_timeout System#web_management_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#web_management_session_idle_timeout System#web_management_session_idle_timeout}
   */
   readonly webManagementSessionIdleTimeout?: number;
   /**
   * Maximum number of web-management sessions to allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#web_management_session_limit System#web_management_session_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#web_management_session_limit System#web_management_session_limit}
   */
   readonly webManagementSessionLimit?: number;
   /**
   * netconf_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#netconf_ssh System#netconf_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#netconf_ssh System#netconf_ssh}
   */
   readonly netconfSsh?: SystemServicesNetconfSsh;
   /**
   * netconf_traceoptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#netconf_traceoptions System#netconf_traceoptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#netconf_traceoptions System#netconf_traceoptions}
   */
   readonly netconfTraceoptions?: SystemServicesNetconfTraceoptions;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ssh System#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ssh System#ssh}
   */
   readonly ssh?: SystemServicesSsh;
   /**
   * web_management_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#web_management_http System#web_management_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#web_management_http System#web_management_http}
   */
   readonly webManagementHttp?: SystemServicesWebManagementHttp;
   /**
   * web_management_https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#web_management_https System#web_management_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#web_management_https System#web_management_https}
   */
   readonly webManagementHttps?: SystemServicesWebManagementHttps;
 }
@@ -7080,37 +7080,37 @@ export interface SystemSyslogArchive {
   /**
   * ark file as if it contains binary data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#binary_data System#binary_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#binary_data System#binary_data}
   */
   readonly binaryData?: boolean | cdktf.IResolvable;
   /**
   * Number of files to be archived.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#files System#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#files System#files}
   */
   readonly files?: number;
   /**
   * Don't mark file as if it contains binary data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_binary_data System#no_binary_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_binary_data System#no_binary_data}
   */
   readonly noBinaryData?: boolean | cdktf.IResolvable;
   /**
   * Don't allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#no_world_readable System#no_world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#no_world_readable System#no_world_readable}
   */
   readonly noWorldReadable?: boolean | cdktf.IResolvable;
   /**
   * Size of files to be archived.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#size System#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#size System#size}
   */
   readonly size?: number;
   /**
   * Allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#world_readable System#world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#world_readable System#world_readable}
   */
   readonly worldReadable?: boolean | cdktf.IResolvable;
 }
@@ -7351,91 +7351,91 @@ export interface SystemSyslogConsole {
   /**
   * All facilities severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#any_severity System#any_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#any_severity System#any_severity}
   */
   readonly anySeverity?: string;
   /**
   * Authorization system severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#authorization_severity System#authorization_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#authorization_severity System#authorization_severity}
   */
   readonly authorizationSeverity?: string;
   /**
   * Configuration change log severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#changelog_severity System#changelog_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#changelog_severity System#changelog_severity}
   */
   readonly changelogSeverity?: string;
   /**
   * Configuration conflict log severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#conflictlog_severity System#conflictlog_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#conflictlog_severity System#conflictlog_severity}
   */
   readonly conflictlogSeverity?: string;
   /**
   * Various system processes severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#daemon_severity System#daemon_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#daemon_severity System#daemon_severity}
   */
   readonly daemonSeverity?: string;
   /**
   * Dynamic flow capture severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#dfc_severity System#dfc_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#dfc_severity System#dfc_severity}
   */
   readonly dfcSeverity?: string;
   /**
   * Local external applications severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#external_severity System#external_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#external_severity System#external_severity}
   */
   readonly externalSeverity?: string;
   /**
   * Firewall filtering system severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#firewall_severity System#firewall_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#firewall_severity System#firewall_severity}
   */
   readonly firewallSeverity?: string;
   /**
   * FTP process severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ftp_severity System#ftp_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ftp_severity System#ftp_severity}
   */
   readonly ftpSeverity?: string;
   /**
   * Commands executed by the UI severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#interactivecommands_severity System#interactivecommands_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#interactivecommands_severity System#interactivecommands_severity}
   */
   readonly interactivecommandsSeverity?: string;
   /**
   * Kernel severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#kernel_severity System#kernel_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#kernel_severity System#kernel_severity}
   */
   readonly kernelSeverity?: string;
   /**
   * NTP process severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#ntp_severity System#ntp_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#ntp_severity System#ntp_severity}
   */
   readonly ntpSeverity?: string;
   /**
   * Packet Forwarding Engine severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#pfe_severity System#pfe_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#pfe_severity System#pfe_severity}
   */
   readonly pfeSeverity?: string;
   /**
   * Security related severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#security_severity System#security_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#security_severity System#security_severity}
   */
   readonly securitySeverity?: string;
   /**
   * User processes severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#user_severity System#user_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#user_severity System#user_severity}
   */
   readonly userSeverity?: string;
 }
@@ -7937,37 +7937,37 @@ export interface SystemSyslog {
   /**
   * Rotate log frequency (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#log_rotate_frequency System#log_rotate_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#log_rotate_frequency System#log_rotate_frequency}
   */
   readonly logRotateFrequency?: number;
   /**
   * Use specified address as source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#source_address System#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#source_address System#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Include milliseconds in system log timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#time_format_millisecond System#time_format_millisecond}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#time_format_millisecond System#time_format_millisecond}
   */
   readonly timeFormatMillisecond?: boolean | cdktf.IResolvable;
   /**
   * Include year in system log timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#time_format_year System#time_format_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#time_format_year System#time_format_year}
   */
   readonly timeFormatYear?: boolean | cdktf.IResolvable;
   /**
   * archive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#archive System#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#archive System#archive}
   */
   readonly archive?: SystemSyslogArchive;
   /**
   * console block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#console System#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#console System#console}
   */
   readonly console?: SystemSyslogConsole;
 }
@@ -8206,7 +8206,7 @@ export class SystemSyslogOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system junos_system}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system junos_system}
 */
 export class System extends cdktf.TerraformResource {
 
@@ -8222,7 +8222,7 @@ export class System extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a System resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the System to import
-  * @param importFromId The id of the existing System that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing System that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the System to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8234,7 +8234,7 @@ export class System extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system junos_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system junos_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8245,8 +8245,8 @@ export class System extends cdktf.TerraformResource {
       terraformResourceType: 'junos_system',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

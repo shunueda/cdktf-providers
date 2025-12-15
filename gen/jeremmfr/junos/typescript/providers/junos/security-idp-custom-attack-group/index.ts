@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack_group
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SecurityIdpCustomAttackGroupConfig extends cdktf.TerraformMetaA
   /**
   * List of attacks/attack groups belonging to this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack_group#member SecurityIdpCustomAttackGroup#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack_group#member SecurityIdpCustomAttackGroup#member}
   */
   readonly member: string[];
   /**
   * Custom attack group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack_group#name SecurityIdpCustomAttackGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack_group#name SecurityIdpCustomAttackGroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack_group junos_security_idp_custom_attack_group}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack_group junos_security_idp_custom_attack_group}
 */
 export class SecurityIdpCustomAttackGroup extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SecurityIdpCustomAttackGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityIdpCustomAttackGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityIdpCustomAttackGroup to import
-  * @param importFromId The id of the existing SecurityIdpCustomAttackGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityIdpCustomAttackGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityIdpCustomAttackGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SecurityIdpCustomAttackGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack_group junos_security_idp_custom_attack_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack_group junos_security_idp_custom_attack_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SecurityIdpCustomAttackGroup extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_idp_custom_attack_group',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

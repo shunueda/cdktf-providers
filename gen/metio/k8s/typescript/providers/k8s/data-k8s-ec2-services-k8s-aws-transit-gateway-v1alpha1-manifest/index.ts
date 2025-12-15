@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestMetadata;
   /**
   * TransitGatewaySpec defines the desired state of TransitGateway. Describes a transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,35 +217,35 @@ export class DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestMetadataOutpu
 }
 export interface DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestSpecOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#amazon_side_asn DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#amazon_side_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#amazon_side_asn DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#amazon_side_asn}
   */
   readonly amazonSideAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#auto_accept_shared_attachments DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#auto_accept_shared_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#auto_accept_shared_attachments DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#auto_accept_shared_attachments}
   */
   readonly autoAcceptSharedAttachments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#default_route_table_association DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#default_route_table_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#default_route_table_association DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#default_route_table_association}
   */
   readonly defaultRouteTableAssociation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#default_route_table_propagation DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#default_route_table_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#default_route_table_propagation DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#default_route_table_propagation}
   */
   readonly defaultRouteTablePropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#dns_support DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#dns_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#dns_support DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#dns_support}
   */
   readonly dnsSupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#multicast_support DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#multicast_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#multicast_support DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#multicast_support}
   */
   readonly multicastSupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#transit_gateway_cidr_blocks DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#transit_gateway_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#transit_gateway_cidr_blocks DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#transit_gateway_cidr_blocks}
   */
   readonly transitGatewayCidrBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#vpn_ecmp_support DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#vpn_ecmp_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#vpn_ecmp_support DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#vpn_ecmp_support}
   */
   readonly vpnEcmpSupport?: string;
 }
@@ -542,11 +542,11 @@ export class DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestSpecOptionsOu
 }
 export interface DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -693,19 +693,19 @@ export interface DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestSpec {
   /**
   * A description of the transit gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The transit gateway options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#options DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#options DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestSpecOptions;
   /**
   * The tags. The value parameter is required, but if you don't want the tag to have a value, specify the parameter with no value, and we set the value to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -857,7 +857,7 @@ export class DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest k8s_ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest k8s_ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest}
 */
 export class DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -873,7 +873,7 @@ export class DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -885,7 +885,7 @@ export class DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest k8s_ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest k8s_ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -896,8 +896,8 @@ export class DataK8SEc2ServicesK8SAwsTransitGatewayV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_ec2_services_k8s_aws_transit_gateway_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

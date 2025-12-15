@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataJunosApplicationsConfig extends cdktf.TerraformMetaArgument
   /**
   * A regexp to apply a filter on applications name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#match_name DataJunosApplications#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#match_name DataJunosApplications#match_name}
   */
   readonly matchName?: string;
   /**
   * match_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#match_options DataJunosApplications#match_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#match_options DataJunosApplications#match_options}
   */
   readonly matchOptions?: DataJunosApplicationsMatchOptions[] | cdktf.IResolvable;
 }
@@ -320,97 +320,97 @@ export interface DataJunosApplicationsMatchOptions {
   /**
   * Application Layer Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#alg DataJunosApplications#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#alg DataJunosApplications#alg}
   */
   readonly alg?: string;
   /**
   * Application protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#application_protocol DataJunosApplications#application_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#application_protocol DataJunosApplications#application_protocol}
   */
   readonly applicationProtocol?: string;
   /**
   * Match TCP/UDP destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#destination_port DataJunosApplications#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#destination_port DataJunosApplications#destination_port}
   */
   readonly destinationPort?: string;
   /**
   * Knob to control the translation of A query to AAAA query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#do_not_translate_a_query_to_aaaa_query DataJunosApplications#do_not_translate_a_query_to_aaaa_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#do_not_translate_a_query_to_aaaa_query DataJunosApplications#do_not_translate_a_query_to_aaaa_query}
   */
   readonly doNotTranslateAQueryToAaaaQuery?: boolean | cdktf.IResolvable;
   /**
   * Knob to control the translation of AAAA query to A query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#do_not_translate_aaaa_query_to_a_query DataJunosApplications#do_not_translate_aaaa_query_to_a_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#do_not_translate_aaaa_query_to_a_query DataJunosApplications#do_not_translate_aaaa_query_to_a_query}
   */
   readonly doNotTranslateAaaaQueryToAQuery?: boolean | cdktf.IResolvable;
   /**
   * Match ether type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#ether_type DataJunosApplications#ether_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#ether_type DataJunosApplications#ether_type}
   */
   readonly etherType?: string;
   /**
   * Match ICMP6 message code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#icmp6_code DataJunosApplications#icmp6_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#icmp6_code DataJunosApplications#icmp6_code}
   */
   readonly icmp6Code?: string;
   /**
   * Match ICMP6 message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#icmp6_type DataJunosApplications#icmp6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#icmp6_type DataJunosApplications#icmp6_type}
   */
   readonly icmp6Type?: string;
   /**
   * Match ICMP message code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#icmp_code DataJunosApplications#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#icmp_code DataJunosApplications#icmp_code}
   */
   readonly icmpCode?: string;
   /**
   * Match ICMP message type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#icmp_type DataJunosApplications#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#icmp_type DataJunosApplications#icmp_type}
   */
   readonly icmpType?: string;
   /**
   * Application-specific inactivity timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#inactivity_timeout DataJunosApplications#inactivity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#inactivity_timeout DataJunosApplications#inactivity_timeout}
   */
   readonly inactivityTimeout?: number;
   /**
   * Disables inactivity timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#inactivity_timeout_never DataJunosApplications#inactivity_timeout_never}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#inactivity_timeout_never DataJunosApplications#inactivity_timeout_never}
   */
   readonly inactivityTimeoutNever?: boolean | cdktf.IResolvable;
   /**
   * Match IP protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#protocol DataJunosApplications#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#protocol DataJunosApplications#protocol}
   */
   readonly protocol?: string;
   /**
   * Match range of RPC program numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#rpc_program_number DataJunosApplications#rpc_program_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#rpc_program_number DataJunosApplications#rpc_program_number}
   */
   readonly rpcProgramNumber?: string;
   /**
   * Match TCP/UDP source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#source_port DataJunosApplications#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#source_port DataJunosApplications#source_port}
   */
   readonly sourcePort?: string;
   /**
   * Match universal unique identifier for DCE RPC objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#uuid DataJunosApplications#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#uuid DataJunosApplications#uuid}
   */
   readonly uuid?: string;
 }
@@ -961,7 +961,7 @@ export class DataJunosApplicationsMatchOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications junos_applications}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications junos_applications}
 */
 export class DataJunosApplications extends cdktf.TerraformDataSource {
 
@@ -977,7 +977,7 @@ export class DataJunosApplications extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataJunosApplications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataJunosApplications to import
-  * @param importFromId The id of the existing DataJunosApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataJunosApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataJunosApplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -989,7 +989,7 @@ export class DataJunosApplications extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/applications junos_applications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/applications junos_applications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1000,8 +1000,8 @@ export class DataJunosApplications extends cdktf.TerraformDataSource {
       terraformResourceType: 'junos_applications',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_vacm_securitytogroup
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_vacm_securitytogroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SnmpV3VacmSecuritytogroupConfig extends cdktf.TerraformMetaArgu
   /**
   * Group to which to assign security name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_vacm_securitytogroup#group SnmpV3VacmSecuritytogroup#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_vacm_securitytogroup#group SnmpV3VacmSecuritytogroup#group}
   */
   readonly group: string;
   /**
   * Security model context for group assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_vacm_securitytogroup#model SnmpV3VacmSecuritytogroup#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_vacm_securitytogroup#model SnmpV3VacmSecuritytogroup#model}
   */
   readonly model: string;
   /**
   * Security name to assign to group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_vacm_securitytogroup#name SnmpV3VacmSecuritytogroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_vacm_securitytogroup#name SnmpV3VacmSecuritytogroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_vacm_securitytogroup junos_snmp_v3_vacm_securitytogroup}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_vacm_securitytogroup junos_snmp_v3_vacm_securitytogroup}
 */
 export class SnmpV3VacmSecuritytogroup extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SnmpV3VacmSecuritytogroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpV3VacmSecuritytogroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpV3VacmSecuritytogroup to import
-  * @param importFromId The id of the existing SnmpV3VacmSecuritytogroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_vacm_securitytogroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpV3VacmSecuritytogroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_vacm_securitytogroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpV3VacmSecuritytogroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SnmpV3VacmSecuritytogroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_vacm_securitytogroup junos_snmp_v3_vacm_securitytogroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_vacm_securitytogroup junos_snmp_v3_vacm_securitytogroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SnmpV3VacmSecuritytogroup extends cdktf.TerraformResource {
       terraformResourceType: 'junos_snmp_v3_vacm_securitytogroup',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

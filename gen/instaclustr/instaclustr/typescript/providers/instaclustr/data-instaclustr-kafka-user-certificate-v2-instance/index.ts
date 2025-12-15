@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataInstaclustrKafkaUserCertificateV2InstanceConfig extends cdk
   /**
   * ID of the kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance#cluster_id DataInstaclustrKafkaUserCertificateV2Instance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance#cluster_id DataInstaclustrKafkaUserCertificateV2Instance#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Certificate signing request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance#csr DataInstaclustrKafkaUserCertificateV2Instance#csr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance#csr DataInstaclustrKafkaUserCertificateV2Instance#csr}
   */
   readonly csr?: string;
   /**
   * Date certificate expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance#expiry_date DataInstaclustrKafkaUserCertificateV2Instance#expiry_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance#expiry_date DataInstaclustrKafkaUserCertificateV2Instance#expiry_date}
   */
   readonly expiryDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance#id DataInstaclustrKafkaUserCertificateV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance#id DataInstaclustrKafkaUserCertificateV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataInstaclustrKafkaUserCertificateV2InstanceConfig extends cdk
   /**
   * The Kafka username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance#kafka_username DataInstaclustrKafkaUserCertificateV2Instance#kafka_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance#kafka_username DataInstaclustrKafkaUserCertificateV2Instance#kafka_username}
   */
   readonly kafkaUsername?: string;
   /**
   * Generated client signed certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance#signed_certificate DataInstaclustrKafkaUserCertificateV2Instance#signed_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance#signed_certificate DataInstaclustrKafkaUserCertificateV2Instance#signed_certificate}
   */
   readonly signedCertificate?: string;
   /**
   * Number of months for which the certificate will be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance#valid_period DataInstaclustrKafkaUserCertificateV2Instance#valid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance#valid_period DataInstaclustrKafkaUserCertificateV2Instance#valid_period}
   */
   readonly validPeriod?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance instaclustr_kafka_user_certificate_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance instaclustr_kafka_user_certificate_v2_instance}
 */
 export class DataInstaclustrKafkaUserCertificateV2Instance extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataInstaclustrKafkaUserCertificateV2Instance extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataInstaclustrKafkaUserCertificateV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrKafkaUserCertificateV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrKafkaUserCertificateV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrKafkaUserCertificateV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrKafkaUserCertificateV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataInstaclustrKafkaUserCertificateV2Instance extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_user_certificate_v2_instance instaclustr_kafka_user_certificate_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/kafka_user_certificate_v2_instance instaclustr_kafka_user_certificate_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataInstaclustrKafkaUserCertificateV2Instance extends cdktf.Terrafo
       terraformResourceType: 'instaclustr_kafka_user_certificate_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.35',
-        providerVersionConstraint: '2.1.35'
+        providerVersion: '2.1.36',
+        providerVersionConstraint: '2.1.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

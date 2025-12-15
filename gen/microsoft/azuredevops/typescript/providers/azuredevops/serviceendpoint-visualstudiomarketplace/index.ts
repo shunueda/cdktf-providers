@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointVisualstudiomarketplaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#description ServiceendpointVisualstudiomarketplace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#description ServiceendpointVisualstudiomarketplace#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#id ServiceendpointVisualstudiomarketplace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#id ServiceendpointVisualstudiomarketplace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#project_id ServiceendpointVisualstudiomarketplace#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#project_id ServiceendpointVisualstudiomarketplace#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#service_endpoint_name ServiceendpointVisualstudiomarketplace#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#service_endpoint_name ServiceendpointVisualstudiomarketplace#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#url ServiceendpointVisualstudiomarketplace#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#url ServiceendpointVisualstudiomarketplace#url}
   */
   readonly url: string;
   /**
   * authentication_basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#authentication_basic ServiceendpointVisualstudiomarketplace#authentication_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#authentication_basic ServiceendpointVisualstudiomarketplace#authentication_basic}
   */
   readonly authenticationBasic?: ServiceendpointVisualstudiomarketplaceAuthenticationBasic;
   /**
   * authentication_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#authentication_token ServiceendpointVisualstudiomarketplace#authentication_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#authentication_token ServiceendpointVisualstudiomarketplace#authentication_token}
   */
   readonly authenticationToken?: ServiceendpointVisualstudiomarketplaceAuthenticationToken;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#timeouts ServiceendpointVisualstudiomarketplace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#timeouts ServiceendpointVisualstudiomarketplace#timeouts}
   */
   readonly timeouts?: ServiceendpointVisualstudiomarketplaceTimeouts;
 }
 export interface ServiceendpointVisualstudiomarketplaceAuthenticationBasic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#password ServiceendpointVisualstudiomarketplace#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#password ServiceendpointVisualstudiomarketplace#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#username ServiceendpointVisualstudiomarketplace#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#username ServiceendpointVisualstudiomarketplace#username}
   */
   readonly username: string;
 }
@@ -162,7 +162,7 @@ export class ServiceendpointVisualstudiomarketplaceAuthenticationBasicOutputRefe
 }
 export interface ServiceendpointVisualstudiomarketplaceAuthenticationToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#token ServiceendpointVisualstudiomarketplace#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#token ServiceendpointVisualstudiomarketplace#token}
   */
   readonly token: string;
 }
@@ -243,19 +243,19 @@ export class ServiceendpointVisualstudiomarketplaceAuthenticationTokenOutputRefe
 }
 export interface ServiceendpointVisualstudiomarketplaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#create ServiceendpointVisualstudiomarketplace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#create ServiceendpointVisualstudiomarketplace#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#delete ServiceendpointVisualstudiomarketplace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#delete ServiceendpointVisualstudiomarketplace#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#read ServiceendpointVisualstudiomarketplace#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#read ServiceendpointVisualstudiomarketplace#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#update ServiceendpointVisualstudiomarketplace#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#update ServiceendpointVisualstudiomarketplace#update}
   */
   readonly update?: string;
 }
@@ -436,7 +436,7 @@ export class ServiceendpointVisualstudiomarketplaceTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace azuredevops_serviceendpoint_visualstudiomarketplace}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace azuredevops_serviceendpoint_visualstudiomarketplace}
 */
 export class ServiceendpointVisualstudiomarketplace extends cdktf.TerraformResource {
 
@@ -452,7 +452,7 @@ export class ServiceendpointVisualstudiomarketplace extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ServiceendpointVisualstudiomarketplace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointVisualstudiomarketplace to import
-  * @param importFromId The id of the existing ServiceendpointVisualstudiomarketplace that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointVisualstudiomarketplace that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointVisualstudiomarketplace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class ServiceendpointVisualstudiomarketplace extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_visualstudiomarketplace azuredevops_serviceendpoint_visualstudiomarketplace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_visualstudiomarketplace azuredevops_serviceendpoint_visualstudiomarketplace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class ServiceendpointVisualstudiomarketplace extends cdktf.TerraformResou
       terraformResourceType: 'azuredevops_serviceendpoint_visualstudiomarketplace',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

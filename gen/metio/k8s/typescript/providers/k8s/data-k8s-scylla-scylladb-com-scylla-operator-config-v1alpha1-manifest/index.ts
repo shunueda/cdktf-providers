@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#metadata DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#metadata DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1ManifestMetadata;
   /**
   * spec defines the desired state of the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#spec DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#spec DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#annotations DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#annotations DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#labels DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#labels DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#name DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#name DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1ManifestSpe
   /**
   * scyllaUtilsImage is a ScyllaDB image used for running ScyllaDB utilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#scylla_utils_image DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#scylla_utils_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#scylla_utils_image DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#scylla_utils_image}
   */
   readonly scyllaUtilsImage?: string;
   /**
   * unsupportedBashToolsImageOverride allows to adjust a generic Bash image with extra tools used by the operator for auxiliary purposes. Setting this field renders your cluster unsupported. Use at your own risk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#unsupported_bash_tools_image_override DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#unsupported_bash_tools_image_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#unsupported_bash_tools_image_override DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#unsupported_bash_tools_image_override}
   */
   readonly unsupportedBashToolsImageOverride?: string;
   /**
   * unsupportedGrafanaImageOverride allows to adjust Grafana image used by the operator for testing, dev or emergencies. Setting this field renders your cluster unsupported. Use at your own risk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#unsupported_grafana_image_override DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#unsupported_grafana_image_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#unsupported_grafana_image_override DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#unsupported_grafana_image_override}
   */
   readonly unsupportedGrafanaImageOverride?: string;
   /**
   * unsupportedPrometheusVersionOverride allows to adjust Prometheus version used by the operator for testing, dev or emergencies. Setting this field renders your cluster unsupported. Use at your own risk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#unsupported_prometheus_version_override DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#unsupported_prometheus_version_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#unsupported_prometheus_version_override DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest#unsupported_prometheus_version_override}
   */
   readonly unsupportedPrometheusVersionOverride?: string;
 }
@@ -386,7 +386,7 @@ export class DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest k8s_scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest k8s_scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest}
 */
 export class DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -402,7 +402,7 @@ export class DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest k8s_scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest k8s_scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class DataK8SScyllaScylladbComScyllaOperatorConfigV1Alpha1Manifest extend
       terraformResourceType: 'k8s_scylla_scylladb_com_scylla_operator_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

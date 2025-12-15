@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_clientlist
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_clientlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SnmpClientlistConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of snmp client-list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_clientlist#name SnmpClientlist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_clientlist#name SnmpClientlist#name}
   */
   readonly name: string;
   /**
   * Address or prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_clientlist#prefix SnmpClientlist#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_clientlist#prefix SnmpClientlist#prefix}
   */
   readonly prefix?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_clientlist junos_snmp_clientlist}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_clientlist junos_snmp_clientlist}
 */
 export class SnmpClientlist extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SnmpClientlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpClientlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpClientlist to import
-  * @param importFromId The id of the existing SnmpClientlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_clientlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpClientlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_clientlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpClientlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SnmpClientlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_clientlist junos_snmp_clientlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_clientlist junos_snmp_clientlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SnmpClientlist extends cdktf.TerraformResource {
       terraformResourceType: 'junos_snmp_clientlist',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

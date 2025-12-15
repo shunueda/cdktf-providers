@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#metadata DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#metadata DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestMetadata;
   /**
   * Spec represents the desired behavior of ClusterOverridePolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#spec DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#spec DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#annotations DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#annotations DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#labels DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#labels DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator represents the operator which will apply on the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to annotations/labels of workload. Items in Value which will be appended after annotations/labels when Operator is 'add'. Items in Value which match in annotations/labels will be deleted when Operator is 'remove'. Items in Value which match in annotations/labels will be replaced when Operator is 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -337,19 +337,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * The name of container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator represents the operator which will apply on the command/args.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to command/args. Items in Value which will be appended after command/args when Operator is 'add'. Items in Value which match in command/args will be deleted when Operator is 'remove'. If Value is empty, then the command/args will remain the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: string[];
 }
@@ -519,19 +519,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * The name of container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator represents the operator which will apply on the command/args.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to command/args. Items in Value which will be appended after command/args when Operator is 'add'. Items in Value which match in command/args will be deleted when Operator is 'remove'. If Value is empty, then the command/args will remain the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: string[];
 }
@@ -701,19 +701,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator indicates the operation on target field. Available operators are: 'add', 'remove', and 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * SubPath specifies the relative location within the initial FieldPath where the operation should take place. The path uses RFC 6901 for navigating into nested structures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#sub_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#sub_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#sub_path}
   */
   readonly subPath: string;
   /**
   * Value is the new value to set for the specified field if the operation is 'add' or 'replace'. For 'remove' operation, this field is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -883,19 +883,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator indicates the operation on target field. Available operators are: 'add', 'remove', and 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * SubPath specifies the relative location within the initial FieldPath where the operation should take place. The path uses RFC 6901 for navigating into nested structures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#sub_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#sub_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#sub_path}
   */
   readonly subPath: string;
   /**
   * Value is the new value to set for the specified field if the operation is 'add' or 'replace'. For 'remove' operation, this field is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -1065,19 +1065,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * FieldPath specifies the initial location in the instance document where the operation should take place. The path uses RFC 6901 for navigating into nested structures. For example, the path '/data/db-config.yaml' specifies the configuration data key named 'db-config.yaml' in a ConfigMap: '/data/db-config.yaml'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
   /**
   * JSON represents the operations performed on the JSON document specified by the FieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#json DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#json DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#json}
   */
   readonly json?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersFieldOverriderJson[] | cdktf.IResolvable;
   /**
   * YAML represents the operations performed on the YAML document specified by the FieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#yaml DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#yaml DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#yaml}
   */
   readonly yaml?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersFieldOverriderYaml[] | cdktf.IResolvable;
 }
@@ -1250,7 +1250,7 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Path indicates the path of target field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -1343,25 +1343,25 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Component is part of image name. Basically we presume an image can be made of '[registry/]repository[:tag]'. The registry could be: - registry.k8s.io - fictional.registry.example:10443 The repository could be: - kube-apiserver - fictional/nginx The tag cloud be: - latest - v1.19.1 - @sha256:dbcc1c35ac38df41fd2f5e4130b32ffdb93ebae8b3dbe638c23575912276fc9c
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#component DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#component DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#component}
   */
   readonly component: string;
   /**
   * Operator represents the operator which will apply on the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Predicate filters images before applying the rule. Defaults to nil, in that case, the system will automatically detect image fields if the resource type is Pod, ReplicaSet, Deployment, StatefulSet, DaemonSet or Job by following rule: - Pod: /spec/containers/<N>/image - ReplicaSet: /spec/template/spec/containers/<N>/image - Deployment: /spec/template/spec/containers/<N>/image - DaemonSet: /spec/template/spec/containers/<N>/image - StatefulSet: /spec/template/spec/containers/<N>/image - Job: /spec/template/spec/containers/<N>/image In addition, all images will be processed if the resource object has more than one container. If not nil, only images matches the filters will be processed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#predicate DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#predicate DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#predicate}
   */
   readonly predicate?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersImageOverriderPredicate;
   /**
   * Value to be applied to image. Must not be empty when operator is 'add' or 'replace'. Defaults to empty and ignored when operator is 'remove'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1560,13 +1560,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator represents the operator which will apply on the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to annotations/labels of workload. Items in Value which will be appended after annotations/labels when Operator is 'add'. Items in Value which match in annotations/labels will be deleted when Operator is 'remove'. Items in Value which match in annotations/labels will be replaced when Operator is 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -1710,19 +1710,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator indicates the operation on target field. Available operators are: add, replace and remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Path indicates the path of target field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value to be applied to target field. Must be empty when operator is Remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -1892,43 +1892,43 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * AnnotationsOverrider represents the rules dedicated to handling workload annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#annotations_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#annotations_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#annotations_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#annotations_overrider}
   */
   readonly annotationsOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersAnnotationsOverrider[] | cdktf.IResolvable;
   /**
   * ArgsOverrider represents the rules dedicated to handling container args
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#args_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#args_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#args_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#args_overrider}
   */
   readonly argsOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersArgsOverrider[] | cdktf.IResolvable;
   /**
   * CommandOverrider represents the rules dedicated to handling container command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#command_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#command_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#command_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#command_overrider}
   */
   readonly commandOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersCommandOverrider[] | cdktf.IResolvable;
   /**
   * FieldOverrider represents the rules dedicated to modifying a specific field in any Kubernetes resource. This allows changing a single field within the resource with multiple operations. It is designed to handle structured field values such as those found in ConfigMaps or Secrets. The current implementation supports JSON and YAML formats, but can easily be extended to support XML in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_overrider}
   */
   readonly fieldOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersFieldOverrider[] | cdktf.IResolvable;
   /**
   * ImageOverrider represents the rules dedicated to handling image overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#image_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#image_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#image_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#image_overrider}
   */
   readonly imageOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersImageOverrider[] | cdktf.IResolvable;
   /**
   * LabelsOverrider represents the rules dedicated to handling workload labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#labels_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#labels_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#labels_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#labels_overrider}
   */
   readonly labelsOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersLabelsOverrider[] | cdktf.IResolvable;
   /**
   * Plaintext represents override rules defined with plaintext overriders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#plaintext DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#plaintext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#plaintext DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#plaintext}
   */
   readonly plaintext?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersPlaintext[] | cdktf.IResolvable;
 }
@@ -2198,19 +2198,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2380,7 +2380,7 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * A list of field selector requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClusterFieldSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2476,19 +2476,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2658,13 +2658,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClusterLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2789,25 +2789,25 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
   /**
   * ExcludedClusters is the list of clusters to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * FieldSelector is a filter to select member clusters by fields. The key(field) of the match expression should be 'provider', 'region', or 'zone', and the operator of the match expression should be 'In' or 'NotIn'. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_selector}
   */
   readonly fieldSelector?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClusterFieldSelector;
   /**
   * LabelSelector is a filter to select member clusters by labels. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClusterLabelSelector;
 }
@@ -2990,13 +2990,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Overriders represents the override rules that would apply on resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#overriders DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#overriders DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#overriders}
   */
   readonly overriders: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverriders;
   /**
   * TargetCluster defines restrictions on this override policy that only applies to resources propagated to the matching clusters. nil means matching all clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#target_cluster DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#target_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#target_cluster DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#target_cluster}
   */
   readonly targetCluster?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetCluster;
 }
@@ -3140,13 +3140,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator represents the operator which will apply on the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to annotations/labels of workload. Items in Value which will be appended after annotations/labels when Operator is 'add'. Items in Value which match in annotations/labels will be deleted when Operator is 'remove'. Items in Value which match in annotations/labels will be replaced when Operator is 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -3290,19 +3290,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * The name of container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator represents the operator which will apply on the command/args.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to command/args. Items in Value which will be appended after command/args when Operator is 'add'. Items in Value which match in command/args will be deleted when Operator is 'remove'. If Value is empty, then the command/args will remain the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: string[];
 }
@@ -3472,19 +3472,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * The name of container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator represents the operator which will apply on the command/args.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to command/args. Items in Value which will be appended after command/args when Operator is 'add'. Items in Value which match in command/args will be deleted when Operator is 'remove'. If Value is empty, then the command/args will remain the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: string[];
 }
@@ -3654,19 +3654,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator indicates the operation on target field. Available operators are: 'add', 'remove', and 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * SubPath specifies the relative location within the initial FieldPath where the operation should take place. The path uses RFC 6901 for navigating into nested structures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#sub_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#sub_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#sub_path}
   */
   readonly subPath: string;
   /**
   * Value is the new value to set for the specified field if the operation is 'add' or 'replace'. For 'remove' operation, this field is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -3836,19 +3836,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator indicates the operation on target field. Available operators are: 'add', 'remove', and 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * SubPath specifies the relative location within the initial FieldPath where the operation should take place. The path uses RFC 6901 for navigating into nested structures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#sub_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#sub_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#sub_path}
   */
   readonly subPath: string;
   /**
   * Value is the new value to set for the specified field if the operation is 'add' or 'replace'. For 'remove' operation, this field is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -4018,19 +4018,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * FieldPath specifies the initial location in the instance document where the operation should take place. The path uses RFC 6901 for navigating into nested structures. For example, the path '/data/db-config.yaml' specifies the configuration data key named 'db-config.yaml' in a ConfigMap: '/data/db-config.yaml'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
   /**
   * JSON represents the operations performed on the JSON document specified by the FieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#json DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#json DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#json}
   */
   readonly json?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersFieldOverriderJson[] | cdktf.IResolvable;
   /**
   * YAML represents the operations performed on the YAML document specified by the FieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#yaml DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#yaml DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#yaml}
   */
   readonly yaml?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersFieldOverriderYaml[] | cdktf.IResolvable;
 }
@@ -4203,7 +4203,7 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Path indicates the path of target field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -4296,25 +4296,25 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Component is part of image name. Basically we presume an image can be made of '[registry/]repository[:tag]'. The registry could be: - registry.k8s.io - fictional.registry.example:10443 The repository could be: - kube-apiserver - fictional/nginx The tag cloud be: - latest - v1.19.1 - @sha256:dbcc1c35ac38df41fd2f5e4130b32ffdb93ebae8b3dbe638c23575912276fc9c
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#component DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#component DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#component}
   */
   readonly component: string;
   /**
   * Operator represents the operator which will apply on the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Predicate filters images before applying the rule. Defaults to nil, in that case, the system will automatically detect image fields if the resource type is Pod, ReplicaSet, Deployment, StatefulSet, DaemonSet or Job by following rule: - Pod: /spec/containers/<N>/image - ReplicaSet: /spec/template/spec/containers/<N>/image - Deployment: /spec/template/spec/containers/<N>/image - DaemonSet: /spec/template/spec/containers/<N>/image - StatefulSet: /spec/template/spec/containers/<N>/image - Job: /spec/template/spec/containers/<N>/image In addition, all images will be processed if the resource object has more than one container. If not nil, only images matches the filters will be processed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#predicate DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#predicate DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#predicate}
   */
   readonly predicate?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersImageOverriderPredicate;
   /**
   * Value to be applied to image. Must not be empty when operator is 'add' or 'replace'. Defaults to empty and ignored when operator is 'remove'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4513,13 +4513,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator represents the operator which will apply on the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to annotations/labels of workload. Items in Value which will be appended after annotations/labels when Operator is 'add'. Items in Value which match in annotations/labels will be deleted when Operator is 'remove'. Items in Value which match in annotations/labels will be replaced when Operator is 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -4663,19 +4663,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * Operator indicates the operation on target field. Available operators are: add, replace and remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Path indicates the path of target field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#path DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value to be applied to target field. Must be empty when operator is Remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -4845,43 +4845,43 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * AnnotationsOverrider represents the rules dedicated to handling workload annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#annotations_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#annotations_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#annotations_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#annotations_overrider}
   */
   readonly annotationsOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersAnnotationsOverrider[] | cdktf.IResolvable;
   /**
   * ArgsOverrider represents the rules dedicated to handling container args
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#args_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#args_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#args_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#args_overrider}
   */
   readonly argsOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersArgsOverrider[] | cdktf.IResolvable;
   /**
   * CommandOverrider represents the rules dedicated to handling container command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#command_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#command_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#command_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#command_overrider}
   */
   readonly commandOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersCommandOverrider[] | cdktf.IResolvable;
   /**
   * FieldOverrider represents the rules dedicated to modifying a specific field in any Kubernetes resource. This allows changing a single field within the resource with multiple operations. It is designed to handle structured field values such as those found in ConfigMaps or Secrets. The current implementation supports JSON and YAML formats, but can easily be extended to support XML in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_overrider}
   */
   readonly fieldOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersFieldOverrider[] | cdktf.IResolvable;
   /**
   * ImageOverrider represents the rules dedicated to handling image overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#image_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#image_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#image_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#image_overrider}
   */
   readonly imageOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersImageOverrider[] | cdktf.IResolvable;
   /**
   * LabelsOverrider represents the rules dedicated to handling workload labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#labels_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#labels_overrider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#labels_overrider DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#labels_overrider}
   */
   readonly labelsOverrider?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersLabelsOverrider[] | cdktf.IResolvable;
   /**
   * Plaintext represents override rules defined with plaintext overriders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#plaintext DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#plaintext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#plaintext DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#plaintext}
   */
   readonly plaintext?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverridersPlaintext[] | cdktf.IResolvable;
 }
@@ -5151,19 +5151,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5333,13 +5333,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecResourceSelectorsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5464,31 +5464,31 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * APIVersion represents the API version of the target resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#api_version DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#api_version DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind represents the Kind of the target resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#kind DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#kind DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * A label query over a set of resources. If name is not empty, labelSelector will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecResourceSelectorsLabelSelector;
   /**
   * Name of the target resource. Default is empty, which means selecting all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#name DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the target resource. Default is empty, which means inherit from the parent object scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#namespace DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#namespace DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5716,19 +5716,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5898,7 +5898,7 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * A list of field selector requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecTargetClusterFieldSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -5994,19 +5994,19 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6176,13 +6176,13 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecTargetClusterLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6307,25 +6307,25 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
   /**
   * ExcludedClusters is the list of clusters to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * FieldSelector is a filter to select member clusters by fields. The key(field) of the match expression should be 'provider', 'region', or 'zone', and the operator of the match expression should be 'In' or 'NotIn'. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#field_selector}
   */
   readonly fieldSelector?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecTargetClusterFieldSelector;
   /**
   * LabelSelector is a filter to select member clusters by labels. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecTargetClusterLabelSelector;
 }
@@ -6508,25 +6508,25 @@ export interface DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpec
   /**
   * OverrideRules defines a collection of override rules on target clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#override_rules DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#override_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#override_rules DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#override_rules}
   */
   readonly overrideRules?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRules[] | cdktf.IResolvable;
   /**
   * Overriders represents the override rules that would apply on resources Deprecated: This filed is deprecated in v1.0 and please use the OverrideRules instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#overriders DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#overriders DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#overriders}
   */
   readonly overriders?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOverriders;
   /**
   * ResourceSelectors restricts resource types that this override policy applies to. nil means matching all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#resource_selectors DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#resource_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#resource_selectors DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#resource_selectors}
   */
   readonly resourceSelectors?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecResourceSelectors[] | cdktf.IResolvable;
   /**
   * TargetCluster defines restrictions on this override policy that only applies to resources propagated to the matching clusters. nil means matching all clusters. Deprecated: This filed is deprecated in v1.0 and please use the OverrideRules instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#target_cluster DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#target_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#target_cluster DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest#target_cluster}
   */
   readonly targetCluster?: DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecTargetCluster;
 }
@@ -6707,7 +6707,7 @@ export class DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest k8s_policy_karmada_io_cluster_override_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest k8s_policy_karmada_io_cluster_override_policy_v1alpha1_manifest}
 */
 export class DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -6723,7 +6723,7 @@ export class DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6735,7 +6735,7 @@ export class DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest k8s_policy_karmada_io_cluster_override_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/policy_karmada_io_cluster_override_policy_v1alpha1_manifest k8s_policy_karmada_io_cluster_override_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6746,8 +6746,8 @@ export class DataK8SPolicyKarmadaIoClusterOverridePolicyV1Alpha1Manifest extends
       terraformResourceType: 'k8s_policy_karmada_io_cluster_override_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

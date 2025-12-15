@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SecurityIkeProposalConfig extends cdktf.TerraformMetaArguments 
   /**
   * Authentication algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal#authentication_algorithm SecurityIkeProposal#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal#authentication_algorithm SecurityIkeProposal#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * Authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal#authentication_method SecurityIkeProposal#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal#authentication_method SecurityIkeProposal#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Text description of IKE proposal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal#description SecurityIkeProposal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal#description SecurityIkeProposal#description}
   */
   readonly description?: string;
   /**
   * Diffie-Hellman Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal#dh_group SecurityIkeProposal#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal#dh_group SecurityIkeProposal#dh_group}
   */
   readonly dhGroup?: string;
   /**
   * Encryption algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal#encryption_algorithm SecurityIkeProposal#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal#encryption_algorithm SecurityIkeProposal#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
   * Lifetime, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal#lifetime_seconds SecurityIkeProposal#lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal#lifetime_seconds SecurityIkeProposal#lifetime_seconds}
   */
   readonly lifetimeSeconds?: number;
   /**
   * The name of IKE proposal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal#name SecurityIkeProposal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal#name SecurityIkeProposal#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal junos_security_ike_proposal}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal junos_security_ike_proposal}
 */
 export class SecurityIkeProposal extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class SecurityIkeProposal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityIkeProposal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityIkeProposal to import
-  * @param importFromId The id of the existing SecurityIkeProposal that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityIkeProposal that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityIkeProposal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class SecurityIkeProposal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_proposal junos_security_ike_proposal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_proposal junos_security_ike_proposal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class SecurityIkeProposal extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_ike_proposal',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#metadata DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#metadata DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestMetadata;
   /**
   * EventSourceMappingSpec defines the desired state of EventSourceMapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#spec DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#spec DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#annotations DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#annotations DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#labels DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#labels DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestMetada
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecAmazonManagedKafkaEventSourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#consumer_group_id DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#consumer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#consumer_group_id DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#consumer_group_id}
   */
   readonly consumerGroupId?: string;
 }
@@ -311,7 +311,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecAm
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecDestinationConfigOnFailure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#destination DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#destination DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#destination}
   */
   readonly destination?: string;
 }
@@ -405,7 +405,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecDe
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecDestinationConfigOnSuccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#destination DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#destination DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#destination}
   */
   readonly destination?: string;
 }
@@ -501,13 +501,13 @@ export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSp
   /**
   * A destination for events that failed processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#on_failure DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#on_failure DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#on_failure}
   */
   readonly onFailure?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecDestinationConfigOnFailure;
   /**
   * A destination for events that were processed successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#on_success DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#on_success DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#on_success}
   */
   readonly onSuccess?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecDestinationConfigOnSuccess;
 }
@@ -630,11 +630,11 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecDe
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecEventSourceRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -759,7 +759,7 @@ export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSp
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecEventSourceRefFrom;
 }
@@ -853,7 +853,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecEv
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFilterCriteriaFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#pattern DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#pattern DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -969,7 +969,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFi
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFilterCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#filters DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#filters DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#filters}
   */
   readonly filters?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFilterCriteriaFilters[] | cdktf.IResolvable;
 }
@@ -1063,11 +1063,11 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFi
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFunctionRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1192,7 +1192,7 @@ export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSp
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFunctionRefFrom;
 }
@@ -1286,11 +1286,11 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFu
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecQueueRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1415,7 +1415,7 @@ export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSp
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecQueueRefsFrom;
 }
@@ -1531,7 +1531,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecQu
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecScalingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#maximum_concurrency DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#maximum_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#maximum_concurrency DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#maximum_concurrency}
   */
   readonly maximumConcurrency?: number;
 }
@@ -1625,7 +1625,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSc
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSelfManagedEventSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#endpoints DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#endpoints DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#endpoints}
   */
   readonly endpoints?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -1719,7 +1719,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSe
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSelfManagedKafkaEventSourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#consumer_group_id DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#consumer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#consumer_group_id DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#consumer_group_id}
   */
   readonly consumerGroupId?: string;
 }
@@ -1813,11 +1813,11 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSe
 }
 export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSourceAccessConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#type_ DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#type_ DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#u_ri DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#u_ri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#u_ri DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#u_ri}
   */
   readonly uRi?: string;
 }
@@ -1964,149 +1964,149 @@ export interface DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSp
   /**
   * Specific configuration settings for an Amazon Managed Streaming for Apache Kafka (Amazon MSK) event source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#amazon_managed_kafka_event_source_config DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#amazon_managed_kafka_event_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#amazon_managed_kafka_event_source_config DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#amazon_managed_kafka_event_source_config}
   */
   readonly amazonManagedKafkaEventSourceConfig?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecAmazonManagedKafkaEventSourceConfig;
   /**
   * The maximum number of records in each batch that Lambda pulls from your stream or queue and sends to your function. Lambda passes all of the records in the batch to the function in a single call, up to the payload limit for synchronous invocation (6 MB). * Amazon Kinesis – Default 100. Max 10,000. * Amazon DynamoDB Streams – Default 100. Max 10,000. * Amazon Simple Queue Service – Default 10. For standard queues the max is 10,000. For FIFO queues the max is 10. * Amazon Managed Streaming for Apache Kafka – Default 100. Max 10,000. * Self-managed Apache Kafka – Default 100. Max 10,000. * Amazon MQ (ActiveMQ and RabbitMQ) – Default 100. Max 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#batch_size DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#batch_size DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
   * (Streams only) If the function returns an error, split the batch in two and retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#bisect_batch_on_function_error DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#bisect_batch_on_function_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#bisect_batch_on_function_error DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#bisect_batch_on_function_error}
   */
   readonly bisectBatchOnFunctionError?: boolean | cdktf.IResolvable;
   /**
   * (Streams only) An Amazon SQS queue or Amazon SNS topic destination for discarded records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#destination_config DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#destination_config DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#destination_config}
   */
   readonly destinationConfig?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecDestinationConfig;
   /**
   * When true, the event source mapping is active. When false, Lambda pauses polling and invocation. Default: True
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#enabled DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#enabled DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the event source. * Amazon Kinesis – The ARN of the data stream or a stream consumer. * Amazon DynamoDB Streams – The ARN of the stream. * Amazon Simple Queue Service – The ARN of the queue. * Amazon Managed Streaming for Apache Kafka – The ARN of the cluster. * Amazon MQ – The ARN of the broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#event_source_arn DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#event_source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#event_source_arn DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#event_source_arn}
   */
   readonly eventSourceArn?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#event_source_ref DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#event_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#event_source_ref DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#event_source_ref}
   */
   readonly eventSourceRef?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecEventSourceRef;
   /**
   * An object that defines the filter criteria that determine whether Lambda should process an event. For more information, see Lambda event filtering (https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventfiltering.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#filter_criteria DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#filter_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#filter_criteria DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#filter_criteria}
   */
   readonly filterCriteria?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFilterCriteria;
   /**
   * The name of the Lambda function. Name formats * Function name – MyFunction. * Function ARN – arn:aws:lambda:us-west-2:123456789012:function:MyFunction. * Version or Alias ARN – arn:aws:lambda:us-west-2:123456789012:function:MyFunction:PROD. * Partial ARN – 123456789012:function:MyFunction. The length constraint applies only to the full ARN. If you specify only the function name, it's limited to 64 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#function_name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#function_name DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#function_name}
   */
   readonly functionName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#function_ref DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#function_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#function_ref DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#function_ref}
   */
   readonly functionRef?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecFunctionRef;
   /**
   * (Streams and Amazon SQS) A list of current response type enums applied to the event source mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#function_response_types DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#function_response_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#function_response_types DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#function_response_types}
   */
   readonly functionResponseTypes?: string[];
   /**
   * The maximum amount of time, in seconds, that Lambda spends gathering records before invoking the function. You can configure MaximumBatchingWindowInSeconds to any value from 0 seconds to 300 seconds in increments of seconds. For streams and Amazon SQS event sources, the default batching window is 0 seconds. For Amazon MSK, Self-managed Apache Kafka, and Amazon MQ event sources, the default batching window is 500 ms. Note that because you can only change MaximumBatchingWindowInSeconds in increments of seconds, you cannot revert back to the 500 ms default batching window after you have changed it. To restore the default batching window, you must create a new event source mapping. Related setting: For streams and Amazon SQS event sources, when you set BatchSize to a value greater than 10, you must set MaximumBatchingWindowInSeconds to at least 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
   * (Streams only) Discard records older than the specified age. The default value is infinite (-1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#maximum_record_age_in_seconds DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#maximum_record_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#maximum_record_age_in_seconds DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#maximum_record_age_in_seconds}
   */
   readonly maximumRecordAgeInSeconds?: number;
   /**
   * (Streams only) Discard records after the specified number of retries. The default value is infinite (-1). When set to infinite (-1), failed records are retried until the record expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#maximum_retry_attempts DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#maximum_retry_attempts DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
   * (Streams only) The number of batches to process from each shard concurrently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#parallelization_factor DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#parallelization_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#parallelization_factor DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#parallelization_factor}
   */
   readonly parallelizationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#queue_refs DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#queue_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#queue_refs DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#queue_refs}
   */
   readonly queueRefs?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecQueueRefs[] | cdktf.IResolvable;
   /**
   * (MQ) The name of the Amazon MQ broker destination queue to consume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#queues DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#queues DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#queues}
   */
   readonly queues?: string[];
   /**
   * (Amazon SQS only) The scaling configuration for the event source. For more information, see Configuring maximum concurrency for Amazon SQS event sources (https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-max-concurrency).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#scaling_config DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#scaling_config DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#scaling_config}
   */
   readonly scalingConfig?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecScalingConfig;
   /**
   * The self-managed Apache Kafka cluster to receive records from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#self_managed_event_source DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#self_managed_event_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#self_managed_event_source DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#self_managed_event_source}
   */
   readonly selfManagedEventSource?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSelfManagedEventSource;
   /**
   * Specific configuration settings for a self-managed Apache Kafka event source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#self_managed_kafka_event_source_config DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#self_managed_kafka_event_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#self_managed_kafka_event_source_config DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#self_managed_kafka_event_source_config}
   */
   readonly selfManagedKafkaEventSourceConfig?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSelfManagedKafkaEventSourceConfig;
   /**
   * An array of authentication protocols or VPC components required to secure your event source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#source_access_configurations DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#source_access_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#source_access_configurations DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#source_access_configurations}
   */
   readonly sourceAccessConfigurations?: DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecSourceAccessConfigurations[] | cdktf.IResolvable;
   /**
   * The position in a stream from which to start reading. Required for Amazon Kinesis, Amazon DynamoDB, and Amazon MSK Streams sources. AT_TIMESTAMP is supported only for Amazon Kinesis streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#starting_position DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#starting_position DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#starting_position}
   */
   readonly startingPosition?: string;
   /**
   * With StartingPosition set to AT_TIMESTAMP, the time from which to start reading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#starting_position_timestamp DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#starting_position_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#starting_position_timestamp DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#starting_position_timestamp}
   */
   readonly startingPositionTimestamp?: string;
   /**
   * The name of the Kafka topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#topics DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#topics DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#topics}
   */
   readonly topics?: string[];
   /**
   * (Streams only) The duration in seconds of a processing window. The range is between 1 second and 900 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#tumbling_window_in_seconds DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#tumbling_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#tumbling_window_in_seconds DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest#tumbling_window_in_seconds}
   */
   readonly tumblingWindowInSeconds?: number;
 }
@@ -2896,7 +2896,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest k8s_lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest k8s_lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest}
 */
 export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2912,7 +2912,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2924,7 +2924,7 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest k8s_lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest k8s_lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2935,8 +2935,8 @@ export class DataK8SLambdaServicesK8SAwsEventSourceMappingV1Alpha1Manifest exten
       terraformResourceType: 'k8s_lambda_services_k8s_aws_event_source_mapping_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

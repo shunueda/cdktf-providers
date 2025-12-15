@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#metadata DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#metadata DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestMetadata;
   /**
   * ClusterOutputSpec defines the desired state of ClusterOutput
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#spec DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#spec DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#annotations DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#annotations DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#labels DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#labels DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,73 +187,73 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsB
   /**
   * Calculates the number of records, chunk size, during chunk resume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#calc_num_records DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#calc_num_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#calc_num_records DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#calc_num_records}
   */
   readonly calcNumRecords?: string;
   /**
   * ChunkFormat specifies the chunk format for calc_num_records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#chunk_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#chunk_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#chunk_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#chunk_format}
   */
   readonly chunkFormat?: string;
   /**
   * The max number of events that each chunks can store in it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#chunk_limit_records DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#chunk_limit_records DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: string;
   /**
   * Buffer parameters The max size of each chunks: events will be written into chunks until the size of chunks become this size Default: 8MB (memory) / 256MB (file)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#chunk_limit_size DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#chunk_limit_size DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
   * Fluentd will decompress these compressed chunks automatically before passing them to the output plugin If gzip is set, Fluentd compresses data records before writing to buffer chunks. Default:text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#compress DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#compress DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
   * The timeout (seconds) until output plugin decides if the async write operation has failed. Default is 60s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#delayed_commit_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#delayed_commit_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
   * Instead of storing unrecoverable chunks in the backup directory, just discard them. This option is new in Fluentd v1.2.6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#disable_chunk_backup DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#disable_chunk_backup DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
   * Flush parameters This specifies whether to flush/write all buffer chunks on shutdown or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#flush_at_shutdown DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#flush_at_shutdown DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
   * FlushInterval defines the flush interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#flush_interval DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#flush_interval DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
   * FlushMode defines the flush mode: lazy: flushes/writes chunks once per timekey interval: flushes/writes chunks per specified time via flush_interval immediate: flushes/writes chunks immediately after events are appended into chunks default: equals to lazy if time is specified as chunk key, interval otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#flush_mode DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#flush_mode DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
   * The number of threads to flush/write chunks in parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#flush_thread_count DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#flush_thread_count DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -262,157 +262,157 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsB
   /**
   * If true, uses local time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#localtime DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#localtime DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * OverflowAtction defines the output plugin behave when its buffer queue is full. Default: throw_exception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#overflow_action DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#overflow_action DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
   * The path where buffer chunks are stored. This field would make no effect in memory buffer plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Changes the suffix of the buffer file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path_suffix DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path_suffix DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path_suffix}
   */
   readonly pathSuffix?: string;
   /**
   * The queue length limitation of this buffer plugin instance. Default: 0.95
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#queue_limit_length DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#queue_limit_length DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: string;
   /**
   * Limit the number of queued chunks. Default: 1 If a smaller flush_interval is set, e.g. 1s, there are lots of small queued chunks in the buffer. With file buffer, it may consume a lot of fd resources when output destination has a problem. This parameter mitigates such situations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
   * The base number of exponential backoff for retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
   * If true, plugin will ignore retry_timeout and retry_max_times options and retry flushing forever.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_forever DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_forever DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
   * The maximum interval (seconds) for exponential backoff between retries while failing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_max_interval DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_max_interval DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
   * The maximum number of times to retry to flush the failed chunks. Default: none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_max_times DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_max_times DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
   * If true, the output plugin will retry after randomized interval not to do burst retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_randomize DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_randomize DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
   * The ratio of retry_timeout to switch to use the secondary while failing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_secondary_threshold DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_secondary_threshold DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
   * Retry parameters The maximum time (seconds) to retry to flush again the failed chunks, until the plugin discards the buffer chunks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
   * Output plugin will retry periodically with fixed intervals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
   * Wait in seconds before the next retry to flush or constant factor of exponential backoff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_wait DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retry_wait DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
   * The output plugins group events into chunks. Chunk keys, specified as the argument of <buffer> section, control how to group events into chunks. If tag is empty, which means blank Chunk Keys. Tag also supports Nested Field, combination of Chunk Keys, placeholders, etc. See https://docs.fluentd.org/configuration/buffer-section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tag DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tag DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
   /**
   * Process value according to the specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Uses the specified time format as a fallback in the specified order. You can parse undetermined time format by using time_format_fallbacks. This options is enabled when time_type is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format_fallbacks}
   */
   readonly timeFormatFallbacks?: string;
   /**
   * parses/formats value according to this type, default is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_type}
   */
   readonly timeType?: string;
   /**
   * Output plugin will flush chunks per specified time (enabled when time is specified in chunk keys)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timekey DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timekey DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
   * Output plugin will write chunks after timekey_wait seconds later after timekey expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timekey_wait DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timekey_wait DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
   * Uses the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timezone DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timezone DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * The size limitation of this buffer plugin instance Default: 512MB (memory) / 64GB (file)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#total_limit_size DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#total_limit_size DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * If true, uses UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#utc DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#utc DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#utc}
   */
   readonly utc?: boolean | cdktf.IResolvable;
 }
@@ -1578,19 +1578,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsC
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1741,7 +1741,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsC
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloudWatchAwsKeyIdValueFromSecretKeyRef;
 }
@@ -1837,7 +1837,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsC
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloudWatchAwsKeyIdValueFrom;
 }
@@ -1933,19 +1933,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsC
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2096,7 +2096,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsC
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloudWatchAwsSecKeyValueFromSecretKeyRef;
 }
@@ -2192,7 +2192,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsC
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloudWatchAwsSecKeyValueFrom;
 }
@@ -2286,197 +2286,197 @@ export class DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloud
 }
 export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloudWatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#auto_create_stream DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#auto_create_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#auto_create_stream DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#auto_create_stream}
   */
   readonly autoCreateStream?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_ecs_authentication DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_ecs_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_ecs_authentication DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_ecs_authentication}
   */
   readonly awsEcsAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Secret defines the key of a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_key_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_key_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_key_id}
   */
   readonly awsKeyId?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloudWatchAwsKeyId;
   /**
   * Secret defines the key of a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sec_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sec_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sec_key}
   */
   readonly awsSecKey?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloudWatchAwsSecKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_duration_seconds DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_duration_seconds DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_duration_seconds}
   */
   readonly awsStsDurationSeconds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_endpoint_url DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_endpoint_url DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_endpoint_url}
   */
   readonly awsStsEndpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_external_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_external_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_external_id}
   */
   readonly awsStsExternalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_policy}
   */
   readonly awsStsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_role_arn DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_role_arn DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_role_arn}
   */
   readonly awsStsRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_session_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sts_session_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sts_session_name}
   */
   readonly awsStsSessionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_use_sts DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_use_sts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_use_sts DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_use_sts}
   */
   readonly awsUseSts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#concurrency DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#concurrency DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#duration_seconds DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#duration_seconds DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#duration_seconds}
   */
   readonly durationSeconds?: string;
   /**
   * Specify an AWS endpoint to send data to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#endpoint DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#endpoint DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_proxy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_proxy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_proxy}
   */
   readonly httpProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#include_time_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#include_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#include_time_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#include_time_key}
   */
   readonly includeTimeKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#json_handler DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#json_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#json_handler DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#json_handler}
   */
   readonly jsonHandler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#localtime DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#localtime DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_group_aws_tags DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_group_aws_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_group_aws_tags DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_group_aws_tags}
   */
   readonly logGroupAwsTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_group_aws_tags_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_group_aws_tags_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_group_aws_tags_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_group_aws_tags_key}
   */
   readonly logGroupAwsTagsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_group_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_group_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_group_name}
   */
   readonly logGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_group_name_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_group_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_group_name_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_group_name_key}
   */
   readonly logGroupNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_rejected_request DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_rejected_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_rejected_request DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_rejected_request}
   */
   readonly logRejectedRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_stream_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_stream_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_stream_name}
   */
   readonly logStreamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_stream_name_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_stream_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_stream_name_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_stream_name_key}
   */
   readonly logStreamNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_events_per_batch DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_events_per_batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_events_per_batch DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_events_per_batch}
   */
   readonly maxEventsPerBatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_message_length DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_message_length DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_message_length}
   */
   readonly maxMessageLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#message_keys DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#message_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#message_keys DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#message_keys}
   */
   readonly messageKeys?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#put_log_events_disable_retry_limit DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#put_log_events_disable_retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#put_log_events_disable_retry_limit DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#put_log_events_disable_retry_limit}
   */
   readonly putLogEventsDisableRetryLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#put_log_events_retry_limit DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#put_log_events_retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#put_log_events_retry_limit DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#put_log_events_retry_limit}
   */
   readonly putLogEventsRetryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#put_log_events_retry_wait DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#put_log_events_retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#put_log_events_retry_wait DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#put_log_events_retry_wait}
   */
   readonly putLogEventsRetryWait?: string;
   /**
   * The AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#region DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#region DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_log_group_aws_tags_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_log_group_aws_tags_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_log_group_aws_tags_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_log_group_aws_tags_key}
   */
   readonly removeLogGroupAwsTagsKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_log_group_name_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_log_group_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_log_group_name_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_log_group_name_key}
   */
   readonly removeLogGroupNameKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_log_stream_name_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_log_stream_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_log_stream_name_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_log_stream_name_key}
   */
   readonly removeLogStreamNameKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_retention_in_days_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_retention_in_days_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_retention_in_days_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_retention_in_days_key}
   */
   readonly removeRetentionInDaysKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retention_in_days DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retention_in_days DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retention_in_days}
   */
   readonly retentionInDays?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retention_in_days_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retention_in_days_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retention_in_days_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retention_in_days_key}
   */
   readonly retentionInDaysKey?: string;
   /**
   * ARN of an IAM role to assume (for cross account access).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#role_arn DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#role_arn DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Role Session name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#role_session_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#role_session_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#role_session_name}
   */
   readonly roleSessionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify_peer DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify_peer DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify_peer}
   */
   readonly sslVerifyPeer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_tag_as_group DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_tag_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_tag_as_group DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_tag_as_group}
   */
   readonly useTagAsGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_tag_as_stream DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_tag_as_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_tag_as_stream DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_tag_as_stream}
   */
   readonly useTagAsStream?: string;
   /**
   * Web identity token file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#web_identity_token_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#web_identity_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#web_identity_token_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#web_identity_token_file}
   */
   readonly webIdentityTokenFile?: string;
 }
@@ -3848,7 +3848,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsC
   /**
   * CopyMode defines how to pass the events to <store> plugins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#copy_mode DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#copy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#copy_mode DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#copy_mode}
   */
   readonly copyMode: string;
 }
@@ -3939,7 +3939,7 @@ export class DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCopyO
 }
 export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCustomPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#config DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#config DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#config}
   */
   readonly config: string;
 }
@@ -4032,19 +4032,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsD
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4195,7 +4195,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsD
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsDatadogApiKeyValueFromSecretKeyRef;
 }
@@ -4291,7 +4291,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsD
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsDatadogApiKeyValueFrom;
 }
@@ -4387,127 +4387,127 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsD
   /**
   * This parameter is required in order to authenticate your fluent agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#api_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#api_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#api_key}
   */
   readonly apiKey?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsDatadogApiKey;
   /**
   * Set the log compression level for HTTP (1 to 9, 9 being the best ratio)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#compression_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#compression_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#compression_level}
   */
   readonly compressionLevel?: number;
   /**
   * Used by Datadog to identify the host submitting the logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dd_hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dd_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dd_hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dd_hostname}
   */
   readonly ddHostname?: string;
   /**
   * This tells Datadog what integration it is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dd_source DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dd_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dd_source DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dd_source}
   */
   readonly ddSource?: string;
   /**
   * Multiple value attribute. Can be used to refine the source attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dd_sourcecategory DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dd_sourcecategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dd_sourcecategory DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dd_sourcecategory}
   */
   readonly ddSourcecategory?: string;
   /**
   * Custom tags with the following format 'key1:value1, key2:value2'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dd_tags DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dd_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dd_tags DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dd_tags}
   */
   readonly ddTags?: string;
   /**
   * Proxy endpoint when logs are not directly forwarded to Datadog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * HTTP proxy, only takes effect if HTTP forwarding is enabled (use_http). Defaults to HTTP_PROXY/http_proxy env vars.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_proxy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_proxy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * Automatically include the Fluentd tag in the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#include_tag_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#include_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#include_tag_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#include_tag_key}
   */
   readonly includeTagKey?: boolean | cdktf.IResolvable;
   /**
   * The maximum time waited between each retry in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_backoff DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_backoff DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * The number of retries before the output plugin stops. Set to -1 for unlimited retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_retries DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_retries DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Disable SSL validation (useful for proxy forwarding)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#no_ssl_validation DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#no_ssl_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#no_ssl_validation DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#no_ssl_validation}
   */
   readonly noSslValidation?: boolean | cdktf.IResolvable;
   /**
   * Proxy port when logs are not directly forwarded to Datadog and ssl is not used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Used by Datadog to correlate between logs, traces and metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#service DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#service DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#service}
   */
   readonly service?: string;
   /**
   * Port used to send logs over a SSL encrypted connection to Datadog. If use_http is disabled, use 10516 for the US region and 443 for the EU region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_port}
   */
   readonly sslPort?: number;
   /**
   * Where to store the Fluentd tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tag_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tag_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Name of the attribute which will contain timestamp of the log event. If nil, timestamp attribute is not added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timestamp_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timestamp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timestamp_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timestamp_key}
   */
   readonly timestampKey?: string;
   /**
   * Enable log compression for HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_compression DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_compression DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_compression}
   */
   readonly useCompression?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTP forwarding. If you disable it, make sure to change the port to 10514 or ssl_port to 10516
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_http DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_http DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_http}
   */
   readonly useHttp?: boolean | cdktf.IResolvable;
   /**
   * Event format, if true, the event is sent in json format. Othwerwise, in plain text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_json DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_json DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_json}
   */
   readonly useJson?: boolean | cdktf.IResolvable;
   /**
   * If true, the agent initializes a secure connection to Datadog. In clear TCP otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_ssl DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_ssl DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
 }
@@ -5183,19 +5183,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5346,7 +5346,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchClientKeyPasswordValueFromSecretKeyRef;
 }
@@ -5442,7 +5442,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchClientKeyPasswordValueFrom;
 }
@@ -5538,19 +5538,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5701,7 +5701,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchCloudAuthValueFromSecretKeyRef;
 }
@@ -5797,7 +5797,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchCloudAuthValueFrom;
 }
@@ -5893,19 +5893,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6056,7 +6056,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchCloudIdValueFromSecretKeyRef;
 }
@@ -6152,7 +6152,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchCloudIdValueFrom;
 }
@@ -6248,19 +6248,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6411,7 +6411,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchPasswordValueFromSecretKeyRef;
 }
@@ -6507,7 +6507,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchPasswordValueFrom;
 }
@@ -6603,19 +6603,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6766,7 +6766,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchUserValueFromSecretKeyRef;
 }
@@ -6862,7 +6862,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchUserValueFrom;
 }
@@ -6958,181 +6958,181 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Optional, Absolute path to CA certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ca_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ca_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Optional, Absolute path to client Certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_cert DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_cert DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
   * Optional, Absolute path to client private Key file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_key}
   */
   readonly clientKey?: string;
   /**
   * Optional, password for ClientKey file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_key_password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_key_password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_key_password}
   */
   readonly clientKeyPassword?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchClientKeyPassword;
   /**
   * Authenticate towards Elastic Cloud using cloudAuth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_auth}
   */
   readonly cloudAuth?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchCloudAuth;
   /**
   * Authenticate towards Elastic Cloud using CloudId. If set, cloudAuth must be set as well and host, port, user and password are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_id}
   */
   readonly cloudId?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchCloudId;
   /**
   * Optional, Enable Index Lifecycle Management (ILM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#enable_ilm DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#enable_ilm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#enable_ilm DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#enable_ilm}
   */
   readonly enableIlm?: boolean | cdktf.IResolvable;
   /**
   * Optional, Indicates whether to fail when max_retry_putting_template is exceeded. If you have multiple output plugin, you could use this property to do not fail on fluentd statup (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#fail_on_putting_template_retry_exceeded DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#fail_on_putting_template_retry_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#fail_on_putting_template_retry_exceeded DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#fail_on_putting_template_retry_exceeded}
   */
   readonly failOnPuttingTemplateRetryExceeded?: boolean | cdktf.IResolvable;
   /**
   * The hostname of your Elasticsearch node (default: localhost).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Hosts defines a list of hosts if you want to connect to more than one Elasticsearch nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hosts DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hosts DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string;
   /**
   * Optional, Specify ILM policy contents as Hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy}
   */
   readonly ilmPolicy?: string;
   /**
   * Optional, Specify ILM policy id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy_id}
   */
   readonly ilmPolicyId?: string;
   /**
   * Optional, Specify whether overwriting ilm policy or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy_override DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy_override DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy_override}
   */
   readonly ilmPolicyOverride?: boolean | cdktf.IResolvable;
   /**
   * IndexName defines the placeholder syntax of Fluentd plugin API. See https://docs.fluentd.org/configuration/buffer-section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#index_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#index_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#index_name}
   */
   readonly indexName?: string;
   /**
   * Optional, Enable logging of 400 reason without enabling debug log level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_es400_reason DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_es400_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_es400_reason DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_es400_reason}
   */
   readonly logEs400Reason?: boolean | cdktf.IResolvable;
   /**
   * If true, Fluentd uses the conventional index name format logstash-%Y.%m.%d (default: false). This option supersedes the index_name option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#logstash_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#logstash_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#logstash_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#logstash_format}
   */
   readonly logstashFormat?: boolean | cdktf.IResolvable;
   /**
   * LogstashPrefix defines the logstash prefix index name to write events when logstash_format is true (default: logstash).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#logstash_prefix DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#logstash_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#logstash_prefix DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#logstash_prefix}
   */
   readonly logstashPrefix?: string;
   /**
   * Optional, You can specify times of retry putting template (default: 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_retry_putting_template DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_retry_putting_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_retry_putting_template DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_retry_putting_template}
   */
   readonly maxRetryPuttingTemplate?: number;
   /**
   * Optional, The login credentials to connect to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchPassword;
   /**
   * Path defines the REST API endpoint of Elasticsearch to post write requests (default: nil).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The port number of your Elasticsearch node (default: 9200).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Optional, Indicates that the plugin should reset connection on any error (reconnect on next send) (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reconnect_on_error DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reconnect_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reconnect_on_error DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reconnect_on_error}
   */
   readonly reconnectOnError?: boolean | cdktf.IResolvable;
   /**
   * Optional, Automatically reload connection after 10000 documents (default: true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reload_connections DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reload_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reload_connections DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reload_connections}
   */
   readonly reloadConnections?: boolean | cdktf.IResolvable;
   /**
   * Optional, Indicates that the elasticsearch-transport will try to reload the nodes addresses if there is a failure while making the request, this can be useful to quickly remove a dead node from the list of addresses (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reload_on_failure DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reload_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reload_on_failure DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reload_on_failure}
   */
   readonly reloadOnFailure?: boolean | cdktf.IResolvable;
   /**
   * Optional, HTTP Timeout (default: 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#request_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#request_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#request_timeout}
   */
   readonly requestTimeout?: string;
   /**
   * Specify https if your Elasticsearch endpoint supports SSL (default: http).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#scheme DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#scheme DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Optional, Force certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Optional, Suppress '[types removal]' warnings on elasticsearch 7.x
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#suppress_type_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#suppress_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#suppress_type_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#suppress_type_name}
   */
   readonly suppressTypeName?: boolean | cdktf.IResolvable;
   /**
   * Optional, Always update the template, even if it already exists (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#template_overwrite DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#template_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#template_overwrite DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#template_overwrite}
   */
   readonly templateOverwrite?: boolean | cdktf.IResolvable;
   /**
   * Optional, The login credentials to connect to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user}
   */
   readonly user?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchUser;
 }
@@ -8069,19 +8069,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8232,7 +8232,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamClientKeyPasswordValueFromSecretKeyRef;
 }
@@ -8328,7 +8328,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamClientKeyPasswordValueFrom;
 }
@@ -8424,19 +8424,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8587,7 +8587,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamCloudAuthValueFromSecretKeyRef;
 }
@@ -8683,7 +8683,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamCloudAuthValueFrom;
 }
@@ -8779,19 +8779,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8942,7 +8942,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamCloudIdValueFromSecretKeyRef;
 }
@@ -9038,7 +9038,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamCloudIdValueFrom;
 }
@@ -9134,19 +9134,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9297,7 +9297,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamPasswordValueFromSecretKeyRef;
 }
@@ -9393,7 +9393,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamPasswordValueFrom;
 }
@@ -9489,19 +9489,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9652,7 +9652,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamUserValueFromSecretKeyRef;
 }
@@ -9748,7 +9748,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamUserValueFrom;
 }
@@ -9844,199 +9844,199 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsE
   /**
   * Optional, Absolute path to CA certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ca_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ca_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Optional, Absolute path to client Certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_cert DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_cert DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
   * Optional, Absolute path to client private Key file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_key}
   */
   readonly clientKey?: string;
   /**
   * Optional, password for ClientKey file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_key_password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#client_key_password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#client_key_password}
   */
   readonly clientKeyPassword?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamClientKeyPassword;
   /**
   * Authenticate towards Elastic Cloud using cloudAuth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_auth}
   */
   readonly cloudAuth?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamCloudAuth;
   /**
   * Authenticate towards Elastic Cloud using CloudId. If set, cloudAuth must be set as well and host, port, user and password are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_id}
   */
   readonly cloudId?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamCloudId;
   /**
   * Optional, You can specify the name of an existing ILM policy, which will be applied to the data stream. If not present, it creates a new ILM default policy (unless data_stream_template_name is defined, in that case the ILM will be set to the one specified in the matching index template)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_ilm_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_ilm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_ilm_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_ilm_name}
   */
   readonly dataStreamIlmName?: string;
   /**
   * Optional, You can specify the ILM policy contents as hash. If not present, it will apply the ILM default policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_ilm_policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_ilm_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_ilm_policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_ilm_policy}
   */
   readonly dataStreamIlmPolicy?: string;
   /**
   * Optional, Specify whether the data stream ILM policy should be overwritten
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_ilm_policy_overwrite DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_ilm_policy_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_ilm_policy_overwrite DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_ilm_policy_overwrite}
   */
   readonly dataStreamIlmPolicyOverwrite?: boolean | cdktf.IResolvable;
   /**
   * You can specify Elasticsearch data stream name by this parameter. This parameter is mandatory for elasticsearch_data_stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_name}
   */
   readonly dataStreamName: string;
   /**
   * Optional, You can specify an existing matching index template for the data stream. If not present, it creates a new matching index template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_template_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_template_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_template_name}
   */
   readonly dataStreamTemplateName?: string;
   /**
   * Optional, Specify whether index patterns should include a wildcard (*) when creating an index template. This is particularly useful to prevent errors in scenarios where index templates are generated automatically, and multiple services with distinct suffixes are in use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_template_use_index_patterns_wildcard DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_template_use_index_patterns_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#data_stream_template_use_index_patterns_wildcard DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#data_stream_template_use_index_patterns_wildcard}
   */
   readonly dataStreamTemplateUseIndexPatternsWildcard?: boolean | cdktf.IResolvable;
   /**
   * Optional, Enable Index Lifecycle Management (ILM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#enable_ilm DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#enable_ilm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#enable_ilm DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#enable_ilm}
   */
   readonly enableIlm?: boolean | cdktf.IResolvable;
   /**
   * Optional, Indicates whether to fail when max_retry_putting_template is exceeded. If you have multiple output plugin, you could use this property to do not fail on fluentd statup (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#fail_on_putting_template_retry_exceeded DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#fail_on_putting_template_retry_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#fail_on_putting_template_retry_exceeded DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#fail_on_putting_template_retry_exceeded}
   */
   readonly failOnPuttingTemplateRetryExceeded?: boolean | cdktf.IResolvable;
   /**
   * The hostname of your Elasticsearch node (default: localhost).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Hosts defines a list of hosts if you want to connect to more than one Elasticsearch nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hosts DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hosts DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string;
   /**
   * Optional, Specify ILM policy contents as Hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy}
   */
   readonly ilmPolicy?: string;
   /**
   * Optional, Specify ILM policy id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy_id}
   */
   readonly ilmPolicyId?: string;
   /**
   * Optional, Specify whether overwriting ilm policy or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy_override DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ilm_policy_override DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ilm_policy_override}
   */
   readonly ilmPolicyOverride?: boolean | cdktf.IResolvable;
   /**
   * Optional, Enable logging of 400 reason without enabling debug log level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_es400_reason DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_es400_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_es400_reason DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_es400_reason}
   */
   readonly logEs400Reason?: boolean | cdktf.IResolvable;
   /**
   * Optional, You can specify times of retry putting template (default: 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_retry_putting_template DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_retry_putting_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#max_retry_putting_template DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#max_retry_putting_template}
   */
   readonly maxRetryPuttingTemplate?: number;
   /**
   * Optional, The login credentials to connect to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamPassword;
   /**
   * Path defines the REST API endpoint of Elasticsearch to post write requests (default: nil).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The port number of your Elasticsearch node (default: 9200).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Optional, Indicates that the plugin should reset connection on any error (reconnect on next send) (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reconnect_on_error DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reconnect_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reconnect_on_error DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reconnect_on_error}
   */
   readonly reconnectOnError?: boolean | cdktf.IResolvable;
   /**
   * Optional, Automatically reload connection after 10000 documents (default: true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reload_connections DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reload_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reload_connections DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reload_connections}
   */
   readonly reloadConnections?: boolean | cdktf.IResolvable;
   /**
   * Optional, Indicates that the elasticsearch-transport will try to reload the nodes addresses if there is a failure while making the request, this can be useful to quickly remove a dead node from the list of addresses (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reload_on_failure DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reload_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#reload_on_failure DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#reload_on_failure}
   */
   readonly reloadOnFailure?: boolean | cdktf.IResolvable;
   /**
   * Optional, HTTP Timeout (default: 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#request_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#request_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#request_timeout}
   */
   readonly requestTimeout?: string;
   /**
   * Specify https if your Elasticsearch endpoint supports SSL (default: http).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#scheme DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#scheme DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Optional, Force certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Optional, Suppress '[types removal]' warnings on elasticsearch 7.x
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#suppress_type_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#suppress_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#suppress_type_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#suppress_type_name}
   */
   readonly suppressTypeName?: boolean | cdktf.IResolvable;
   /**
   * Optional, Always update the template, even if it already exists (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#template_overwrite DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#template_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#template_overwrite DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#template_overwrite}
   */
   readonly templateOverwrite?: boolean | cdktf.IResolvable;
   /**
   * Optional, The login credentials to connect to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user}
   */
   readonly user?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStreamUser;
 }
@@ -11057,13 +11057,13 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Delimiter for each field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#delimiter DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#delimiter DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#delimiter}
   */
   readonly delimiter?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11072,67 +11072,67 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * If true, uses local time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#localtime DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#localtime DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Specify newline characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#newline DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#newline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#newline DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#newline}
   */
   readonly newline?: string;
   /**
   * Output tag field if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#output_tag DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#output_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#output_tag DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#output_tag}
   */
   readonly outputTag?: boolean | cdktf.IResolvable;
   /**
   * Output time field if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#output_time DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#output_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#output_time DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#output_time}
   */
   readonly outputTime?: boolean | cdktf.IResolvable;
   /**
   * Process value according to the specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Uses the specified time format as a fallback in the specified order. You can parse undetermined time format by using time_format_fallbacks. This options is enabled when time_type is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format_fallbacks}
   */
   readonly timeFormatFallbacks?: string;
   /**
   * parses/formats value according to this type, default is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_type}
   */
   readonly timeType?: string;
   /**
   * Uses the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timezone DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timezone DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * If true, uses UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#utc DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#utc DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#utc}
   */
   readonly utc?: boolean | cdktf.IResolvable;
 }
@@ -11576,19 +11576,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11739,7 +11739,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardSecurityUserPasswordValueFromSecretKeyRef;
 }
@@ -11835,7 +11835,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardSecurityUserPasswordValueFrom;
 }
@@ -11931,19 +11931,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12094,7 +12094,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardSecurityUserUsernameValueFromSecretKeyRef;
 }
@@ -12190,7 +12190,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardSecurityUserUsernameValueFrom;
 }
@@ -12286,13 +12286,13 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Secret defines the key of a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardSecurityUserPassword;
   /**
   * Secret defines the key of a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#username DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#username DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardSecurityUserUsername;
 }
@@ -12417,31 +12417,31 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Allows the anonymous source. <client> sections are required, if disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#allow_anonymous_source DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#allow_anonymous_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#allow_anonymous_source DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#allow_anonymous_source}
   */
   readonly allowAnonymousSource?: string;
   /**
   * The hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#self_hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#self_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#self_hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#self_hostname}
   */
   readonly selfHostname?: string;
   /**
   * The shared key for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#shared_key}
   */
   readonly sharedKey?: string;
   /**
   * Defines user section directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user}
   */
   readonly user?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardSecurityUser;
   /**
   * If true, user-based authentication is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user_auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user_auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user_auth}
   */
   readonly userAuth?: string;
 }
@@ -12653,19 +12653,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12816,7 +12816,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServersPasswordValueFromSecretKeyRef;
 }
@@ -12912,7 +12912,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServersPasswordValueFrom;
 }
@@ -13008,19 +13008,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13171,7 +13171,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServersUsernameValueFromSecretKeyRef;
 }
@@ -13267,7 +13267,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServersUsernameValueFrom;
 }
@@ -13363,13 +13363,13 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Host defines the IP address or host name of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -13378,55 +13378,55 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Name defines the name of the server. Used for logging and certificate verification in TLS transport (when the host is the address).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Password defines the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServersPassword;
   /**
   * Port defines the port number of the host. Note that both TCP packets (event stream) and UDP packets (heartbeat messages) are sent to this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * SharedKey defines the shared key per server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#shared_key}
   */
   readonly sharedKey?: string;
   /**
   * Standby marks a node as the standby node for an Active-Standby model between Fluentd nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#standby DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#standby DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#standby}
   */
   readonly standby?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Username defines the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#username DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#username DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServersUsername;
   /**
   * Weight defines the load balancing weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#weight DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#weight DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#weight}
   */
   readonly weight?: string;
 }
@@ -13834,19 +13834,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13997,7 +13997,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServiceDiscoveryServerPasswordValueFromSecretKeyRef;
 }
@@ -14093,7 +14093,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServiceDiscoveryServerPasswordValueFrom;
 }
@@ -14189,19 +14189,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14352,7 +14352,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServiceDiscoveryServerUsernameValueFromSecretKeyRef;
 }
@@ -14448,7 +14448,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServiceDiscoveryServerUsernameValueFrom;
 }
@@ -14544,13 +14544,13 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Host defines the IP address or host name of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -14559,55 +14559,55 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Name defines the name of the server. Used for logging and certificate verification in TLS transport (when the host is the address).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Password defines the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServiceDiscoveryServerPassword;
   /**
   * Port defines the port number of the host. Note that both TCP packets (event stream) and UDP packets (heartbeat messages) are sent to this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * SharedKey defines the shared key per server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#shared_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#shared_key}
   */
   readonly sharedKey?: string;
   /**
   * Standby marks a node as the standby node for an Active-Standby model between Fluentd nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#standby DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#standby DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#standby}
   */
   readonly standby?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Username defines the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#username DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#username DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServiceDiscoveryServerUsername;
   /**
   * Weight defines the load balancing weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#weight DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#weight DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#weight}
   */
   readonly weight?: string;
 }
@@ -14993,31 +14993,31 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * The encoding of the configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#conf_encoding DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#conf_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#conf_encoding DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#conf_encoding}
   */
   readonly confEncoding?: string;
   /**
   * DnsLookup resolves the hostname to IP address of the SRV's Target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dns_lookup DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dns_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dns_lookup DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dns_lookup}
   */
   readonly dnsLookup?: string;
   /**
   * DnsServerHost defines the hostname of the DNS server to request the SRV record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dns_server_host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dns_server_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dns_server_host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dns_server_host}
   */
   readonly dnsServerHost?: string;
   /**
   * The name in RFC2782.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -15026,43 +15026,43 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * Interval defines the interval of sending requests to DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#interval DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#interval DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * The path of the target list. Default is '/etc/fluent/sd.yaml'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Proto without the underscore in RFC2782.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#proto DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#proto DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#proto}
   */
   readonly proto?: string;
   /**
   * The server section of this plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#server DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#server DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServiceDiscoveryServer;
   /**
   * Service without the underscore in RFC2782.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#service DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#service DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#service}
   */
   readonly service?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -15474,187 +15474,187 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsF
   /**
   * This option is used when require_ack_response is true. This default value is based on popular tcp_syn_retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ack_response_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ack_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ack_response_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ack_response_timeout}
   */
   readonly ackResponseTimeout?: string;
   /**
   * The connection timeout for the socket. When the connection is timed out during the connection establishment, Errno::ETIMEDOUT error is raised.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#connect_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#connect_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * Enable client-side DNS round robin. Uniform randomly pick an IP address to send data when a hostname has several IP addresses. heartbeat_type udp is not available with dns_round_robintrue. Use heartbeat_type tcp or heartbeat_type none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dns_round_robin DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dns_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#dns_round_robin DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#dns_round_robin}
   */
   readonly dnsRoundRobin?: boolean | cdktf.IResolvable;
   /**
   * Sets TTL to expire DNS cache in seconds. Set 0 not to use DNS Cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#expire_dns_cache DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#expire_dns_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#expire_dns_cache DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#expire_dns_cache}
   */
   readonly expireDnsCache?: string;
   /**
   * The hard timeout used to detect server failure. The default value is equal to the send_timeout parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hard_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hard_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hard_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hard_timeout}
   */
   readonly hardTimeout?: string;
   /**
   * The interval of the heartbeat packer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#heartbeat_interval DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#heartbeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#heartbeat_interval DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#heartbeat_interval}
   */
   readonly heartbeatInterval?: string;
   /**
   * Specifies the transport protocol for heartbeats. Set none to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#heartbeat_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#heartbeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#heartbeat_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#heartbeat_type}
   */
   readonly heartbeatType?: string;
   /**
   * Ignores DNS resolution and errors at startup time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ignore_network_errors_at_startup DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ignore_network_errors_at_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ignore_network_errors_at_startup DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ignore_network_errors_at_startup}
   */
   readonly ignoreNetworkErrorsAtStartup?: boolean | cdktf.IResolvable;
   /**
   * Enables the keepalive connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#keepalive DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#keepalive DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#keepalive}
   */
   readonly keepalive?: boolean | cdktf.IResolvable;
   /**
   * Timeout for keepalive. Default value is nil which means to keep the connection alive as long as possible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#keepalive_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#keepalive_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#keepalive_timeout}
   */
   readonly keepaliveTimeout?: string;
   /**
   * Use the 'Phi accrual failure detector' to detect server failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#phi_failure_detector DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#phi_failure_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#phi_failure_detector DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#phi_failure_detector}
   */
   readonly phiFailureDetector?: boolean | cdktf.IResolvable;
   /**
   * The threshold parameter used to detect server faults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#phi_threshold DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#phi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#phi_threshold DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#phi_threshold}
   */
   readonly phiThreshold?: number;
   /**
   * The wait time before accepting a server fault recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#recover_wait DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#recover_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#recover_wait DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#recover_wait}
   */
   readonly recoverWait?: string;
   /**
   * Changes the protocol to at-least-once. The plugin waits the ack from destination's in_forward plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#require_ack_response DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#require_ack_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#require_ack_response DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#require_ack_response}
   */
   readonly requireAckResponse?: boolean | cdktf.IResolvable;
   /**
   * ServiceDiscovery defines the security section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#security DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#security DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#security}
   */
   readonly security?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardSecurity;
   /**
   * The timeout time when sending event logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#send_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#send_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#send_timeout}
   */
   readonly sendTimeout?: string;
   /**
   * Servers defines the servers section, at least one is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#servers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#servers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#servers}
   */
   readonly servers: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServers[] | cdktf.IResolvable;
   /**
   * ServiceDiscovery defines the service_discovery section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#service_discovery DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#service_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#service_discovery DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#service_discovery}
   */
   readonly serviceDiscovery?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForwardServiceDiscovery;
   /**
   * Allows self-signed certificates or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_allow_self_signed_cert DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_allow_self_signed_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_allow_self_signed_cert DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_allow_self_signed_cert}
   */
   readonly tlsAllowSelfSignedCert?: boolean | cdktf.IResolvable;
   /**
   * The certificate logical store name on Windows system certstore. This parameter is for Windows only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_cert_logical_store_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_cert_logical_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_cert_logical_store_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_cert_logical_store_name}
   */
   readonly tlsCertLogicalStoreName?: string;
   /**
   * The additional CA certificate path for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_cert_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_cert_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_cert_path}
   */
   readonly tlsCertPath?: string;
   /**
   * The certificate thumbprint for searching from Windows system certstore. This parameter is for Windows only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_cert_thumbprint DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_cert_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_cert_thumbprint DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_cert_thumbprint}
   */
   readonly tlsCertThumbprint?: string;
   /**
   * Enables the certificate enterprise store on Windows system certstore. This parameter is for Windows only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_cert_use_enterprise_store DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_cert_use_enterprise_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_cert_use_enterprise_store DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_cert_use_enterprise_store}
   */
   readonly tlsCertUseEnterpriseStore?: boolean | cdktf.IResolvable;
   /**
   * The cipher configuration of TLS transport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_ciphers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_ciphers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_ciphers}
   */
   readonly tlsCiphers?: string;
   /**
   * The client certificate path for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_cert_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_cert_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_cert_path}
   */
   readonly tlsClientCertPath?: string;
   /**
   * The TLS private key passphrase for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_private_key_passphrase DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_private_key_passphrase DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_private_key_passphrase}
   */
   readonly tlsClientPrivateKeyPassphrase?: string;
   /**
   * The client private key path for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_private_key_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_private_key_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_private_key_path}
   */
   readonly tlsClientPrivateKeyPath?: string;
   /**
   * Skips all verification of certificates or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_insecure_mode DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_insecure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_insecure_mode DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_insecure_mode}
   */
   readonly tlsInsecureMode?: boolean | cdktf.IResolvable;
   /**
   * Verifies hostname of servers and certificates or not in TLS transport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_verify_hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_verify_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_verify_hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_verify_hostname}
   */
   readonly tlsVerifyHostname?: boolean | cdktf.IResolvable;
   /**
   * The default version of TLS transport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_version DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_version DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_version}
   */
   readonly tlsVersion?: string;
   /**
   * Verify that a connection can be made with one of out_forward nodes at the time of startup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#verify_connection_at_startup DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#verify_connection_at_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#verify_connection_at_startup DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#verify_connection_at_startup}
   */
   readonly verifyConnectionAtStartup?: boolean | cdktf.IResolvable;
 }
@@ -16617,19 +16617,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsH
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16780,7 +16780,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsH
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsHttpAuthPasswordValueFromSecretKeyRef;
 }
@@ -16876,7 +16876,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsH
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsHttpAuthPasswordValueFrom;
 }
@@ -16972,19 +16972,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsH
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17135,7 +17135,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsH
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsHttpAuthUsernameValueFromSecretKeyRef;
 }
@@ -17231,7 +17231,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsH
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsHttpAuthUsernameValueFrom;
 }
@@ -17327,19 +17327,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsH
   /**
   * The method for HTTP authentication. Now only basic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#auth}
   */
   readonly auth?: string;
   /**
   * The password for basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsHttpAuthPassword;
   /**
   * The username for basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#username DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#username DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsHttpAuthUsername;
 }
@@ -17493,121 +17493,121 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsH
   /**
   * Auth section for this plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#auth DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsHttpAuth;
   /**
   * ContentType defines Content-Type for HTTP request. out_http automatically set Content-Type for built-in formatters when this parameter is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#content_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#content_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * Endpoint defines the endpoint for HTTP request. If you want to use HTTPS, use https prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#endpoint DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#endpoint DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Raise UnrecoverableError when the response code is not SUCCESS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#error_response_as_unrecoverable DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#error_response_as_unrecoverable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#error_response_as_unrecoverable DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#error_response_as_unrecoverable}
   */
   readonly errorResponseAsUnrecoverable?: boolean | cdktf.IResolvable;
   /**
   * Headers defines the additional headers for HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#headers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#headers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#headers}
   */
   readonly headers?: string;
   /**
   * Additional placeholder based headers for HTTP request. If you want to use tag or record field, use this parameter instead of headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#headers_from_placeholders DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#headers_from_placeholders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#headers_from_placeholders DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#headers_from_placeholders}
   */
   readonly headersFromPlaceholders?: string;
   /**
   * HttpMethod defines the method for HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_method DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_method DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_method}
   */
   readonly httpMethod?: string;
   /**
   * JsonArray defines whether to use the array format of JSON or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#json_array DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#json_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#json_array DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#json_array}
   */
   readonly jsonArray?: boolean | cdktf.IResolvable;
   /**
   * OpenTimeout defines the connection open timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#open_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#open_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#open_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#open_timeout}
   */
   readonly openTimeout?: number;
   /**
   * Proxy defines the proxy for HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#proxy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#proxy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#proxy}
   */
   readonly proxy?: string;
   /**
   * ReadTimeout defines the read timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#read_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#read_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#read_timeout}
   */
   readonly readTimeout?: number;
   /**
   * The list of retryable response codes. If the response code is included in this list, out_http retries the buffer flush.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retryable_response_codes DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retryable_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#retryable_response_codes DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#retryable_response_codes}
   */
   readonly retryableResponseCodes?: string;
   /**
   * SslTimeout defines the TLS timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_timeout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_timeout}
   */
   readonly sslTimeout?: number;
   /**
   * TlsCaCertPath defines the CA certificate path for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_ca_cert_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_ca_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_ca_cert_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_ca_cert_path}
   */
   readonly tlsCaCertPath?: string;
   /**
   * TlsCiphers defines the cipher suites configuration of TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_ciphers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_ciphers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_ciphers}
   */
   readonly tlsCiphers?: string;
   /**
   * TlsClientCertPath defines the client certificate path for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_cert_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_cert_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_cert_path}
   */
   readonly tlsClientCertPath?: string;
   /**
   * TlsPrivateKeyPassphrase defines the client private key passphrase for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_private_key_passphrase DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_private_key_passphrase DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_private_key_passphrase}
   */
   readonly tlsPrivateKeyPassphrase?: string;
   /**
   * TlsPrivateKeyPath defines the client private key path for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_private_key_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_private_key_path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_private_key_path}
   */
   readonly tlsPrivateKeyPath?: string;
   /**
   * TlsVerifyMode defines the verify mode of TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_verify_mode DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_verify_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_verify_mode DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_verify_mode}
   */
   readonly tlsVerifyMode?: string;
   /**
   * TlsVersion defines the default version of TLS transport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_version DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_version DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_version}
   */
   readonly tlsVersion?: string;
 }
@@ -18254,37 +18254,37 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsI
   /**
   * If true, uses local time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#localtime DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#localtime DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
   * Process value according to the specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Uses the specified time format as a fallback in the specified order. You can parse undetermined time format by using time_format_fallbacks. This options is enabled when time_type is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_format_fallbacks}
   */
   readonly timeFormatFallbacks?: string;
   /**
   * parses/formats value according to this type, default is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_type DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_type}
   */
   readonly timeType?: string;
   /**
   * Uses the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timezone DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#timezone DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * If true, uses UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#utc DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#utc DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#utc}
   */
   readonly utc?: boolean | cdktf.IResolvable;
 }
@@ -18525,37 +18525,37 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsI
   /**
   * Hostname value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hostname DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The field name to inject hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hostname_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hostname_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hostname_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hostname_key}
   */
   readonly hostnameKey?: string;
   /**
   * Time section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#inline DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#inline DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsInjectInline;
   /**
   * The field name to inject tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tag_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tag_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tag_key}
   */
   readonly tagKey?: string;
   /**
   * The field name to inject time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * The field name to inject worker_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#worker_id_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#worker_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#worker_id_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#worker_id_key}
   */
   readonly workerIdKey?: string;
 }
@@ -18796,37 +18796,37 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsK
   /**
   * The list of all seed brokers, with their host and port information. Default: localhost:9092
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#brokers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#brokers DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#brokers}
   */
   readonly brokers?: string;
   /**
   * The codec the producer uses to compress messages (default: nil).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#compression_codec DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#compression_codec DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#compression_codec}
   */
   readonly compressionCodec?: string;
   /**
   * The name of the default topic. (default: nil)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#default_topic DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#default_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#default_topic DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#default_topic}
   */
   readonly defaultTopic?: string;
   /**
   * The number of acks required per request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#required_acks DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#required_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#required_acks DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#required_acks}
   */
   readonly requiredAcks?: number;
   /**
   * The field name for the target topic. If the field value is app, this plugin writes events to the app topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#topic_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#topic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#topic_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#topic_key}
   */
   readonly topicKey?: string;
   /**
   * Set fluentd event time to Kafka's CreateTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_event_time DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_event_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_event_time DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_event_time}
   */
   readonly useEventTime?: boolean | cdktf.IResolvable;
 }
@@ -19067,19 +19067,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19230,7 +19230,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiHttpPasswordValueFromSecretKeyRef;
 }
@@ -19326,7 +19326,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiHttpPasswordValueFrom;
 }
@@ -19422,19 +19422,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19585,7 +19585,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiHttpUserValueFromSecretKeyRef;
 }
@@ -19681,7 +19681,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiHttpUserValueFrom;
 }
@@ -19777,19 +19777,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19940,7 +19940,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiTenantIdValueFromSecretKeyRef;
 }
@@ -20036,7 +20036,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiTenantIdValueFrom;
 }
@@ -20132,97 +20132,97 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsL
   /**
   * Set path to file with bearer authentication token Can be used as alterntative to HTTP basic authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#bearer_token_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#bearer_token_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * If a record only has 1 key, then just set the log line to the value and discard the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#drop_single_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#drop_single_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#drop_single_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#drop_single_key}
   */
   readonly dropSingleKey?: boolean | cdktf.IResolvable;
   /**
   * If set to true, it will add all Kubernetes labels to the Stream labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#extract_kubernetes_labels DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#extract_kubernetes_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#extract_kubernetes_labels DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#extract_kubernetes_labels}
   */
   readonly extractKubernetesLabels?: boolean | cdktf.IResolvable;
   /**
   * Password for user defined in HTTP_User Set HTTP basic authentication password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_password}
   */
   readonly httpPassword?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiHttpPassword;
   /**
   * Set HTTP basic authentication user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http_user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http_user}
   */
   readonly httpUser?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiHttpUser;
   /**
   * Whether or not to include the fluentd_thread label when multiple threads are used for flushing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#include_thread_label DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#include_thread_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#include_thread_label DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#include_thread_label}
   */
   readonly includeThreadLabel?: boolean | cdktf.IResolvable;
   /**
   * Disable certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#insecure DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#insecure DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Optional list of record keys that will be placed as stream labels. This configuration property is for records key only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#label_keys DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#label_keys DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#label_keys}
   */
   readonly labelKeys?: string[];
   /**
   * Stream labels for API request. It can be multiple comma separated of strings specifying key=value pairs. In addition to fixed parameters, it also allows to add custom record keys (similar to label_keys property).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#labels DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#labels DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#labels}
   */
   readonly labels?: string[];
   /**
   * Format to use when flattening the record to a log line. Valid values are json or key_value. If set to json, the log line sent to Loki will be the Fluentd record dumped as JSON. If set to key_value, the log line will be each item in the record concatenated together (separated by a single space) in the format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#line_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#line_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#line_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#line_format}
   */
   readonly lineFormat?: string;
   /**
   * Optional list of record keys that will be removed from stream labels. This configuration property is for records key only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_keys DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#remove_keys DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#remove_keys}
   */
   readonly removeKeys?: string[];
   /**
   * Tenant ID used by default to push logs to Loki. If omitted or empty it assumes Loki is running in single-tenant mode and no X-Scope-OrgID header is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tenant_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tenant_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLokiTenantId;
   /**
   * TlsCaCert defines the CA certificate file for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_ca_cert_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_ca_cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_ca_cert_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_ca_cert_file}
   */
   readonly tlsCaCertFile?: string;
   /**
   * TlsClientCert defines the client certificate file for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_cert_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_client_cert_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_client_cert_file}
   */
   readonly tlsClientCertFile?: string;
   /**
   * TlsPrivateKey defines the client private key file for TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_private_key_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_private_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tls_private_key_file DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tls_private_key_file}
   */
   readonly tlsPrivateKeyFile?: string;
   /**
   * Loki URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#url DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#url DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -20750,19 +20750,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsO
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20913,7 +20913,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsO
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsOpensearchPasswordValueFromSecretKeyRef;
 }
@@ -21009,7 +21009,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsO
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsOpensearchPasswordValueFrom;
 }
@@ -21105,19 +21105,19 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsO
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#optional DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21268,7 +21268,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsO
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#secret_key_ref DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsOpensearchUserValueFromSecretKeyRef;
 }
@@ -21364,7 +21364,7 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsO
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#value_from DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsOpensearchUserValueFrom;
 }
@@ -21460,67 +21460,67 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsO
   /**
   * The hostname of your Opensearch node (default: localhost).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#host DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Hosts defines a list of hosts if you want to connect to more than one Openearch nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hosts DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#hosts DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string;
   /**
   * IndexName defines the placeholder syntax of Fluentd plugin API. See https://docs.fluentd.org/configuration/buffer-section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#index_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#index_name DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#index_name}
   */
   readonly indexName?: string;
   /**
   * If true, Fluentd uses the conventional index name format logstash-%Y.%m.%d (default: false). This option supersedes the index_name option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#logstash_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#logstash_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#logstash_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#logstash_format}
   */
   readonly logstashFormat?: boolean | cdktf.IResolvable;
   /**
   * LogstashPrefix defines the logstash prefix index name to write events when logstash_format is true (default: logstash).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#logstash_prefix DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#logstash_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#logstash_prefix DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#logstash_prefix}
   */
   readonly logstashPrefix?: string;
   /**
   * Optional, The login credentials to connect to Opensearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#password DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsOpensearchPassword;
   /**
   * Path defines the REST API endpoint of Opensearch to post write requests (default: nil).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The port number of your Opensearch node (default: 9200).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#port DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Specify https if your Opensearch endpoint supports SSL (default: http).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#scheme DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#scheme DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Optional, Force certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Optional, The login credentials to connect to Opensearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#user DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#user}
   */
   readonly user?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsOpensearchUser;
 }
@@ -21906,103 +21906,103 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsS
   /**
   * The AWS access key id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_key_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_key_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_key_id}
   */
   readonly awsKeyId?: string;
   /**
   * The AWS secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sec_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#aws_sec_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#aws_sec_key}
   */
   readonly awsSecKey?: string;
   /**
   * This prevents AWS SDK from breaking endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#force_path_style DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#force_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#force_path_style DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#force_path_style}
   */
   readonly forcePathStyle?: boolean | cdktf.IResolvable;
   /**
   * The path prefix of the files on S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#path DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#proxy_uri DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#proxy_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#proxy_uri DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#proxy_uri}
   */
   readonly proxyUri?: string;
   /**
   * The Amazon S3 bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3_bucket DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3_bucket DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
   * The endpoint URL (like 'http://localhost:9000/')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3_endpoint DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3_endpoint DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3_endpoint}
   */
   readonly s3Endpoint?: string;
   /**
   * The actual S3 path. This is interpolated to the actual path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3_object_key_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3_object_key_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3_object_key_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3_object_key_format}
   */
   readonly s3ObjectKeyFormat?: string;
   /**
   * The Amazon S3 region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3_region DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3_region DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3_region}
   */
   readonly s3Region?: string;
   /**
   * The AWS KMS enctyption algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#sse_customer_algorithm DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#sse_customer_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#sse_customer_algorithm DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#sse_customer_algorithm}
   */
   readonly sseCustomerAlgorithm?: string;
   /**
   * The AWS KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#sse_customer_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#sse_customer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#sse_customer_key DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#sse_customer_key}
   */
   readonly sseCustomerKey?: string;
   /**
   * The AWS KMS key MD5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#sse_customer_key_md5 DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#sse_customer_key_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#sse_customer_key_md5 DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#sse_customer_key_md5}
   */
   readonly sseCustomerKeyMd5?: string;
   /**
   * The AWS KMS key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssekms_key_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssekms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssekms_key_id DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssekms_key_id}
   */
   readonly ssekmsKeyId?: string;
   /**
   * Verify the SSL certificate of the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify_peer DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#ssl_verify_peer DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#ssl_verify_peer}
   */
   readonly sslVerifyPeer?: boolean | cdktf.IResolvable;
   /**
   * The compression type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#store_as DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#store_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#store_as DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#store_as}
   */
   readonly storeAs?: string;
   /**
   * This timestamp is added to each file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_slice_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_slice_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#time_slice_format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#time_slice_format}
   */
   readonly timeSliceFormat?: string;
   /**
   * the following parameters are for S3 kms https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_server_side_encryption DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#use_server_side_encryption DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#use_server_side_encryption}
   */
   readonly useServerSideEncryption?: string;
 }
@@ -22562,109 +22562,109 @@ export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputs 
   /**
   * buffer section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#buffer DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#buffer DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#buffer}
   */
   readonly buffer?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsBuffer;
   /**
   * out_cloudwatch plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_watch DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#cloud_watch DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#cloud_watch}
   */
   readonly cloudWatch?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCloudWatch;
   /**
   * copy plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#copy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#copy DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#copy}
   */
   readonly copy?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCopy;
   /**
   * Custom plugin type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#custom_plugin DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#custom_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#custom_plugin DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#custom_plugin}
   */
   readonly customPlugin?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsCustomPlugin;
   /**
   * datadog plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#datadog DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#datadog DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#datadog}
   */
   readonly datadog?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsDatadog;
   /**
   * out_es plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#elasticsearch DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#elasticsearch DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#elasticsearch}
   */
   readonly elasticsearch?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearch;
   /**
   * out_es datastreams plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#elasticsearch_data_stream DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#elasticsearch_data_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#elasticsearch_data_stream DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#elasticsearch_data_stream}
   */
   readonly elasticsearchDataStream?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsElasticsearchDataStream;
   /**
   * format section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#format DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#format}
   */
   readonly format?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsFormat;
   /**
   * out_forward plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#forward DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#forward DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#forward}
   */
   readonly forward?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsForward;
   /**
   * out_http plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#http DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsHttp;
   /**
   * inject section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#inject DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#inject DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#inject}
   */
   readonly inject?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsInject;
   /**
   * out_kafka plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#kafka DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#kafka DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#kafka}
   */
   readonly kafka?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsKafka;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#log_level DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * out_loki plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#loki DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#loki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#loki DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#loki}
   */
   readonly loki?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsLoki;
   /**
   * out_opensearch plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#opensearch DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#opensearch DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#opensearch}
   */
   readonly opensearch?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsOpensearch;
   /**
   * out_s3 plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3 DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#s3 DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsS3;
   /**
   * out_stdout plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#stdout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#stdout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#stdout DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#stdout}
   */
   readonly stdout?: { [key: string]: string };
   /**
   * Which tag to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tag DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#tag DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -23273,7 +23273,7 @@ export class DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputsList 
 }
 export interface DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#outputs DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#outputs DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputs[] | cdktf.IResolvable;
 }
@@ -23367,7 +23367,7 @@ export class DataK8SFluentdFluentIoClusterOutputV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest k8s_fluentd_fluent_io_cluster_output_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest k8s_fluentd_fluent_io_cluster_output_v1alpha1_manifest}
 */
 export class DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -23383,7 +23383,7 @@ export class DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -23395,7 +23395,7 @@ export class DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest k8s_fluentd_fluent_io_cluster_output_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/fluentd_fluent_io_cluster_output_v1alpha1_manifest k8s_fluentd_fluent_io_cluster_output_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -23406,8 +23406,8 @@ export class DataK8SFluentdFluentIoClusterOutputV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_fluentd_fluent_io_cluster_output_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

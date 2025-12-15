@@ -7,6 +7,7 @@ Object.defineProperty(exports, 'logspipeline', { get: function () { return requi
 Object.defineProperty(exports, 'metricsaggregation', { get: function () { return require('./metricsaggregation'); } });
 Object.defineProperty(exports, 'monitor', { get: function () { return require('./monitor'); } });
 Object.defineProperty(exports, 'policy', { get: function () { return require('./policy'); } });
+Object.defineProperty(exports, 'secret', { get: function () { return require('./secret'); } });
 Object.defineProperty(exports, 'serviceaccount', { get: function () { return require('./serviceaccount'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

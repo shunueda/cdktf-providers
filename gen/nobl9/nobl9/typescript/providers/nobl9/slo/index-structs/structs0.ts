@@ -3,13 +3,13 @@ export interface SloAnomalyConfigNoDataAlertMethod {
   /**
   * The name of the previously defined alert method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Project name the Alert Method is in,  must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names). If not defined, Nobl9 returns a default value for this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project Slo#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project Slo#project}
   */
   readonly project: string;
 }
@@ -150,13 +150,13 @@ export interface SloAnomalyConfigNoData {
   /**
   * Specifies the duration to wait after receiving no data before triggering an alert. The value must be a valid Go duration string, such as "1h" for one hour. If not specified, the system defaults to "15m" (15 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#alert_after Slo#alert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#alert_after Slo#alert_after}
   */
   readonly alertAfter?: string;
   /**
   * alert_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#alert_method Slo#alert_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#alert_method Slo#alert_method}
   */
   readonly alertMethod?: SloAnomalyConfigNoDataAlertMethod[] | cdktf.IResolvable;
 }
@@ -303,7 +303,7 @@ export interface SloAnomalyConfig {
   /**
   * no_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#no_data Slo#no_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#no_data Slo#no_data}
   */
   readonly noData?: SloAnomalyConfigNoData[] | cdktf.IResolvable;
 }
@@ -421,13 +421,13 @@ export interface SloAttachment {
   /**
   * Name displayed for the attachment. Max. length: 63 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#display_name Slo#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#display_name Slo#display_name}
   */
   readonly displayName?: string;
   /**
   * URL to the attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#url Slo#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#url Slo#url}
   */
   readonly url: string;
 }
@@ -571,13 +571,13 @@ export interface SloCompositeBurnRateCondition {
   /**
   * Type of logical operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#op Slo#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#op Slo#op}
   */
   readonly op: string;
   /**
   * Burn rate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#value Slo#value}
   */
   readonly value: number;
 }
@@ -718,13 +718,13 @@ export interface SloComposite {
   /**
   * The numeric target for your objective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#target Slo#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#target Slo#target}
   */
   readonly target: number;
   /**
   * burn_rate_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#burn_rate_condition Slo#burn_rate_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#burn_rate_condition Slo#burn_rate_condition}
   */
   readonly burnRateCondition?: SloCompositeBurnRateCondition[] | cdktf.IResolvable;
 }
@@ -868,19 +868,19 @@ export interface SloIndicator {
   /**
   * Kind of the metric source. One of {Agent, Direct}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#kind Slo#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#kind Slo#kind}
   */
   readonly kind?: string;
   /**
   * Name of the metric source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Name of the metric source project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project Slo#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project Slo#project}
   */
   readonly project?: string;
 }
@@ -1053,13 +1053,13 @@ export interface SloLabel {
   /**
   * A key for the label, unique within the associated resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#key Slo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#key Slo#key}
   */
   readonly key: string;
   /**
   * A set of values for a single key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#values Slo#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#values Slo#values}
   */
   readonly values: string[];
 }
@@ -1200,31 +1200,31 @@ export interface SloObjectiveCompositeComponentsObjectivesCompositeObjective {
   /**
   * SLO objective name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#objective Slo#objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#objective Slo#objective}
   */
   readonly objective: string;
   /**
   * Project name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project Slo#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project Slo#project}
   */
   readonly project: string;
   /**
   * SLO name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#slo Slo#slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#slo Slo#slo}
   */
   readonly slo: string;
   /**
   * Weights determine each component's contribution to the composite SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#weight Slo#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#weight Slo#weight}
   */
   readonly weight: number;
   /**
   * Defines how to treat missing component data on `max_delay` expiry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#when_delayed Slo#when_delayed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#when_delayed Slo#when_delayed}
   */
   readonly whenDelayed: string;
 }
@@ -1443,7 +1443,7 @@ export interface SloObjectiveCompositeComponentsObjectives {
   /**
   * composite_objective block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#composite_objective Slo#composite_objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#composite_objective Slo#composite_objective}
   */
   readonly compositeObjective?: SloObjectiveCompositeComponentsObjectivesCompositeObjective[] | cdktf.IResolvable;
 }
@@ -1561,7 +1561,7 @@ export interface SloObjectiveCompositeComponents {
   /**
   * objectives block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#objectives Slo#objectives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#objectives Slo#objectives}
   */
   readonly objectives?: SloObjectiveCompositeComponentsObjectives[] | cdktf.IResolvable;
 }
@@ -1679,13 +1679,13 @@ export interface SloObjectiveComposite {
   /**
   * Maximum time for your composite SLO to wait for data from objectives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#max_delay Slo#max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#max_delay Slo#max_delay}
   */
   readonly maxDelay: string;
   /**
   * components block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#components Slo#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#components Slo#components}
   */
   readonly components?: SloObjectiveCompositeComponents[] | cdktf.IResolvable;
 }
@@ -1829,7 +1829,7 @@ export interface SloObjectiveCountMetricsBadAmazonPrometheus {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -1944,13 +1944,13 @@ export interface SloObjectiveCountMetricsBadAppdynamics {
   /**
   * Name of the added application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#application_name Slo#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#application_name Slo#application_name}
   */
   readonly applicationName: string;
   /**
   * Path to the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_path Slo#metric_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_path Slo#metric_path}
   */
   readonly metricPath: string;
 }
@@ -2091,13 +2091,13 @@ export interface SloObjectiveCountMetricsBadAzureMonitorDimensions {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#value Slo#value}
   */
   readonly value: string;
 }
@@ -2238,19 +2238,19 @@ export interface SloObjectiveCountMetricsBadAzureMonitorWorkspace {
   /**
   * Resource group of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#resource_group Slo#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#resource_group Slo#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * Subscription ID of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#subscription_id Slo#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#subscription_id Slo#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * ID of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#workspace_id Slo#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#workspace_id Slo#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -2417,49 +2417,49 @@ export interface SloObjectiveCountMetricsBadAzureMonitor {
   /**
   * Aggregation type [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#aggregation Slo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#aggregation Slo#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Specifies source: 'metrics' or 'logs'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#data_type Slo#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#data_type Slo#data_type}
   */
   readonly dataType: string;
   /**
   * Logs query in Kusto Query Language [Required for logs]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#kql_query Slo#kql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#kql_query Slo#kql_query}
   */
   readonly kqlQuery?: string;
   /**
   * Name of the metric [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_name Slo#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_name Slo#metric_name}
   */
   readonly metricName?: string;
   /**
   * Namespace of the metric [Optional for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_namespace Slo#metric_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_namespace Slo#metric_namespace}
   */
   readonly metricNamespace?: string;
   /**
   * Identifier of the Azure Cloud resource [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#resource_id Slo#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#resource_id Slo#resource_id}
   */
   readonly resourceId?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#dimensions Slo#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#dimensions Slo#dimensions}
   */
   readonly dimensions?: SloObjectiveCountMetricsBadAzureMonitorDimensions[] | cdktf.IResolvable;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#workspace Slo#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#workspace Slo#workspace}
   */
   readonly workspace?: SloObjectiveCountMetricsBadAzureMonitorWorkspace[] | cdktf.IResolvable;
 }
@@ -2777,7 +2777,7 @@ export interface SloObjectiveCountMetricsBadAzurePrometheus {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -2892,19 +2892,19 @@ export interface SloObjectiveCountMetricsBadBigquery {
   /**
   * Location of you BigQuery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#location Slo#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#location Slo#location}
   */
   readonly location: string;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project_id Slo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project_id Slo#project_id}
   */
   readonly projectId: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -3071,13 +3071,13 @@ export interface SloObjectiveCountMetricsBadCloudwatchDimensions {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#value Slo#value}
   */
   readonly value: string;
 }
@@ -3218,49 +3218,49 @@ export interface SloObjectiveCountMetricsBadCloudwatch {
   /**
   * AccountID used with cross-account observability feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#account_id Slo#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#account_id Slo#account_id}
   */
   readonly accountId?: string;
   /**
   * JSON query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#json Slo#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#json Slo#json}
   */
   readonly json?: string;
   /**
   * Metric name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_name Slo#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_name Slo#metric_name}
   */
   readonly metricName?: string;
   /**
   * Namespace of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#namespace Slo#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#namespace Slo#namespace}
   */
   readonly namespace?: string;
   /**
   * Region of the CloudWatch instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#region Slo#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#region Slo#region}
   */
   readonly region: string;
   /**
   * SQL query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#sql Slo#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#sql Slo#sql}
   */
   readonly sql?: string;
   /**
   * Metric data aggregations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#stat Slo#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#stat Slo#stat}
   */
   readonly stat?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#dimensions Slo#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#dimensions Slo#dimensions}
   */
   readonly dimensions?: SloObjectiveCountMetricsBadCloudwatchDimensions[] | cdktf.IResolvable;
 }
@@ -3578,7 +3578,7 @@ export interface SloObjectiveCountMetricsBadCoralogix {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -3693,7 +3693,7 @@ export interface SloObjectiveCountMetricsBadDatadog {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -3808,7 +3808,7 @@ export interface SloObjectiveCountMetricsBadDynatrace {
   /**
   * Selector for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_selector Slo#metric_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_selector Slo#metric_selector}
   */
   readonly metricSelector: string;
 }
@@ -3923,13 +3923,13 @@ export interface SloObjectiveCountMetricsBadElasticsearch {
   /**
   * Index of metrics we want to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#index Slo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#index Slo#index}
   */
   readonly index: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -4070,19 +4070,19 @@ export interface SloObjectiveCountMetricsBadGcm {
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project_id Slo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project_id Slo#project_id}
   */
   readonly projectId: string;
   /**
   * Query for the metrics in PromQL format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql?: string;
   /**
   * Query for the metrics in MQL format [deprecated](https://cloud.google.com/stackdriver/docs/deprecations/mql)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query?: string;
 }
@@ -4255,7 +4255,7 @@ export interface SloObjectiveCountMetricsBadGrafanaLoki {
   /**
   * Query for the logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#logql Slo#logql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#logql Slo#logql}
   */
   readonly logql: string;
 }
@@ -4370,7 +4370,7 @@ export interface SloObjectiveCountMetricsBadGraphite {
   /**
   * Path to the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_path Slo#metric_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_path Slo#metric_path}
   */
   readonly metricPath: string;
 }
@@ -4485,7 +4485,7 @@ export interface SloObjectiveCountMetricsBadHoneycomb {
   /**
   * Column name - required for all calculation types besides 'CONCURRENCY' and 'COUNT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#attribute Slo#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#attribute Slo#attribute}
   */
   readonly attribute?: string;
 }
@@ -4603,7 +4603,7 @@ export interface SloObjectiveCountMetricsBadInfluxdb {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -4718,19 +4718,19 @@ export interface SloObjectiveCountMetricsBadInstanaApplicationGroupBy {
   /**
   * Group by tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag Slo#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag Slo#tag}
   */
   readonly tag: string;
   /**
   * Tag entity - one of 'DESTINATION', 'SOURCE', 'NOT_APPLICABLE'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag_entity Slo#tag_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag_entity Slo#tag_entity}
   */
   readonly tagEntity: string;
   /**
   * Second level key for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag_second_level_key Slo#tag_second_level_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag_second_level_key Slo#tag_second_level_key}
   */
   readonly tagSecondLevelKey?: string;
 }
@@ -4900,37 +4900,37 @@ export interface SloObjectiveCountMetricsBadInstanaApplication {
   /**
   * Depends on the value specified for 'metric_id'- more info in N9 docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#aggregation Slo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#aggregation Slo#aggregation}
   */
   readonly aggregation: string;
   /**
   * API query user passes in a JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#api_query Slo#api_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#api_query Slo#api_query}
   */
   readonly apiQuery: string;
   /**
   * Include internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#include_internal Slo#include_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#include_internal Slo#include_internal}
   */
   readonly includeInternal?: boolean | cdktf.IResolvable;
   /**
   * Include synthetic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#include_synthetic Slo#include_synthetic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#include_synthetic Slo#include_synthetic}
   */
   readonly includeSynthetic?: boolean | cdktf.IResolvable;
   /**
   * Metric ID one of 'calls', 'erroneousCalls', 'errors', 'latency'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_id Slo#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_id Slo#metric_id}
   */
   readonly metricId: string;
   /**
   * group_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#group_by Slo#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#group_by Slo#group_by}
   */
   readonly groupBy?: SloObjectiveCountMetricsBadInstanaApplicationGroupBy[] | cdktf.IResolvable;
 }
@@ -5184,31 +5184,31 @@ export interface SloObjectiveCountMetricsBadInstanaInfrastructure {
   /**
   * Metric ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_id Slo#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_id Slo#metric_id}
   */
   readonly metricId: string;
   /**
   * Metric retrieval method 'query' or 'snapshot'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_retrieval_method Slo#metric_retrieval_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_retrieval_method Slo#metric_retrieval_method}
   */
   readonly metricRetrievalMethod: string;
   /**
   * Plugin ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#plugin_id Slo#plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#plugin_id Slo#plugin_id}
   */
   readonly pluginId: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query?: string;
   /**
   * Snapshot ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#snapshot_id Slo#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#snapshot_id Slo#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -5433,19 +5433,19 @@ export interface SloObjectiveCountMetricsBadInstana {
   /**
   * Instana metric type 'application' or 'infrastructure'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_type Slo#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_type Slo#metric_type}
   */
   readonly metricType: string;
   /**
   * application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#application Slo#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#application Slo#application}
   */
   readonly application?: SloObjectiveCountMetricsBadInstanaApplication[] | cdktf.IResolvable;
   /**
   * infrastructure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#infrastructure Slo#infrastructure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#infrastructure Slo#infrastructure}
   */
   readonly infrastructure?: SloObjectiveCountMetricsBadInstanaInfrastructure[] | cdktf.IResolvable;
 }
@@ -5618,25 +5618,25 @@ export interface SloObjectiveCountMetricsBadLightstep {
   /**
   * Optional value to filter by percentiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#percentile Slo#percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#percentile Slo#percentile}
   */
   readonly percentile?: number;
   /**
   * ID of the metrics stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#stream_id Slo#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#stream_id Slo#stream_id}
   */
   readonly streamId?: string;
   /**
   * Type of data to filter by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#type_of_data Slo#type_of_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#type_of_data Slo#type_of_data}
   */
   readonly typeOfData: string;
   /**
   * UQL query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#uql Slo#uql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#uql Slo#uql}
   */
   readonly uql?: string;
 }
@@ -5838,43 +5838,43 @@ export interface SloObjectiveCountMetricsBadLogicMonitor {
   /**
   * Checkpoint ID. Used by Query type = website_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#checkpoint_id Slo#checkpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#checkpoint_id Slo#checkpoint_id}
   */
   readonly checkpointId?: string;
   /**
   * Device Datasource Instance ID. Used by Query type = device_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#device_data_source_instance_id Slo#device_data_source_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#device_data_source_instance_id Slo#device_data_source_instance_id}
   */
   readonly deviceDataSourceInstanceId?: number;
   /**
   * Graph ID. Used by Query type = device_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#graph_id Slo#graph_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#graph_id Slo#graph_id}
   */
   readonly graphId?: number;
   /**
   * Graph Name. Used by Query type = website_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#graph_name Slo#graph_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#graph_name Slo#graph_name}
   */
   readonly graphName?: string;
   /**
   * Line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#line Slo#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#line Slo#line}
   */
   readonly line: string;
   /**
   * Query type: device_metrics or website_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query_type Slo#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query_type Slo#query_type}
   */
   readonly queryType: string;
   /**
   * Website ID. Used by Query type = website_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#website_id Slo#website_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#website_id Slo#website_id}
   */
   readonly websiteId?: string;
 }
@@ -6160,7 +6160,7 @@ export interface SloObjectiveCountMetricsBadNewrelic {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#nrql Slo#nrql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#nrql Slo#nrql}
   */
   readonly nrql: string;
 }
@@ -6275,7 +6275,7 @@ export interface SloObjectiveCountMetricsBadOpentsdb {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -6390,19 +6390,19 @@ export interface SloObjectiveCountMetricsBadPingdom {
   /**
   * Pingdom uptime or transaction check's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#check_id Slo#check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#check_id Slo#check_id}
   */
   readonly checkId: string;
   /**
   * Pingdom check type - uptime or transaction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#check_type Slo#check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#check_type Slo#check_type}
   */
   readonly checkType?: string;
   /**
   * Optional for the Uptime checks. Use it to filter the Pingdom check results by status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#status Slo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#status Slo#status}
   */
   readonly status?: string;
 }
@@ -6575,7 +6575,7 @@ export interface SloObjectiveCountMetricsBadPrometheus {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -6690,25 +6690,25 @@ export interface SloObjectiveCountMetricsBadRedshift {
   /**
   * Redshift custer ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#cluster_id Slo#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#cluster_id Slo#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#database_name Slo#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#database_name Slo#database_name}
   */
   readonly databaseName: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
   /**
   * Region of the Redshift instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#region Slo#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#region Slo#region}
   */
   readonly region: string;
 }
@@ -6901,7 +6901,7 @@ export interface SloObjectiveCountMetricsBadSplunk {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -7016,7 +7016,7 @@ export interface SloObjectiveCountMetricsBadSplunkObservability {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#program Slo#program}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#program Slo#program}
   */
   readonly program: string;
 }
@@ -7131,25 +7131,25 @@ export interface SloObjectiveCountMetricsBadSumologic {
   /**
   * Period of data aggregation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#quantization Slo#quantization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#quantization Slo#quantization}
   */
   readonly quantization?: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
   /**
   * Aggregation function - avg, sum, min, max, count, none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#rollup Slo#rollup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#rollup Slo#rollup}
   */
   readonly rollup?: string;
   /**
   * Sumologic source - metrics or logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#type Slo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#type Slo#type}
   */
   readonly type: string;
 }
@@ -7348,13 +7348,13 @@ export interface SloObjectiveCountMetricsBadThousandeyes {
   /**
   * ID of the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#test_id Slo#test_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#test_id Slo#test_id}
   */
   readonly testId: number;
   /**
   * Type of the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#test_type Slo#test_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#test_type Slo#test_type}
   */
   readonly testType?: string;
 }
@@ -7498,163 +7498,163 @@ export interface SloObjectiveCountMetricsBad {
   /**
   * amazon_prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#amazon_prometheus Slo#amazon_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#amazon_prometheus Slo#amazon_prometheus}
   */
   readonly amazonPrometheus?: SloObjectiveCountMetricsBadAmazonPrometheus[] | cdktf.IResolvable;
   /**
   * appdynamics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#appdynamics Slo#appdynamics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#appdynamics Slo#appdynamics}
   */
   readonly appdynamics?: SloObjectiveCountMetricsBadAppdynamics[] | cdktf.IResolvable;
   /**
   * azure_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#azure_monitor Slo#azure_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#azure_monitor Slo#azure_monitor}
   */
   readonly azureMonitor?: SloObjectiveCountMetricsBadAzureMonitor[] | cdktf.IResolvable;
   /**
   * azure_prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#azure_prometheus Slo#azure_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#azure_prometheus Slo#azure_prometheus}
   */
   readonly azurePrometheus?: SloObjectiveCountMetricsBadAzurePrometheus[] | cdktf.IResolvable;
   /**
   * bigquery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#bigquery Slo#bigquery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#bigquery Slo#bigquery}
   */
   readonly bigquery?: SloObjectiveCountMetricsBadBigquery[] | cdktf.IResolvable;
   /**
   * cloudwatch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#cloudwatch Slo#cloudwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#cloudwatch Slo#cloudwatch}
   */
   readonly cloudwatch?: SloObjectiveCountMetricsBadCloudwatch[] | cdktf.IResolvable;
   /**
   * coralogix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#coralogix Slo#coralogix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#coralogix Slo#coralogix}
   */
   readonly coralogix?: SloObjectiveCountMetricsBadCoralogix[] | cdktf.IResolvable;
   /**
   * datadog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#datadog Slo#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#datadog Slo#datadog}
   */
   readonly datadog?: SloObjectiveCountMetricsBadDatadog[] | cdktf.IResolvable;
   /**
   * dynatrace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#dynatrace Slo#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#dynatrace Slo#dynatrace}
   */
   readonly dynatrace?: SloObjectiveCountMetricsBadDynatrace[] | cdktf.IResolvable;
   /**
   * elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#elasticsearch Slo#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#elasticsearch Slo#elasticsearch}
   */
   readonly elasticsearch?: SloObjectiveCountMetricsBadElasticsearch[] | cdktf.IResolvable;
   /**
   * gcm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#gcm Slo#gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#gcm Slo#gcm}
   */
   readonly gcm?: SloObjectiveCountMetricsBadGcm[] | cdktf.IResolvable;
   /**
   * grafana_loki block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#grafana_loki Slo#grafana_loki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#grafana_loki Slo#grafana_loki}
   */
   readonly grafanaLoki?: SloObjectiveCountMetricsBadGrafanaLoki[] | cdktf.IResolvable;
   /**
   * graphite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#graphite Slo#graphite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#graphite Slo#graphite}
   */
   readonly graphite?: SloObjectiveCountMetricsBadGraphite[] | cdktf.IResolvable;
   /**
   * honeycomb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#honeycomb Slo#honeycomb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#honeycomb Slo#honeycomb}
   */
   readonly honeycomb?: SloObjectiveCountMetricsBadHoneycomb[] | cdktf.IResolvable;
   /**
   * influxdb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#influxdb Slo#influxdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#influxdb Slo#influxdb}
   */
   readonly influxdb?: SloObjectiveCountMetricsBadInfluxdb[] | cdktf.IResolvable;
   /**
   * instana block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#instana Slo#instana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#instana Slo#instana}
   */
   readonly instana?: SloObjectiveCountMetricsBadInstana[] | cdktf.IResolvable;
   /**
   * lightstep block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#lightstep Slo#lightstep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#lightstep Slo#lightstep}
   */
   readonly lightstep?: SloObjectiveCountMetricsBadLightstep[] | cdktf.IResolvable;
   /**
   * logic_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#logic_monitor Slo#logic_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#logic_monitor Slo#logic_monitor}
   */
   readonly logicMonitor?: SloObjectiveCountMetricsBadLogicMonitor[] | cdktf.IResolvable;
   /**
   * newrelic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#newrelic Slo#newrelic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#newrelic Slo#newrelic}
   */
   readonly newrelic?: SloObjectiveCountMetricsBadNewrelic[] | cdktf.IResolvable;
   /**
   * opentsdb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#opentsdb Slo#opentsdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#opentsdb Slo#opentsdb}
   */
   readonly opentsdb?: SloObjectiveCountMetricsBadOpentsdb[] | cdktf.IResolvable;
   /**
   * pingdom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#pingdom Slo#pingdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#pingdom Slo#pingdom}
   */
   readonly pingdom?: SloObjectiveCountMetricsBadPingdom[] | cdktf.IResolvable;
   /**
   * prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#prometheus Slo#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#prometheus Slo#prometheus}
   */
   readonly prometheus?: SloObjectiveCountMetricsBadPrometheus[] | cdktf.IResolvable;
   /**
   * redshift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#redshift Slo#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#redshift Slo#redshift}
   */
   readonly redshift?: SloObjectiveCountMetricsBadRedshift[] | cdktf.IResolvable;
   /**
   * splunk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#splunk Slo#splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#splunk Slo#splunk}
   */
   readonly splunk?: SloObjectiveCountMetricsBadSplunk[] | cdktf.IResolvable;
   /**
   * splunk_observability block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#splunk_observability Slo#splunk_observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#splunk_observability Slo#splunk_observability}
   */
   readonly splunkObservability?: SloObjectiveCountMetricsBadSplunkObservability[] | cdktf.IResolvable;
   /**
   * sumologic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#sumologic Slo#sumologic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#sumologic Slo#sumologic}
   */
   readonly sumologic?: SloObjectiveCountMetricsBadSumologic[] | cdktf.IResolvable;
   /**
   * thousandeyes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#thousandeyes Slo#thousandeyes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#thousandeyes Slo#thousandeyes}
   */
   readonly thousandeyes?: SloObjectiveCountMetricsBadThousandeyes[] | cdktf.IResolvable;
 }
@@ -8526,7 +8526,7 @@ export interface SloObjectiveCountMetricsGoodAmazonPrometheus {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -8641,13 +8641,13 @@ export interface SloObjectiveCountMetricsGoodAppdynamics {
   /**
   * Name of the added application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#application_name Slo#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#application_name Slo#application_name}
   */
   readonly applicationName: string;
   /**
   * Path to the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_path Slo#metric_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_path Slo#metric_path}
   */
   readonly metricPath: string;
 }
@@ -8788,13 +8788,13 @@ export interface SloObjectiveCountMetricsGoodAzureMonitorDimensions {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#value Slo#value}
   */
   readonly value: string;
 }
@@ -8935,19 +8935,19 @@ export interface SloObjectiveCountMetricsGoodAzureMonitorWorkspace {
   /**
   * Resource group of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#resource_group Slo#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#resource_group Slo#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * Subscription ID of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#subscription_id Slo#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#subscription_id Slo#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * ID of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#workspace_id Slo#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#workspace_id Slo#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -9114,49 +9114,49 @@ export interface SloObjectiveCountMetricsGoodAzureMonitor {
   /**
   * Aggregation type [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#aggregation Slo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#aggregation Slo#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Specifies source: 'metrics' or 'logs'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#data_type Slo#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#data_type Slo#data_type}
   */
   readonly dataType: string;
   /**
   * Logs query in Kusto Query Language [Required for logs]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#kql_query Slo#kql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#kql_query Slo#kql_query}
   */
   readonly kqlQuery?: string;
   /**
   * Name of the metric [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_name Slo#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_name Slo#metric_name}
   */
   readonly metricName?: string;
   /**
   * Namespace of the metric [Optional for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_namespace Slo#metric_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_namespace Slo#metric_namespace}
   */
   readonly metricNamespace?: string;
   /**
   * Identifier of the Azure Cloud resource [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#resource_id Slo#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#resource_id Slo#resource_id}
   */
   readonly resourceId?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#dimensions Slo#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#dimensions Slo#dimensions}
   */
   readonly dimensions?: SloObjectiveCountMetricsGoodAzureMonitorDimensions[] | cdktf.IResolvable;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#workspace Slo#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#workspace Slo#workspace}
   */
   readonly workspace?: SloObjectiveCountMetricsGoodAzureMonitorWorkspace[] | cdktf.IResolvable;
 }
@@ -9474,7 +9474,7 @@ export interface SloObjectiveCountMetricsGoodAzurePrometheus {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -9589,19 +9589,19 @@ export interface SloObjectiveCountMetricsGoodBigquery {
   /**
   * Location of you BigQuery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#location Slo#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#location Slo#location}
   */
   readonly location: string;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project_id Slo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project_id Slo#project_id}
   */
   readonly projectId: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -9768,13 +9768,13 @@ export interface SloObjectiveCountMetricsGoodCloudwatchDimensions {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#value Slo#value}
   */
   readonly value: string;
 }
@@ -9915,49 +9915,49 @@ export interface SloObjectiveCountMetricsGoodCloudwatch {
   /**
   * AccountID used with cross-account observability feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#account_id Slo#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#account_id Slo#account_id}
   */
   readonly accountId?: string;
   /**
   * JSON query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#json Slo#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#json Slo#json}
   */
   readonly json?: string;
   /**
   * Metric name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_name Slo#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_name Slo#metric_name}
   */
   readonly metricName?: string;
   /**
   * Namespace of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#namespace Slo#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#namespace Slo#namespace}
   */
   readonly namespace?: string;
   /**
   * Region of the CloudWatch instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#region Slo#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#region Slo#region}
   */
   readonly region: string;
   /**
   * SQL query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#sql Slo#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#sql Slo#sql}
   */
   readonly sql?: string;
   /**
   * Metric data aggregations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#stat Slo#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#stat Slo#stat}
   */
   readonly stat?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#dimensions Slo#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#dimensions Slo#dimensions}
   */
   readonly dimensions?: SloObjectiveCountMetricsGoodCloudwatchDimensions[] | cdktf.IResolvable;
 }
@@ -10275,7 +10275,7 @@ export interface SloObjectiveCountMetricsGoodCoralogix {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -10390,7 +10390,7 @@ export interface SloObjectiveCountMetricsGoodDatadog {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -10505,7 +10505,7 @@ export interface SloObjectiveCountMetricsGoodDynatrace {
   /**
   * Selector for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_selector Slo#metric_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_selector Slo#metric_selector}
   */
   readonly metricSelector: string;
 }
@@ -10620,13 +10620,13 @@ export interface SloObjectiveCountMetricsGoodElasticsearch {
   /**
   * Index of metrics we want to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#index Slo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#index Slo#index}
   */
   readonly index: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -10767,19 +10767,19 @@ export interface SloObjectiveCountMetricsGoodGcm {
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project_id Slo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project_id Slo#project_id}
   */
   readonly projectId: string;
   /**
   * Query for the metrics in PromQL format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql?: string;
   /**
   * Query for the metrics in MQL format [deprecated](https://cloud.google.com/stackdriver/docs/deprecations/mql)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query?: string;
 }
@@ -10952,7 +10952,7 @@ export interface SloObjectiveCountMetricsGoodGrafanaLoki {
   /**
   * Query for the logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#logql Slo#logql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#logql Slo#logql}
   */
   readonly logql: string;
 }
@@ -11067,7 +11067,7 @@ export interface SloObjectiveCountMetricsGoodGraphite {
   /**
   * Path to the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_path Slo#metric_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_path Slo#metric_path}
   */
   readonly metricPath: string;
 }
@@ -11182,7 +11182,7 @@ export interface SloObjectiveCountMetricsGoodHoneycomb {
   /**
   * Column name - required for all calculation types besides 'CONCURRENCY' and 'COUNT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#attribute Slo#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#attribute Slo#attribute}
   */
   readonly attribute?: string;
 }
@@ -11300,7 +11300,7 @@ export interface SloObjectiveCountMetricsGoodInfluxdb {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -11415,19 +11415,19 @@ export interface SloObjectiveCountMetricsGoodInstanaApplicationGroupBy {
   /**
   * Group by tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag Slo#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag Slo#tag}
   */
   readonly tag: string;
   /**
   * Tag entity - one of 'DESTINATION', 'SOURCE', 'NOT_APPLICABLE'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag_entity Slo#tag_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag_entity Slo#tag_entity}
   */
   readonly tagEntity: string;
   /**
   * Second level key for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag_second_level_key Slo#tag_second_level_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag_second_level_key Slo#tag_second_level_key}
   */
   readonly tagSecondLevelKey?: string;
 }
@@ -11597,37 +11597,37 @@ export interface SloObjectiveCountMetricsGoodInstanaApplication {
   /**
   * Depends on the value specified for 'metric_id'- more info in N9 docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#aggregation Slo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#aggregation Slo#aggregation}
   */
   readonly aggregation: string;
   /**
   * API query user passes in a JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#api_query Slo#api_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#api_query Slo#api_query}
   */
   readonly apiQuery: string;
   /**
   * Include internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#include_internal Slo#include_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#include_internal Slo#include_internal}
   */
   readonly includeInternal?: boolean | cdktf.IResolvable;
   /**
   * Include synthetic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#include_synthetic Slo#include_synthetic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#include_synthetic Slo#include_synthetic}
   */
   readonly includeSynthetic?: boolean | cdktf.IResolvable;
   /**
   * Metric ID one of 'calls', 'erroneousCalls', 'errors', 'latency'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_id Slo#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_id Slo#metric_id}
   */
   readonly metricId: string;
   /**
   * group_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#group_by Slo#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#group_by Slo#group_by}
   */
   readonly groupBy?: SloObjectiveCountMetricsGoodInstanaApplicationGroupBy[] | cdktf.IResolvable;
 }
@@ -11881,31 +11881,31 @@ export interface SloObjectiveCountMetricsGoodInstanaInfrastructure {
   /**
   * Metric ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_id Slo#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_id Slo#metric_id}
   */
   readonly metricId: string;
   /**
   * Metric retrieval method 'query' or 'snapshot'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_retrieval_method Slo#metric_retrieval_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_retrieval_method Slo#metric_retrieval_method}
   */
   readonly metricRetrievalMethod: string;
   /**
   * Plugin ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#plugin_id Slo#plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#plugin_id Slo#plugin_id}
   */
   readonly pluginId: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query?: string;
   /**
   * Snapshot ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#snapshot_id Slo#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#snapshot_id Slo#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -12130,19 +12130,19 @@ export interface SloObjectiveCountMetricsGoodInstana {
   /**
   * Instana metric type 'application' or 'infrastructure'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_type Slo#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_type Slo#metric_type}
   */
   readonly metricType: string;
   /**
   * application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#application Slo#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#application Slo#application}
   */
   readonly application?: SloObjectiveCountMetricsGoodInstanaApplication[] | cdktf.IResolvable;
   /**
   * infrastructure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#infrastructure Slo#infrastructure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#infrastructure Slo#infrastructure}
   */
   readonly infrastructure?: SloObjectiveCountMetricsGoodInstanaInfrastructure[] | cdktf.IResolvable;
 }
@@ -12315,25 +12315,25 @@ export interface SloObjectiveCountMetricsGoodLightstep {
   /**
   * Optional value to filter by percentiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#percentile Slo#percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#percentile Slo#percentile}
   */
   readonly percentile?: number;
   /**
   * ID of the metrics stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#stream_id Slo#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#stream_id Slo#stream_id}
   */
   readonly streamId?: string;
   /**
   * Type of data to filter by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#type_of_data Slo#type_of_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#type_of_data Slo#type_of_data}
   */
   readonly typeOfData: string;
   /**
   * UQL query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#uql Slo#uql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#uql Slo#uql}
   */
   readonly uql?: string;
 }
@@ -12535,43 +12535,43 @@ export interface SloObjectiveCountMetricsGoodLogicMonitor {
   /**
   * Checkpoint ID. Used by Query type = website_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#checkpoint_id Slo#checkpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#checkpoint_id Slo#checkpoint_id}
   */
   readonly checkpointId?: string;
   /**
   * Device Datasource Instance ID. Used by Query type = device_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#device_data_source_instance_id Slo#device_data_source_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#device_data_source_instance_id Slo#device_data_source_instance_id}
   */
   readonly deviceDataSourceInstanceId?: number;
   /**
   * Graph ID. Used by Query type = device_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#graph_id Slo#graph_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#graph_id Slo#graph_id}
   */
   readonly graphId?: number;
   /**
   * Graph Name. Used by Query type = website_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#graph_name Slo#graph_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#graph_name Slo#graph_name}
   */
   readonly graphName?: string;
   /**
   * Line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#line Slo#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#line Slo#line}
   */
   readonly line: string;
   /**
   * Query type: device_metrics or website_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query_type Slo#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query_type Slo#query_type}
   */
   readonly queryType: string;
   /**
   * Website ID. Used by Query type = website_metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#website_id Slo#website_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#website_id Slo#website_id}
   */
   readonly websiteId?: string;
 }
@@ -12857,7 +12857,7 @@ export interface SloObjectiveCountMetricsGoodNewrelic {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#nrql Slo#nrql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#nrql Slo#nrql}
   */
   readonly nrql: string;
 }
@@ -12972,7 +12972,7 @@ export interface SloObjectiveCountMetricsGoodOpentsdb {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -13087,19 +13087,19 @@ export interface SloObjectiveCountMetricsGoodPingdom {
   /**
   * Pingdom uptime or transaction check's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#check_id Slo#check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#check_id Slo#check_id}
   */
   readonly checkId: string;
   /**
   * Pingdom check type - uptime or transaction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#check_type Slo#check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#check_type Slo#check_type}
   */
   readonly checkType?: string;
   /**
   * Optional for the Uptime checks. Use it to filter the Pingdom check results by status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#status Slo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#status Slo#status}
   */
   readonly status?: string;
 }
@@ -13272,7 +13272,7 @@ export interface SloObjectiveCountMetricsGoodPrometheus {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -13387,25 +13387,25 @@ export interface SloObjectiveCountMetricsGoodRedshift {
   /**
   * Redshift custer ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#cluster_id Slo#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#cluster_id Slo#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#database_name Slo#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#database_name Slo#database_name}
   */
   readonly databaseName: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
   /**
   * Region of the Redshift instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#region Slo#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#region Slo#region}
   */
   readonly region: string;
 }
@@ -13598,7 +13598,7 @@ export interface SloObjectiveCountMetricsGoodSplunk {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -13713,7 +13713,7 @@ export interface SloObjectiveCountMetricsGoodSplunkObservability {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#program Slo#program}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#program Slo#program}
   */
   readonly program: string;
 }
@@ -13828,25 +13828,25 @@ export interface SloObjectiveCountMetricsGoodSumologic {
   /**
   * Period of data aggregation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#quantization Slo#quantization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#quantization Slo#quantization}
   */
   readonly quantization?: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
   /**
   * Aggregation function - avg, sum, min, max, count, none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#rollup Slo#rollup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#rollup Slo#rollup}
   */
   readonly rollup?: string;
   /**
   * Sumologic source - metrics or logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#type Slo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#type Slo#type}
   */
   readonly type: string;
 }
@@ -14045,13 +14045,13 @@ export interface SloObjectiveCountMetricsGoodThousandeyes {
   /**
   * ID of the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#test_id Slo#test_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#test_id Slo#test_id}
   */
   readonly testId: number;
   /**
   * Type of the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#test_type Slo#test_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#test_type Slo#test_type}
   */
   readonly testType?: string;
 }
@@ -14195,163 +14195,163 @@ export interface SloObjectiveCountMetricsGood {
   /**
   * amazon_prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#amazon_prometheus Slo#amazon_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#amazon_prometheus Slo#amazon_prometheus}
   */
   readonly amazonPrometheus?: SloObjectiveCountMetricsGoodAmazonPrometheus[] | cdktf.IResolvable;
   /**
   * appdynamics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#appdynamics Slo#appdynamics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#appdynamics Slo#appdynamics}
   */
   readonly appdynamics?: SloObjectiveCountMetricsGoodAppdynamics[] | cdktf.IResolvable;
   /**
   * azure_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#azure_monitor Slo#azure_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#azure_monitor Slo#azure_monitor}
   */
   readonly azureMonitor?: SloObjectiveCountMetricsGoodAzureMonitor[] | cdktf.IResolvable;
   /**
   * azure_prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#azure_prometheus Slo#azure_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#azure_prometheus Slo#azure_prometheus}
   */
   readonly azurePrometheus?: SloObjectiveCountMetricsGoodAzurePrometheus[] | cdktf.IResolvable;
   /**
   * bigquery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#bigquery Slo#bigquery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#bigquery Slo#bigquery}
   */
   readonly bigquery?: SloObjectiveCountMetricsGoodBigquery[] | cdktf.IResolvable;
   /**
   * cloudwatch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#cloudwatch Slo#cloudwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#cloudwatch Slo#cloudwatch}
   */
   readonly cloudwatch?: SloObjectiveCountMetricsGoodCloudwatch[] | cdktf.IResolvable;
   /**
   * coralogix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#coralogix Slo#coralogix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#coralogix Slo#coralogix}
   */
   readonly coralogix?: SloObjectiveCountMetricsGoodCoralogix[] | cdktf.IResolvable;
   /**
   * datadog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#datadog Slo#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#datadog Slo#datadog}
   */
   readonly datadog?: SloObjectiveCountMetricsGoodDatadog[] | cdktf.IResolvable;
   /**
   * dynatrace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#dynatrace Slo#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#dynatrace Slo#dynatrace}
   */
   readonly dynatrace?: SloObjectiveCountMetricsGoodDynatrace[] | cdktf.IResolvable;
   /**
   * elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#elasticsearch Slo#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#elasticsearch Slo#elasticsearch}
   */
   readonly elasticsearch?: SloObjectiveCountMetricsGoodElasticsearch[] | cdktf.IResolvable;
   /**
   * gcm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#gcm Slo#gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#gcm Slo#gcm}
   */
   readonly gcm?: SloObjectiveCountMetricsGoodGcm[] | cdktf.IResolvable;
   /**
   * grafana_loki block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#grafana_loki Slo#grafana_loki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#grafana_loki Slo#grafana_loki}
   */
   readonly grafanaLoki?: SloObjectiveCountMetricsGoodGrafanaLoki[] | cdktf.IResolvable;
   /**
   * graphite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#graphite Slo#graphite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#graphite Slo#graphite}
   */
   readonly graphite?: SloObjectiveCountMetricsGoodGraphite[] | cdktf.IResolvable;
   /**
   * honeycomb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#honeycomb Slo#honeycomb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#honeycomb Slo#honeycomb}
   */
   readonly honeycomb?: SloObjectiveCountMetricsGoodHoneycomb[] | cdktf.IResolvable;
   /**
   * influxdb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#influxdb Slo#influxdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#influxdb Slo#influxdb}
   */
   readonly influxdb?: SloObjectiveCountMetricsGoodInfluxdb[] | cdktf.IResolvable;
   /**
   * instana block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#instana Slo#instana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#instana Slo#instana}
   */
   readonly instana?: SloObjectiveCountMetricsGoodInstana[] | cdktf.IResolvable;
   /**
   * lightstep block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#lightstep Slo#lightstep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#lightstep Slo#lightstep}
   */
   readonly lightstep?: SloObjectiveCountMetricsGoodLightstep[] | cdktf.IResolvable;
   /**
   * logic_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#logic_monitor Slo#logic_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#logic_monitor Slo#logic_monitor}
   */
   readonly logicMonitor?: SloObjectiveCountMetricsGoodLogicMonitor[] | cdktf.IResolvable;
   /**
   * newrelic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#newrelic Slo#newrelic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#newrelic Slo#newrelic}
   */
   readonly newrelic?: SloObjectiveCountMetricsGoodNewrelic[] | cdktf.IResolvable;
   /**
   * opentsdb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#opentsdb Slo#opentsdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#opentsdb Slo#opentsdb}
   */
   readonly opentsdb?: SloObjectiveCountMetricsGoodOpentsdb[] | cdktf.IResolvable;
   /**
   * pingdom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#pingdom Slo#pingdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#pingdom Slo#pingdom}
   */
   readonly pingdom?: SloObjectiveCountMetricsGoodPingdom[] | cdktf.IResolvable;
   /**
   * prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#prometheus Slo#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#prometheus Slo#prometheus}
   */
   readonly prometheus?: SloObjectiveCountMetricsGoodPrometheus[] | cdktf.IResolvable;
   /**
   * redshift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#redshift Slo#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#redshift Slo#redshift}
   */
   readonly redshift?: SloObjectiveCountMetricsGoodRedshift[] | cdktf.IResolvable;
   /**
   * splunk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#splunk Slo#splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#splunk Slo#splunk}
   */
   readonly splunk?: SloObjectiveCountMetricsGoodSplunk[] | cdktf.IResolvable;
   /**
   * splunk_observability block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#splunk_observability Slo#splunk_observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#splunk_observability Slo#splunk_observability}
   */
   readonly splunkObservability?: SloObjectiveCountMetricsGoodSplunkObservability[] | cdktf.IResolvable;
   /**
   * sumologic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#sumologic Slo#sumologic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#sumologic Slo#sumologic}
   */
   readonly sumologic?: SloObjectiveCountMetricsGoodSumologic[] | cdktf.IResolvable;
   /**
   * thousandeyes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#thousandeyes Slo#thousandeyes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#thousandeyes Slo#thousandeyes}
   */
   readonly thousandeyes?: SloObjectiveCountMetricsGoodThousandeyes[] | cdktf.IResolvable;
 }
@@ -15223,7 +15223,7 @@ export interface SloObjectiveCountMetricsGoodTotalAmazonPrometheus {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -15338,13 +15338,13 @@ export interface SloObjectiveCountMetricsGoodTotalAppdynamics {
   /**
   * Name of the added application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#application_name Slo#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#application_name Slo#application_name}
   */
   readonly applicationName: string;
   /**
   * Path to the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_path Slo#metric_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_path Slo#metric_path}
   */
   readonly metricPath: string;
 }
@@ -15485,13 +15485,13 @@ export interface SloObjectiveCountMetricsGoodTotalAzureMonitorDimensions {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#value Slo#value}
   */
   readonly value: string;
 }
@@ -15632,19 +15632,19 @@ export interface SloObjectiveCountMetricsGoodTotalAzureMonitorWorkspace {
   /**
   * Resource group of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#resource_group Slo#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#resource_group Slo#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * Subscription ID of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#subscription_id Slo#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#subscription_id Slo#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * ID of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#workspace_id Slo#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#workspace_id Slo#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -15811,49 +15811,49 @@ export interface SloObjectiveCountMetricsGoodTotalAzureMonitor {
   /**
   * Aggregation type [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#aggregation Slo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#aggregation Slo#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Specifies source: 'metrics' or 'logs'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#data_type Slo#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#data_type Slo#data_type}
   */
   readonly dataType: string;
   /**
   * Logs query in Kusto Query Language [Required for logs]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#kql_query Slo#kql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#kql_query Slo#kql_query}
   */
   readonly kqlQuery?: string;
   /**
   * Name of the metric [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_name Slo#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_name Slo#metric_name}
   */
   readonly metricName?: string;
   /**
   * Namespace of the metric [Optional for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_namespace Slo#metric_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_namespace Slo#metric_namespace}
   */
   readonly metricNamespace?: string;
   /**
   * Identifier of the Azure Cloud resource [Required for metrics]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#resource_id Slo#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#resource_id Slo#resource_id}
   */
   readonly resourceId?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#dimensions Slo#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#dimensions Slo#dimensions}
   */
   readonly dimensions?: SloObjectiveCountMetricsGoodTotalAzureMonitorDimensions[] | cdktf.IResolvable;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#workspace Slo#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#workspace Slo#workspace}
   */
   readonly workspace?: SloObjectiveCountMetricsGoodTotalAzureMonitorWorkspace[] | cdktf.IResolvable;
 }
@@ -16171,7 +16171,7 @@ export interface SloObjectiveCountMetricsGoodTotalAzurePrometheus {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -16286,19 +16286,19 @@ export interface SloObjectiveCountMetricsGoodTotalBigquery {
   /**
   * Location of you BigQuery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#location Slo#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#location Slo#location}
   */
   readonly location: string;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project_id Slo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project_id Slo#project_id}
   */
   readonly projectId: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -16465,13 +16465,13 @@ export interface SloObjectiveCountMetricsGoodTotalCloudwatchDimensions {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#value Slo#value}
   */
   readonly value: string;
 }
@@ -16612,49 +16612,49 @@ export interface SloObjectiveCountMetricsGoodTotalCloudwatch {
   /**
   * AccountID used with cross-account observability feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#account_id Slo#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#account_id Slo#account_id}
   */
   readonly accountId?: string;
   /**
   * JSON query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#json Slo#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#json Slo#json}
   */
   readonly json?: string;
   /**
   * Metric name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_name Slo#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_name Slo#metric_name}
   */
   readonly metricName?: string;
   /**
   * Namespace of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#namespace Slo#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#namespace Slo#namespace}
   */
   readonly namespace?: string;
   /**
   * Region of the CloudWatch instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#region Slo#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#region Slo#region}
   */
   readonly region: string;
   /**
   * SQL query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#sql Slo#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#sql Slo#sql}
   */
   readonly sql?: string;
   /**
   * Metric data aggregations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#stat Slo#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#stat Slo#stat}
   */
   readonly stat?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#dimensions Slo#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#dimensions Slo#dimensions}
   */
   readonly dimensions?: SloObjectiveCountMetricsGoodTotalCloudwatchDimensions[] | cdktf.IResolvable;
 }
@@ -16972,7 +16972,7 @@ export interface SloObjectiveCountMetricsGoodTotalCoralogix {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql: string;
 }
@@ -17087,7 +17087,7 @@ export interface SloObjectiveCountMetricsGoodTotalDatadog {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -17202,7 +17202,7 @@ export interface SloObjectiveCountMetricsGoodTotalDynatrace {
   /**
   * Selector for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_selector Slo#metric_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_selector Slo#metric_selector}
   */
   readonly metricSelector: string;
 }
@@ -17317,13 +17317,13 @@ export interface SloObjectiveCountMetricsGoodTotalElasticsearch {
   /**
   * Index of metrics we want to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#index Slo#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#index Slo#index}
   */
   readonly index: string;
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -17464,19 +17464,19 @@ export interface SloObjectiveCountMetricsGoodTotalGcm {
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#project_id Slo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#project_id Slo#project_id}
   */
   readonly projectId: string;
   /**
   * Query for the metrics in PromQL format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#promql Slo#promql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#promql Slo#promql}
   */
   readonly promql?: string;
   /**
   * Query for the metrics in MQL format [deprecated](https://cloud.google.com/stackdriver/docs/deprecations/mql)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query?: string;
 }
@@ -17649,7 +17649,7 @@ export interface SloObjectiveCountMetricsGoodTotalGrafanaLoki {
   /**
   * Query for the logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#logql Slo#logql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#logql Slo#logql}
   */
   readonly logql: string;
 }
@@ -17764,7 +17764,7 @@ export interface SloObjectiveCountMetricsGoodTotalGraphite {
   /**
   * Path to the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_path Slo#metric_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_path Slo#metric_path}
   */
   readonly metricPath: string;
 }
@@ -17879,7 +17879,7 @@ export interface SloObjectiveCountMetricsGoodTotalHoneycomb {
   /**
   * Column name - required for all calculation types besides 'CONCURRENCY' and 'COUNT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#attribute Slo#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#attribute Slo#attribute}
   */
   readonly attribute?: string;
 }
@@ -17997,7 +17997,7 @@ export interface SloObjectiveCountMetricsGoodTotalInfluxdb {
   /**
   * Query for the metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#query Slo#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#query Slo#query}
   */
   readonly query: string;
 }
@@ -18112,19 +18112,19 @@ export interface SloObjectiveCountMetricsGoodTotalInstanaApplicationGroupBy {
   /**
   * Group by tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag Slo#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag Slo#tag}
   */
   readonly tag: string;
   /**
   * Tag entity - one of 'DESTINATION', 'SOURCE', 'NOT_APPLICABLE'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag_entity Slo#tag_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag_entity Slo#tag_entity}
   */
   readonly tagEntity: string;
   /**
   * Second level key for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#tag_second_level_key Slo#tag_second_level_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#tag_second_level_key Slo#tag_second_level_key}
   */
   readonly tagSecondLevelKey?: string;
 }
@@ -18294,37 +18294,37 @@ export interface SloObjectiveCountMetricsGoodTotalInstanaApplication {
   /**
   * Depends on the value specified for 'metric_id'- more info in N9 docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#aggregation Slo#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#aggregation Slo#aggregation}
   */
   readonly aggregation: string;
   /**
   * API query user passes in a JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#api_query Slo#api_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#api_query Slo#api_query}
   */
   readonly apiQuery: string;
   /**
   * Include internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#include_internal Slo#include_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#include_internal Slo#include_internal}
   */
   readonly includeInternal?: boolean | cdktf.IResolvable;
   /**
   * Include synthetic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#include_synthetic Slo#include_synthetic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#include_synthetic Slo#include_synthetic}
   */
   readonly includeSynthetic?: boolean | cdktf.IResolvable;
   /**
   * Metric ID one of 'calls', 'erroneousCalls', 'errors', 'latency'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#metric_id Slo#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#metric_id Slo#metric_id}
   */
   readonly metricId: string;
   /**
   * group_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/slo#group_by Slo#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/slo#group_by Slo#group_by}
   */
   readonly groupBy?: SloObjectiveCountMetricsGoodTotalInstanaApplicationGroupBy[] | cdktf.IResolvable;
 }

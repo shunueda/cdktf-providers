@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface BuildDefinitionPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#build_definition_id BuildDefinitionPermissions#build_definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#build_definition_id BuildDefinitionPermissions#build_definition_id}
   */
   readonly buildDefinitionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#id BuildDefinitionPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#id BuildDefinitionPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#permissions BuildDefinitionPermissions#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#permissions BuildDefinitionPermissions#permissions}
   */
   readonly permissions: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#principal BuildDefinitionPermissions#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#principal BuildDefinitionPermissions#principal}
   */
   readonly principal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#project_id BuildDefinitionPermissions#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#project_id BuildDefinitionPermissions#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#replace BuildDefinitionPermissions#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#replace BuildDefinitionPermissions#replace}
   */
   readonly replace?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#timeouts BuildDefinitionPermissions#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#timeouts BuildDefinitionPermissions#timeouts}
   */
   readonly timeouts?: BuildDefinitionPermissionsTimeouts;
 }
 export interface BuildDefinitionPermissionsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#create BuildDefinitionPermissions#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#create BuildDefinitionPermissions#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#delete BuildDefinitionPermissions#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#delete BuildDefinitionPermissions#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#read BuildDefinitionPermissions#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#read BuildDefinitionPermissions#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#update BuildDefinitionPermissions#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#update BuildDefinitionPermissions#update}
   */
   readonly update?: string;
 }
@@ -236,7 +236,7 @@ export class BuildDefinitionPermissionsTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions azuredevops_build_definition_permissions}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions azuredevops_build_definition_permissions}
 */
 export class BuildDefinitionPermissions extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class BuildDefinitionPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BuildDefinitionPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BuildDefinitionPermissions to import
-  * @param importFromId The id of the existing BuildDefinitionPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BuildDefinitionPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BuildDefinitionPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class BuildDefinitionPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition_permissions azuredevops_build_definition_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/build_definition_permissions azuredevops_build_definition_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class BuildDefinitionPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_build_definition_permissions',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

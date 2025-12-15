@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SecurityNatStaticRuleAConfig extends cdktf.TerraformMetaArgumen
   /**
   * CIDR destination address to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#destination_address SecurityNatStaticRuleA#destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#destination_address SecurityNatStaticRuleA#destination_address}
   */
   readonly destinationAddress?: string;
   /**
   * Destination address from address book to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#destination_address_name SecurityNatStaticRuleA#destination_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#destination_address_name SecurityNatStaticRuleA#destination_address_name}
   */
   readonly destinationAddressName?: string;
   /**
   * Destination port or lower limit of port range to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#destination_port SecurityNatStaticRuleA#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#destination_port SecurityNatStaticRuleA#destination_port}
   */
   readonly destinationPort?: number;
   /**
   * Port range upper limit to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#destination_port_to SecurityNatStaticRuleA#destination_port_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#destination_port_to SecurityNatStaticRuleA#destination_port_to}
   */
   readonly destinationPortTo?: number;
   /**
   * Static Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#name SecurityNatStaticRuleA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#name SecurityNatStaticRuleA#name}
   */
   readonly name: string;
   /**
   * Static nat rule-set name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#rule_set SecurityNatStaticRuleA#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#rule_set SecurityNatStaticRuleA#rule_set}
   */
   readonly ruleSet: string;
   /**
   * CIDR source address to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#source_address SecurityNatStaticRuleA#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#source_address SecurityNatStaticRuleA#source_address}
   */
   readonly sourceAddress?: string[];
   /**
   * Source address from address book to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#source_address_name SecurityNatStaticRuleA#source_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#source_address_name SecurityNatStaticRuleA#source_address_name}
   */
   readonly sourceAddressName?: string[];
   /**
   * Source port to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#source_port SecurityNatStaticRuleA#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#source_port SecurityNatStaticRuleA#source_port}
   */
   readonly sourcePort?: string[];
   /**
   * then block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#then SecurityNatStaticRuleA#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#then SecurityNatStaticRuleA#then}
   */
   readonly then?: SecurityNatStaticRuleThenA;
 }
@@ -72,31 +72,31 @@ export interface SecurityNatStaticRuleThenA {
   /**
   * Port or lower limit of port range to mapped port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#mapped_port SecurityNatStaticRuleA#mapped_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#mapped_port SecurityNatStaticRuleA#mapped_port}
   */
   readonly mappedPort?: number;
   /**
   * Port range upper limit to mapped port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#mapped_port_to SecurityNatStaticRuleA#mapped_port_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#mapped_port_to SecurityNatStaticRuleA#mapped_port_to}
   */
   readonly mappedPortTo?: number;
   /**
   * CIDR or address from address book to prefix static nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#prefix SecurityNatStaticRuleA#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#prefix SecurityNatStaticRuleA#prefix}
   */
   readonly prefix?: string;
   /**
   * Name of routing instance to switch instance with nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#routing_instance SecurityNatStaticRuleA#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#routing_instance SecurityNatStaticRuleA#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Type of static nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#type SecurityNatStaticRuleA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#type SecurityNatStaticRuleA#type}
   */
   readonly type: string;
 }
@@ -303,7 +303,7 @@ export class SecurityNatStaticRuleThenAOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule junos_security_nat_static_rule}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule junos_security_nat_static_rule}
 */
 export class SecurityNatStaticRuleA extends cdktf.TerraformResource {
 
@@ -319,7 +319,7 @@ export class SecurityNatStaticRuleA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityNatStaticRuleA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityNatStaticRuleA to import
-  * @param importFromId The id of the existing SecurityNatStaticRuleA that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityNatStaticRuleA that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityNatStaticRuleA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class SecurityNatStaticRuleA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_static_rule junos_security_nat_static_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_static_rule junos_security_nat_static_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class SecurityNatStaticRuleA extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_nat_static_rule',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

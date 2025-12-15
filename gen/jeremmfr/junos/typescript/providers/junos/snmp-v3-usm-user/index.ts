@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SnmpV3UsmUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Encrypted key used for user authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#authentication_key SnmpV3UsmUser#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#authentication_key SnmpV3UsmUser#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * User's authentication password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#authentication_password SnmpV3UsmUser#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#authentication_password SnmpV3UsmUser#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * Define authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#authentication_type SnmpV3UsmUser#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#authentication_type SnmpV3UsmUser#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Remote engine id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#engine_id SnmpV3UsmUser#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#engine_id SnmpV3UsmUser#engine_id}
   */
   readonly engineId?: string;
   /**
   * Local or remote engine user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#engine_type SnmpV3UsmUser#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#engine_type SnmpV3UsmUser#engine_type}
   */
   readonly engineType?: string;
   /**
   * The name of snmp v3 USM user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#name SnmpV3UsmUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#name SnmpV3UsmUser#name}
   */
   readonly name: string;
   /**
   * Encrypted key used for user privacy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#privacy_key SnmpV3UsmUser#privacy_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#privacy_key SnmpV3UsmUser#privacy_key}
   */
   readonly privacyKey?: string;
   /**
   * User's privacy password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#privacy_password SnmpV3UsmUser#privacy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#privacy_password SnmpV3UsmUser#privacy_password}
   */
   readonly privacyPassword?: string;
   /**
   * Define privacy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#privacy_type SnmpV3UsmUser#privacy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#privacy_type SnmpV3UsmUser#privacy_type}
   */
   readonly privacyType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user junos_snmp_v3_usm_user}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user junos_snmp_v3_usm_user}
 */
 export class SnmpV3UsmUser extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class SnmpV3UsmUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpV3UsmUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpV3UsmUser to import
-  * @param importFromId The id of the existing SnmpV3UsmUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpV3UsmUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpV3UsmUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class SnmpV3UsmUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_v3_usm_user junos_snmp_v3_usm_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_v3_usm_user junos_snmp_v3_usm_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class SnmpV3UsmUser extends cdktf.TerraformResource {
       terraformResourceType: 'junos_snmp_v3_usm_user',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

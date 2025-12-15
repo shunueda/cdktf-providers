@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PolicyoptionsPolicyStatementConfig extends cdktf.TerraformMetaA
   /**
   * Add this policy in `routing-options forwarding-table export` list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#add_it_to_forwarding_table_export PolicyoptionsPolicyStatement#add_it_to_forwarding_table_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#add_it_to_forwarding_table_export PolicyoptionsPolicyStatement#add_it_to_forwarding_table_export}
   */
   readonly addItToForwardingTableExport?: boolean | cdktf.IResolvable;
   /**
   * Object may exist in dynamic database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#dynamic_db PolicyoptionsPolicyStatement#dynamic_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#dynamic_db PolicyoptionsPolicyStatement#dynamic_db}
   */
   readonly dynamicDb?: boolean | cdktf.IResolvable;
   /**
   * Name to identify the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#name PolicyoptionsPolicyStatement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#name PolicyoptionsPolicyStatement#name}
   */
   readonly name: string;
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#from PolicyoptionsPolicyStatement#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#from PolicyoptionsPolicyStatement#from}
   */
   readonly from?: PolicyoptionsPolicyStatementFrom;
   /**
   * term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#term PolicyoptionsPolicyStatement#term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#term PolicyoptionsPolicyStatement#term}
   */
   readonly term?: PolicyoptionsPolicyStatementTerm[] | cdktf.IResolvable;
   /**
   * then block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#then PolicyoptionsPolicyStatement#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#then PolicyoptionsPolicyStatement#then}
   */
   readonly then?: PolicyoptionsPolicyStatementThen;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#to PolicyoptionsPolicyStatement#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#to PolicyoptionsPolicyStatement#to}
   */
   readonly to?: PolicyoptionsPolicyStatementTo;
 }
@@ -54,13 +54,13 @@ export interface PolicyoptionsPolicyStatementFromBgpAsPathCalcLength {
   /**
   * Number of ASes (0..1024).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
   */
   readonly count: number;
   /**
   * Type of match: equal values, higher or equal values, lower or equal values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
   */
   readonly match: string;
 }
@@ -201,13 +201,13 @@ export interface PolicyoptionsPolicyStatementFromBgpAsPathUniqueCount {
   /**
   * Number of ASes (0..1024).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
   */
   readonly count: number;
   /**
   * Type of match: equal values, higher or equal values, lower or equal values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
   */
   readonly match: string;
 }
@@ -348,13 +348,13 @@ export interface PolicyoptionsPolicyStatementFromBgpCommunityCount {
   /**
   * Number of communities (0..1024).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
   */
   readonly count: number;
   /**
   * Type of match: equal values, higher or equal values, lower or equal values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
   */
   readonly match: string;
 }
@@ -495,13 +495,13 @@ export interface PolicyoptionsPolicyStatementFromNextHopWeight {
   /**
   * Type of match for weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
   */
   readonly match: string;
   /**
   * Weight of the gateway (1..65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#weight PolicyoptionsPolicyStatement#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#weight PolicyoptionsPolicyStatement#weight}
   */
   readonly weight: number;
 }
@@ -642,19 +642,19 @@ export interface PolicyoptionsPolicyStatementFromRouteFilter {
   /**
   * Mask option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#option PolicyoptionsPolicyStatement#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#option PolicyoptionsPolicyStatement#option}
   */
   readonly option: string;
   /**
   * For options that need an argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#option_value PolicyoptionsPolicyStatement#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#option_value PolicyoptionsPolicyStatement#option_value}
   */
   readonly optionValue?: string;
   /**
   * IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#route PolicyoptionsPolicyStatement#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#route PolicyoptionsPolicyStatement#route}
   */
   readonly route: string;
 }
@@ -824,199 +824,199 @@ export interface PolicyoptionsPolicyStatementFrom {
   /**
   * Match more specifics of an aggregate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#aggregate_contributor PolicyoptionsPolicyStatement#aggregate_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#aggregate_contributor PolicyoptionsPolicyStatement#aggregate_contributor}
   */
   readonly aggregateContributor?: boolean | cdktf.IResolvable;
   /**
   * Name of AS path regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path PolicyoptionsPolicyStatement#bgp_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path PolicyoptionsPolicyStatement#bgp_as_path}
   */
   readonly bgpAsPath?: string[];
   /**
   * Name of AS path group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path_group PolicyoptionsPolicyStatement#bgp_as_path_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path_group PolicyoptionsPolicyStatement#bgp_as_path_group}
   */
   readonly bgpAsPathGroup?: string[];
   /**
   * BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_community PolicyoptionsPolicyStatement#bgp_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_community PolicyoptionsPolicyStatement#bgp_community}
   */
   readonly bgpCommunity?: string[];
   /**
   * BGP origin attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_origin PolicyoptionsPolicyStatement#bgp_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_origin PolicyoptionsPolicyStatement#bgp_origin}
   */
   readonly bgpOrigin?: string;
   /**
   * Srte discriminator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_srte_discriminator PolicyoptionsPolicyStatement#bgp_srte_discriminator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_srte_discriminator PolicyoptionsPolicyStatement#bgp_srte_discriminator}
   */
   readonly bgpSrteDiscriminator?: number;
   /**
   * Color (preference) value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#color PolicyoptionsPolicyStatement#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#color PolicyoptionsPolicyStatement#color}
   */
   readonly color?: number;
   /**
   * ESI in EVPN Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#evpn_esi PolicyoptionsPolicyStatement#evpn_esi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#evpn_esi PolicyoptionsPolicyStatement#evpn_esi}
   */
   readonly evpnEsi?: string[];
   /**
   * EVPN Mac Route type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#evpn_mac_route PolicyoptionsPolicyStatement#evpn_mac_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#evpn_mac_route PolicyoptionsPolicyStatement#evpn_mac_route}
   */
   readonly evpnMacRoute?: string;
   /**
   * Tag in EVPN Route (0..4294967295).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#evpn_tag PolicyoptionsPolicyStatement#evpn_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#evpn_tag PolicyoptionsPolicyStatement#evpn_tag}
   */
   readonly evpnTag?: number[];
   /**
   * Family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#family PolicyoptionsPolicyStatement#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#family PolicyoptionsPolicyStatement#family}
   */
   readonly family?: string;
   /**
   * Interface name or address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#interface PolicyoptionsPolicyStatement#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#interface PolicyoptionsPolicyStatement#interface}
   */
   readonly interface?: string[];
   /**
   * Local preference associated with a route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Metric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
   */
   readonly metric?: number;
   /**
   * Neighboring router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#neighbor PolicyoptionsPolicyStatement#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#neighbor PolicyoptionsPolicyStatement#neighbor}
   */
   readonly neighbor?: string[];
   /**
   * Next-hop router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
   */
   readonly nextHop?: string[];
   /**
   * Merged next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop_type_merged PolicyoptionsPolicyStatement#next_hop_type_merged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop_type_merged PolicyoptionsPolicyStatement#next_hop_type_merged}
   */
   readonly nextHopTypeMerged?: boolean | cdktf.IResolvable;
   /**
   * OSPF area identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#ospf_area PolicyoptionsPolicyStatement#ospf_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#ospf_area PolicyoptionsPolicyStatement#ospf_area}
   */
   readonly ospfArea?: string;
   /**
   * Name of policy to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#policy PolicyoptionsPolicyStatement#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#policy PolicyoptionsPolicyStatement#policy}
   */
   readonly policy?: string[];
   /**
   * Preference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
   */
   readonly preference?: number;
   /**
   * Prefix-lists of routes to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#prefix_list PolicyoptionsPolicyStatement#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#prefix_list PolicyoptionsPolicyStatement#prefix_list}
   */
   readonly prefixList?: string[];
   /**
   * Protocol from which route was learned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#protocol PolicyoptionsPolicyStatement#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#protocol PolicyoptionsPolicyStatement#protocol}
   */
   readonly protocol?: string[];
   /**
   * Route type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#route_type PolicyoptionsPolicyStatement#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#route_type PolicyoptionsPolicyStatement#route_type}
   */
   readonly routeType?: string;
   /**
   * Routing protocol instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#routing_instance PolicyoptionsPolicyStatement#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#routing_instance PolicyoptionsPolicyStatement#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Srte color.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#srte_color PolicyoptionsPolicyStatement#srte_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#srte_color PolicyoptionsPolicyStatement#srte_color}
   */
   readonly srteColor?: number;
   /**
   * Route state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#state PolicyoptionsPolicyStatement#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#state PolicyoptionsPolicyStatement#state}
   */
   readonly state?: string;
   /**
   * Tunnel type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#tunnel_type PolicyoptionsPolicyStatement#tunnel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#tunnel_type PolicyoptionsPolicyStatement#tunnel_type}
   */
   readonly tunnelType?: string[];
   /**
   * Name to identify a validation-state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#validation_database PolicyoptionsPolicyStatement#validation_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#validation_database PolicyoptionsPolicyStatement#validation_database}
   */
   readonly validationDatabase?: string;
   /**
   * bgp_as_path_calc_length block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path_calc_length PolicyoptionsPolicyStatement#bgp_as_path_calc_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path_calc_length PolicyoptionsPolicyStatement#bgp_as_path_calc_length}
   */
   readonly bgpAsPathCalcLength?: PolicyoptionsPolicyStatementFromBgpAsPathCalcLength[] | cdktf.IResolvable;
   /**
   * bgp_as_path_unique_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path_unique_count PolicyoptionsPolicyStatement#bgp_as_path_unique_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path_unique_count PolicyoptionsPolicyStatement#bgp_as_path_unique_count}
   */
   readonly bgpAsPathUniqueCount?: PolicyoptionsPolicyStatementFromBgpAsPathUniqueCount[] | cdktf.IResolvable;
   /**
   * bgp_community_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_community_count PolicyoptionsPolicyStatement#bgp_community_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_community_count PolicyoptionsPolicyStatement#bgp_community_count}
   */
   readonly bgpCommunityCount?: PolicyoptionsPolicyStatementFromBgpCommunityCount[] | cdktf.IResolvable;
   /**
   * next_hop_weight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop_weight PolicyoptionsPolicyStatement#next_hop_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop_weight PolicyoptionsPolicyStatement#next_hop_weight}
   */
   readonly nextHopWeight?: PolicyoptionsPolicyStatementFromNextHopWeight[] | cdktf.IResolvable;
   /**
   * route_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#route_filter PolicyoptionsPolicyStatement#route_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#route_filter PolicyoptionsPolicyStatement#route_filter}
   */
   readonly routeFilter?: PolicyoptionsPolicyStatementFromRouteFilter[] | cdktf.IResolvable;
 }
@@ -2040,13 +2040,13 @@ export interface PolicyoptionsPolicyStatementTermFromBgpAsPathCalcLength {
   /**
   * Number of ASes (0..1024).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
   */
   readonly count: number;
   /**
   * Type of match: equal values, higher or equal values, lower or equal values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
   */
   readonly match: string;
 }
@@ -2187,13 +2187,13 @@ export interface PolicyoptionsPolicyStatementTermFromBgpAsPathUniqueCount {
   /**
   * Number of ASes (0..1024).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
   */
   readonly count: number;
   /**
   * Type of match: equal values, higher or equal values, lower or equal values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
   */
   readonly match: string;
 }
@@ -2334,13 +2334,13 @@ export interface PolicyoptionsPolicyStatementTermFromBgpCommunityCount {
   /**
   * Number of communities (0..1024).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#count PolicyoptionsPolicyStatement#count}
   */
   readonly count: number;
   /**
   * Type of match: equal values, higher or equal values, lower or equal values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
   */
   readonly match: string;
 }
@@ -2481,13 +2481,13 @@ export interface PolicyoptionsPolicyStatementTermFromNextHopWeight {
   /**
   * Type of match for weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#match PolicyoptionsPolicyStatement#match}
   */
   readonly match: string;
   /**
   * Weight of the gateway (1..65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#weight PolicyoptionsPolicyStatement#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#weight PolicyoptionsPolicyStatement#weight}
   */
   readonly weight: number;
 }
@@ -2628,19 +2628,19 @@ export interface PolicyoptionsPolicyStatementTermFromRouteFilter {
   /**
   * Mask option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#option PolicyoptionsPolicyStatement#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#option PolicyoptionsPolicyStatement#option}
   */
   readonly option: string;
   /**
   * For options that need an argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#option_value PolicyoptionsPolicyStatement#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#option_value PolicyoptionsPolicyStatement#option_value}
   */
   readonly optionValue?: string;
   /**
   * IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#route PolicyoptionsPolicyStatement#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#route PolicyoptionsPolicyStatement#route}
   */
   readonly route: string;
 }
@@ -2810,199 +2810,199 @@ export interface PolicyoptionsPolicyStatementTermFrom {
   /**
   * Match more specifics of an aggregate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#aggregate_contributor PolicyoptionsPolicyStatement#aggregate_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#aggregate_contributor PolicyoptionsPolicyStatement#aggregate_contributor}
   */
   readonly aggregateContributor?: boolean | cdktf.IResolvable;
   /**
   * Name of AS path regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path PolicyoptionsPolicyStatement#bgp_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path PolicyoptionsPolicyStatement#bgp_as_path}
   */
   readonly bgpAsPath?: string[];
   /**
   * Name of AS path group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path_group PolicyoptionsPolicyStatement#bgp_as_path_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path_group PolicyoptionsPolicyStatement#bgp_as_path_group}
   */
   readonly bgpAsPathGroup?: string[];
   /**
   * BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_community PolicyoptionsPolicyStatement#bgp_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_community PolicyoptionsPolicyStatement#bgp_community}
   */
   readonly bgpCommunity?: string[];
   /**
   * BGP origin attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_origin PolicyoptionsPolicyStatement#bgp_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_origin PolicyoptionsPolicyStatement#bgp_origin}
   */
   readonly bgpOrigin?: string;
   /**
   * Srte discriminator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_srte_discriminator PolicyoptionsPolicyStatement#bgp_srte_discriminator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_srte_discriminator PolicyoptionsPolicyStatement#bgp_srte_discriminator}
   */
   readonly bgpSrteDiscriminator?: number;
   /**
   * Color (preference) value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#color PolicyoptionsPolicyStatement#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#color PolicyoptionsPolicyStatement#color}
   */
   readonly color?: number;
   /**
   * ESI in EVPN Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#evpn_esi PolicyoptionsPolicyStatement#evpn_esi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#evpn_esi PolicyoptionsPolicyStatement#evpn_esi}
   */
   readonly evpnEsi?: string[];
   /**
   * EVPN Mac Route type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#evpn_mac_route PolicyoptionsPolicyStatement#evpn_mac_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#evpn_mac_route PolicyoptionsPolicyStatement#evpn_mac_route}
   */
   readonly evpnMacRoute?: string;
   /**
   * Tag in EVPN Route (0..4294967295).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#evpn_tag PolicyoptionsPolicyStatement#evpn_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#evpn_tag PolicyoptionsPolicyStatement#evpn_tag}
   */
   readonly evpnTag?: number[];
   /**
   * Family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#family PolicyoptionsPolicyStatement#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#family PolicyoptionsPolicyStatement#family}
   */
   readonly family?: string;
   /**
   * Interface name or address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#interface PolicyoptionsPolicyStatement#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#interface PolicyoptionsPolicyStatement#interface}
   */
   readonly interface?: string[];
   /**
   * Local preference associated with a route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Metric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
   */
   readonly metric?: number;
   /**
   * Neighboring router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#neighbor PolicyoptionsPolicyStatement#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#neighbor PolicyoptionsPolicyStatement#neighbor}
   */
   readonly neighbor?: string[];
   /**
   * Next-hop router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
   */
   readonly nextHop?: string[];
   /**
   * Merged next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop_type_merged PolicyoptionsPolicyStatement#next_hop_type_merged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop_type_merged PolicyoptionsPolicyStatement#next_hop_type_merged}
   */
   readonly nextHopTypeMerged?: boolean | cdktf.IResolvable;
   /**
   * OSPF area identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#ospf_area PolicyoptionsPolicyStatement#ospf_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#ospf_area PolicyoptionsPolicyStatement#ospf_area}
   */
   readonly ospfArea?: string;
   /**
   * Name of policy to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#policy PolicyoptionsPolicyStatement#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#policy PolicyoptionsPolicyStatement#policy}
   */
   readonly policy?: string[];
   /**
   * Preference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
   */
   readonly preference?: number;
   /**
   * Prefix-lists of routes to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#prefix_list PolicyoptionsPolicyStatement#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#prefix_list PolicyoptionsPolicyStatement#prefix_list}
   */
   readonly prefixList?: string[];
   /**
   * Protocol from which route was learned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#protocol PolicyoptionsPolicyStatement#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#protocol PolicyoptionsPolicyStatement#protocol}
   */
   readonly protocol?: string[];
   /**
   * Route type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#route_type PolicyoptionsPolicyStatement#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#route_type PolicyoptionsPolicyStatement#route_type}
   */
   readonly routeType?: string;
   /**
   * Routing protocol instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#routing_instance PolicyoptionsPolicyStatement#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#routing_instance PolicyoptionsPolicyStatement#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Srte color.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#srte_color PolicyoptionsPolicyStatement#srte_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#srte_color PolicyoptionsPolicyStatement#srte_color}
   */
   readonly srteColor?: number;
   /**
   * Route state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#state PolicyoptionsPolicyStatement#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#state PolicyoptionsPolicyStatement#state}
   */
   readonly state?: string;
   /**
   * Tunnel type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#tunnel_type PolicyoptionsPolicyStatement#tunnel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#tunnel_type PolicyoptionsPolicyStatement#tunnel_type}
   */
   readonly tunnelType?: string[];
   /**
   * Name to identify a validation-state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#validation_database PolicyoptionsPolicyStatement#validation_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#validation_database PolicyoptionsPolicyStatement#validation_database}
   */
   readonly validationDatabase?: string;
   /**
   * bgp_as_path_calc_length block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path_calc_length PolicyoptionsPolicyStatement#bgp_as_path_calc_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path_calc_length PolicyoptionsPolicyStatement#bgp_as_path_calc_length}
   */
   readonly bgpAsPathCalcLength?: PolicyoptionsPolicyStatementTermFromBgpAsPathCalcLength[] | cdktf.IResolvable;
   /**
   * bgp_as_path_unique_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path_unique_count PolicyoptionsPolicyStatement#bgp_as_path_unique_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path_unique_count PolicyoptionsPolicyStatement#bgp_as_path_unique_count}
   */
   readonly bgpAsPathUniqueCount?: PolicyoptionsPolicyStatementTermFromBgpAsPathUniqueCount[] | cdktf.IResolvable;
   /**
   * bgp_community_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_community_count PolicyoptionsPolicyStatement#bgp_community_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_community_count PolicyoptionsPolicyStatement#bgp_community_count}
   */
   readonly bgpCommunityCount?: PolicyoptionsPolicyStatementTermFromBgpCommunityCount[] | cdktf.IResolvable;
   /**
   * next_hop_weight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop_weight PolicyoptionsPolicyStatement#next_hop_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop_weight PolicyoptionsPolicyStatement#next_hop_weight}
   */
   readonly nextHopWeight?: PolicyoptionsPolicyStatementTermFromNextHopWeight[] | cdktf.IResolvable;
   /**
   * route_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#route_filter PolicyoptionsPolicyStatement#route_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#route_filter PolicyoptionsPolicyStatement#route_filter}
   */
   readonly routeFilter?: PolicyoptionsPolicyStatementTermFromRouteFilter[] | cdktf.IResolvable;
 }
@@ -4026,13 +4026,13 @@ export interface PolicyoptionsPolicyStatementTermThenCommunity {
   /**
   * Action on BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action: string;
   /**
   * Name to identify a BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
   */
   readonly value: string;
 }
@@ -4173,13 +4173,13 @@ export interface PolicyoptionsPolicyStatementTermThenLocalPreference {
   /**
   * Action on local-preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action?: string;
   /**
   * Value for action (local-preference, constant).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
   */
   readonly value?: number;
 }
@@ -4304,13 +4304,13 @@ export interface PolicyoptionsPolicyStatementTermThenMetric {
   /**
   * Action on metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action?: string;
   /**
   * Value for action (metric, constant).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
   */
   readonly value?: number;
 }
@@ -4435,13 +4435,13 @@ export interface PolicyoptionsPolicyStatementTermThenPreference {
   /**
   * Action on preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action?: string;
   /**
   * Value for action (preference, constant).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
   */
   readonly value?: number;
 }
@@ -4566,73 +4566,73 @@ export interface PolicyoptionsPolicyStatementTermThen {
   /**
   * Action `accept` or `reject`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action?: string;
   /**
   * Prepend AS numbers prior to adding local-as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#as_path_expand PolicyoptionsPolicyStatement#as_path_expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#as_path_expand PolicyoptionsPolicyStatement#as_path_expand}
   */
   readonly asPathExpand?: string;
   /**
   * Prepend AS numbers to an AS path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#as_path_prepend PolicyoptionsPolicyStatement#as_path_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#as_path_prepend PolicyoptionsPolicyStatement#as_path_prepend}
   */
   readonly asPathPrepend?: string;
   /**
   * Set default policy action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#default_action PolicyoptionsPolicyStatement#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#default_action PolicyoptionsPolicyStatement#default_action}
   */
   readonly defaultAction?: string;
   /**
   * Type of load balancing in forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#load_balance PolicyoptionsPolicyStatement#load_balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#load_balance PolicyoptionsPolicyStatement#load_balance}
   */
   readonly loadBalance?: string;
   /**
   * Skip to next `policy` or `term`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next PolicyoptionsPolicyStatement#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next PolicyoptionsPolicyStatement#next}
   */
   readonly next?: string;
   /**
   * Set the address of the next-hop router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
   */
   readonly nextHop?: string;
   /**
   * BGP path origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#origin PolicyoptionsPolicyStatement#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#origin PolicyoptionsPolicyStatement#origin}
   */
   readonly origin?: string;
   /**
   * community block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#community PolicyoptionsPolicyStatement#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#community PolicyoptionsPolicyStatement#community}
   */
   readonly community?: PolicyoptionsPolicyStatementTermThenCommunity[] | cdktf.IResolvable;
   /**
   * local_preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
   */
   readonly localPreference?: PolicyoptionsPolicyStatementTermThenLocalPreference;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
   */
   readonly metric?: PolicyoptionsPolicyStatementTermThenMetric;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
   */
   readonly preference?: PolicyoptionsPolicyStatementTermThenPreference;
 }
@@ -5047,91 +5047,91 @@ export interface PolicyoptionsPolicyStatementTermTo {
   /**
   * Name of AS path regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path PolicyoptionsPolicyStatement#bgp_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path PolicyoptionsPolicyStatement#bgp_as_path}
   */
   readonly bgpAsPath?: string[];
   /**
   * Name of AS path group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path_group PolicyoptionsPolicyStatement#bgp_as_path_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path_group PolicyoptionsPolicyStatement#bgp_as_path_group}
   */
   readonly bgpAsPathGroup?: string[];
   /**
   * BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_community PolicyoptionsPolicyStatement#bgp_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_community PolicyoptionsPolicyStatement#bgp_community}
   */
   readonly bgpCommunity?: string[];
   /**
   * BGP origin attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_origin PolicyoptionsPolicyStatement#bgp_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_origin PolicyoptionsPolicyStatement#bgp_origin}
   */
   readonly bgpOrigin?: string;
   /**
   * Family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#family PolicyoptionsPolicyStatement#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#family PolicyoptionsPolicyStatement#family}
   */
   readonly family?: string;
   /**
   * Interface name or address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#interface PolicyoptionsPolicyStatement#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#interface PolicyoptionsPolicyStatement#interface}
   */
   readonly interface?: string[];
   /**
   * Local preference associated with a route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Metric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
   */
   readonly metric?: number;
   /**
   * Neighboring router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#neighbor PolicyoptionsPolicyStatement#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#neighbor PolicyoptionsPolicyStatement#neighbor}
   */
   readonly neighbor?: string[];
   /**
   * Next-hop router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
   */
   readonly nextHop?: string[];
   /**
   * OSPF area identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#ospf_area PolicyoptionsPolicyStatement#ospf_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#ospf_area PolicyoptionsPolicyStatement#ospf_area}
   */
   readonly ospfArea?: string;
   /**
   * Name of policy to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#policy PolicyoptionsPolicyStatement#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#policy PolicyoptionsPolicyStatement#policy}
   */
   readonly policy?: string[];
   /**
   * Preference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
   */
   readonly preference?: number;
   /**
   * Protocol from which route was learned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#protocol PolicyoptionsPolicyStatement#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#protocol PolicyoptionsPolicyStatement#protocol}
   */
   readonly protocol?: string[];
   /**
   * Routing protocol instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#routing_instance PolicyoptionsPolicyStatement#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#routing_instance PolicyoptionsPolicyStatement#routing_instance}
   */
   readonly routingInstance?: string;
 }
@@ -5633,25 +5633,25 @@ export interface PolicyoptionsPolicyStatementTerm {
   /**
   * Name of term.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#name PolicyoptionsPolicyStatement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#name PolicyoptionsPolicyStatement#name}
   */
   readonly name: string;
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#from PolicyoptionsPolicyStatement#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#from PolicyoptionsPolicyStatement#from}
   */
   readonly from?: PolicyoptionsPolicyStatementTermFrom;
   /**
   * then block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#then PolicyoptionsPolicyStatement#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#then PolicyoptionsPolicyStatement#then}
   */
   readonly then?: PolicyoptionsPolicyStatementTermThen;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#to PolicyoptionsPolicyStatement#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#to PolicyoptionsPolicyStatement#to}
   */
   readonly to?: PolicyoptionsPolicyStatementTermTo;
 }
@@ -5853,13 +5853,13 @@ export interface PolicyoptionsPolicyStatementThenCommunity {
   /**
   * Action on BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action: string;
   /**
   * Name to identify a BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
   */
   readonly value: string;
 }
@@ -6000,13 +6000,13 @@ export interface PolicyoptionsPolicyStatementThenLocalPreference {
   /**
   * Action on local-preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action?: string;
   /**
   * Value for action (local-preference, constant).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
   */
   readonly value?: number;
 }
@@ -6131,13 +6131,13 @@ export interface PolicyoptionsPolicyStatementThenMetric {
   /**
   * Action on metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action?: string;
   /**
   * Value for action (metric, constant).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
   */
   readonly value?: number;
 }
@@ -6262,13 +6262,13 @@ export interface PolicyoptionsPolicyStatementThenPreference {
   /**
   * Action on preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action?: string;
   /**
   * Value for action (preference, constant).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#value PolicyoptionsPolicyStatement#value}
   */
   readonly value?: number;
 }
@@ -6393,73 +6393,73 @@ export interface PolicyoptionsPolicyStatementThen {
   /**
   * Action `accept` or `reject`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#action PolicyoptionsPolicyStatement#action}
   */
   readonly action?: string;
   /**
   * Prepend AS numbers prior to adding local-as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#as_path_expand PolicyoptionsPolicyStatement#as_path_expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#as_path_expand PolicyoptionsPolicyStatement#as_path_expand}
   */
   readonly asPathExpand?: string;
   /**
   * Prepend AS numbers to an AS path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#as_path_prepend PolicyoptionsPolicyStatement#as_path_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#as_path_prepend PolicyoptionsPolicyStatement#as_path_prepend}
   */
   readonly asPathPrepend?: string;
   /**
   * Set default policy action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#default_action PolicyoptionsPolicyStatement#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#default_action PolicyoptionsPolicyStatement#default_action}
   */
   readonly defaultAction?: string;
   /**
   * Type of load balancing in forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#load_balance PolicyoptionsPolicyStatement#load_balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#load_balance PolicyoptionsPolicyStatement#load_balance}
   */
   readonly loadBalance?: string;
   /**
   * Skip to next `policy` or `term`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next PolicyoptionsPolicyStatement#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next PolicyoptionsPolicyStatement#next}
   */
   readonly next?: string;
   /**
   * Set the address of the next-hop router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
   */
   readonly nextHop?: string;
   /**
   * BGP path origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#origin PolicyoptionsPolicyStatement#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#origin PolicyoptionsPolicyStatement#origin}
   */
   readonly origin?: string;
   /**
   * community block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#community PolicyoptionsPolicyStatement#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#community PolicyoptionsPolicyStatement#community}
   */
   readonly community?: PolicyoptionsPolicyStatementThenCommunity[] | cdktf.IResolvable;
   /**
   * local_preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
   */
   readonly localPreference?: PolicyoptionsPolicyStatementThenLocalPreference;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
   */
   readonly metric?: PolicyoptionsPolicyStatementThenMetric;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
   */
   readonly preference?: PolicyoptionsPolicyStatementThenPreference;
 }
@@ -6874,91 +6874,91 @@ export interface PolicyoptionsPolicyStatementTo {
   /**
   * Name of AS path regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path PolicyoptionsPolicyStatement#bgp_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path PolicyoptionsPolicyStatement#bgp_as_path}
   */
   readonly bgpAsPath?: string[];
   /**
   * Name of AS path group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_as_path_group PolicyoptionsPolicyStatement#bgp_as_path_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_as_path_group PolicyoptionsPolicyStatement#bgp_as_path_group}
   */
   readonly bgpAsPathGroup?: string[];
   /**
   * BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_community PolicyoptionsPolicyStatement#bgp_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_community PolicyoptionsPolicyStatement#bgp_community}
   */
   readonly bgpCommunity?: string[];
   /**
   * BGP origin attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#bgp_origin PolicyoptionsPolicyStatement#bgp_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#bgp_origin PolicyoptionsPolicyStatement#bgp_origin}
   */
   readonly bgpOrigin?: string;
   /**
   * Family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#family PolicyoptionsPolicyStatement#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#family PolicyoptionsPolicyStatement#family}
   */
   readonly family?: string;
   /**
   * Interface name or address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#interface PolicyoptionsPolicyStatement#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#interface PolicyoptionsPolicyStatement#interface}
   */
   readonly interface?: string[];
   /**
   * Local preference associated with a route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#local_preference PolicyoptionsPolicyStatement#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Metric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#metric PolicyoptionsPolicyStatement#metric}
   */
   readonly metric?: number;
   /**
   * Neighboring router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#neighbor PolicyoptionsPolicyStatement#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#neighbor PolicyoptionsPolicyStatement#neighbor}
   */
   readonly neighbor?: string[];
   /**
   * Next-hop router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#next_hop PolicyoptionsPolicyStatement#next_hop}
   */
   readonly nextHop?: string[];
   /**
   * OSPF area identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#ospf_area PolicyoptionsPolicyStatement#ospf_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#ospf_area PolicyoptionsPolicyStatement#ospf_area}
   */
   readonly ospfArea?: string;
   /**
   * Name of policy to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#policy PolicyoptionsPolicyStatement#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#policy PolicyoptionsPolicyStatement#policy}
   */
   readonly policy?: string[];
   /**
   * Preference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#preference PolicyoptionsPolicyStatement#preference}
   */
   readonly preference?: number;
   /**
   * Protocol from which route was learned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#protocol PolicyoptionsPolicyStatement#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#protocol PolicyoptionsPolicyStatement#protocol}
   */
   readonly protocol?: string[];
   /**
   * Routing protocol instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#routing_instance PolicyoptionsPolicyStatement#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#routing_instance PolicyoptionsPolicyStatement#routing_instance}
   */
   readonly routingInstance?: string;
 }
@@ -7458,7 +7458,7 @@ export class PolicyoptionsPolicyStatementToOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement junos_policyoptions_policy_statement}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement junos_policyoptions_policy_statement}
 */
 export class PolicyoptionsPolicyStatement extends cdktf.TerraformResource {
 
@@ -7474,7 +7474,7 @@ export class PolicyoptionsPolicyStatement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyoptionsPolicyStatement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyoptionsPolicyStatement to import
-  * @param importFromId The id of the existing PolicyoptionsPolicyStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyoptionsPolicyStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyoptionsPolicyStatement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7486,7 +7486,7 @@ export class PolicyoptionsPolicyStatement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_policy_statement junos_policyoptions_policy_statement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_policy_statement junos_policyoptions_policy_statement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7497,8 +7497,8 @@ export class PolicyoptionsPolicyStatement extends cdktf.TerraformResource {
       terraformResourceType: 'junos_policyoptions_policy_statement',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

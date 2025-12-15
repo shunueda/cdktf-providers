@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#metadata DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#metadata DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestMetadata;
   /**
   * Spec is the desired behavior of the local redirect policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#spec DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#spec DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#spec}
   */
   readonly spec?: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#annotations DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#annotations DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#labels DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#labels DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#namespace DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#namespace DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectB
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#key DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#key DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#operator DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#operator DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#values DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#values DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectB
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectBackendLocalEndpointSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,19 +532,19 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectB
   /**
   * Name is a port name, which must contain at least one [a-z], and may also contain [0-9] and '-' anywhere except adjacent to another '-' or in the beginning or the end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Port is an L4 port number. The string will be strictly parsed as a single uint16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#port DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#port DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#port}
   */
   readonly port: string;
   /**
   * Protocol is the L4 protocol. Accepted values: 'TCP', 'UDP'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#protocol DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#protocol DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -714,13 +714,13 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectB
   /**
   * LocalEndpointSelector selects node local pod(s) where traffic is redirected to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#local_endpoint_selector DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#local_endpoint_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#local_endpoint_selector DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#local_endpoint_selector}
   */
   readonly localEndpointSelector: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectBackendLocalEndpointSelector;
   /**
   * ToPorts is a list of L4 ports with protocol of node local pod(s) where traffic is redirected to. When multiple ports are specified, the ports must be named.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#to_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#to_ports}
   */
   readonly toPorts: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectBackendToPorts[] | cdktf.IResolvable;
 }
@@ -839,19 +839,19 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectF
   /**
   * Name is a port name, which must contain at least one [a-z], and may also contain [0-9] and '-' anywhere except adjacent to another '-' or in the beginning or the end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Port is an L4 port number. The string will be strictly parsed as a single uint16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#port DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#port DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#port}
   */
   readonly port: string;
   /**
   * Protocol is the L4 protocol. Accepted values: 'TCP', 'UDP'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#protocol DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#protocol DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -1021,13 +1021,13 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectF
   /**
   * IP is a destination ip address for traffic to be redirected. Example: When it is set to '169.254.169.254', traffic destined to '169.254.169.254' is redirected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#ip DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#ip DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#ip}
   */
   readonly ip: string;
   /**
   * ToPorts is a list of destination L4 ports with protocol for traffic to be redirected. When multiple ports are specified, the ports must be named. Example: When set to Port: '53' and Protocol: UDP, traffic destined to port '53' with UDP protocol is redirected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#to_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#to_ports}
   */
   readonly toPorts: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectFrontendAddressMatcherToPorts[] | cdktf.IResolvable;
 }
@@ -1146,19 +1146,19 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectF
   /**
   * Name is a port name, which must contain at least one [a-z], and may also contain [0-9] and '-' anywhere except adjacent to another '-' or in the beginning or the end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Port is an L4 port number. The string will be strictly parsed as a single uint16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#port DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#port DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#port}
   */
   readonly port: string;
   /**
   * Protocol is the L4 protocol. Accepted values: 'TCP', 'UDP'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#protocol DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#protocol DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -1328,19 +1328,19 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectF
   /**
   * Namespace is the Kubernetes service namespace. The service namespace must match the namespace of the parent Local Redirect Policy. For Cluster-wide Local Redirect Policy, this can be any namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#namespace DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#namespace DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * Name is the name of a destination Kubernetes service that identifies traffic to be redirected. The service type needs to be ClusterIP. Example: When this field is populated with 'serviceName:myService', all the traffic destined to the cluster IP of this service at the (specified) service port(s) will be redirected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#service_name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#service_name DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#service_name}
   */
   readonly serviceName: string;
   /**
   * ToPorts is a list of destination service L4 ports with protocol for traffic to be redirected. If not specified, traffic for all the service ports will be redirected. When multiple ports are specified, the ports must be named.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#to_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#to_ports}
   */
   readonly toPorts?: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectFrontendServiceMatcherToPorts[] | cdktf.IResolvable;
 }
@@ -1488,13 +1488,13 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectF
   /**
   * AddressMatcher is a tuple {IP, port, protocol} that matches traffic to be redirected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#address_matcher DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#address_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#address_matcher DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#address_matcher}
   */
   readonly addressMatcher?: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectFrontendAddressMatcher;
   /**
   * ServiceMatcher specifies Kubernetes service and port that matches traffic to be redirected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#service_matcher DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#service_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#service_matcher DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#service_matcher}
   */
   readonly serviceMatcher?: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectFrontendServiceMatcher;
 }
@@ -1619,25 +1619,25 @@ export interface DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpec {
   /**
   * Description can be used by the creator of the policy to describe the purpose of this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#description DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#description DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#description}
   */
   readonly description?: string;
   /**
   * RedirectBackend specifies backend configuration to redirect traffic to. It can not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#redirect_backend DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#redirect_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#redirect_backend DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#redirect_backend}
   */
   readonly redirectBackend: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectBackend;
   /**
   * RedirectFrontend specifies frontend configuration to redirect traffic from. It can not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#redirect_frontend DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#redirect_frontend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#redirect_frontend DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#redirect_frontend}
   */
   readonly redirectFrontend: DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecRedirectFrontend;
   /**
   * SkipRedirectFromBackend indicates whether traffic matching RedirectFrontend from RedirectBackend should skip redirection, and hence the traffic will be forwarded as-is. The default is false which means traffic matching RedirectFrontend will get redirected from all pods, including the RedirectBackend(s). Example: If RedirectFrontend is configured to '169.254.169.254:80' as the traffic that needs to be redirected to backends selected by RedirectBackend, if SkipRedirectFromBackend is set to true, traffic going to '169.254.169.254:80' from such backends will not be redirected back to the backends. Instead, the matched traffic from the backends will be forwarded to the original destination '169.254.169.254:80'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#skip_redirect_from_backend DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#skip_redirect_from_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#skip_redirect_from_backend DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest#skip_redirect_from_backend}
   */
   readonly skipRedirectFromBackend?: boolean | cdktf.IResolvable;
 }
@@ -1812,7 +1812,7 @@ export class DataK8SCiliumIoCiliumLocalRedirectPolicyV2ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest k8s_cilium_io_cilium_local_redirect_policy_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest k8s_cilium_io_cilium_local_redirect_policy_v2_manifest}
 */
 export class DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1828,7 +1828,7 @@ export class DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1840,7 +1840,7 @@ export class DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest k8s_cilium_io_cilium_local_redirect_policy_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_local_redirect_policy_v2_manifest k8s_cilium_io_cilium_local_redirect_policy_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1851,8 +1851,8 @@ export class DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_cilium_io_cilium_local_redirect_policy_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

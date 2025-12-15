@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ServicesSecurityIntelligencePolicyConfig extends cdktf.Terrafor
   /**
   * Text description of policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy#description ServicesSecurityIntelligencePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy#description ServicesSecurityIntelligencePolicy#description}
   */
   readonly description?: string;
   /**
   * Security intelligence policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy#name ServicesSecurityIntelligencePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy#name ServicesSecurityIntelligencePolicy#name}
   */
   readonly name: string;
   /**
   * category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy#category ServicesSecurityIntelligencePolicy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy#category ServicesSecurityIntelligencePolicy#category}
   */
   readonly category?: ServicesSecurityIntelligencePolicyCategory[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface ServicesSecurityIntelligencePolicyCategory {
   /**
   * Name of security intelligence category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy#name ServicesSecurityIntelligencePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy#name ServicesSecurityIntelligencePolicy#name}
   */
   readonly name: string;
   /**
   * Name of profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy#profile_name ServicesSecurityIntelligencePolicy#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy#profile_name ServicesSecurityIntelligencePolicy#profile_name}
   */
   readonly profileName: string;
 }
@@ -175,7 +175,7 @@ export class ServicesSecurityIntelligencePolicyCategoryList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy junos_services_security_intelligence_policy}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy junos_services_security_intelligence_policy}
 */
 export class ServicesSecurityIntelligencePolicy extends cdktf.TerraformResource {
 
@@ -191,7 +191,7 @@ export class ServicesSecurityIntelligencePolicy extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ServicesSecurityIntelligencePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicesSecurityIntelligencePolicy to import
-  * @param importFromId The id of the existing ServicesSecurityIntelligencePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicesSecurityIntelligencePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicesSecurityIntelligencePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class ServicesSecurityIntelligencePolicy extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_security_intelligence_policy junos_services_security_intelligence_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_security_intelligence_policy junos_services_security_intelligence_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class ServicesSecurityIntelligencePolicy extends cdktf.TerraformResource 
       terraformResourceType: 'junos_services_security_intelligence_policy',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

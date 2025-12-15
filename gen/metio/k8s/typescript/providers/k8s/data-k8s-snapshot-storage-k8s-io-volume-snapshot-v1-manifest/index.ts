@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSnapshotStorageK8SIoVolumeSnapshotV1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#metadata DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#metadata DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#metadata}
   */
   readonly metadata: DataK8SSnapshotStorageK8SIoVolumeSnapshotV1ManifestMetadata;
   /**
   * spec defines the desired characteristics of a snapshot requested by a user. More info: https://kubernetes.io/docs/concepts/storage/volume-snapshots#volumesnapshots Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#spec DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#spec DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#spec}
   */
   readonly spec: DataK8SSnapshotStorageK8SIoVolumeSnapshotV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSnapshotStorageK8SIoVolumeSnapshotV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#annotations DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#annotations DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#labels DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#labels DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#name DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#name DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#namespace DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#namespace DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSnapshotStorageK8SIoVolumeSnapshotV1ManifestSpecSource {
   /**
   * persistentVolumeClaimName specifies the name of the PersistentVolumeClaim object representing the volume from which a snapshot should be created. This PVC is assumed to be in the same namespace as the VolumeSnapshot object. This field should be set if the snapshot does not exists, and needs to be created. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#persistent_volume_claim_name DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#persistent_volume_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#persistent_volume_claim_name DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#persistent_volume_claim_name}
   */
   readonly persistentVolumeClaimName?: string;
   /**
   * volumeSnapshotContentName specifies the name of a pre-existing VolumeSnapshotContent object representing an existing volume snapshot. This field should be set if the snapshot already exists and only needs a representation in Kubernetes. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#volume_snapshot_content_name DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#volume_snapshot_content_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#volume_snapshot_content_name DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#volume_snapshot_content_name}
   */
   readonly volumeSnapshotContentName?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SSnapshotStorageK8SIoVolumeSnapshotV1ManifestSpec {
   /**
   * source specifies where a snapshot will be created from. This field is immutable after creation. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#source DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#source DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#source}
   */
   readonly source: DataK8SSnapshotStorageK8SIoVolumeSnapshotV1ManifestSpecSource;
   /**
   * VolumeSnapshotClassName is the name of the VolumeSnapshotClass requested by the VolumeSnapshot. VolumeSnapshotClassName may be left nil to indicate that the default SnapshotClass should be used. A given cluster may have multiple default Volume SnapshotClasses: one default per CSI Driver. If a VolumeSnapshot does not specify a SnapshotClass, VolumeSnapshotSource will be checked to figure out what the associated CSI Driver is, and the default VolumeSnapshotClass associated with that CSI Driver will be used. If more than one VolumeSnapshotClass exist for a given CSI Driver and more than one have been marked as default, CreateSnapshot will fail and generate an event. Empty string is not allowed for this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#volume_snapshot_class_name DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#volume_snapshot_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#volume_snapshot_class_name DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest#volume_snapshot_class_name}
   */
   readonly volumeSnapshotClassName?: string;
 }
@@ -476,7 +476,7 @@ export class DataK8SSnapshotStorageK8SIoVolumeSnapshotV1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest k8s_snapshot_storage_k8s_io_volume_snapshot_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest k8s_snapshot_storage_k8s_io_volume_snapshot_v1_manifest}
 */
 export class DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest extends cdktf.TerraformDataSource {
 
@@ -492,7 +492,7 @@ export class DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -504,7 +504,7 @@ export class DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest k8s_snapshot_storage_k8s_io_volume_snapshot_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/snapshot_storage_k8s_io_volume_snapshot_v1_manifest k8s_snapshot_storage_k8s_io_volume_snapshot_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,8 +515,8 @@ export class DataK8SSnapshotStorageK8SIoVolumeSnapshotV1Manifest extends cdktf.T
       terraformResourceType: 'k8s_snapshot_storage_k8s_io_volume_snapshot_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

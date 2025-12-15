@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CloudDesktopsDesktopConfig extends cdktf.TerraformMetaArguments
   /**
   * The id of the Desktop Group to which the Desktop belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#desktop_group_id CloudDesktopsDesktop#desktop_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#desktop_group_id CloudDesktopsDesktop#desktop_group_id}
   */
   readonly desktopGroupId: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#labels CloudDesktopsDesktop#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#labels CloudDesktopsDesktop#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The list of members which can use the Desktop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#members CloudDesktopsDesktop#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#members CloudDesktopsDesktop#members}
   */
   readonly members?: CloudDesktopsDesktopMembers[] | cdktf.IResolvable;
   /**
   * The name of the Desktop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#name CloudDesktopsDesktop#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#name CloudDesktopsDesktop#name}
   */
   readonly name?: string;
   /**
   * The specification of the Desktop network interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#network_interface CloudDesktopsDesktop#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#network_interface CloudDesktopsDesktop#network_interface}
   */
   readonly networkInterface?: CloudDesktopsDesktopNetworkInterface;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#timeouts CloudDesktopsDesktop#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#timeouts CloudDesktopsDesktop#timeouts}
   */
   readonly timeouts?: CloudDesktopsDesktopTimeouts;
 }
@@ -48,13 +48,13 @@ export interface CloudDesktopsDesktopMembers {
   /**
   * Identity of the access binding. See [the official documentation](https://yandex.cloud/ru/docs/cloud-desktop/api-ref/grpc/Desktop/create#yandex.cloud.clouddesktop.v1.api.User)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#subject_id CloudDesktopsDesktop#subject_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#subject_id CloudDesktopsDesktop#subject_id}
   */
   readonly subjectId: string;
   /**
   * Type of the access binding. See [the official documentation](https://yandex.cloud/ru/docs/cloud-desktop/api-ref/grpc/Desktop/create#yandex.cloud.clouddesktop.v1.api.User)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#subject_type CloudDesktopsDesktop#subject_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#subject_type CloudDesktopsDesktop#subject_type}
   */
   readonly subjectType: string;
 }
@@ -195,7 +195,7 @@ export interface CloudDesktopsDesktopNetworkInterface {
   /**
   * ID of the subnet for desktop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#subnet_id CloudDesktopsDesktop#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#subnet_id CloudDesktopsDesktop#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -291,19 +291,19 @@ export interface CloudDesktopsDesktopTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#create CloudDesktopsDesktop#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#create CloudDesktopsDesktop#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#delete CloudDesktopsDesktop#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#delete CloudDesktopsDesktop#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#update CloudDesktopsDesktop#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#update CloudDesktopsDesktop#update}
   */
   readonly update?: string;
 }
@@ -455,7 +455,7 @@ export class CloudDesktopsDesktopTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop yandex_cloud_desktops_desktop}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop yandex_cloud_desktops_desktop}
 */
 export class CloudDesktopsDesktop extends cdktf.TerraformResource {
 
@@ -471,7 +471,7 @@ export class CloudDesktopsDesktop extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudDesktopsDesktop resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudDesktopsDesktop to import
-  * @param importFromId The id of the existing CloudDesktopsDesktop that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudDesktopsDesktop that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudDesktopsDesktop to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -483,7 +483,7 @@ export class CloudDesktopsDesktop extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/cloud_desktops_desktop yandex_cloud_desktops_desktop} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloud_desktops_desktop yandex_cloud_desktops_desktop} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -494,8 +494,8 @@ export class CloudDesktopsDesktop extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_cloud_desktops_desktop',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#metadata DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#metadata DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestMetadata;
   /**
   * DNSEndpointSpec defines the desired state of DNSEndpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#spec DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#spec DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#annotations DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#annotations DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#labels DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#labels DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#name DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#name DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#namespace DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#namespace DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestMetadataOutputRef
 }
 export interface DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestSpecEndpointsProviderSpecific {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#name DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#name DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#value DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#value DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,43 +368,43 @@ export interface DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestSpecEndpoints
   /**
   * The hostname of the DNS record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#dns_name DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#dns_name DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#dns_name}
   */
   readonly dnsName?: string;
   /**
   * Labels stores labels defined for the Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#labels DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#labels DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * ProviderSpecific stores provider specific config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#provider_specific DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#provider_specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#provider_specific DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#provider_specific}
   */
   readonly providerSpecific?: DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestSpecEndpointsProviderSpecific[] | cdktf.IResolvable;
   /**
   * TTL for the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#record_ttl DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#record_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#record_ttl DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#record_ttl}
   */
   readonly recordTtl?: number;
   /**
   * RecordType type of record, e.g. CNAME, A, AAAA, SRV, TXT etc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#record_type DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#record_type DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#record_type}
   */
   readonly recordType?: string;
   /**
   * Identifier to distinguish multiple records with the same name and type (e.g. Route53 records with routing policies other than 'simple')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#set_identifier DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#set_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#set_identifier DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#set_identifier}
   */
   readonly setIdentifier?: string;
   /**
   * The targets the DNS record points to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#targets DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#targets DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#targets}
   */
   readonly targets?: string[];
 }
@@ -694,7 +694,7 @@ export class DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestSpecEndpointsList
 }
 export interface DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#endpoints DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#endpoints DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest#endpoints}
   */
   readonly endpoints?: DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestSpecEndpoints[] | cdktf.IResolvable;
 }
@@ -788,7 +788,7 @@ export class DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest k8s_externaldns_k8s_io_dns_endpoint_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest k8s_externaldns_k8s_io_dns_endpoint_v1alpha1_manifest}
 */
 export class DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -804,7 +804,7 @@ export class DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -816,7 +816,7 @@ export class DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest k8s_externaldns_k8s_io_dns_endpoint_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/externaldns_k8s_io_dns_endpoint_v1alpha1_manifest k8s_externaldns_k8s_io_dns_endpoint_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -827,8 +827,8 @@ export class DataK8SExternaldnsK8SIoDnsEndpointV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_externaldns_k8s_io_dns_endpoint_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

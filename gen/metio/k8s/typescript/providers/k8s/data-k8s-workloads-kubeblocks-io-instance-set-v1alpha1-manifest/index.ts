@@ -15,19 +15,19 @@ export interface DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1ManifestMetadata;
   /**
   * Defines the desired state of the state machine. It includes the configuration details for the state machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest k8s_workloads_kubeblocks_io_instance_set_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest k8s_workloads_kubeblocks_io_instance_set_v1alpha1_manifest}
 */
 export class DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -55,7 +55,7 @@ export class DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest k8s_workloads_kubeblocks_io_instance_set_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/workloads_kubeblocks_io_instance_set_v1alpha1_manifest k8s_workloads_kubeblocks_io_instance_set_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,8 +66,8 @@ export class DataK8SWorkloadsKubeblocksIoInstanceSetV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_workloads_kubeblocks_io_instance_set_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

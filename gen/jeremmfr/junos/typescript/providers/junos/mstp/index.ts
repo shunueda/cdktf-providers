@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface MstpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Priority of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#backup_bridge_priority Mstp#backup_bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#backup_bridge_priority Mstp#backup_bridge_priority}
   */
   readonly backupBridgePriority?: string;
   /**
   * Block BPDU on all interfaces configured as edge (BPDU Protect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#bpdu_block_on_edge Mstp#bpdu_block_on_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#bpdu_block_on_edge Mstp#bpdu_block_on_edge}
   */
   readonly bpduBlockOnEdge?: boolean | cdktf.IResolvable;
   /**
   * Destination MAC address in the spanning tree BPDUs is 802.1ad provider bridge group address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#bpdu_destination_mac_address_provider_bridge_group Mstp#bpdu_destination_mac_address_provider_bridge_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#bpdu_destination_mac_address_provider_bridge_group Mstp#bpdu_destination_mac_address_provider_bridge_group}
   */
   readonly bpduDestinationMacAddressProviderBridgeGroup?: boolean | cdktf.IResolvable;
   /**
   * Priority of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#bridge_priority Mstp#bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#bridge_priority Mstp#bridge_priority}
   */
   readonly bridgePriority?: string;
   /**
   * Configuration name (part of MST configuration identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#configuration_name Mstp#configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#configuration_name Mstp#configuration_name}
   */
   readonly configurationName?: string;
   /**
   * Disable MSTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#disable Mstp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#disable Mstp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Time spent in listening or learning state (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#forward_delay Mstp#forward_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#forward_delay Mstp#forward_delay}
   */
   readonly forwardDelay?: number;
   /**
   * Time interval between configuration BPDUs (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#hello_time Mstp#hello_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#hello_time Mstp#hello_time}
   */
   readonly helloTime?: number;
   /**
   * Maximum age of received protocol bpdu (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#max_age Mstp#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#max_age Mstp#max_age}
   */
   readonly maxAge?: number;
   /**
   * Maximum number of hops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#max_hops Mstp#max_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#max_hops Mstp#max_hops}
   */
   readonly maxHops?: number;
   /**
   * Hold time before switching to primary priority when core domain becomes up (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#priority_hold_time Mstp#priority_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#priority_hold_time Mstp#priority_hold_time}
   */
   readonly priorityHoldTime?: number;
   /**
   * Revision level (part of MST configuration identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#revision_level Mstp#revision_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#revision_level Mstp#revision_level}
   */
   readonly revisionLevel?: number;
   /**
   * Routing instance for mstp protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#routing_instance Mstp#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#routing_instance Mstp#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * System identifier to represent this node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#system_identifier Mstp#system_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#system_identifier Mstp#system_identifier}
   */
   readonly systemIdentifier?: string;
   /**
   * Enable VPLS MAC flush on root protected CE interface receiving topology change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#vpls_flush_on_topology_change Mstp#vpls_flush_on_topology_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#vpls_flush_on_topology_change Mstp#vpls_flush_on_topology_change}
   */
   readonly vplsFlushOnTopologyChange?: boolean | cdktf.IResolvable;
   /**
   * system_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#system_id Mstp#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#system_id Mstp#system_id}
   */
   readonly systemId?: MstpSystemId[] | cdktf.IResolvable;
 }
@@ -108,7 +108,7 @@ export interface MstpSystemId {
   /**
   * System ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#id Mstp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#id Mstp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -117,7 +117,7 @@ export interface MstpSystemId {
   /**
   * Peer ID (IP Address).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#ip_address Mstp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#ip_address Mstp#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -259,7 +259,7 @@ export class MstpSystemIdList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp junos_mstp}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp junos_mstp}
 */
 export class Mstp extends cdktf.TerraformResource {
 
@@ -275,7 +275,7 @@ export class Mstp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mstp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mstp to import
-  * @param importFromId The id of the existing Mstp that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mstp that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mstp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class Mstp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp junos_mstp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp junos_mstp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class Mstp extends cdktf.TerraformResource {
       terraformResourceType: 'junos_mstp',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

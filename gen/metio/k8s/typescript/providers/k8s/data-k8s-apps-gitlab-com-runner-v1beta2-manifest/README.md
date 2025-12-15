@@ -1,3 +1,3 @@
 # `data_k8s_apps_gitlab_com_runner_v1beta2_manifest`
 
-Refer to the Terraform Registry for docs: [`data_k8s_apps_gitlab_com_runner_v1beta2_manifest`](https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest).
+Refer to the Terraform Registry for docs: [`data_k8s_apps_gitlab_com_runner_v1beta2_manifest`](https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_gitlab_com_runner_v1beta2_manifest).

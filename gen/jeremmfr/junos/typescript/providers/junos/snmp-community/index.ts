@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SnmpCommunityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow read-only access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#authorization_read_only SnmpCommunity#authorization_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#authorization_read_only SnmpCommunity#authorization_read_only}
   */
   readonly authorizationReadOnly?: boolean | cdktf.IResolvable;
   /**
   * Allow read and write access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#authorization_read_write SnmpCommunity#authorization_read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#authorization_read_write SnmpCommunity#authorization_read_write}
   */
   readonly authorizationReadWrite?: boolean | cdktf.IResolvable;
   /**
   * The name of client list or prefix list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#client_list_name SnmpCommunity#client_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#client_list_name SnmpCommunity#client_list_name}
   */
   readonly clientListName?: string;
   /**
   * List of source address prefix ranges to accept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#clients SnmpCommunity#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#clients SnmpCommunity#clients}
   */
   readonly clients?: string[];
   /**
   * The name of snmp community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#name SnmpCommunity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#name SnmpCommunity#name}
   */
   readonly name: string;
   /**
   * View name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#view SnmpCommunity#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#view SnmpCommunity#view}
   */
   readonly view?: string;
   /**
   * routing_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#routing_instance SnmpCommunity#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#routing_instance SnmpCommunity#routing_instance}
   */
   readonly routingInstance?: SnmpCommunityRoutingInstance[] | cdktf.IResolvable;
 }
@@ -54,19 +54,19 @@ export interface SnmpCommunityRoutingInstance {
   /**
   * The name of client list or prefix list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#client_list_name SnmpCommunity#client_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#client_list_name SnmpCommunity#client_list_name}
   */
   readonly clientListName?: string;
   /**
   * List of source address prefix ranges to accept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#clients SnmpCommunity#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#clients SnmpCommunity#clients}
   */
   readonly clients?: string[];
   /**
   * Name of routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#name SnmpCommunity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#name SnmpCommunity#name}
   */
   readonly name: string;
 }
@@ -237,7 +237,7 @@ export class SnmpCommunityRoutingInstanceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community junos_snmp_community}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community junos_snmp_community}
 */
 export class SnmpCommunity extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class SnmpCommunity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpCommunity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpCommunity to import
-  * @param importFromId The id of the existing SnmpCommunity that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpCommunity that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpCommunity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class SnmpCommunity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp_community junos_snmp_community} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp_community junos_snmp_community} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class SnmpCommunity extends cdktf.TerraformResource {
       terraformResourceType: 'junos_snmp_community',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

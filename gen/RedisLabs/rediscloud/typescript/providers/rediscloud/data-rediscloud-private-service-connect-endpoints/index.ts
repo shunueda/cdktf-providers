@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/private_service_connect_endpoints
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/private_service_connect_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataRediscloudPrivateServiceConnectEndpointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/private_service_connect_endpoints#id DataRediscloudPrivateServiceConnectEndpoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/private_service_connect_endpoints#id DataRediscloudPrivateServiceConnectEndpoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataRediscloudPrivateServiceConnectEndpointsConfig extends cdkt
   /**
   * The ID of the Private Service Connect Service relative to the associated subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/private_service_connect_endpoints#private_service_connect_service_id DataRediscloudPrivateServiceConnectEndpoints#private_service_connect_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/private_service_connect_endpoints#private_service_connect_service_id DataRediscloudPrivateServiceConnectEndpoints#private_service_connect_service_id}
   */
   readonly privateServiceConnectServiceId: number;
   /**
   * The ID of a Pro subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/private_service_connect_endpoints#subscription_id DataRediscloudPrivateServiceConnectEndpoints#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/private_service_connect_endpoints#subscription_id DataRediscloudPrivateServiceConnectEndpoints#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -225,7 +225,7 @@ export class DataRediscloudPrivateServiceConnectEndpointsEndpointsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/private_service_connect_endpoints rediscloud_private_service_connect_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/private_service_connect_endpoints rediscloud_private_service_connect_endpoints}
 */
 export class DataRediscloudPrivateServiceConnectEndpoints extends cdktf.TerraformDataSource {
 
@@ -241,7 +241,7 @@ export class DataRediscloudPrivateServiceConnectEndpoints extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataRediscloudPrivateServiceConnectEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudPrivateServiceConnectEndpoints to import
-  * @param importFromId The id of the existing DataRediscloudPrivateServiceConnectEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/private_service_connect_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudPrivateServiceConnectEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/private_service_connect_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudPrivateServiceConnectEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class DataRediscloudPrivateServiceConnectEndpoints extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/private_service_connect_endpoints rediscloud_private_service_connect_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/private_service_connect_endpoints rediscloud_private_service_connect_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class DataRediscloudPrivateServiceConnectEndpoints extends cdktf.Terrafor
       terraformResourceType: 'rediscloud_private_service_connect_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.8.0',
-        providerVersionConstraint: '2.8.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

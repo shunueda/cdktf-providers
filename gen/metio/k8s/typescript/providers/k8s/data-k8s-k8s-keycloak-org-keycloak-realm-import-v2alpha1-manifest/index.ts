@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#metadata DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#metadata DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#spec DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#spec DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#annotations DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#annotations DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#labels DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#labels DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#namespace DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#namespace DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,14 +215,14 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestMetadataOut
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPoliciesResourcesDataOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -345,22 +345,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPoliciesResourcesDataScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -563,46 +563,46 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPoliciesResourcesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPoliciesResourcesDataOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPoliciesResourcesDataScopes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -979,22 +979,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPoliciesScopesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1197,58 +1197,58 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#logic DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#logic DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
   */
   readonly policies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources_data}
   */
   readonly resourcesData?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPoliciesResourcesData[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes_data}
   */
   readonly scopesData?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPoliciesScopesData[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1712,14 +1712,14 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsResourcesOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1842,22 +1842,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsResourcesScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2060,46 +2060,46 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsResourcesOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsResourcesScopes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -2476,22 +2476,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2694,42 +2694,42 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#allow_remote_resource_management DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#allow_remote_resource_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#allow_remote_resource_management DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#allow_remote_resource_management}
   */
   readonly allowRemoteResourceManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsPolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policy_enforcement_mode DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policy_enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policy_enforcement_mode DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policy_enforcement_mode}
   */
   readonly policyEnforcementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettingsScopes[] | cdktf.IResolvable;
 }
@@ -3055,43 +3055,43 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#address DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#address DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#address}
   */
   readonly address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#gender DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#gender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#gender DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#gender}
   */
   readonly gender?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#locale DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#locale DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#locale}
   */
   readonly locale?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#phone DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#phone DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#phone}
   */
   readonly phone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#picture DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#picture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#picture DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#picture}
   */
   readonly picture?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#profile DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#profile DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#profile}
   */
   readonly profile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#username}
   */
   readonly username?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#website DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#website DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#website}
   */
   readonly website?: boolean | cdktf.IResolvable;
 }
@@ -3446,34 +3446,34 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsProtocolMappers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
   */
   readonly consentText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
   */
   readonly protocolMapper?: string;
 }
@@ -3763,186 +3763,186 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
   */
   readonly access?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_url}
   */
   readonly adminUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#always_display_in_console DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#always_display_in_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#always_display_in_console DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#always_display_in_console}
   */
   readonly alwaysDisplayInConsole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_flow_binding_overrides DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_flow_binding_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_flow_binding_overrides DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_flow_binding_overrides}
   */
   readonly authenticationFlowBindingOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_services_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_services_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_services_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_services_enabled}
   */
   readonly authorizationServicesEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_settings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_settings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_settings}
   */
   readonly authorizationSettings?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsAuthorizationSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#base_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#base_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#bearer_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#bearer_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#bearer_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#bearer_only}
   */
   readonly bearerOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#claims DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#claims DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsClaims;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_authenticator_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_authenticator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_authenticator_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_authenticator_type}
   */
   readonly clientAuthenticatorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_template DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_template DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_template}
   */
   readonly clientTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_client_scopes}
   */
   readonly defaultClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_roles}
   */
   readonly defaultRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_access_grants_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_access_grants_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_access_grants_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_access_grants_enabled}
   */
   readonly directAccessGrantsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_grants_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_grants_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_grants_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_grants_only}
   */
   readonly directGrantsOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#frontchannel_logout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#frontchannel_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#frontchannel_logout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#frontchannel_logout}
   */
   readonly frontchannelLogout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_scope_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_scope_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_scope_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_scope_allowed}
   */
   readonly fullScopeAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#implicit_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#implicit_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#implicit_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#implicit_flow_enabled}
   */
   readonly implicitFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#node_re_registration_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#node_re_registration_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#node_re_registration_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#node_re_registration_timeout}
   */
   readonly nodeReRegistrationTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
   */
   readonly notBefore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_authorization_grant_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_authorization_grant_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_authorization_grant_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_authorization_grant_enabled}
   */
   readonly oauth2DeviceAuthorizationGrantEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#optional_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#optional_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#optional_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#optional_client_scopes}
   */
   readonly optionalClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
   */
   readonly origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
   */
   readonly protocolMappers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplicationsProtocolMappers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_client}
   */
   readonly publicClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#redirect_uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#redirect_uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#redirect_uris}
   */
   readonly redirectUris?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registered_nodes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registered_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registered_nodes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registered_nodes}
   */
   readonly registeredNodes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_access_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_access_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_access_token}
   */
   readonly registrationAccessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#root_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#root_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#root_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#root_url}
   */
   readonly rootUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_accounts_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_accounts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_accounts_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_accounts_enabled}
   */
   readonly serviceAccountsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#standard_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#standard_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#standard_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#standard_flow_enabled}
   */
   readonly standardFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#surrogate_auth_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#surrogate_auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#surrogate_auth_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#surrogate_auth_required}
   */
   readonly surrogateAuthRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_config}
   */
   readonly useTemplateConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_mappers}
   */
   readonly useTemplateMappers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_scope DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_scope DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_scope}
   */
   readonly useTemplateScope?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_origins DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_origins DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_origins}
   */
   readonly webOrigins?: string[];
 }
@@ -5334,35 +5334,35 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAuthenticationFlowsAuthenticationExecutions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticator DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticator DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticator}
   */
   readonly authenticator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticator_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticator_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticator_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticator_config}
   */
   readonly authenticatorConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticator_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticator_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticator_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticator_flow}
   */
   readonly authenticatorFlow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#autheticator_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#autheticator_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#autheticator_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#autheticator_flow}
   */
   readonly autheticatorFlow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#flow_alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#flow_alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#flow_alias}
   */
   readonly flowAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#requirement DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#requirement DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#requirement}
   */
   readonly requirement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_setup_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_setup_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_setup_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_setup_allowed}
   */
   readonly userSetupAllowed?: boolean | cdktf.IResolvable;
 }
@@ -5681,34 +5681,34 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAu
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAuthenticationFlows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_executions DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_executions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_executions DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_executions}
   */
   readonly authenticationExecutions?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAuthenticationFlowsAuthenticationExecutions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#built_in DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#built_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#built_in DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#built_in}
   */
   readonly builtIn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#provider_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#provider_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#top_level DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#top_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#top_level DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#top_level}
   */
   readonly topLevel?: boolean | cdktf.IResolvable;
 }
@@ -5998,15 +5998,15 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAu
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAuthenticatorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6183,34 +6183,34 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAu
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientScopesProtocolMappers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
   */
   readonly consentText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
   */
   readonly protocolMapper?: string;
 }
@@ -6500,30 +6500,30 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
   */
   readonly protocolMappers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientScopesProtocolMappers[] | cdktf.IResolvable;
 }
@@ -6784,34 +6784,34 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientTemplatesProtocolMappers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
   */
   readonly consentText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
   */
   readonly protocolMapper?: string;
 }
@@ -7101,66 +7101,66 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#bearer_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#bearer_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#bearer_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#bearer_only}
   */
   readonly bearerOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_access_grants_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_access_grants_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_access_grants_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_access_grants_enabled}
   */
   readonly directAccessGrantsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#frontchannel_logout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#frontchannel_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#frontchannel_logout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#frontchannel_logout}
   */
   readonly frontchannelLogout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_scope_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_scope_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_scope_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_scope_allowed}
   */
   readonly fullScopeAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#implicit_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#implicit_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#implicit_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#implicit_flow_enabled}
   */
   readonly implicitFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
   */
   readonly protocolMappers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientTemplatesProtocolMappers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_client}
   */
   readonly publicClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_accounts_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_accounts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_accounts_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_accounts_enabled}
   */
   readonly serviceAccountsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#standard_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#standard_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#standard_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#standard_flow_enabled}
   */
   readonly standardFlowEnabled?: boolean | cdktf.IResolvable;
 }
@@ -7682,14 +7682,14 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPoliciesResourcesDataOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7812,22 +7812,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPoliciesResourcesDataScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8030,46 +8030,46 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPoliciesResourcesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPoliciesResourcesDataOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPoliciesResourcesDataScopes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -8446,22 +8446,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPoliciesScopesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8664,58 +8664,58 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#logic DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#logic DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
   */
   readonly policies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources_data}
   */
   readonly resourcesData?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPoliciesResourcesData[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes_data}
   */
   readonly scopesData?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPoliciesScopesData[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -9179,14 +9179,14 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsResourcesOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9309,22 +9309,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsResourcesScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9527,46 +9527,46 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsResourcesOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsResourcesScopes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -9943,22 +9943,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10161,42 +10161,42 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#allow_remote_resource_management DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#allow_remote_resource_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#allow_remote_resource_management DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#allow_remote_resource_management}
   */
   readonly allowRemoteResourceManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsPolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policy_enforcement_mode DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policy_enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policy_enforcement_mode DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policy_enforcement_mode}
   */
   readonly policyEnforcementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettingsScopes[] | cdktf.IResolvable;
 }
@@ -10522,34 +10522,34 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsProtocolMappers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
   */
   readonly consentText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
   */
   readonly protocolMapper?: string;
 }
@@ -10839,182 +10839,182 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
   */
   readonly access?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_url}
   */
   readonly adminUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#always_display_in_console DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#always_display_in_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#always_display_in_console DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#always_display_in_console}
   */
   readonly alwaysDisplayInConsole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_flow_binding_overrides DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_flow_binding_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_flow_binding_overrides DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_flow_binding_overrides}
   */
   readonly authenticationFlowBindingOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_services_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_services_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_services_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_services_enabled}
   */
   readonly authorizationServicesEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_settings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_settings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_settings}
   */
   readonly authorizationSettings?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsAuthorizationSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#base_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#base_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#bearer_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#bearer_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#bearer_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#bearer_only}
   */
   readonly bearerOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_authenticator_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_authenticator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_authenticator_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_authenticator_type}
   */
   readonly clientAuthenticatorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_template DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_template DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_template}
   */
   readonly clientTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_client_scopes}
   */
   readonly defaultClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_roles}
   */
   readonly defaultRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_access_grants_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_access_grants_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_access_grants_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_access_grants_enabled}
   */
   readonly directAccessGrantsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_grants_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_grants_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_grants_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_grants_only}
   */
   readonly directGrantsOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#frontchannel_logout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#frontchannel_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#frontchannel_logout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#frontchannel_logout}
   */
   readonly frontchannelLogout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_scope_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_scope_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_scope_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_scope_allowed}
   */
   readonly fullScopeAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#implicit_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#implicit_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#implicit_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#implicit_flow_enabled}
   */
   readonly implicitFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#node_re_registration_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#node_re_registration_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#node_re_registration_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#node_re_registration_timeout}
   */
   readonly nodeReRegistrationTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
   */
   readonly notBefore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_authorization_grant_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_authorization_grant_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_authorization_grant_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_authorization_grant_enabled}
   */
   readonly oauth2DeviceAuthorizationGrantEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#optional_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#optional_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#optional_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#optional_client_scopes}
   */
   readonly optionalClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
   */
   readonly origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
   */
   readonly protocolMappers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientsProtocolMappers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_client}
   */
   readonly publicClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#redirect_uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#redirect_uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#redirect_uris}
   */
   readonly redirectUris?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registered_nodes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registered_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registered_nodes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registered_nodes}
   */
   readonly registeredNodes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_access_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_access_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_access_token}
   */
   readonly registrationAccessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#root_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#root_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#root_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#root_url}
   */
   readonly rootUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_accounts_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_accounts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_accounts_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_accounts_enabled}
   */
   readonly serviceAccountsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#standard_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#standard_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#standard_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#standard_flow_enabled}
   */
   readonly standardFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#surrogate_auth_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#surrogate_auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#surrogate_auth_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#surrogate_auth_required}
   */
   readonly surrogateAuthRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_config}
   */
   readonly useTemplateConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_mappers}
   */
   readonly useTemplateMappers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_scope DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_scope DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_scope}
   */
   readonly useTemplateScope?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_origins DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_origins DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_origins}
   */
   readonly webOrigins?: string[];
 }
@@ -12377,15 +12377,15 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmCl
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmDefaultRoleComposites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application}
   */
   readonly application?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client}
   */
   readonly client?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
   */
   readonly realm?: string[];
 }
@@ -12537,42 +12537,42 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmDe
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmDefaultRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_role DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_role DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_role}
   */
   readonly clientRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#composite DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#composite DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#composite}
   */
   readonly composite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#composites DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#composites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#composites DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#composites}
   */
   readonly composites?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmDefaultRoleComposites;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#container_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#container_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#container_id}
   */
   readonly containerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scope_param_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scope_param_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scope_param_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scope_param_required}
   */
   readonly scopeParamRequired?: boolean | cdktf.IResolvable;
 }
@@ -12898,23 +12898,23 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmDe
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsersClientConsents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_date}
   */
   readonly createdDate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#granted_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#granted_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#granted_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#granted_client_scopes}
   */
   readonly grantedClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#granted_realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#granted_realm_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#granted_realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#granted_realm_roles}
   */
   readonly grantedRealmRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_updated_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_updated_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_updated_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_updated_date}
   */
   readonly lastUpdatedDate?: number;
 }
@@ -13146,78 +13146,78 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFe
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsersCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#algorithm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#algorithm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#counter DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#counter DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#counter}
   */
   readonly counter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_date}
   */
   readonly createdDate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#credential_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#credential_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#credential_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#credential_data}
   */
   readonly credentialData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#device DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#device DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#digits DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#digits DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#digits}
   */
   readonly digits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#hash_iterations DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#hash_iterations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#hash_iterations DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#hash_iterations}
   */
   readonly hashIterations?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#hashed_salted_value DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#hashed_salted_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#hashed_salted_value DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#hashed_salted_value}
   */
   readonly hashedSaltedValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#salt DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#salt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#salt DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#salt}
   */
   readonly salt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret_data}
   */
   readonly secretData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#temporary DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#temporary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#temporary DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#temporary}
   */
   readonly temporary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_label DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_label DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_label}
   */
   readonly userLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13826,15 +13826,15 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFe
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsersFederatedIdentities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider}
   */
   readonly identityProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_name}
   */
   readonly userName?: string;
 }
@@ -14008,15 +14008,15 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFe
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsersSocialLinks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_provider DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_provider DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_provider}
   */
   readonly socialProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_user_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_user_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_user_id}
   */
   readonly socialUserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_username}
   */
   readonly socialUsername?: string;
 }
@@ -14190,110 +14190,110 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFe
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
   */
   readonly access?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application_roles}
   */
   readonly applicationRoles?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_consents DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_consents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_consents DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_consents}
   */
   readonly clientConsents?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsersClientConsents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_roles}
   */
   readonly clientRoles?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_timestamp DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_timestamp DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_timestamp}
   */
   readonly createdTimestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#credentials DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#credentials DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsersCredentials[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#disableable_credential_types DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#disableable_credential_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#disableable_credential_types DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#disableable_credential_types}
   */
   readonly disableableCredentialTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email_verified DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email_verified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email_verified DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email_verified}
   */
   readonly emailVerified?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federated_identities DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federated_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federated_identities DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federated_identities}
   */
   readonly federatedIdentities?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsersFederatedIdentities[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federation_link DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federation_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federation_link DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federation_link}
   */
   readonly federationLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#first_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#first_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
   */
   readonly notBefore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
   */
   readonly origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_roles}
   */
   readonly realmRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#required_actions DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#required_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#required_actions DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#required_actions}
   */
   readonly requiredActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#self DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#self DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#self}
   */
   readonly selfAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_account_client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_account_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_account_client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_account_client_id}
   */
   readonly serviceAccountClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_links DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_links DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_links}
   */
   readonly socialLinks?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsersSocialLinks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#totp DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#totp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#totp DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#totp}
   */
   readonly totp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -15134,34 +15134,34 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFe
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmGroupsSubGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
   */
   readonly access?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_roles}
   */
   readonly clientRoles?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_roles}
   */
   readonly realmRoles?: string[];
 }
@@ -15451,38 +15451,38 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmGr
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
   */
   readonly access?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_roles}
   */
   readonly clientRoles?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_roles}
   */
   readonly realmRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sub_groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sub_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sub_groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sub_groups}
   */
   readonly subGroups?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmGroupsSubGroups[] | cdktf.IResolvable;
 }
@@ -15801,26 +15801,26 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmGr
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmIdentityProviderMappers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider_alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider_alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider_alias}
   */
   readonly identityProviderAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider_mapper}
   */
   readonly identityProviderMapper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16052,59 +16052,59 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmId
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmIdentityProviders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#add_read_token_role_on_create DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#add_read_token_role_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#add_read_token_role_on_create DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#add_read_token_role_on_create}
   */
   readonly addReadTokenRoleOnCreate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticate_by_default DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticate_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticate_by_default DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticate_by_default}
   */
   readonly authenticateByDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#first_broker_login_flow_alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#first_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#first_broker_login_flow_alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#first_broker_login_flow_alias}
   */
   readonly firstBrokerLoginFlowAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#internal_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#internal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#internal_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#internal_id}
   */
   readonly internalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#link_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#link_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#link_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#link_only}
   */
   readonly linkOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#post_broker_login_flow_alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#post_broker_login_flow_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#post_broker_login_flow_alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#post_broker_login_flow_alias}
   */
   readonly postBrokerLoginFlowAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#provider_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#provider_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#store_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#store_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#store_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#store_token}
   */
   readonly storeToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#trust_email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#trust_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#trust_email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#trust_email}
   */
   readonly trustEmail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#update_profile_first_login_mode DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#update_profile_first_login_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#update_profile_first_login_mode DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#update_profile_first_login_mode}
   */
   readonly updateProfileFirstLoginMode?: string;
 }
@@ -16597,14 +16597,14 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmId
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPoliciesResourcesDataOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16727,22 +16727,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPoliciesResourcesDataScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16945,46 +16945,46 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPoliciesResourcesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPoliciesResourcesDataOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPoliciesResourcesDataScopes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -17361,22 +17361,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPoliciesScopesData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17579,58 +17579,58 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#logic DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#logic DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
   */
   readonly policies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources_data}
   */
   readonly resourcesData?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPoliciesResourcesData[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes_data}
   */
   readonly scopesData?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPoliciesScopesData[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -18094,14 +18094,14 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsResourcesOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18224,22 +18224,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsResourcesScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18442,46 +18442,46 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner}
   */
   readonly owner?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsResourcesOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#owner_managed_access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsResourcesScopes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -18858,22 +18858,22 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#icon_uri DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -19076,42 +19076,42 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#allow_remote_resource_management DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#allow_remote_resource_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#allow_remote_resource_management DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#allow_remote_resource_management}
   */
   readonly allowRemoteResourceManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#decision_strategy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsPolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policy_enforcement_mode DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policy_enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#policy_enforcement_mode DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#policy_enforcement_mode}
   */
   readonly policyEnforcementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettingsScopes[] | cdktf.IResolvable;
 }
@@ -19437,43 +19437,43 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#address DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#address DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#address}
   */
   readonly address?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email}
   */
   readonly email?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#gender DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#gender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#gender DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#gender}
   */
   readonly gender?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#locale DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#locale DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#locale}
   */
   readonly locale?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#phone DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#phone DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#phone}
   */
   readonly phone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#picture DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#picture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#picture DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#picture}
   */
   readonly picture?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#profile DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#profile DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#profile}
   */
   readonly profile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#username}
   */
   readonly username?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#website DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#website DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#website}
   */
   readonly website?: boolean | cdktf.IResolvable;
 }
@@ -19828,34 +19828,34 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsProtocolMappers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
   */
   readonly consentText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
   */
   readonly protocolMapper?: string;
 }
@@ -20145,186 +20145,186 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
   */
   readonly access?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_url}
   */
   readonly adminUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#always_display_in_console DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#always_display_in_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#always_display_in_console DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#always_display_in_console}
   */
   readonly alwaysDisplayInConsole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_flow_binding_overrides DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_flow_binding_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_flow_binding_overrides DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_flow_binding_overrides}
   */
   readonly authenticationFlowBindingOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_services_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_services_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_services_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_services_enabled}
   */
   readonly authorizationServicesEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_settings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authorization_settings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authorization_settings}
   */
   readonly authorizationSettings?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsAuthorizationSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#base_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#base_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#bearer_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#bearer_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#bearer_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#bearer_only}
   */
   readonly bearerOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#claims DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#claims DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsClaims;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_authenticator_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_authenticator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_authenticator_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_authenticator_type}
   */
   readonly clientAuthenticatorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_template DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_template DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_template}
   */
   readonly clientTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_client_scopes}
   */
   readonly defaultClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_roles}
   */
   readonly defaultRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_access_grants_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_access_grants_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_access_grants_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_access_grants_enabled}
   */
   readonly directAccessGrantsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_grants_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_grants_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_grants_only DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_grants_only}
   */
   readonly directGrantsOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#frontchannel_logout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#frontchannel_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#frontchannel_logout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#frontchannel_logout}
   */
   readonly frontchannelLogout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_scope_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_scope_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_scope_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_scope_allowed}
   */
   readonly fullScopeAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#implicit_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#implicit_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#implicit_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#implicit_flow_enabled}
   */
   readonly implicitFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#node_re_registration_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#node_re_registration_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#node_re_registration_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#node_re_registration_timeout}
   */
   readonly nodeReRegistrationTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
   */
   readonly notBefore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_authorization_grant_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_authorization_grant_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_authorization_grant_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_authorization_grant_enabled}
   */
   readonly oauth2DeviceAuthorizationGrantEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#optional_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#optional_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#optional_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#optional_client_scopes}
   */
   readonly optionalClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
   */
   readonly origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
   */
   readonly protocolMappers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClientsProtocolMappers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_client}
   */
   readonly publicClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#redirect_uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#redirect_uris DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#redirect_uris}
   */
   readonly redirectUris?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registered_nodes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registered_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registered_nodes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registered_nodes}
   */
   readonly registeredNodes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_access_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_access_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_access_token}
   */
   readonly registrationAccessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#root_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#root_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#root_url DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#root_url}
   */
   readonly rootUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_accounts_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_accounts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_accounts_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_accounts_enabled}
   */
   readonly serviceAccountsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#standard_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#standard_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#standard_flow_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#standard_flow_enabled}
   */
   readonly standardFlowEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#surrogate_auth_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#surrogate_auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#surrogate_auth_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#surrogate_auth_required}
   */
   readonly surrogateAuthRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_config}
   */
   readonly useTemplateConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_mappers}
   */
   readonly useTemplateMappers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_scope DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#use_template_scope DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#use_template_scope}
   */
   readonly useTemplateScope?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_origins DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_origins DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_origins}
   */
   readonly webOrigins?: string[];
 }
@@ -21716,34 +21716,34 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOa
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmProtocolMappers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#consent_text DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#consent_text}
   */
   readonly consentText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mapper DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mapper}
   */
   readonly protocolMapper?: string;
 }
@@ -22033,31 +22033,31 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmPr
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRequiredActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#alias DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_action DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_action DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_action}
   */
   readonly defaultAction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#provider_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#provider_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#provider_id}
   */
   readonly providerId?: string;
 }
@@ -22347,15 +22347,15 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRe
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRolesRealmComposites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application}
   */
   readonly application?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client}
   */
   readonly client?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
   */
   readonly realm?: string[];
 }
@@ -22507,42 +22507,42 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRo
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRolesRealm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_role DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_role DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_role}
   */
   readonly clientRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#composite DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#composite DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#composite}
   */
   readonly composite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#composites DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#composites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#composites DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#composites}
   */
   readonly composites?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRolesRealmComposites;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#container_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#container_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#container_id}
   */
   readonly containerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#description DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scope_param_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scope_param_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scope_param_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scope_param_required}
   */
   readonly scopeParamRequired?: boolean | cdktf.IResolvable;
 }
@@ -22890,15 +22890,15 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRo
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application}
   */
   readonly application?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client}
   */
   readonly client?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
   */
   readonly realm?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRolesRealm[] | cdktf.IResolvable;
 }
@@ -23050,23 +23050,23 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRo
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmScopeMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client}
   */
   readonly client?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_scope DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_scope DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_scope}
   */
   readonly clientScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_template DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_template DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_template}
   */
   readonly clientTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#roles}
   */
   readonly roles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#self DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#self DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#self}
   */
   readonly selfAttribute?: string;
 }
@@ -23298,26 +23298,26 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmSc
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUserFederationMappers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federation_mapper_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federation_mapper_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federation_mapper_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federation_mapper_type}
   */
   readonly federationMapperType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federation_provider_display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federation_provider_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federation_provider_display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federation_provider_display_name}
   */
   readonly federationProviderDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23549,38 +23549,38 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUs
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUserFederationProviders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#changed_sync_period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#changed_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#changed_sync_period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#changed_sync_period}
   */
   readonly changedSyncPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_sync_period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#full_sync_period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#full_sync_period}
   */
   readonly fullSyncPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_sync DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_sync DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_sync}
   */
   readonly lastSync?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#provider_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#provider_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#provider_name}
   */
   readonly providerName?: string;
 }
@@ -23899,23 +23899,23 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUs
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsersClientConsents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_date}
   */
   readonly createdDate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#granted_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#granted_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#granted_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#granted_client_scopes}
   */
   readonly grantedClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#granted_realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#granted_realm_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#granted_realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#granted_realm_roles}
   */
   readonly grantedRealmRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_updated_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_updated_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_updated_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_updated_date}
   */
   readonly lastUpdatedDate?: number;
 }
@@ -24147,78 +24147,78 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUs
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsersCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#algorithm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#algorithm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#counter DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#counter DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#counter}
   */
   readonly counter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_date DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_date}
   */
   readonly createdDate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#credential_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#credential_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#credential_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#credential_data}
   */
   readonly credentialData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#device DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#device DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#digits DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#digits DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#digits}
   */
   readonly digits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#hash_iterations DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#hash_iterations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#hash_iterations DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#hash_iterations}
   */
   readonly hashIterations?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#hashed_salted_value DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#hashed_salted_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#hashed_salted_value DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#hashed_salted_value}
   */
   readonly hashedSaltedValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#priority DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#salt DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#salt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#salt DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#salt}
   */
   readonly salt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#secret_data DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#secret_data}
   */
   readonly secretData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#temporary DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#temporary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#temporary DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#temporary}
   */
   readonly temporary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_label DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_label DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_label}
   */
   readonly userLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -24827,15 +24827,15 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUs
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsersFederatedIdentities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider}
   */
   readonly identityProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_name}
   */
   readonly userName?: string;
 }
@@ -25009,15 +25009,15 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUs
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsersSocialLinks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_provider DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_provider DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_provider}
   */
   readonly socialProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_user_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_user_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_user_id}
   */
   readonly socialUserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_username}
   */
   readonly socialUsername?: string;
 }
@@ -25191,110 +25191,110 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUs
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access}
   */
   readonly access?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application_roles}
   */
   readonly applicationRoles?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_consents DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_consents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_consents DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_consents}
   */
   readonly clientConsents?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsersClientConsents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_roles}
   */
   readonly clientRoles?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_timestamp DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#created_timestamp DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#created_timestamp}
   */
   readonly createdTimestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#credentials DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#credentials DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsersCredentials[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#disableable_credential_types DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#disableable_credential_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#disableable_credential_types DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#disableable_credential_types}
   */
   readonly disableableCredentialTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email_verified DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email_verified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email_verified DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email_verified}
   */
   readonly emailVerified?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federated_identities DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federated_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federated_identities DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federated_identities}
   */
   readonly federatedIdentities?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsersFederatedIdentities[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federation_link DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federation_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federation_link DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federation_link}
   */
   readonly federationLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#first_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#first_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#last_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
   */
   readonly notBefore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#origin DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#origin}
   */
   readonly origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_roles}
   */
   readonly realmRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#required_actions DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#required_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#required_actions DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#required_actions}
   */
   readonly requiredActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#self DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#self DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#self}
   */
   readonly selfAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_account_client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_account_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#service_account_client_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#service_account_client_id}
   */
   readonly serviceAccountClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_links DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_links DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_links}
   */
   readonly socialLinks?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsersSocialLinks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#totp DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#totp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#totp DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#totp}
   */
   readonly totp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -26135,554 +26135,554 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUs
 }
 export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_code_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_code_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_code_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_code_lifespan}
   */
   readonly accessCodeLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_code_lifespan_login DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_code_lifespan_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_code_lifespan_login DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_code_lifespan_login}
   */
   readonly accessCodeLifespanLogin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_code_lifespan_user_action DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_code_lifespan_user_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_code_lifespan_user_action DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_code_lifespan_user_action}
   */
   readonly accessCodeLifespanUserAction?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_token_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_token_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_token_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_token_lifespan}
   */
   readonly accessTokenLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_token_lifespan_for_implicit_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_token_lifespan_for_implicit_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#access_token_lifespan_for_implicit_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#access_token_lifespan_for_implicit_flow}
   */
   readonly accessTokenLifespanForImplicitFlow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#account_theme DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#account_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#account_theme DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#account_theme}
   */
   readonly accountTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#action_token_generated_by_admin_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#action_token_generated_by_admin_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#action_token_generated_by_admin_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#action_token_generated_by_admin_lifespan}
   */
   readonly actionTokenGeneratedByAdminLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#action_token_generated_by_user_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#action_token_generated_by_user_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#action_token_generated_by_user_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#action_token_generated_by_user_lifespan}
   */
   readonly actionTokenGeneratedByUserLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_events_details_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_events_details_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_events_details_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_events_details_enabled}
   */
   readonly adminEventsDetailsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_events_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_events_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_events_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_events_enabled}
   */
   readonly adminEventsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_theme DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#admin_theme DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#admin_theme}
   */
   readonly adminTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application_scope_mappings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application_scope_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#application_scope_mappings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#application_scope_mappings}
   */
   readonly applicationScopeMappings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#applications DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#applications DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#applications}
   */
   readonly applications?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmApplications[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#attributes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_flows DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authentication_flows DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authentication_flows}
   */
   readonly authenticationFlows?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAuthenticationFlows[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticator_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticator_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#authenticator_config DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#authenticator_config}
   */
   readonly authenticatorConfig?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmAuthenticatorConfig[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#browser_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#browser_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#browser_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#browser_flow}
   */
   readonly browserFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#browser_security_headers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#browser_security_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#browser_security_headers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#browser_security_headers}
   */
   readonly browserSecurityHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#brute_force_protected DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#brute_force_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#brute_force_protected DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#brute_force_protected}
   */
   readonly bruteForceProtected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#certificate DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#certificate DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_authentication_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_authentication_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_authentication_flow}
   */
   readonly clientAuthenticationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_offline_session_idle_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_offline_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_offline_session_idle_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_offline_session_idle_timeout}
   */
   readonly clientOfflineSessionIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_offline_session_max_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_offline_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_offline_session_max_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_offline_session_max_lifespan}
   */
   readonly clientOfflineSessionMaxLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_policies DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_policies}
   */
   readonly clientPolicies?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_profiles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_profiles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_profiles}
   */
   readonly clientProfiles?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_scope_mappings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_scope_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_scope_mappings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_scope_mappings}
   */
   readonly clientScopeMappings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_scopes}
   */
   readonly clientScopes?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientScopes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_session_idle_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_session_idle_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_session_idle_timeout}
   */
   readonly clientSessionIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_session_max_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_session_max_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_session_max_lifespan}
   */
   readonly clientSessionMaxLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_templates DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#client_templates DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#client_templates}
   */
   readonly clientTemplates?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClientTemplates[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#clients DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#clients DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#clients}
   */
   readonly clients?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmClients[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#code_secret DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#code_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#code_secret DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#code_secret}
   */
   readonly codeSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#components DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#components DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#components}
   */
   readonly components?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_default_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_default_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_default_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_default_client_scopes}
   */
   readonly defaultDefaultClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_groups}
   */
   readonly defaultGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_locale DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_locale DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_locale}
   */
   readonly defaultLocale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_optional_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_optional_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_optional_client_scopes DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_optional_client_scopes}
   */
   readonly defaultOptionalClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_role DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_role DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_role}
   */
   readonly defaultRole?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmDefaultRole;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_roles}
   */
   readonly defaultRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_signature_algorithm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#default_signature_algorithm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#default_signature_algorithm}
   */
   readonly defaultSignatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_grant_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_grant_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#direct_grant_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#direct_grant_flow}
   */
   readonly directGrantFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name_html DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name_html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#display_name_html DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#display_name_html}
   */
   readonly displayNameHtml?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#docker_authentication_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#docker_authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#docker_authentication_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#docker_authentication_flow}
   */
   readonly dockerAuthenticationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#duplicate_emails_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#duplicate_emails_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#duplicate_emails_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#duplicate_emails_allowed}
   */
   readonly duplicateEmailsAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#edit_username_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#edit_username_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#edit_username_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#edit_username_allowed}
   */
   readonly editUsernameAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email_theme DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#email_theme DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#email_theme}
   */
   readonly emailTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled_event_types DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled_event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#enabled_event_types DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#enabled_event_types}
   */
   readonly enabledEventTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#events_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#events_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#events_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#events_enabled}
   */
   readonly eventsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#events_expiration DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#events_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#events_expiration DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#events_expiration}
   */
   readonly eventsExpiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#events_listeners DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#events_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#events_listeners DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#events_listeners}
   */
   readonly eventsListeners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#failure_factor DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#failure_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#failure_factor DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#failure_factor}
   */
   readonly failureFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federated_users DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federated_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#federated_users DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#federated_users}
   */
   readonly federatedUsers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmFederatedUsers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#groups DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#groups}
   */
   readonly groups?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_provider_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_provider_mappers}
   */
   readonly identityProviderMappers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmIdentityProviderMappers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_providers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#identity_providers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#identity_providers}
   */
   readonly identityProviders?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmIdentityProviders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#internationalization_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#internationalization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#internationalization_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#internationalization_enabled}
   */
   readonly internationalizationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#keycloak_version DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#keycloak_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#keycloak_version DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#keycloak_version}
   */
   readonly keycloakVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#login_theme DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#login_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#login_theme DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#login_theme}
   */
   readonly loginTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#login_with_email_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#login_with_email_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#login_with_email_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#login_with_email_allowed}
   */
   readonly loginWithEmailAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#max_delta_time_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#max_delta_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#max_delta_time_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#max_delta_time_seconds}
   */
   readonly maxDeltaTimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#max_failure_wait_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#max_failure_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#max_failure_wait_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#max_failure_wait_seconds}
   */
   readonly maxFailureWaitSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#minimum_quick_login_wait_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#minimum_quick_login_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#minimum_quick_login_wait_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#minimum_quick_login_wait_seconds}
   */
   readonly minimumQuickLoginWaitSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#not_before DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#not_before}
   */
   readonly notBefore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_code_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_code_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_code_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_code_lifespan}
   */
   readonly oauth2DeviceCodeLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_polling_interval DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth2_device_polling_interval DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth2_device_polling_interval}
   */
   readonly oauth2DevicePollingInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth_clients DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#oauth_clients DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#oauth_clients}
   */
   readonly oauthClients?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmOauthClients[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#offline_session_idle_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#offline_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#offline_session_idle_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#offline_session_idle_timeout}
   */
   readonly offlineSessionIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#offline_session_max_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#offline_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#offline_session_max_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#offline_session_max_lifespan}
   */
   readonly offlineSessionMaxLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#offline_session_max_lifespan_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#offline_session_max_lifespan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#offline_session_max_lifespan_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#offline_session_max_lifespan_enabled}
   */
   readonly offlineSessionMaxLifespanEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_algorithm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_algorithm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_algorithm}
   */
   readonly otpPolicyAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_digits DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_digits DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_digits}
   */
   readonly otpPolicyDigits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_initial_counter DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_initial_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_initial_counter DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_initial_counter}
   */
   readonly otpPolicyInitialCounter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_look_ahead_window DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_look_ahead_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_look_ahead_window DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_look_ahead_window}
   */
   readonly otpPolicyLookAheadWindow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_period DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_period}
   */
   readonly otpPolicyPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_policy_type DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_policy_type}
   */
   readonly otpPolicyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_supported_applications DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_supported_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#otp_supported_applications DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#otp_supported_applications}
   */
   readonly otpSupportedApplications?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#password_credential_grant_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#password_credential_grant_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#password_credential_grant_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#password_credential_grant_allowed}
   */
   readonly passwordCredentialGrantAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#password_policy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#password_policy DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#password_policy}
   */
   readonly passwordPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#permanent_lockout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#permanent_lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#permanent_lockout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#permanent_lockout}
   */
   readonly permanentLockout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#private_key DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#private_key DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#protocol_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#protocol_mappers}
   */
   readonly protocolMappers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmProtocolMappers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_key DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#public_key DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#quick_login_check_milli_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#quick_login_check_milli_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#quick_login_check_milli_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#quick_login_check_milli_seconds}
   */
   readonly quickLoginCheckMilliSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
   */
   readonly realm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_cache_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_cache_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm_cache_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm_cache_enabled}
   */
   readonly realmCacheEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#refresh_token_max_reuse DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#refresh_token_max_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#refresh_token_max_reuse DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#refresh_token_max_reuse}
   */
   readonly refreshTokenMaxReuse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_allowed}
   */
   readonly registrationAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_email_as_username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_email_as_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_email_as_username DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_email_as_username}
   */
   readonly registrationEmailAsUsername?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#registration_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#registration_flow}
   */
   readonly registrationFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#remember_me DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#remember_me}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#remember_me DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#remember_me}
   */
   readonly rememberMe?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#required_actions DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#required_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#required_actions DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#required_actions}
   */
   readonly requiredActions?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRequiredActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#required_credentials DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#required_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#required_credentials DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#required_credentials}
   */
   readonly requiredCredentials?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#reset_credentials_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#reset_credentials_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#reset_credentials_flow DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#reset_credentials_flow}
   */
   readonly resetCredentialsFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#reset_password_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#reset_password_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#reset_password_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#reset_password_allowed}
   */
   readonly resetPasswordAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#revoke_refresh_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#revoke_refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#revoke_refresh_token DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#revoke_refresh_token}
   */
   readonly revokeRefreshToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#roles DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#roles}
   */
   readonly roles?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmRoles;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scope_mappings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scope_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#scope_mappings DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#scope_mappings}
   */
   readonly scopeMappings?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmScopeMappings[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#smtp_server DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#smtp_server DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#smtp_server}
   */
   readonly smtpServer?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social}
   */
   readonly social?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_providers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#social_providers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#social_providers}
   */
   readonly socialProviders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#ssl_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#ssl_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#ssl_required DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#ssl_required}
   */
   readonly sslRequired?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sso_session_idle_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sso_session_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sso_session_idle_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sso_session_idle_timeout}
   */
   readonly ssoSessionIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sso_session_idle_timeout_remember_me DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sso_session_idle_timeout_remember_me}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sso_session_idle_timeout_remember_me DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sso_session_idle_timeout_remember_me}
   */
   readonly ssoSessionIdleTimeoutRememberMe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sso_session_max_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sso_session_max_lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sso_session_max_lifespan DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sso_session_max_lifespan}
   */
   readonly ssoSessionMaxLifespan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sso_session_max_lifespan_remember_me DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sso_session_max_lifespan_remember_me}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#sso_session_max_lifespan_remember_me DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#sso_session_max_lifespan_remember_me}
   */
   readonly ssoSessionMaxLifespanRememberMe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#supported_locales DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#supported_locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#supported_locales DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#supported_locales}
   */
   readonly supportedLocales?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#update_profile_on_initial_social_login DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#update_profile_on_initial_social_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#update_profile_on_initial_social_login DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#update_profile_on_initial_social_login}
   */
   readonly updateProfileOnInitialSocialLogin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_cache_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_cache_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_cache_enabled DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_cache_enabled}
   */
   readonly userCacheEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_federation_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_federation_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_federation_mappers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_federation_mappers}
   */
   readonly userFederationMappers?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUserFederationMappers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_federation_providers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_federation_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_federation_providers DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_federation_providers}
   */
   readonly userFederationProviders?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUserFederationProviders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_managed_access_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_managed_access_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#user_managed_access_allowed DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#user_managed_access_allowed}
   */
   readonly userManagedAccessAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#users DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#users DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#users}
   */
   readonly users?: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealmUsers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#verify_email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#verify_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#verify_email DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#verify_email}
   */
   readonly verifyEmail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#wait_increment_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#wait_increment_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#wait_increment_seconds DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#wait_increment_seconds}
   */
   readonly waitIncrementSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_acceptable_aaguids DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_acceptable_aaguids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_acceptable_aaguids DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_acceptable_aaguids}
   */
   readonly webAuthnPolicyAcceptableAaguids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_attestation_conveyance_preference DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_attestation_conveyance_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_attestation_conveyance_preference DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_attestation_conveyance_preference}
   */
   readonly webAuthnPolicyAttestationConveyancePreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_authenticator_attachment DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_authenticator_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_authenticator_attachment DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_authenticator_attachment}
   */
   readonly webAuthnPolicyAuthenticatorAttachment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_avoid_same_authenticator_register DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_avoid_same_authenticator_register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_avoid_same_authenticator_register DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_avoid_same_authenticator_register}
   */
   readonly webAuthnPolicyAvoidSameAuthenticatorRegister?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_create_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_create_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_create_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_create_timeout}
   */
   readonly webAuthnPolicyCreateTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_acceptable_aaguids DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_acceptable_aaguids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_acceptable_aaguids DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_acceptable_aaguids}
   */
   readonly webAuthnPolicyPasswordlessAcceptableAaguids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_attestation_conveyance_preference DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_attestation_conveyance_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_attestation_conveyance_preference DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_attestation_conveyance_preference}
   */
   readonly webAuthnPolicyPasswordlessAttestationConveyancePreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_authenticator_attachment DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_authenticator_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_authenticator_attachment DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_authenticator_attachment}
   */
   readonly webAuthnPolicyPasswordlessAuthenticatorAttachment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_avoid_same_authenticator_register DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_avoid_same_authenticator_register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_avoid_same_authenticator_register DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_avoid_same_authenticator_register}
   */
   readonly webAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_create_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_create_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_create_timeout DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_create_timeout}
   */
   readonly webAuthnPolicyPasswordlessCreateTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_require_resident_key DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_require_resident_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_require_resident_key DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_require_resident_key}
   */
   readonly webAuthnPolicyPasswordlessRequireResidentKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_rp_entity_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_rp_entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_rp_entity_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_rp_entity_name}
   */
   readonly webAuthnPolicyPasswordlessRpEntityName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_rp_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_rp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_rp_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_rp_id}
   */
   readonly webAuthnPolicyPasswordlessRpId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_signature_algorithms DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_signature_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_signature_algorithms DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_signature_algorithms}
   */
   readonly webAuthnPolicyPasswordlessSignatureAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_user_verification_requirement DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_user_verification_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_passwordless_user_verification_requirement DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_passwordless_user_verification_requirement}
   */
   readonly webAuthnPolicyPasswordlessUserVerificationRequirement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_require_resident_key DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_require_resident_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_require_resident_key DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_require_resident_key}
   */
   readonly webAuthnPolicyRequireResidentKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_rp_entity_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_rp_entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_rp_entity_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_rp_entity_name}
   */
   readonly webAuthnPolicyRpEntityName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_rp_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_rp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_rp_id DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_rp_id}
   */
   readonly webAuthnPolicyRpId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_signature_algorithms DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_signature_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_signature_algorithms DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_signature_algorithms}
   */
   readonly webAuthnPolicySignatureAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_user_verification_requirement DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_user_verification_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#web_authn_policy_user_verification_requirement DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#web_authn_policy_user_verification_requirement}
   */
   readonly webAuthnPolicyUserVerificationRequirement?: string;
 }
@@ -30722,13 +30722,13 @@ export interface DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpec {
   /**
   * The name of the Keycloak CR to reference, in the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#keycloak_cr_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#keycloak_cr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#keycloak_cr_name DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#keycloak_cr_name}
   */
   readonly keycloakCrName: string;
   /**
   * The RealmRepresentation to import into Keycloak.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#realm DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest#realm}
   */
   readonly realm: DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecRealm;
 }
@@ -30845,7 +30845,7 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest k8s_k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest k8s_k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest}
 */
 export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -30861,7 +30861,7 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -30873,7 +30873,7 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest k8s_k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest k8s_k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -30884,8 +30884,8 @@ export class DataK8SK8SKeycloakOrgKeycloakRealmImportV2Alpha1Manifest extends cd
       terraformResourceType: 'k8s_k8s_keycloak_org_keycloak_realm_import_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

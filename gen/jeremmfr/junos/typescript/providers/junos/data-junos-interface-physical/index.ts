@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_physical
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_physical
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataJunosInterfacePhysicalConfig extends cdktf.TerraformMetaArg
   /**
   * Specifies the interface part for search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_physical#config_interface DataJunosInterfacePhysical#config_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_physical#config_interface DataJunosInterfacePhysical#config_interface}
   */
   readonly configInterface?: string;
   /**
   * Regex string to filter lines and find only one interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_physical#match DataJunosInterfacePhysical#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_physical#match DataJunosInterfacePhysical#match}
   */
   readonly match?: string;
 }
@@ -748,7 +748,7 @@ export class DataJunosInterfacePhysicalParentEtherOptsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_physical junos_interface_physical}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_physical junos_interface_physical}
 */
 export class DataJunosInterfacePhysical extends cdktf.TerraformDataSource {
 
@@ -764,7 +764,7 @@ export class DataJunosInterfacePhysical extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataJunosInterfacePhysical resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataJunosInterfacePhysical to import
-  * @param importFromId The id of the existing DataJunosInterfacePhysical that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_physical#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataJunosInterfacePhysical that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_physical#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataJunosInterfacePhysical to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -776,7 +776,7 @@ export class DataJunosInterfacePhysical extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_physical junos_interface_physical} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_physical junos_interface_physical} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -787,8 +787,8 @@ export class DataJunosInterfacePhysical extends cdktf.TerraformDataSource {
       terraformResourceType: 'junos_interface_physical',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

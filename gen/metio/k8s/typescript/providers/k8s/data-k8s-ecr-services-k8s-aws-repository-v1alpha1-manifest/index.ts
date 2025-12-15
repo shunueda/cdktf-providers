@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#metadata DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#metadata DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestMetadata;
   /**
   * RepositorySpec defines the desired state of Repository. An object representing a repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#spec DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#spec DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#annotations DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#annotations DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#labels DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#labels DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#name DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#name DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#namespace DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#namespace DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestMetadataOutputRef
 }
 export interface DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#encryption_type DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#encryption_type DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#encryption_type}
   */
   readonly encryptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#kms_key DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#kms_key DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#kms_key}
   */
   readonly kmsKey?: string;
 }
@@ -344,7 +344,7 @@ export class DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecEncryptionCon
 }
 export interface DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecImageScanningConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#scan_on_push DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#scan_on_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#scan_on_push DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#scan_on_push}
   */
   readonly scanOnPush?: boolean | cdktf.IResolvable;
 }
@@ -438,11 +438,11 @@ export class DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecImageScanning
 }
 export interface DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#key DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#key DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#value DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#value DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -589,49 +589,49 @@ export interface DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpec {
   /**
   * The encryption configuration for the repository. This determines how the contents of your repository are encrypted at rest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#encryption_configuration DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#encryption_configuration DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#encryption_configuration}
   */
   readonly encryptionConfiguration?: DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecEncryptionConfiguration;
   /**
   * The image scanning configuration for the repository. This determines whether images are scanned for known vulnerabilities after being pushed to the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#image_scanning_configuration DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#image_scanning_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#image_scanning_configuration DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#image_scanning_configuration}
   */
   readonly imageScanningConfiguration?: DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecImageScanningConfiguration;
   /**
   * The tag mutability setting for the repository. If this parameter is omitted, the default setting of MUTABLE will be used which will allow image tags to be overwritten. If IMMUTABLE is specified, all image tags within the repository will be immutable which will prevent them from being overwritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#image_tag_mutability DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#image_tag_mutability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#image_tag_mutability DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#image_tag_mutability}
   */
   readonly imageTagMutability?: string;
   /**
   * The JSON repository policy text to apply to the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#lifecycle_policy DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#lifecycle_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#lifecycle_policy DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#lifecycle_policy}
   */
   readonly lifecyclePolicy?: string;
   /**
   * The name to use for the repository. The repository name may be specified on its own (such as nginx-web-app) or it can be prepended with a namespace to group the repository into a category (such as project-a/nginx-web-app).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#name DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#name DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The JSON repository policy text to apply to the repository. For more information, see Amazon ECR repository policies (https://docs.aws.amazon.com/AmazonECR/latest/userguide/repository-policy-examples.html) in the Amazon Elastic Container Registry User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#policy DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#policy DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * The Amazon Web Services account ID associated with the registry to create the repository. If you do not specify a registry, the default registry is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#registry_id DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#registry_id DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#registry_id}
   */
   readonly registryId?: string;
   /**
   * The metadata that you apply to the repository to help you categorize and organize them. Each tag consists of a key and an optional value, both of which you define. Tag keys can have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#tags DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#tags DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -925,7 +925,7 @@ export class DataK8SEcrServicesK8SAwsRepositoryV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest k8s_ecr_services_k8s_aws_repository_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest k8s_ecr_services_k8s_aws_repository_v1alpha1_manifest}
 */
 export class DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -941,7 +941,7 @@ export class DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -953,7 +953,7 @@ export class DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest k8s_ecr_services_k8s_aws_repository_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/ecr_services_k8s_aws_repository_v1alpha1_manifest k8s_ecr_services_k8s_aws_repository_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -964,8 +964,8 @@ export class DataK8SEcrServicesK8SAwsRepositoryV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_ecr_services_k8s_aws_repository_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

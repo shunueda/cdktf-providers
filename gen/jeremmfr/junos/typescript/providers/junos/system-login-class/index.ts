@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,157 +10,157 @@ export interface SystemLoginClassConfig extends cdktf.TerraformMetaArguments {
   /**
   * End time for remote access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#access_end SystemLoginClass#access_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#access_end SystemLoginClass#access_end}
   */
   readonly accessEnd?: string;
   /**
   * Start time for remote access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#access_start SystemLoginClass#access_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#access_start SystemLoginClass#access_start}
   */
   readonly accessStart?: string;
   /**
   * Regular expression for commands to allow explicitly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#allow_commands SystemLoginClass#allow_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#allow_commands SystemLoginClass#allow_commands}
   */
   readonly allowCommands?: string;
   /**
   * Object path regular expressions to allow commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#allow_commands_regexps SystemLoginClass#allow_commands_regexps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#allow_commands_regexps SystemLoginClass#allow_commands_regexps}
   */
   readonly allowCommandsRegexps?: string[];
   /**
   * Regular expression for configure to allow explicitly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#allow_configuration SystemLoginClass#allow_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#allow_configuration SystemLoginClass#allow_configuration}
   */
   readonly allowConfiguration?: string;
   /**
   * Object path regular expressions to allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#allow_configuration_regexps SystemLoginClass#allow_configuration_regexps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#allow_configuration_regexps SystemLoginClass#allow_configuration_regexps}
   */
   readonly allowConfigurationRegexps?: string[];
   /**
   * Allow all hidden commands to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#allow_hidden_commands SystemLoginClass#allow_hidden_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#allow_hidden_commands SystemLoginClass#allow_hidden_commands}
   */
   readonly allowHiddenCommands?: boolean | cdktf.IResolvable;
   /**
   * Day(s) of week when access is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#allowed_days SystemLoginClass#allowed_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#allowed_days SystemLoginClass#allowed_days}
   */
   readonly allowedDays?: string[];
   /**
   * Cli prompt name for this class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#cli_prompt SystemLoginClass#cli_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#cli_prompt SystemLoginClass#cli_prompt}
   */
   readonly cliPrompt?: string;
   /**
   * Enable breadcrumbs during display of configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#configuration_breadcrumbs SystemLoginClass#configuration_breadcrumbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#configuration_breadcrumbs SystemLoginClass#configuration_breadcrumbs}
   */
   readonly configurationBreadcrumbs?: boolean | cdktf.IResolvable;
   /**
   * List of commands to be confirmed explicitly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#confirm_commands SystemLoginClass#confirm_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#confirm_commands SystemLoginClass#confirm_commands}
   */
   readonly confirmCommands?: string[];
   /**
   * Regular expression for commands to deny explicitly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#deny_commands SystemLoginClass#deny_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#deny_commands SystemLoginClass#deny_commands}
   */
   readonly denyCommands?: string;
   /**
   * Object path regular expressions to deny commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#deny_commands_regexps SystemLoginClass#deny_commands_regexps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#deny_commands_regexps SystemLoginClass#deny_commands_regexps}
   */
   readonly denyCommandsRegexps?: string[];
   /**
   * Regular expression for configure to deny explicitly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#deny_configuration SystemLoginClass#deny_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#deny_configuration SystemLoginClass#deny_configuration}
   */
   readonly denyConfiguration?: string;
   /**
   * Object path regular expressions to deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#deny_configuration_regexps SystemLoginClass#deny_configuration_regexps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#deny_configuration_regexps SystemLoginClass#deny_configuration_regexps}
   */
   readonly denyConfigurationRegexps?: string[];
   /**
   * Maximum idle time before logout (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#idle_timeout SystemLoginClass#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#idle_timeout SystemLoginClass#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Logical system associated with login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#logical_system SystemLoginClass#logical_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#logical_system SystemLoginClass#logical_system}
   */
   readonly logicalSystem?: string;
   /**
   * Display system alarms when logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#login_alarms SystemLoginClass#login_alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#login_alarms SystemLoginClass#login_alarms}
   */
   readonly loginAlarms?: boolean | cdktf.IResolvable;
   /**
   * Execute this login-script when logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#login_script SystemLoginClass#login_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#login_script SystemLoginClass#login_script}
   */
   readonly loginScript?: string;
   /**
   * Display tip when logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#login_tip SystemLoginClass#login_tip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#login_tip SystemLoginClass#login_tip}
   */
   readonly loginTip?: boolean | cdktf.IResolvable;
   /**
   * The name of system login class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#name SystemLoginClass#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#name SystemLoginClass#name}
   */
   readonly name: string;
   /**
   * Deny all hidden commands with exemptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#no_hidden_commands_except SystemLoginClass#no_hidden_commands_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#no_hidden_commands_except SystemLoginClass#no_hidden_commands_except}
   */
   readonly noHiddenCommandsExcept?: string[];
   /**
   * Set of permitted operation categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#permissions SystemLoginClass#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#permissions SystemLoginClass#permissions}
   */
   readonly permissions?: string[];
   /**
   * Common Criteria security role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#security_role SystemLoginClass#security_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#security_role SystemLoginClass#security_role}
   */
   readonly securityRole?: string;
   /**
   * Tenant associated with this login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#tenant SystemLoginClass#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#tenant SystemLoginClass#tenant}
   */
   readonly tenant?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class junos_system_login_class}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class junos_system_login_class}
 */
 export class SystemLoginClass extends cdktf.TerraformResource {
 
@@ -176,7 +176,7 @@ export class SystemLoginClass extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLoginClass resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLoginClass to import
-  * @param importFromId The id of the existing SystemLoginClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLoginClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLoginClass to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class SystemLoginClass extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_login_class junos_system_login_class} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_login_class junos_system_login_class} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class SystemLoginClass extends cdktf.TerraformResource {
       terraformResourceType: 'junos_system_login_class',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SecurityIkePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Text description of IKE policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#description SecurityIkePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#description SecurityIkePolicy#description}
   */
   readonly description?: string;
   /**
   * IKE mode for Phase 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#mode SecurityIkePolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#mode SecurityIkePolicy#mode}
   */
   readonly mode?: string;
   /**
   * The name of IKE policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#name SecurityIkePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#name SecurityIkePolicy#name}
   */
   readonly name: string;
   /**
   * Preshared key with format as hexadecimal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#pre_shared_key_hexa SecurityIkePolicy#pre_shared_key_hexa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#pre_shared_key_hexa SecurityIkePolicy#pre_shared_key_hexa}
   */
   readonly preSharedKeyHexa?: string;
   /**
   * Preshared key wit format as text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#pre_shared_key_text SecurityIkePolicy#pre_shared_key_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#pre_shared_key_text SecurityIkePolicy#pre_shared_key_text}
   */
   readonly preSharedKeyText?: string;
   /**
   * Types of default IKE proposal-set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#proposal_set SecurityIkePolicy#proposal_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#proposal_set SecurityIkePolicy#proposal_set}
   */
   readonly proposalSet?: string;
   /**
   * IKE proposals list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#proposals SecurityIkePolicy#proposals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#proposals SecurityIkePolicy#proposals}
   */
   readonly proposals?: string[];
   /**
   * Re-auth Peer after reauth-frequency times hard lifetime. (0-100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#reauth_frequency SecurityIkePolicy#reauth_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#reauth_frequency SecurityIkePolicy#reauth_frequency}
   */
   readonly reauthFrequency?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy junos_security_ike_policy}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy junos_security_ike_policy}
 */
 export class SecurityIkePolicy extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class SecurityIkePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityIkePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityIkePolicy to import
-  * @param importFromId The id of the existing SecurityIkePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityIkePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityIkePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class SecurityIkePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_policy junos_security_ike_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_policy junos_security_ike_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class SecurityIkePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_ike_policy',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

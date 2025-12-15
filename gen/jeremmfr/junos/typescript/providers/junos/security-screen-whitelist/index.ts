@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_screen_whitelist
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_screen_whitelist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SecurityScreenWhitelistConfig extends cdktf.TerraformMetaArgume
   /**
   * IPv4 or IPv6 source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_screen_whitelist#address SecurityScreenWhitelist#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_screen_whitelist#address SecurityScreenWhitelist#address}
   */
   readonly address: string[];
   /**
   * White-list name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_screen_whitelist#name SecurityScreenWhitelist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_screen_whitelist#name SecurityScreenWhitelist#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_screen_whitelist junos_security_screen_whitelist}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_screen_whitelist junos_security_screen_whitelist}
 */
 export class SecurityScreenWhitelist extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SecurityScreenWhitelist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityScreenWhitelist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityScreenWhitelist to import
-  * @param importFromId The id of the existing SecurityScreenWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_screen_whitelist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityScreenWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_screen_whitelist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityScreenWhitelist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SecurityScreenWhitelist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_screen_whitelist junos_security_screen_whitelist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_screen_whitelist junos_security_screen_whitelist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SecurityScreenWhitelist extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_screen_whitelist',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

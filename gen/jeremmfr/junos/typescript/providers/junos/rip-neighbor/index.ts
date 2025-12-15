@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,139 @@ export interface RipNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disable strict checks on sender address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#any_sender RipNeighbor#any_sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#any_sender RipNeighbor#any_sender}
   */
   readonly anySender?: boolean | cdktf.IResolvable;
   /**
   * Authentication key (password).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#authentication_key RipNeighbor#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#authentication_key RipNeighbor#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#authentication_type RipNeighbor#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#authentication_type RipNeighbor#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Check reserved fields on incoming RIPv1 packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#check_zero RipNeighbor#check_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#check_zero RipNeighbor#check_zero}
   */
   readonly checkZero?: boolean | cdktf.IResolvable;
   /**
   * Enable demand circuit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#demand_circuit RipNeighbor#demand_circuit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#demand_circuit RipNeighbor#demand_circuit}
   */
   readonly demandCircuit?: boolean | cdktf.IResolvable;
   /**
   * Learn peers dynamically on a p2mp interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#dynamic_peers RipNeighbor#dynamic_peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#dynamic_peers RipNeighbor#dynamic_peers}
   */
   readonly dynamicPeers?: boolean | cdktf.IResolvable;
   /**
   * Name of RIP or RIPng group for this neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#group RipNeighbor#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#group RipNeighbor#group}
   */
   readonly group: string;
   /**
   * Import policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#import RipNeighbor#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#import RipNeighbor#import}
   */
   readonly import?: string[];
   /**
   * Point-to-multipoint link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#interface_type_p2mp RipNeighbor#interface_type_p2mp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#interface_type_p2mp RipNeighbor#interface_type_p2mp}
   */
   readonly interfaceTypeP2Mp?: boolean | cdktf.IResolvable;
   /**
   * Maximum time to re-transmit a message in demand-circuit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#max_retrans_time RipNeighbor#max_retrans_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#max_retrans_time RipNeighbor#max_retrans_time}
   */
   readonly maxRetransTime?: number;
   /**
   * Number of route entries per update message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#message_size RipNeighbor#message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#message_size RipNeighbor#message_size}
   */
   readonly messageSize?: number;
   /**
   * Metric value to add to incoming routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#metric_in RipNeighbor#metric_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#metric_in RipNeighbor#metric_in}
   */
   readonly metricIn?: number;
   /**
   * Logical interface name or `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#name RipNeighbor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#name RipNeighbor#name}
   */
   readonly name: string;
   /**
   * Protocol `ripng` instead of `rip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#ng RipNeighbor#ng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#ng RipNeighbor#ng}
   */
   readonly ng?: boolean | cdktf.IResolvable;
   /**
   * Don't check reserved fields on incoming RIPv1 packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#no_check_zero RipNeighbor#no_check_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#no_check_zero RipNeighbor#no_check_zero}
   */
   readonly noCheckZero?: boolean | cdktf.IResolvable;
   /**
   * P2MP peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#peer RipNeighbor#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#peer RipNeighbor#peer}
   */
   readonly peer?: string[];
   /**
   * Configure RIP receive options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#receive RipNeighbor#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#receive RipNeighbor#receive}
   */
   readonly receive?: string;
   /**
   * Delay before routes time out (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#route_timeout RipNeighbor#route_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#route_timeout RipNeighbor#route_timeout}
   */
   readonly routeTimeout?: number;
   /**
   * Routing instance for RIP neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#routing_instance RipNeighbor#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#routing_instance RipNeighbor#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Configure RIP send options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#send RipNeighbor#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#send RipNeighbor#send}
   */
   readonly send?: string;
   /**
   * Interval between regular route updates (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#update_interval RipNeighbor#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#update_interval RipNeighbor#update_interval}
   */
   readonly updateInterval?: number;
   /**
   * authentication_selective_md5 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#authentication_selective_md5 RipNeighbor#authentication_selective_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#authentication_selective_md5 RipNeighbor#authentication_selective_md5}
   */
   readonly authenticationSelectiveMd5?: RipNeighborAuthenticationSelectiveMd5[] | cdktf.IResolvable;
   /**
   * bfd_liveness_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#bfd_liveness_detection RipNeighbor#bfd_liveness_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#bfd_liveness_detection RipNeighbor#bfd_liveness_detection}
   */
   readonly bfdLivenessDetection?: RipNeighborBfdLivenessDetection;
 }
@@ -150,19 +150,19 @@ export interface RipNeighborAuthenticationSelectiveMd5 {
   /**
   * MD5 authentication key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#key RipNeighbor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#key RipNeighbor#key}
   */
   readonly key: string;
   /**
   * Key ID for MD5 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#key_id RipNeighbor#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#key_id RipNeighbor#key_id}
   */
   readonly keyId: number;
   /**
   * Start time for key transmission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#start_time RipNeighbor#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#start_time RipNeighbor#start_time}
   */
   readonly startTime?: string;
 }
@@ -332,67 +332,67 @@ export interface RipNeighborBfdLivenessDetection {
   /**
   * Authentication algorithm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#authentication_algorithm RipNeighbor#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#authentication_algorithm RipNeighbor#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * Authentication key chain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#authentication_key_chain RipNeighbor#authentication_key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#authentication_key_chain RipNeighbor#authentication_key_chain}
   */
   readonly authenticationKeyChain?: string;
   /**
   * Verify authentication only if authentication is negotiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#authentication_loose_check RipNeighbor#authentication_loose_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#authentication_loose_check RipNeighbor#authentication_loose_check}
   */
   readonly authenticationLooseCheck?: boolean | cdktf.IResolvable;
   /**
   * High detection-time triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#detection_time_threshold RipNeighbor#detection_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#detection_time_threshold RipNeighbor#detection_time_threshold}
   */
   readonly detectionTimeThreshold?: number;
   /**
   * Minimum transmit and receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#minimum_interval RipNeighbor#minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#minimum_interval RipNeighbor#minimum_interval}
   */
   readonly minimumInterval?: number;
   /**
   * Minimum receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#minimum_receive_interval RipNeighbor#minimum_receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#minimum_receive_interval RipNeighbor#minimum_receive_interval}
   */
   readonly minimumReceiveInterval?: number;
   /**
   * Detection time multiplier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#multiplier RipNeighbor#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#multiplier RipNeighbor#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Disable adaptation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#no_adaptation RipNeighbor#no_adaptation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#no_adaptation RipNeighbor#no_adaptation}
   */
   readonly noAdaptation?: boolean | cdktf.IResolvable;
   /**
   * Minimum transmit interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#transmit_interval_minimum_interval RipNeighbor#transmit_interval_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#transmit_interval_minimum_interval RipNeighbor#transmit_interval_minimum_interval}
   */
   readonly transmitIntervalMinimumInterval?: number;
   /**
   * High transmit interval triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#transmit_interval_threshold RipNeighbor#transmit_interval_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#transmit_interval_threshold RipNeighbor#transmit_interval_threshold}
   */
   readonly transmitIntervalThreshold?: number;
   /**
   * BFD protocol version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#version RipNeighbor#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#version RipNeighbor#version}
   */
   readonly version?: string;
 }
@@ -776,7 +776,7 @@ export class RipNeighborBfdLivenessDetectionOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor junos_rip_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor junos_rip_neighbor}
 */
 export class RipNeighbor extends cdktf.TerraformResource {
 
@@ -792,7 +792,7 @@ export class RipNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RipNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RipNeighbor to import
-  * @param importFromId The id of the existing RipNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RipNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RipNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -804,7 +804,7 @@ export class RipNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_neighbor junos_rip_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_neighbor junos_rip_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -815,8 +815,8 @@ export class RipNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'junos_rip_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

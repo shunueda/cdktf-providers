@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SecurityIdpCustomAttackConfig extends cdktf.TerraformMetaArgume
   /**
   * Custom attack name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#name SecurityIdpCustomAttack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#name SecurityIdpCustomAttack#name}
   */
   readonly name: string;
   /**
   * Recommended action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#recommended_action SecurityIdpCustomAttack#recommended_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#recommended_action SecurityIdpCustomAttack#recommended_action}
   */
   readonly recommendedAction?: string;
   /**
   * Select the severity that matches the lethality of this attack on your network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#severity SecurityIdpCustomAttack#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#severity SecurityIdpCustomAttack#severity}
   */
   readonly severity: string;
   /**
   * Number of times this attack is to be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#time_binding_count SecurityIdpCustomAttack#time_binding_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#time_binding_count SecurityIdpCustomAttack#time_binding_count}
   */
   readonly timeBindingCount?: number;
   /**
   * Scope within which the count occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#time_binding_scope SecurityIdpCustomAttack#time_binding_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#time_binding_scope SecurityIdpCustomAttack#time_binding_scope}
   */
   readonly timeBindingScope?: string;
   /**
   * attack_type_anomaly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#attack_type_anomaly SecurityIdpCustomAttack#attack_type_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#attack_type_anomaly SecurityIdpCustomAttack#attack_type_anomaly}
   */
   readonly attackTypeAnomaly?: SecurityIdpCustomAttackAttackTypeAnomaly;
   /**
   * attack_type_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#attack_type_chain SecurityIdpCustomAttack#attack_type_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#attack_type_chain SecurityIdpCustomAttack#attack_type_chain}
   */
   readonly attackTypeChain?: SecurityIdpCustomAttackAttackTypeChain;
   /**
   * attack_type_signature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#attack_type_signature SecurityIdpCustomAttack#attack_type_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#attack_type_signature SecurityIdpCustomAttack#attack_type_signature}
   */
   readonly attackTypeSignature?: SecurityIdpCustomAttackAttackTypeSignature;
 }
@@ -60,25 +60,25 @@ export interface SecurityIdpCustomAttackAttackTypeAnomaly {
   /**
   * Connection direction of the attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#direction SecurityIdpCustomAttack#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#direction SecurityIdpCustomAttack#direction}
   */
   readonly direction?: string;
   /**
   * Service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#service SecurityIdpCustomAttack#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#service SecurityIdpCustomAttack#service}
   */
   readonly service?: string;
   /**
   * Specify shellcode flag for this attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#shellcode SecurityIdpCustomAttack#shellcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#shellcode SecurityIdpCustomAttack#shellcode}
   */
   readonly shellcode?: string;
   /**
   * Protocol anomaly condition to be checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#test SecurityIdpCustomAttack#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#test SecurityIdpCustomAttack#test}
   */
   readonly test?: string;
 }
@@ -261,19 +261,19 @@ export interface SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeAnomaly {
   /**
   * Connection direction of the attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#direction SecurityIdpCustomAttack#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#direction SecurityIdpCustomAttack#direction}
   */
   readonly direction?: string;
   /**
   * Specify shellcode flag for this attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#shellcode SecurityIdpCustomAttack#shellcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#shellcode SecurityIdpCustomAttack#shellcode}
   */
   readonly shellcode?: string;
   /**
   * Protocol anomaly condition to be checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#test SecurityIdpCustomAttack#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#test SecurityIdpCustomAttack#test}
   */
   readonly test?: string;
 }
@@ -427,73 +427,73 @@ export interface SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignature
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for code field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#code_match SecurityIdpCustomAttack#code_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#code_match SecurityIdpCustomAttack#code_match}
   */
   readonly codeMatch?: string;
   /**
   * Value for code field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#code_value SecurityIdpCustomAttack#code_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#code_value SecurityIdpCustomAttack#code_value}
   */
   readonly codeValue?: number;
   /**
   * Condition for size of IP datagram subtracted by ICMP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
   */
   readonly dataLengthMatch?: string;
   /**
   * Value for size of IP datagram subtracted by ICMP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
   */
   readonly dataLengthValue?: number;
   /**
   * Condition for identifier in echo request/reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
   */
   readonly identificationMatch?: string;
   /**
   * Value for identifier in echo request/reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
   */
   readonly identificationValue?: number;
   /**
   * Condition for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
   */
   readonly sequenceNumberMatch?: string;
   /**
   * Value for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
   */
   readonly sequenceNumberValue?: number;
   /**
   * Condition for type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#type_match SecurityIdpCustomAttack#type_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#type_match SecurityIdpCustomAttack#type_match}
   */
   readonly typeMatch?: string;
   /**
   * Value for type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#type_value SecurityIdpCustomAttack#type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#type_value SecurityIdpCustomAttack#type_value}
   */
   readonly typeValue?: number;
 }
@@ -908,73 +908,73 @@ export interface SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignature
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for code field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#code_match SecurityIdpCustomAttack#code_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#code_match SecurityIdpCustomAttack#code_match}
   */
   readonly codeMatch?: string;
   /**
   * Value for code field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#code_value SecurityIdpCustomAttack#code_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#code_value SecurityIdpCustomAttack#code_value}
   */
   readonly codeValue?: number;
   /**
   * Condition for size of IP datagram subtracted by ICMP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
   */
   readonly dataLengthMatch?: string;
   /**
   * Value for size of IP datagram subtracted by ICMP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
   */
   readonly dataLengthValue?: number;
   /**
   * Condition for identifier in echo request/reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
   */
   readonly identificationMatch?: string;
   /**
   * Value for identifier in echo request/reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
   */
   readonly identificationValue?: number;
   /**
   * Condition for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
   */
   readonly sequenceNumberMatch?: string;
   /**
   * Value for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
   */
   readonly sequenceNumberValue?: number;
   /**
   * Condition for type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#type_match SecurityIdpCustomAttack#type_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#type_match SecurityIdpCustomAttack#type_match}
   */
   readonly typeMatch?: string;
   /**
   * Value for type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#type_value SecurityIdpCustomAttack#type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#type_value SecurityIdpCustomAttack#type_value}
   */
   readonly typeValue?: number;
 }
@@ -1389,115 +1389,115 @@ export interface SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignature
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for destination IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_match SecurityIdpCustomAttack#destination_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_match SecurityIdpCustomAttack#destination_match}
   */
   readonly destinationMatch?: string;
   /**
   * Value for destination IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_value SecurityIdpCustomAttack#destination_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_value SecurityIdpCustomAttack#destination_value}
   */
   readonly destinationValue?: string;
   /**
   * Condition for fragment identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
   */
   readonly identificationMatch?: string;
   /**
   * Value for fragment identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
   */
   readonly identificationValue?: number;
   /**
   * Condition for header length in words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ihl_match SecurityIdpCustomAttack#ihl_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ihl_match SecurityIdpCustomAttack#ihl_match}
   */
   readonly ihlMatch?: string;
   /**
   * Value for header length in words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ihl_value SecurityIdpCustomAttack#ihl_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ihl_value SecurityIdpCustomAttack#ihl_value}
   */
   readonly ihlValue?: number;
   /**
   * IP Flag bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ip_flags SecurityIdpCustomAttack#ip_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ip_flags SecurityIdpCustomAttack#ip_flags}
   */
   readonly ipFlags?: string[];
   /**
   * Condition for transport layer protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_match SecurityIdpCustomAttack#protocol_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_match SecurityIdpCustomAttack#protocol_match}
   */
   readonly protocolMatch?: string;
   /**
   * Value for transport layer protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_value SecurityIdpCustomAttack#protocol_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_value SecurityIdpCustomAttack#protocol_value}
   */
   readonly protocolValue?: number;
   /**
   * Condition for source IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_match SecurityIdpCustomAttack#source_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_match SecurityIdpCustomAttack#source_match}
   */
   readonly sourceMatch?: string;
   /**
   * Value for source IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_value SecurityIdpCustomAttack#source_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_value SecurityIdpCustomAttack#source_value}
   */
   readonly sourceValue?: string;
   /**
   * Condition for type of service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#tos_match SecurityIdpCustomAttack#tos_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#tos_match SecurityIdpCustomAttack#tos_match}
   */
   readonly tosMatch?: string;
   /**
   * Value for type of service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#tos_value SecurityIdpCustomAttack#tos_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#tos_value SecurityIdpCustomAttack#tos_value}
   */
   readonly tosValue?: number;
   /**
   * Condition for total length of IP datagram.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#total_length_match SecurityIdpCustomAttack#total_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#total_length_match SecurityIdpCustomAttack#total_length_match}
   */
   readonly totalLengthMatch?: string;
   /**
   * Value for total length of IP datagram.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#total_length_value SecurityIdpCustomAttack#total_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#total_length_value SecurityIdpCustomAttack#total_length_value}
   */
   readonly totalLengthValue?: number;
   /**
   * Condition for time to live.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ttl_match SecurityIdpCustomAttack#ttl_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ttl_match SecurityIdpCustomAttack#ttl_match}
   */
   readonly ttlMatch?: string;
   /**
   * Value for time to live.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ttl_value SecurityIdpCustomAttack#ttl_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ttl_value SecurityIdpCustomAttack#ttl_value}
   */
   readonly ttlValue?: number;
 }
@@ -2115,121 +2115,121 @@ export interface SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignature
   /**
   * Condition for destination IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_match SecurityIdpCustomAttack#destination_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_match SecurityIdpCustomAttack#destination_match}
   */
   readonly destinationMatch?: string;
   /**
   * Value for destination IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_value SecurityIdpCustomAttack#destination_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_value SecurityIdpCustomAttack#destination_value}
   */
   readonly destinationValue?: string;
   /**
   * Condition for home address of the mobile node in destination option extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_home_address_match SecurityIdpCustomAttack#extension_header_destination_option_home_address_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_home_address_match SecurityIdpCustomAttack#extension_header_destination_option_home_address_match}
   */
   readonly extensionHeaderDestinationOptionHomeAddressMatch?: string;
   /**
   * Value for home address of the mobile node in destination option extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_home_address_value SecurityIdpCustomAttack#extension_header_destination_option_home_address_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_home_address_value SecurityIdpCustomAttack#extension_header_destination_option_home_address_value}
   */
   readonly extensionHeaderDestinationOptionHomeAddressValue?: string;
   /**
   * Condition for header type in destination option extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_type_match SecurityIdpCustomAttack#extension_header_destination_option_type_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_type_match SecurityIdpCustomAttack#extension_header_destination_option_type_match}
   */
   readonly extensionHeaderDestinationOptionTypeMatch?: string;
   /**
   * Value for header type in  destination option extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_type_value SecurityIdpCustomAttack#extension_header_destination_option_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_type_value SecurityIdpCustomAttack#extension_header_destination_option_type_value}
   */
   readonly extensionHeaderDestinationOptionTypeValue?: number;
   /**
   * Condition for header type in routing extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_routing_header_type_match SecurityIdpCustomAttack#extension_header_routing_header_type_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_routing_header_type_match SecurityIdpCustomAttack#extension_header_routing_header_type_match}
   */
   readonly extensionHeaderRoutingHeaderTypeMatch?: string;
   /**
   * Value for header type in routing extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_routing_header_type_value SecurityIdpCustomAttack#extension_header_routing_header_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_routing_header_type_value SecurityIdpCustomAttack#extension_header_routing_header_type_value}
   */
   readonly extensionHeaderRoutingHeaderTypeValue?: number;
   /**
   * Condition for flow label identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#flow_label_match SecurityIdpCustomAttack#flow_label_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#flow_label_match SecurityIdpCustomAttack#flow_label_match}
   */
   readonly flowLabelMatch?: string;
   /**
   * Value for flow label identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#flow_label_value SecurityIdpCustomAttack#flow_label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#flow_label_value SecurityIdpCustomAttack#flow_label_value}
   */
   readonly flowLabelValue?: number;
   /**
   * Condition for hop limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#hop_limit_match SecurityIdpCustomAttack#hop_limit_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#hop_limit_match SecurityIdpCustomAttack#hop_limit_match}
   */
   readonly hopLimitMatch?: string;
   /**
   * Value for hop limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#hop_limit_value SecurityIdpCustomAttack#hop_limit_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#hop_limit_value SecurityIdpCustomAttack#hop_limit_value}
   */
   readonly hopLimitValue?: number;
   /**
   * Condition for the header following the basic IPv6 header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#next_header_match SecurityIdpCustomAttack#next_header_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#next_header_match SecurityIdpCustomAttack#next_header_match}
   */
   readonly nextHeaderMatch?: string;
   /**
   * Value for the header following the basic IPv6 header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#next_header_value SecurityIdpCustomAttack#next_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#next_header_value SecurityIdpCustomAttack#next_header_value}
   */
   readonly nextHeaderValue?: number;
   /**
   * Condition for length of the payload in the IPv6 datagram.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#payload_length_match SecurityIdpCustomAttack#payload_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#payload_length_match SecurityIdpCustomAttack#payload_length_match}
   */
   readonly payloadLengthMatch?: string;
   /**
   * Value for length of the payload in the IPv6 datagram.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#payload_length_value SecurityIdpCustomAttack#payload_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#payload_length_value SecurityIdpCustomAttack#payload_length_value}
   */
   readonly payloadLengthValue?: number;
   /**
   * Condition for source IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_match SecurityIdpCustomAttack#source_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_match SecurityIdpCustomAttack#source_match}
   */
   readonly sourceMatch?: string;
   /**
   * Value for source IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_value SecurityIdpCustomAttack#source_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_value SecurityIdpCustomAttack#source_value}
   */
   readonly sourceValue?: string;
   /**
   * Condition for traffic class. Similar to TOS in IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#traffic_class_match SecurityIdpCustomAttack#traffic_class_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#traffic_class_match SecurityIdpCustomAttack#traffic_class_match}
   */
   readonly trafficClassMatch?: string;
   /**
   * Value for traffic class. Similar to TOS in IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#traffic_class_value SecurityIdpCustomAttack#traffic_class_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#traffic_class_value SecurityIdpCustomAttack#traffic_class_value}
   */
   readonly trafficClassValue?: number;
 }
@@ -2876,163 +2876,163 @@ export interface SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignature
   /**
   * Condition for acknowledgement number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ack_number_match SecurityIdpCustomAttack#ack_number_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ack_number_match SecurityIdpCustomAttack#ack_number_match}
   */
   readonly ackNumberMatch?: string;
   /**
   *  Value for acknowledgement number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ack_number_value SecurityIdpCustomAttack#ack_number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ack_number_value SecurityIdpCustomAttack#ack_number_value}
   */
   readonly ackNumberValue?: number;
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for size of IP datagram subtracted by TCP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
   */
   readonly dataLengthMatch?: string;
   /**
   * Value for size of IP datagram subtracted by TCP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
   */
   readonly dataLengthValue?: number;
   /**
   * Condition for destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_port_match SecurityIdpCustomAttack#destination_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_port_match SecurityIdpCustomAttack#destination_port_match}
   */
   readonly destinationPortMatch?: string;
   /**
   * Value for destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_port_value SecurityIdpCustomAttack#destination_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_port_value SecurityIdpCustomAttack#destination_port_value}
   */
   readonly destinationPortValue?: number;
   /**
   * Condition for header length in words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#header_length_match SecurityIdpCustomAttack#header_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#header_length_match SecurityIdpCustomAttack#header_length_match}
   */
   readonly headerLengthMatch?: string;
   /**
   * Value for header length in words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#header_length_value SecurityIdpCustomAttack#header_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#header_length_value SecurityIdpCustomAttack#header_length_value}
   */
   readonly headerLengthValue?: number;
   /**
   * Condition for maximum segment size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#mss_match SecurityIdpCustomAttack#mss_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#mss_match SecurityIdpCustomAttack#mss_match}
   */
   readonly mssMatch?: string;
   /**
   * Value for maximum segment size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#mss_value SecurityIdpCustomAttack#mss_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#mss_value SecurityIdpCustomAttack#mss_value}
   */
   readonly mssValue?: number;
   /**
   * Condition for kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#option_match SecurityIdpCustomAttack#option_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#option_match SecurityIdpCustomAttack#option_match}
   */
   readonly optionMatch?: string;
   /**
   * Value for kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#option_value SecurityIdpCustomAttack#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#option_value SecurityIdpCustomAttack#option_value}
   */
   readonly optionValue?: number;
   /**
   * Condition for three reserved bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#reserved_match SecurityIdpCustomAttack#reserved_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#reserved_match SecurityIdpCustomAttack#reserved_match}
   */
   readonly reservedMatch?: string;
   /**
   * Value for three reserved bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#reserved_value SecurityIdpCustomAttack#reserved_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#reserved_value SecurityIdpCustomAttack#reserved_value}
   */
   readonly reservedValue?: number;
   /**
   * Condition for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
   */
   readonly sequenceNumberMatch?: string;
   /**
   * Value for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
   */
   readonly sequenceNumberValue?: number;
   /**
   * Condition for source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_port_match SecurityIdpCustomAttack#source_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_port_match SecurityIdpCustomAttack#source_port_match}
   */
   readonly sourcePortMatch?: string;
   /**
   * Value for source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_port_value SecurityIdpCustomAttack#source_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_port_value SecurityIdpCustomAttack#source_port_value}
   */
   readonly sourcePortValue?: number;
   /**
   * TCP header flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#tcp_flags SecurityIdpCustomAttack#tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#tcp_flags SecurityIdpCustomAttack#tcp_flags}
   */
   readonly tcpFlags?: string[];
   /**
   * Condition for urgent pointer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#urgent_pointer_match SecurityIdpCustomAttack#urgent_pointer_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#urgent_pointer_match SecurityIdpCustomAttack#urgent_pointer_match}
   */
   readonly urgentPointerMatch?: string;
   /**
   * Value for urgent pointer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#urgent_pointer_value SecurityIdpCustomAttack#urgent_pointer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#urgent_pointer_value SecurityIdpCustomAttack#urgent_pointer_value}
   */
   readonly urgentPointerValue?: number;
   /**
   * Condition for window scale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#window_scale_match SecurityIdpCustomAttack#window_scale_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#window_scale_match SecurityIdpCustomAttack#window_scale_match}
   */
   readonly windowScaleMatch?: string;
   /**
   * Value for sindow scale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#window_scale_value SecurityIdpCustomAttack#window_scale_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#window_scale_value SecurityIdpCustomAttack#window_scale_value}
   */
   readonly windowScaleValue?: number;
   /**
   * Condition for window size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#window_size_match SecurityIdpCustomAttack#window_size_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#window_size_match SecurityIdpCustomAttack#window_size_match}
   */
   readonly windowSizeMatch?: string;
   /**
   * Value for window size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#window_size_value SecurityIdpCustomAttack#window_size_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#window_size_value SecurityIdpCustomAttack#window_size_value}
   */
   readonly windowSizeValue?: number;
 }
@@ -3882,49 +3882,49 @@ export interface SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignature
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for size of IP datagram subtracted by UDP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
   */
   readonly dataLengthMatch?: string;
   /**
   * Value for size of IP datagram subtracted by UDP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
   */
   readonly dataLengthValue?: number;
   /**
   * Condition for destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_port_match SecurityIdpCustomAttack#destination_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_port_match SecurityIdpCustomAttack#destination_port_match}
   */
   readonly destinationPortMatch?: string;
   /**
   * Value for destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_port_value SecurityIdpCustomAttack#destination_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_port_value SecurityIdpCustomAttack#destination_port_value}
   */
   readonly destinationPortValue?: number;
   /**
   * Condition for source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_port_match SecurityIdpCustomAttack#source_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_port_match SecurityIdpCustomAttack#source_port_match}
   */
   readonly sourcePortMatch?: string;
   /**
   * Value for source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_port_value SecurityIdpCustomAttack#source_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_port_value SecurityIdpCustomAttack#source_port_value}
   */
   readonly sourcePortValue?: number;
 }
@@ -4223,79 +4223,79 @@ export interface SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignature
   /**
   * Context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#context SecurityIdpCustomAttack#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#context SecurityIdpCustomAttack#context}
   */
   readonly context?: string;
   /**
   * Connection direction of the attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#direction SecurityIdpCustomAttack#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#direction SecurityIdpCustomAttack#direction}
   */
   readonly direction?: string;
   /**
   * Trigger the attack if condition is not met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#negate SecurityIdpCustomAttack#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#negate SecurityIdpCustomAttack#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Pattern is the signature of the attack you want to detect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#pattern SecurityIdpCustomAttack#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#pattern SecurityIdpCustomAttack#pattern}
   */
   readonly pattern?: string;
   /**
   * Attack signature pattern in PCRE format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#pattern_pcre SecurityIdpCustomAttack#pattern_pcre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#pattern_pcre SecurityIdpCustomAttack#pattern_pcre}
   */
   readonly patternPcre?: string;
   /**
   * Regular expression used for matching repetition of patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#regexp SecurityIdpCustomAttack#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#regexp SecurityIdpCustomAttack#regexp}
   */
   readonly regexp?: string;
   /**
   * Specify shellcode flag for this attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#shellcode SecurityIdpCustomAttack#shellcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#shellcode SecurityIdpCustomAttack#shellcode}
   */
   readonly shellcode?: string;
   /**
   * protocol_icmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_icmp SecurityIdpCustomAttack#protocol_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_icmp SecurityIdpCustomAttack#protocol_icmp}
   */
   readonly protocolIcmp?: SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignatureProtocolIcmp;
   /**
   * protocol_icmpv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_icmpv6 SecurityIdpCustomAttack#protocol_icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_icmpv6 SecurityIdpCustomAttack#protocol_icmpv6}
   */
   readonly protocolIcmpv6?: SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignatureProtocolIcmpv6;
   /**
   * protocol_ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_ipv4 SecurityIdpCustomAttack#protocol_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_ipv4 SecurityIdpCustomAttack#protocol_ipv4}
   */
   readonly protocolIpv4?: SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignatureProtocolIpv4;
   /**
   * protocol_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_ipv6 SecurityIdpCustomAttack#protocol_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_ipv6 SecurityIdpCustomAttack#protocol_ipv6}
   */
   readonly protocolIpv6?: SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignatureProtocolIpv6;
   /**
   * protocol_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_tcp SecurityIdpCustomAttack#protocol_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_tcp SecurityIdpCustomAttack#protocol_tcp}
   */
   readonly protocolTcp?: SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignatureProtocolTcp;
   /**
   * protocol_udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_udp SecurityIdpCustomAttack#protocol_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_udp SecurityIdpCustomAttack#protocol_udp}
   */
   readonly protocolUdp?: SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignatureProtocolUdp;
 }
@@ -4739,19 +4739,19 @@ export interface SecurityIdpCustomAttackAttackTypeChainMember {
   /**
   * Custom attack name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#name SecurityIdpCustomAttack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#name SecurityIdpCustomAttack#name}
   */
   readonly name: string;
   /**
   * attack_type_anomaly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#attack_type_anomaly SecurityIdpCustomAttack#attack_type_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#attack_type_anomaly SecurityIdpCustomAttack#attack_type_anomaly}
   */
   readonly attackTypeAnomaly?: SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeAnomaly;
   /**
   * attack_type_signature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#attack_type_signature SecurityIdpCustomAttack#attack_type_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#attack_type_signature SecurityIdpCustomAttack#attack_type_signature}
   */
   readonly attackTypeSignature?: SecurityIdpCustomAttackAttackTypeChainMemberAttackTypeSignature;
 }
@@ -4924,37 +4924,37 @@ export interface SecurityIdpCustomAttackAttackTypeChain {
   /**
   * Boolean Expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#expression SecurityIdpCustomAttack#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#expression SecurityIdpCustomAttack#expression}
   */
   readonly expression?: string;
   /**
   * Attacks should match in the order in which they are defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#order SecurityIdpCustomAttack#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#order SecurityIdpCustomAttack#order}
   */
   readonly order?: boolean | cdktf.IResolvable;
   /**
   * Protocol binding over which attack will be detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_binding SecurityIdpCustomAttack#protocol_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_binding SecurityIdpCustomAttack#protocol_binding}
   */
   readonly protocolBinding?: string;
   /**
   * Repeat match should generate a new alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#reset SecurityIdpCustomAttack#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#reset SecurityIdpCustomAttack#reset}
   */
   readonly reset?: boolean | cdktf.IResolvable;
   /**
   * Scope of the attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#scope SecurityIdpCustomAttack#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#scope SecurityIdpCustomAttack#scope}
   */
   readonly scope?: string;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#member SecurityIdpCustomAttack#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#member SecurityIdpCustomAttack#member}
   */
   readonly member?: SecurityIdpCustomAttackAttackTypeChainMember[] | cdktf.IResolvable;
 }
@@ -5195,73 +5195,73 @@ export interface SecurityIdpCustomAttackAttackTypeSignatureProtocolIcmp {
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for code field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#code_match SecurityIdpCustomAttack#code_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#code_match SecurityIdpCustomAttack#code_match}
   */
   readonly codeMatch?: string;
   /**
   * Value for code field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#code_value SecurityIdpCustomAttack#code_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#code_value SecurityIdpCustomAttack#code_value}
   */
   readonly codeValue?: number;
   /**
   * Condition for size of IP datagram subtracted by ICMP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
   */
   readonly dataLengthMatch?: string;
   /**
   * Value for size of IP datagram subtracted by ICMP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
   */
   readonly dataLengthValue?: number;
   /**
   * Condition for identifier in echo request/reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
   */
   readonly identificationMatch?: string;
   /**
   * Value for identifier in echo request/reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
   */
   readonly identificationValue?: number;
   /**
   * Condition for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
   */
   readonly sequenceNumberMatch?: string;
   /**
   * Value for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
   */
   readonly sequenceNumberValue?: number;
   /**
   * Condition for type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#type_match SecurityIdpCustomAttack#type_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#type_match SecurityIdpCustomAttack#type_match}
   */
   readonly typeMatch?: string;
   /**
   * Value for type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#type_value SecurityIdpCustomAttack#type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#type_value SecurityIdpCustomAttack#type_value}
   */
   readonly typeValue?: number;
 }
@@ -5676,73 +5676,73 @@ export interface SecurityIdpCustomAttackAttackTypeSignatureProtocolIcmpv6 {
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for code field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#code_match SecurityIdpCustomAttack#code_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#code_match SecurityIdpCustomAttack#code_match}
   */
   readonly codeMatch?: string;
   /**
   * Value for code field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#code_value SecurityIdpCustomAttack#code_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#code_value SecurityIdpCustomAttack#code_value}
   */
   readonly codeValue?: number;
   /**
   * Condition for size of IP datagram subtracted by ICMP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
   */
   readonly dataLengthMatch?: string;
   /**
   * Value for size of IP datagram subtracted by ICMP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
   */
   readonly dataLengthValue?: number;
   /**
   * Condition for identifier in echo request/reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
   */
   readonly identificationMatch?: string;
   /**
   * Value for identifier in echo request/reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
   */
   readonly identificationValue?: number;
   /**
   * Condition for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
   */
   readonly sequenceNumberMatch?: string;
   /**
   * Value for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
   */
   readonly sequenceNumberValue?: number;
   /**
   * Condition for type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#type_match SecurityIdpCustomAttack#type_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#type_match SecurityIdpCustomAttack#type_match}
   */
   readonly typeMatch?: string;
   /**
   * Value for type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#type_value SecurityIdpCustomAttack#type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#type_value SecurityIdpCustomAttack#type_value}
   */
   readonly typeValue?: number;
 }
@@ -6157,115 +6157,115 @@ export interface SecurityIdpCustomAttackAttackTypeSignatureProtocolIpv4 {
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for destination IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_match SecurityIdpCustomAttack#destination_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_match SecurityIdpCustomAttack#destination_match}
   */
   readonly destinationMatch?: string;
   /**
   * Value for destination IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_value SecurityIdpCustomAttack#destination_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_value SecurityIdpCustomAttack#destination_value}
   */
   readonly destinationValue?: string;
   /**
   * Condition for fragment identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_match SecurityIdpCustomAttack#identification_match}
   */
   readonly identificationMatch?: string;
   /**
   * Value for fragment identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#identification_value SecurityIdpCustomAttack#identification_value}
   */
   readonly identificationValue?: number;
   /**
   * Condition for header length in words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ihl_match SecurityIdpCustomAttack#ihl_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ihl_match SecurityIdpCustomAttack#ihl_match}
   */
   readonly ihlMatch?: string;
   /**
   * Value for header length in words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ihl_value SecurityIdpCustomAttack#ihl_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ihl_value SecurityIdpCustomAttack#ihl_value}
   */
   readonly ihlValue?: number;
   /**
   * IP Flag bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ip_flags SecurityIdpCustomAttack#ip_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ip_flags SecurityIdpCustomAttack#ip_flags}
   */
   readonly ipFlags?: string[];
   /**
   * Condition for transport layer protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_match SecurityIdpCustomAttack#protocol_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_match SecurityIdpCustomAttack#protocol_match}
   */
   readonly protocolMatch?: string;
   /**
   * Value for transport layer protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_value SecurityIdpCustomAttack#protocol_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_value SecurityIdpCustomAttack#protocol_value}
   */
   readonly protocolValue?: number;
   /**
   * Condition for source IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_match SecurityIdpCustomAttack#source_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_match SecurityIdpCustomAttack#source_match}
   */
   readonly sourceMatch?: string;
   /**
   * Value for source IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_value SecurityIdpCustomAttack#source_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_value SecurityIdpCustomAttack#source_value}
   */
   readonly sourceValue?: string;
   /**
   * Condition for type of service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#tos_match SecurityIdpCustomAttack#tos_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#tos_match SecurityIdpCustomAttack#tos_match}
   */
   readonly tosMatch?: string;
   /**
   * Value for type of service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#tos_value SecurityIdpCustomAttack#tos_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#tos_value SecurityIdpCustomAttack#tos_value}
   */
   readonly tosValue?: number;
   /**
   * Condition for total length of IP datagram.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#total_length_match SecurityIdpCustomAttack#total_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#total_length_match SecurityIdpCustomAttack#total_length_match}
   */
   readonly totalLengthMatch?: string;
   /**
   * Value for total length of IP datagram.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#total_length_value SecurityIdpCustomAttack#total_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#total_length_value SecurityIdpCustomAttack#total_length_value}
   */
   readonly totalLengthValue?: number;
   /**
   * Condition for time to live.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ttl_match SecurityIdpCustomAttack#ttl_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ttl_match SecurityIdpCustomAttack#ttl_match}
   */
   readonly ttlMatch?: string;
   /**
   * Value for time to live.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ttl_value SecurityIdpCustomAttack#ttl_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ttl_value SecurityIdpCustomAttack#ttl_value}
   */
   readonly ttlValue?: number;
 }
@@ -6883,121 +6883,121 @@ export interface SecurityIdpCustomAttackAttackTypeSignatureProtocolIpv6 {
   /**
   * Condition for destination IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_match SecurityIdpCustomAttack#destination_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_match SecurityIdpCustomAttack#destination_match}
   */
   readonly destinationMatch?: string;
   /**
   * Value for destination IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_value SecurityIdpCustomAttack#destination_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_value SecurityIdpCustomAttack#destination_value}
   */
   readonly destinationValue?: string;
   /**
   * Condition for home address of the mobile node in destination option extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_home_address_match SecurityIdpCustomAttack#extension_header_destination_option_home_address_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_home_address_match SecurityIdpCustomAttack#extension_header_destination_option_home_address_match}
   */
   readonly extensionHeaderDestinationOptionHomeAddressMatch?: string;
   /**
   * Value for home address of the mobile node in destination option extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_home_address_value SecurityIdpCustomAttack#extension_header_destination_option_home_address_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_home_address_value SecurityIdpCustomAttack#extension_header_destination_option_home_address_value}
   */
   readonly extensionHeaderDestinationOptionHomeAddressValue?: string;
   /**
   * Condition for header type in destination option extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_type_match SecurityIdpCustomAttack#extension_header_destination_option_type_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_type_match SecurityIdpCustomAttack#extension_header_destination_option_type_match}
   */
   readonly extensionHeaderDestinationOptionTypeMatch?: string;
   /**
   * Value for header type in  destination option extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_type_value SecurityIdpCustomAttack#extension_header_destination_option_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_destination_option_type_value SecurityIdpCustomAttack#extension_header_destination_option_type_value}
   */
   readonly extensionHeaderDestinationOptionTypeValue?: number;
   /**
   * Condition for header type in routing extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_routing_header_type_match SecurityIdpCustomAttack#extension_header_routing_header_type_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_routing_header_type_match SecurityIdpCustomAttack#extension_header_routing_header_type_match}
   */
   readonly extensionHeaderRoutingHeaderTypeMatch?: string;
   /**
   * Value for header type in routing extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#extension_header_routing_header_type_value SecurityIdpCustomAttack#extension_header_routing_header_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#extension_header_routing_header_type_value SecurityIdpCustomAttack#extension_header_routing_header_type_value}
   */
   readonly extensionHeaderRoutingHeaderTypeValue?: number;
   /**
   * Condition for flow label identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#flow_label_match SecurityIdpCustomAttack#flow_label_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#flow_label_match SecurityIdpCustomAttack#flow_label_match}
   */
   readonly flowLabelMatch?: string;
   /**
   * Value for flow label identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#flow_label_value SecurityIdpCustomAttack#flow_label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#flow_label_value SecurityIdpCustomAttack#flow_label_value}
   */
   readonly flowLabelValue?: number;
   /**
   * Condition for hop limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#hop_limit_match SecurityIdpCustomAttack#hop_limit_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#hop_limit_match SecurityIdpCustomAttack#hop_limit_match}
   */
   readonly hopLimitMatch?: string;
   /**
   * Value for hop limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#hop_limit_value SecurityIdpCustomAttack#hop_limit_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#hop_limit_value SecurityIdpCustomAttack#hop_limit_value}
   */
   readonly hopLimitValue?: number;
   /**
   * Condition for the header following the basic IPv6 header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#next_header_match SecurityIdpCustomAttack#next_header_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#next_header_match SecurityIdpCustomAttack#next_header_match}
   */
   readonly nextHeaderMatch?: string;
   /**
   * Value for the header following the basic IPv6 header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#next_header_value SecurityIdpCustomAttack#next_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#next_header_value SecurityIdpCustomAttack#next_header_value}
   */
   readonly nextHeaderValue?: number;
   /**
   * Condition for length of the payload in the IPv6 datagram.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#payload_length_match SecurityIdpCustomAttack#payload_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#payload_length_match SecurityIdpCustomAttack#payload_length_match}
   */
   readonly payloadLengthMatch?: string;
   /**
   * Value for length of the payload in the IPv6 datagram.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#payload_length_value SecurityIdpCustomAttack#payload_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#payload_length_value SecurityIdpCustomAttack#payload_length_value}
   */
   readonly payloadLengthValue?: number;
   /**
   * Condition for source IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_match SecurityIdpCustomAttack#source_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_match SecurityIdpCustomAttack#source_match}
   */
   readonly sourceMatch?: string;
   /**
   * Value for source IP-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_value SecurityIdpCustomAttack#source_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_value SecurityIdpCustomAttack#source_value}
   */
   readonly sourceValue?: string;
   /**
   * Condition for traffic class. Similar to TOS in IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#traffic_class_match SecurityIdpCustomAttack#traffic_class_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#traffic_class_match SecurityIdpCustomAttack#traffic_class_match}
   */
   readonly trafficClassMatch?: string;
   /**
   * Value for traffic class. Similar to TOS in IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#traffic_class_value SecurityIdpCustomAttack#traffic_class_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#traffic_class_value SecurityIdpCustomAttack#traffic_class_value}
   */
   readonly trafficClassValue?: number;
 }
@@ -7644,163 +7644,163 @@ export interface SecurityIdpCustomAttackAttackTypeSignatureProtocolTcp {
   /**
   * Condition for acknowledgement number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ack_number_match SecurityIdpCustomAttack#ack_number_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ack_number_match SecurityIdpCustomAttack#ack_number_match}
   */
   readonly ackNumberMatch?: string;
   /**
   *  Value for acknowledgement number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#ack_number_value SecurityIdpCustomAttack#ack_number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#ack_number_value SecurityIdpCustomAttack#ack_number_value}
   */
   readonly ackNumberValue?: number;
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for size of IP datagram subtracted by TCP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
   */
   readonly dataLengthMatch?: string;
   /**
   * Value for size of IP datagram subtracted by TCP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
   */
   readonly dataLengthValue?: number;
   /**
   * Condition for destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_port_match SecurityIdpCustomAttack#destination_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_port_match SecurityIdpCustomAttack#destination_port_match}
   */
   readonly destinationPortMatch?: string;
   /**
   * Value for destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_port_value SecurityIdpCustomAttack#destination_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_port_value SecurityIdpCustomAttack#destination_port_value}
   */
   readonly destinationPortValue?: number;
   /**
   * Condition for header length in words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#header_length_match SecurityIdpCustomAttack#header_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#header_length_match SecurityIdpCustomAttack#header_length_match}
   */
   readonly headerLengthMatch?: string;
   /**
   * Value for header length in words.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#header_length_value SecurityIdpCustomAttack#header_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#header_length_value SecurityIdpCustomAttack#header_length_value}
   */
   readonly headerLengthValue?: number;
   /**
   * Condition for maximum segment size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#mss_match SecurityIdpCustomAttack#mss_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#mss_match SecurityIdpCustomAttack#mss_match}
   */
   readonly mssMatch?: string;
   /**
   * Value for maximum segment size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#mss_value SecurityIdpCustomAttack#mss_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#mss_value SecurityIdpCustomAttack#mss_value}
   */
   readonly mssValue?: number;
   /**
   * Condition for kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#option_match SecurityIdpCustomAttack#option_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#option_match SecurityIdpCustomAttack#option_match}
   */
   readonly optionMatch?: string;
   /**
   * Value for kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#option_value SecurityIdpCustomAttack#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#option_value SecurityIdpCustomAttack#option_value}
   */
   readonly optionValue?: number;
   /**
   * Condition for three reserved bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#reserved_match SecurityIdpCustomAttack#reserved_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#reserved_match SecurityIdpCustomAttack#reserved_match}
   */
   readonly reservedMatch?: string;
   /**
   * Value for three reserved bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#reserved_value SecurityIdpCustomAttack#reserved_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#reserved_value SecurityIdpCustomAttack#reserved_value}
   */
   readonly reservedValue?: number;
   /**
   * Condition for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_match SecurityIdpCustomAttack#sequence_number_match}
   */
   readonly sequenceNumberMatch?: string;
   /**
   * Value for sequence number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#sequence_number_value SecurityIdpCustomAttack#sequence_number_value}
   */
   readonly sequenceNumberValue?: number;
   /**
   * Condition for source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_port_match SecurityIdpCustomAttack#source_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_port_match SecurityIdpCustomAttack#source_port_match}
   */
   readonly sourcePortMatch?: string;
   /**
   * Value for source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_port_value SecurityIdpCustomAttack#source_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_port_value SecurityIdpCustomAttack#source_port_value}
   */
   readonly sourcePortValue?: number;
   /**
   * TCP header flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#tcp_flags SecurityIdpCustomAttack#tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#tcp_flags SecurityIdpCustomAttack#tcp_flags}
   */
   readonly tcpFlags?: string[];
   /**
   * Condition for urgent pointer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#urgent_pointer_match SecurityIdpCustomAttack#urgent_pointer_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#urgent_pointer_match SecurityIdpCustomAttack#urgent_pointer_match}
   */
   readonly urgentPointerMatch?: string;
   /**
   * Value for urgent pointer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#urgent_pointer_value SecurityIdpCustomAttack#urgent_pointer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#urgent_pointer_value SecurityIdpCustomAttack#urgent_pointer_value}
   */
   readonly urgentPointerValue?: number;
   /**
   * Condition for window scale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#window_scale_match SecurityIdpCustomAttack#window_scale_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#window_scale_match SecurityIdpCustomAttack#window_scale_match}
   */
   readonly windowScaleMatch?: string;
   /**
   * Value for sindow scale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#window_scale_value SecurityIdpCustomAttack#window_scale_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#window_scale_value SecurityIdpCustomAttack#window_scale_value}
   */
   readonly windowScaleValue?: number;
   /**
   * Condition for window size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#window_size_match SecurityIdpCustomAttack#window_size_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#window_size_match SecurityIdpCustomAttack#window_size_match}
   */
   readonly windowSizeMatch?: string;
   /**
   * Value for window size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#window_size_value SecurityIdpCustomAttack#window_size_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#window_size_value SecurityIdpCustomAttack#window_size_value}
   */
   readonly windowSizeValue?: number;
 }
@@ -8650,49 +8650,49 @@ export interface SecurityIdpCustomAttackAttackTypeSignatureProtocolUdp {
   /**
   * Condition for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_match SecurityIdpCustomAttack#checksum_validate_match}
   */
   readonly checksumValidateMatch?: string;
   /**
   * Value for validate checksum field against calculated checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#checksum_validate_value SecurityIdpCustomAttack#checksum_validate_value}
   */
   readonly checksumValidateValue?: number;
   /**
   * Condition for size of IP datagram subtracted by UDP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_match SecurityIdpCustomAttack#data_length_match}
   */
   readonly dataLengthMatch?: string;
   /**
   * Value for size of IP datagram subtracted by UDP header length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#data_length_value SecurityIdpCustomAttack#data_length_value}
   */
   readonly dataLengthValue?: number;
   /**
   * Condition for destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_port_match SecurityIdpCustomAttack#destination_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_port_match SecurityIdpCustomAttack#destination_port_match}
   */
   readonly destinationPortMatch?: string;
   /**
   * Value for destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#destination_port_value SecurityIdpCustomAttack#destination_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#destination_port_value SecurityIdpCustomAttack#destination_port_value}
   */
   readonly destinationPortValue?: number;
   /**
   * Condition for source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_port_match SecurityIdpCustomAttack#source_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_port_match SecurityIdpCustomAttack#source_port_match}
   */
   readonly sourcePortMatch?: string;
   /**
   * Value for source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#source_port_value SecurityIdpCustomAttack#source_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#source_port_value SecurityIdpCustomAttack#source_port_value}
   */
   readonly sourcePortValue?: number;
 }
@@ -8991,85 +8991,85 @@ export interface SecurityIdpCustomAttackAttackTypeSignature {
   /**
   * Context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#context SecurityIdpCustomAttack#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#context SecurityIdpCustomAttack#context}
   */
   readonly context?: string;
   /**
   * Connection direction of the attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#direction SecurityIdpCustomAttack#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#direction SecurityIdpCustomAttack#direction}
   */
   readonly direction?: string;
   /**
   * Trigger the attack if condition is not met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#negate SecurityIdpCustomAttack#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#negate SecurityIdpCustomAttack#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Pattern is the signature of the attack you want to detect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#pattern SecurityIdpCustomAttack#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#pattern SecurityIdpCustomAttack#pattern}
   */
   readonly pattern?: string;
   /**
   * Attack signature pattern in PCRE format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#pattern_pcre SecurityIdpCustomAttack#pattern_pcre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#pattern_pcre SecurityIdpCustomAttack#pattern_pcre}
   */
   readonly patternPcre?: string;
   /**
   * Protocol binding over which attack will be detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_binding SecurityIdpCustomAttack#protocol_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_binding SecurityIdpCustomAttack#protocol_binding}
   */
   readonly protocolBinding?: string;
   /**
   * Regular expression used for matching repetition of patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#regexp SecurityIdpCustomAttack#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#regexp SecurityIdpCustomAttack#regexp}
   */
   readonly regexp?: string;
   /**
   * Specify shellcode flag for this attack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#shellcode SecurityIdpCustomAttack#shellcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#shellcode SecurityIdpCustomAttack#shellcode}
   */
   readonly shellcode?: string;
   /**
   * protocol_icmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_icmp SecurityIdpCustomAttack#protocol_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_icmp SecurityIdpCustomAttack#protocol_icmp}
   */
   readonly protocolIcmp?: SecurityIdpCustomAttackAttackTypeSignatureProtocolIcmp;
   /**
   * protocol_icmpv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_icmpv6 SecurityIdpCustomAttack#protocol_icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_icmpv6 SecurityIdpCustomAttack#protocol_icmpv6}
   */
   readonly protocolIcmpv6?: SecurityIdpCustomAttackAttackTypeSignatureProtocolIcmpv6;
   /**
   * protocol_ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_ipv4 SecurityIdpCustomAttack#protocol_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_ipv4 SecurityIdpCustomAttack#protocol_ipv4}
   */
   readonly protocolIpv4?: SecurityIdpCustomAttackAttackTypeSignatureProtocolIpv4;
   /**
   * protocol_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_ipv6 SecurityIdpCustomAttack#protocol_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_ipv6 SecurityIdpCustomAttack#protocol_ipv6}
   */
   readonly protocolIpv6?: SecurityIdpCustomAttackAttackTypeSignatureProtocolIpv6;
   /**
   * protocol_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_tcp SecurityIdpCustomAttack#protocol_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_tcp SecurityIdpCustomAttack#protocol_tcp}
   */
   readonly protocolTcp?: SecurityIdpCustomAttackAttackTypeSignatureProtocolTcp;
   /**
   * protocol_udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#protocol_udp SecurityIdpCustomAttack#protocol_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#protocol_udp SecurityIdpCustomAttack#protocol_udp}
   */
   readonly protocolUdp?: SecurityIdpCustomAttackAttackTypeSignatureProtocolUdp;
 }
@@ -9540,7 +9540,7 @@ export class SecurityIdpCustomAttackAttackTypeSignatureOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack junos_security_idp_custom_attack}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack junos_security_idp_custom_attack}
 */
 export class SecurityIdpCustomAttack extends cdktf.TerraformResource {
 
@@ -9556,7 +9556,7 @@ export class SecurityIdpCustomAttack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityIdpCustomAttack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityIdpCustomAttack to import
-  * @param importFromId The id of the existing SecurityIdpCustomAttack that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityIdpCustomAttack that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityIdpCustomAttack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9568,7 +9568,7 @@ export class SecurityIdpCustomAttack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_idp_custom_attack junos_security_idp_custom_attack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_idp_custom_attack junos_security_idp_custom_attack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9579,8 +9579,8 @@ export class SecurityIdpCustomAttack extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_idp_custom_attack',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

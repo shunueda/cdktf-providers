@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/application_sets
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/application_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataJunosApplicationSetsConfig extends cdktf.TerraformMetaArgum
   /**
   * List of application-sets to apply a filter on application-sets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/application_sets#match_application_sets DataJunosApplicationSets#match_application_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/application_sets#match_application_sets DataJunosApplicationSets#match_application_sets}
   */
   readonly matchApplicationSets?: string[];
   /**
   * List of applications to apply a filter on application-sets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/application_sets#match_applications DataJunosApplicationSets#match_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/application_sets#match_applications DataJunosApplicationSets#match_applications}
   */
   readonly matchApplications?: string[];
   /**
   * A regexp to apply a filter on application-sets name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/application_sets#match_name DataJunosApplicationSets#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/application_sets#match_name DataJunosApplicationSets#match_name}
   */
   readonly matchName?: string;
 }
@@ -118,7 +118,7 @@ export class DataJunosApplicationSetsApplicationSetsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/application_sets junos_application_sets}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/application_sets junos_application_sets}
 */
 export class DataJunosApplicationSets extends cdktf.TerraformDataSource {
 
@@ -134,7 +134,7 @@ export class DataJunosApplicationSets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataJunosApplicationSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataJunosApplicationSets to import
-  * @param importFromId The id of the existing DataJunosApplicationSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/application_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataJunosApplicationSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/application_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataJunosApplicationSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class DataJunosApplicationSets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/application_sets junos_application_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/application_sets junos_application_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class DataJunosApplicationSets extends cdktf.TerraformDataSource {
       terraformResourceType: 'junos_application_sets',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

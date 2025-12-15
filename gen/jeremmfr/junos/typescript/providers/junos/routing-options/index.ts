@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface RoutingOptionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Clean supported lines when destroy this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#clean_on_destroy RoutingOptions#clean_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#clean_on_destroy RoutingOptions#clean_on_destroy}
   */
   readonly cleanOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Disable management of `forwarding-table export` in this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#forwarding_table_export_configure_singly RoutingOptions#forwarding_table_export_configure_singly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#forwarding_table_export_configure_singly RoutingOptions#forwarding_table_export_configure_singly}
   */
   readonly forwardingTableExportConfigureSingly?: boolean | cdktf.IResolvable;
   /**
   * Export policy for instance RIBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#instance_export RoutingOptions#instance_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#instance_export RoutingOptions#instance_export}
   */
   readonly instanceExport?: string[];
   /**
   * Import policy for instance RIBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#instance_import RoutingOptions#instance_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#instance_import RoutingOptions#instance_import}
   */
   readonly instanceImport?: string[];
   /**
   * IPv6 router identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#ipv6_router_id RoutingOptions#ipv6_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#ipv6_router_id RoutingOptions#ipv6_router_id}
   */
   readonly ipv6RouterId?: string;
   /**
   * Router identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#router_id RoutingOptions#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#router_id RoutingOptions#router_id}
   */
   readonly routerId?: string;
   /**
   * autonomous_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#autonomous_system RoutingOptions#autonomous_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#autonomous_system RoutingOptions#autonomous_system}
   */
   readonly autonomousSystem?: RoutingOptionsAutonomousSystem;
   /**
   * forwarding_table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#forwarding_table RoutingOptions#forwarding_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#forwarding_table RoutingOptions#forwarding_table}
   */
   readonly forwardingTable?: RoutingOptionsForwardingTable;
   /**
   * graceful_restart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#graceful_restart RoutingOptions#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#graceful_restart RoutingOptions#graceful_restart}
   */
   readonly gracefulRestart?: RoutingOptionsGracefulRestart;
 }
@@ -66,19 +66,19 @@ export interface RoutingOptionsAutonomousSystem {
   /**
   * Use AS-Dot notation to display true 4 byte AS numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#asdot_notation RoutingOptions#asdot_notation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#asdot_notation RoutingOptions#asdot_notation}
   */
   readonly asdotNotation?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of times this AS can be in an AS path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#loops RoutingOptions#loops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#loops RoutingOptions#loops}
   */
   readonly loops?: number;
   /**
   * Autonomous system number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#number RoutingOptions#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#number RoutingOptions#number}
   */
   readonly number?: string;
 }
@@ -232,85 +232,85 @@ export interface RoutingOptionsForwardingTable {
   /**
   * Maximum labels inside chain composite for the platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#chain_composite_max_label_count RoutingOptions#chain_composite_max_label_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#chain_composite_max_label_count RoutingOptions#chain_composite_max_label_count}
   */
   readonly chainCompositeMaxLabelCount?: number;
   /**
   * Next-hop chaining mode -> Ingress LSP nexthop settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#chained_composite_next_hop_ingress RoutingOptions#chained_composite_next_hop_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#chained_composite_next_hop_ingress RoutingOptions#chained_composite_next_hop_ingress}
   */
   readonly chainedCompositeNextHopIngress?: string[];
   /**
   * Next-hop chaining mode -> Transit LSP nexthops settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#chained_composite_next_hop_transit RoutingOptions#chained_composite_next_hop_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#chained_composite_next_hop_transit RoutingOptions#chained_composite_next_hop_transit}
   */
   readonly chainedCompositeNextHopTransit?: string[];
   /**
   * Dynamic next-hop mode for EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#dynamic_list_next_hop RoutingOptions#dynamic_list_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#dynamic_list_next_hop RoutingOptions#dynamic_list_next_hop}
   */
   readonly dynamicListNextHop?: boolean | cdktf.IResolvable;
   /**
   * Enable fast reroute for ECMP next hops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#ecmp_fast_reroute RoutingOptions#ecmp_fast_reroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#ecmp_fast_reroute RoutingOptions#ecmp_fast_reroute}
   */
   readonly ecmpFastReroute?: boolean | cdktf.IResolvable;
   /**
   * Export policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#export RoutingOptions#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#export RoutingOptions#export}
   */
   readonly export?: string[];
   /**
   * Install indirect next hops in Packet Forwarding Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#indirect_next_hop RoutingOptions#indirect_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#indirect_next_hop RoutingOptions#indirect_next_hop}
   */
   readonly indirectNextHop?: boolean | cdktf.IResolvable;
   /**
   * Request acknowledgements for Indirect next hop changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#indirect_next_hop_change_acknowledgements RoutingOptions#indirect_next_hop_change_acknowledgements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#indirect_next_hop_change_acknowledgements RoutingOptions#indirect_next_hop_change_acknowledgements}
   */
   readonly indirectNextHopChangeAcknowledgements?: boolean | cdktf.IResolvable;
   /**
   * Kernel nexthop ack timeout interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#krt_nexthop_ack_timeout RoutingOptions#krt_nexthop_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#krt_nexthop_ack_timeout RoutingOptions#krt_nexthop_ack_timeout}
   */
   readonly krtNexthopAckTimeout?: number;
   /**
   * Don't enable fast reroute for ECMP next hops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#no_ecmp_fast_reroute RoutingOptions#no_ecmp_fast_reroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#no_ecmp_fast_reroute RoutingOptions#no_ecmp_fast_reroute}
   */
   readonly noEcmpFastReroute?: boolean | cdktf.IResolvable;
   /**
   * Don't install indirect next hops in Packet Forwarding Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#no_indirect_next_hop RoutingOptions#no_indirect_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#no_indirect_next_hop RoutingOptions#no_indirect_next_hop}
   */
   readonly noIndirectNextHop?: boolean | cdktf.IResolvable;
   /**
   * Don't request acknowledgements for Indirect next hop changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#no_indirect_next_hop_change_acknowledgements RoutingOptions#no_indirect_next_hop_change_acknowledgements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#no_indirect_next_hop_change_acknowledgements RoutingOptions#no_indirect_next_hop_change_acknowledgements}
   */
   readonly noIndirectNextHopChangeAcknowledgements?: boolean | cdktf.IResolvable;
   /**
   * Time to hold inherited routes from FIB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#remnant_holdtime RoutingOptions#remnant_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#remnant_holdtime RoutingOptions#remnant_holdtime}
   */
   readonly remnantHoldtime?: number;
   /**
   * Unicast reverse path (RP) verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#unicast_reverse_path RoutingOptions#unicast_reverse_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#unicast_reverse_path RoutingOptions#unicast_reverse_path}
   */
   readonly unicastReversePath?: string;
 }
@@ -783,13 +783,13 @@ export interface RoutingOptionsGracefulRestart {
   /**
   * Disable graceful restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#disable RoutingOptions#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#disable RoutingOptions#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Maximum time for which router is in graceful restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#restart_duration RoutingOptions#restart_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#restart_duration RoutingOptions#restart_duration}
   */
   readonly restartDuration?: number;
 }
@@ -912,7 +912,7 @@ export class RoutingOptionsGracefulRestartOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options junos_routing_options}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options junos_routing_options}
 */
 export class RoutingOptions extends cdktf.TerraformResource {
 
@@ -928,7 +928,7 @@ export class RoutingOptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingOptions to import
-  * @param importFromId The id of the existing RoutingOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -940,7 +940,7 @@ export class RoutingOptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_options junos_routing_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_options junos_routing_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -951,8 +951,8 @@ export class RoutingOptions extends cdktf.TerraformResource {
       terraformResourceType: 'junos_routing_options',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

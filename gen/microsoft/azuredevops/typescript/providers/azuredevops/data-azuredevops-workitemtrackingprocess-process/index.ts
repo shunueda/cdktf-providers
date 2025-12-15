@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/workitemtrackingprocess_process
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/workitemtrackingprocess_process
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataAzuredevopsWorkitemtrackingprocessProcessConfig extends cdk
   /**
   * Specifies the expand option when getting the processes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/workitemtrackingprocess_process#expand DataAzuredevopsWorkitemtrackingprocessProcess#expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/workitemtrackingprocess_process#expand DataAzuredevopsWorkitemtrackingprocessProcess#expand}
   */
   readonly expand?: string;
   /**
   * The ID of the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/workitemtrackingprocess_process#id DataAzuredevopsWorkitemtrackingprocessProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/workitemtrackingprocess_process#id DataAzuredevopsWorkitemtrackingprocessProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataAzuredevopsWorkitemtrackingprocessProcessConfig extends cdk
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/workitemtrackingprocess_process#timeouts DataAzuredevopsWorkitemtrackingprocessProcess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/workitemtrackingprocess_process#timeouts DataAzuredevopsWorkitemtrackingprocessProcess#timeouts}
   */
   readonly timeouts?: DataAzuredevopsWorkitemtrackingprocessProcessTimeouts;
 }
@@ -121,7 +121,7 @@ export class DataAzuredevopsWorkitemtrackingprocessProcessProjectsList extends c
 }
 export interface DataAzuredevopsWorkitemtrackingprocessProcessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/workitemtrackingprocess_process#read DataAzuredevopsWorkitemtrackingprocessProcess#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/workitemtrackingprocess_process#read DataAzuredevopsWorkitemtrackingprocessProcess#read}
   */
   readonly read?: string;
 }
@@ -215,7 +215,7 @@ export class DataAzuredevopsWorkitemtrackingprocessProcessTimeoutsOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/workitemtrackingprocess_process azuredevops_workitemtrackingprocess_process}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/workitemtrackingprocess_process azuredevops_workitemtrackingprocess_process}
 */
 export class DataAzuredevopsWorkitemtrackingprocessProcess extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataAzuredevopsWorkitemtrackingprocessProcess extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataAzuredevopsWorkitemtrackingprocessProcess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsWorkitemtrackingprocessProcess to import
-  * @param importFromId The id of the existing DataAzuredevopsWorkitemtrackingprocessProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/workitemtrackingprocess_process#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsWorkitemtrackingprocessProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/workitemtrackingprocess_process#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsWorkitemtrackingprocessProcess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataAzuredevopsWorkitemtrackingprocessProcess extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/workitemtrackingprocess_process azuredevops_workitemtrackingprocess_process} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/workitemtrackingprocess_process azuredevops_workitemtrackingprocess_process} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DataAzuredevopsWorkitemtrackingprocessProcess extends cdktf.Terrafo
       terraformResourceType: 'azuredevops_workitemtrackingprocess_process',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

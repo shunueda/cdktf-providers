@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#metadata DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#metadata DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#metadata}
   */
   readonly metadata: DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#spec DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#spec DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#spec}
   */
   readonly spec?: DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#annotations DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#annotations DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#labels DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#labels DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#name DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#name DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#namespace DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#namespace DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestMetada
 }
 export interface DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpecContentElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#secret_name DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#secret_name DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#secret_ref DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#secret_ref DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#secret_scope DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#secret_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#secret_scope DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#secret_scope}
   */
   readonly secretScope?: string;
 }
@@ -372,7 +372,7 @@ export class DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpecCo
 }
 export interface DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpecContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#element DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#element DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#element}
   */
   readonly element?: DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpecContentElement;
 }
@@ -488,30 +488,30 @@ export class DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpecCo
 }
 export interface DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#annotations DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#annotations DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#content DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#content DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#content}
   */
   readonly content?: DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpecContent[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#id DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#id DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#labels DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#labels DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#name DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#name DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#namespace DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#namespace DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -741,7 +741,7 @@ export class DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest k8s_lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest k8s_lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest}
 */
 export class DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest extends cdktf.TerraformDataSource {
 
@@ -757,7 +757,7 @@ export class DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest exten
   * Generates CDKTF code for importing a DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest to import
-  * @param importFromId The id of the existing DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -769,7 +769,7 @@ export class DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest k8s_lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest k8s_lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -780,8 +780,8 @@ export class DataK8SLerentisUploadfilter24EuBitwardenSecretV1Beta6Manifest exten
       terraformResourceType: 'k8s_lerentis_uploadfilter24_eu_bitwarden_secret_v1beta6_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

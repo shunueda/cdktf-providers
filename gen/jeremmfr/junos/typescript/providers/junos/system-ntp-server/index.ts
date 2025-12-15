@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SystemNtpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Address of server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#address SystemNtpServer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#address SystemNtpServer#address}
   */
   readonly address: string;
   /**
   * Authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#key SystemNtpServer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#key SystemNtpServer#key}
   */
   readonly key?: number;
   /**
   * Prefer this peer_serv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#prefer SystemNtpServer#prefer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#prefer SystemNtpServer#prefer}
   */
   readonly prefer?: boolean | cdktf.IResolvable;
   /**
   * Routing instance through which server is reachable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#routing_instance SystemNtpServer#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#routing_instance SystemNtpServer#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * NTP version to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#version SystemNtpServer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#version SystemNtpServer#version}
   */
   readonly version?: number;
   /**
   * nts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#nts SystemNtpServer#nts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#nts SystemNtpServer#nts}
   */
   readonly nts?: SystemNtpServerNts;
 }
@@ -48,19 +48,19 @@ export interface SystemNtpServerNts {
   /**
   * Container string for distinguished name of server to remote identity of server for verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#remote_identity_distinguished_name_container SystemNtpServer#remote_identity_distinguished_name_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#remote_identity_distinguished_name_container SystemNtpServer#remote_identity_distinguished_name_container}
   */
   readonly remoteIdentityDistinguishedNameContainer?: string;
   /**
   * Wildcard string for distinguished name of server to remote identity of server for verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#remote_identity_distinguished_name_wildcard SystemNtpServer#remote_identity_distinguished_name_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#remote_identity_distinguished_name_wildcard SystemNtpServer#remote_identity_distinguished_name_wildcard}
   */
   readonly remoteIdentityDistinguishedNameWildcard?: string;
   /**
   * Fully-qualified domain name to remote identity of server for verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#remote_identity_hostname SystemNtpServer#remote_identity_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#remote_identity_hostname SystemNtpServer#remote_identity_hostname}
   */
   readonly remoteIdentityHostname?: string;
 }
@@ -212,7 +212,7 @@ export class SystemNtpServerNtsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server junos_system_ntp_server}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server junos_system_ntp_server}
 */
 export class SystemNtpServer extends cdktf.TerraformResource {
 
@@ -228,7 +228,7 @@ export class SystemNtpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemNtpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemNtpServer to import
-  * @param importFromId The id of the existing SystemNtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemNtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemNtpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class SystemNtpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_ntp_server junos_system_ntp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_ntp_server junos_system_ntp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class SystemNtpServer extends cdktf.TerraformResource {
       terraformResourceType: 'junos_system_ntp_server',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

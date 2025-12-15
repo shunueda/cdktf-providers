@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,70 +10,70 @@ export interface ProjectPipelineSettingsConfig extends cdktf.TerraformMetaArgume
   /**
   * Limit job authorization scope to current project for non-release pipelines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#enforce_job_scope ProjectPipelineSettings#enforce_job_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#enforce_job_scope ProjectPipelineSettings#enforce_job_scope}
   */
   readonly enforceJobScope?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#enforce_job_scope_for_release ProjectPipelineSettings#enforce_job_scope_for_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#enforce_job_scope_for_release ProjectPipelineSettings#enforce_job_scope_for_release}
   */
   readonly enforceJobScopeForRelease?: boolean | cdktf.IResolvable;
   /**
   * Protect access to repositories in YAML pipelines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#enforce_referenced_repo_scoped_token ProjectPipelineSettings#enforce_referenced_repo_scoped_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#enforce_referenced_repo_scoped_token ProjectPipelineSettings#enforce_referenced_repo_scoped_token}
   */
   readonly enforceReferencedRepoScopedToken?: boolean | cdktf.IResolvable;
   /**
   * Limit variables that can be set at queue time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#enforce_settable_var ProjectPipelineSettings#enforce_settable_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#enforce_settable_var ProjectPipelineSettings#enforce_settable_var}
   */
   readonly enforceSettableVar?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#id ProjectPipelineSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#id ProjectPipelineSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#project_id ProjectPipelineSettings#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#project_id ProjectPipelineSettings#project_id}
   */
   readonly projectId: string;
   /**
   * Publish metadata from pipelines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#publish_pipeline_metadata ProjectPipelineSettings#publish_pipeline_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#publish_pipeline_metadata ProjectPipelineSettings#publish_pipeline_metadata}
   */
   readonly publishPipelineMetadata?: boolean | cdktf.IResolvable;
   /**
   * Disable anonymous access to badges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#status_badges_are_private ProjectPipelineSettings#status_badges_are_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#status_badges_are_private ProjectPipelineSettings#status_badges_are_private}
   */
   readonly statusBadgesArePrivate?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#timeouts ProjectPipelineSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#timeouts ProjectPipelineSettings#timeouts}
   */
   readonly timeouts?: ProjectPipelineSettingsTimeouts;
 }
 export interface ProjectPipelineSettingsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#create ProjectPipelineSettings#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#create ProjectPipelineSettings#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#delete ProjectPipelineSettings#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#delete ProjectPipelineSettings#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#read ProjectPipelineSettings#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#read ProjectPipelineSettings#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#update ProjectPipelineSettings#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#update ProjectPipelineSettings#update}
   */
   readonly update?: string;
 }
@@ -254,7 +254,7 @@ export class ProjectPipelineSettingsTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings azuredevops_project_pipeline_settings}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings azuredevops_project_pipeline_settings}
 */
 export class ProjectPipelineSettings extends cdktf.TerraformResource {
 
@@ -270,7 +270,7 @@ export class ProjectPipelineSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectPipelineSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectPipelineSettings to import
-  * @param importFromId The id of the existing ProjectPipelineSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectPipelineSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectPipelineSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class ProjectPipelineSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/project_pipeline_settings azuredevops_project_pipeline_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/project_pipeline_settings azuredevops_project_pipeline_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class ProjectPipelineSettings extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_project_pipeline_settings',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

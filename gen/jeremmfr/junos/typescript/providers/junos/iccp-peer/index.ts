@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IccpPeerConfig extends cdktf.TerraformMetaArguments {
   /**
   * MD5 authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#authentication_key IccpPeer#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#authentication_key IccpPeer#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * IP address for this peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#ip_address IccpPeer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#ip_address IccpPeer#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Local IP address to use for this peer alone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#local_ip_addr IccpPeer#local_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#local_ip_addr IccpPeer#local_ip_addr}
   */
   readonly localIpAddr?: string;
   /**
   * List of redundancy groups this peer is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#redundancy_group_id_list IccpPeer#redundancy_group_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#redundancy_group_id_list IccpPeer#redundancy_group_id_list}
   */
   readonly redundancyGroupIdList: number[];
   /**
   * Time within which connection must succeed with this peer (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#session_establishment_hold_time IccpPeer#session_establishment_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#session_establishment_hold_time IccpPeer#session_establishment_hold_time}
   */
   readonly sessionEstablishmentHoldTime?: number;
   /**
   * backup_liveness_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#backup_liveness_detection IccpPeer#backup_liveness_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#backup_liveness_detection IccpPeer#backup_liveness_detection}
   */
   readonly backupLivenessDetection?: IccpPeerBackupLivenessDetection;
   /**
   * liveness_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#liveness_detection IccpPeer#liveness_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#liveness_detection IccpPeer#liveness_detection}
   */
   readonly livenessDetection?: IccpPeerLivenessDetection;
 }
@@ -54,7 +54,7 @@ export interface IccpPeerBackupLivenessDetection {
   /**
   * Backup liveness detection peer's IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#backup_peer_ip IccpPeer#backup_peer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#backup_peer_ip IccpPeer#backup_peer_ip}
   */
   readonly backupPeerIp?: string;
 }
@@ -150,49 +150,49 @@ export interface IccpPeerLivenessDetection {
   /**
   * High detection-time triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#detection_time_threshold IccpPeer#detection_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#detection_time_threshold IccpPeer#detection_time_threshold}
   */
   readonly detectionTimeThreshold?: number;
   /**
   * Minimum transmit and receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#minimum_interval IccpPeer#minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#minimum_interval IccpPeer#minimum_interval}
   */
   readonly minimumInterval?: number;
   /**
   * Minimum receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#minimum_receive_interval IccpPeer#minimum_receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#minimum_receive_interval IccpPeer#minimum_receive_interval}
   */
   readonly minimumReceiveInterval?: number;
   /**
   * Detection time multiplier (1..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#multiplier IccpPeer#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#multiplier IccpPeer#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Disable adaptation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#no_adaptation IccpPeer#no_adaptation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#no_adaptation IccpPeer#no_adaptation}
   */
   readonly noAdaptation?: boolean | cdktf.IResolvable;
   /**
   * Minimum transmit interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#transmit_interval_minimum_interval IccpPeer#transmit_interval_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#transmit_interval_minimum_interval IccpPeer#transmit_interval_minimum_interval}
   */
   readonly transmitIntervalMinimumInterval?: number;
   /**
   * High transmit interval triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#transmit_interval_threshold IccpPeer#transmit_interval_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#transmit_interval_threshold IccpPeer#transmit_interval_threshold}
   */
   readonly transmitIntervalThreshold?: number;
   /**
   * BFD protocol version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#version IccpPeer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#version IccpPeer#version}
   */
   readonly version?: string;
 }
@@ -489,7 +489,7 @@ export class IccpPeerLivenessDetectionOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer junos_iccp_peer}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer junos_iccp_peer}
 */
 export class IccpPeer extends cdktf.TerraformResource {
 
@@ -505,7 +505,7 @@ export class IccpPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IccpPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IccpPeer to import
-  * @param importFromId The id of the existing IccpPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IccpPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IccpPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class IccpPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/iccp_peer junos_iccp_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/iccp_peer junos_iccp_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class IccpPeer extends cdktf.TerraformResource {
       terraformResourceType: 'junos_iccp_peer',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

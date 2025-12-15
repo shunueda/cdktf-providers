@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#metadata DataK8SIntegrationRock8SComSocketV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#metadata DataK8SIntegrationRock8SComSocketV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SIntegrationRock8SComSocketV1Beta1ManifestMetadata;
   /**
   * SocketSpec defines the desired state of Socket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#spec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#spec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#annotations DataK8SIntegrationRock8SComSocketV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#annotations DataK8SIntegrationRock8SComSocketV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#labels DataK8SIntegrationRock8SComSocketV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#labels DataK8SIntegrationRock8SComSocketV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#key DataK8SIntegrationRock8SComSocketV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#key DataK8SIntegrationRock8SComSocketV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#optional DataK8SIntegrationRock8SComSocketV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#optional DataK8SIntegrationRock8SComSocketV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,13 +382,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#api_version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#api_version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#field_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#field_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -510,19 +510,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#container_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#container_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#divisor DataK8SIntegrationRock8SComSocketV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#divisor DataK8SIntegrationRock8SComSocketV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#resource DataK8SIntegrationRock8SComSocketV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#resource DataK8SIntegrationRock8SComSocketV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -673,19 +673,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#key DataK8SIntegrationRock8SComSocketV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#key DataK8SIntegrationRock8SComSocketV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#optional DataK8SIntegrationRock8SComSocketV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#optional DataK8SIntegrationRock8SComSocketV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -836,25 +836,25 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_map_key_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_map_key_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#field_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#field_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#resource_field_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#resource_field_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#secret_key_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#secret_key_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnvValueFromSecretKeyRef;
 }
@@ -1037,19 +1037,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value_from DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value_from DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnvValueFrom;
 }
@@ -1222,13 +1222,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#optional DataK8SIntegrationRock8SComSocketV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#optional DataK8SIntegrationRock8SComSocketV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1353,13 +1353,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#optional DataK8SIntegrationRock8SComSocketV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#optional DataK8SIntegrationRock8SComSocketV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1484,19 +1484,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_map_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_map_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#prefix DataK8SIntegrationRock8SComSocketV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#prefix DataK8SIntegrationRock8SComSocketV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#secret_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#secret_ref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnvFromSecretRef;
 }
@@ -1672,7 +1672,7 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1768,13 +1768,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -1915,31 +1915,31 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2148,13 +2148,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -2276,19 +2276,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePostStartHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePostStartTcpSocket;
 }
@@ -2442,7 +2442,7 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2538,13 +2538,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -2685,31 +2685,31 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2918,13 +2918,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -3046,19 +3046,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePreStopHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePreStopTcpSocket;
 }
@@ -3212,13 +3212,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#post_start DataK8SIntegrationRock8SComSocketV1Beta1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#post_start DataK8SIntegrationRock8SComSocketV1Beta1Manifest#post_start}
   */
   readonly postStart?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#pre_stop DataK8SIntegrationRock8SComSocketV1Beta1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#pre_stop DataK8SIntegrationRock8SComSocketV1Beta1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecyclePreStop;
 }
@@ -3343,7 +3343,7 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3439,13 +3439,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#service DataK8SIntegrationRock8SComSocketV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#service DataK8SIntegrationRock8SComSocketV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -3567,13 +3567,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -3714,31 +3714,31 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3947,13 +3947,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -4075,61 +4075,61 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#failure_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#failure_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is a beta field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#grpc DataK8SIntegrationRock8SComSocketV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#grpc DataK8SIntegrationRock8SComSocketV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#initial_delay_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#initial_delay_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#success_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#success_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_grace_period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_grace_period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#timeout_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#timeout_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4486,31 +4486,31 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#container_port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#container_port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host_ip DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host_ip DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host_port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host_port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#protocol DataK8SIntegrationRock8SComSocketV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#protocol DataK8SIntegrationRock8SComSocketV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -4741,7 +4741,7 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4837,13 +4837,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#service DataK8SIntegrationRock8SComSocketV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#service DataK8SIntegrationRock8SComSocketV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -4965,13 +4965,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -5112,31 +5112,31 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5345,13 +5345,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -5473,61 +5473,61 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#failure_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#failure_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is a beta field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#grpc DataK8SIntegrationRock8SComSocketV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#grpc DataK8SIntegrationRock8SComSocketV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#initial_delay_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#initial_delay_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#success_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#success_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_grace_period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_grace_period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#timeout_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#timeout_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -5884,7 +5884,7 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -5999,19 +5999,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#claims DataK8SIntegrationRock8SComSocketV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#claims DataK8SIntegrationRock8SComSocketV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#limits DataK8SIntegrationRock8SComSocketV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#limits DataK8SIntegrationRock8SComSocketV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#requests DataK8SIntegrationRock8SComSocketV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#requests DataK8SIntegrationRock8SComSocketV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6165,13 +6165,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#add DataK8SIntegrationRock8SComSocketV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#add DataK8SIntegrationRock8SComSocketV1Beta1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#drop DataK8SIntegrationRock8SComSocketV1Beta1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#drop DataK8SIntegrationRock8SComSocketV1Beta1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6296,25 +6296,25 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#level DataK8SIntegrationRock8SComSocketV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#level DataK8SIntegrationRock8SComSocketV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#role DataK8SIntegrationRock8SComSocketV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#role DataK8SIntegrationRock8SComSocketV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#type DataK8SIntegrationRock8SComSocketV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#type DataK8SIntegrationRock8SComSocketV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#user DataK8SIntegrationRock8SComSocketV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#user DataK8SIntegrationRock8SComSocketV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6497,13 +6497,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#localhost_profile DataK8SIntegrationRock8SComSocketV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#localhost_profile DataK8SIntegrationRock8SComSocketV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#type DataK8SIntegrationRock8SComSocketV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#type DataK8SIntegrationRock8SComSocketV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -6625,25 +6625,25 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#gmsa_credential_spec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#gmsa_credential_spec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#gmsa_credential_spec_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#gmsa_credential_spec_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host_process DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host_process DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#run_as_user_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#run_as_user_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6826,67 +6826,67 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#allow_privilege_escalation DataK8SIntegrationRock8SComSocketV1Beta1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#allow_privilege_escalation DataK8SIntegrationRock8SComSocketV1Beta1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#capabilities DataK8SIntegrationRock8SComSocketV1Beta1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#capabilities DataK8SIntegrationRock8SComSocketV1Beta1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#privileged DataK8SIntegrationRock8SComSocketV1Beta1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#privileged DataK8SIntegrationRock8SComSocketV1Beta1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#proc_mount DataK8SIntegrationRock8SComSocketV1Beta1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#proc_mount DataK8SIntegrationRock8SComSocketV1Beta1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#read_only_root_filesystem DataK8SIntegrationRock8SComSocketV1Beta1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#read_only_root_filesystem DataK8SIntegrationRock8SComSocketV1Beta1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#run_as_group DataK8SIntegrationRock8SComSocketV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#run_as_group DataK8SIntegrationRock8SComSocketV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#run_as_non_root DataK8SIntegrationRock8SComSocketV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#run_as_non_root DataK8SIntegrationRock8SComSocketV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#run_as_user DataK8SIntegrationRock8SComSocketV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#run_as_user DataK8SIntegrationRock8SComSocketV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#se_linux_options DataK8SIntegrationRock8SComSocketV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#se_linux_options DataK8SIntegrationRock8SComSocketV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#seccomp_profile DataK8SIntegrationRock8SComSocketV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#seccomp_profile DataK8SIntegrationRock8SComSocketV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#windows_options DataK8SIntegrationRock8SComSocketV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#windows_options DataK8SIntegrationRock8SComSocketV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersSecurityContextWindowsOptions;
 }
@@ -7272,7 +7272,7 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7368,13 +7368,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#service DataK8SIntegrationRock8SComSocketV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#service DataK8SIntegrationRock8SComSocketV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -7496,13 +7496,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#value DataK8SIntegrationRock8SComSocketV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -7643,31 +7643,31 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_headers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#scheme DataK8SIntegrationRock8SComSocketV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7876,13 +7876,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#host DataK8SIntegrationRock8SComSocketV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#port DataK8SIntegrationRock8SComSocketV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -8004,61 +8004,61 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#exec DataK8SIntegrationRock8SComSocketV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#failure_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#failure_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port. This is a beta field and requires enabling GRPCContainerProbe feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#grpc DataK8SIntegrationRock8SComSocketV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#grpc DataK8SIntegrationRock8SComSocketV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#http_get DataK8SIntegrationRock8SComSocketV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#initial_delay_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#initial_delay_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#success_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#success_threshold DataK8SIntegrationRock8SComSocketV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tcp_socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_grace_period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_grace_period_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#timeout_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#timeout_seconds DataK8SIntegrationRock8SComSocketV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8415,13 +8415,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#device_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#device_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -8562,37 +8562,37 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#mount_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#mount_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#mount_propagation DataK8SIntegrationRock8SComSocketV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#mount_propagation DataK8SIntegrationRock8SComSocketV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#read_only DataK8SIntegrationRock8SComSocketV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#read_only DataK8SIntegrationRock8SComSocketV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#sub_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#sub_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#sub_path_expr DataK8SIntegrationRock8SComSocketV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#sub_path_expr DataK8SIntegrationRock8SComSocketV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -8849,133 +8849,133 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusCo
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#args DataK8SIntegrationRock8SComSocketV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#args DataK8SIntegrationRock8SComSocketV1Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#command DataK8SIntegrationRock8SComSocketV1Beta1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#env DataK8SIntegrationRock8SComSocketV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#env DataK8SIntegrationRock8SComSocketV1Beta1Manifest#env}
   */
   readonly env?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#env_from DataK8SIntegrationRock8SComSocketV1Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#env_from DataK8SIntegrationRock8SComSocketV1Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#image DataK8SIntegrationRock8SComSocketV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#image DataK8SIntegrationRock8SComSocketV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#image_pull_policy DataK8SIntegrationRock8SComSocketV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#image_pull_policy DataK8SIntegrationRock8SComSocketV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#lifecycle DataK8SIntegrationRock8SComSocketV1Beta1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#lifecycle DataK8SIntegrationRock8SComSocketV1Beta1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#liveness_probe DataK8SIntegrationRock8SComSocketV1Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#liveness_probe DataK8SIntegrationRock8SComSocketV1Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#ports DataK8SIntegrationRock8SComSocketV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#ports DataK8SIntegrationRock8SComSocketV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#readiness_probe DataK8SIntegrationRock8SComSocketV1Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#readiness_probe DataK8SIntegrationRock8SComSocketV1Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersReadinessProbe;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#resources DataK8SIntegrationRock8SComSocketV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#resources DataK8SIntegrationRock8SComSocketV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersResources;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#security_context DataK8SIntegrationRock8SComSocketV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#security_context DataK8SIntegrationRock8SComSocketV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#startup_probe DataK8SIntegrationRock8SComSocketV1Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#startup_probe DataK8SIntegrationRock8SComSocketV1Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#stdin DataK8SIntegrationRock8SComSocketV1Beta1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#stdin DataK8SIntegrationRock8SComSocketV1Beta1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#stdin_once DataK8SIntegrationRock8SComSocketV1Beta1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#stdin_once DataK8SIntegrationRock8SComSocketV1Beta1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_message_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_message_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_message_policy DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#termination_message_policy DataK8SIntegrationRock8SComSocketV1Beta1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tty DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#tty DataK8SIntegrationRock8SComSocketV1Beta1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#volume_devices DataK8SIntegrationRock8SComSocketV1Beta1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#volume_devices DataK8SIntegrationRock8SComSocketV1Beta1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#volume_mounts DataK8SIntegrationRock8SComSocketV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#volume_mounts DataK8SIntegrationRock8SComSocketV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#working_dir DataK8SIntegrationRock8SComSocketV1Beta1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#working_dir DataK8SIntegrationRock8SComSocketV1Beta1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -9699,19 +9699,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatus {
   /**
   * List of containers belonging to the apparatus. Containers cannot currently be added or removed. There must be at least one container in an apparatus. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#containers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#containers DataK8SIntegrationRock8SComSocketV1Beta1Manifest#containers}
   */
   readonly containers: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusContainers[] | cdktf.IResolvable;
   /**
   * endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#endpoint DataK8SIntegrationRock8SComSocketV1Beta1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#endpoint DataK8SIntegrationRock8SComSocketV1Beta1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * terminate apparatus after idle for timeout in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#idle_timeout DataK8SIntegrationRock8SComSocketV1Beta1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#idle_timeout DataK8SIntegrationRock8SComSocketV1Beta1Manifest#idle_timeout}
   */
   readonly idleTimeout?: number;
 }
@@ -9860,15 +9860,15 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatusOutput
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceConfigPlug {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#default DataK8SIntegrationRock8SComSocketV1Beta1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#default DataK8SIntegrationRock8SComSocketV1Beta1Manifest#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#description DataK8SIntegrationRock8SComSocketV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#description DataK8SIntegrationRock8SComSocketV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#required DataK8SIntegrationRock8SComSocketV1Beta1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#required DataK8SIntegrationRock8SComSocketV1Beta1Manifest#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -10020,15 +10020,15 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceConfig
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceConfigSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#default DataK8SIntegrationRock8SComSocketV1Beta1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#default DataK8SIntegrationRock8SComSocketV1Beta1Manifest#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#description DataK8SIntegrationRock8SComSocketV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#description DataK8SIntegrationRock8SComSocketV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#required DataK8SIntegrationRock8SComSocketV1Beta1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#required DataK8SIntegrationRock8SComSocketV1Beta1Manifest#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -10182,13 +10182,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceCo
   /**
   * plug config properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#plug DataK8SIntegrationRock8SComSocketV1Beta1Manifest#plug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#plug DataK8SIntegrationRock8SComSocketV1Beta1Manifest#plug}
   */
   readonly plug?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceConfigPlug;
   /**
   * socket config properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#socket}
   */
   readonly socket?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceConfigSocket;
 }
@@ -10311,15 +10311,15 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceConfig
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceResultPlug {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#default DataK8SIntegrationRock8SComSocketV1Beta1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#default DataK8SIntegrationRock8SComSocketV1Beta1Manifest#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#description DataK8SIntegrationRock8SComSocketV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#description DataK8SIntegrationRock8SComSocketV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#required DataK8SIntegrationRock8SComSocketV1Beta1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#required DataK8SIntegrationRock8SComSocketV1Beta1Manifest#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -10471,15 +10471,15 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceResult
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceResultSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#default DataK8SIntegrationRock8SComSocketV1Beta1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#default DataK8SIntegrationRock8SComSocketV1Beta1Manifest#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#description DataK8SIntegrationRock8SComSocketV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#description DataK8SIntegrationRock8SComSocketV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#required DataK8SIntegrationRock8SComSocketV1Beta1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#required DataK8SIntegrationRock8SComSocketV1Beta1Manifest#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -10633,13 +10633,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceRe
   /**
   * plug result properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#plug DataK8SIntegrationRock8SComSocketV1Beta1Manifest#plug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#plug DataK8SIntegrationRock8SComSocketV1Beta1Manifest#plug}
   */
   readonly plug?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceResultPlug;
   /**
   * socket result properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#socket DataK8SIntegrationRock8SComSocketV1Beta1Manifest#socket}
   */
   readonly socket?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceResultSocket;
 }
@@ -10764,13 +10764,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterface {
   /**
   * config interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config}
   */
   readonly config?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceConfig;
   /**
   * result interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result}
   */
   readonly result?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceResult;
 }
@@ -10893,31 +10893,31 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterfaceOutput
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#do DataK8SIntegrationRock8SComSocketV1Beta1Manifest#do}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#do DataK8SIntegrationRock8SComSocketV1Beta1Manifest#do}
   */
   readonly do?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#retain_when_decoupled DataK8SIntegrationRock8SComSocketV1Beta1Manifest#retain_when_decoupled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#retain_when_decoupled DataK8SIntegrationRock8SComSocketV1Beta1Manifest#retain_when_decoupled}
   */
   readonly retainWhenDecoupled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#string_template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#string_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#string_template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#string_template}
   */
   readonly stringTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#string_templates DataK8SIntegrationRock8SComSocketV1Beta1Manifest#string_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#string_templates DataK8SIntegrationRock8SComSocketV1Beta1Manifest#string_templates}
   */
   readonly stringTemplates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template}
   */
   readonly template?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#templates DataK8SIntegrationRock8SComSocketV1Beta1Manifest#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#templates DataK8SIntegrationRock8SComSocketV1Beta1Manifest#templates}
   */
   readonly templates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#when DataK8SIntegrationRock8SComSocketV1Beta1Manifest#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#when DataK8SIntegrationRock8SComSocketV1Beta1Manifest#when}
   */
   readonly when?: string[];
 }
@@ -11207,23 +11207,23 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResourcesList e
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#do DataK8SIntegrationRock8SComSocketV1Beta1Manifest#do}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#do DataK8SIntegrationRock8SComSocketV1Beta1Manifest#do}
   */
   readonly do?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#string_template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#string_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#string_template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#string_template}
   */
   readonly stringTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#string_templates DataK8SIntegrationRock8SComSocketV1Beta1Manifest#string_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#string_templates DataK8SIntegrationRock8SComSocketV1Beta1Manifest#string_templates}
   */
   readonly stringTemplates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template}
   */
   readonly template?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#templates DataK8SIntegrationRock8SComSocketV1Beta1Manifest#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#templates DataK8SIntegrationRock8SComSocketV1Beta1Manifest#templates}
   */
   readonly templates?: string[];
 }
@@ -11455,7 +11455,7 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultResources
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultVarsFieldref {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#field_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#field_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -11549,35 +11549,35 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultVarsField
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultVarsObjref {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#api_version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#api_version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#group DataK8SIntegrationRock8SComSocketV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#group DataK8SIntegrationRock8SComSocketV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#kind DataK8SIntegrationRock8SComSocketV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#kind DataK8SIntegrationRock8SComSocketV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template_name}
   */
   readonly templateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template_namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template_namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template_namespace}
   */
   readonly templateNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -11876,19 +11876,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultVars 
   /**
   * FieldRef refers to the field of the object referred to by ObjRef whose value will be extracted for use in replacing $(FOO). If unspecified, this defaults to fieldPath: $defaultFieldPath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#fieldref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#fieldref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#fieldref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#fieldref}
   */
   readonly fieldref?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultVarsFieldref;
   /**
   * Value of identifier name e.g. FOO used in container args, annotations Appears in pod template as $(FOO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * ObjRef must refer to a Kubernetes resource under the purview of this kustomization. ObjRef should use the raw name of the object (the name specified in its YAML, before addition of a namePrefix and a nameSuffix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#objref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#objref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#objref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#objref}
   */
   readonly objref: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultVarsObjref;
 }
@@ -12058,13 +12058,13 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecValidation 
   /**
   * namespace blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace_blacklist DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace_blacklist DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace_blacklist}
   */
   readonly namespaceBlacklist?: string[];
   /**
   * namespace whitelist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace_whitelist DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace_whitelist DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace_whitelist}
   */
   readonly namespaceWhitelist?: string[];
 }
@@ -12187,7 +12187,7 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecValidationOutpu
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecVarsFieldref {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#field_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#field_path DataK8SIntegrationRock8SComSocketV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -12281,35 +12281,35 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecVarsFieldrefOut
 }
 export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecVarsObjref {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#api_version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#api_version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#group DataK8SIntegrationRock8SComSocketV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#group DataK8SIntegrationRock8SComSocketV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#kind DataK8SIntegrationRock8SComSocketV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#kind DataK8SIntegrationRock8SComSocketV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template_name}
   */
   readonly templateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template_namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#template_namespace DataK8SIntegrationRock8SComSocketV1Beta1Manifest#template_namespace}
   */
   readonly templateNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#version DataK8SIntegrationRock8SComSocketV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -12608,19 +12608,19 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecVars {
   /**
   * FieldRef refers to the field of the object referred to by ObjRef whose value will be extracted for use in replacing $(FOO). If unspecified, this defaults to fieldPath: $defaultFieldPath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#fieldref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#fieldref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#fieldref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#fieldref}
   */
   readonly fieldref?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecVarsFieldref;
   /**
   * Value of identifier name e.g. FOO used in container args, annotations Appears in pod template as $(FOO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * ObjRef must refer to a Kubernetes resource under the purview of this kustomization. ObjRef should use the raw name of the object (the name specified in its YAML, before addition of a namePrefix and a nameSuffix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#objref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#objref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#objref DataK8SIntegrationRock8SComSocketV1Beta1Manifest#objref}
   */
   readonly objref: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecVarsObjref;
 }
@@ -12790,127 +12790,127 @@ export interface DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpec {
   /**
   * apparatus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#apparatus DataK8SIntegrationRock8SComSocketV1Beta1Manifest#apparatus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#apparatus DataK8SIntegrationRock8SComSocketV1Beta1Manifest#apparatus}
   */
   readonly apparatus?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecApparatus;
   /**
   * config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * config configmap name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_config_map_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_config_map_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_config_map_name}
   */
   readonly configConfigMapName?: string;
   /**
   * config secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_secret_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_secret_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_secret_name}
   */
   readonly configSecretName?: string;
   /**
   * config template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#config_template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#config_template}
   */
   readonly configTemplate?: { [key: string]: string };
   /**
   * data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#data DataK8SIntegrationRock8SComSocketV1Beta1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#data DataK8SIntegrationRock8SComSocketV1Beta1Manifest#data}
   */
   readonly data?: { [key: string]: string };
   /**
   * data configmap name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#data_config_map_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#data_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#data_config_map_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#data_config_map_name}
   */
   readonly dataConfigMapName?: string;
   /**
   * data secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#data_secret_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#data_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#data_secret_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#data_secret_name}
   */
   readonly dataSecretName?: string;
   /**
   * change epoch to force an update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#epoch DataK8SIntegrationRock8SComSocketV1Beta1Manifest#epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#epoch DataK8SIntegrationRock8SComSocketV1Beta1Manifest#epoch}
   */
   readonly epoch?: string;
   /**
   * interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#interface DataK8SIntegrationRock8SComSocketV1Beta1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#interface DataK8SIntegrationRock8SComSocketV1Beta1Manifest#interface}
   */
   readonly interface?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecInterface;
   /**
   * limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#limit DataK8SIntegrationRock8SComSocketV1Beta1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#limit DataK8SIntegrationRock8SComSocketV1Beta1Manifest#limit}
   */
   readonly limit?: number;
   /**
   * resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#resources DataK8SIntegrationRock8SComSocketV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#resources DataK8SIntegrationRock8SComSocketV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResources[] | cdktf.IResolvable;
   /**
   * result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result}
   */
   readonly result?: { [key: string]: string };
   /**
   * result configmap name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_config_map_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_config_map_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_config_map_name}
   */
   readonly resultConfigMapName?: string;
   /**
   * result resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_resources DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_resources DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_resources}
   */
   readonly resultResources?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultResources[] | cdktf.IResolvable;
   /**
   * result secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_secret_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_secret_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_secret_name}
   */
   readonly resultSecretName?: string;
   /**
   * result template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_template DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_template}
   */
   readonly resultTemplate?: { [key: string]: string };
   /**
   * result vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_vars DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#result_vars DataK8SIntegrationRock8SComSocketV1Beta1Manifest#result_vars}
   */
   readonly resultVars?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecResultVars[] | cdktf.IResolvable;
   /**
   * ServiceAccountName is the name of the ServiceAccount to use to run integrations. More info: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#service_account_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#service_account_name DataK8SIntegrationRock8SComSocketV1Beta1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#validation DataK8SIntegrationRock8SComSocketV1Beta1Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#validation DataK8SIntegrationRock8SComSocketV1Beta1Manifest#validation}
   */
   readonly validation?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecValidation;
   /**
   * vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#vars DataK8SIntegrationRock8SComSocketV1Beta1Manifest#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#vars DataK8SIntegrationRock8SComSocketV1Beta1Manifest#vars}
   */
   readonly vars?: DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecVars[] | cdktf.IResolvable;
 }
@@ -13584,7 +13584,7 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest k8s_integration_rock8s_com_socket_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest k8s_integration_rock8s_com_socket_v1beta1_manifest}
 */
 export class DataK8SIntegrationRock8SComSocketV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -13600,7 +13600,7 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SIntegrationRock8SComSocketV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SIntegrationRock8SComSocketV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SIntegrationRock8SComSocketV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SIntegrationRock8SComSocketV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SIntegrationRock8SComSocketV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13612,7 +13612,7 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest k8s_integration_rock8s_com_socket_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/integration_rock8s_com_socket_v1beta1_manifest k8s_integration_rock8s_com_socket_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13623,8 +13623,8 @@ export class DataK8SIntegrationRock8SComSocketV1Beta1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_integration_rock8s_com_socket_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

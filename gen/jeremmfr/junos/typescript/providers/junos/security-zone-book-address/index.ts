@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SecurityZoneBookAddressConfig extends cdktf.TerraformMetaArgume
   /**
   * CIDR of address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#cidr SecurityZoneBookAddress#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#cidr SecurityZoneBookAddress#cidr}
   */
   readonly cidr?: string;
   /**
   * Description of address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#description SecurityZoneBookAddress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#description SecurityZoneBookAddress#description}
   */
   readonly description?: string;
   /**
   * IPv4 dns address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#dns_ipv4_only SecurityZoneBookAddress#dns_ipv4_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#dns_ipv4_only SecurityZoneBookAddress#dns_ipv4_only}
   */
   readonly dnsIpv4Only?: boolean | cdktf.IResolvable;
   /**
   * IPv6 dns address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#dns_ipv6_only SecurityZoneBookAddress#dns_ipv6_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#dns_ipv6_only SecurityZoneBookAddress#dns_ipv6_only}
   */
   readonly dnsIpv6Only?: boolean | cdktf.IResolvable;
   /**
   * DNS address name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#dns_name SecurityZoneBookAddress#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#dns_name SecurityZoneBookAddress#dns_name}
   */
   readonly dnsName?: string;
   /**
   * The name of address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#name SecurityZoneBookAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#name SecurityZoneBookAddress#name}
   */
   readonly name: string;
   /**
   * Lower limit of address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#range_from SecurityZoneBookAddress#range_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#range_from SecurityZoneBookAddress#range_from}
   */
   readonly rangeFrom?: string;
   /**
   * Upper limit of address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#range_to SecurityZoneBookAddress#range_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#range_to SecurityZoneBookAddress#range_to}
   */
   readonly rangeTo?: string;
   /**
   * Numeric IPv4 wildcard address in the form of `a.d.d.r/netmask`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#wildcard SecurityZoneBookAddress#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#wildcard SecurityZoneBookAddress#wildcard}
   */
   readonly wildcard?: string;
   /**
   * The name of security zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#zone SecurityZoneBookAddress#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#zone SecurityZoneBookAddress#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address junos_security_zone_book_address}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address junos_security_zone_book_address}
 */
 export class SecurityZoneBookAddress extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class SecurityZoneBookAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityZoneBookAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityZoneBookAddress to import
-  * @param importFromId The id of the existing SecurityZoneBookAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityZoneBookAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityZoneBookAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class SecurityZoneBookAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_zone_book_address junos_security_zone_book_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_zone_book_address junos_security_zone_book_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class SecurityZoneBookAddress extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_zone_book_address',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

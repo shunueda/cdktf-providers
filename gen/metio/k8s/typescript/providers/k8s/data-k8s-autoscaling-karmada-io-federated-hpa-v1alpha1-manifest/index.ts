@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metadata DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metadata DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the FederatedHPA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#spec DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#spec DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#annotations DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#annotations DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#labels DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#labels DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#namespace DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#namespace DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBeha
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#period_seconds DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#period_seconds DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
   */
   readonly value: number;
 }
@@ -398,19 +398,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBeha
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#policies DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#policies DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBehaviorScaleDownPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#select_policy DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#select_policy DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#stabilization_window_seconds DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#stabilization_window_seconds DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -564,19 +564,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBeha
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#period_seconds DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#period_seconds DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
   */
   readonly value: number;
 }
@@ -743,19 +743,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBeha
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#policies DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#policies DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBehaviorScaleUpPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#select_policy DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#select_policy DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#stabilization_window_seconds DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#stabilization_window_seconds DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -909,13 +909,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBeha
   /**
   * scaleDown is scaling policy for scaling Down. If not set, the default value is to allow to scale down to minReplicas pods, with a 300 second stabilization window (i.e., the highest recommendation for the last 300sec is used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#scale_down DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#scale_down DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#scale_down}
   */
   readonly scaleDown?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBehaviorScaleDown;
   /**
   * scaleUp is scaling policy for scaling Up. If not set, the default value is the higher of: * increase no more than 4 pods per 60 seconds * double the number of pods per 60 seconds No stabilization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#scale_up DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#scale_up DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#scale_up}
   */
   readonly scaleUp?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBehaviorScaleUp;
 }
@@ -1040,25 +1040,25 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1238,19 +1238,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * container is the name of the container in the pods of the scaling target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#container DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#container DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#container}
   */
   readonly container: string;
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
   */
   readonly target: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsContainerResourceTarget;
 }
@@ -1395,19 +1395,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#key DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#key DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#operator DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#operator DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#values DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#values DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1577,13 +1577,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_expressions DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_expressions DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsExternalMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_labels DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_labels DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1708,13 +1708,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#selector DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#selector DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsExternalMetricSelector;
 }
@@ -1836,25 +1836,25 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2034,13 +2034,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metric DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metric DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsExternalMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
   */
   readonly target: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsExternalTarget;
 }
@@ -2159,19 +2159,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#api_version DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#api_version DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#kind DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#kind DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2319,19 +2319,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#key DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#key DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#operator DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#operator DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#values DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#values DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2501,13 +2501,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_expressions DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_expressions DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsObjectMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_labels DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_labels DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2632,13 +2632,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#selector DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#selector DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsObjectMetricSelector;
 }
@@ -2760,25 +2760,25 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2958,19 +2958,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * describedObject specifies the descriptions of a object,such as kind,name apiVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#described_object DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#described_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#described_object DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#described_object}
   */
   readonly describedObject: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsObjectDescribedObject;
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metric DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metric DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsObjectMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
   */
   readonly target: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsObjectTarget;
 }
@@ -3115,19 +3115,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#key DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#key DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#operator DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#operator DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#values DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#values DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3297,13 +3297,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_expressions DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_expressions DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsPodsMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_labels DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#match_labels DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3428,13 +3428,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#selector DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#selector DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsPodsMetricSelector;
 }
@@ -3556,25 +3556,25 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3754,13 +3754,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metric DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metric DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsPodsMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
   */
   readonly target: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsPodsTarget;
 }
@@ -3879,25 +3879,25 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_utilization DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#average_value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#value DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4077,13 +4077,13 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#target DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#target}
   */
   readonly target: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsResourceTarget;
 }
@@ -4202,37 +4202,37 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetr
   /**
   * containerResource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing a single container in each pod of the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source. This is an alpha feature and can be enabled by the HPAContainerMetrics feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#container_resource DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#container_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#container_resource DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#container_resource}
   */
   readonly containerResource?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsContainerResource;
   /**
   * external refers to a global metric that is not associated with any Kubernetes object. It allows autoscaling based on information coming from components running outside of cluster (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#external DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#external DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#external}
   */
   readonly external?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsExternal;
   /**
   * object refers to a metric describing a single kubernetes object (for example, hits-per-second on an Ingress object).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#object DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#object DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#object}
   */
   readonly object?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsObject;
   /**
   * pods refers to a metric describing each pod in the current scale target (for example, transactions-processed-per-second). The values will be averaged together before being compared to the target value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#pods DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#pods DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsPods;
   /**
   * resource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing each pod in the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#resource DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#resource DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#resource}
   */
   readonly resource?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetricsResource;
   /**
   * type is the type of metric source. It should be one of 'ContainerResource', 'External', 'Object', 'Pods' or 'Resource', each mapping to a matching field in the object. Note: 'ContainerResource' type is available on when the feature-gate HPAContainerMetrics is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#type DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -4492,19 +4492,19 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecScal
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#api_version DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#api_version DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#kind DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#kind DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#name DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4652,31 +4652,31 @@ export interface DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpec {
   /**
   * Behavior configures the scaling behavior of the target in both Up and Down directions (scaleUp and scaleDown fields respectively). If not set, the default HPAScalingRules for scale up and scale down are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#behavior DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#behavior DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#behavior}
   */
   readonly behavior?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecBehavior;
   /**
   * MaxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#max_replicas DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#max_replicas DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * Metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa. See the individual metric source types for more information about how each type of metric must respond. If not set, the default metric will be set to 80% average CPU utilization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metrics DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#metrics DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecMetrics[] | cdktf.IResolvable;
   /**
   * MinReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#min_replicas DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#min_replicas DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * ScaleTargetRef points to the target resource to scale, and is used to the pods for which metrics should be collected, as well as to actually change the replica count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#scale_target_ref DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#scale_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#scale_target_ref DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest#scale_target_ref}
   */
   readonly scaleTargetRef: DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecScaleTargetRef;
 }
@@ -4880,7 +4880,7 @@ export class DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest k8s_autoscaling_karmada_io_federated_hpa_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest k8s_autoscaling_karmada_io_federated_hpa_v1alpha1_manifest}
 */
 export class DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4896,7 +4896,7 @@ export class DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4908,7 +4908,7 @@ export class DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest k8s_autoscaling_karmada_io_federated_hpa_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_karmada_io_federated_hpa_v1alpha1_manifest k8s_autoscaling_karmada_io_federated_hpa_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4919,8 +4919,8 @@ export class DataK8SAutoscalingKarmadaIoFederatedHpaV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_autoscaling_karmada_io_federated_hpa_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

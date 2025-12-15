@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#metadata DataK8SHazelcastComMapV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#metadata DataK8SHazelcastComMapV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SHazelcastComMapV1Alpha1ManifestMetadata;
   /**
   * MapSpec defines the desired state of Hazelcast Map Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#spec DataK8SHazelcastComMapV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#spec DataK8SHazelcastComMapV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SHazelcastComMapV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#annotations DataK8SHazelcastComMapV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#annotations DataK8SHazelcastComMapV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#labels DataK8SHazelcastComMapV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#labels DataK8SHazelcastComMapV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#namespace DataK8SHazelcastComMapV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#namespace DataK8SHazelcastComMapV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecAttributes {
   /**
   * Name of the extractor class https://docs.hazelcast.com/hazelcast/latest/query/predicate-overview#implementing-a-valueextractor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#extractor_class_name DataK8SHazelcastComMapV1Alpha1Manifest#extractor_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#extractor_class_name DataK8SHazelcastComMapV1Alpha1Manifest#extractor_class_name}
   */
   readonly extractorClassName: string;
   /**
   * Name of the attribute https://docs.hazelcast.com/hazelcast/latest/query/predicate-overview#creating-custom-query-attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -366,19 +366,19 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecEntryListeners {
   /**
   * ClassName is the fully qualified name of the class that implements any of the Listener interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#class_name DataK8SHazelcastComMapV1Alpha1Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#class_name DataK8SHazelcastComMapV1Alpha1Manifest#class_name}
   */
   readonly className: string;
   /**
   * IncludeValues is an optional attribute that indicates whether the event will contain the map value. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#include_values DataK8SHazelcastComMapV1Alpha1Manifest#include_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#include_values DataK8SHazelcastComMapV1Alpha1Manifest#include_values}
   */
   readonly includeValues?: boolean | cdktf.IResolvable;
   /**
   * Local is an optional attribute that indicates whether the map on the local member can be listened to. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#local DataK8SHazelcastComMapV1Alpha1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#local DataK8SHazelcastComMapV1Alpha1Manifest#local}
   */
   readonly local?: boolean | cdktf.IResolvable;
 }
@@ -551,13 +551,13 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecEventJournal {
   /**
   * Capacity sets the capacity of the ringbuffer underlying the event journal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#capacity DataK8SHazelcastComMapV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#capacity DataK8SHazelcastComMapV1Alpha1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * TimeToLiveSeconds indicates how long the items remain in the event journal before they are expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#time_to_live_seconds DataK8SHazelcastComMapV1Alpha1Manifest#time_to_live_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#time_to_live_seconds DataK8SHazelcastComMapV1Alpha1Manifest#time_to_live_seconds}
   */
   readonly timeToLiveSeconds?: number;
 }
@@ -682,19 +682,19 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecEviction {
   /**
   * Eviction policy to be applied when map reaches its max size according to the max size policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#eviction_policy DataK8SHazelcastComMapV1Alpha1Manifest#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#eviction_policy DataK8SHazelcastComMapV1Alpha1Manifest#eviction_policy}
   */
   readonly evictionPolicy?: string;
   /**
   * Max size of the map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_size DataK8SHazelcastComMapV1Alpha1Manifest#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_size DataK8SHazelcastComMapV1Alpha1Manifest#max_size}
   */
   readonly maxSize?: number;
   /**
   * Policy for deciding if the maxSize is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_size_policy DataK8SHazelcastComMapV1Alpha1Manifest#max_size_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_size_policy DataK8SHazelcastComMapV1Alpha1Manifest#max_size_policy}
   */
   readonly maxSizePolicy?: string;
 }
@@ -846,11 +846,11 @@ export class DataK8SHazelcastComMapV1Alpha1ManifestSpecEvictionOutputReference e
 }
 export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecIndexesBitMapIndexOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#unique_key DataK8SHazelcastComMapV1Alpha1Manifest#unique_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#unique_key DataK8SHazelcastComMapV1Alpha1Manifest#unique_key}
   */
   readonly uniqueKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#unique_key_transition DataK8SHazelcastComMapV1Alpha1Manifest#unique_key_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#unique_key_transition DataK8SHazelcastComMapV1Alpha1Manifest#unique_key_transition}
   */
   readonly uniqueKeyTransition: string;
 }
@@ -969,25 +969,25 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecIndexes {
   /**
   * Attributes of the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#attributes DataK8SHazelcastComMapV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#attributes DataK8SHazelcastComMapV1Alpha1Manifest#attributes}
   */
   readonly attributes?: string[];
   /**
   * Options for 'BITMAP' index type. See https://docs.hazelcast.com/hazelcast/latest/query/indexing-maps#configuring-bitmap-indexes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#bit_map_index_options DataK8SHazelcastComMapV1Alpha1Manifest#bit_map_index_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#bit_map_index_options DataK8SHazelcastComMapV1Alpha1Manifest#bit_map_index_options}
   */
   readonly bitMapIndexOptions?: DataK8SHazelcastComMapV1Alpha1ManifestSpecIndexesBitMapIndexOptions;
   /**
   * Name of the index config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type of the index. See https://docs.hazelcast.com/hazelcast/latest/query/indexing-maps#index-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#type DataK8SHazelcastComMapV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#type DataK8SHazelcastComMapV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -1189,37 +1189,37 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecMapStore {
   /**
   * Name of your class implementing MapLoader and/or MapStore interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#class_name DataK8SHazelcastComMapV1Alpha1Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#class_name DataK8SHazelcastComMapV1Alpha1Manifest#class_name}
   */
   readonly className: string;
   /**
   * Sets the initial entry loading mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#initial_mode DataK8SHazelcastComMapV1Alpha1Manifest#initial_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#initial_mode DataK8SHazelcastComMapV1Alpha1Manifest#initial_mode}
   */
   readonly initialMode?: string;
   /**
   * Properties can be used for giving information to the MapStore implementation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#properties_secret_name DataK8SHazelcastComMapV1Alpha1Manifest#properties_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#properties_secret_name DataK8SHazelcastComMapV1Alpha1Manifest#properties_secret_name}
   */
   readonly propertiesSecretName?: string;
   /**
   * Used to create batches when writing to map store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#write_batch_size DataK8SHazelcastComMapV1Alpha1Manifest#write_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#write_batch_size DataK8SHazelcastComMapV1Alpha1Manifest#write_batch_size}
   */
   readonly writeBatchSize?: number;
   /**
   * It is meaningful if you are using write behind in MapStore. When it is set to true, only the latest store operation on a key during the write-delay-seconds will be reflected to MapStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#write_coalescing DataK8SHazelcastComMapV1Alpha1Manifest#write_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#write_coalescing DataK8SHazelcastComMapV1Alpha1Manifest#write_coalescing}
   */
   readonly writeCoalescing?: boolean | cdktf.IResolvable;
   /**
   * Number of seconds to delay the storing of entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#write_delay_seconds DataK8SHazelcastComMapV1Alpha1Manifest#write_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#write_delay_seconds DataK8SHazelcastComMapV1Alpha1Manifest#write_delay_seconds}
   */
   readonly writeDelaySeconds?: number;
 }
@@ -1457,7 +1457,7 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecMerkleTree {
   /**
   * Depth of the merkle tree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#depth DataK8SHazelcastComMapV1Alpha1Manifest#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#depth DataK8SHazelcastComMapV1Alpha1Manifest#depth}
   */
   readonly depth?: number;
 }
@@ -1553,19 +1553,19 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecNearCacheEviction {
   /**
   * EvictionPolicy to be applied when near cache reaches its max size according to the max size policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#eviction_policy DataK8SHazelcastComMapV1Alpha1Manifest#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#eviction_policy DataK8SHazelcastComMapV1Alpha1Manifest#eviction_policy}
   */
   readonly evictionPolicy?: string;
   /**
   * MaxSizePolicy for deciding if the maxSize is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_size_policy DataK8SHazelcastComMapV1Alpha1Manifest#max_size_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_size_policy DataK8SHazelcastComMapV1Alpha1Manifest#max_size_policy}
   */
   readonly maxSizePolicy?: string;
   /**
   * Size is maximum size of the Near Cache used for max-size-policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#size DataK8SHazelcastComMapV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#size DataK8SHazelcastComMapV1Alpha1Manifest#size}
   */
   readonly size?: number;
 }
@@ -1719,43 +1719,43 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecNearCache {
   /**
   * CacheLocalEntries specifies whether the local entries are cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#cache_local_entries DataK8SHazelcastComMapV1Alpha1Manifest#cache_local_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#cache_local_entries DataK8SHazelcastComMapV1Alpha1Manifest#cache_local_entries}
   */
   readonly cacheLocalEntries?: boolean | cdktf.IResolvable;
   /**
   * NearCacheEviction specifies the eviction behavior in Near Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#eviction DataK8SHazelcastComMapV1Alpha1Manifest#eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#eviction DataK8SHazelcastComMapV1Alpha1Manifest#eviction}
   */
   readonly eviction: DataK8SHazelcastComMapV1Alpha1ManifestSpecNearCacheEviction;
   /**
   * InMemoryFormat specifies in which format data will be stored in your near cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#in_memory_format DataK8SHazelcastComMapV1Alpha1Manifest#in_memory_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#in_memory_format DataK8SHazelcastComMapV1Alpha1Manifest#in_memory_format}
   */
   readonly inMemoryFormat?: string;
   /**
   * InvalidateOnChange specifies whether the cached entries are evicted when the entries are updated or removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#invalidate_on_change DataK8SHazelcastComMapV1Alpha1Manifest#invalidate_on_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#invalidate_on_change DataK8SHazelcastComMapV1Alpha1Manifest#invalidate_on_change}
   */
   readonly invalidateOnChange?: boolean | cdktf.IResolvable;
   /**
   * MaxIdleSeconds Maximum number of seconds each entry can stay in the Near Cache as untouched (not read)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_idle_seconds DataK8SHazelcastComMapV1Alpha1Manifest#max_idle_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_idle_seconds DataK8SHazelcastComMapV1Alpha1Manifest#max_idle_seconds}
   */
   readonly maxIdleSeconds?: number;
   /**
   * Name is name of the near cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * TimeToLiveSeconds maximum number of seconds for each entry to stay in the Near Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#time_to_live_seconds DataK8SHazelcastComMapV1Alpha1Manifest#time_to_live_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#time_to_live_seconds DataK8SHazelcastComMapV1Alpha1Manifest#time_to_live_seconds}
   */
   readonly timeToLiveSeconds?: number;
 }
@@ -2022,13 +2022,13 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpecTieredStore {
   /**
   * diskDeviceName defines the name of the device for a given disk tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#disk_device_name DataK8SHazelcastComMapV1Alpha1Manifest#disk_device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#disk_device_name DataK8SHazelcastComMapV1Alpha1Manifest#disk_device_name}
   */
   readonly diskDeviceName?: string;
   /**
   * MemoryCapacity sets Memory tier capacity, i.e., how much main memory should this tier consume at most.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#memory_capacity DataK8SHazelcastComMapV1Alpha1Manifest#memory_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#memory_capacity DataK8SHazelcastComMapV1Alpha1Manifest#memory_capacity}
   */
   readonly memoryCapacity?: string;
 }
@@ -2153,109 +2153,109 @@ export interface DataK8SHazelcastComMapV1Alpha1ManifestSpec {
   /**
   * Number of asynchronous backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#async_backup_count DataK8SHazelcastComMapV1Alpha1Manifest#async_backup_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#async_backup_count DataK8SHazelcastComMapV1Alpha1Manifest#async_backup_count}
   */
   readonly asyncBackupCount?: number;
   /**
   * Attributes to be used with Predicates API. You can learn more at https://docs.hazelcast.com/hazelcast/latest/query/predicate-overview#creating-custom-query-attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#attributes DataK8SHazelcastComMapV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#attributes DataK8SHazelcastComMapV1Alpha1Manifest#attributes}
   */
   readonly attributes?: DataK8SHazelcastComMapV1Alpha1ManifestSpecAttributes[] | cdktf.IResolvable;
   /**
   * Number of synchronous backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#backup_count DataK8SHazelcastComMapV1Alpha1Manifest#backup_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#backup_count DataK8SHazelcastComMapV1Alpha1Manifest#backup_count}
   */
   readonly backupCount?: number;
   /**
   * EntryListeners contains the configuration for the map-level or entry-based events listeners provided by the Hazelcast’s eventing framework. You can learn more at https://docs.hazelcast.com/hazelcast/latest/events/object-events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#entry_listeners DataK8SHazelcastComMapV1Alpha1Manifest#entry_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#entry_listeners DataK8SHazelcastComMapV1Alpha1Manifest#entry_listeners}
   */
   readonly entryListeners?: DataK8SHazelcastComMapV1Alpha1ManifestSpecEntryListeners[] | cdktf.IResolvable;
   /**
   * EventJournal specifies event journal configuration of the Map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#event_journal DataK8SHazelcastComMapV1Alpha1Manifest#event_journal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#event_journal DataK8SHazelcastComMapV1Alpha1Manifest#event_journal}
   */
   readonly eventJournal?: DataK8SHazelcastComMapV1Alpha1ManifestSpecEventJournal;
   /**
   * Configuration for removing data from the map when it reaches its max size. It can be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#eviction DataK8SHazelcastComMapV1Alpha1Manifest#eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#eviction DataK8SHazelcastComMapV1Alpha1Manifest#eviction}
   */
   readonly eviction?: DataK8SHazelcastComMapV1Alpha1ManifestSpecEviction;
   /**
   * HazelcastResourceName defines the name of the Hazelcast resource that this resource is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#hazelcast_resource_name DataK8SHazelcastComMapV1Alpha1Manifest#hazelcast_resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#hazelcast_resource_name DataK8SHazelcastComMapV1Alpha1Manifest#hazelcast_resource_name}
   */
   readonly hazelcastResourceName: string;
   /**
   * InMemoryFormat specifies in which format data will be stored in your map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#in_memory_format DataK8SHazelcastComMapV1Alpha1Manifest#in_memory_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#in_memory_format DataK8SHazelcastComMapV1Alpha1Manifest#in_memory_format}
   */
   readonly inMemoryFormat?: string;
   /**
   * Indexes to be created for the map data. You can learn more at https://docs.hazelcast.com/hazelcast/latest/query/indexing-maps. It cannot be updated after map config is created successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#indexes DataK8SHazelcastComMapV1Alpha1Manifest#indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#indexes DataK8SHazelcastComMapV1Alpha1Manifest#indexes}
   */
   readonly indexes?: DataK8SHazelcastComMapV1Alpha1ManifestSpecIndexes[] | cdktf.IResolvable;
   /**
   * Configuration options when you want to load/store the map entries from/to a persistent data store such as a relational database You can learn more at https://docs.hazelcast.com/hazelcast/latest/data-structures/working-with-external-data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#map_store DataK8SHazelcastComMapV1Alpha1Manifest#map_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#map_store DataK8SHazelcastComMapV1Alpha1Manifest#map_store}
   */
   readonly mapStore?: DataK8SHazelcastComMapV1Alpha1ManifestSpecMapStore;
   /**
   * Maximum time in seconds for each entry to stay idle in the map. Entries that are idle for more than this time are evicted automatically. It can be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_idle_seconds DataK8SHazelcastComMapV1Alpha1Manifest#max_idle_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#max_idle_seconds DataK8SHazelcastComMapV1Alpha1Manifest#max_idle_seconds}
   */
   readonly maxIdleSeconds?: number;
   /**
   * MerkleTree defines the configuration for the Merkle tree data structure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#merkle_tree DataK8SHazelcastComMapV1Alpha1Manifest#merkle_tree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#merkle_tree DataK8SHazelcastComMapV1Alpha1Manifest#merkle_tree}
   */
   readonly merkleTree?: DataK8SHazelcastComMapV1Alpha1ManifestSpecMerkleTree;
   /**
   * Name of the data structure config to be created. If empty, CR name will be used. It cannot be updated after the config is created successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#name DataK8SHazelcastComMapV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * InMemoryFormat specifies near cache configuration for map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#near_cache DataK8SHazelcastComMapV1Alpha1Manifest#near_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#near_cache DataK8SHazelcastComMapV1Alpha1Manifest#near_cache}
   */
   readonly nearCache?: DataK8SHazelcastComMapV1Alpha1ManifestSpecNearCache;
   /**
   * When enabled, map data will be persisted. It cannot be updated after map config is created successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#persistence_enabled DataK8SHazelcastComMapV1Alpha1Manifest#persistence_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#persistence_enabled DataK8SHazelcastComMapV1Alpha1Manifest#persistence_enabled}
   */
   readonly persistenceEnabled?: boolean | cdktf.IResolvable;
   /**
   * TieredStore enables the Hazelcast's Tiered-Store feature for the Map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#tiered_store DataK8SHazelcastComMapV1Alpha1Manifest#tiered_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#tiered_store DataK8SHazelcastComMapV1Alpha1Manifest#tiered_store}
   */
   readonly tieredStore?: DataK8SHazelcastComMapV1Alpha1ManifestSpecTieredStore;
   /**
   * Maximum time in seconds for each entry to stay in the map. If it is not 0, entries that are older than this time and not updated for this time are evicted automatically. It can be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#time_to_live_seconds DataK8SHazelcastComMapV1Alpha1Manifest#time_to_live_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#time_to_live_seconds DataK8SHazelcastComMapV1Alpha1Manifest#time_to_live_seconds}
   */
   readonly timeToLiveSeconds?: number;
   /**
   * Name of the User Code Namespace applied to this instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#user_code_namespace DataK8SHazelcastComMapV1Alpha1Manifest#user_code_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#user_code_namespace DataK8SHazelcastComMapV1Alpha1Manifest#user_code_namespace}
   */
   readonly userCodeNamespace?: string;
 }
@@ -2839,7 +2839,7 @@ export class DataK8SHazelcastComMapV1Alpha1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest k8s_hazelcast_com_map_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest k8s_hazelcast_com_map_v1alpha1_manifest}
 */
 export class DataK8SHazelcastComMapV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2855,7 +2855,7 @@ export class DataK8SHazelcastComMapV1Alpha1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SHazelcastComMapV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHazelcastComMapV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SHazelcastComMapV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHazelcastComMapV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHazelcastComMapV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2867,7 +2867,7 @@ export class DataK8SHazelcastComMapV1Alpha1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hazelcast_com_map_v1alpha1_manifest k8s_hazelcast_com_map_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hazelcast_com_map_v1alpha1_manifest k8s_hazelcast_com_map_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2878,8 +2878,8 @@ export class DataK8SHazelcastComMapV1Alpha1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_hazelcast_com_map_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

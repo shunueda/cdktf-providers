@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface BranchPolicyStatusCheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#blocking BranchPolicyStatusCheck#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#blocking BranchPolicyStatusCheck#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#enabled BranchPolicyStatusCheck#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#enabled BranchPolicyStatusCheck#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#id BranchPolicyStatusCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#id BranchPolicyStatusCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#project_id BranchPolicyStatusCheck#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#project_id BranchPolicyStatusCheck#project_id}
   */
   readonly projectId: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#settings BranchPolicyStatusCheck#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#settings BranchPolicyStatusCheck#settings}
   */
   readonly settings: BranchPolicyStatusCheckSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#timeouts BranchPolicyStatusCheck#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#timeouts BranchPolicyStatusCheck#timeouts}
   */
   readonly timeouts?: BranchPolicyStatusCheckTimeouts;
 }
 export interface BranchPolicyStatusCheckSettingsScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#match_type BranchPolicyStatusCheck#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#match_type BranchPolicyStatusCheck#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#repository_id BranchPolicyStatusCheck#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#repository_id BranchPolicyStatusCheck#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#repository_ref BranchPolicyStatusCheck#repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#repository_ref BranchPolicyStatusCheck#repository_ref}
   */
   readonly repositoryRef?: string;
 }
@@ -223,37 +223,37 @@ export class BranchPolicyStatusCheckSettingsScopeList extends cdktf.ComplexList 
 }
 export interface BranchPolicyStatusCheckSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#applicability BranchPolicyStatusCheck#applicability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#applicability BranchPolicyStatusCheck#applicability}
   */
   readonly applicability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#author_id BranchPolicyStatusCheck#author_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#author_id BranchPolicyStatusCheck#author_id}
   */
   readonly authorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#display_name BranchPolicyStatusCheck#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#display_name BranchPolicyStatusCheck#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#filename_patterns BranchPolicyStatusCheck#filename_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#filename_patterns BranchPolicyStatusCheck#filename_patterns}
   */
   readonly filenamePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#genre BranchPolicyStatusCheck#genre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#genre BranchPolicyStatusCheck#genre}
   */
   readonly genre?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#invalidate_on_update BranchPolicyStatusCheck#invalidate_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#invalidate_on_update BranchPolicyStatusCheck#invalidate_on_update}
   */
   readonly invalidateOnUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#name BranchPolicyStatusCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#name BranchPolicyStatusCheck#name}
   */
   readonly name: string;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#scope BranchPolicyStatusCheck#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#scope BranchPolicyStatusCheck#scope}
   */
   readonly scope: BranchPolicyStatusCheckSettingsScope[] | cdktf.IResolvable;
 }
@@ -534,19 +534,19 @@ export class BranchPolicyStatusCheckSettingsOutputReference extends cdktf.Comple
 }
 export interface BranchPolicyStatusCheckTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#create BranchPolicyStatusCheck#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#create BranchPolicyStatusCheck#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#delete BranchPolicyStatusCheck#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#delete BranchPolicyStatusCheck#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#read BranchPolicyStatusCheck#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#read BranchPolicyStatusCheck#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#update BranchPolicyStatusCheck#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#update BranchPolicyStatusCheck#update}
   */
   readonly update?: string;
 }
@@ -727,7 +727,7 @@ export class BranchPolicyStatusCheckTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check azuredevops_branch_policy_status_check}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check azuredevops_branch_policy_status_check}
 */
 export class BranchPolicyStatusCheck extends cdktf.TerraformResource {
 
@@ -743,7 +743,7 @@ export class BranchPolicyStatusCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BranchPolicyStatusCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchPolicyStatusCheck to import
-  * @param importFromId The id of the existing BranchPolicyStatusCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchPolicyStatusCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchPolicyStatusCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -755,7 +755,7 @@ export class BranchPolicyStatusCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_status_check azuredevops_branch_policy_status_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/branch_policy_status_check azuredevops_branch_policy_status_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -766,8 +766,8 @@ export class BranchPolicyStatusCheck extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_branch_policy_status_check',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

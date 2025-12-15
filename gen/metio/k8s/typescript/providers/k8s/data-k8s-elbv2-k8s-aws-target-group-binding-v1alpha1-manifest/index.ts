@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#metadata DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#metadata DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestMetadata;
   /**
   * TargetGroupBindingSpec defines the desired state of TargetGroupBinding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#spec DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#spec DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#annotations DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#annotations DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#labels DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#labels DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#name DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#name DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#namespace DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#namespace DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetwork
   /**
   * CIDR is the network CIDR. Both IPV4 or IPV6 CIDR are accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#cidr DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#cidr DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
 }
@@ -312,7 +312,7 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetwork
   /**
   * GroupID is the EC2 SecurityGroupID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#group_id DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#group_id DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#group_id}
   */
   readonly groupId: string;
 }
@@ -405,13 +405,13 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetwork
   /**
   * IPBlock defines an IPBlock peer. If specified, none of the other fields can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#ip_block DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#ip_block DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#ip_block}
   */
   readonly ipBlock?: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetworkingIngressFromIpBlock;
   /**
   * SecurityGroup defines a SecurityGroup peer. If specified, none of the other fields can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#security_group DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#security_group DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#security_group}
   */
   readonly securityGroup?: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetworkingIngressFromSecurityGroup;
 }
@@ -558,13 +558,13 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetwork
   /**
   * The port which traffic must match. When NodePort endpoints(instance TargetType) is used, this must be a numerical port. When Port endpoints(ip TargetType) is used, this can be either numerical or named port on pods. if port is unspecified, it defaults to all ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#port DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#port DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * The protocol which traffic must match. If protocol is unspecified, it defaults to TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#protocol DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#protocol DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -711,13 +711,13 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetwork
   /**
   * List of peers which should be able to access the targets in TargetGroup. At least one NetworkingPeer should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#from DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#from DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#from}
   */
   readonly from: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetworkingIngressFrom[] | cdktf.IResolvable;
   /**
   * List of ports which should be made accessible on the targets in TargetGroup. If ports is empty or unspecified, it defaults to all ports with TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#ports DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#ports DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#ports}
   */
   readonly ports: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetworkingIngressPorts[] | cdktf.IResolvable;
 }
@@ -858,7 +858,7 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetwork
   /**
   * List of ingress rules to allow ELBV2 LoadBalancer to access targets in TargetGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#ingress DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#ingress DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetworkingIngress[] | cdktf.IResolvable;
 }
@@ -954,13 +954,13 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecService
   /**
   * Name is the name of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#name DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#name DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Port is the port of the ServicePort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#port DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#port DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -1079,25 +1079,25 @@ export interface DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpec {
   /**
   * networking provides the networking setup for ELBV2 LoadBalancer to access targets in TargetGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#networking DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#networking DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#networking}
   */
   readonly networking?: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecNetworking;
   /**
   * serviceRef is a reference to a Kubernetes Service and ServicePort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#service_ref DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#service_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#service_ref DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#service_ref}
   */
   readonly serviceRef: DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecServiceRef;
   /**
   * targetGroupARN is the Amazon Resource Name (ARN) for the TargetGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#target_group_arn DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#target_group_arn DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#target_group_arn}
   */
   readonly targetGroupArn: string;
   /**
   * targetType is the TargetType of TargetGroup. If unspecified, it will be automatically inferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#target_type DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#target_type DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest#target_type}
   */
   readonly targetType?: string;
 }
@@ -1272,7 +1272,7 @@ export class DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest k8s_elbv2_k8s_aws_target_group_binding_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest k8s_elbv2_k8s_aws_target_group_binding_v1alpha1_manifest}
 */
 export class DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1288,7 +1288,7 @@ export class DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1300,7 +1300,7 @@ export class DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest k8s_elbv2_k8s_aws_target_group_binding_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/elbv2_k8s_aws_target_group_binding_v1alpha1_manifest k8s_elbv2_k8s_aws_target_group_binding_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1311,8 +1311,8 @@ export class DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_elbv2_k8s_aws_target_group_binding_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

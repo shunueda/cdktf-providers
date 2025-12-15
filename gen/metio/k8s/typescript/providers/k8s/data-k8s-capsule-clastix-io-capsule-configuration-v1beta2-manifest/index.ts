@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#metadata DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#metadata DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestMetadata;
   /**
   * CapsuleConfigurationSpec defines the Capsule configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#spec DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#spec DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#annotations DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#annotations DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#labels DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#labels DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#name DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#name DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -185,11 +185,11 @@ export class DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestMetadataO
 }
 export interface DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecNodeMetadataForbiddenAnnotations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#denied DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#denied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#denied DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#denied}
   */
   readonly denied?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#denied_regex DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#denied_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#denied_regex DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#denied_regex}
   */
   readonly deniedRegex?: string;
 }
@@ -312,11 +312,11 @@ export class DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecNodeM
 }
 export interface DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecNodeMetadataForbiddenLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#denied DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#denied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#denied DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#denied}
   */
   readonly denied?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#denied_regex DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#denied_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#denied_regex DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#denied_regex}
   */
   readonly deniedRegex?: string;
 }
@@ -441,13 +441,13 @@ export interface DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecN
   /**
   * Define the annotations that a Tenant Owner cannot set for their nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#forbidden_annotations DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#forbidden_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#forbidden_annotations DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#forbidden_annotations}
   */
   readonly forbiddenAnnotations: DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecNodeMetadataForbiddenAnnotations;
   /**
   * Define the labels that a Tenant Owner cannot set for their nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#forbidden_labels DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#forbidden_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#forbidden_labels DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#forbidden_labels}
   */
   readonly forbiddenLabels: DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecNodeMetadataForbiddenLabels;
 }
@@ -566,19 +566,19 @@ export interface DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecO
   /**
   * Name of the MutatingWebhookConfiguration which contains the dynamic admission controller paths and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#mutating_webhook_configuration_name DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#mutating_webhook_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#mutating_webhook_configuration_name DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#mutating_webhook_configuration_name}
   */
   readonly mutatingWebhookConfigurationName: string;
   /**
   * Defines the Secret name used for the webhook server. Must be in the same Namespace where the Capsule Deployment is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#tls_secret_name DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#tls_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#tls_secret_name DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#tls_secret_name}
   */
   readonly tlsSecretName: string;
   /**
   * Name of the ValidatingWebhookConfiguration which contains the dynamic admission controller paths and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#validating_webhook_configuration_name DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#validating_webhook_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#validating_webhook_configuration_name DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#validating_webhook_configuration_name}
   */
   readonly validatingWebhookConfigurationName: string;
 }
@@ -723,37 +723,37 @@ export interface DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpec 
   /**
   * Toggles the TLS reconciler, the controller that is able to generate CA and certificates for the webhooks when not using an already provided CA and certificate, or when these are managed externally with Vault, or cert-manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#enable_tls_reconciler DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#enable_tls_reconciler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#enable_tls_reconciler DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#enable_tls_reconciler}
   */
   readonly enableTlsReconciler: boolean | cdktf.IResolvable;
   /**
   * Enforces the Tenant owner, during Namespace creation, to name it using the selected Tenant name as prefix, separated by a dash. This is useful to avoid Namespace name collision in a public CaaS environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#force_tenant_prefix DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#force_tenant_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#force_tenant_prefix DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#force_tenant_prefix}
   */
   readonly forceTenantPrefix?: boolean | cdktf.IResolvable;
   /**
   * Allows to set the forbidden metadata for the worker nodes that could be patched by a Tenant. This applies only if the Tenant has an active NodeSelector, and the Owner have right to patch their nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#node_metadata DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#node_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#node_metadata DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#node_metadata}
   */
   readonly nodeMetadata?: DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecNodeMetadata;
   /**
   * Allows to set different name rather than the canonical one for the Capsule configuration objects, such as webhook secret or configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#overrides DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#overrides DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#overrides}
   */
   readonly overrides?: DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecOverrides;
   /**
   * Disallow creation of namespaces, whose name matches this regexp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#protected_namespace_regex DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#protected_namespace_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#protected_namespace_regex DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#protected_namespace_regex}
   */
   readonly protectedNamespaceRegex?: string;
   /**
   * Names of the groups for Capsule users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#user_groups DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#user_groups DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest#user_groups}
   */
   readonly userGroups?: string[];
 }
@@ -989,7 +989,7 @@ export class DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest k8s_capsule_clastix_io_capsule_configuration_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest k8s_capsule_clastix_io_capsule_configuration_v1beta2_manifest}
 */
 export class DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -1005,7 +1005,7 @@ export class DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest extends 
   * Generates CDKTF code for importing a DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1017,7 +1017,7 @@ export class DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest k8s_capsule_clastix_io_capsule_configuration_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/capsule_clastix_io_capsule_configuration_v1beta2_manifest k8s_capsule_clastix_io_capsule_configuration_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1028,8 +1028,8 @@ export class DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest extends 
       terraformResourceType: 'k8s_capsule_clastix_io_capsule_configuration_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

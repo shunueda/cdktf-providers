@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SK8UpIoRestoreV1ManifestConfig extends cdktf.TerraformMet
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#metadata DataK8SK8UpIoRestoreV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#metadata DataK8SK8UpIoRestoreV1Manifest#metadata}
   */
   readonly metadata: DataK8SK8UpIoRestoreV1ManifestMetadata;
   /**
   * RestoreSpec can either contain an S3 restore point or a local one. For the local one you need to define an existing PVC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#spec DataK8SK8UpIoRestoreV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#spec DataK8SK8UpIoRestoreV1Manifest#spec}
   */
   readonly spec?: DataK8SK8UpIoRestoreV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SK8UpIoRestoreV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#annotations DataK8SK8UpIoRestoreV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#annotations DataK8SK8UpIoRestoreV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#labels DataK8SK8UpIoRestoreV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#labels DataK8SK8UpIoRestoreV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#namespace DataK8SK8UpIoRestoreV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#namespace DataK8SK8UpIoRestoreV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendAzureAccountKeySecretR
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,19 +382,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendAzureAccountNameSecret
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -545,21 +545,21 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendAzure {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#account_key_secret_ref DataK8SK8UpIoRestoreV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#account_key_secret_ref DataK8SK8UpIoRestoreV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendAzureAccountKeySecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#account_name_secret_ref DataK8SK8UpIoRestoreV1Manifest#account_name_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#account_name_secret_ref DataK8SK8UpIoRestoreV1Manifest#account_name_secret_ref}
   */
   readonly accountNameSecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendAzureAccountNameSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#container DataK8SK8UpIoRestoreV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#container DataK8SK8UpIoRestoreV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -742,19 +742,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendB2AccountIdSecretRef {
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -905,19 +905,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendB2AccountKeySecretRef 
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1068,21 +1068,21 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendB2 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#account_id_secret_ref DataK8SK8UpIoRestoreV1Manifest#account_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#account_id_secret_ref DataK8SK8UpIoRestoreV1Manifest#account_id_secret_ref}
   */
   readonly accountIdSecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendB2AccountIdSecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#account_key_secret_ref DataK8SK8UpIoRestoreV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#account_key_secret_ref DataK8SK8UpIoRestoreV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendB2AccountKeySecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#bucket DataK8SK8UpIoRestoreV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#bucket DataK8SK8UpIoRestoreV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -1265,13 +1265,13 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendEnvFromConfigMapRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1396,13 +1396,13 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendEnvFromSecretRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1527,19 +1527,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#config_map_ref DataK8SK8UpIoRestoreV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#config_map_ref DataK8SK8UpIoRestoreV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#prefix DataK8SK8UpIoRestoreV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#prefix DataK8SK8UpIoRestoreV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#secret_ref DataK8SK8UpIoRestoreV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#secret_ref DataK8SK8UpIoRestoreV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendEnvFromSecretRef;
 }
@@ -1715,19 +1715,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendGcsAccessTokenSecretRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1878,19 +1878,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendGcsProjectIdSecretRef 
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2041,17 +2041,17 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendGcs {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#access_token_secret_ref DataK8SK8UpIoRestoreV1Manifest#access_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#access_token_secret_ref DataK8SK8UpIoRestoreV1Manifest#access_token_secret_ref}
   */
   readonly accessTokenSecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendGcsAccessTokenSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#bucket DataK8SK8UpIoRestoreV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#bucket DataK8SK8UpIoRestoreV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#project_id_secret_ref DataK8SK8UpIoRestoreV1Manifest#project_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#project_id_secret_ref DataK8SK8UpIoRestoreV1Manifest#project_id_secret_ref}
   */
   readonly projectIdSecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendGcsProjectIdSecretRef;
 }
@@ -2203,7 +2203,7 @@ export class DataK8SK8UpIoRestoreV1ManifestSpecBackendGcsOutputReference extends
 }
 export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#mount_path DataK8SK8UpIoRestoreV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#mount_path DataK8SK8UpIoRestoreV1Manifest#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -2299,19 +2299,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendRepoPasswordSecretRef 
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2462,19 +2462,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendRestPasswordSecretReg 
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2625,19 +2625,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendRestUserSecretRef {
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2788,17 +2788,17 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendRest {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#password_secret_reg DataK8SK8UpIoRestoreV1Manifest#password_secret_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#password_secret_reg DataK8SK8UpIoRestoreV1Manifest#password_secret_reg}
   */
   readonly passwordSecretReg?: DataK8SK8UpIoRestoreV1ManifestSpecBackendRestPasswordSecretReg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#url DataK8SK8UpIoRestoreV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#url DataK8SK8UpIoRestoreV1Manifest#url}
   */
   readonly url?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#user_secret_ref DataK8SK8UpIoRestoreV1Manifest#user_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#user_secret_ref DataK8SK8UpIoRestoreV1Manifest#user_secret_ref}
   */
   readonly userSecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendRestUserSecretRef;
 }
@@ -2952,19 +2952,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendS3AccessKeyIdSecretRef
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3115,19 +3115,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendS3SecretAccessKeySecre
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3278,21 +3278,21 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendS3 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoRestoreV1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoRestoreV1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendS3AccessKeyIdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#bucket DataK8SK8UpIoRestoreV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#bucket DataK8SK8UpIoRestoreV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#endpoint DataK8SK8UpIoRestoreV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#endpoint DataK8SK8UpIoRestoreV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoRestoreV1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoRestoreV1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendS3SecretAccessKeySecretRef;
 }
@@ -3473,11 +3473,11 @@ export class DataK8SK8UpIoRestoreV1ManifestSpecBackendS3OutputReference extends 
 }
 export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendSwift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#container DataK8SK8UpIoRestoreV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#container DataK8SK8UpIoRestoreV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -3600,15 +3600,15 @@ export class DataK8SK8UpIoRestoreV1ManifestSpecBackendSwiftOutputReference exten
 }
 export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendTlsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#ca_cert DataK8SK8UpIoRestoreV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#ca_cert DataK8SK8UpIoRestoreV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#client_cert DataK8SK8UpIoRestoreV1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#client_cert DataK8SK8UpIoRestoreV1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#client_key DataK8SK8UpIoRestoreV1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#client_key DataK8SK8UpIoRestoreV1Manifest#client_key}
   */
   readonly clientKey?: string;
 }
@@ -3762,37 +3762,37 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecBackendVolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#mount_path DataK8SK8UpIoRestoreV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#mount_path DataK8SK8UpIoRestoreV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#mount_propagation DataK8SK8UpIoRestoreV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#mount_propagation DataK8SK8UpIoRestoreV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#read_only DataK8SK8UpIoRestoreV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#read_only DataK8SK8UpIoRestoreV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#sub_path DataK8SK8UpIoRestoreV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#sub_path DataK8SK8UpIoRestoreV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#sub_path_expr DataK8SK8UpIoRestoreV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#sub_path_expr DataK8SK8UpIoRestoreV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -4047,51 +4047,51 @@ export class DataK8SK8UpIoRestoreV1ManifestSpecBackendVolumeMountsList extends c
 }
 export interface DataK8SK8UpIoRestoreV1ManifestSpecBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#azure DataK8SK8UpIoRestoreV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#azure DataK8SK8UpIoRestoreV1Manifest#azure}
   */
   readonly azure?: DataK8SK8UpIoRestoreV1ManifestSpecBackendAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#b2 DataK8SK8UpIoRestoreV1Manifest#b2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#b2 DataK8SK8UpIoRestoreV1Manifest#b2}
   */
   readonly b2?: DataK8SK8UpIoRestoreV1ManifestSpecBackendB2;
   /**
   * EnvFrom adds all environment variables from a an external source to the Restic job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#env_from DataK8SK8UpIoRestoreV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#env_from DataK8SK8UpIoRestoreV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SK8UpIoRestoreV1ManifestSpecBackendEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#gcs DataK8SK8UpIoRestoreV1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#gcs DataK8SK8UpIoRestoreV1Manifest#gcs}
   */
   readonly gcs?: DataK8SK8UpIoRestoreV1ManifestSpecBackendGcs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#local DataK8SK8UpIoRestoreV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#local DataK8SK8UpIoRestoreV1Manifest#local}
   */
   readonly local?: DataK8SK8UpIoRestoreV1ManifestSpecBackendLocal;
   /**
   * RepoPasswordSecretRef references a secret key to look up the restic repository password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#repo_password_secret_ref DataK8SK8UpIoRestoreV1Manifest#repo_password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#repo_password_secret_ref DataK8SK8UpIoRestoreV1Manifest#repo_password_secret_ref}
   */
   readonly repoPasswordSecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecBackendRepoPasswordSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#rest DataK8SK8UpIoRestoreV1Manifest#rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#rest DataK8SK8UpIoRestoreV1Manifest#rest}
   */
   readonly rest?: DataK8SK8UpIoRestoreV1ManifestSpecBackendRest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#s3 DataK8SK8UpIoRestoreV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#s3 DataK8SK8UpIoRestoreV1Manifest#s3}
   */
   readonly s3?: DataK8SK8UpIoRestoreV1ManifestSpecBackendS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#swift DataK8SK8UpIoRestoreV1Manifest#swift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#swift DataK8SK8UpIoRestoreV1Manifest#swift}
   */
   readonly swift?: DataK8SK8UpIoRestoreV1ManifestSpecBackendSwift;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#tls_options DataK8SK8UpIoRestoreV1Manifest#tls_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#tls_options DataK8SK8UpIoRestoreV1Manifest#tls_options}
   */
   readonly tlsOptions?: DataK8SK8UpIoRestoreV1ManifestSpecBackendTlsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#volume_mounts DataK8SK8UpIoRestoreV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#volume_mounts DataK8SK8UpIoRestoreV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8UpIoRestoreV1ManifestSpecBackendVolumeMounts[] | cdktf.IResolvable;
 }
@@ -4477,7 +4477,7 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecPodConfigRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4573,25 +4573,25 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContextSeLinuxOpti
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#level DataK8SK8UpIoRestoreV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#level DataK8SK8UpIoRestoreV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#role DataK8SK8UpIoRestoreV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#role DataK8SK8UpIoRestoreV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#type DataK8SK8UpIoRestoreV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#type DataK8SK8UpIoRestoreV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#user DataK8SK8UpIoRestoreV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#user DataK8SK8UpIoRestoreV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -4774,13 +4774,13 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContextSeccompProf
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#localhost_profile DataK8SK8UpIoRestoreV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#localhost_profile DataK8SK8UpIoRestoreV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#type DataK8SK8UpIoRestoreV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#type DataK8SK8UpIoRestoreV1Manifest#type}
   */
   readonly type: string;
 }
@@ -4902,13 +4902,13 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContextSysctls {
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#value DataK8SK8UpIoRestoreV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#value DataK8SK8UpIoRestoreV1Manifest#value}
   */
   readonly value: string;
 }
@@ -5049,25 +5049,25 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContextWindowsOpti
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#gmsa_credential_spec DataK8SK8UpIoRestoreV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#gmsa_credential_spec DataK8SK8UpIoRestoreV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoRestoreV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoRestoreV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#host_process DataK8SK8UpIoRestoreV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#host_process DataK8SK8UpIoRestoreV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#run_as_user_name DataK8SK8UpIoRestoreV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#run_as_user_name DataK8SK8UpIoRestoreV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -5250,61 +5250,61 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContext {
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#fs_group DataK8SK8UpIoRestoreV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#fs_group DataK8SK8UpIoRestoreV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#fs_group_change_policy DataK8SK8UpIoRestoreV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#fs_group_change_policy DataK8SK8UpIoRestoreV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#run_as_group DataK8SK8UpIoRestoreV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#run_as_group DataK8SK8UpIoRestoreV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#run_as_non_root DataK8SK8UpIoRestoreV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#run_as_non_root DataK8SK8UpIoRestoreV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#run_as_user DataK8SK8UpIoRestoreV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#run_as_user DataK8SK8UpIoRestoreV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#se_linux_options DataK8SK8UpIoRestoreV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#se_linux_options DataK8SK8UpIoRestoreV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#seccomp_profile DataK8SK8UpIoRestoreV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#seccomp_profile DataK8SK8UpIoRestoreV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#supplemental_groups DataK8SK8UpIoRestoreV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#supplemental_groups DataK8SK8UpIoRestoreV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#sysctls DataK8SK8UpIoRestoreV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#sysctls DataK8SK8UpIoRestoreV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#windows_options DataK8SK8UpIoRestoreV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#windows_options DataK8SK8UpIoRestoreV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContextWindowsOptions;
 }
@@ -5661,7 +5661,7 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name: string;
 }
@@ -5776,19 +5776,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#claims DataK8SK8UpIoRestoreV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#claims DataK8SK8UpIoRestoreV1Manifest#claims}
   */
   readonly claims?: DataK8SK8UpIoRestoreV1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#limits DataK8SK8UpIoRestoreV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#limits DataK8SK8UpIoRestoreV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#requests DataK8SK8UpIoRestoreV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#requests DataK8SK8UpIoRestoreV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5942,13 +5942,13 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodFolder {
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#claim_name DataK8SK8UpIoRestoreV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#claim_name DataK8SK8UpIoRestoreV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#read_only DataK8SK8UpIoRestoreV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#read_only DataK8SK8UpIoRestoreV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -6070,19 +6070,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodS3AccessKeyIdSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6233,19 +6233,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodS3SecretAccessKe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6396,21 +6396,21 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodS3 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoRestoreV1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoRestoreV1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodS3AccessKeyIdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#bucket DataK8SK8UpIoRestoreV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#bucket DataK8SK8UpIoRestoreV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#endpoint DataK8SK8UpIoRestoreV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#endpoint DataK8SK8UpIoRestoreV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoRestoreV1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoRestoreV1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodS3SecretAccessKeySecretRef;
 }
@@ -6591,15 +6591,15 @@ export class DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodS3OutputReference ex
 }
 export interface DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodTlsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#ca_cert DataK8SK8UpIoRestoreV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#ca_cert DataK8SK8UpIoRestoreV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#client_cert DataK8SK8UpIoRestoreV1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#client_cert DataK8SK8UpIoRestoreV1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#client_key DataK8SK8UpIoRestoreV1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#client_key DataK8SK8UpIoRestoreV1Manifest#client_key}
   */
   readonly clientKey?: string;
 }
@@ -6753,37 +6753,37 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodVolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#mount_path DataK8SK8UpIoRestoreV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#mount_path DataK8SK8UpIoRestoreV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#mount_propagation DataK8SK8UpIoRestoreV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#mount_propagation DataK8SK8UpIoRestoreV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#read_only DataK8SK8UpIoRestoreV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#read_only DataK8SK8UpIoRestoreV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#sub_path DataK8SK8UpIoRestoreV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#sub_path DataK8SK8UpIoRestoreV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#sub_path_expr DataK8SK8UpIoRestoreV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#sub_path_expr DataK8SK8UpIoRestoreV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -7038,19 +7038,19 @@ export class DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodVolumeMountsList ext
 }
 export interface DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#folder DataK8SK8UpIoRestoreV1Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#folder DataK8SK8UpIoRestoreV1Manifest#folder}
   */
   readonly folder?: DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodFolder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#s3 DataK8SK8UpIoRestoreV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#s3 DataK8SK8UpIoRestoreV1Manifest#s3}
   */
   readonly s3?: DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#tls_options DataK8SK8UpIoRestoreV1Manifest#tls_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#tls_options DataK8SK8UpIoRestoreV1Manifest#tls_options}
   */
   readonly tlsOptions?: DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodTlsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#volume_mounts DataK8SK8UpIoRestoreV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#volume_mounts DataK8SK8UpIoRestoreV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethodVolumeMounts[] | cdktf.IResolvable;
 }
@@ -7233,19 +7233,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecVolumesConfigMapItems {
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#mode DataK8SK8UpIoRestoreV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#mode DataK8SK8UpIoRestoreV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
   */
   readonly path: string;
 }
@@ -7415,25 +7415,25 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecVolumesConfigMap {
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#default_mode DataK8SK8UpIoRestoreV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#default_mode DataK8SK8UpIoRestoreV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#items DataK8SK8UpIoRestoreV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#items DataK8SK8UpIoRestoreV1Manifest#items}
   */
   readonly items?: DataK8SK8UpIoRestoreV1ManifestSpecVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7616,13 +7616,13 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecVolumesPersistentVolumeClaim 
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#claim_name DataK8SK8UpIoRestoreV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#claim_name DataK8SK8UpIoRestoreV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#read_only DataK8SK8UpIoRestoreV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#read_only DataK8SK8UpIoRestoreV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -7744,19 +7744,19 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecVolumesSecretItems {
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#key DataK8SK8UpIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#mode DataK8SK8UpIoRestoreV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#mode DataK8SK8UpIoRestoreV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#path DataK8SK8UpIoRestoreV1Manifest#path}
   */
   readonly path: string;
 }
@@ -7926,25 +7926,25 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecVolumesSecret {
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#default_mode DataK8SK8UpIoRestoreV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#default_mode DataK8SK8UpIoRestoreV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#items DataK8SK8UpIoRestoreV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#items DataK8SK8UpIoRestoreV1Manifest#items}
   */
   readonly items?: DataK8SK8UpIoRestoreV1ManifestSpecVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#optional DataK8SK8UpIoRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#secret_name DataK8SK8UpIoRestoreV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#secret_name DataK8SK8UpIoRestoreV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -8127,25 +8127,25 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpecVolumes {
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#config_map DataK8SK8UpIoRestoreV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#config_map DataK8SK8UpIoRestoreV1Manifest#config_map}
   */
   readonly configMap?: DataK8SK8UpIoRestoreV1ManifestSpecVolumesConfigMap;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#name DataK8SK8UpIoRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#persistent_volume_claim DataK8SK8UpIoRestoreV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#persistent_volume_claim DataK8SK8UpIoRestoreV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SK8UpIoRestoreV1ManifestSpecVolumesPersistentVolumeClaim;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#secret DataK8SK8UpIoRestoreV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#secret DataK8SK8UpIoRestoreV1Manifest#secret}
   */
   readonly secret?: DataK8SK8UpIoRestoreV1ManifestSpecVolumesSecret;
 }
@@ -8347,75 +8347,75 @@ export interface DataK8SK8UpIoRestoreV1ManifestSpec {
   /**
   * ActiveDeadlineSeconds specifies the duration in seconds relative to the startTime that the job may be continuously active before the system tries to terminate it. Value must be positive integer if given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#active_deadline_seconds DataK8SK8UpIoRestoreV1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#active_deadline_seconds DataK8SK8UpIoRestoreV1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * Backend contains the restic repo where the job should backup to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#backend DataK8SK8UpIoRestoreV1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#backend DataK8SK8UpIoRestoreV1Manifest#backend}
   */
   readonly backend?: DataK8SK8UpIoRestoreV1ManifestSpecBackend;
   /**
   * FailedJobsHistoryLimit amount of failed jobs to keep for later analysis. KeepJobs is used property is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#failed_jobs_history_limit DataK8SK8UpIoRestoreV1Manifest#failed_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#failed_jobs_history_limit DataK8SK8UpIoRestoreV1Manifest#failed_jobs_history_limit}
   */
   readonly failedJobsHistoryLimit?: number;
   /**
   * KeepJobs amount of jobs to keep for later analysis. Deprecated: Use FailedJobsHistoryLimit and SuccessfulJobsHistoryLimit respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#keep_jobs DataK8SK8UpIoRestoreV1Manifest#keep_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#keep_jobs DataK8SK8UpIoRestoreV1Manifest#keep_jobs}
   */
   readonly keepJobs?: number;
   /**
   * PodConfigRef describes the pod spec with wich this action shall be executed. It takes precedence over the Resources or PodSecurityContext field. It does not allow changing the image or the command of the resulting pod. This is for advanced use-cases only. Please only set this if you know what you're doing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#pod_config_ref DataK8SK8UpIoRestoreV1Manifest#pod_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#pod_config_ref DataK8SK8UpIoRestoreV1Manifest#pod_config_ref}
   */
   readonly podConfigRef?: DataK8SK8UpIoRestoreV1ManifestSpecPodConfigRef;
   /**
   * PodSecurityContext describes the security context with which this action shall be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#pod_security_context DataK8SK8UpIoRestoreV1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#pod_security_context DataK8SK8UpIoRestoreV1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SK8UpIoRestoreV1ManifestSpecPodSecurityContext;
   /**
   * Resources describes the compute resource requirements (cpu, memory, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#resources DataK8SK8UpIoRestoreV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#resources DataK8SK8UpIoRestoreV1Manifest#resources}
   */
   readonly resources?: DataK8SK8UpIoRestoreV1ManifestSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#restore_filter DataK8SK8UpIoRestoreV1Manifest#restore_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#restore_filter DataK8SK8UpIoRestoreV1Manifest#restore_filter}
   */
   readonly restoreFilter?: string;
   /**
   * RestoreMethod contains how and where the restore should happen all the settings are mutual exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#restore_method DataK8SK8UpIoRestoreV1Manifest#restore_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#restore_method DataK8SK8UpIoRestoreV1Manifest#restore_method}
   */
   readonly restoreMethod?: DataK8SK8UpIoRestoreV1ManifestSpecRestoreMethod;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#snapshot DataK8SK8UpIoRestoreV1Manifest#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#snapshot DataK8SK8UpIoRestoreV1Manifest#snapshot}
   */
   readonly snapshot?: string;
   /**
   * SuccessfulJobsHistoryLimit amount of successful jobs to keep for later analysis. KeepJobs is used property is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#successful_jobs_history_limit DataK8SK8UpIoRestoreV1Manifest#successful_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#successful_jobs_history_limit DataK8SK8UpIoRestoreV1Manifest#successful_jobs_history_limit}
   */
   readonly successfulJobsHistoryLimit?: number;
   /**
   * Tags is a list of arbitrary tags that get added to the backup via Restic's tagging system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#tags DataK8SK8UpIoRestoreV1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#tags DataK8SK8UpIoRestoreV1Manifest#tags}
   */
   readonly tags?: string[];
   /**
   * Volumes List of volumes that can be mounted by containers belonging to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#volumes DataK8SK8UpIoRestoreV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#volumes DataK8SK8UpIoRestoreV1Manifest#volumes}
   */
   readonly volumes?: DataK8SK8UpIoRestoreV1ManifestSpecVolumes[] | cdktf.IResolvable;
 }
@@ -8857,7 +8857,7 @@ export class DataK8SK8UpIoRestoreV1ManifestSpecOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest k8s_k8up_io_restore_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest k8s_k8up_io_restore_v1_manifest}
 */
 export class DataK8SK8UpIoRestoreV1Manifest extends cdktf.TerraformDataSource {
 
@@ -8873,7 +8873,7 @@ export class DataK8SK8UpIoRestoreV1Manifest extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataK8SK8UpIoRestoreV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SK8UpIoRestoreV1Manifest to import
-  * @param importFromId The id of the existing DataK8SK8UpIoRestoreV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SK8UpIoRestoreV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SK8UpIoRestoreV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8885,7 +8885,7 @@ export class DataK8SK8UpIoRestoreV1Manifest extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_restore_v1_manifest k8s_k8up_io_restore_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_restore_v1_manifest k8s_k8up_io_restore_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8896,8 +8896,8 @@ export class DataK8SK8UpIoRestoreV1Manifest extends cdktf.TerraformDataSource {
       terraformResourceType: 'k8s_k8up_io_restore_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

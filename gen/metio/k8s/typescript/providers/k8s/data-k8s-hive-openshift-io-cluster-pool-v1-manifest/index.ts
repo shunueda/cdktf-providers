@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#metadata DataK8SHiveOpenshiftIoClusterPoolV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#metadata DataK8SHiveOpenshiftIoClusterPoolV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoClusterPoolV1ManifestMetadata;
   /**
   * ClusterPoolSpec defines the desired state of the ClusterPool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#spec DataK8SHiveOpenshiftIoClusterPoolV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#spec DataK8SHiveOpenshiftIoClusterPoolV1Manifest#spec}
   */
   readonly spec: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterPoolV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterPoolV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#labels DataK8SHiveOpenshiftIoClusterPoolV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#labels DataK8SHiveOpenshiftIoClusterPoolV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterPoolV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterPoolV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecClaimLifetime {
   /**
   * Default is the default lifetime of the claim when no lifetime is set on the claim itself. This is a Duration value; see https://pkg.go.dev/time#ParseDuration for accepted formats. Note: due to discrepancies in validation vs parsing, we use a Pattern instead of 'Format=duration'. See https://bugzilla.redhat.com/show_bug.cgi?id=2050332 https://github.com/kubernetes/apimachinery/issues/131 https://github.com/kubernetes/apiextensions-apiserver/issues/56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#default DataK8SHiveOpenshiftIoClusterPoolV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#default DataK8SHiveOpenshiftIoClusterPoolV1Manifest#default}
   */
   readonly default?: string;
   /**
   * Maximum is the maximum lifetime of the claim after it is assigned a cluster. If the claim still exists when the lifetime has elapsed, the claim will be deleted by Hive. The lifetime of a claim is the mimimum of the lifetimes set by the cluster pool and the claim itself. This is a Duration value; see https://pkg.go.dev/time#ParseDuration for accepted formats. Note: due to discrepancies in validation vs parsing, we use a Pattern instead of 'Format=duration'. See https://bugzilla.redhat.com/show_bug.cgi?id=2050332 https://github.com/kubernetes/apimachinery/issues/131 https://github.com/kubernetes/apiextensions-apiserver/issues/56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#maximum DataK8SHiveOpenshiftIoClusterPoolV1Manifest#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#maximum DataK8SHiveOpenshiftIoClusterPoolV1Manifest#maximum}
   */
   readonly maximum?: string;
 }
@@ -350,7 +350,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecHibernationConfi
   /**
   * ResumeTimeout is the maximum amount of time we will wait for an unclaimed ClusterDeployment to resume from hibernation (e.g. at the behest of runningCount, or in preparation for being claimed). If this time is exceeded, the ClusterDeployment will be considered Broken and we will replace it. The default (unspecified or zero) means no timeout -- we will allow the ClusterDeployment to continue trying to resume 'forever'. This is a Duration value; see https://pkg.go.dev/time#ParseDuration for accepted formats. Note: due to discrepancies in validation vs parsing, we use a Pattern instead of 'Format=duration'. See https://bugzilla.redhat.com/show_bug.cgi?id=2050332 https://github.com/kubernetes/apimachinery/issues/131 https://github.com/kubernetes/apiextensions-apiserver/issues/56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#resume_timeout DataK8SHiveOpenshiftIoClusterPoolV1Manifest#resume_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#resume_timeout DataK8SHiveOpenshiftIoClusterPoolV1Manifest#resume_timeout}
   */
   readonly resumeTimeout?: string;
 }
@@ -446,7 +446,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecImageSetRef {
   /**
   * Name is the name of the ClusterImageSet that this refers to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name: string;
 }
@@ -539,7 +539,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallConfigSec
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -635,19 +635,19 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValu
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#key DataK8SHiveOpenshiftIoClusterPoolV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#key DataK8SHiveOpenshiftIoClusterPoolV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#optional DataK8SHiveOpenshiftIoClusterPoolV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#optional DataK8SHiveOpenshiftIoClusterPoolV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -798,13 +798,13 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValu
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#api_version DataK8SHiveOpenshiftIoClusterPoolV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#api_version DataK8SHiveOpenshiftIoClusterPoolV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#field_path DataK8SHiveOpenshiftIoClusterPoolV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#field_path DataK8SHiveOpenshiftIoClusterPoolV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -926,19 +926,19 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValu
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#container_name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#container_name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#divisor DataK8SHiveOpenshiftIoClusterPoolV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#divisor DataK8SHiveOpenshiftIoClusterPoolV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#resource DataK8SHiveOpenshiftIoClusterPoolV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#resource DataK8SHiveOpenshiftIoClusterPoolV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1089,19 +1089,19 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValu
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#key DataK8SHiveOpenshiftIoClusterPoolV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#key DataK8SHiveOpenshiftIoClusterPoolV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#optional DataK8SHiveOpenshiftIoClusterPoolV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#optional DataK8SHiveOpenshiftIoClusterPoolV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1252,25 +1252,25 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValu
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#config_map_key_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#config_map_key_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#field_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#field_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#resource_field_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#resource_field_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#secret_key_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#secret_key_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValueFromSecretKeyRef;
 }
@@ -1453,19 +1453,19 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#value DataK8SHiveOpenshiftIoClusterPoolV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#value DataK8SHiveOpenshiftIoClusterPoolV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#value_from DataK8SHiveOpenshiftIoClusterPoolV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#value_from DataK8SHiveOpenshiftIoClusterPoolV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnvValueFrom;
 }
@@ -1638,13 +1638,13 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInventory {
   /**
   * Kind denotes the kind of the referenced resource. The default is ClusterDeploymentCustomization, which is also currently the only supported value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#kind DataK8SHiveOpenshiftIoClusterPoolV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#kind DataK8SHiveOpenshiftIoClusterPoolV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the referenced resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1788,19 +1788,19 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAgentBar
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#key DataK8SHiveOpenshiftIoClusterPoolV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#key DataK8SHiveOpenshiftIoClusterPoolV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#operator DataK8SHiveOpenshiftIoClusterPoolV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#operator DataK8SHiveOpenshiftIoClusterPoolV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#values DataK8SHiveOpenshiftIoClusterPoolV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#values DataK8SHiveOpenshiftIoClusterPoolV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1970,13 +1970,13 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAgentBar
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterPoolV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterPoolV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAgentBareMetalAgentSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterPoolV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterPoolV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2101,7 +2101,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAgentBar
   /**
   * AgentSelector is a label selector used for associating relevant custom resources with this cluster. (Agent, BareMetalHost, etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#agent_selector DataK8SHiveOpenshiftIoClusterPoolV1Manifest#agent_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#agent_selector DataK8SHiveOpenshiftIoClusterPoolV1Manifest#agent_selector}
   */
   readonly agentSelector: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAgentBareMetalAgentSelector;
 }
@@ -2194,11 +2194,11 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAwsCrede
   /**
   * ExternalID is random string generated by platform so that assume role is protected from confused deputy problem. more info: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#external_id DataK8SHiveOpenshiftIoClusterPoolV1Manifest#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#external_id DataK8SHiveOpenshiftIoClusterPoolV1Manifest#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#role_arn DataK8SHiveOpenshiftIoClusterPoolV1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#role_arn DataK8SHiveOpenshiftIoClusterPoolV1Manifest#role_arn}
   */
   readonly roleArn: string;
 }
@@ -2320,7 +2320,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAwsCrede
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2416,11 +2416,11 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAwsPriva
   /**
   * AdditionalAllowedPrincipals is a list of additional allowed principal ARNs to be configured for the Private Link cluster's VPC Endpoint Service. ARNs provided as AdditionalAllowedPrincipals will be configured for the cluster's VPC Endpoint Service in addition to the IAM entity used by Hive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#additional_allowed_principals DataK8SHiveOpenshiftIoClusterPoolV1Manifest#additional_allowed_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#additional_allowed_principals DataK8SHiveOpenshiftIoClusterPoolV1Manifest#additional_allowed_principals}
   */
   readonly additionalAllowedPrincipals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#enabled DataK8SHiveOpenshiftIoClusterPoolV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#enabled DataK8SHiveOpenshiftIoClusterPoolV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -2542,31 +2542,31 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAws {
   /**
   * CredentialsAssumeRole refers to the IAM role that must be assumed to obtain AWS account access for the cluster operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_assume_role DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_assume_role DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_assume_role}
   */
   readonly credentialsAssumeRole?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAwsCredentialsAssumeRole;
   /**
   * CredentialsSecretRef refers to a secret that contains the AWS account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAwsCredentialsSecretRef;
   /**
   * PrivateLink allows uses to enable access to the cluster's API server using AWS PrivateLink. AWS PrivateLink includes a pair of VPC Endpoint Service and VPC Endpoint accross AWS accounts and allows clients to connect to services using AWS's internal networking instead of the Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#private_link DataK8SHiveOpenshiftIoClusterPoolV1Manifest#private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#private_link DataK8SHiveOpenshiftIoClusterPoolV1Manifest#private_link}
   */
   readonly privateLink?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAwsPrivateLink;
   /**
   * Region specifies the AWS region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#region DataK8SHiveOpenshiftIoClusterPoolV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#region DataK8SHiveOpenshiftIoClusterPoolV1Manifest#region}
   */
   readonly region: string;
   /**
   * UserTags specifies additional tags for AWS resources created for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#user_tags DataK8SHiveOpenshiftIoClusterPoolV1Manifest#user_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#user_tags DataK8SHiveOpenshiftIoClusterPoolV1Manifest#user_tags}
   */
   readonly userTags?: { [key: string]: string };
 }
@@ -2775,7 +2775,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAzureCre
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2871,25 +2871,25 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAzure {
   /**
   * BaseDomainResourceGroupName specifies the resource group where the azure DNS zone for the base domain is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#base_domain_resource_group_name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#base_domain_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#base_domain_resource_group_name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#base_domain_resource_group_name}
   */
   readonly baseDomainResourceGroupName?: string;
   /**
   * cloudName is the name of the Azure cloud environment which can be used to configure the Azure SDK with the appropriate Azure API endpoints. If empty, the value is equal to 'AzurePublicCloud'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cloud_name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cloud_name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * CredentialsSecretRef refers to a secret that contains the Azure account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAzureCredentialsSecretRef;
   /**
   * Region specifies the Azure region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#region DataK8SHiveOpenshiftIoClusterPoolV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#region DataK8SHiveOpenshiftIoClusterPoolV1Manifest#region}
   */
   readonly region: string;
 }
@@ -3066,7 +3066,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformBaremeta
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3162,7 +3162,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformBaremeta
   /**
   * LibvirtSSHPrivateKeySecretRef is the reference to the secret that contains the private SSH key to use for access to the libvirt provisioning host. The SSH private key is expected to be in the secret data under the 'ssh-privatekey' key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#libvirt_ssh_private_key_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#libvirt_ssh_private_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#libvirt_ssh_private_key_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#libvirt_ssh_private_key_secret_ref}
   */
   readonly libvirtSshPrivateKeySecretRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformBaremetalLibvirtSshPrivateKeySecretRef;
 }
@@ -3255,7 +3255,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpCrede
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3351,13 +3351,13 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpPriva
   /**
   * Name specifies the name of the existing subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name: string;
   /**
   * Project specifies the project the subnet exists in. This is required for Shared VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#project DataK8SHiveOpenshiftIoClusterPoolV1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#project DataK8SHiveOpenshiftIoClusterPoolV1Manifest#project}
   */
   readonly project?: string;
 }
@@ -3479,13 +3479,13 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpPriva
   /**
   * Cidr specifies the cidr to use when creating a service attachment subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cidr DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cidr DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cidr}
   */
   readonly cidr?: string;
   /**
   * Existing specifies a pre-existing subnet to use instead of creating a new service attachment subnet. This is required when using BYO VPCs. It must be in the same region as the api-int load balancer, be configured with a purpose of 'Private Service Connect', and have sufficient routing and firewall rules to access the api-int load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#existing DataK8SHiveOpenshiftIoClusterPoolV1Manifest#existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#existing DataK8SHiveOpenshiftIoClusterPoolV1Manifest#existing}
   */
   readonly existing?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpPrivateServiceConnectServiceAttachmentSubnetExisting;
 }
@@ -3610,7 +3610,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpPriva
   /**
   * Subnet configures the subnetwork that contains the service attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#subnet DataK8SHiveOpenshiftIoClusterPoolV1Manifest#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#subnet DataK8SHiveOpenshiftIoClusterPoolV1Manifest#subnet}
   */
   readonly subnet?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpPrivateServiceConnectServiceAttachmentSubnet;
 }
@@ -3706,13 +3706,13 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpPriva
   /**
   * Enabled specifies if Private Service Connect is to be enabled on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#enabled DataK8SHiveOpenshiftIoClusterPoolV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#enabled DataK8SHiveOpenshiftIoClusterPoolV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * ServiceAttachment configures the service attachment to be used by the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#service_attachment DataK8SHiveOpenshiftIoClusterPoolV1Manifest#service_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#service_attachment DataK8SHiveOpenshiftIoClusterPoolV1Manifest#service_attachment}
   */
   readonly serviceAttachment?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpPrivateServiceConnectServiceAttachment;
 }
@@ -3834,19 +3834,19 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcp {
   /**
   * CredentialsSecretRef refers to a secret that contains the GCP account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpCredentialsSecretRef;
   /**
   * PrivateSericeConnect allows users to enable access to the cluster's API server using GCP Private Service Connect. It includes a forwarding rule paired with a Service Attachment across GCP accounts and allows clients to connect to services using GCP internal networking of using public load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#private_service_connect DataK8SHiveOpenshiftIoClusterPoolV1Manifest#private_service_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#private_service_connect DataK8SHiveOpenshiftIoClusterPoolV1Manifest#private_service_connect}
   */
   readonly privateServiceConnect?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcpPrivateServiceConnect;
   /**
   * Region specifies the GCP region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#region DataK8SHiveOpenshiftIoClusterPoolV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#region DataK8SHiveOpenshiftIoClusterPoolV1Manifest#region}
   */
   readonly region: string;
 }
@@ -3997,7 +3997,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformIbmcloud
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4093,25 +4093,25 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformIbmcloud
   /**
   * AccountID is the IBM Cloud Account ID. AccountID is DEPRECATED and is gathered via the IBM Cloud API for the provided credentials. This field will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#account_id DataK8SHiveOpenshiftIoClusterPoolV1Manifest#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#account_id DataK8SHiveOpenshiftIoClusterPoolV1Manifest#account_id}
   */
   readonly accountId?: string;
   /**
   * CISInstanceCRN is the IBM Cloud Internet Services Instance CRN CISInstanceCRN is DEPRECATED and gathered via the IBM Cloud API for the provided credentials and cluster deployment base domain. This field will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cis_instance_crn DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cis_instance_crn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cis_instance_crn DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cis_instance_crn}
   */
   readonly cisInstanceCrn?: string;
   /**
   * CredentialsSecretRef refers to a secret that contains IBM Cloud account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformIbmcloudCredentialsSecretRef;
   /**
   * Region specifies the IBM Cloud region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#region DataK8SHiveOpenshiftIoClusterPoolV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#region DataK8SHiveOpenshiftIoClusterPoolV1Manifest#region}
   */
   readonly region: string;
 }
@@ -4288,7 +4288,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOpenstac
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4384,7 +4384,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOpenstac
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4480,25 +4480,25 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOpenstac
   /**
   * CertificatesSecretRef refers to a secret that contains CA certificates necessary for communicating with the OpenStack. There is additional configuration required for the OpenShift cluster to trust the certificates provided in this secret. The 'clouds.yaml' file included in the credentialsSecretRef Secret must also include a reference to the certificate bundle file for the OpenShift cluster being created to trust the OpenStack endpoints. The 'clouds.yaml' file must set the 'cacert' field to either '/etc/openstack-ca/<key name containing the trust bundle in credentialsSecretRef Secret>' or '/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem'. For example, ```clouds.yaml clouds: shiftstack: auth: ... cacert: '/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem' ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#certificates_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#certificates_secret_ref}
   */
   readonly certificatesSecretRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOpenstackCertificatesSecretRef;
   /**
   * Cloud will be used to indicate the OS_CLOUD value to use the right section from the clouds.yaml in the CredentialsSecretRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cloud DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cloud DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cloud}
   */
   readonly cloud: string;
   /**
   * CredentialsSecretRef refers to a secret that contains the OpenStack account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOpenstackCredentialsSecretRef;
   /**
   * TrunkSupport indicates whether or not to use trunk ports in your OpenShift cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#trunk_support DataK8SHiveOpenshiftIoClusterPoolV1Manifest#trunk_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#trunk_support DataK8SHiveOpenshiftIoClusterPoolV1Manifest#trunk_support}
   */
   readonly trunkSupport?: boolean | cdktf.IResolvable;
 }
@@ -4675,7 +4675,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOvirtCer
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4771,7 +4771,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOvirtCre
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4867,31 +4867,31 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOvirt {
   /**
   * CertificatesSecretRef refers to a secret that contains the oVirt CA certificates necessary for communicating with oVirt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#certificates_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#certificates_secret_ref}
   */
   readonly certificatesSecretRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOvirtCertificatesSecretRef;
   /**
   * CredentialsSecretRef refers to a secret that contains the oVirt account access credentials with fields: ovirt_url, ovirt_username, ovirt_password, ovirt_ca_bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOvirtCredentialsSecretRef;
   /**
   * The target cluster under which all VMs will run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#ovirt_cluster_id DataK8SHiveOpenshiftIoClusterPoolV1Manifest#ovirt_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#ovirt_cluster_id DataK8SHiveOpenshiftIoClusterPoolV1Manifest#ovirt_cluster_id}
   */
   readonly ovirtClusterId: string;
   /**
   * The target network of all the network interfaces of the nodes. Omitting defaults to ovirtmgmt network which is a default network for evert ovirt cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#ovirt_network_name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#ovirt_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#ovirt_network_name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#ovirt_network_name}
   */
   readonly ovirtNetworkName?: string;
   /**
   * The target storage domain under which all VM disk would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#storage_domain_id DataK8SHiveOpenshiftIoClusterPoolV1Manifest#storage_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#storage_domain_id DataK8SHiveOpenshiftIoClusterPoolV1Manifest#storage_domain_id}
   */
   readonly storageDomainId: string;
 }
@@ -5091,7 +5091,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformVsphereC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5187,7 +5187,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformVsphereC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5283,49 +5283,49 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformVsphere 
   /**
   * CertificatesSecretRef refers to a secret that contains the vSphere CA certificates necessary for communicating with the VCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#certificates_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#certificates_secret_ref}
   */
   readonly certificatesSecretRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformVsphereCertificatesSecretRef;
   /**
   * Cluster is the name of the cluster virtual machines will be cloned into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cluster DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#cluster DataK8SHiveOpenshiftIoClusterPoolV1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * CredentialsSecretRef refers to a secret that contains the vSphere account access credentials: GOVC_USERNAME, GOVC_PASSWORD fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformVsphereCredentialsSecretRef;
   /**
   * Datacenter is the name of the datacenter to use in the vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#datacenter DataK8SHiveOpenshiftIoClusterPoolV1Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#datacenter DataK8SHiveOpenshiftIoClusterPoolV1Manifest#datacenter}
   */
   readonly datacenter: string;
   /**
   * DefaultDatastore is the default datastore to use for provisioning volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#default_datastore DataK8SHiveOpenshiftIoClusterPoolV1Manifest#default_datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#default_datastore DataK8SHiveOpenshiftIoClusterPoolV1Manifest#default_datastore}
   */
   readonly defaultDatastore: string;
   /**
   * Folder is the name of the folder that will be used and/or created for virtual machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#folder DataK8SHiveOpenshiftIoClusterPoolV1Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#folder DataK8SHiveOpenshiftIoClusterPoolV1Manifest#folder}
   */
   readonly folder?: string;
   /**
   * Network specifies the name of the network to be used by the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#network DataK8SHiveOpenshiftIoClusterPoolV1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#network DataK8SHiveOpenshiftIoClusterPoolV1Manifest#network}
   */
   readonly network?: string;
   /**
   * VCenter is the domain name or IP address of the vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#v_center DataK8SHiveOpenshiftIoClusterPoolV1Manifest#v_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#v_center DataK8SHiveOpenshiftIoClusterPoolV1Manifest#v_center}
   */
   readonly vCenter: string;
 }
@@ -5609,61 +5609,61 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatform {
   /**
   * AgentBareMetal is the configuration used when performing an Assisted Agent based installation to bare metal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#agent_bare_metal DataK8SHiveOpenshiftIoClusterPoolV1Manifest#agent_bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#agent_bare_metal DataK8SHiveOpenshiftIoClusterPoolV1Manifest#agent_bare_metal}
   */
   readonly agentBareMetal?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAgentBareMetal;
   /**
   * AWS is the configuration used when installing on AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#aws DataK8SHiveOpenshiftIoClusterPoolV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#aws DataK8SHiveOpenshiftIoClusterPoolV1Manifest#aws}
   */
   readonly aws?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAws;
   /**
   * Azure is the configuration used when installing on Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#azure DataK8SHiveOpenshiftIoClusterPoolV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#azure DataK8SHiveOpenshiftIoClusterPoolV1Manifest#azure}
   */
   readonly azure?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformAzure;
   /**
   * BareMetal is the configuration used when installing on bare metal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#baremetal DataK8SHiveOpenshiftIoClusterPoolV1Manifest#baremetal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#baremetal DataK8SHiveOpenshiftIoClusterPoolV1Manifest#baremetal}
   */
   readonly baremetal?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformBaremetal;
   /**
   * GCP is the configuration used when installing on Google Cloud Platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#gcp DataK8SHiveOpenshiftIoClusterPoolV1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#gcp DataK8SHiveOpenshiftIoClusterPoolV1Manifest#gcp}
   */
   readonly gcp?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformGcp;
   /**
   * IBMCloud is the configuration used when installing on IBM Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#ibmcloud DataK8SHiveOpenshiftIoClusterPoolV1Manifest#ibmcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#ibmcloud DataK8SHiveOpenshiftIoClusterPoolV1Manifest#ibmcloud}
   */
   readonly ibmcloud?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformIbmcloud;
   /**
   * None indicates platform-agnostic install. https://docs.openshift.com/container-platform/4.7/installing/installing_platform_agnostic/installing-platform-agnostic.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#none DataK8SHiveOpenshiftIoClusterPoolV1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#none DataK8SHiveOpenshiftIoClusterPoolV1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * OpenStack is the configuration used when installing on OpenStack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#openstack DataK8SHiveOpenshiftIoClusterPoolV1Manifest#openstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#openstack DataK8SHiveOpenshiftIoClusterPoolV1Manifest#openstack}
   */
   readonly openstack?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOpenstack;
   /**
   * Ovirt is the configuration used when installing on oVirt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#ovirt DataK8SHiveOpenshiftIoClusterPoolV1Manifest#ovirt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#ovirt DataK8SHiveOpenshiftIoClusterPoolV1Manifest#ovirt}
   */
   readonly ovirt?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformOvirt;
   /**
   * VSphere is the configuration used when installing on vSphere
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#vsphere DataK8SHiveOpenshiftIoClusterPoolV1Manifest#vsphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#vsphere DataK8SHiveOpenshiftIoClusterPoolV1Manifest#vsphere}
   */
   readonly vsphere?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatformVsphere;
 }
@@ -6020,7 +6020,7 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPullSecretRef {
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#name DataK8SHiveOpenshiftIoClusterPoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6116,109 +6116,109 @@ export interface DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpec {
   /**
   * Annotations to be applied to new ClusterDeployments created for the pool. ClusterDeployments that have already been claimed will not be affected when this value is modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterPoolV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterPoolV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * BaseDomain is the base domain to use for all clusters created in this pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#base_domain DataK8SHiveOpenshiftIoClusterPoolV1Manifest#base_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#base_domain DataK8SHiveOpenshiftIoClusterPoolV1Manifest#base_domain}
   */
   readonly baseDomain: string;
   /**
   * ClaimLifetime defines the lifetimes for claims for the cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#claim_lifetime DataK8SHiveOpenshiftIoClusterPoolV1Manifest#claim_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#claim_lifetime DataK8SHiveOpenshiftIoClusterPoolV1Manifest#claim_lifetime}
   */
   readonly claimLifetime?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecClaimLifetime;
   /**
   * HibernateAfter will be applied to new ClusterDeployments created for the pool. HibernateAfter will transition clusters in the clusterpool to hibernating power state after it has been running for the given duration. The time that a cluster has been running is the time since the cluster was installed or the time since the cluster last came out of hibernation. This is a Duration value; see https://pkg.go.dev/time#ParseDuration for accepted formats. Note: due to discrepancies in validation vs parsing, we use a Pattern instead of 'Format=duration'. See https://bugzilla.redhat.com/show_bug.cgi?id=2050332 https://github.com/kubernetes/apimachinery/issues/131 https://github.com/kubernetes/apiextensions-apiserver/issues/56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#hibernate_after DataK8SHiveOpenshiftIoClusterPoolV1Manifest#hibernate_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#hibernate_after DataK8SHiveOpenshiftIoClusterPoolV1Manifest#hibernate_after}
   */
   readonly hibernateAfter?: string;
   /**
   * HibernationConfig configures the hibernation/resume behavior of ClusterDeployments owned by the ClusterPool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#hibernation_config DataK8SHiveOpenshiftIoClusterPoolV1Manifest#hibernation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#hibernation_config DataK8SHiveOpenshiftIoClusterPoolV1Manifest#hibernation_config}
   */
   readonly hibernationConfig?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecHibernationConfig;
   /**
   * ImageSetRef is a reference to a ClusterImageSet. The release image specified in the ClusterImageSet will be used by clusters created for this cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#image_set_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#image_set_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#image_set_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#image_set_ref}
   */
   readonly imageSetRef: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecImageSetRef;
   /**
   * InstallAttemptsLimit is the maximum number of times Hive will attempt to install the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#install_attempts_limit DataK8SHiveOpenshiftIoClusterPoolV1Manifest#install_attempts_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#install_attempts_limit DataK8SHiveOpenshiftIoClusterPoolV1Manifest#install_attempts_limit}
   */
   readonly installAttemptsLimit?: number;
   /**
   * InstallConfigSecretTemplateRef is a secret with the key install-config.yaml consisting of the content of the install-config.yaml to be used as a template for all clusters in this pool. Cluster specific settings (name, basedomain) will be injected dynamically when the ClusterDeployment install-config Secret is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#install_config_secret_template_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#install_config_secret_template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#install_config_secret_template_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#install_config_secret_template_ref}
   */
   readonly installConfigSecretTemplateRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallConfigSecretTemplateRef;
   /**
   * InstallerEnv are extra environment variables to pass through to the installer. This may be used to enable additional features of the installer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#installer_env DataK8SHiveOpenshiftIoClusterPoolV1Manifest#installer_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#installer_env DataK8SHiveOpenshiftIoClusterPoolV1Manifest#installer_env}
   */
   readonly installerEnv?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInstallerEnv[] | cdktf.IResolvable;
   /**
   * Inventory maintains a list of entries consumed by the ClusterPool to customize the default ClusterDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#inventory DataK8SHiveOpenshiftIoClusterPoolV1Manifest#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#inventory DataK8SHiveOpenshiftIoClusterPoolV1Manifest#inventory}
   */
   readonly inventory?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecInventory[] | cdktf.IResolvable;
   /**
   * Labels to be applied to new ClusterDeployments created for the pool. ClusterDeployments that have already been claimed will not be affected when this value is modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#labels DataK8SHiveOpenshiftIoClusterPoolV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#labels DataK8SHiveOpenshiftIoClusterPoolV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * MaxConcurrent is the maximum number of clusters that will be provisioned or deprovisioned at an time. This includes the claimed clusters being deprovisioned. By default there is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#max_concurrent DataK8SHiveOpenshiftIoClusterPoolV1Manifest#max_concurrent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#max_concurrent DataK8SHiveOpenshiftIoClusterPoolV1Manifest#max_concurrent}
   */
   readonly maxConcurrent?: number;
   /**
   * MaxSize is the maximum number of clusters that will be provisioned including clusters that have been claimed and ones waiting to be used. By default there is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#max_size DataK8SHiveOpenshiftIoClusterPoolV1Manifest#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#max_size DataK8SHiveOpenshiftIoClusterPoolV1Manifest#max_size}
   */
   readonly maxSize?: number;
   /**
   * Platform encompasses the desired platform for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#platform DataK8SHiveOpenshiftIoClusterPoolV1Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#platform DataK8SHiveOpenshiftIoClusterPoolV1Manifest#platform}
   */
   readonly platform: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPlatform;
   /**
   * PullSecretRef is the reference to the secret to use when pulling images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#pull_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#pull_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#pull_secret_ref DataK8SHiveOpenshiftIoClusterPoolV1Manifest#pull_secret_ref}
   */
   readonly pullSecretRef?: DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecPullSecretRef;
   /**
   * RunningCount is the number of clusters we should keep running. The remainder will be kept hibernated until claimed. By default no clusters will be kept running (all will be hibernated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#running_count DataK8SHiveOpenshiftIoClusterPoolV1Manifest#running_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#running_count DataK8SHiveOpenshiftIoClusterPoolV1Manifest#running_count}
   */
   readonly runningCount?: number;
   /**
   * Size is the default number of clusters that we should keep provisioned and waiting for use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#size DataK8SHiveOpenshiftIoClusterPoolV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#size DataK8SHiveOpenshiftIoClusterPoolV1Manifest#size}
   */
   readonly size: number;
   /**
   * SkipMachinePools allows creating clusterpools where the machinepools are not managed by hive after cluster creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#skip_machine_pools DataK8SHiveOpenshiftIoClusterPoolV1Manifest#skip_machine_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#skip_machine_pools DataK8SHiveOpenshiftIoClusterPoolV1Manifest#skip_machine_pools}
   */
   readonly skipMachinePools?: boolean | cdktf.IResolvable;
 }
@@ -6793,7 +6793,7 @@ export class DataK8SHiveOpenshiftIoClusterPoolV1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest k8s_hive_openshift_io_cluster_pool_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest k8s_hive_openshift_io_cluster_pool_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoClusterPoolV1Manifest extends cdktf.TerraformDataSource {
 
@@ -6809,7 +6809,7 @@ export class DataK8SHiveOpenshiftIoClusterPoolV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoClusterPoolV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoClusterPoolV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoClusterPoolV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoClusterPoolV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoClusterPoolV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6821,7 +6821,7 @@ export class DataK8SHiveOpenshiftIoClusterPoolV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest k8s_hive_openshift_io_cluster_pool_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_pool_v1_manifest k8s_hive_openshift_io_cluster_pool_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6832,8 +6832,8 @@ export class DataK8SHiveOpenshiftIoClusterPoolV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_hive_openshift_io_cluster_pool_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

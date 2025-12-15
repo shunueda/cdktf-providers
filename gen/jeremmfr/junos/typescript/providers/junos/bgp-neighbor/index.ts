@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,313 +10,313 @@ export interface BgpNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow import policy to specify a non-directly connected next-hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#accept_remote_nexthop BgpNeighbor#accept_remote_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#accept_remote_nexthop BgpNeighbor#accept_remote_nexthop}
   */
   readonly acceptRemoteNexthop?: boolean | cdktf.IResolvable;
   /**
   * Advertise best external routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#advertise_external BgpNeighbor#advertise_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#advertise_external BgpNeighbor#advertise_external}
   */
   readonly advertiseExternal?: boolean | cdktf.IResolvable;
   /**
   * Route matches active route upto med-comparison rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#advertise_external_conditional BgpNeighbor#advertise_external_conditional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#advertise_external_conditional BgpNeighbor#advertise_external_conditional}
   */
   readonly advertiseExternalConditional?: boolean | cdktf.IResolvable;
   /**
   * Advertise inactive routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#advertise_inactive BgpNeighbor#advertise_inactive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#advertise_inactive BgpNeighbor#advertise_inactive}
   */
   readonly advertiseInactive?: boolean | cdktf.IResolvable;
   /**
   * Advertise routes received from the same autonomous system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#advertise_peer_as BgpNeighbor#advertise_peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#advertise_peer_as BgpNeighbor#advertise_peer_as}
   */
   readonly advertisePeerAs?: boolean | cdktf.IResolvable;
   /**
   * Replace neighbor AS number with our AS number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#as_override BgpNeighbor#as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#as_override BgpNeighbor#as_override}
   */
   readonly asOverride?: boolean | cdktf.IResolvable;
   /**
   * Authentication algorithm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#authentication_algorithm BgpNeighbor#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#authentication_algorithm BgpNeighbor#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * MD5 authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#authentication_key BgpNeighbor#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#authentication_key BgpNeighbor#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Key chain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#authentication_key_chain BgpNeighbor#authentication_key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#authentication_key_chain BgpNeighbor#authentication_key_chain}
   */
   readonly authenticationKeyChain?: string;
   /**
   * Cluster identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#cluster BgpNeighbor#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#cluster BgpNeighbor#cluster}
   */
   readonly cluster?: string;
   /**
   * Enable route flap damping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#damping BgpNeighbor#damping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#damping BgpNeighbor#damping}
   */
   readonly damping?: boolean | cdktf.IResolvable;
   /**
   * Text description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#description BgpNeighbor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#description BgpNeighbor#description}
   */
   readonly description?: string;
   /**
   * Export policy list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#export BgpNeighbor#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#export BgpNeighbor#export}
   */
   readonly export?: string[];
   /**
   * Name of BGP group for this neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#group BgpNeighbor#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#group BgpNeighbor#group}
   */
   readonly group: string;
   /**
   * Hold time used when negotiating with a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#hold_time BgpNeighbor#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#hold_time BgpNeighbor#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Import policy list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#import BgpNeighbor#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#import BgpNeighbor#import}
   */
   readonly import?: string[];
   /**
   * IP of neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#ip BgpNeighbor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#ip BgpNeighbor#ip}
   */
   readonly ip: string;
   /**
   * Retain all routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#keep_all BgpNeighbor#keep_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#keep_all BgpNeighbor#keep_all}
   */
   readonly keepAll?: boolean | cdktf.IResolvable;
   /**
   * Retain no routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#keep_none BgpNeighbor#keep_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#keep_none BgpNeighbor#keep_none}
   */
   readonly keepNone?: boolean | cdktf.IResolvable;
   /**
   * Address of local end of BGP session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#local_address BgpNeighbor#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#local_address BgpNeighbor#local_address}
   */
   readonly localAddress?: string;
   /**
   * Local autonomous system number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#local_as BgpNeighbor#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#local_as BgpNeighbor#local_as}
   */
   readonly localAs?: string;
   /**
   * Treat this AS as an alias to the system AS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#local_as_alias BgpNeighbor#local_as_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#local_as_alias BgpNeighbor#local_as_alias}
   */
   readonly localAsAlias?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of times this AS can be in an AS path (1..10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#local_as_loops BgpNeighbor#local_as_loops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#local_as_loops BgpNeighbor#local_as_loops}
   */
   readonly localAsLoops?: number;
   /**
   * Do not prepend global autonomous-system number in advertised paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#local_as_no_prepend_global_as BgpNeighbor#local_as_no_prepend_global_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#local_as_no_prepend_global_as BgpNeighbor#local_as_no_prepend_global_as}
   */
   readonly localAsNoPrependGlobalAs?: boolean | cdktf.IResolvable;
   /**
   * Hide this local AS in paths learned from this peering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#local_as_private BgpNeighbor#local_as_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#local_as_private BgpNeighbor#local_as_private}
   */
   readonly localAsPrivate?: boolean | cdktf.IResolvable;
   /**
   * Local interface for IPv6 link local EBGP peering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#local_interface BgpNeighbor#local_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#local_interface BgpNeighbor#local_interface}
   */
   readonly localInterface?: string;
   /**
   * Value of LOCAL_PREF path attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#local_preference BgpNeighbor#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#local_preference BgpNeighbor#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Log a message for peer state transitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#log_updown BgpNeighbor#log_updown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#log_updown BgpNeighbor#log_updown}
   */
   readonly logUpdown?: boolean | cdktf.IResolvable;
   /**
   * Route metric sent in MED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#metric_out BgpNeighbor#metric_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#metric_out BgpNeighbor#metric_out}
   */
   readonly metricOut?: number;
   /**
   * Track the IGP metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#metric_out_igp BgpNeighbor#metric_out_igp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#metric_out_igp BgpNeighbor#metric_out_igp}
   */
   readonly metricOutIgp?: boolean | cdktf.IResolvable;
   /**
   * Delay updating MED when IGP metric increases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#metric_out_igp_delay_med_update BgpNeighbor#metric_out_igp_delay_med_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#metric_out_igp_delay_med_update BgpNeighbor#metric_out_igp_delay_med_update}
   */
   readonly metricOutIgpDelayMedUpdate?: boolean | cdktf.IResolvable;
   /**
   * Metric offset for MED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#metric_out_igp_offset BgpNeighbor#metric_out_igp_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#metric_out_igp_offset BgpNeighbor#metric_out_igp_offset}
   */
   readonly metricOutIgpOffset?: number;
   /**
   * Track the minimum IGP metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#metric_out_minimum_igp BgpNeighbor#metric_out_minimum_igp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#metric_out_minimum_igp BgpNeighbor#metric_out_minimum_igp}
   */
   readonly metricOutMinimumIgp?: boolean | cdktf.IResolvable;
   /**
   * Metric offset for MED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#metric_out_minimum_igp_offset BgpNeighbor#metric_out_minimum_igp_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#metric_out_minimum_igp_offset BgpNeighbor#metric_out_minimum_igp_offset}
   */
   readonly metricOutMinimumIgpOffset?: number;
   /**
   * Enable TCP path MTU discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#mtu_discovery BgpNeighbor#mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#mtu_discovery BgpNeighbor#mtu_discovery}
   */
   readonly mtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Configure an EBGP multihop session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#multihop BgpNeighbor#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#multihop BgpNeighbor#multihop}
   */
   readonly multihop?: boolean | cdktf.IResolvable;
   /**
   * Don't advertise routes received from the same autonomous system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#no_advertise_peer_as BgpNeighbor#no_advertise_peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#no_advertise_peer_as BgpNeighbor#no_advertise_peer_as}
   */
   readonly noAdvertisePeerAs?: boolean | cdktf.IResolvable;
   /**
   * Disable intracluster route redistribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#no_client_reflect BgpNeighbor#no_client_reflect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#no_client_reflect BgpNeighbor#no_client_reflect}
   */
   readonly noClientReflect?: boolean | cdktf.IResolvable;
   /**
   * How long before exporting routes from routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#out_delay BgpNeighbor#out_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#out_delay BgpNeighbor#out_delay}
   */
   readonly outDelay?: number;
   /**
   * Do not send open messages to a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#passive BgpNeighbor#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#passive BgpNeighbor#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Autonomous system number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#peer_as BgpNeighbor#peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#peer_as BgpNeighbor#peer_as}
   */
   readonly peerAs?: string;
   /**
   * Preference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#preference BgpNeighbor#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#preference BgpNeighbor#preference}
   */
   readonly preference?: number;
   /**
   * Remove well-known private AS numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#remove_private BgpNeighbor#remove_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#remove_private BgpNeighbor#remove_private}
   */
   readonly removePrivate?: boolean | cdktf.IResolvable;
   /**
   * Routing instance for bgp protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#routing_instance BgpNeighbor#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#routing_instance BgpNeighbor#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Enable aggressive transmission of pure TCP ACKs and retransmissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#tcp_aggressive_transmission BgpNeighbor#tcp_aggressive_transmission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#tcp_aggressive_transmission BgpNeighbor#tcp_aggressive_transmission}
   */
   readonly tcpAggressiveTransmission?: boolean | cdktf.IResolvable;
   /**
   * bfd_liveness_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#bfd_liveness_detection BgpNeighbor#bfd_liveness_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#bfd_liveness_detection BgpNeighbor#bfd_liveness_detection}
   */
   readonly bfdLivenessDetection?: BgpNeighborBfdLivenessDetection;
   /**
   * bgp_error_tolerance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#bgp_error_tolerance BgpNeighbor#bgp_error_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#bgp_error_tolerance BgpNeighbor#bgp_error_tolerance}
   */
   readonly bgpErrorTolerance?: BgpNeighborBgpErrorTolerance;
   /**
   * bgp_multipath block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#bgp_multipath BgpNeighbor#bgp_multipath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#bgp_multipath BgpNeighbor#bgp_multipath}
   */
   readonly bgpMultipath?: BgpNeighborBgpMultipath;
   /**
   * family_evpn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#family_evpn BgpNeighbor#family_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#family_evpn BgpNeighbor#family_evpn}
   */
   readonly familyEvpn?: BgpNeighborFamilyEvpn[] | cdktf.IResolvable;
   /**
   * family_inet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#family_inet BgpNeighbor#family_inet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#family_inet BgpNeighbor#family_inet}
   */
   readonly familyInet?: BgpNeighborFamilyInet[] | cdktf.IResolvable;
   /**
   * family_inet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#family_inet6 BgpNeighbor#family_inet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#family_inet6 BgpNeighbor#family_inet6}
   */
   readonly familyInet6?: BgpNeighborFamilyInet6[] | cdktf.IResolvable;
   /**
   * graceful_restart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#graceful_restart BgpNeighbor#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#graceful_restart BgpNeighbor#graceful_restart}
   */
   readonly gracefulRestart?: BgpNeighborGracefulRestart;
 }
@@ -324,73 +324,73 @@ export interface BgpNeighborBfdLivenessDetection {
   /**
   * Authentication algorithm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#authentication_algorithm BgpNeighbor#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#authentication_algorithm BgpNeighbor#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * Authentication key chain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#authentication_key_chain BgpNeighbor#authentication_key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#authentication_key_chain BgpNeighbor#authentication_key_chain}
   */
   readonly authenticationKeyChain?: string;
   /**
   * Verify authentication only if authentication is negotiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#authentication_loose_check BgpNeighbor#authentication_loose_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#authentication_loose_check BgpNeighbor#authentication_loose_check}
   */
   readonly authenticationLooseCheck?: boolean | cdktf.IResolvable;
   /**
   * High detection-time triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#detection_time_threshold BgpNeighbor#detection_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#detection_time_threshold BgpNeighbor#detection_time_threshold}
   */
   readonly detectionTimeThreshold?: number;
   /**
   * Time to hold the session-UP notification to the client (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#holddown_interval BgpNeighbor#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#holddown_interval BgpNeighbor#holddown_interval}
   */
   readonly holddownInterval?: number;
   /**
   * Minimum transmit and receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#minimum_interval BgpNeighbor#minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#minimum_interval BgpNeighbor#minimum_interval}
   */
   readonly minimumInterval?: number;
   /**
   * Minimum receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#minimum_receive_interval BgpNeighbor#minimum_receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#minimum_receive_interval BgpNeighbor#minimum_receive_interval}
   */
   readonly minimumReceiveInterval?: number;
   /**
   * Detection time multiplier (1..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#multiplier BgpNeighbor#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#multiplier BgpNeighbor#multiplier}
   */
   readonly multiplier?: number;
   /**
   * BFD single-hop or multihop session-mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#session_mode BgpNeighbor#session_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#session_mode BgpNeighbor#session_mode}
   */
   readonly sessionMode?: string;
   /**
   * Minimum transmit interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#transmit_interval_minimum_interval BgpNeighbor#transmit_interval_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#transmit_interval_minimum_interval BgpNeighbor#transmit_interval_minimum_interval}
   */
   readonly transmitIntervalMinimumInterval?: number;
   /**
   * High transmit interval triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#transmit_interval_threshold BgpNeighbor#transmit_interval_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#transmit_interval_threshold BgpNeighbor#transmit_interval_threshold}
   */
   readonly transmitIntervalThreshold?: number;
   /**
   * BFD protocol version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#version BgpNeighbor#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#version BgpNeighbor#version}
   */
   readonly version?: string;
 }
@@ -805,19 +805,19 @@ export interface BgpNeighborBgpErrorTolerance {
   /**
   * Maximum number of malformed routes from a peer (0..4294967295).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#malformed_route_limit BgpNeighbor#malformed_route_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#malformed_route_limit BgpNeighbor#malformed_route_limit}
   */
   readonly malformedRouteLimit?: number;
   /**
   * Time used when logging malformed update (10..65535 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#malformed_update_log_interval BgpNeighbor#malformed_update_log_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#malformed_update_log_interval BgpNeighbor#malformed_update_log_interval}
   */
   readonly malformedUpdateLogInterval?: number;
   /**
   * No malformed route limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#no_malformed_route_limit BgpNeighbor#no_malformed_route_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#no_malformed_route_limit BgpNeighbor#no_malformed_route_limit}
   */
   readonly noMalformedRouteLimit?: boolean | cdktf.IResolvable;
 }
@@ -971,19 +971,19 @@ export interface BgpNeighborBgpMultipath {
   /**
   * Allows the BGP multipath and protection to co-exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#allow_protection BgpNeighbor#allow_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#allow_protection BgpNeighbor#allow_protection}
   */
   readonly allowProtection?: boolean | cdktf.IResolvable;
   /**
   * Disable Multipath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#disable BgpNeighbor#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#disable BgpNeighbor#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Use paths received from different ASs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#multiple_as BgpNeighbor#multiple_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#multiple_as BgpNeighbor#multiple_as}
   */
   readonly multipleAs?: boolean | cdktf.IResolvable;
 }
@@ -1137,25 +1137,25 @@ export interface BgpNeighborFamilyEvpnAcceptedPrefixLimit {
   /**
   * Maximum number of prefixes accepted from a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
   */
   readonly maximum?: number;
   /**
   * Clear peer connection on reaching limit with this percentage of prefix-limit to start warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
   */
   readonly teardown?: number;
   /**
   * Timeout before attempting to restart peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
   */
   readonly teardownIdleTimeout?: number;
   /**
   * Idle the peer until the user intervenes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
   */
   readonly teardownIdleTimeoutForever?: boolean | cdktf.IResolvable;
 }
@@ -1338,25 +1338,25 @@ export interface BgpNeighborFamilyEvpnPrefixLimit {
   /**
   * Maximum number of prefixes accepted from a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
   */
   readonly maximum?: number;
   /**
   * Clear peer connection on reaching limit with this percentage of prefix-limit to start warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
   */
   readonly teardown?: number;
   /**
   * Timeout before attempting to restart peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
   */
   readonly teardownIdleTimeout?: number;
   /**
   * Idle the peer until the user intervenes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
   */
   readonly teardownIdleTimeoutForever?: boolean | cdktf.IResolvable;
 }
@@ -1539,19 +1539,19 @@ export interface BgpNeighborFamilyEvpn {
   /**
   * NLRI type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#nlri_type BgpNeighbor#nlri_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#nlri_type BgpNeighbor#nlri_type}
   */
   readonly nlriType?: string;
   /**
   * accepted_prefix_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#accepted_prefix_limit BgpNeighbor#accepted_prefix_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#accepted_prefix_limit BgpNeighbor#accepted_prefix_limit}
   */
   readonly acceptedPrefixLimit?: BgpNeighborFamilyEvpnAcceptedPrefixLimit;
   /**
   * prefix_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#prefix_limit BgpNeighbor#prefix_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#prefix_limit BgpNeighbor#prefix_limit}
   */
   readonly prefixLimit?: BgpNeighborFamilyEvpnPrefixLimit;
 }
@@ -1727,25 +1727,25 @@ export interface BgpNeighborFamilyInetAcceptedPrefixLimit {
   /**
   * Maximum number of prefixes accepted from a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
   */
   readonly maximum?: number;
   /**
   * Clear peer connection on reaching limit with this percentage of prefix-limit to start warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
   */
   readonly teardown?: number;
   /**
   * Timeout before attempting to restart peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
   */
   readonly teardownIdleTimeout?: number;
   /**
   * Idle the peer until the user intervenes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
   */
   readonly teardownIdleTimeoutForever?: boolean | cdktf.IResolvable;
 }
@@ -1928,25 +1928,25 @@ export interface BgpNeighborFamilyInetPrefixLimit {
   /**
   * Maximum number of prefixes accepted from a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
   */
   readonly maximum?: number;
   /**
   * Clear peer connection on reaching limit with this percentage of prefix-limit to start warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
   */
   readonly teardown?: number;
   /**
   * Timeout before attempting to restart peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
   */
   readonly teardownIdleTimeout?: number;
   /**
   * Idle the peer until the user intervenes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
   */
   readonly teardownIdleTimeoutForever?: boolean | cdktf.IResolvable;
 }
@@ -2129,19 +2129,19 @@ export interface BgpNeighborFamilyInet {
   /**
   * NLRI type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#nlri_type BgpNeighbor#nlri_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#nlri_type BgpNeighbor#nlri_type}
   */
   readonly nlriType: string;
   /**
   * accepted_prefix_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#accepted_prefix_limit BgpNeighbor#accepted_prefix_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#accepted_prefix_limit BgpNeighbor#accepted_prefix_limit}
   */
   readonly acceptedPrefixLimit?: BgpNeighborFamilyInetAcceptedPrefixLimit;
   /**
   * prefix_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#prefix_limit BgpNeighbor#prefix_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#prefix_limit BgpNeighbor#prefix_limit}
   */
   readonly prefixLimit?: BgpNeighborFamilyInetPrefixLimit;
 }
@@ -2314,25 +2314,25 @@ export interface BgpNeighborFamilyInet6AcceptedPrefixLimit {
   /**
   * Maximum number of prefixes accepted from a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
   */
   readonly maximum?: number;
   /**
   * Clear peer connection on reaching limit with this percentage of prefix-limit to start warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
   */
   readonly teardown?: number;
   /**
   * Timeout before attempting to restart peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
   */
   readonly teardownIdleTimeout?: number;
   /**
   * Idle the peer until the user intervenes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
   */
   readonly teardownIdleTimeoutForever?: boolean | cdktf.IResolvable;
 }
@@ -2515,25 +2515,25 @@ export interface BgpNeighborFamilyInet6PrefixLimit {
   /**
   * Maximum number of prefixes accepted from a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#maximum BgpNeighbor#maximum}
   */
   readonly maximum?: number;
   /**
   * Clear peer connection on reaching limit with this percentage of prefix-limit to start warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown BgpNeighbor#teardown}
   */
   readonly teardown?: number;
   /**
   * Timeout before attempting to restart peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout BgpNeighbor#teardown_idle_timeout}
   */
   readonly teardownIdleTimeout?: number;
   /**
   * Idle the peer until the user intervenes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#teardown_idle_timeout_forever BgpNeighbor#teardown_idle_timeout_forever}
   */
   readonly teardownIdleTimeoutForever?: boolean | cdktf.IResolvable;
 }
@@ -2716,19 +2716,19 @@ export interface BgpNeighborFamilyInet6 {
   /**
   * NLRI type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#nlri_type BgpNeighbor#nlri_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#nlri_type BgpNeighbor#nlri_type}
   */
   readonly nlriType: string;
   /**
   * accepted_prefix_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#accepted_prefix_limit BgpNeighbor#accepted_prefix_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#accepted_prefix_limit BgpNeighbor#accepted_prefix_limit}
   */
   readonly acceptedPrefixLimit?: BgpNeighborFamilyInet6AcceptedPrefixLimit;
   /**
   * prefix_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#prefix_limit BgpNeighbor#prefix_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#prefix_limit BgpNeighbor#prefix_limit}
   */
   readonly prefixLimit?: BgpNeighborFamilyInet6PrefixLimit;
 }
@@ -2901,19 +2901,19 @@ export interface BgpNeighborGracefulRestart {
   /**
   * Disable graceful restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#disable BgpNeighbor#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#disable BgpNeighbor#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Restart time used when negotiating with a peer (1..600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#restart_time BgpNeighbor#restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#restart_time BgpNeighbor#restart_time}
   */
   readonly restartTime?: number;
   /**
   * Maximum time for which stale routes are kept (1..600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#stale_route_time BgpNeighbor#stale_route_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#stale_route_time BgpNeighbor#stale_route_time}
   */
   readonly staleRouteTime?: number;
 }
@@ -3065,7 +3065,7 @@ export class BgpNeighborGracefulRestartOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor junos_bgp_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor junos_bgp_neighbor}
 */
 export class BgpNeighbor extends cdktf.TerraformResource {
 
@@ -3081,7 +3081,7 @@ export class BgpNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpNeighbor to import
-  * @param importFromId The id of the existing BgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3093,7 +3093,7 @@ export class BgpNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bgp_neighbor junos_bgp_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bgp_neighbor junos_bgp_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3104,8 +3104,8 @@ export class BgpNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'junos_bgp_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

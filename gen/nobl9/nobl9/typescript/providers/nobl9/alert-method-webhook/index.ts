@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AlertMethodWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#description AlertMethodWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#description AlertMethodWebhook#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#display_name AlertMethodWebhook#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#display_name AlertMethodWebhook#display_name}
   */
   readonly displayName?: string;
   /**
   * Custom HTTP headers to include in the webhook request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#headers AlertMethodWebhook#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#headers AlertMethodWebhook#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#id AlertMethodWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#id AlertMethodWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface AlertMethodWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#name AlertMethodWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#name AlertMethodWebhook#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#project AlertMethodWebhook#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#project AlertMethodWebhook#project}
   */
   readonly project: string;
   /**
   * Custom HTTP headers to include in the webhook request. The values are treated as sensitive, will not be displayed in the Terraform state and will be encrypted by Nobl9 platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#sensitive_headers AlertMethodWebhook#sensitive_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#sensitive_headers AlertMethodWebhook#sensitive_headers}
   */
   readonly sensitiveHeaders?: { [key: string]: string };
   /**
   * Webhook message template. See documentation for template format and samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#template AlertMethodWebhook#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#template AlertMethodWebhook#template}
   */
   readonly template?: string;
   /**
   * Webhook message fields. The message contains JSON payload with specified fields. See documentation for allowed fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#template_fields AlertMethodWebhook#template_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#template_fields AlertMethodWebhook#template_fields}
   */
   readonly templateFields?: string[];
   /**
   * URL of the webhook endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#url AlertMethodWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#url AlertMethodWebhook#url}
   */
   readonly url?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook nobl9_alert_method_webhook}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook nobl9_alert_method_webhook}
 */
 export class AlertMethodWebhook extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class AlertMethodWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertMethodWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertMethodWebhook to import
-  * @param importFromId The id of the existing AlertMethodWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertMethodWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertMethodWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class AlertMethodWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/alert_method_webhook nobl9_alert_method_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/alert_method_webhook nobl9_alert_method_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class AlertMethodWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_alert_method_webhook',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

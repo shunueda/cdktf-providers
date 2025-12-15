@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,32 +11,32 @@ export interface KmsAsymmetricSignatureKeyConfig extends cdktf.TerraformMetaArgu
   * ID of the asymmetric KMS key to return.
   *  To get the ID of an asymmetric KMS key use a [AsymmetricSignatureKeyService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#asymmetric_signature_key_id KmsAsymmetricSignatureKey#asymmetric_signature_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#asymmetric_signature_key_id KmsAsymmetricSignatureKey#asymmetric_signature_key_id}
   */
   readonly asymmetricSignatureKeyId?: string;
   /**
   * Flag that inhibits deletion of the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#deletion_protection KmsAsymmetricSignatureKey#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#deletion_protection KmsAsymmetricSignatureKey#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#description KmsAsymmetricSignatureKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#description KmsAsymmetricSignatureKey#description}
   */
   readonly description?: string;
   /**
   * ID of the folder that the key belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#folder_id KmsAsymmetricSignatureKey#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#folder_id KmsAsymmetricSignatureKey#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the asymmetric KMS key to return.
   *  To get the ID of an asymmetric KMS key use a [AsymmetricSignatureKeyService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#id KmsAsymmetricSignatureKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#id KmsAsymmetricSignatureKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,31 +45,31 @@ export interface KmsAsymmetricSignatureKeyConfig extends cdktf.TerraformMetaArgu
   /**
   * Custom labels for the key as `key:value` pairs. Maximum 64 per key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#labels KmsAsymmetricSignatureKey#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#labels KmsAsymmetricSignatureKey#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#name KmsAsymmetricSignatureKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#name KmsAsymmetricSignatureKey#name}
   */
   readonly name?: string;
   /**
   * Signature Algorithm ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#signature_algorithm KmsAsymmetricSignatureKey#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#signature_algorithm KmsAsymmetricSignatureKey#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
   * Current status of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#status KmsAsymmetricSignatureKey#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#status KmsAsymmetricSignatureKey#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#timeouts KmsAsymmetricSignatureKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#timeouts KmsAsymmetricSignatureKey#timeouts}
   */
   readonly timeouts?: KmsAsymmetricSignatureKeyTimeouts;
 }
@@ -77,25 +77,25 @@ export interface KmsAsymmetricSignatureKeyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#create KmsAsymmetricSignatureKey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#create KmsAsymmetricSignatureKey#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#delete KmsAsymmetricSignatureKey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#delete KmsAsymmetricSignatureKey#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#read KmsAsymmetricSignatureKey#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#read KmsAsymmetricSignatureKey#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#update KmsAsymmetricSignatureKey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#update KmsAsymmetricSignatureKey#update}
   */
   readonly update?: string;
 }
@@ -276,7 +276,7 @@ export class KmsAsymmetricSignatureKeyTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key yandex_kms_asymmetric_signature_key}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key yandex_kms_asymmetric_signature_key}
 */
 export class KmsAsymmetricSignatureKey extends cdktf.TerraformResource {
 
@@ -292,7 +292,7 @@ export class KmsAsymmetricSignatureKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsAsymmetricSignatureKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsAsymmetricSignatureKey to import
-  * @param importFromId The id of the existing KmsAsymmetricSignatureKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsAsymmetricSignatureKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsAsymmetricSignatureKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -304,7 +304,7 @@ export class KmsAsymmetricSignatureKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/kms_asymmetric_signature_key yandex_kms_asymmetric_signature_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_asymmetric_signature_key yandex_kms_asymmetric_signature_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -315,8 +315,8 @@ export class KmsAsymmetricSignatureKey extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_kms_asymmetric_signature_key',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#metadata DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#metadata DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestMetadata;
   /**
   * ClusterDeploymentSpec defines the desired state of ClusterDeployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#spec DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#spec DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#spec}
   */
   readonly spec?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#annotations DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#labels DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#labels DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecBoundServi
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -315,7 +315,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecCertificat
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -411,19 +411,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecCertificat
   /**
   * CertificateSecretRef is the reference to the secret that contains the certificate bundle. If the certificate bundle is to be generated, it will be generated with the name in this reference. Otherwise, it is expected that the secret should exist in the same namespace as the ClusterDeployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificate_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificate_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificate_secret_ref}
   */
   readonly certificateSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecCertificateBundlesCertificateSecretRef;
   /**
   * Generate indicates whether this bundle should have real certificates generated for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#generate DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#generate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#generate DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#generate}
   */
   readonly generate?: boolean | cdktf.IResolvable;
   /**
   * Name is an identifier that must be unique within the bundle and must be referenced by an ingress or by the control plane serving certs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
 }
@@ -591,19 +591,19 @@ export class DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecCertificateBun
 }
 export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterInstallRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#group DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#group DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#kind DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#kind DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#version DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#version DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#version}
   */
   readonly version: string;
 }
@@ -774,7 +774,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMet
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -870,7 +870,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMet
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -966,7 +966,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMet
   /**
   * HostedZoneRole is the role to assume when performing operations on a hosted zone owned by another account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#hosted_zone_role DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#hosted_zone_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#hosted_zone_role DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#hosted_zone_role}
   */
   readonly hostedZoneRole?: string;
 }
@@ -1062,7 +1062,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMet
   /**
   * ResourceGroupName is the name of the resource group in which the cluster resources were created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#resource_group_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#resource_group_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -1155,7 +1155,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMet
   /**
   * NetworkProjectID is used for shared VPC setups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#network_project_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#network_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#network_project_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#network_project_id}
   */
   readonly networkProjectId?: string;
 }
@@ -1251,19 +1251,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMet
   /**
   * AWS holds AWS-specific cluster metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#aws DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#aws DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#aws}
   */
   readonly aws?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMetadataPlatformAws;
   /**
   * Azure holds azure-specific cluster metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#azure DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#azure DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#azure}
   */
   readonly azure?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMetadataPlatformAzure;
   /**
   * GCP holds GCP-specific cluster metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#gcp DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#gcp DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#gcp}
   */
   readonly gcp?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMetadataPlatformGcp;
 }
@@ -1417,31 +1417,31 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMet
   /**
   * AdminKubeconfigSecretRef references the secret containing the admin kubeconfig for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#admin_kubeconfig_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#admin_kubeconfig_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#admin_kubeconfig_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#admin_kubeconfig_secret_ref}
   */
   readonly adminKubeconfigSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMetadataAdminKubeconfigSecretRef;
   /**
   * AdminPasswordSecretRef references the secret containing the admin username/password which can be used to login to this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#admin_password_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#admin_password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#admin_password_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#admin_password_secret_ref}
   */
   readonly adminPasswordSecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMetadataAdminPasswordSecretRef;
   /**
   * ClusterID is a globally unique identifier for this cluster generated during installation. Used for reporting metrics among other places.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_id}
   */
   readonly clusterId: string;
   /**
   * InfraID is an identifier for this cluster generated during installation and used for tagging/naming resources in cloud providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#infra_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#infra_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#infra_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#infra_id}
   */
   readonly infraId: string;
   /**
   * Platform holds platform-specific cluster metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#platform DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#platform DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#platform}
   */
   readonly platform?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMetadataPlatform;
 }
@@ -1644,7 +1644,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterPoo
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1740,31 +1740,31 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterPoo
   /**
   * ClaimName is the name of the ClusterClaim that claimed the cluster from the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#claim_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#claim_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#claim_name}
   */
   readonly claimName?: string;
   /**
   * ClaimedTimestamp is the time this cluster was assigned to a ClusterClaim. This is only used for ClusterDeployments belonging to ClusterPools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#claimed_timestamp DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#claimed_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#claimed_timestamp DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#claimed_timestamp}
   */
   readonly claimedTimestamp?: string;
   /**
   * CustomizationRef is the ClusterPool Inventory claimed customization for this ClusterDeployment. The Customization exists in the ClusterPool namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_deployment_customization DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_deployment_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_deployment_customization DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_deployment_customization}
   */
   readonly clusterDeploymentCustomization?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterPoolRefClusterDeploymentCustomization;
   /**
   * Namespace is the namespace where the ClusterPool resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#namespace DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * PoolName is the name of the ClusterPool for which the cluster was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#pool_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#pool_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#pool_name}
   */
   readonly poolName: string;
 }
@@ -1970,13 +1970,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecControlPla
   /**
   * Domain is the domain of the additional control plane certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#domain DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#domain DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#domain}
   */
   readonly domain: string;
   /**
   * Name references a CertificateBundle in the ClusterDeployment.Spec that should be used for this additional certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2117,13 +2117,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecControlPla
   /**
   * Additional is a list of additional domains and certificates that are also associated with the control plane's api endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#additional DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#additional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#additional DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#additional}
   */
   readonly additional?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecControlPlaneConfigServingCertificatesAdditional[] | cdktf.IResolvable;
   /**
   * Default references the name of a CertificateBundle in the ClusterDeployment that should be used for the control plane's default endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#default DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#default DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#default}
   */
   readonly default?: string;
 }
@@ -2248,19 +2248,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecControlPla
   /**
   * APIServerIPOverride is the optional override of the API server IP address. Hive will use this IP address for creating TCP connections. Port from the original API server URL will be used. This field can be used when repointing the APIServer's DNS is not viable option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#api_server_ip_override DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#api_server_ip_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#api_server_ip_override DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#api_server_ip_override}
   */
   readonly apiServerIpOverride?: string;
   /**
   * APIURLOverride is the optional URL override to which Hive will transition for communication with the API server of the remote cluster. When a remote cluster is created, Hive will initially communicate using the API URL established during installation. If an API URL Override is specified, Hive will periodically attempt to connect to the remote cluster using the override URL. Once Hive has determined that the override URL is active, Hive will use the override URL for further communications with the API server of the remote cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#api_url_override DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#api_url_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#api_url_override DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#api_url_override}
   */
   readonly apiUrlOverride?: string;
   /**
   * ServingCertificates specifies serving certificates for the control plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#serving_certificates DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#serving_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#serving_certificates DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#serving_certificates}
   */
   readonly servingCertificates?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecControlPlaneConfigServingCertificates;
 }
@@ -2414,7 +2414,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressHtt
   /**
   * name is the metadata.name of the referenced config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2507,19 +2507,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressNam
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#operator DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#operator DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#values DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#values DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2689,13 +2689,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressNam
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2820,19 +2820,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressRou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#operator DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#operator DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#values DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#values DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3002,13 +3002,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressRou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressRouteSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3133,37 +3133,37 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngress {
   /**
   * Domain (sometimes referred to as shard) is the full DNS suffix that the resulting IngressController object will service (eg abcd.mycluster.mydomain.com).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#domain DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#domain DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#domain}
   */
   readonly domain: string;
   /**
   * HttpErrorCodePages allows configuring custom HTTP error pages using the IngressController object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#http_error_code_pages DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#http_error_code_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#http_error_code_pages DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#http_error_code_pages}
   */
   readonly httpErrorCodePages?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressHttpErrorCodePages;
   /**
   * Name of the ClusterIngress object to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
   /**
   * NamespaceSelector allows filtering the list of namespaces serviced by the ingress controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#namespace_selector DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#namespace_selector DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressNamespaceSelector;
   /**
   * RouteSelector allows filtering the set of Routes serviced by the ingress controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#route_selector DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#route_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#route_selector DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#route_selector}
   */
   readonly routeSelector?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngressRouteSelector;
   /**
   * ServingCertificate references a CertificateBundle in the ClusterDeployment.Spec that should be used for this Ingress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#serving_certificate DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#serving_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#serving_certificate DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#serving_certificate}
   */
   readonly servingCertificate?: string;
 }
@@ -3420,19 +3420,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAg
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#operator DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#operator DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#values DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#values DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3602,13 +3602,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAg
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_expressions DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAgentBareMetalAgentSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#match_labels DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3733,7 +3733,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAg
   /**
   * AgentSelector is a label selector used for associating relevant custom resources with this cluster. (Agent, BareMetalHost, etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#agent_selector DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#agent_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#agent_selector DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#agent_selector}
   */
   readonly agentSelector: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAgentBareMetalAgentSelector;
 }
@@ -3826,11 +3826,11 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAw
   /**
   * ExternalID is random string generated by platform so that assume role is protected from confused deputy problem. more info: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#external_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#external_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#role_arn DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#role_arn DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#role_arn}
   */
   readonly roleArn: string;
 }
@@ -3952,7 +3952,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAw
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4048,11 +4048,11 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAw
   /**
   * AdditionalAllowedPrincipals is a list of additional allowed principal ARNs to be configured for the Private Link cluster's VPC Endpoint Service. ARNs provided as AdditionalAllowedPrincipals will be configured for the cluster's VPC Endpoint Service in addition to the IAM entity used by Hive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#additional_allowed_principals DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#additional_allowed_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#additional_allowed_principals DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#additional_allowed_principals}
   */
   readonly additionalAllowedPrincipals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#enabled DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#enabled DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -4174,31 +4174,31 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAw
   /**
   * CredentialsAssumeRole refers to the IAM role that must be assumed to obtain AWS account access for the cluster operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_assume_role DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_assume_role DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_assume_role}
   */
   readonly credentialsAssumeRole?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAwsCredentialsAssumeRole;
   /**
   * CredentialsSecretRef refers to a secret that contains the AWS account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAwsCredentialsSecretRef;
   /**
   * PrivateLink allows uses to enable access to the cluster's API server using AWS PrivateLink. AWS PrivateLink includes a pair of VPC Endpoint Service and VPC Endpoint accross AWS accounts and allows clients to connect to services using AWS's internal networking instead of the Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#private_link DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#private_link DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#private_link}
   */
   readonly privateLink?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAwsPrivateLink;
   /**
   * Region specifies the AWS region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#region DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#region DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#region}
   */
   readonly region: string;
   /**
   * UserTags specifies additional tags for AWS resources created for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#user_tags DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#user_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#user_tags DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#user_tags}
   */
   readonly userTags?: { [key: string]: string };
 }
@@ -4407,7 +4407,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAz
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4503,25 +4503,25 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAz
   /**
   * BaseDomainResourceGroupName specifies the resource group where the azure DNS zone for the base domain is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#base_domain_resource_group_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#base_domain_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#base_domain_resource_group_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#base_domain_resource_group_name}
   */
   readonly baseDomainResourceGroupName?: string;
   /**
   * cloudName is the name of the Azure cloud environment which can be used to configure the Azure SDK with the appropriate Azure API endpoints. If empty, the value is equal to 'AzurePublicCloud'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cloud_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cloud_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * CredentialsSecretRef refers to a secret that contains the Azure account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAzureCredentialsSecretRef;
   /**
   * Region specifies the Azure region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#region DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#region DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#region}
   */
   readonly region: string;
 }
@@ -4698,7 +4698,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformBa
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4794,7 +4794,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformBa
   /**
   * LibvirtSSHPrivateKeySecretRef is the reference to the secret that contains the private SSH key to use for access to the libvirt provisioning host. The SSH private key is expected to be in the secret data under the 'ssh-privatekey' key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#libvirt_ssh_private_key_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#libvirt_ssh_private_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#libvirt_ssh_private_key_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#libvirt_ssh_private_key_secret_ref}
   */
   readonly libvirtSshPrivateKeySecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformBaremetalLibvirtSshPrivateKeySecretRef;
 }
@@ -4887,7 +4887,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGc
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4983,13 +4983,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGc
   /**
   * Name specifies the name of the existing subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Project specifies the project the subnet exists in. This is required for Shared VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#project DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#project DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#project}
   */
   readonly project?: string;
 }
@@ -5111,13 +5111,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGc
   /**
   * Cidr specifies the cidr to use when creating a service attachment subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cidr DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cidr DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cidr}
   */
   readonly cidr?: string;
   /**
   * Existing specifies a pre-existing subnet to use instead of creating a new service attachment subnet. This is required when using BYO VPCs. It must be in the same region as the api-int load balancer, be configured with a purpose of 'Private Service Connect', and have sufficient routing and firewall rules to access the api-int load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#existing DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#existing DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#existing}
   */
   readonly existing?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGcpPrivateServiceConnectServiceAttachmentSubnetExisting;
 }
@@ -5242,7 +5242,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGc
   /**
   * Subnet configures the subnetwork that contains the service attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#subnet DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#subnet DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#subnet}
   */
   readonly subnet?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGcpPrivateServiceConnectServiceAttachmentSubnet;
 }
@@ -5338,13 +5338,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGc
   /**
   * Enabled specifies if Private Service Connect is to be enabled on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#enabled DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#enabled DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * ServiceAttachment configures the service attachment to be used by the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#service_attachment DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#service_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#service_attachment DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#service_attachment}
   */
   readonly serviceAttachment?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGcpPrivateServiceConnectServiceAttachment;
 }
@@ -5466,19 +5466,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGc
   /**
   * CredentialsSecretRef refers to a secret that contains the GCP account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGcpCredentialsSecretRef;
   /**
   * PrivateSericeConnect allows users to enable access to the cluster's API server using GCP Private Service Connect. It includes a forwarding rule paired with a Service Attachment across GCP accounts and allows clients to connect to services using GCP internal networking of using public load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#private_service_connect DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#private_service_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#private_service_connect DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#private_service_connect}
   */
   readonly privateServiceConnect?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGcpPrivateServiceConnect;
   /**
   * Region specifies the GCP region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#region DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#region DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#region}
   */
   readonly region: string;
 }
@@ -5629,7 +5629,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformIb
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5725,25 +5725,25 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformIb
   /**
   * AccountID is the IBM Cloud Account ID. AccountID is DEPRECATED and is gathered via the IBM Cloud API for the provided credentials. This field will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#account_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#account_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#account_id}
   */
   readonly accountId?: string;
   /**
   * CISInstanceCRN is the IBM Cloud Internet Services Instance CRN CISInstanceCRN is DEPRECATED and gathered via the IBM Cloud API for the provided credentials and cluster deployment base domain. This field will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cis_instance_crn DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cis_instance_crn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cis_instance_crn DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cis_instance_crn}
   */
   readonly cisInstanceCrn?: string;
   /**
   * CredentialsSecretRef refers to a secret that contains IBM Cloud account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformIbmcloudCredentialsSecretRef;
   /**
   * Region specifies the IBM Cloud region where the cluster will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#region DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#region DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#region}
   */
   readonly region: string;
 }
@@ -5920,7 +5920,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOp
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6016,7 +6016,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOp
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6112,25 +6112,25 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOp
   /**
   * CertificatesSecretRef refers to a secret that contains CA certificates necessary for communicating with the OpenStack. There is additional configuration required for the OpenShift cluster to trust the certificates provided in this secret. The 'clouds.yaml' file included in the credentialsSecretRef Secret must also include a reference to the certificate bundle file for the OpenShift cluster being created to trust the OpenStack endpoints. The 'clouds.yaml' file must set the 'cacert' field to either '/etc/openstack-ca/<key name containing the trust bundle in credentialsSecretRef Secret>' or '/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem'. For example, ```clouds.yaml clouds: shiftstack: auth: ... cacert: '/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem' ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificates_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificates_secret_ref}
   */
   readonly certificatesSecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOpenstackCertificatesSecretRef;
   /**
   * Cloud will be used to indicate the OS_CLOUD value to use the right section from the clouds.yaml in the CredentialsSecretRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cloud DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cloud DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cloud}
   */
   readonly cloud: string;
   /**
   * CredentialsSecretRef refers to a secret that contains the OpenStack account access credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOpenstackCredentialsSecretRef;
   /**
   * TrunkSupport indicates whether or not to use trunk ports in your OpenShift cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#trunk_support DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#trunk_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#trunk_support DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#trunk_support}
   */
   readonly trunkSupport?: boolean | cdktf.IResolvable;
 }
@@ -6307,7 +6307,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6403,7 +6403,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6499,31 +6499,31 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOv
   /**
   * CertificatesSecretRef refers to a secret that contains the oVirt CA certificates necessary for communicating with oVirt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificates_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificates_secret_ref}
   */
   readonly certificatesSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOvirtCertificatesSecretRef;
   /**
   * CredentialsSecretRef refers to a secret that contains the oVirt account access credentials with fields: ovirt_url, ovirt_username, ovirt_password, ovirt_ca_bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOvirtCredentialsSecretRef;
   /**
   * The target cluster under which all VMs will run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ovirt_cluster_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ovirt_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ovirt_cluster_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ovirt_cluster_id}
   */
   readonly ovirtClusterId: string;
   /**
   * The target network of all the network interfaces of the nodes. Omitting defaults to ovirtmgmt network which is a default network for evert ovirt cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ovirt_network_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ovirt_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ovirt_network_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ovirt_network_name}
   */
   readonly ovirtNetworkName?: string;
   /**
   * The target storage domain under which all VM disk would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#storage_domain_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#storage_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#storage_domain_id DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#storage_domain_id}
   */
   readonly storageDomainId: string;
 }
@@ -6723,7 +6723,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformVs
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6819,7 +6819,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformVs
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6915,49 +6915,49 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformVs
   /**
   * CertificatesSecretRef refers to a secret that contains the vSphere CA certificates necessary for communicating with the VCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificates_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificates_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificates_secret_ref}
   */
   readonly certificatesSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformVsphereCertificatesSecretRef;
   /**
   * Cluster is the name of the cluster virtual machines will be cloned into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * CredentialsSecretRef refers to a secret that contains the vSphere account access credentials: GOVC_USERNAME, GOVC_PASSWORD fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformVsphereCredentialsSecretRef;
   /**
   * Datacenter is the name of the datacenter to use in the vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#datacenter DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#datacenter DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#datacenter}
   */
   readonly datacenter: string;
   /**
   * DefaultDatastore is the default datastore to use for provisioning volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#default_datastore DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#default_datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#default_datastore DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#default_datastore}
   */
   readonly defaultDatastore: string;
   /**
   * Folder is the name of the folder that will be used and/or created for virtual machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#folder DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#folder DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#folder}
   */
   readonly folder?: string;
   /**
   * Network specifies the name of the network to be used by the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#network DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#network DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#network}
   */
   readonly network?: string;
   /**
   * VCenter is the domain name or IP address of the vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#v_center DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#v_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#v_center DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#v_center}
   */
   readonly vCenter: string;
 }
@@ -7241,61 +7241,61 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatform {
   /**
   * AgentBareMetal is the configuration used when performing an Assisted Agent based installation to bare metal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#agent_bare_metal DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#agent_bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#agent_bare_metal DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#agent_bare_metal}
   */
   readonly agentBareMetal?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAgentBareMetal;
   /**
   * AWS is the configuration used when installing on AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#aws DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#aws DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#aws}
   */
   readonly aws?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAws;
   /**
   * Azure is the configuration used when installing on Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#azure DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#azure DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#azure}
   */
   readonly azure?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformAzure;
   /**
   * BareMetal is the configuration used when installing on bare metal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#baremetal DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#baremetal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#baremetal DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#baremetal}
   */
   readonly baremetal?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformBaremetal;
   /**
   * GCP is the configuration used when installing on Google Cloud Platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#gcp DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#gcp DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#gcp}
   */
   readonly gcp?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformGcp;
   /**
   * IBMCloud is the configuration used when installing on IBM Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ibmcloud DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ibmcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ibmcloud DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ibmcloud}
   */
   readonly ibmcloud?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformIbmcloud;
   /**
   * None indicates platform-agnostic install. https://docs.openshift.com/container-platform/4.7/installing/installing_platform_agnostic/installing-platform-agnostic.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#none DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#none DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * OpenStack is the configuration used when installing on OpenStack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#openstack DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#openstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#openstack DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#openstack}
   */
   readonly openstack?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOpenstack;
   /**
   * Ovirt is the configuration used when installing on oVirt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ovirt DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ovirt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ovirt DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ovirt}
   */
   readonly ovirt?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformOvirt;
   /**
   * VSphere is the configuration used when installing on vSphere
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#vsphere DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#vsphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#vsphere DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#vsphere}
   */
   readonly vsphere?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatformVsphere;
 }
@@ -7652,7 +7652,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Name is the name of the ClusterImageSet that this refers to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
 }
@@ -7745,7 +7745,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7841,19 +7841,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#optional DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#optional DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8004,13 +8004,13 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#api_version DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#api_version DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#field_path DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#field_path DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -8132,19 +8132,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#container_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#container_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#divisor DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#divisor DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#resource DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#resource DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -8295,19 +8295,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#key DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#optional DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#optional DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8458,25 +8458,25 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#config_map_key_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#config_map_key_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningInstallerEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#field_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#field_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningInstallerEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#resource_field_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#resource_field_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningInstallerEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#secret_key_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#secret_key_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningInstallerEnvValueFromSecretKeyRef;
 }
@@ -8659,19 +8659,19 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#value DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#value DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#value_from DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#value_from DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningInstallerEnvValueFrom;
 }
@@ -8844,7 +8844,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8940,7 +8940,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9036,7 +9036,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9132,55 +9132,55 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioni
   /**
   * ImageSetRef is a reference to a ClusterImageSet. If a value is specified for ReleaseImage, that will take precedence over the one from the ClusterImageSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#image_set_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#image_set_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#image_set_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#image_set_ref}
   */
   readonly imageSetRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningImageSetRef;
   /**
   * InstallConfigSecretRef is the reference to a secret that contains an openshift-install InstallConfig. This file will be passed through directly to the installer. Any version of InstallConfig can be used, provided it can be parsed by the openshift-install version for the release you are provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#install_config_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#install_config_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#install_config_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#install_config_secret_ref}
   */
   readonly installConfigSecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningInstallConfigSecretRef;
   /**
   * InstallerEnv are extra environment variables to pass through to the installer. This may be used to enable additional features of the installer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#installer_env DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#installer_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#installer_env DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#installer_env}
   */
   readonly installerEnv?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningInstallerEnv[] | cdktf.IResolvable;
   /**
   * InstallerImageOverride allows specifying a URI for the installer image, normally gleaned from the metadata within the ReleaseImage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#installer_image_override DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#installer_image_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#installer_image_override DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#installer_image_override}
   */
   readonly installerImageOverride?: string;
   /**
   * ManifestsConfigMapRef is a reference to user-provided manifests to add to or replace manifests that are generated by the installer. It serves the same purpose as, and is mutually exclusive with, ManifestsSecretRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#manifests_config_map_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#manifests_config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#manifests_config_map_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#manifests_config_map_ref}
   */
   readonly manifestsConfigMapRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningManifestsConfigMapRef;
   /**
   * ManifestsSecretRef is a reference to user-provided manifests to add to or replace manifests that are generated by the installer. It serves the same purpose as, and is mutually exclusive with, ManifestsConfigMapRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#manifests_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#manifests_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#manifests_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#manifests_secret_ref}
   */
   readonly manifestsSecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningManifestsSecretRef;
   /**
   * ReleaseImage is the image containing metadata for all components that run in the cluster, and is the primary and best way to specify what specific version of OpenShift you wish to install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#release_image DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#release_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#release_image DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#release_image}
   */
   readonly releaseImage?: string;
   /**
   * SSHKnownHosts are known hosts to be configured in the hive install manager pod to avoid ssh prompts. Use of ssh in the install pod is somewhat limited today (failure log gathering from cluster, some bare metal provisioning scenarios), so this setting is often not needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ssh_known_hosts DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ssh_known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ssh_known_hosts DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ssh_known_hosts}
   */
   readonly sshKnownHosts?: string[];
   /**
   * SSHPrivateKeySecretRef is the reference to the secret that contains the private SSH key to use for access to compute instances. This private key should correspond to the public key included in the InstallConfig. The private key is used by Hive to gather logs on the target cluster if there are install failures. The SSH private key is expected to be in the secret data under the 'ssh-privatekey' key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ssh_private_key_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ssh_private_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ssh_private_key_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ssh_private_key_secret_ref}
   */
   readonly sshPrivateKeySecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioningSshPrivateKeySecretRef;
 }
@@ -9508,7 +9508,7 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPullSecret
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9604,109 +9604,109 @@ export interface DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpec {
   /**
   * BaseDomain is the base domain to which the cluster should belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#base_domain DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#base_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#base_domain DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#base_domain}
   */
   readonly baseDomain: string;
   /**
   * BoundServiceAccountSigningKeySecretRef refers to a Secret that contains a 'bound-service-account-signing-key.key' data key pointing to the private key that will be used to sign ServiceAccount objects. Primarily used to provision AWS clusters to use Amazon's Security Token Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#bound_service_account_signing_key_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#bound_service_account_signing_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#bound_service_account_signing_key_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#bound_service_account_signing_key_secret_ref}
   */
   readonly boundServiceAccountSigningKeySecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecBoundServiceAccountSigningKeySecretRef;
   /**
   * CertificateBundles is a list of certificate bundles associated with this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificate_bundles DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificate_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#certificate_bundles DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#certificate_bundles}
   */
   readonly certificateBundles?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecCertificateBundles[] | cdktf.IResolvable;
   /**
   * ClusterInstallLocalReference provides reference to an object that implements the hivecontract ClusterInstall. The namespace of the object is same as the ClusterDeployment. This cannot be set when Provisioning is also set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_install_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_install_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_install_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_install_ref}
   */
   readonly clusterInstallRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterInstallRef;
   /**
   * ClusterMetadata contains metadata information about the installed cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_metadata DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_metadata DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_metadata}
   */
   readonly clusterMetadata?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterMetadata;
   /**
   * ClusterName is the friendly name of the cluster. It is used for subdomains, some resource tagging, and other instances where a friendly name for the cluster is useful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_name DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * ClusterPoolRef is a reference to the ClusterPool that this ClusterDeployment originated from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_pool_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#cluster_pool_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#cluster_pool_ref}
   */
   readonly clusterPoolRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecClusterPoolRef;
   /**
   * ControlPlaneConfig contains additional configuration for the target cluster's control plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#control_plane_config DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#control_plane_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#control_plane_config DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#control_plane_config}
   */
   readonly controlPlaneConfig?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecControlPlaneConfig;
   /**
   * HibernateAfter will transition a cluster to hibernating power state after it has been running for the given duration. The time that a cluster has been running is the time since the cluster was installed or the time since the cluster last came out of hibernation. This is a Duration value; see https://pkg.go.dev/time#ParseDuration for accepted formats. Note: due to discrepancies in validation vs parsing, we use a Pattern instead of 'Format=duration'. See https://bugzilla.redhat.com/show_bug.cgi?id=2050332 https://github.com/kubernetes/apimachinery/issues/131 https://github.com/kubernetes/apiextensions-apiserver/issues/56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#hibernate_after DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#hibernate_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#hibernate_after DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#hibernate_after}
   */
   readonly hibernateAfter?: string;
   /**
   * Ingress allows defining desired clusteringress/shards to be configured on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ingress DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#ingress DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#ingress}
   */
   readonly ingress?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecIngress[] | cdktf.IResolvable;
   /**
   * InstallAttemptsLimit is the maximum number of times Hive will attempt to install the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#install_attempts_limit DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#install_attempts_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#install_attempts_limit DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#install_attempts_limit}
   */
   readonly installAttemptsLimit?: number;
   /**
   * Installed is true if the cluster has been installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#installed DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#installed DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#installed}
   */
   readonly installed?: boolean | cdktf.IResolvable;
   /**
   * ManageDNS specifies whether a DNSZone should be created and managed automatically for this ClusterDeployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#manage_dns DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#manage_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#manage_dns DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#manage_dns}
   */
   readonly manageDns?: boolean | cdktf.IResolvable;
   /**
   * Platform is the configuration for the specific platform upon which to perform the installation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#platform DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#platform DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#platform}
   */
   readonly platform: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPlatform;
   /**
   * PowerState indicates whether a cluster should be running or hibernating. When omitted, PowerState defaults to the Running state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#power_state DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#power_state DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#power_state}
   */
   readonly powerState?: string;
   /**
   * PreserveOnDelete allows the user to disconnect a cluster from Hive without deprovisioning it. This can also be used to abandon ongoing cluster deprovision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#preserve_on_delete DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#preserve_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#preserve_on_delete DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#preserve_on_delete}
   */
   readonly preserveOnDelete?: boolean | cdktf.IResolvable;
   /**
   * Provisioning contains settings used only for initial cluster provisioning. May be unset in the case of adopted clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#provisioning DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#provisioning DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#provisioning}
   */
   readonly provisioning?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecProvisioning;
   /**
   * PullSecretRef is the reference to the secret to use when pulling images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#pull_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#pull_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#pull_secret_ref DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest#pull_secret_ref}
   */
   readonly pullSecretRef?: DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecPullSecretRef;
 }
@@ -10284,7 +10284,7 @@ export class DataK8SHiveOpenshiftIoClusterDeploymentV1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest k8s_hive_openshift_io_cluster_deployment_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest k8s_hive_openshift_io_cluster_deployment_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest extends cdktf.TerraformDataSource {
 
@@ -10300,7 +10300,7 @@ export class DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10312,7 +10312,7 @@ export class DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest k8s_hive_openshift_io_cluster_deployment_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hive_openshift_io_cluster_deployment_v1_manifest k8s_hive_openshift_io_cluster_deployment_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10323,8 +10323,8 @@ export class DataK8SHiveOpenshiftIoClusterDeploymentV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_hive_openshift_io_cluster_deployment_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

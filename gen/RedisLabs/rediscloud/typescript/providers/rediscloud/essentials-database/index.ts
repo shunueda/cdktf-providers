@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktf from 'cdktf';
 
 export interface EssentialsDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#client_tls_certificates EssentialsDatabase#client_tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#client_tls_certificates EssentialsDatabase#client_tls_certificates}
   */
   readonly clientTlsCertificates?: string[];
   /**
   * The data items eviction policy (either: 'allkeys-lru', 'allkeys-lfu', 'allkeys-random', 'volatile-lru', 'volatile-lfu', 'volatile-random', 'volatile-ttl' or 'noeviction'. Default: 'volatile-lru')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#data_eviction EssentialsDatabase#data_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#data_eviction EssentialsDatabase#data_eviction}
   */
   readonly dataEviction?: string;
   /**
   * Rate of database data persistence (in persistent storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#data_persistence EssentialsDatabase#data_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#data_persistence EssentialsDatabase#data_persistence}
   */
   readonly dataPersistence: string;
   /**
   * Distributes database data to different cloud instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#enable_database_clustering EssentialsDatabase#enable_database_clustering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#enable_database_clustering EssentialsDatabase#enable_database_clustering}
   */
   readonly enableDatabaseClustering?: boolean | cdktf.IResolvable;
   /**
   * When 'true', enables connecting to the database with the 'default' user. Default: 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#enable_default_user EssentialsDatabase#enable_default_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#enable_default_user EssentialsDatabase#enable_default_user}
   */
   readonly enableDefaultUser?: boolean | cdktf.IResolvable;
   /**
   * Enable features for PAYG databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#enable_payg_features EssentialsDatabase#enable_payg_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#enable_payg_features EssentialsDatabase#enable_payg_features}
   */
   readonly enablePaygFeatures?: boolean | cdktf.IResolvable;
   /**
   * Use TLS for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#enable_tls EssentialsDatabase#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#enable_tls EssentialsDatabase#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
   * Should use the external endpoint for open-source (OSS) Cluster API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#external_endpoint_for_oss_cluster_api EssentialsDatabase#external_endpoint_for_oss_cluster_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#external_endpoint_for_oss_cluster_api EssentialsDatabase#external_endpoint_for_oss_cluster_api}
   */
   readonly externalEndpointForOssClusterApi?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#id EssentialsDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#id EssentialsDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,109 +63,109 @@ export interface EssentialsDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum memory usage for this specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#memory_limit_in_gb EssentialsDatabase#memory_limit_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#memory_limit_in_gb EssentialsDatabase#memory_limit_in_gb}
   */
   readonly memoryLimitInGb?: number;
   /**
   * Modules to be provisioned in the database. Note: Not supported for Redis 8.0 and higher as modules are bundled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#modules EssentialsDatabase#modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#modules EssentialsDatabase#modules}
   */
   readonly modules?: EssentialsDatabaseModules[] | cdktf.IResolvable;
   /**
   * A meaningful name to identify the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#name EssentialsDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#name EssentialsDatabase#name}
   */
   readonly name: string;
   /**
   * Password used to access the database. If left empty, the password will be generated automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#password EssentialsDatabase#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#password EssentialsDatabase#password}
   */
   readonly password?: string;
   /**
   * Path that will be used to store database backup files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#periodic_backup_path EssentialsDatabase#periodic_backup_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#periodic_backup_path EssentialsDatabase#periodic_backup_path}
   */
   readonly periodicBackupPath?: string;
   /**
   * The protocol that will be used to access the database, (either 'redis', 'memcached' or 'stack')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#protocol EssentialsDatabase#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#protocol EssentialsDatabase#protocol}
   */
   readonly protocol?: string;
   /**
   * Defines the Redis database version. If omitted, the Redis version will be set to the default version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#redis_version EssentialsDatabase#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#redis_version EssentialsDatabase#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * Shard regex rules. Relevant only for a sharded database. Supported only for 'Pay-As-You-Go' subscriptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#regex_rules EssentialsDatabase#regex_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#regex_rules EssentialsDatabase#regex_rules}
   */
   readonly regexRules?: string[];
   /**
   * Database's replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#replication EssentialsDatabase#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#replication EssentialsDatabase#replication}
   */
   readonly replication: boolean | cdktf.IResolvable;
   /**
   * RESP version must be compatible with Redis version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#resp_version EssentialsDatabase#resp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#resp_version EssentialsDatabase#resp_version}
   */
   readonly respVersion?: string;
   /**
   * Set of CIDR addresses to allow access to the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#source_ips EssentialsDatabase#source_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#source_ips EssentialsDatabase#source_ips}
   */
   readonly sourceIps?: string[];
   /**
   * Identifier of the essentials subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#subscription_id EssentialsDatabase#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#subscription_id EssentialsDatabase#subscription_id}
   */
   readonly subscriptionId: number;
   /**
   * Support Redis open-source (OSS) Cluster API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#support_oss_cluster_api EssentialsDatabase#support_oss_cluster_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#support_oss_cluster_api EssentialsDatabase#support_oss_cluster_api}
   */
   readonly supportOssClusterApi?: boolean | cdktf.IResolvable;
   /**
   * Tags for database management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#tags EssentialsDatabase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#tags EssentialsDatabase#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#alert EssentialsDatabase#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#alert EssentialsDatabase#alert}
   */
   readonly alert?: EssentialsDatabaseAlert[] | cdktf.IResolvable;
   /**
   * replica block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#replica EssentialsDatabase#replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#replica EssentialsDatabase#replica}
   */
   readonly replica?: EssentialsDatabaseReplica;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#timeouts EssentialsDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#timeouts EssentialsDatabase#timeouts}
   */
   readonly timeouts?: EssentialsDatabaseTimeouts;
 }
 export interface EssentialsDatabaseModules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#name EssentialsDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#name EssentialsDatabase#name}
   */
   readonly name?: string;
 }
@@ -283,13 +283,13 @@ export interface EssentialsDatabaseAlert {
   /**
   * Alert name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#name EssentialsDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#name EssentialsDatabase#name}
   */
   readonly name: string;
   /**
   * Alert value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#value EssentialsDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#value EssentialsDatabase#value}
   */
   readonly value: number;
 }
@@ -430,19 +430,19 @@ export interface EssentialsDatabaseReplicaSyncSource {
   /**
   * Defines if encryption should be used to connect to the sync source. If not provided and if the source is a Redis Cloud instance, it will automatically detect if the source uses encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#encryption EssentialsDatabase#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#encryption EssentialsDatabase#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
   * A Redis URI (sample format: 'redis://user:password@host:port)'. If the URI provided is Redis Cloud instance, only host and port should be provided (using the format: ['redis://endpoint1:6379', 'redis://endpoint2:6380'])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#endpoint EssentialsDatabase#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#endpoint EssentialsDatabase#endpoint}
   */
   readonly endpoint: string;
   /**
   * TLS/SSL certificate chain of the sync source. If left null and if the source is a Redis Cloud instance, it will automatically detect the certificate to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#server_cert EssentialsDatabase#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#server_cert EssentialsDatabase#server_cert}
   */
   readonly serverCert?: string;
 }
@@ -615,7 +615,7 @@ export interface EssentialsDatabaseReplica {
   /**
   * sync_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#sync_source EssentialsDatabase#sync_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#sync_source EssentialsDatabase#sync_source}
   */
   readonly syncSource: EssentialsDatabaseReplicaSyncSource[] | cdktf.IResolvable;
 }
@@ -696,19 +696,19 @@ export class EssentialsDatabaseReplicaOutputReference extends cdktf.ComplexObjec
 }
 export interface EssentialsDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#create EssentialsDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#create EssentialsDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#delete EssentialsDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#delete EssentialsDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#read EssentialsDatabase#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#read EssentialsDatabase#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#update EssentialsDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#update EssentialsDatabase#update}
   */
   readonly update?: string;
 }
@@ -889,7 +889,7 @@ export class EssentialsDatabaseTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database rediscloud_essentials_database}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database rediscloud_essentials_database}
 */
 export class EssentialsDatabase extends cdktf.TerraformResource {
 
@@ -905,7 +905,7 @@ export class EssentialsDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssentialsDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssentialsDatabase to import
-  * @param importFromId The id of the existing EssentialsDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssentialsDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssentialsDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -917,7 +917,7 @@ export class EssentialsDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_database rediscloud_essentials_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/essentials_database rediscloud_essentials_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -928,8 +928,8 @@ export class EssentialsDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_essentials_database',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.8.0',
-        providerVersionConstraint: '2.8.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

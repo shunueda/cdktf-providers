@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ServicehookWebhookTfsConfig extends cdktf.TerraformMetaArgument
   /**
   * Accept untrusted SSL certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#accept_untrusted_certs ServicehookWebhookTfs#accept_untrusted_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#accept_untrusted_certs ServicehookWebhookTfs#accept_untrusted_certs}
   */
   readonly acceptUntrustedCerts?: boolean | cdktf.IResolvable;
   /**
   * Basic authentication password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#basic_auth_password ServicehookWebhookTfs#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#basic_auth_password ServicehookWebhookTfs#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
   * Basic authentication username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#basic_auth_username ServicehookWebhookTfs#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#basic_auth_username ServicehookWebhookTfs#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
   /**
   * Detailed messages to send - all, text, html, markdown or none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#detailed_messages_to_send ServicehookWebhookTfs#detailed_messages_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#detailed_messages_to_send ServicehookWebhookTfs#detailed_messages_to_send}
   */
   readonly detailedMessagesToSend?: string;
   /**
   * HTTP headers as key-value pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#http_headers ServicehookWebhookTfs#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#http_headers ServicehookWebhookTfs#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#id ServicehookWebhookTfs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#id ServicehookWebhookTfs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,145 +47,145 @@ export interface ServicehookWebhookTfsConfig extends cdktf.TerraformMetaArgument
   /**
   * Resource details to send - all, text, html, markdown or none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#messages_to_send ServicehookWebhookTfs#messages_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#messages_to_send ServicehookWebhookTfs#messages_to_send}
   */
   readonly messagesToSend?: string;
   /**
   * The project ID that will be used for the TFS event subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
   */
   readonly projectId: string;
   /**
   * Resource details to send - all, minimal, or none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#resource_details_to_send ServicehookWebhookTfs#resource_details_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#resource_details_to_send ServicehookWebhookTfs#resource_details_to_send}
   */
   readonly resourceDetailsToSend?: string;
   /**
   * The URL to send HTTP POST to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#url ServicehookWebhookTfs#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#url ServicehookWebhookTfs#url}
   */
   readonly url: string;
   /**
   * build_completed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#build_completed ServicehookWebhookTfs#build_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#build_completed ServicehookWebhookTfs#build_completed}
   */
   readonly buildCompleted?: ServicehookWebhookTfsBuildCompleted;
   /**
   * git_pull_request_commented block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#git_pull_request_commented ServicehookWebhookTfs#git_pull_request_commented}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#git_pull_request_commented ServicehookWebhookTfs#git_pull_request_commented}
   */
   readonly gitPullRequestCommented?: ServicehookWebhookTfsGitPullRequestCommented;
   /**
   * git_pull_request_created block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#git_pull_request_created ServicehookWebhookTfs#git_pull_request_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#git_pull_request_created ServicehookWebhookTfs#git_pull_request_created}
   */
   readonly gitPullRequestCreated?: ServicehookWebhookTfsGitPullRequestCreated;
   /**
   * git_pull_request_merge_attempted block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#git_pull_request_merge_attempted ServicehookWebhookTfs#git_pull_request_merge_attempted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#git_pull_request_merge_attempted ServicehookWebhookTfs#git_pull_request_merge_attempted}
   */
   readonly gitPullRequestMergeAttempted?: ServicehookWebhookTfsGitPullRequestMergeAttempted;
   /**
   * git_pull_request_updated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#git_pull_request_updated ServicehookWebhookTfs#git_pull_request_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#git_pull_request_updated ServicehookWebhookTfs#git_pull_request_updated}
   */
   readonly gitPullRequestUpdated?: ServicehookWebhookTfsGitPullRequestUpdated;
   /**
   * git_push block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#git_push ServicehookWebhookTfs#git_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#git_push ServicehookWebhookTfs#git_push}
   */
   readonly gitPush?: ServicehookWebhookTfsGitPush;
   /**
   * repository_created block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_created ServicehookWebhookTfs#repository_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_created ServicehookWebhookTfs#repository_created}
   */
   readonly repositoryCreated?: ServicehookWebhookTfsRepositoryCreated;
   /**
   * repository_deleted block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_deleted ServicehookWebhookTfs#repository_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_deleted ServicehookWebhookTfs#repository_deleted}
   */
   readonly repositoryDeleted?: ServicehookWebhookTfsRepositoryDeleted;
   /**
   * repository_forked block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_forked ServicehookWebhookTfs#repository_forked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_forked ServicehookWebhookTfs#repository_forked}
   */
   readonly repositoryForked?: ServicehookWebhookTfsRepositoryForked;
   /**
   * repository_renamed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_renamed ServicehookWebhookTfs#repository_renamed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_renamed ServicehookWebhookTfs#repository_renamed}
   */
   readonly repositoryRenamed?: ServicehookWebhookTfsRepositoryRenamed;
   /**
   * repository_status_changed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_status_changed ServicehookWebhookTfs#repository_status_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_status_changed ServicehookWebhookTfs#repository_status_changed}
   */
   readonly repositoryStatusChanged?: ServicehookWebhookTfsRepositoryStatusChanged;
   /**
   * service_connection_created block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#service_connection_created ServicehookWebhookTfs#service_connection_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#service_connection_created ServicehookWebhookTfs#service_connection_created}
   */
   readonly serviceConnectionCreated?: ServicehookWebhookTfsServiceConnectionCreated;
   /**
   * service_connection_updated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#service_connection_updated ServicehookWebhookTfs#service_connection_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#service_connection_updated ServicehookWebhookTfs#service_connection_updated}
   */
   readonly serviceConnectionUpdated?: ServicehookWebhookTfsServiceConnectionUpdated;
   /**
   * tfvc_checkin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#tfvc_checkin ServicehookWebhookTfs#tfvc_checkin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#tfvc_checkin ServicehookWebhookTfs#tfvc_checkin}
   */
   readonly tfvcCheckin?: ServicehookWebhookTfsTfvcCheckin;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#timeouts ServicehookWebhookTfs#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#timeouts ServicehookWebhookTfs#timeouts}
   */
   readonly timeouts?: ServicehookWebhookTfsTimeouts;
   /**
   * work_item_commented block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_commented ServicehookWebhookTfs#work_item_commented}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_commented ServicehookWebhookTfs#work_item_commented}
   */
   readonly workItemCommented?: ServicehookWebhookTfsWorkItemCommented;
   /**
   * work_item_created block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_created ServicehookWebhookTfs#work_item_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_created ServicehookWebhookTfs#work_item_created}
   */
   readonly workItemCreated?: ServicehookWebhookTfsWorkItemCreated;
   /**
   * work_item_deleted block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_deleted ServicehookWebhookTfs#work_item_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_deleted ServicehookWebhookTfs#work_item_deleted}
   */
   readonly workItemDeleted?: ServicehookWebhookTfsWorkItemDeleted;
   /**
   * work_item_restored block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_restored ServicehookWebhookTfs#work_item_restored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_restored ServicehookWebhookTfs#work_item_restored}
   */
   readonly workItemRestored?: ServicehookWebhookTfsWorkItemRestored;
   /**
   * work_item_updated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_updated ServicehookWebhookTfs#work_item_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_updated ServicehookWebhookTfs#work_item_updated}
   */
   readonly workItemUpdated?: ServicehookWebhookTfsWorkItemUpdated;
 }
@@ -193,13 +193,13 @@ export interface ServicehookWebhookTfsBuildCompleted {
   /**
   * Include only events for completed builds that have a specific completion status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#build_status ServicehookWebhookTfs#build_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#build_status ServicehookWebhookTfs#build_status}
   */
   readonly buildStatus?: string;
   /**
   * Include only events for completed builds for a specific pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#definition_name ServicehookWebhookTfs#definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#definition_name ServicehookWebhookTfs#definition_name}
   */
   readonly definitionName?: string;
 }
@@ -314,13 +314,13 @@ export interface ServicehookWebhookTfsGitPullRequestCommented {
   /**
   * Include only events for pull requests in a specific branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
   */
   readonly branch?: string;
   /**
   * Include only events for pull requests in a specific repository (repository ID). If not specified, all repositories in the project will trigger the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -435,25 +435,25 @@ export interface ServicehookWebhookTfsGitPullRequestCreated {
   /**
   * Include only events for pull requests in a specific branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
   */
   readonly branch?: string;
   /**
   * Include only events for pull requests created by users in a specific group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#pull_request_created_by ServicehookWebhookTfs#pull_request_created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#pull_request_created_by ServicehookWebhookTfs#pull_request_created_by}
   */
   readonly pullRequestCreatedBy?: string;
   /**
   * Include only events for pull requests with reviewers in a specific group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#pull_request_reviewers_contains ServicehookWebhookTfs#pull_request_reviewers_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#pull_request_reviewers_contains ServicehookWebhookTfs#pull_request_reviewers_contains}
   */
   readonly pullRequestReviewersContains?: string;
   /**
   * Include only events for pull requests in a specific repository (repository ID). If not specified, all repositories in the project will trigger the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -626,31 +626,31 @@ export interface ServicehookWebhookTfsGitPullRequestMergeAttempted {
   /**
   * Include only events for pull requests in a specific branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
   */
   readonly branch?: string;
   /**
   * Include only events for pull requests with a specific merge result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#merge_result ServicehookWebhookTfs#merge_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#merge_result ServicehookWebhookTfs#merge_result}
   */
   readonly mergeResult?: string;
   /**
   * Include only events for pull requests created by users in a specific group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#pull_request_created_by ServicehookWebhookTfs#pull_request_created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#pull_request_created_by ServicehookWebhookTfs#pull_request_created_by}
   */
   readonly pullRequestCreatedBy?: string;
   /**
   * Include only events for pull requests with reviewers in a specific group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#pull_request_reviewers_contains ServicehookWebhookTfs#pull_request_reviewers_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#pull_request_reviewers_contains ServicehookWebhookTfs#pull_request_reviewers_contains}
   */
   readonly pullRequestReviewersContains?: string;
   /**
   * Include only events for pull requests in a specific repository (repository ID). If not specified, all repositories in the project will trigger the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -852,31 +852,31 @@ export interface ServicehookWebhookTfsGitPullRequestUpdated {
   /**
   * Include only events for pull requests in a specific branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
   */
   readonly branch?: string;
   /**
   * Include only events for pull requests with a specific change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#notification_type ServicehookWebhookTfs#notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#notification_type ServicehookWebhookTfs#notification_type}
   */
   readonly notificationType?: string;
   /**
   * Include only events for pull requests created by users in a specific group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#pull_request_created_by ServicehookWebhookTfs#pull_request_created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#pull_request_created_by ServicehookWebhookTfs#pull_request_created_by}
   */
   readonly pullRequestCreatedBy?: string;
   /**
   * Include only events for pull requests with reviewers in a specific group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#pull_request_reviewers_contains ServicehookWebhookTfs#pull_request_reviewers_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#pull_request_reviewers_contains ServicehookWebhookTfs#pull_request_reviewers_contains}
   */
   readonly pullRequestReviewersContains?: string;
   /**
   * Include only events for pull requests in a specific repository (repository ID). If not specified, all repositories in the project will trigger the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -1078,19 +1078,19 @@ export interface ServicehookWebhookTfsGitPush {
   /**
   * Include only events for code pushes to a specific branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#branch ServicehookWebhookTfs#branch}
   */
   readonly branch?: string;
   /**
   * Include only events for code pushes by users in a specific group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#pushed_by ServicehookWebhookTfs#pushed_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#pushed_by ServicehookWebhookTfs#pushed_by}
   */
   readonly pushedBy?: string;
   /**
   * Include only events for code pushes to a specific repository (repository ID). If not specified, all repositories in the project will trigger the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -1234,7 +1234,7 @@ export interface ServicehookWebhookTfsRepositoryCreated {
   /**
   * Include only events for repositories created in a specific project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
   */
   readonly projectId?: string;
 }
@@ -1320,7 +1320,7 @@ export interface ServicehookWebhookTfsRepositoryDeleted {
   /**
   * Include only events for repositories with a specific repository ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -1406,7 +1406,7 @@ export interface ServicehookWebhookTfsRepositoryForked {
   /**
   * Include only events for repositories with a specific repository ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -1492,7 +1492,7 @@ export interface ServicehookWebhookTfsRepositoryRenamed {
   /**
   * Include only events for repositories with a specific repository ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -1578,7 +1578,7 @@ export interface ServicehookWebhookTfsRepositoryStatusChanged {
   /**
   * Include only events for repositories with a specific repository ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#repository_id ServicehookWebhookTfs#repository_id}
   */
   readonly repositoryId?: string;
 }
@@ -1664,7 +1664,7 @@ export interface ServicehookWebhookTfsServiceConnectionCreated {
   /**
   * Include only events for service connections created in a specific project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
   */
   readonly projectId?: string;
 }
@@ -1750,7 +1750,7 @@ export interface ServicehookWebhookTfsServiceConnectionUpdated {
   /**
   * Include only events for service connections updated in a specific project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
   */
   readonly projectId?: string;
 }
@@ -1836,7 +1836,7 @@ export interface ServicehookWebhookTfsTfvcCheckin {
   /**
   * Include only events for check-ins that change files under a specific path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#path ServicehookWebhookTfs#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#path ServicehookWebhookTfs#path}
   */
   readonly path: string;
 }
@@ -1917,19 +1917,19 @@ export class ServicehookWebhookTfsTfvcCheckinOutputReference extends cdktf.Compl
 }
 export interface ServicehookWebhookTfsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#create ServicehookWebhookTfs#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#create ServicehookWebhookTfs#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#delete ServicehookWebhookTfs#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#delete ServicehookWebhookTfs#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#read ServicehookWebhookTfs#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#read ServicehookWebhookTfs#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#update ServicehookWebhookTfs#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#update ServicehookWebhookTfs#update}
   */
   readonly update?: string;
 }
@@ -2112,25 +2112,25 @@ export interface ServicehookWebhookTfsWorkItemCommented {
   /**
   * Include only events for work items under a specific area path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
   */
   readonly areaPath?: string;
   /**
   * Include only events for work items with a comment that contains a specific string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#comment_pattern ServicehookWebhookTfs#comment_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#comment_pattern ServicehookWebhookTfs#comment_pattern}
   */
   readonly commentPattern?: string;
   /**
   * Include only events for work items that contain a specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
   */
   readonly tag?: string;
   /**
   * Include only events for work items of a specific type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
   */
   readonly workItemType?: string;
 }
@@ -2303,25 +2303,25 @@ export interface ServicehookWebhookTfsWorkItemCreated {
   /**
   * Include only events for work items under a specific area path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
   */
   readonly areaPath?: string;
   /**
   * Include only events for work items with one or more links added or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#links_changed ServicehookWebhookTfs#links_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#links_changed ServicehookWebhookTfs#links_changed}
   */
   readonly linksChanged?: boolean | cdktf.IResolvable;
   /**
   * Include only events for work items that contain a specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
   */
   readonly tag?: string;
   /**
   * Include only events for work items of a specific type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
   */
   readonly workItemType?: string;
 }
@@ -2494,19 +2494,19 @@ export interface ServicehookWebhookTfsWorkItemDeleted {
   /**
   * Include only events for work items under a specific area path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
   */
   readonly areaPath?: string;
   /**
   * Include only events for work items that contain a specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
   */
   readonly tag?: string;
   /**
   * Include only events for work items of a specific type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
   */
   readonly workItemType?: string;
 }
@@ -2650,19 +2650,19 @@ export interface ServicehookWebhookTfsWorkItemRestored {
   /**
   * Include only events for work items under a specific area path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
   */
   readonly areaPath?: string;
   /**
   * Include only events for work items that contain a specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
   */
   readonly tag?: string;
   /**
   * Include only events for work items of a specific type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
   */
   readonly workItemType?: string;
 }
@@ -2806,31 +2806,31 @@ export interface ServicehookWebhookTfsWorkItemUpdated {
   /**
   * Include only events for work items under a specific area path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#area_path ServicehookWebhookTfs#area_path}
   */
   readonly areaPath?: string;
   /**
   * Include only events for work items with a change in a specific field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#changed_fields ServicehookWebhookTfs#changed_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#changed_fields ServicehookWebhookTfs#changed_fields}
   */
   readonly changedFields?: string;
   /**
   * Include only events for work items with one or more links added or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#links_changed ServicehookWebhookTfs#links_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#links_changed ServicehookWebhookTfs#links_changed}
   */
   readonly linksChanged?: boolean | cdktf.IResolvable;
   /**
   * Include only events for work items that contain a specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#tag ServicehookWebhookTfs#tag}
   */
   readonly tag?: string;
   /**
   * Include only events for work items of a specific type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#work_item_type ServicehookWebhookTfs#work_item_type}
   */
   readonly workItemType?: string;
 }
@@ -3030,7 +3030,7 @@ export class ServicehookWebhookTfsWorkItemUpdatedOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs azuredevops_servicehook_webhook_tfs}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs azuredevops_servicehook_webhook_tfs}
 */
 export class ServicehookWebhookTfs extends cdktf.TerraformResource {
 
@@ -3046,7 +3046,7 @@ export class ServicehookWebhookTfs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServicehookWebhookTfs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicehookWebhookTfs to import
-  * @param importFromId The id of the existing ServicehookWebhookTfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicehookWebhookTfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicehookWebhookTfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3058,7 +3058,7 @@ export class ServicehookWebhookTfs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_webhook_tfs azuredevops_servicehook_webhook_tfs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_webhook_tfs azuredevops_servicehook_webhook_tfs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3069,8 +3069,8 @@ export class ServicehookWebhookTfs extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_servicehook_webhook_tfs',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

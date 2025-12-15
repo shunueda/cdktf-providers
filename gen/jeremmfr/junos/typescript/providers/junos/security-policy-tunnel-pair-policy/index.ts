@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_policy_tunnel_pair_policy
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_policy_tunnel_pair_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecurityPolicyTunnelPairPolicyConfig extends cdktf.TerraformMet
   /**
   * The name of policy when from zone zone_a to zone zone_b.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_policy_tunnel_pair_policy#policy_a_to_b SecurityPolicyTunnelPairPolicy#policy_a_to_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_policy_tunnel_pair_policy#policy_a_to_b SecurityPolicyTunnelPairPolicy#policy_a_to_b}
   */
   readonly policyAToB: string;
   /**
   * The name of policy when from zone zone_b to zone zone_a.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_policy_tunnel_pair_policy#policy_b_to_a SecurityPolicyTunnelPairPolicy#policy_b_to_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_policy_tunnel_pair_policy#policy_b_to_a SecurityPolicyTunnelPairPolicy#policy_b_to_a}
   */
   readonly policyBToA: string;
   /**
   * The name of first zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_policy_tunnel_pair_policy#zone_a SecurityPolicyTunnelPairPolicy#zone_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_policy_tunnel_pair_policy#zone_a SecurityPolicyTunnelPairPolicy#zone_a}
   */
   readonly zoneA: string;
   /**
   * The name of second zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_policy_tunnel_pair_policy#zone_b SecurityPolicyTunnelPairPolicy#zone_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_policy_tunnel_pair_policy#zone_b SecurityPolicyTunnelPairPolicy#zone_b}
   */
   readonly zoneB: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_policy_tunnel_pair_policy junos_security_policy_tunnel_pair_policy}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_policy_tunnel_pair_policy junos_security_policy_tunnel_pair_policy}
 */
 export class SecurityPolicyTunnelPairPolicy extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SecurityPolicyTunnelPairPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityPolicyTunnelPairPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityPolicyTunnelPairPolicy to import
-  * @param importFromId The id of the existing SecurityPolicyTunnelPairPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_policy_tunnel_pair_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityPolicyTunnelPairPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_policy_tunnel_pair_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityPolicyTunnelPairPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SecurityPolicyTunnelPairPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_policy_tunnel_pair_policy junos_security_policy_tunnel_pair_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_policy_tunnel_pair_policy junos_security_policy_tunnel_pair_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SecurityPolicyTunnelPairPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_policy_tunnel_pair_policy',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface LldpmedInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disable LLDP-MED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#disable LldpmedInterface#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#disable LldpmedInterface#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Enable LLDP-MED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#enable LldpmedInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#enable LldpmedInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Interface name or `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#name LldpmedInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#name LldpmedInterface#name}
   */
   readonly name: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#location LldpmedInterface#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#location LldpmedInterface#location}
   */
   readonly location?: LldpmedInterfaceLocation;
 }
@@ -36,13 +36,13 @@ export interface LldpmedInterfaceLocationCivicBasedCaType {
   /**
   * Address element type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#ca_type LldpmedInterface#ca_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#ca_type LldpmedInterface#ca_type}
   */
   readonly caType: number;
   /**
   * Address element value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#ca_value LldpmedInterface#ca_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#ca_value LldpmedInterface#ca_value}
   */
   readonly caValue?: string;
 }
@@ -186,37 +186,37 @@ export interface LldpmedInterfaceLocation {
   /**
   * Two-letter country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#civic_based_country_code LldpmedInterface#civic_based_country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#civic_based_country_code LldpmedInterface#civic_based_country_code}
   */
   readonly civicBasedCountryCode?: string;
   /**
   * Type of address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#civic_based_what LldpmedInterface#civic_based_what}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#civic_based_what LldpmedInterface#civic_based_what}
   */
   readonly civicBasedWhat?: number;
   /**
   * Latitude value to address based on longitude and latitude coordinates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#co_ordinate_latitude LldpmedInterface#co_ordinate_latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#co_ordinate_latitude LldpmedInterface#co_ordinate_latitude}
   */
   readonly coOrdinateLatitude?: number;
   /**
   * Longitude value to address based on longitude and latitude coordinates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#co_ordinate_longitude LldpmedInterface#co_ordinate_longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#co_ordinate_longitude LldpmedInterface#co_ordinate_longitude}
   */
   readonly coOrdinateLongitude?: number;
   /**
   * Emergency line identification (ELIN) string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#elin LldpmedInterface#elin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#elin LldpmedInterface#elin}
   */
   readonly elin?: string;
   /**
   * civic_based_ca_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#civic_based_ca_type LldpmedInterface#civic_based_ca_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#civic_based_ca_type LldpmedInterface#civic_based_ca_type}
   */
   readonly civicBasedCaType?: LldpmedInterfaceLocationCivicBasedCaType[] | cdktf.IResolvable;
 }
@@ -455,7 +455,7 @@ export class LldpmedInterfaceLocationOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface junos_lldpmed_interface}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface junos_lldpmed_interface}
 */
 export class LldpmedInterface extends cdktf.TerraformResource {
 
@@ -471,7 +471,7 @@ export class LldpmedInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LldpmedInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LldpmedInterface to import
-  * @param importFromId The id of the existing LldpmedInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LldpmedInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LldpmedInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -483,7 +483,7 @@ export class LldpmedInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldpmed_interface junos_lldpmed_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldpmed_interface junos_lldpmed_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -494,8 +494,8 @@ export class LldpmedInterface extends cdktf.TerraformResource {
       terraformResourceType: 'junos_lldpmed_interface',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

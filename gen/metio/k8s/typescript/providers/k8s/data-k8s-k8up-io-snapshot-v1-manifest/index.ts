@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SK8UpIoSnapshotV1ManifestConfig extends cdktf.TerraformMe
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#metadata DataK8SK8UpIoSnapshotV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#metadata DataK8SK8UpIoSnapshotV1Manifest#metadata}
   */
   readonly metadata: DataK8SK8UpIoSnapshotV1ManifestMetadata;
   /**
   * SnapshotSpec contains all information needed about a restic snapshot so it can be restored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#spec DataK8SK8UpIoSnapshotV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#spec DataK8SK8UpIoSnapshotV1Manifest#spec}
   */
   readonly spec?: DataK8SK8UpIoSnapshotV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SK8UpIoSnapshotV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#annotations DataK8SK8UpIoSnapshotV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#annotations DataK8SK8UpIoSnapshotV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#labels DataK8SK8UpIoSnapshotV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#labels DataK8SK8UpIoSnapshotV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#name DataK8SK8UpIoSnapshotV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#name DataK8SK8UpIoSnapshotV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#namespace DataK8SK8UpIoSnapshotV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#namespace DataK8SK8UpIoSnapshotV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,22 +217,22 @@ export class DataK8SK8UpIoSnapshotV1ManifestMetadataOutputReference extends cdkt
 }
 export interface DataK8SK8UpIoSnapshotV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#date DataK8SK8UpIoSnapshotV1Manifest#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#date DataK8SK8UpIoSnapshotV1Manifest#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#id DataK8SK8UpIoSnapshotV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#id DataK8SK8UpIoSnapshotV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#paths DataK8SK8UpIoSnapshotV1Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#paths DataK8SK8UpIoSnapshotV1Manifest#paths}
   */
   readonly paths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#repository DataK8SK8UpIoSnapshotV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#repository DataK8SK8UpIoSnapshotV1Manifest#repository}
   */
   readonly repository?: string;
 }
@@ -413,7 +413,7 @@ export class DataK8SK8UpIoSnapshotV1ManifestSpecOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest k8s_k8up_io_snapshot_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest k8s_k8up_io_snapshot_v1_manifest}
 */
 export class DataK8SK8UpIoSnapshotV1Manifest extends cdktf.TerraformDataSource {
 
@@ -429,7 +429,7 @@ export class DataK8SK8UpIoSnapshotV1Manifest extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataK8SK8UpIoSnapshotV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SK8UpIoSnapshotV1Manifest to import
-  * @param importFromId The id of the existing DataK8SK8UpIoSnapshotV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SK8UpIoSnapshotV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SK8UpIoSnapshotV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class DataK8SK8UpIoSnapshotV1Manifest extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8up_io_snapshot_v1_manifest k8s_k8up_io_snapshot_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8up_io_snapshot_v1_manifest k8s_k8up_io_snapshot_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class DataK8SK8UpIoSnapshotV1Manifest extends cdktf.TerraformDataSource {
       terraformResourceType: 'k8s_k8up_io_snapshot_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

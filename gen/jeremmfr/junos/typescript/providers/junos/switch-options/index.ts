@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SwitchOptionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Clean supported lines when destroy this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options#clean_on_destroy SwitchOptions#clean_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options#clean_on_destroy SwitchOptions#clean_on_destroy}
   */
   readonly cleanOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Configure static remote VXLAN tunnel endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options#remote_vtep_list SwitchOptions#remote_vtep_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options#remote_vtep_list SwitchOptions#remote_vtep_list}
   */
   readonly remoteVtepList?: string[];
   /**
   * Configure static ipv6 remote VXLAN tunnel endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options#remote_vtep_v6_list SwitchOptions#remote_vtep_v6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options#remote_vtep_v6_list SwitchOptions#remote_vtep_v6_list}
   */
   readonly remoteVtepV6List?: string[];
   /**
   * Service ID required if multi-chassis AE is part of a bridge-domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options#service_id SwitchOptions#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options#service_id SwitchOptions#service_id}
   */
   readonly serviceId?: number;
   /**
   * Source layer-3 IFL for VXLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options#vtep_source_interface SwitchOptions#vtep_source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options#vtep_source_interface SwitchOptions#vtep_source_interface}
   */
   readonly vtepSourceInterface?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options junos_switch_options}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options junos_switch_options}
 */
 export class SwitchOptions extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SwitchOptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchOptions to import
-  * @param importFromId The id of the existing SwitchOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SwitchOptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/switch_options junos_switch_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/switch_options junos_switch_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SwitchOptions extends cdktf.TerraformResource {
       terraformResourceType: 'junos_switch_options',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

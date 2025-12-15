@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface AggregateRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Remove inactive route from forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#active AggregateRoute#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#active AggregateRoute#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Address of BGP system to add AGGREGATOR path attribute to route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#as_path_aggregator_address AggregateRoute#as_path_aggregator_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#as_path_aggregator_address AggregateRoute#as_path_aggregator_address}
   */
   readonly asPathAggregatorAddress?: string;
   /**
   * AS number to add AGGREGATOR path attribute to route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#as_path_aggregator_as_number AggregateRoute#as_path_aggregator_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#as_path_aggregator_as_number AggregateRoute#as_path_aggregator_as_number}
   */
   readonly asPathAggregatorAsNumber?: string;
   /**
   * Add ATOMIC_AGGREGATE path attribute to route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#as_path_atomic_aggregate AggregateRoute#as_path_atomic_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#as_path_atomic_aggregate AggregateRoute#as_path_atomic_aggregate}
   */
   readonly asPathAtomicAggregate?: boolean | cdktf.IResolvable;
   /**
   * Define origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#as_path_origin AggregateRoute#as_path_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#as_path_origin AggregateRoute#as_path_origin}
   */
   readonly asPathOrigin?: string;
   /**
   * Path to as-path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#as_path_path AggregateRoute#as_path_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#as_path_path AggregateRoute#as_path_path}
   */
   readonly asPathPath?: string;
   /**
   * Include longest common sequences from contributing paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#brief AggregateRoute#brief}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#brief AggregateRoute#brief}
   */
   readonly brief?: boolean | cdktf.IResolvable;
   /**
   * BGP community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#community AggregateRoute#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#community AggregateRoute#community}
   */
   readonly community?: string[];
   /**
   * Destination prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#destination AggregateRoute#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#destination AggregateRoute#destination}
   */
   readonly destination: string;
   /**
   * Drop packets to destination; send no ICMP unreachables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#discard AggregateRoute#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#discard AggregateRoute#discard}
   */
   readonly discard?: boolean | cdktf.IResolvable;
   /**
   * Include all AS numbers from all contributing paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#full AggregateRoute#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#full AggregateRoute#full}
   */
   readonly full?: boolean | cdktf.IResolvable;
   /**
   * Metric for aggregate route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#metric AggregateRoute#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#metric AggregateRoute#metric}
   */
   readonly metric?: number;
   /**
   * Retain inactive route in forwarding table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#passive AggregateRoute#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#passive AggregateRoute#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Policy filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#policy AggregateRoute#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#policy AggregateRoute#policy}
   */
   readonly policy?: string[];
   /**
   * Preference for aggregate route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#preference AggregateRoute#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#preference AggregateRoute#preference}
   */
   readonly preference?: number;
   /**
   * Routing instance for aggregate route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#routing_instance AggregateRoute#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#routing_instance AggregateRoute#routing_instance}
   */
   readonly routingInstance?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route junos_aggregate_route}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route junos_aggregate_route}
 */
 export class AggregateRoute extends cdktf.TerraformResource {
 
@@ -122,7 +122,7 @@ export class AggregateRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AggregateRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AggregateRoute to import
-  * @param importFromId The id of the existing AggregateRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AggregateRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AggregateRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class AggregateRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/aggregate_route junos_aggregate_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/aggregate_route junos_aggregate_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class AggregateRoute extends cdktf.TerraformResource {
       terraformResourceType: 'junos_aggregate_route',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

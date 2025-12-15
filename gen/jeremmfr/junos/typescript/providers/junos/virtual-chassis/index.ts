@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface VirtualChassisConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto software update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#auto_sw_update VirtualChassis#auto_sw_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#auto_sw_update VirtualChassis#auto_sw_update}
   */
   readonly autoSwUpdate?: boolean | cdktf.IResolvable;
   /**
   * URL or pathname of software package to auto software update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#auto_sw_update_package_name VirtualChassis#auto_sw_update_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#auto_sw_update_package_name VirtualChassis#auto_sw_update_package_name}
   */
   readonly autoSwUpdatePackageName?: string;
   /**
   * Disable graceful restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#graceful_restart_disable VirtualChassis#graceful_restart_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#graceful_restart_disable VirtualChassis#graceful_restart_disable}
   */
   readonly gracefulRestartDisable?: boolean | cdktf.IResolvable;
   /**
   * Virtual chassis identifier, of type ISO system-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#identifier VirtualChassis#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#identifier VirtualChassis#identifier}
   */
   readonly identifier?: string;
   /**
   * MAC persistence time (minutes) or disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#mac_persistence_timer VirtualChassis#mac_persistence_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#mac_persistence_timer VirtualChassis#mac_persistence_timer}
   */
   readonly macPersistenceTimer?: string;
   /**
   * Disable split detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#no_split_detection VirtualChassis#no_split_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#no_split_detection VirtualChassis#no_split_detection}
   */
   readonly noSplitDetection?: boolean | cdktf.IResolvable;
   /**
   * Only accept preprovisioned members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#preprovisioned VirtualChassis#preprovisioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#preprovisioned VirtualChassis#preprovisioned}
   */
   readonly preprovisioned?: boolean | cdktf.IResolvable;
   /**
   * Set no hold time for vcp interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#vcp_no_hold_time VirtualChassis#vcp_no_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#vcp_no_hold_time VirtualChassis#vcp_no_hold_time}
   */
   readonly vcpNoHoldTime?: boolean | cdktf.IResolvable;
   /**
   * alias block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#alias VirtualChassis#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#alias VirtualChassis#alias}
   */
   readonly alias?: VirtualChassisAlias[] | cdktf.IResolvable;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#member VirtualChassis#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#member VirtualChassis#member}
   */
   readonly member?: VirtualChassisMember[] | cdktf.IResolvable;
   /**
   * traceoptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#traceoptions VirtualChassis#traceoptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#traceoptions VirtualChassis#traceoptions}
   */
   readonly traceoptions?: VirtualChassisTraceoptions;
 }
@@ -78,13 +78,13 @@ export interface VirtualChassisAlias {
   /**
   * Alias name for this serial-number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#alias_name VirtualChassis#alias_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#alias_name VirtualChassis#alias_name}
   */
   readonly aliasName: string;
   /**
   * Member's serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#serial_number VirtualChassis#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#serial_number VirtualChassis#serial_number}
   */
   readonly serialNumber: string;
 }
@@ -225,7 +225,7 @@ export interface VirtualChassisMember {
   /**
   * Member identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#id VirtualChassis#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#id VirtualChassis#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -234,31 +234,31 @@ export interface VirtualChassisMember {
   /**
   * Member's location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#location VirtualChassis#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#location VirtualChassis#location}
   */
   readonly location?: string;
   /**
   * Member's mastership priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#mastership_priority VirtualChassis#mastership_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#mastership_priority VirtualChassis#mastership_priority}
   */
   readonly mastershipPriority?: number;
   /**
   * Disable management VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#no_management_vlan VirtualChassis#no_management_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#no_management_vlan VirtualChassis#no_management_vlan}
   */
   readonly noManagementVlan?: boolean | cdktf.IResolvable;
   /**
   * Member's role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#role VirtualChassis#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#role VirtualChassis#role}
   */
   readonly role?: string;
   /**
   * Member's serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#serial_number VirtualChassis#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#serial_number VirtualChassis#serial_number}
   */
   readonly serialNumber?: string;
 }
@@ -518,43 +518,43 @@ export interface VirtualChassisTraceoptionsFile {
   /**
   * Maximum number of trace files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#files VirtualChassis#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#files VirtualChassis#files}
   */
   readonly files?: number;
   /**
   * Name of file in which to write trace information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#name VirtualChassis#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#name VirtualChassis#name}
   */
   readonly name?: string;
   /**
   * Do not timestamp trace file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#no_stamp VirtualChassis#no_stamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#no_stamp VirtualChassis#no_stamp}
   */
   readonly noStamp?: boolean | cdktf.IResolvable;
   /**
   * Don't allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#no_world_readable VirtualChassis#no_world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#no_world_readable VirtualChassis#no_world_readable}
   */
   readonly noWorldReadable?: boolean | cdktf.IResolvable;
   /**
   * Replace trace file rather than appending to it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#replace VirtualChassis#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#replace VirtualChassis#replace}
   */
   readonly replace?: boolean | cdktf.IResolvable;
   /**
   * Maximum trace file size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#size VirtualChassis#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#size VirtualChassis#size}
   */
   readonly size?: number;
   /**
   * Allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#world_readable VirtualChassis#world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#world_readable VirtualChassis#world_readable}
   */
   readonly worldReadable?: boolean | cdktf.IResolvable;
 }
@@ -824,13 +824,13 @@ export interface VirtualChassisTraceoptions {
   /**
   * Tracing parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#flag VirtualChassis#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#flag VirtualChassis#flag}
   */
   readonly flag?: string[];
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#file VirtualChassis#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#file VirtualChassis#file}
   */
   readonly file?: VirtualChassisTraceoptionsFile;
 }
@@ -953,7 +953,7 @@ export class VirtualChassisTraceoptionsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis junos_virtual_chassis}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis junos_virtual_chassis}
 */
 export class VirtualChassis extends cdktf.TerraformResource {
 
@@ -969,7 +969,7 @@ export class VirtualChassis extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualChassis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualChassis to import
-  * @param importFromId The id of the existing VirtualChassis that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualChassis that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualChassis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -981,7 +981,7 @@ export class VirtualChassis extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/virtual_chassis junos_virtual_chassis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/virtual_chassis junos_virtual_chassis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -992,8 +992,8 @@ export class VirtualChassis extends cdktf.TerraformResource {
       terraformResourceType: 'junos_virtual_chassis',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

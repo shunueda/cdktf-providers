@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SystemTacplusServerConfig extends cdktf.TerraformMetaArguments 
   /**
   * TACACS+ authentication server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server#address SystemTacplusServer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server#address SystemTacplusServer#address}
   */
   readonly address: string;
   /**
   * TACACS+ authentication server port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server#port SystemTacplusServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server#port SystemTacplusServer#port}
   */
   readonly port?: number;
   /**
   * Routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server#routing_instance SystemTacplusServer#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server#routing_instance SystemTacplusServer#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Shared secret with the authentication server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server#secret SystemTacplusServer#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server#secret SystemTacplusServer#secret}
   */
   readonly secret?: string;
   /**
   * Optimize TCP connection attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server#single_connection SystemTacplusServer#single_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server#single_connection SystemTacplusServer#single_connection}
   */
   readonly singleConnection?: boolean | cdktf.IResolvable;
   /**
   * Use specified address as source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server#source_address SystemTacplusServer#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server#source_address SystemTacplusServer#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Request timeout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server#timeout SystemTacplusServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server#timeout SystemTacplusServer#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server junos_system_tacplus_server}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server junos_system_tacplus_server}
 */
 export class SystemTacplusServer extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class SystemTacplusServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemTacplusServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemTacplusServer to import
-  * @param importFromId The id of the existing SystemTacplusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemTacplusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemTacplusServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class SystemTacplusServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_tacplus_server junos_system_tacplus_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_tacplus_server junos_system_tacplus_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class SystemTacplusServer extends cdktf.TerraformResource {
       terraformResourceType: 'junos_system_tacplus_server',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SecurityUtmProfileWebFilteringJuniperLocalConfig extends cdktf.
   /**
   * Custom block message sent to HTTP client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#custom_block_message SecurityUtmProfileWebFilteringJuniperLocal#custom_block_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#custom_block_message SecurityUtmProfileWebFilteringJuniperLocal#custom_block_message}
   */
   readonly customBlockMessage?: string;
   /**
   * Custom message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#custom_message SecurityUtmProfileWebFilteringJuniperLocal#custom_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#custom_message SecurityUtmProfileWebFilteringJuniperLocal#custom_message}
   */
   readonly customMessage?: string;
   /**
   * Default action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#default_action SecurityUtmProfileWebFilteringJuniperLocal#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#default_action SecurityUtmProfileWebFilteringJuniperLocal#default_action}
   */
   readonly defaultAction?: string;
   /**
   * The name of security utm feature-profile web-filtering juniper-local profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#name SecurityUtmProfileWebFilteringJuniperLocal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#name SecurityUtmProfileWebFilteringJuniperLocal#name}
   */
   readonly name: string;
   /**
   * Do not perform safe-search for Juniper local protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#no_safe_search SecurityUtmProfileWebFilteringJuniperLocal#no_safe_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#no_safe_search SecurityUtmProfileWebFilteringJuniperLocal#no_safe_search}
   */
   readonly noSafeSearch?: boolean | cdktf.IResolvable;
   /**
   * Set timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#timeout SecurityUtmProfileWebFilteringJuniperLocal#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#timeout SecurityUtmProfileWebFilteringJuniperLocal#timeout}
   */
   readonly timeout?: number;
   /**
   * category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#category SecurityUtmProfileWebFilteringJuniperLocal#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#category SecurityUtmProfileWebFilteringJuniperLocal#category}
   */
   readonly category?: SecurityUtmProfileWebFilteringJuniperLocalCategory[] | cdktf.IResolvable;
   /**
   * fallback_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#fallback_settings SecurityUtmProfileWebFilteringJuniperLocal#fallback_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#fallback_settings SecurityUtmProfileWebFilteringJuniperLocal#fallback_settings}
   */
   readonly fallbackSettings?: SecurityUtmProfileWebFilteringJuniperLocalFallbackSettings;
 }
@@ -60,19 +60,19 @@ export interface SecurityUtmProfileWebFilteringJuniperLocalCategory {
   /**
   * Action when web traffic matches category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#action SecurityUtmProfileWebFilteringJuniperLocal#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#action SecurityUtmProfileWebFilteringJuniperLocal#action}
   */
   readonly action: string;
   /**
   * Custom message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#custom_message SecurityUtmProfileWebFilteringJuniperLocal#custom_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#custom_message SecurityUtmProfileWebFilteringJuniperLocal#custom_message}
   */
   readonly customMessage?: string;
   /**
   * Name of category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#name SecurityUtmProfileWebFilteringJuniperLocal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#name SecurityUtmProfileWebFilteringJuniperLocal#name}
   */
   readonly name: string;
 }
@@ -242,25 +242,25 @@ export interface SecurityUtmProfileWebFilteringJuniperLocalFallbackSettings {
   /**
   * Default action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#default SecurityUtmProfileWebFilteringJuniperLocal#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#default SecurityUtmProfileWebFilteringJuniperLocal#default}
   */
   readonly default?: string;
   /**
   * Action when device cannot connect to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#server_connectivity SecurityUtmProfileWebFilteringJuniperLocal#server_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#server_connectivity SecurityUtmProfileWebFilteringJuniperLocal#server_connectivity}
   */
   readonly serverConnectivity?: string;
   /**
   * Action when connection to server timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#timeout SecurityUtmProfileWebFilteringJuniperLocal#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#timeout SecurityUtmProfileWebFilteringJuniperLocal#timeout}
   */
   readonly timeout?: string;
   /**
   * Action when requests exceed the limit of engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#too_many_requests SecurityUtmProfileWebFilteringJuniperLocal#too_many_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#too_many_requests SecurityUtmProfileWebFilteringJuniperLocal#too_many_requests}
   */
   readonly tooManyRequests?: string;
 }
@@ -441,7 +441,7 @@ export class SecurityUtmProfileWebFilteringJuniperLocalFallbackSettingsOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local junos_security_utm_profile_web_filtering_juniper_local}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local junos_security_utm_profile_web_filtering_juniper_local}
 */
 export class SecurityUtmProfileWebFilteringJuniperLocal extends cdktf.TerraformResource {
 
@@ -457,7 +457,7 @@ export class SecurityUtmProfileWebFilteringJuniperLocal extends cdktf.TerraformR
   * Generates CDKTF code for importing a SecurityUtmProfileWebFilteringJuniperLocal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityUtmProfileWebFilteringJuniperLocal to import
-  * @param importFromId The id of the existing SecurityUtmProfileWebFilteringJuniperLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityUtmProfileWebFilteringJuniperLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityUtmProfileWebFilteringJuniperLocal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class SecurityUtmProfileWebFilteringJuniperLocal extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_profile_web_filtering_juniper_local junos_security_utm_profile_web_filtering_juniper_local} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_profile_web_filtering_juniper_local junos_security_utm_profile_web_filtering_juniper_local} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class SecurityUtmProfileWebFilteringJuniperLocal extends cdktf.TerraformR
       terraformResourceType: 'junos_security_utm_profile_web_filtering_juniper_local',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SecurityUtmPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of anti-spam profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#anti_spam_smtp_profile SecurityUtmPolicy#anti_spam_smtp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#anti_spam_smtp_profile SecurityUtmPolicy#anti_spam_smtp_profile}
   */
   readonly antiSpamSmtpProfile?: string;
   /**
   * The name of security utm utm-policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#name SecurityUtmPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#name SecurityUtmPolicy#name}
   */
   readonly name: string;
   /**
   * Web-filtering HTTP profile (local, enhanced, websense).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#web_filtering_profile SecurityUtmPolicy#web_filtering_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#web_filtering_profile SecurityUtmPolicy#web_filtering_profile}
   */
   readonly webFilteringProfile?: string;
   /**
   * anti_virus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#anti_virus SecurityUtmPolicy#anti_virus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#anti_virus SecurityUtmPolicy#anti_virus}
   */
   readonly antiVirus?: SecurityUtmPolicyAntiVirus;
   /**
   * content_filtering block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#content_filtering SecurityUtmPolicy#content_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#content_filtering SecurityUtmPolicy#content_filtering}
   */
   readonly contentFiltering?: SecurityUtmPolicyContentFiltering;
   /**
   * content_filtering_rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#content_filtering_rule_set SecurityUtmPolicy#content_filtering_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#content_filtering_rule_set SecurityUtmPolicy#content_filtering_rule_set}
   */
   readonly contentFilteringRuleSet?: SecurityUtmPolicyContentFilteringRuleSet[] | cdktf.IResolvable;
   /**
   * traffic_sessions_per_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#traffic_sessions_per_client SecurityUtmPolicy#traffic_sessions_per_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#traffic_sessions_per_client SecurityUtmPolicy#traffic_sessions_per_client}
   */
   readonly trafficSessionsPerClient?: SecurityUtmPolicyTrafficSessionsPerClient;
 }
@@ -54,37 +54,37 @@ export interface SecurityUtmPolicyAntiVirus {
   /**
   * FTP download anti-virus profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#ftp_download_profile SecurityUtmPolicy#ftp_download_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#ftp_download_profile SecurityUtmPolicy#ftp_download_profile}
   */
   readonly ftpDownloadProfile?: string;
   /**
   * FTP upload anti-virus profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#ftp_upload_profile SecurityUtmPolicy#ftp_upload_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#ftp_upload_profile SecurityUtmPolicy#ftp_upload_profile}
   */
   readonly ftpUploadProfile?: string;
   /**
   * HTTP anti-virus profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#http_profile SecurityUtmPolicy#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#http_profile SecurityUtmPolicy#http_profile}
   */
   readonly httpProfile?: string;
   /**
   * IMAP anti-virus profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#imap_profile SecurityUtmPolicy#imap_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#imap_profile SecurityUtmPolicy#imap_profile}
   */
   readonly imapProfile?: string;
   /**
   * POP3 anti-virus profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#pop3_profile SecurityUtmPolicy#pop3_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#pop3_profile SecurityUtmPolicy#pop3_profile}
   */
   readonly pop3Profile?: string;
   /**
   * SMTP anti-virus profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#smtp_profile SecurityUtmPolicy#smtp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#smtp_profile SecurityUtmPolicy#smtp_profile}
   */
   readonly smtpProfile?: string;
 }
@@ -325,37 +325,37 @@ export interface SecurityUtmPolicyContentFiltering {
   /**
   * FTP download content-filtering profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#ftp_download_profile SecurityUtmPolicy#ftp_download_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#ftp_download_profile SecurityUtmPolicy#ftp_download_profile}
   */
   readonly ftpDownloadProfile?: string;
   /**
   * FTP upload content-filtering profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#ftp_upload_profile SecurityUtmPolicy#ftp_upload_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#ftp_upload_profile SecurityUtmPolicy#ftp_upload_profile}
   */
   readonly ftpUploadProfile?: string;
   /**
   * HTTP content-filtering profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#http_profile SecurityUtmPolicy#http_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#http_profile SecurityUtmPolicy#http_profile}
   */
   readonly httpProfile?: string;
   /**
   * HTTP content-filtering profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#imap_profile SecurityUtmPolicy#imap_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#imap_profile SecurityUtmPolicy#imap_profile}
   */
   readonly imapProfile?: string;
   /**
   * POP3 content-filtering profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#pop3_profile SecurityUtmPolicy#pop3_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#pop3_profile SecurityUtmPolicy#pop3_profile}
   */
   readonly pop3Profile?: string;
   /**
   * SMTP content-filtering profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#smtp_profile SecurityUtmPolicy#smtp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#smtp_profile SecurityUtmPolicy#smtp_profile}
   */
   readonly smtpProfile?: string;
 }
@@ -596,19 +596,19 @@ export interface SecurityUtmPolicyContentFilteringRuleSetRuleThenNotificationEnd
   /**
   * Custom notification message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#custom_message SecurityUtmPolicy#custom_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#custom_message SecurityUtmPolicy#custom_message}
   */
   readonly customMessage?: string;
   /**
   * Notify mail sender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#notify_mail_sender SecurityUtmPolicy#notify_mail_sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#notify_mail_sender SecurityUtmPolicy#notify_mail_sender}
   */
   readonly notifyMailSender?: boolean | cdktf.IResolvable;
   /**
   * Endpoint notification type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#type SecurityUtmPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#type SecurityUtmPolicy#type}
   */
   readonly type?: string;
 }
@@ -762,43 +762,43 @@ export interface SecurityUtmPolicyContentFilteringRuleSetRule {
   /**
   * List of applications to be inspected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#match_applications SecurityUtmPolicy#match_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#match_applications SecurityUtmPolicy#match_applications}
   */
   readonly matchApplications: string[];
   /**
   * Direction of the content to be inspected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#match_direction SecurityUtmPolicy#match_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#match_direction SecurityUtmPolicy#match_direction}
   */
   readonly matchDirection: string;
   /**
   * List of file-types in match criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#match_file_types SecurityUtmPolicy#match_file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#match_file_types SecurityUtmPolicy#match_file_types}
   */
   readonly matchFileTypes: string[];
   /**
   * UTM CF Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#name SecurityUtmPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#name SecurityUtmPolicy#name}
   */
   readonly name: string;
   /**
   * Configure then action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#then_action SecurityUtmPolicy#then_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#then_action SecurityUtmPolicy#then_action}
   */
   readonly thenAction?: string;
   /**
   * Generate security event if content is blocked by rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#then_notification_log SecurityUtmPolicy#then_notification_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#then_notification_log SecurityUtmPolicy#then_notification_log}
   */
   readonly thenNotificationLog?: boolean | cdktf.IResolvable;
   /**
   * then_notification_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#then_notification_endpoint SecurityUtmPolicy#then_notification_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#then_notification_endpoint SecurityUtmPolicy#then_notification_endpoint}
   */
   readonly thenNotificationEndpoint?: SecurityUtmPolicyContentFilteringRuleSetRuleThenNotificationEndpoint;
 }
@@ -1078,13 +1078,13 @@ export interface SecurityUtmPolicyContentFilteringRuleSet {
   /**
   * UTM CF Rule-set name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#name SecurityUtmPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#name SecurityUtmPolicy#name}
   */
   readonly name: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#rule SecurityUtmPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#rule SecurityUtmPolicy#rule}
   */
   readonly rule?: SecurityUtmPolicyContentFilteringRuleSetRule[] | cdktf.IResolvable;
 }
@@ -1228,13 +1228,13 @@ export interface SecurityUtmPolicyTrafficSessionsPerClient {
   /**
   * Sessions limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#limit SecurityUtmPolicy#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#limit SecurityUtmPolicy#limit}
   */
   readonly limit?: number;
   /**
   * Over limit action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#over_limit SecurityUtmPolicy#over_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#over_limit SecurityUtmPolicy#over_limit}
   */
   readonly overLimit?: string;
 }
@@ -1357,7 +1357,7 @@ export class SecurityUtmPolicyTrafficSessionsPerClientOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy junos_security_utm_policy}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy junos_security_utm_policy}
 */
 export class SecurityUtmPolicy extends cdktf.TerraformResource {
 
@@ -1373,7 +1373,7 @@ export class SecurityUtmPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityUtmPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityUtmPolicy to import
-  * @param importFromId The id of the existing SecurityUtmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityUtmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityUtmPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1385,7 +1385,7 @@ export class SecurityUtmPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_policy junos_security_utm_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_policy junos_security_utm_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1396,8 +1396,8 @@ export class SecurityUtmPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_utm_policy',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

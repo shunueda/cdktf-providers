@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_prefix_list
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_prefix_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PolicyoptionsPrefixListConfig extends cdktf.TerraformMetaArgume
   /**
   * Apply IP prefixes from a configuration statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_prefix_list#apply_path PolicyoptionsPrefixList#apply_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_prefix_list#apply_path PolicyoptionsPrefixList#apply_path}
   */
   readonly applyPath?: string;
   /**
   * Object may exist in dynamic database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_prefix_list#dynamic_db PolicyoptionsPrefixList#dynamic_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_prefix_list#dynamic_db PolicyoptionsPrefixList#dynamic_db}
   */
   readonly dynamicDb?: boolean | cdktf.IResolvable;
   /**
   * Prefix list name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_prefix_list#name PolicyoptionsPrefixList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_prefix_list#name PolicyoptionsPrefixList#name}
   */
   readonly name: string;
   /**
   * Address prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_prefix_list#prefix PolicyoptionsPrefixList#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_prefix_list#prefix PolicyoptionsPrefixList#prefix}
   */
   readonly prefix?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_prefix_list junos_policyoptions_prefix_list}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_prefix_list junos_policyoptions_prefix_list}
 */
 export class PolicyoptionsPrefixList extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PolicyoptionsPrefixList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyoptionsPrefixList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyoptionsPrefixList to import
-  * @param importFromId The id of the existing PolicyoptionsPrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_prefix_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyoptionsPrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_prefix_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyoptionsPrefixList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PolicyoptionsPrefixList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_prefix_list junos_policyoptions_prefix_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_prefix_list junos_policyoptions_prefix_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PolicyoptionsPrefixList extends cdktf.TerraformResource {
       terraformResourceType: 'junos_policyoptions_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

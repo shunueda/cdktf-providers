@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_object_storage_connection
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/yq_object_storage_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface YqObjectStorageConnectionConfig extends cdktf.TerraformMetaArgu
   /**
   * The bucket name from ObjectStorage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_object_storage_connection#bucket YqObjectStorageConnection#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/yq_object_storage_connection#bucket YqObjectStorageConnection#bucket}
   */
   readonly bucket: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_object_storage_connection#description YqObjectStorageConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/yq_object_storage_connection#description YqObjectStorageConnection#description}
   */
   readonly description?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_object_storage_connection#name YqObjectStorageConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/yq_object_storage_connection#name YqObjectStorageConnection#name}
   */
   readonly name: string;
   /**
   * The service account ID to access resources on behalf of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_object_storage_connection#service_account_id YqObjectStorageConnection#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/yq_object_storage_connection#service_account_id YqObjectStorageConnection#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_object_storage_connection yandex_yq_object_storage_connection}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/yq_object_storage_connection yandex_yq_object_storage_connection}
 */
 export class YqObjectStorageConnection extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class YqObjectStorageConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YqObjectStorageConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YqObjectStorageConnection to import
-  * @param importFromId The id of the existing YqObjectStorageConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_object_storage_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YqObjectStorageConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/yq_object_storage_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YqObjectStorageConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class YqObjectStorageConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/yq_object_storage_connection yandex_yq_object_storage_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/yq_object_storage_connection yandex_yq_object_storage_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class YqObjectStorageConnection extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_yq_object_storage_connection',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

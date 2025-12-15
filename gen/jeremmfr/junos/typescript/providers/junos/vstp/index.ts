@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface VstpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Block BPDU on all interfaces configured as edge (BPDU Protect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#bpdu_block_on_edge Vstp#bpdu_block_on_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#bpdu_block_on_edge Vstp#bpdu_block_on_edge}
   */
   readonly bpduBlockOnEdge?: boolean | cdktf.IResolvable;
   /**
   * Disable STP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#disable Vstp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#disable Vstp#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Force protocol version STP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#force_version_stp Vstp#force_version_stp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#force_version_stp Vstp#force_version_stp}
   */
   readonly forceVersionStp?: boolean | cdktf.IResolvable;
   /**
   * Hold time before switching to primary priority when core domain becomes up (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#priority_hold_time Vstp#priority_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#priority_hold_time Vstp#priority_hold_time}
   */
   readonly priorityHoldTime?: number;
   /**
   * Routing instance for vstp protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#routing_instance Vstp#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#routing_instance Vstp#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Enable VPLS MAC flush on root protected CE interface receiving topology change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#vpls_flush_on_topology_change Vstp#vpls_flush_on_topology_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#vpls_flush_on_topology_change Vstp#vpls_flush_on_topology_change}
   */
   readonly vplsFlushOnTopologyChange?: boolean | cdktf.IResolvable;
   /**
   * system_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#system_id Vstp#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#system_id Vstp#system_id}
   */
   readonly systemId?: VstpSystemId[] | cdktf.IResolvable;
 }
@@ -54,7 +54,7 @@ export interface VstpSystemId {
   /**
   * System ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#id Vstp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#id Vstp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ export interface VstpSystemId {
   /**
   * Peer ID (IP Address).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#ip_address Vstp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#ip_address Vstp#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -205,7 +205,7 @@ export class VstpSystemIdList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp junos_vstp}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp junos_vstp}
 */
 export class Vstp extends cdktf.TerraformResource {
 
@@ -221,7 +221,7 @@ export class Vstp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vstp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vstp to import
-  * @param importFromId The id of the existing Vstp that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vstp that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vstp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class Vstp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp junos_vstp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp junos_vstp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class Vstp extends cdktf.TerraformResource {
       terraformResourceType: 'junos_vstp',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

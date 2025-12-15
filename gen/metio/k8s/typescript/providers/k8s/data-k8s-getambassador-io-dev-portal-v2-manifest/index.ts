@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGetambassadorIoDevPortalV2ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#metadata DataK8SGetambassadorIoDevPortalV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#metadata DataK8SGetambassadorIoDevPortalV2Manifest#metadata}
   */
   readonly metadata: DataK8SGetambassadorIoDevPortalV2ManifestMetadata;
   /**
   * DevPortalSpec defines the desired state of DevPortal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#spec DataK8SGetambassadorIoDevPortalV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#spec DataK8SGetambassadorIoDevPortalV2Manifest#spec}
   */
   readonly spec?: DataK8SGetambassadorIoDevPortalV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGetambassadorIoDevPortalV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#annotations DataK8SGetambassadorIoDevPortalV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#annotations DataK8SGetambassadorIoDevPortalV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#labels DataK8SGetambassadorIoDevPortalV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#labels DataK8SGetambassadorIoDevPortalV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#name DataK8SGetambassadorIoDevPortalV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#name DataK8SGetambassadorIoDevPortalV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#namespace DataK8SGetambassadorIoDevPortalV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#namespace DataK8SGetambassadorIoDevPortalV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SGetambassadorIoDevPortalV2ManifestMetadataOutputReference ex
 }
 export interface DataK8SGetambassadorIoDevPortalV2ManifestSpecContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#branch DataK8SGetambassadorIoDevPortalV2Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#branch DataK8SGetambassadorIoDevPortalV2Manifest#branch}
   */
   readonly branch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#dir DataK8SGetambassadorIoDevPortalV2Manifest#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#dir DataK8SGetambassadorIoDevPortalV2Manifest#dir}
   */
   readonly dir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#url DataK8SGetambassadorIoDevPortalV2Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#url DataK8SGetambassadorIoDevPortalV2Manifest#url}
   */
   readonly url?: string;
 }
@@ -379,19 +379,19 @@ export interface DataK8SGetambassadorIoDevPortalV2ManifestSpecDocs {
   /**
   * Service is the service being documented
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#service DataK8SGetambassadorIoDevPortalV2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#service DataK8SGetambassadorIoDevPortalV2Manifest#service}
   */
   readonly service?: string;
   /**
   * Timeout specifies the amount of time devportal will wait for the downstream service to report an openapi spec back
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#timeout_ms DataK8SGetambassadorIoDevPortalV2Manifest#timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#timeout_ms DataK8SGetambassadorIoDevPortalV2Manifest#timeout_ms}
   */
   readonly timeoutMs?: number;
   /**
   * URL is the URL used for obtaining docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#url DataK8SGetambassadorIoDevPortalV2Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#url DataK8SGetambassadorIoDevPortalV2Manifest#url}
   */
   readonly url?: string;
 }
@@ -565,13 +565,13 @@ export class DataK8SGetambassadorIoDevPortalV2ManifestSpecDocsList extends cdktf
 }
 export interface DataK8SGetambassadorIoDevPortalV2ManifestSpecSearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#enabled DataK8SGetambassadorIoDevPortalV2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#enabled DataK8SGetambassadorIoDevPortalV2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Type of search. 'title-only' does a fuzzy search over openapi and page titles 'all-content' will fuzzy search over all openapi and page content. 'title-only' is the default. warning: using all-content may incur a larger memory footprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#type DataK8SGetambassadorIoDevPortalV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#type DataK8SGetambassadorIoDevPortalV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -696,13 +696,13 @@ export interface DataK8SGetambassadorIoDevPortalV2ManifestSpecSelector {
   /**
   * MatchLabels specifies the list of labels that must be present in Mappings for being present in this DevPortal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#match_labels DataK8SGetambassadorIoDevPortalV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#match_labels DataK8SGetambassadorIoDevPortalV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * MatchNamespaces is a list of namespaces that will be included in this DevPortal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#match_namespaces DataK8SGetambassadorIoDevPortalV2Manifest#match_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#match_namespaces DataK8SGetambassadorIoDevPortalV2Manifest#match_namespaces}
   */
   readonly matchNamespaces?: string[];
 }
@@ -827,49 +827,49 @@ export interface DataK8SGetambassadorIoDevPortalV2ManifestSpec {
   /**
   * AmbassadorID declares which Ambassador instances should pay attention to this resource. May either be a string or a list of strings. If no value is provided, the default is: ambassador_id: - 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#ambassador_id DataK8SGetambassadorIoDevPortalV2Manifest#ambassador_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#ambassador_id DataK8SGetambassadorIoDevPortalV2Manifest#ambassador_id}
   */
   readonly ambassadorId?: string[];
   /**
   * Content specifies where the content shown in the DevPortal come from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#content DataK8SGetambassadorIoDevPortalV2Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#content DataK8SGetambassadorIoDevPortalV2Manifest#content}
   */
   readonly content?: DataK8SGetambassadorIoDevPortalV2ManifestSpecContent;
   /**
   * Default must be true when this is the default DevPortal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#default DataK8SGetambassadorIoDevPortalV2Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#default DataK8SGetambassadorIoDevPortalV2Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Docs is a static docs definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#docs DataK8SGetambassadorIoDevPortalV2Manifest#docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#docs DataK8SGetambassadorIoDevPortalV2Manifest#docs}
   */
   readonly docs?: DataK8SGetambassadorIoDevPortalV2ManifestSpecDocs[] | cdktf.IResolvable;
   /**
   * Describes how to display 'services' in the DevPortal. Default namespace.name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#naming_scheme DataK8SGetambassadorIoDevPortalV2Manifest#naming_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#naming_scheme DataK8SGetambassadorIoDevPortalV2Manifest#naming_scheme}
   */
   readonly namingScheme?: string;
   /**
   * Configures this DevPortal to use server definitions from the openAPI doc instead of rewriting them based on the url used for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#preserve_servers DataK8SGetambassadorIoDevPortalV2Manifest#preserve_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#preserve_servers DataK8SGetambassadorIoDevPortalV2Manifest#preserve_servers}
   */
   readonly preserveServers?: boolean | cdktf.IResolvable;
   /**
   * DevPortalSearchSpec allows configuration over search functionality for the DevPortal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#search DataK8SGetambassadorIoDevPortalV2Manifest#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#search DataK8SGetambassadorIoDevPortalV2Manifest#search}
   */
   readonly search?: DataK8SGetambassadorIoDevPortalV2ManifestSpecSearch;
   /**
   * Selector is used for choosing what is shown in the DevPortal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#selector DataK8SGetambassadorIoDevPortalV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#selector DataK8SGetambassadorIoDevPortalV2Manifest#selector}
   */
   readonly selector?: DataK8SGetambassadorIoDevPortalV2ManifestSpecSelector;
 }
@@ -1166,7 +1166,7 @@ export class DataK8SGetambassadorIoDevPortalV2ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest k8s_getambassador_io_dev_portal_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest k8s_getambassador_io_dev_portal_v2_manifest}
 */
 export class DataK8SGetambassadorIoDevPortalV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1182,7 +1182,7 @@ export class DataK8SGetambassadorIoDevPortalV2Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SGetambassadorIoDevPortalV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGetambassadorIoDevPortalV2Manifest to import
-  * @param importFromId The id of the existing DataK8SGetambassadorIoDevPortalV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGetambassadorIoDevPortalV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGetambassadorIoDevPortalV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1194,7 +1194,7 @@ export class DataK8SGetambassadorIoDevPortalV2Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/getambassador_io_dev_portal_v2_manifest k8s_getambassador_io_dev_portal_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/getambassador_io_dev_portal_v2_manifest k8s_getambassador_io_dev_portal_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1205,8 +1205,8 @@ export class DataK8SGetambassadorIoDevPortalV2Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_getambassador_io_dev_portal_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

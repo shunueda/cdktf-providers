@@ -7,19 +7,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value: number;
 }
@@ -186,19 +186,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#policies DataK8SDruidApacheOrgDruidV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#policies DataK8SDruidApacheOrgDruidV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerBehaviorScaleUpPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#select_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#select_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#stabilization_window_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#stabilization_window_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -352,13 +352,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * scaleDown is scaling policy for scaling Down. If not set, the default value is to allow to scale down to minReplicas pods, with a 300 second stabilization window (i.e., the highest recommendation for the last 300sec is used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scale_down DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scale_down DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scale_down}
   */
   readonly scaleDown?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerBehaviorScaleDown;
   /**
   * scaleUp is scaling policy for scaling Up. If not set, the default value is the higher of: * increase no more than 4 pods per 60 seconds * double the number of pods per 60 seconds No stabilization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scale_up DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scale_up DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scale_up}
   */
   readonly scaleUp?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerBehaviorScaleUp;
 }
@@ -483,25 +483,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -681,19 +681,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * container is the name of the container in the pods of the scaling target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#container DataK8SDruidApacheOrgDruidV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#container DataK8SDruidApacheOrgDruidV1Alpha1Manifest#container}
   */
   readonly container: string;
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
   */
   readonly target: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsContainerResourceTarget;
 }
@@ -838,19 +838,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1020,13 +1020,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsExternalMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1151,13 +1151,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsExternalMetricSelector;
 }
@@ -1279,25 +1279,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1477,13 +1477,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metric DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metric DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsExternalMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
   */
   readonly target: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsExternalTarget;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1762,19 +1762,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1944,13 +1944,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsObjectMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2075,13 +2075,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsObjectMetricSelector;
 }
@@ -2203,25 +2203,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2401,19 +2401,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * describedObject specifies the descriptions of a object,such as kind,name apiVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#described_object DataK8SDruidApacheOrgDruidV1Alpha1Manifest#described_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#described_object DataK8SDruidApacheOrgDruidV1Alpha1Manifest#described_object}
   */
   readonly describedObject: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsObjectDescribedObject;
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metric DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metric DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsObjectMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
   */
   readonly target: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsObjectTarget;
 }
@@ -2558,19 +2558,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2740,13 +2740,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsPodsMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2871,13 +2871,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsPodsMetricSelector;
 }
@@ -2999,25 +2999,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3197,13 +3197,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metric DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metric DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsPodsMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
   */
   readonly target: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsPodsTarget;
 }
@@ -3322,25 +3322,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_utilization DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#average_value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3520,13 +3520,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target}
   */
   readonly target: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsResourceTarget;
 }
@@ -3645,37 +3645,37 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * containerResource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing a single container in each pod of the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source. This is an alpha feature and can be enabled by the HPAContainerMetrics feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#container_resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#container_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#container_resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#container_resource}
   */
   readonly containerResource?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsContainerResource;
   /**
   * external refers to a global metric that is not associated with any Kubernetes object. It allows autoscaling based on information coming from components running outside of cluster (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#external DataK8SDruidApacheOrgDruidV1Alpha1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#external DataK8SDruidApacheOrgDruidV1Alpha1Manifest#external}
   */
   readonly external?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsExternal;
   /**
   * object refers to a metric describing a single kubernetes object (for example, hits-per-second on an Ingress object).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#object DataK8SDruidApacheOrgDruidV1Alpha1Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#object DataK8SDruidApacheOrgDruidV1Alpha1Manifest#object}
   */
   readonly object?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsObject;
   /**
   * pods refers to a metric describing each pod in the current scale target (for example, transactions-processed-per-second). The values will be averaged together before being compared to the target value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#pods DataK8SDruidApacheOrgDruidV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#pods DataK8SDruidApacheOrgDruidV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsPods;
   /**
   * resource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing each pod in the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource}
   */
   readonly resource?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetricsResource;
   /**
   * type is the type of metric source. It should be one of 'ContainerResource', 'External', 'Object', 'Pods' or 'Resource', each mapping to a matching field in the object. Note: 'ContainerResource' type is available on when the feature-gate HPAContainerMetrics is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -3935,19 +3935,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4095,31 +4095,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscaler
   /**
   * behavior configures the scaling behavior of the target in both Up and Down directions (scaleUp and scaleDown fields respectively). If not set, the default HPAScalingRules for scale up and scale down are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#behavior DataK8SDruidApacheOrgDruidV1Alpha1Manifest#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#behavior DataK8SDruidApacheOrgDruidV1Alpha1Manifest#behavior}
   */
   readonly behavior?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerBehavior;
   /**
   * maxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#max_replicas DataK8SDruidApacheOrgDruidV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#max_replicas DataK8SDruidApacheOrgDruidV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa. See the individual metric source types for more information about how each type of metric must respond. If not set, the default metric will be set to 80% average CPU utilization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metrics DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metrics DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerMetrics[] | cdktf.IResolvable;
   /**
   * minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod. minReplicas is allowed to be 0 if the alpha feature gate HPAScaleToZero is enabled and at least one Object or External metric is configured. Scaling is active as long as at least one metric value is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#min_replicas DataK8SDruidApacheOrgDruidV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#min_replicas DataK8SDruidApacheOrgDruidV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * scaleTargetRef points to the target resource to scale, and is used to the pods for which metrics should be collected, as well as to actually change the replica count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scale_target_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scale_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scale_target_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scale_target_ref}
   */
   readonly scaleTargetRef: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesHpAutoscalerScaleTargetRef;
 }
@@ -4325,7 +4325,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesImagePullSec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4443,19 +4443,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressDefau
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4603,13 +4603,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressDefau
   /**
   * name is the name of the port on the Service. This is a mutually exclusive setting with 'Number'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * number is the numerical port number (e.g. 80) on the Service. This is a mutually exclusive setting with 'Name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#number DataK8SDruidApacheOrgDruidV1Alpha1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#number DataK8SDruidApacheOrgDruidV1Alpha1Manifest#number}
   */
   readonly number?: number;
 }
@@ -4734,13 +4734,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressDefau
   /**
   * name is the referenced service. The service must exist in the same namespace as the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * port of the referenced service. A port name or port number is required for a IngressServiceBackend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressDefaultBackendServicePort;
 }
@@ -4862,13 +4862,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressDefau
   /**
   * resource is an ObjectRef to another Kubernetes resource in the namespace of the Ingress object. If resource is specified, a service.Name and service.Port must not be specified. This is a mutually exclusive setting with 'Service'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource}
   */
   readonly resource?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressDefaultBackendResource;
   /**
   * service references a service as a backend. This is a mutually exclusive setting with 'Resource'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressDefaultBackendService;
 }
@@ -4993,19 +4993,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRules
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5153,13 +5153,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRules
   /**
   * name is the name of the port on the Service. This is a mutually exclusive setting with 'Number'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * number is the numerical port number (e.g. 80) on the Service. This is a mutually exclusive setting with 'Name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#number DataK8SDruidApacheOrgDruidV1Alpha1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#number DataK8SDruidApacheOrgDruidV1Alpha1Manifest#number}
   */
   readonly number?: number;
 }
@@ -5284,13 +5284,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRules
   /**
   * name is the referenced service. The service must exist in the same namespace as the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * port of the referenced service. A port name or port number is required for a IngressServiceBackend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRulesHttpPathsBackendServicePort;
 }
@@ -5412,13 +5412,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRules
   /**
   * resource is an ObjectRef to another Kubernetes resource in the namespace of the Ingress object. If resource is specified, a service.Name and service.Port must not be specified. This is a mutually exclusive setting with 'Service'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource}
   */
   readonly resource?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRulesHttpPathsBackendResource;
   /**
   * service references a service as a backend. This is a mutually exclusive setting with 'Resource'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRulesHttpPathsBackendService;
 }
@@ -5543,19 +5543,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRules
   /**
   * backend defines the referenced service endpoint to which the traffic will be forwarded to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#backend DataK8SDruidApacheOrgDruidV1Alpha1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#backend DataK8SDruidApacheOrgDruidV1Alpha1Manifest#backend}
   */
   readonly backend: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRulesHttpPathsBackend;
   /**
   * path is matched against the path of an incoming request. Currently it can contain characters disallowed from the conventional 'path' part of a URL as defined by RFC 3986. Paths must begin with a '/' and must be present when using PathType with value 'Exact' or 'Prefix'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * pathType determines the interpretation of the path matching. PathType can be one of the following values: * Exact: Matches the URL path exactly. * Prefix: Matches based on a URL path prefix split by '/'. Matching is done on a path element by element basis. A path element refers is the list of labels in the path split by the '/' separator. A request is a match for path p if every p is an element-wise prefix of p of the request path. Note that if the last element of the path is a substring of the last element in request path, it is not a match (e.g. /foo/bar matches /foo/bar/baz, but does not match /foo/barbaz). * ImplementationSpecific: Interpretation of the Path matching is up to the IngressClass. Implementations can treat this as a separate PathType or treat it identically to Prefix or Exact path types. Implementations are required to support all path types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path_type}
   */
   readonly pathType: string;
 }
@@ -5725,7 +5725,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRules
   /**
   * paths is a collection of paths that map requests to backends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#paths DataK8SDruidApacheOrgDruidV1Alpha1Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#paths DataK8SDruidApacheOrgDruidV1Alpha1Manifest#paths}
   */
   readonly paths: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRulesHttpPaths[] | cdktf.IResolvable;
 }
@@ -5818,13 +5818,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRules
   /**
   * host is the fully qualified domain name of a network host, as defined by RFC 3986. Note the following deviations from the 'host' part of the URI as defined in RFC 3986: 1. IPs are not allowed. Currently an IngressRuleValue can only apply to the IP in the Spec of the parent Ingress. 2. The ':' delimiter is not respected because ports are not allowed. Currently the port of an Ingress is implicitly :80 for http and :443 for https. Both these may change in the future. Incoming requests are matched against the host before the IngressRuleValue. If the host is unspecified, the Ingress routes all traffic based on the specified IngressRuleValue. host can be 'precise' which is a domain name without the terminating dot of a network host (e.g. 'foo.bar.com') or 'wildcard', which is a domain name prefixed with a single wildcard label (e.g. '*.foo.com'). The wildcard character '*' must appear by itself as the first DNS label and matches only a single label. You cannot have a wildcard label by itself (e.g. Host == '*'). Requests will be matched against the Host field in the following way: 1. If host is precise, the request matches this rule if the http host header is equal to Host. 2. If host is a wildcard, then the request matches this rule if the http host header is to equal to the suffix (removing the first label) of the wildcard rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * HTTPIngressRuleValue is a list of http selectors pointing to backends. In the example: http://<host>/<path>?<searchpart> -> backend where where parts of the url correspond to RFC 3986, this resource will be used to match against everything after the last '/' and before the first '?' or '#'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRulesHttp;
 }
@@ -5971,13 +5971,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressTls {
   /**
   * hosts is a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#hosts DataK8SDruidApacheOrgDruidV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#hosts DataK8SDruidApacheOrgDruidV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * secretName is the name of the secret used to terminate TLS traffic on port 443. Field is left optional to allow TLS routing based on SNI hostname alone. If the SNI host in a listener conflicts with the 'Host' header field used by an IngressRule, the SNI host is used for termination and value of the 'Host' header is used for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -6124,25 +6124,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngress {
   /**
   * defaultBackend is the backend that should handle requests that don't match any rule. If Rules are not specified, DefaultBackend must be specified. If DefaultBackend is not set, the handling of requests that do not match any of the rules will be up to the Ingress controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#default_backend DataK8SDruidApacheOrgDruidV1Alpha1Manifest#default_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#default_backend DataK8SDruidApacheOrgDruidV1Alpha1Manifest#default_backend}
   */
   readonly defaultBackend?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressDefaultBackend;
   /**
   * ingressClassName is the name of an IngressClass cluster resource. Ingress controller implementations use this field to know whether they should be serving this Ingress resource, by a transitive connection (controller -> IngressClass -> Ingress resource). Although the 'kubernetes.io/ingress.class' annotation (simple constant name) was never formally defined, it was widely supported by Ingress controllers to create a direct binding between Ingress controller and Ingress resources. Newly created Ingress resources should prefer using the field. However, even though the annotation is officially deprecated, for backwards compatibility reasons, ingress controllers should still honor that annotation if present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ingress_class_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ingress_class_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * rules is a list of host rules used to configure the Ingress. If unspecified, or no rule matches, all traffic is sent to the default backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#rules DataK8SDruidApacheOrgDruidV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#rules DataK8SDruidApacheOrgDruidV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressRules[] | cdktf.IResolvable;
   /**
   * tls represents the TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tls DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tls DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesIngressTls[] | cdktf.IResolvable;
 }
@@ -6325,7 +6325,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePos
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -6421,13 +6421,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePos
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -6568,31 +6568,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePos
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -6801,13 +6801,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePos
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -6929,19 +6929,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePos
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePostStartHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePostStartTcpSocket;
 }
@@ -7095,7 +7095,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePre
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7191,13 +7191,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePre
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7338,31 +7338,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePre
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7571,13 +7571,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePre
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -7699,19 +7699,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePre
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePreStopHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePreStopTcpSocket;
 }
@@ -7865,13 +7865,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecycle {
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#post_start DataK8SDruidApacheOrgDruidV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#post_start DataK8SDruidApacheOrgDruidV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#pre_stop DataK8SDruidApacheOrgDruidV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#pre_stop DataK8SDruidApacheOrgDruidV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLifecyclePreStop;
 }
@@ -7996,7 +7996,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProb
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8092,13 +8092,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProb
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -8220,13 +8220,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProb
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8367,31 +8367,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProb
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8600,13 +8600,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProb
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -8728,61 +8728,61 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProb
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#failure_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#failure_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#grpc DataK8SDruidApacheOrgDruidV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#grpc DataK8SDruidApacheOrgDruidV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#initial_delay_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#initial_delay_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#success_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#success_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#termination_grace_period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#termination_grace_period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#timeout_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#timeout_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -9137,23 +9137,23 @@ export class DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesLivenessProbeOut
 }
 export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#annotations DataK8SDruidApacheOrgDruidV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#annotations DataK8SDruidApacheOrgDruidV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#finalizers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#finalizers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9365,19 +9365,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9525,25 +9525,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9720,7 +9720,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9835,19 +9835,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claims DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claims DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#limits DataK8SDruidApacheOrgDruidV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#limits DataK8SDruidApacheOrgDruidV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#requests DataK8SDruidApacheOrgDruidV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#requests DataK8SDruidApacheOrgDruidV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10001,19 +10001,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10183,13 +10183,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10314,49 +10314,49 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#storage_class_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#storage_class_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -10655,35 +10655,35 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * lastProbeTime is the time we probed the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_probe_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_probe_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
   * lastTransitionTime is the time the condition transitioned from one status to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_transition_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_transition_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * message is the human-readable message indicating details about last transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#message DataK8SDruidApacheOrgDruidV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#message DataK8SDruidApacheOrgDruidV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * reason is a unique, this should be a short, machine understandable string that gives the reason for condition's last transition. If it reports 'ResizeStarted' that means the underlying persistent volume is being resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#reason DataK8SDruidApacheOrgDruidV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#reason DataK8SDruidApacheOrgDruidV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * PersistentVolumeClaimConditionType is a valid value of PersistentVolumeClaimCondition.Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -10940,37 +10940,37 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * accessModes contains the actual access modes the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * allocatedResources is the storage resource within AllocatedResources tracks the capacity allocated to a PVC. It may be larger than the actual capacity when a volume expansion operation is requested. For storage quota, the larger value from allocatedResources and PVC.spec.resources is used. If allocatedResources is not set, PVC.spec.resources alone is used for quota calculation. If a volume expansion capacity request is lowered, allocatedResources is only lowered if there are no expansion operations in progress and if the actual volume capacity is equal or lower than the requested capacity. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#allocated_resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#allocated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#allocated_resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#allocated_resources}
   */
   readonly allocatedResources?: { [key: string]: string };
   /**
   * capacity represents the actual resources of the underlying volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#capacity DataK8SDruidApacheOrgDruidV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#capacity DataK8SDruidApacheOrgDruidV1Alpha1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * conditions is the current Condition of persistent volume claim. If underlying persistent volume is being resized then the Condition will be set to 'ResizeStarted'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#conditions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#conditions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimStatusConditions[] | cdktf.IResolvable;
   /**
   * phase represents the current phase of PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#phase DataK8SDruidApacheOrgDruidV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#phase DataK8SDruidApacheOrgDruidV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
   /**
   * resizeStatus stores status of resize operation. ResizeStatus is not set by default but when expansion is complete resizeStatus is set to empty string by resize controller or kubelet. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resize_status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resize_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resize_status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resize_status}
   */
   readonly resizeStatus?: string;
 }
@@ -11211,31 +11211,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVo
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metadata DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metadata DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimMetadata;
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimSpec;
   /**
   * status represents the current information/status of a persistent volume claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPersistentVolumeClaimStatus;
 }
@@ -11469,19 +11469,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPodDisruptio
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11651,13 +11651,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPodDisruptio
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPodDisruptionBudgetSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11782,25 +11782,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPodDisruptio
   /**
   * An eviction is allowed if at most 'maxUnavailable' pods selected by 'selector' are unavailable after the eviction, i.e. even in absence of the evicted pod. For example, one can prevent all voluntary evictions by specifying 0. This is a mutually exclusive setting with 'minAvailable'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#max_unavailable DataK8SDruidApacheOrgDruidV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#max_unavailable DataK8SDruidApacheOrgDruidV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * An eviction is allowed if at least 'minAvailable' pods selected by 'selector' will still be available after the eviction, i.e. even in the absence of the evicted pod. So for example you can prevent all voluntary evictions by specifying '100%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#min_available DataK8SDruidApacheOrgDruidV1Alpha1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#min_available DataK8SDruidApacheOrgDruidV1Alpha1Manifest#min_available}
   */
   readonly minAvailable?: string;
   /**
   * Label query over pods whose evictions are managed by the disruption budget. A null selector will match no pods, while an empty ({}) selector will select all pods within the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPodDisruptionBudgetSpecSelector;
   /**
   * UnhealthyPodEvictionPolicy defines the criteria for when unhealthy pods should be considered for eviction. Current implementation considers healthy pods, as pods that have status.conditions item with type='Ready',status='True'. Valid policies are IfHealthyBudget and AlwaysAllow. If no policy is specified, the default behavior will be used, which corresponds to the IfHealthyBudget policy. IfHealthyBudget policy means that running pods (status.phase='Running'), but not yet healthy can be evicted only if the guarded application is not disrupted (status.currentHealthy is at least equal to status.desiredHealthy). Healthy pods will be subject to the PDB for eviction. AlwaysAllow policy means that all running pods (status.phase='Running'), but not yet healthy are considered disrupted and can be evicted regardless of whether the criteria in a PDB is met. This means perspective running pods of a disrupted application might not get a chance to become healthy. Healthy pods will be subject to the PDB for eviction. Additional policies may be added in the future. Clients making eviction decisions should disallow eviction of unhealthy pods if they encounter an unrecognized policy in this field. This field is beta-level. The eviction API uses this field when the feature gate PDBUnhealthyPodEvictionPolicy is enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#unhealthy_pod_eviction_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#unhealthy_pod_eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#unhealthy_pod_eviction_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#unhealthy_pod_eviction_policy}
   */
   readonly unhealthyPodEvictionPolicy?: string;
 }
@@ -11983,31 +11983,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesPorts {
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#container_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#container_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host_ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host_ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#protocol DataK8SDruidApacheOrgDruidV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#protocol DataK8SDruidApacheOrgDruidV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -12238,7 +12238,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessPro
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12334,13 +12334,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessPro
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -12462,13 +12462,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessPro
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -12609,31 +12609,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessPro
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12842,13 +12842,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessPro
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -12970,61 +12970,61 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessPro
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#failure_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#failure_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#grpc DataK8SDruidApacheOrgDruidV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#grpc DataK8SDruidApacheOrgDruidV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#initial_delay_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#initial_delay_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#success_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#success_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#termination_grace_period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#termination_grace_period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#timeout_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#timeout_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -13381,7 +13381,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesResourcesCla
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -13496,19 +13496,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claims DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claims DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#limits DataK8SDruidApacheOrgDruidV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#limits DataK8SDruidApacheOrgDruidV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#requests DataK8SDruidApacheOrgDruidV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#requests DataK8SDruidApacheOrgDruidV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -13662,25 +13662,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityCont
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#level DataK8SDruidApacheOrgDruidV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#level DataK8SDruidApacheOrgDruidV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#role DataK8SDruidApacheOrgDruidV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#role DataK8SDruidApacheOrgDruidV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#user DataK8SDruidApacheOrgDruidV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#user DataK8SDruidApacheOrgDruidV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -13863,13 +13863,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityCont
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#localhost_profile DataK8SDruidApacheOrgDruidV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#localhost_profile DataK8SDruidApacheOrgDruidV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -13991,13 +13991,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityCont
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -14138,25 +14138,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityCont
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#gmsa_credential_spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#gmsa_credential_spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#gmsa_credential_spec_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#gmsa_credential_spec_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host_process DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host_process DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#run_as_user_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#run_as_user_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -14339,61 +14339,61 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityCont
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_group_change_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_group_change_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#run_as_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#run_as_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#run_as_non_root DataK8SDruidApacheOrgDruidV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#run_as_non_root DataK8SDruidApacheOrgDruidV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#run_as_user DataK8SDruidApacheOrgDruidV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#run_as_user DataK8SDruidApacheOrgDruidV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#se_linux_options DataK8SDruidApacheOrgDruidV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#se_linux_options DataK8SDruidApacheOrgDruidV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#seccomp_profile DataK8SDruidApacheOrgDruidV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#seccomp_profile DataK8SDruidApacheOrgDruidV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#supplemental_groups DataK8SDruidApacheOrgDruidV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#supplemental_groups DataK8SDruidApacheOrgDruidV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#sysctls DataK8SDruidApacheOrgDruidV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#sysctls DataK8SDruidApacheOrgDruidV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#windows_options DataK8SDruidApacheOrgDruidV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#windows_options DataK8SDruidApacheOrgDruidV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityContextWindowsOptions;
 }
@@ -14748,23 +14748,23 @@ export class DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesSecurityContextO
 }
 export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#annotations DataK8SDruidApacheOrgDruidV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#annotations DataK8SDruidApacheOrgDruidV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#finalizers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#finalizers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14976,37 +14976,37 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesSpec
   /**
   * The application protocol for this port. This field follows standard Kubernetes label syntax. Un-prefixed names are reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). Non-standard protocols should use prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#app_protocol DataK8SDruidApacheOrgDruidV1Alpha1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#app_protocol DataK8SDruidApacheOrgDruidV1Alpha1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort. Optional if only one ServicePort is defined on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#node_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#node_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#protocol DataK8SDruidApacheOrgDruidV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#protocol DataK8SDruidApacheOrgDruidV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -15266,7 +15266,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesSpec
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#timeout_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#timeout_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15362,7 +15362,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesSpec
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#client_ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#client_ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesSpecSessionAffinityConfigClientIp;
 }
@@ -15458,115 +15458,115 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesSpec
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#allocate_load_balancer_node_ports DataK8SDruidApacheOrgDruidV1Alpha1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#allocate_load_balancer_node_ports DataK8SDruidApacheOrgDruidV1Alpha1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#cluster_i_ps DataK8SDruidApacheOrgDruidV1Alpha1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#cluster_i_ps DataK8SDruidApacheOrgDruidV1Alpha1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#cluster_ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#cluster_ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#external_i_ps DataK8SDruidApacheOrgDruidV1Alpha1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#external_i_ps DataK8SDruidApacheOrgDruidV1Alpha1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#external_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#external_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#external_traffic_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#external_traffic_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#health_check_node_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#health_check_node_port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#internal_traffic_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#internal_traffic_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ip_families DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ip_families DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ip_family_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ip_family_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#load_balancer_class DataK8SDruidApacheOrgDruidV1Alpha1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#load_balancer_class DataK8SDruidApacheOrgDruidV1Alpha1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations, and it cannot support dual-stack. As of Kubernetes v1.24, users are encouraged to use implementation-specific annotations when available. This field may be removed in a future API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#load_balancer_ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#load_balancer_ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#load_balancer_source_ranges DataK8SDruidApacheOrgDruidV1Alpha1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#load_balancer_source_ranges DataK8SDruidApacheOrgDruidV1Alpha1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * The list of ports that are exposed by this service. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ports DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ports DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesSpecPorts[] | cdktf.IResolvable;
   /**
   * publishNotReadyAddresses indicates that any agent which deals with endpoints for this Service should disregard any indications of ready/not-ready. The primary use case for setting this field is for a StatefulSet's Headless Service to propagate SRV DNS records for its Pods for the purpose of peer discovery. The Kubernetes controllers that generate Endpoints and EndpointSlice resources for Services interpret this to mean that all endpoints are considered 'ready' even if the Pods themselves are not. Agents which consume only Kubernetes generated endpoints through the Endpoints or EndpointSlice resources can safely assume this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#publish_not_ready_addresses DataK8SDruidApacheOrgDruidV1Alpha1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#publish_not_ready_addresses DataK8SDruidApacheOrgDruidV1Alpha1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
   * Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#session_affinity DataK8SDruidApacheOrgDruidV1Alpha1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#session_affinity DataK8SDruidApacheOrgDruidV1Alpha1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#session_affinity_config DataK8SDruidApacheOrgDruidV1Alpha1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#session_affinity_config DataK8SDruidApacheOrgDruidV1Alpha1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesSpecSessionAffinityConfig;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -16184,37 +16184,37 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStat
   /**
   * lastTransitionTime is the last time the condition transitioned from one status to another. This should be when the underlying condition changed. If that is not known, then using the time when the API field changed is acceptable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_transition_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_transition_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime: string;
   /**
   * message is a human readable message indicating details about the transition. This may be an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#message DataK8SDruidApacheOrgDruidV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#message DataK8SDruidApacheOrgDruidV1Alpha1Manifest#message}
   */
   readonly message: string;
   /**
   * observedGeneration represents the .metadata.generation that the condition was set based upon. For instance, if .metadata.generation is currently 12, but the .status.conditions[x].observedGeneration is 9, the condition is out of date with respect to the current state of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#observed_generation DataK8SDruidApacheOrgDruidV1Alpha1Manifest#observed_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#observed_generation DataK8SDruidApacheOrgDruidV1Alpha1Manifest#observed_generation}
   */
   readonly observedGeneration?: number;
   /**
   * reason contains a programmatic identifier indicating the reason for the condition's last transition. Producers of specific condition types may define expected values and meanings for this field, and whether the values are considered a guaranteed API. The value should be a CamelCase string. This field may not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#reason DataK8SDruidApacheOrgDruidV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#reason DataK8SDruidApacheOrgDruidV1Alpha1Manifest#reason}
   */
   readonly reason: string;
   /**
   * status of the condition, one of True, False, Unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * type of condition in CamelCase or in foo.example.com/CamelCase. --- Many .condition.type values are consistent across resources like Available, but because arbitrary conditions can be useful (see .node.status.conditions), the ability to deconflict is important. The regex it matches is (dns1123SubdomainFmt/)?(qualifiedNameFmt)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -16462,19 +16462,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStat
   /**
   * Error is to record the problem with the service port The format of the error shall comply with the following rules: - built-in error values shall be specified in this file and those shall use CamelCase names - cloud provider specific error values must have names that comply with the format foo.example.com/CamelCase. --- The regex it matches is (dns1123SubdomainFmt/)?(qualifiedNameFmt)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#error DataK8SDruidApacheOrgDruidV1Alpha1Manifest#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#error DataK8SDruidApacheOrgDruidV1Alpha1Manifest#error}
   */
   readonly error?: string;
   /**
   * Port is the port number of the service port of which status is recorded here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol is the protocol of the service port of which status is recorded here The supported values are: 'TCP', 'UDP', 'SCTP'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#protocol DataK8SDruidApacheOrgDruidV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#protocol DataK8SDruidApacheOrgDruidV1Alpha1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -16644,19 +16644,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStat
   /**
   * Hostname is set for load-balancer ingress points that are DNS based (typically AWS load-balancers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#hostname DataK8SDruidApacheOrgDruidV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#hostname DataK8SDruidApacheOrgDruidV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * IP is set for load-balancer ingress points that are IP based (typically GCE or OpenStack load-balancers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ip DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
   /**
   * Ports is a list of records of service ports If used, every port defined in the service should have an entry in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ports DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ports DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStatusLoadBalancerIngressPorts[] | cdktf.IResolvable;
 }
@@ -16832,7 +16832,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStat
   /**
   * Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ingress DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#ingress DataK8SDruidApacheOrgDruidV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStatusLoadBalancerIngress[] | cdktf.IResolvable;
 }
@@ -16928,13 +16928,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStat
   /**
   * Current service state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#conditions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#conditions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStatusConditions[] | cdktf.IResolvable;
   /**
   * LoadBalancer contains the current status of the load-balancer, if one is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#load_balancer DataK8SDruidApacheOrgDruidV1Alpha1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#load_balancer DataK8SDruidApacheOrgDruidV1Alpha1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStatusLoadBalancer;
 }
@@ -17059,31 +17059,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServices {
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metadata DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metadata DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesMetadata;
   /**
   * Spec defines the behavior of a service. https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesSpec;
   /**
   * Most recently observed status of the service. Populated by the system. Read-only. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesServicesStatus;
 }
@@ -17317,7 +17317,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbe
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#command DataK8SDruidApacheOrgDruidV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17413,13 +17413,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbe
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#service DataK8SDruidApacheOrgDruidV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -17541,13 +17541,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbe
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -17688,31 +17688,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbe
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_headers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#scheme DataK8SDruidApacheOrgDruidV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17921,13 +17921,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbe
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#host DataK8SDruidApacheOrgDruidV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#port DataK8SDruidApacheOrgDruidV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -18049,61 +18049,61 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbe
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#exec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#failure_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#failure_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#grpc DataK8SDruidApacheOrgDruidV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#grpc DataK8SDruidApacheOrgDruidV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#http_get DataK8SDruidApacheOrgDruidV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#initial_delay_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#initial_delay_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#success_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#success_threshold DataK8SDruidApacheOrgDruidV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#tcp_socket DataK8SDruidApacheOrgDruidV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesStartUpProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#termination_grace_period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#termination_grace_period_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#timeout_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#timeout_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -18460,31 +18460,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesTolerations 
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#effect DataK8SDruidApacheOrgDruidV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#effect DataK8SDruidApacheOrgDruidV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#toleration_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#toleration_seconds DataK8SDruidApacheOrgDruidV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#value DataK8SDruidApacheOrgDruidV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -18718,19 +18718,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesTopologySpre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18900,13 +18900,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesTopologySpre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19031,49 +19031,49 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesTopologySpre
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#label_selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#label_selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_label_keys DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_label_keys DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#max_skew DataK8SDruidApacheOrgDruidV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#max_skew DataK8SDruidApacheOrgDruidV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#min_domains DataK8SDruidApacheOrgDruidV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#min_domains DataK8SDruidApacheOrgDruidV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#node_affinity_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#node_affinity_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#node_taints_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#node_taints_policy DataK8SDruidApacheOrgDruidV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#topology_key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#topology_key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#when_unsatisfiable DataK8SDruidApacheOrgDruidV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#when_unsatisfiable DataK8SDruidApacheOrgDruidV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -19385,13 +19385,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesUpdateStrate
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding up. This can not be 0. Defaults to 1. This field is alpha-level and is only honored by servers that enable the MaxUnavailableStatefulSet feature. The field applies to all pods in the range 0 to Replicas-1. That means if there is any unavailable pod in the range 0 to Replicas-1, it will be counted towards MaxUnavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#max_unavailable DataK8SDruidApacheOrgDruidV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#max_unavailable DataK8SDruidApacheOrgDruidV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * Partition indicates the ordinal at which the StatefulSet should be partitioned for updates. During a rolling update, all pods from ordinal Replicas-1 to Partition are updated. All pods from ordinal Partition-1 to 0 remain untouched. This is helpful in being able to do a canary based deployment. The default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#partition DataK8SDruidApacheOrgDruidV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#partition DataK8SDruidApacheOrgDruidV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
 }
@@ -19516,13 +19516,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesUpdateStrate
   /**
   * RollingUpdate is used to communicate parameters when Type is RollingUpdateStatefulSetStrategyType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#rolling_update DataK8SDruidApacheOrgDruidV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#rolling_update DataK8SDruidApacheOrgDruidV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesUpdateStrategyRollingUpdate;
   /**
   * Type indicates the type of the StatefulSetUpdateStrategy. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -19645,23 +19645,23 @@ export class DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesUpdateStrategyOu
 }
 export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#annotations DataK8SDruidApacheOrgDruidV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#annotations DataK8SDruidApacheOrgDruidV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#finalizers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#finalizers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -19873,19 +19873,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -20033,25 +20033,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -20228,7 +20228,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -20343,19 +20343,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claims DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claims DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#limits DataK8SDruidApacheOrgDruidV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#limits DataK8SDruidApacheOrgDruidV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#requests DataK8SDruidApacheOrgDruidV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#requests DataK8SDruidApacheOrgDruidV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -20509,19 +20509,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20691,13 +20691,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20822,49 +20822,49 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#storage_class_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#storage_class_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -21163,35 +21163,35 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * lastProbeTime is the time we probed the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_probe_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_probe_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
   * lastTransitionTime is the time the condition transitioned from one status to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_transition_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#last_transition_time DataK8SDruidApacheOrgDruidV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * message is the human-readable message indicating details about last transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#message DataK8SDruidApacheOrgDruidV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#message DataK8SDruidApacheOrgDruidV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * reason is a unique, this should be a short, machine understandable string that gives the reason for condition's last transition. If it reports 'ResizeStarted' that means the underlying persistent volume is being resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#reason DataK8SDruidApacheOrgDruidV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#reason DataK8SDruidApacheOrgDruidV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * PersistentVolumeClaimConditionType is a valid value of PersistentVolumeClaimCondition.Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -21448,37 +21448,37 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * accessModes contains the actual access modes the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * allocatedResources is the storage resource within AllocatedResources tracks the capacity allocated to a PVC. It may be larger than the actual capacity when a volume expansion operation is requested. For storage quota, the larger value from allocatedResources and PVC.spec.resources is used. If allocatedResources is not set, PVC.spec.resources alone is used for quota calculation. If a volume expansion capacity request is lowered, allocatedResources is only lowered if there are no expansion operations in progress and if the actual volume capacity is equal or lower than the requested capacity. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#allocated_resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#allocated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#allocated_resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#allocated_resources}
   */
   readonly allocatedResources?: { [key: string]: string };
   /**
   * capacity represents the actual resources of the underlying volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#capacity DataK8SDruidApacheOrgDruidV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#capacity DataK8SDruidApacheOrgDruidV1Alpha1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * conditions is the current Condition of persistent volume claim. If underlying persistent volume is being resized then the Condition will be set to 'ResizeStarted'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#conditions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#conditions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesStatusConditions[] | cdktf.IResolvable;
   /**
   * phase represents the current phase of PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#phase DataK8SDruidApacheOrgDruidV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#phase DataK8SDruidApacheOrgDruidV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
   /**
   * resizeStatus stores status of resize operation. ResizeStatus is not set by default but when expansion is complete resizeStatus is set to empty string by resize controller or kubelet. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resize_status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resize_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resize_status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resize_status}
   */
   readonly resizeStatus?: string;
 }
@@ -21719,31 +21719,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimT
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metadata DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metadata DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesMetadata;
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesSpec;
   /**
   * status represents the current information/status of a persistent volume claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#status DataK8SDruidApacheOrgDruidV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeClaimTemplatesStatus;
 }
@@ -21977,37 +21977,37 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumeMounts
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#mount_path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#mount_path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#mount_propagation DataK8SDruidApacheOrgDruidV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#mount_propagation DataK8SDruidApacheOrgDruidV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#sub_path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#sub_path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#sub_path_expr DataK8SDruidApacheOrgDruidV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#sub_path_expr DataK8SDruidApacheOrgDruidV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -22264,25 +22264,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesAwsEl
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#partition DataK8SDruidApacheOrgDruidV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#partition DataK8SDruidApacheOrgDruidV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_id DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_id DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -22462,37 +22462,37 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesAzure
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#caching_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#caching_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#disk_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#disk_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#disk_uri DataK8SDruidApacheOrgDruidV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#disk_uri DataK8SDruidApacheOrgDruidV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -22727,19 +22727,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesAzure
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#share_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#share_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -22887,7 +22887,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCephf
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22983,37 +22983,37 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCephf
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#monitors DataK8SDruidApacheOrgDruidV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#monitors DataK8SDruidApacheOrgDruidV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_file DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_file DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#user DataK8SDruidApacheOrgDruidV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#user DataK8SDruidApacheOrgDruidV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -23251,7 +23251,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCinde
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23347,25 +23347,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCinde
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_id DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_id DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -23545,19 +23545,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesConfi
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -23727,25 +23727,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesConfi
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#default_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#default_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#items DataK8SDruidApacheOrgDruidV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#items DataK8SDruidApacheOrgDruidV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#optional DataK8SDruidApacheOrgDruidV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#optional DataK8SDruidApacheOrgDruidV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23928,7 +23928,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCsiNo
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -24024,31 +24024,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCsi {
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#driver DataK8SDruidApacheOrgDruidV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#driver DataK8SDruidApacheOrgDruidV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#node_publish_secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#node_publish_secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_attributes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_attributes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -24257,13 +24257,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesDownw
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_version DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#field_path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#field_path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -24385,19 +24385,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesDownw
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#container_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#container_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#divisor DataK8SDruidApacheOrgDruidV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#divisor DataK8SDruidApacheOrgDruidV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -24548,25 +24548,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesDownw
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#field_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#field_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource_field_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resource_field_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -24768,13 +24768,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesDownw
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#default_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#default_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#items DataK8SDruidApacheOrgDruidV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#items DataK8SDruidApacheOrgDruidV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -24899,13 +24899,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEmpty
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#medium DataK8SDruidApacheOrgDruidV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#medium DataK8SDruidApacheOrgDruidV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#size_limit DataK8SDruidApacheOrgDruidV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#size_limit DataK8SDruidApacheOrgDruidV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -25028,23 +25028,23 @@ export class DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEmptyDirO
 }
 export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#annotations DataK8SDruidApacheOrgDruidV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#annotations DataK8SDruidApacheOrgDruidV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#finalizers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#finalizers DataK8SDruidApacheOrgDruidV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -25256,19 +25256,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -25416,25 +25416,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#api_group DataK8SDruidApacheOrgDruidV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#kind DataK8SDruidApacheOrgDruidV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#namespace DataK8SDruidApacheOrgDruidV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -25611,7 +25611,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -25726,19 +25726,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claims DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claims DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#limits DataK8SDruidApacheOrgDruidV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#limits DataK8SDruidApacheOrgDruidV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#requests DataK8SDruidApacheOrgDruidV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#requests DataK8SDruidApacheOrgDruidV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -25892,19 +25892,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#key DataK8SDruidApacheOrgDruidV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#operator DataK8SDruidApacheOrgDruidV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#values DataK8SDruidApacheOrgDruidV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26074,13 +26074,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_expressions DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#match_labels DataK8SDruidApacheOrgDruidV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26205,49 +26205,49 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#access_modes DataK8SDruidApacheOrgDruidV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#data_source_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#resources DataK8SDruidApacheOrgDruidV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#selector DataK8SDruidApacheOrgDruidV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#storage_class_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#storage_class_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_mode DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -26546,13 +26546,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metadata DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#metadata DataK8SDruidApacheOrgDruidV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateMetadata;
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#spec DataK8SDruidApacheOrgDruidV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -26674,7 +26674,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphem
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_claim_template DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_claim_template DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesEphemeralVolumeClaimTemplate;
 }
@@ -26770,31 +26770,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesFc {
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#lun DataK8SDruidApacheOrgDruidV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#lun DataK8SDruidApacheOrgDruidV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target_ww_ns DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target_ww_ns DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#wwids DataK8SDruidApacheOrgDruidV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#wwids DataK8SDruidApacheOrgDruidV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -27006,7 +27006,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesFlexV
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -27102,31 +27102,31 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesFlexV
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#driver DataK8SDruidApacheOrgDruidV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#driver DataK8SDruidApacheOrgDruidV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#options DataK8SDruidApacheOrgDruidV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#options DataK8SDruidApacheOrgDruidV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesFlexVolumeSecretRef;
 }
@@ -27335,13 +27335,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesFlock
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#dataset_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#dataset_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#dataset_uuid DataK8SDruidApacheOrgDruidV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#dataset_uuid DataK8SDruidApacheOrgDruidV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -27466,25 +27466,25 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesGcePe
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#partition DataK8SDruidApacheOrgDruidV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#partition DataK8SDruidApacheOrgDruidV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#pd_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#pd_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -27664,19 +27664,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesGitRe
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#directory DataK8SDruidApacheOrgDruidV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#directory DataK8SDruidApacheOrgDruidV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#repository DataK8SDruidApacheOrgDruidV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#repository DataK8SDruidApacheOrgDruidV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#revision DataK8SDruidApacheOrgDruidV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#revision DataK8SDruidApacheOrgDruidV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -27827,19 +27827,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesGlust
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#endpoints DataK8SDruidApacheOrgDruidV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#endpoints DataK8SDruidApacheOrgDruidV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -27987,13 +27987,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesHostP
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -28115,7 +28115,7 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesIscsi
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -28211,67 +28211,67 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesIscsi
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#chap_auth_discovery DataK8SDruidApacheOrgDruidV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#chap_auth_discovery DataK8SDruidApacheOrgDruidV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#chap_auth_session DataK8SDruidApacheOrgDruidV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#chap_auth_session DataK8SDruidApacheOrgDruidV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#initiator_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#initiator_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#iqn DataK8SDruidApacheOrgDruidV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#iqn DataK8SDruidApacheOrgDruidV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#iscsi_interface DataK8SDruidApacheOrgDruidV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#iscsi_interface DataK8SDruidApacheOrgDruidV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#lun DataK8SDruidApacheOrgDruidV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#lun DataK8SDruidApacheOrgDruidV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#portals DataK8SDruidApacheOrgDruidV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#portals DataK8SDruidApacheOrgDruidV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#secret_ref DataK8SDruidApacheOrgDruidV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target_portal DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#target_portal DataK8SDruidApacheOrgDruidV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -28648,19 +28648,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesNfs {
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#path DataK8SDruidApacheOrgDruidV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#server DataK8SDruidApacheOrgDruidV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#server DataK8SDruidApacheOrgDruidV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -28808,13 +28808,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesPersi
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claim_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#claim_name DataK8SDruidApacheOrgDruidV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -28936,13 +28936,13 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesPhoto
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#pd_id DataK8SDruidApacheOrgDruidV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#pd_id DataK8SDruidApacheOrgDruidV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -29064,19 +29064,19 @@ export interface DataK8SDruidApacheOrgDruidV1Alpha1ManifestSpecNodesVolumesPortw
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#fs_type DataK8SDruidApacheOrgDruidV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#read_only DataK8SDruidApacheOrgDruidV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_id DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_apache_org_druid_v1alpha1_manifest#volume_id DataK8SDruidApacheOrgDruidV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }

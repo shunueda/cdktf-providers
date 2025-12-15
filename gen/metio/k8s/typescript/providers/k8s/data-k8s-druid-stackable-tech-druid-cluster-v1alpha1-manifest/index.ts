@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#metadata DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#metadata DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestMetadata;
   /**
   * A Druid cluster stacklet. This resource is managed by the Stackable operator for Apache Druid. Find more information on how to use it and the resources that the operator generates in the [operator documentation](https://docs.stackable.tech/home/nightly/druid/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#spec DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#spec DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#annotations DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#annotations DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#labels DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#labels DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#namespace DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#namespace DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -420,7 +420,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -516,7 +516,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -612,7 +612,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -708,7 +708,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -804,25 +804,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigLoggingContainersLoggers;
 }
@@ -1005,13 +1005,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -1136,13 +1136,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -1267,13 +1267,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -1396,17 +1396,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersCon
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigResourcesMemory;
   /**
   * This role does not have any storage settings. Only the Historical role uses disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -1560,25 +1560,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfigResources;
 }
@@ -1761,13 +1761,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -1892,7 +1892,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleConfigPodDisruptionBudget;
 }
@@ -1988,25 +1988,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -2189,7 +2189,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2285,7 +2285,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -2381,7 +2381,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2477,7 +2477,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2573,25 +2573,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -2774,13 +2774,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -2905,13 +2905,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -3036,13 +3036,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -3165,17 +3165,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRol
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigResourcesMemory;
   /**
   * This role does not have any storage settings. Only the Historical role uses disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -3329,25 +3329,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBroker
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfigResources;
 }
@@ -3528,33 +3528,33 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRol
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -3793,39 +3793,39 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRol
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokersRoleGroups;
 }
@@ -4092,13 +4092,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * A reference to the OIDC client credentials secret. The secret contains the client id and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#client_credentials_secret DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#client_credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#client_credentials_secret DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#client_credentials_secret}
   */
   readonly clientCredentialsSecret: string;
   /**
   * An optional list of extra scopes which get merged with the scopes defined in the ['AuthenticationClass'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#extra_scopes DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#extra_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#extra_scopes DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#extra_scopes}
   */
   readonly extraScopes?: string[];
 }
@@ -4220,13 +4220,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Name of the [AuthenticationClass](https://docs.stackable.tech/home/nightly/concepts/authentication) used to authenticate users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#authentication_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#authentication_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#authentication_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#authentication_class}
   */
   readonly authenticationClass: string;
   /**
   * This field contains OIDC-specific configuration. It is only required in case OIDC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#oidc DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#oidc DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#oidc}
   */
   readonly oidc?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigAuthenticationOidc;
 }
@@ -4370,13 +4370,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) for the OPA stacklet that should be used for authorization requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName: string;
   /**
   * The name of the Rego package containing the Rego rules for the product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#package DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#package DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#package}
   */
   readonly package?: string;
 }
@@ -4498,7 +4498,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Configure the OPA stacklet [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) and the name of the Rego package containing your Druid authorization rules. Consult the [OPA authorization documentation](https://docs.stackable.tech/home/nightly/concepts/opa) to learn how to deploy Rego authorization rules with OPA. Read the [Druid operator security documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/security) for more information on how to write rules specifically for Druid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#opa DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#opa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#opa DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#opa}
   */
   readonly opa: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigAuthorizationOpa;
 }
@@ -4591,13 +4591,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) for the HDFS instance. When running an HDFS cluster with the Stackable operator, the operator will create this ConfigMap for you. It has the same name as your HDFSCluster resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName: string;
   /**
   * The directory inside of HDFS where Druid should store its data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#directory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#directory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#directory}
   */
   readonly directory: string;
 }
@@ -4716,25 +4716,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The listener volume scope allows Node and Service scopes to be inferred from the applicable listeners. This must correspond to Volume names in the Pod that mount Listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#listener_volumes DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#listener_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#listener_volumes DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#listener_volumes}
   */
   readonly listenerVolumes?: string[];
   /**
   * The node scope is resolved to the name of the Kubernetes Node object that the Pod is running on. This will typically be the DNS name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
   * The pod scope is resolved to the name of the Kubernetes Pod. This allows the secret to differentiate between StatefulSet replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
   * The service scope allows Pod objects to specify custom scopes. This should typically correspond to Service objects that the Pod participates in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#services DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#services DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -4917,13 +4917,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * [Scope](https://docs.stackable.tech/home/nightly/secret-operator/scope) of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#scope DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#scope DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInlineConnectionInlineCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) containing the LDAP bind credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -5045,13 +5045,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Name of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) which will provide the CA certificate. Note that a SecretClass does not need to have a key but can also work with just a CA certificate, so if you got provided with a CA cert but don't have access to the key you can still use this method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
   /**
   * Use TLS and the CA certificates trusted by the common web browsers to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#web_pki DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#web_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#web_pki DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#web_pki}
   */
   readonly webPki?: { [key: string]: string };
 }
@@ -5176,7 +5176,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * CA cert to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#ca_cert DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#ca_cert DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#ca_cert}
   */
   readonly caCert: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInlineConnectionInlineTlsVerificationServerCaCert;
 }
@@ -5269,13 +5269,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Use TLS but don't verify certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#none DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#none DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * Use TLS and a CA certificate to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#server DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#server DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInlineConnectionInlineTlsVerificationServer;
 }
@@ -5400,7 +5400,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The verification method used to verify the certificates of the server and/or the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#verification DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#verification DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#verification}
   */
   readonly verification: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInlineConnectionInlineTlsVerification;
 }
@@ -5493,31 +5493,31 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Which access style to use. Defaults to virtual hosted-style as most of the data products out there. Have a look at the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#access_style DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#access_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#access_style DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#access_style}
   */
   readonly accessStyle?: string;
   /**
   * If the S3 uses authentication you have to specify you S3 credentials. In the most cases a [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) providing 'accessKey' and 'secretKey' is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#credentials DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#credentials DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInlineConnectionInlineCredentials;
   /**
   * Host of the S3 server without any protocol or port. For example: 'west1.my-cloud.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#host DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#host DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * Port the S3 server listens on. If not specified the product will determine the port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#port DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#port DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Use a TLS connection. If not specified no TLS will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#tls DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#tls DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInlineConnectionInlineTls;
 }
@@ -5726,11 +5726,11 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * S3 connection definition as a resource. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#inline DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#inline DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInlineConnectionInline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#reference DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#reference DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -5855,13 +5855,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The name of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#bucket_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#bucket_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The definition of an S3 connection, either inline or as a reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#connection DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#connection DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#connection}
   */
   readonly connection: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInlineConnection;
 }
@@ -5980,11 +5980,11 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * S3 bucket specification containing the bucket name and an inlined or referenced connection specification. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#inline DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#inline DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3BucketInline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#reference DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#reference DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -6109,13 +6109,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The 'baseKey' is similar to the 'directory' in HDFS; it is the root key at which Druid will create its deep storage. If no 'baseKey' is given, the bucket root will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#base_key DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#base_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#base_key DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#base_key}
   */
   readonly baseKey?: string;
   /**
   * The S3 bucket to use for deep storage. Can either be defined inline or as a reference, read the [S3 bucket docs](https://docs.stackable.tech/home/nightly/concepts/s3) to learn more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#bucket DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#bucket DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#bucket}
   */
   readonly bucket: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3Bucket;
 }
@@ -6237,13 +6237,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * [The HDFS deep storage configuration](https://docs.stackable.tech/home/nightly/druid/usage-guide/deep-storage#_hdfs). You can run an HDFS cluster with the [Stackable operator for Apache HDFS](https://docs.stackable.tech/home/nightly/hdfs/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#hdfs DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#hdfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#hdfs DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#hdfs}
   */
   readonly hdfs?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageHdfs;
   /**
   * [The S3 deep storage configuration](https://docs.stackable.tech/home/nightly/druid/usage-guide/deep-storage#_s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#s3 DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#s3 DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorageS3;
 }
@@ -6368,25 +6368,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The listener volume scope allows Node and Service scopes to be inferred from the applicable listeners. This must correspond to Volume names in the Pod that mount Listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#listener_volumes DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#listener_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#listener_volumes DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#listener_volumes}
   */
   readonly listenerVolumes?: string[];
   /**
   * The node scope is resolved to the name of the Kubernetes Node object that the Pod is running on. This will typically be the DNS name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
   * The pod scope is resolved to the name of the Kubernetes Pod. This allows the secret to differentiate between StatefulSet replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
   * The service scope allows Pod objects to specify custom scopes. This should typically correspond to Service objects that the Pod participates in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#services DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#services DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -6569,13 +6569,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * [Scope](https://docs.stackable.tech/home/nightly/secret-operator/scope) of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#scope DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#scope DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestionS3ConnectionInlineCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) containing the LDAP bind credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -6697,13 +6697,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Name of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) which will provide the CA certificate. Note that a SecretClass does not need to have a key but can also work with just a CA certificate, so if you got provided with a CA cert but don't have access to the key you can still use this method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
   /**
   * Use TLS and the CA certificates trusted by the common web browsers to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#web_pki DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#web_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#web_pki DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#web_pki}
   */
   readonly webPki?: { [key: string]: string };
 }
@@ -6828,7 +6828,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * CA cert to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#ca_cert DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#ca_cert DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#ca_cert}
   */
   readonly caCert: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestionS3ConnectionInlineTlsVerificationServerCaCert;
 }
@@ -6921,13 +6921,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Use TLS but don't verify certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#none DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#none DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * Use TLS and a CA certificate to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#server DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#server DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestionS3ConnectionInlineTlsVerificationServer;
 }
@@ -7052,7 +7052,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The verification method used to verify the certificates of the server and/or the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#verification DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#verification DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#verification}
   */
   readonly verification: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestionS3ConnectionInlineTlsVerification;
 }
@@ -7145,31 +7145,31 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Which access style to use. Defaults to virtual hosted-style as most of the data products out there. Have a look at the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#access_style DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#access_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#access_style DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#access_style}
   */
   readonly accessStyle?: string;
   /**
   * If the S3 uses authentication you have to specify you S3 credentials. In the most cases a [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) providing 'accessKey' and 'secretKey' is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#credentials DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#credentials DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestionS3ConnectionInlineCredentials;
   /**
   * Host of the S3 server without any protocol or port. For example: 'west1.my-cloud.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#host DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#host DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * Port the S3 server listens on. If not specified the product will determine the port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#port DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#port DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Use a TLS connection. If not specified no TLS will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#tls DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#tls DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestionS3ConnectionInlineTls;
 }
@@ -7378,11 +7378,11 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * S3 connection definition as a resource. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#inline DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#inline DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestionS3ConnectionInline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#reference DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#reference DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -7507,7 +7507,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Druid supports ingesting data from S3 buckets where the bucket name is specified in the ingestion task. However, the S3 connection has to be specified in advance and only a single S3 connection is supported. S3 connections can either be specified 'inline' or as a 'reference'. Read the [S3 resource concept docs](https://docs.stackable.tech/home/nightly/concepts/s3) to learn more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#s3connection DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#s3connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#s3connection DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#s3connection}
   */
   readonly s3Connection?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestionS3Connection;
 }
@@ -7603,31 +7603,31 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * The connect string for the database, for Postgres this could look like: 'jdbc:postgresql://postgresql-druid/druid'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#conn_string DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#conn_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#conn_string DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#conn_string}
   */
   readonly connString: string;
   /**
   * A reference to a Secret containing the database credentials. The Secret needs to contain the keys 'username' and 'password'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#credentials_secret DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#credentials_secret DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * The database type. Supported values are: 'derby', 'mysql' and 'postgres'. Note that a Derby database created locally in the container is not persisted! Derby is not suitable for production use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#db_type DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#db_type DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#db_type}
   */
   readonly dbType: string;
   /**
   * The host, i.e. 'postgresql-druid'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#host DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#host DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * The port, i.e. 5432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#port DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#port DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#port}
   */
   readonly port: number;
 }
@@ -7827,7 +7827,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * This setting controls client as well as internal tls usage: - If TLS encryption is used at all - Which cert the servers should use to authenticate themselves against the clients - Which cert the servers should use to authenticate themselves among each other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#server_and_internal_secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#server_and_internal_secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#server_and_internal_secret_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#server_and_internal_secret_class}
   */
   readonly serverAndInternalSecretClass?: string;
 }
@@ -7923,67 +7923,67 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Additional extensions to load in Druid. The operator will automatically load all extensions needed based on the cluster configuration, but for extra functionality which the operator cannot anticipate, it can sometimes be necessary to load additional extensions. Add configuration for additional extensions using [configuration override for Druid](https://docs.stackable.tech/home/stable/druid/usage-guide/configuration-and-environment-overrides).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#additional_extensions DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#additional_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#additional_extensions DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#additional_extensions}
   */
   readonly additionalExtensions?: string[];
   /**
   * List of [AuthenticationClasses](https://docs.stackable.tech/home/nightly/concepts/authentication) to use for authenticating users. TLS, LDAP and OIDC authentication are supported. More information in the [Druid operator security documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/security#_authentication). For TLS: Please note that the SecretClass used to authenticate users needs to be the same as the SecretClass used for internal communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#authentication DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#authentication DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigAuthentication[] | cdktf.IResolvable;
   /**
   * Authorization settings for Druid like OPA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#authorization DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#authorization DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigAuthorization;
   /**
   * [Druid deep storage configuration](https://docs.stackable.tech/home/nightly/druid/usage-guide/deep-storage). Only one backend can be used at a time. Either HDFS or S3 are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#deep_storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#deep_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#deep_storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#deep_storage}
   */
   readonly deepStorage: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigDeepStorage;
   /**
   * Extra volumes similar to '.spec.volumes' on a Pod to mount into every container, this can be useful to for example make client certificates, keytabs or similar things available to processors. These volumes will be mounted into all pods at '/stackable/userdata/{volumename}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#extra_volumes DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#extra_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#extra_volumes DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#extra_volumes}
   */
   readonly extraVolumes?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Configuration properties for data ingestion tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#ingestion DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#ingestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#ingestion DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#ingestion}
   */
   readonly ingestion?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigIngestion;
   /**
   * This field controls which type of Service the Operator creates for this DruidCluster: * 'cluster-internal': Use a ClusterIP service * 'external-unstable': Use a NodePort service * 'external-stable': Use a LoadBalancer service This is a temporary solution with the goal to keep yaml manifests forward compatible. In the future, this setting will control which [ListenerClass](https://docs.stackable.tech/home/nightly/listener-operator/listenerclass.html) will be used to expose the service, and ListenerClass names will stay the same, allowing for a non-breaking change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#listener_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#listener_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#listener_class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#listener_class}
   */
   readonly listenerClass?: string;
   /**
   * Druid requires an SQL database to store metadata into. Specify connection information here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#metadata_storage_database DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#metadata_storage_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#metadata_storage_database DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#metadata_storage_database}
   */
   readonly metadataStorageDatabase: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigMetadataStorageDatabase;
   /**
   * TLS encryption settings for Druid, more information in the [security documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/security). This setting only affects server and internal communication. It does not affect client tls authentication, use 'clusterConfig.authentication' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#tls DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#tls DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfigTls;
   /**
   * Name of the Vector aggregator [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery). It must contain the key 'ADDRESS' with the address of the Vector aggregator. Follow the [logging tutorial](https://docs.stackable.tech/home/nightly/tutorials/logging-vector-aggregator) to learn how to configure log aggregation with Vector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
   */
   readonly vectorAggregatorConfigMapName?: string;
   /**
   * Druid requires a ZooKeeper cluster connection to run. Provide the name of the ZooKeeper [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) here. When using the [Stackable operator for Apache ZooKeeper](https://docs.stackable.tech/home/nightly/zookeeper/) to deploy a ZooKeeper cluster, this will simply be the name of your ZookeeperCluster resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#zookeeper_config_map_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#zookeeper_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#zookeeper_config_map_name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#zookeeper_config_map_name}
   */
   readonly zookeeperConfigMapName: string;
 }
@@ -8360,13 +8360,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCluste
   /**
   * Flag to stop cluster reconciliation by the operator. This means that all changes in the custom resource spec are ignored until this flag is set to false or removed. The operator will however still watch the deployed resources at the time and update the custom resource status field. If applied at the same time with 'stopped', 'reconciliationPaused' will take precedence over 'stopped' and stop the reconciliation immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#reconciliation_paused DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#reconciliation_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#reconciliation_paused DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#reconciliation_paused}
   */
   readonly reconciliationPaused?: boolean | cdktf.IResolvable;
   /**
   * Flag to stop the cluster. This means all deployed resources (e.g. Services, StatefulSets, ConfigMaps) are kept but all deployed Pods (e.g. replicas from a StatefulSet) are scaled to 0 and therefore stopped and removed. If applied at the same time with 'reconciliationPaused', the latter will pause reconciliation and 'stopped' will take no effect until 'reconciliationPaused' is set to false or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#stopped DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#stopped DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
 }
@@ -8491,25 +8491,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -8692,7 +8692,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -8788,7 +8788,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -8884,7 +8884,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -8980,7 +8980,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -9076,25 +9076,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainersLoggers;
 }
@@ -9277,13 +9277,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -9408,13 +9408,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -9539,13 +9539,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -9668,17 +9668,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigResourcesMemory;
   /**
   * This role does not have any storage settings. Only the Historical role uses disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -9832,25 +9832,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfigResources;
 }
@@ -10033,13 +10033,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -10164,7 +10164,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleConfigPodDisruptionBudget;
 }
@@ -10260,25 +10260,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -10461,7 +10461,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -10557,7 +10557,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -10653,7 +10653,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -10749,7 +10749,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -10845,25 +10845,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -11046,13 +11046,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -11177,13 +11177,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -11308,13 +11308,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -11437,17 +11437,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResourcesMemory;
   /**
   * This role does not have any storage settings. Only the Historical role uses disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -11601,25 +11601,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordi
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfigResources;
 }
@@ -11800,33 +11800,33 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -12065,39 +12065,39 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinato
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinatorsRoleGroups;
 }
@@ -12364,25 +12364,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -12565,7 +12565,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -12661,7 +12661,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -12757,7 +12757,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -12853,7 +12853,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -12949,25 +12949,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigLoggingContainersLoggers;
 }
@@ -13150,13 +13150,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -13281,13 +13281,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -13412,13 +13412,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -13543,13 +13543,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The size of the empty dir volume. This size is also configured as the segment cache size in Druid (minus the freePercentage). Specified as a [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: 128974848, 129e6, 129M, 128974848000m, 123Mi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#capacity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#capacity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * The 'medium' field controls where the 'emptyDir' is stored. By default it is stored on the default storage backing the node the Pod is running on. Read more about ['emptyDir'](https://kubernetes.io/docs/concepts/storage/volumes/#emptydir) in the Kubernetes documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#medium DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#medium DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
 }
@@ -13674,13 +13674,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Configuration settings for the empty dir volume where the cache is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#empty_dir DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#empty_dir DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigResourcesStorageSegmentCacheEmptyDir;
   /**
   * How much of the configured storage to keep free. Defaults to 5%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#free_percentage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#free_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#free_percentage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#free_percentage}
   */
   readonly freePercentage?: number;
 }
@@ -13805,7 +13805,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Configure the size and backing storage type of the Druid segment cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#segment_cache DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#segment_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#segment_cache DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#segment_cache}
   */
   readonly segmentCache?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigResourcesStorageSegmentCache;
 }
@@ -13899,17 +13899,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistorical
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigResourcesMemory;
   /**
   * The storage settings for the Historical process. Read more in the [storage and resource documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/resources-and-storage#_historical_resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigResourcesStorage;
 }
@@ -14063,25 +14063,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfigResources;
 }
@@ -14264,13 +14264,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -14395,7 +14395,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleConfigPodDisruptionBudget;
 }
@@ -14491,25 +14491,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -14692,7 +14692,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -14788,7 +14788,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -14884,7 +14884,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -14980,7 +14980,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -15076,25 +15076,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -15277,13 +15277,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -15408,13 +15408,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -15539,13 +15539,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -15670,13 +15670,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * The size of the empty dir volume. This size is also configured as the segment cache size in Druid (minus the freePercentage). Specified as a [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: 128974848, 129e6, 129M, 128974848000m, 123Mi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#capacity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#capacity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * The 'medium' field controls where the 'emptyDir' is stored. By default it is stored on the default storage backing the node the Pod is running on. Read more about ['emptyDir'](https://kubernetes.io/docs/concepts/storage/volumes/#emptydir) in the Kubernetes documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#medium DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#medium DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
 }
@@ -15801,13 +15801,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Configuration settings for the empty dir volume where the cache is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#empty_dir DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#empty_dir DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigResourcesStorageSegmentCacheEmptyDir;
   /**
   * How much of the configured storage to keep free. Defaults to 5%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#free_percentage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#free_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#free_percentage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#free_percentage}
   */
   readonly freePercentage?: number;
 }
@@ -15932,7 +15932,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * Configure the size and backing storage type of the Druid segment cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#segment_cache DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#segment_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#segment_cache DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#segment_cache}
   */
   readonly segmentCache?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigResourcesStorageSegmentCache;
 }
@@ -16026,17 +16026,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistorical
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigResourcesMemory;
   /**
   * The storage settings for the Historical process. Read more in the [storage and resource documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/resources-and-storage#_historical_resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigResourcesStorage;
 }
@@ -16190,25 +16190,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistor
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfigResources;
 }
@@ -16389,33 +16389,33 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistorical
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -16654,39 +16654,39 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistorical
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricalsRoleGroups;
 }
@@ -16953,7 +16953,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecImageP
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#name DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -17068,37 +17068,37 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecImage 
   /**
   * Overwrite the docker image. Specify the full docker image name, e.g. 'docker.stackable.tech/stackable/superset:1.4.1-stackable2.1.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: string;
   /**
   * Version of the product, e.g. '1.4.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#product_version DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#product_version DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#product_version}
   */
   readonly productVersion?: string;
   /**
   * [Pull policy](https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy) used when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pull_policy DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pull_policy DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * [Image pull secrets](https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod) to pull images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pull_secrets DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pull_secrets DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Name of the docker repo, e.g. 'docker.stackable.tech/stackable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#repo DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#repo DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#repo}
   */
   readonly repo?: string;
   /**
   * Stackable version of the product, e.g. '23.4', '23.4.1' or '0.0.0-dev'. If not specified, the operator will use its own version, e.g. '23.4.1'. When using a nightly operator or a pr version, it will use the nightly '0.0.0-dev' image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#stackable_version DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#stackable_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#stackable_version DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#stackable_version}
   */
   readonly stackableVersion?: string;
 }
@@ -17339,25 +17339,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -17540,7 +17540,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -17636,7 +17636,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -17732,7 +17732,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -17828,7 +17828,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -17924,25 +17924,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigLoggingContainersLoggers;
 }
@@ -18125,13 +18125,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -18256,13 +18256,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -18387,13 +18387,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -18516,17 +18516,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleMana
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigResourcesMemory;
   /**
   * This role does not have any storage settings. Only the Historical role uses disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -18680,25 +18680,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfigResources;
 }
@@ -18881,13 +18881,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -19012,7 +19012,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleConfigPodDisruptionBudget;
 }
@@ -19108,25 +19108,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -19309,7 +19309,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -19405,7 +19405,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -19501,7 +19501,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -19597,7 +19597,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -19693,25 +19693,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -19894,13 +19894,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -20025,13 +20025,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -20156,13 +20156,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -20285,17 +20285,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleMana
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigResourcesMemory;
   /**
   * This role does not have any storage settings. Only the Historical role uses disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -20449,25 +20449,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddle
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfigResources;
 }
@@ -20648,33 +20648,33 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleMana
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -20913,39 +20913,39 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleMana
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagersRoleGroups;
 }
@@ -21212,25 +21212,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -21413,7 +21413,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -21509,7 +21509,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -21605,7 +21605,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -21701,7 +21701,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -21797,25 +21797,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigLoggingContainersLoggers;
 }
@@ -21998,13 +21998,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -22129,13 +22129,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -22260,13 +22260,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -22389,17 +22389,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersCon
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigResourcesMemory;
   /**
   * This role does not have any storage settings. Only the Historical role uses disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -22553,25 +22553,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfigResources;
 }
@@ -22754,13 +22754,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enabled DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max_unavailable DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -22885,7 +22885,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleConfigPodDisruptionBudget;
 }
@@ -22981,25 +22981,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#node_selector DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -23182,7 +23182,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -23278,7 +23278,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_map DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -23374,7 +23374,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -23470,7 +23470,7 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#level DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -23566,25 +23566,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#console DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#custom DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#file DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#loggers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -23767,13 +23767,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#containers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#enable_vector_agent DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -23898,13 +23898,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#max DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#min DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -24029,13 +24029,13 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#limit DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#runtime_limits DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -24158,17 +24158,17 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRol
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cpu DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#memory DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigResourcesMemory;
   /**
   * This role does not have any storage settings. Only the Historical role uses disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#storage DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -24322,25 +24322,25 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouter
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#affinity DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigAffinity;
   /**
   * The time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Read more about graceful shutdown in the [graceful shutdown documentation](https://docs.stackable.tech/home/nightly/druid/usage-guide/operations/graceful-shutdown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#logging DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#resources DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfigResources;
 }
@@ -24521,33 +24521,33 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRol
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#replicas DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -24786,39 +24786,39 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRol
 }
 export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cli_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#config_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#env_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#pod_overrides DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#role_groups DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRoutersRoleGroups;
 }
@@ -25085,49 +25085,49 @@ export interface DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpec {
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#brokers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#brokers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#brokers}
   */
   readonly brokers: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecBrokers;
   /**
   * Common cluster wide configuration that can not differ or be overridden on a role or role group level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cluster_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cluster_config DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterConfig;
   /**
   * [Cluster operations](https://docs.stackable.tech/home/nightly/concepts/operations/cluster_operations) properties, allow stopping the product instance as well as pausing reconciliation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cluster_operation DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cluster_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#cluster_operation DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#cluster_operation}
   */
   readonly clusterOperation?: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecClusterOperation;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#coordinators DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#coordinators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#coordinators DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#coordinators}
   */
   readonly coordinators: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecCoordinators;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#historicals DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#historicals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#historicals DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#historicals}
   */
   readonly historicals: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecHistoricals;
   /**
   * Specify which image to use, the easiest way is to only configure the 'productVersion'. You can also configure a custom image registry to pull from, as well as completely custom images. Consult the [Product image selection documentation](https://docs.stackable.tech/home/nightly/concepts/product_image_selection) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#image DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#image DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#image}
   */
   readonly image: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecImage;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#middle_managers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#middle_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#middle_managers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#middle_managers}
   */
   readonly middleManagers: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecMiddleManagers;
   /**
   * This struct represents a role - e.g. HDFS datanodes or Trino workers. It has a key-value-map containing all the roleGroups that are part of this role. Additionally, there is a 'config', which is configurable at the role *and* roleGroup level. Everything at roleGroup level is merged on top of what is configured on role level. There is also a second form of config, which can only be configured at role level, the 'roleConfig'. You can learn more about this in the [Roles and role group concept documentation](https://docs.stackable.tech/home/nightly/concepts/roles-and-role-groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#routers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#routers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#routers DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest#routers}
   */
   readonly routers: DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecRouters;
 }
@@ -25403,7 +25403,7 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest k8s_druid_stackable_tech_druid_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest k8s_druid_stackable_tech_druid_cluster_v1alpha1_manifest}
 */
 export class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -25419,7 +25419,7 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -25431,7 +25431,7 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest k8s_druid_stackable_tech_druid_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/druid_stackable_tech_druid_cluster_v1alpha1_manifest k8s_druid_stackable_tech_druid_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -25442,8 +25442,8 @@ export class DataK8SDruidStackableTechDruidClusterV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_druid_stackable_tech_druid_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

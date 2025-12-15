@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DirectSumologicConfig extends cdktf.TerraformMetaArguments {
   /**
   * [required] | Sumo Logic API Access ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#access_id DirectSumologic#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#access_id DirectSumologic#access_id}
   */
   readonly accessId?: string;
   /**
   * [required] | Sumo Logic API Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#access_key DirectSumologic#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#access_key DirectSumologic#access_key}
   */
   readonly accessKey?: string;
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#description DirectSumologic#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#description DirectSumologic#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#display_name DirectSumologic#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#display_name DirectSumologic#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#id DirectSumologic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#id DirectSumologic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface DirectSumologicConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Logs documentation](https://docs.nobl9.com/features/slo-troubleshooting/event-logs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#log_collection_enabled DirectSumologic#log_collection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#log_collection_enabled DirectSumologic#log_collection_enabled}
   */
   readonly logCollectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#name DirectSumologic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#name DirectSumologic#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#project DirectSumologic#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#project DirectSumologic#project}
   */
   readonly project: string;
   /**
   * Release channel of the created data source [stable/beta]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#release_channel DirectSumologic#release_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#release_channel DirectSumologic#release_channel}
   */
   readonly releaseChannel?: string;
   /**
   * This value indicated whether the field was a source of metrics and/or services. 'source_of' is deprecated and not used anywhere; however, it's kept for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#source_of DirectSumologic#source_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#source_of DirectSumologic#source_of}
   */
   readonly sourceOf?: string[];
   /**
   * Sumo Logic API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#url DirectSumologic#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#url DirectSumologic#url}
   */
   readonly url: string;
   /**
   * query_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#query_delay DirectSumologic#query_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#query_delay DirectSumologic#query_delay}
   */
   readonly queryDelay?: DirectSumologicQueryDelay;
 }
@@ -85,13 +85,13 @@ export interface DirectSumologicQueryDelay {
   /**
   * Must be one of Minute or Second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#unit DirectSumologic#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#unit DirectSumologic#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#value DirectSumologic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#value DirectSumologic#value}
   */
   readonly value: number;
 }
@@ -198,7 +198,7 @@ export class DirectSumologicQueryDelayOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic nobl9_direct_sumologic}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic nobl9_direct_sumologic}
 */
 export class DirectSumologic extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class DirectSumologic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DirectSumologic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectSumologic to import
-  * @param importFromId The id of the existing DirectSumologic that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectSumologic that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectSumologic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class DirectSumologic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_sumologic nobl9_direct_sumologic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_sumologic nobl9_direct_sumologic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class DirectSumologic extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_direct_sumologic',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#metadata DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#metadata DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestMetadata;
   /**
   * S3UserSpec defines the desired state of S3User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#spec DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#spec DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#annotations DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#annotations DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#labels DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#labels DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#name DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#name DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,43 +187,43 @@ export interface DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestSpecClaimRef {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#api_version DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#api_version DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#field_path DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#field_path DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#kind DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#kind DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#name DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#name DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#namespace DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#namespace DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#resource_version DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#resource_version DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#uid DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#uid DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -493,19 +493,19 @@ export interface DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestSpecQuota {
   /**
   * max number of buckets the user can create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#max_buckets DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#max_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#max_buckets DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#max_buckets}
   */
   readonly maxBuckets?: number;
   /**
   * max number of objects the user can store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#max_objects DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#max_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#max_objects DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#max_objects}
   */
   readonly maxObjects?: string;
   /**
   * max number of bytes the user can store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#max_size DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#max_size DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#max_size}
   */
   readonly maxSize?: string;
 }
@@ -659,17 +659,17 @@ export interface DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestSpec {
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object. --- New uses of this type are discouraged because of difficulty describing its usage when embedded in APIs. 1. Ignored fields. It includes many fields which are not generally honored. For instance, ResourceVersion and FieldPath are both very rarely valid in actual usage. 2. Invalid usage help. It is impossible to add specific help for individual usage. In most embedded usages, there are particular restrictions like, 'must refer only to types A and B' or 'UID not honored' or 'name must be restricted'. Those cannot be well described when embedded. 3. Inconsistent validation. Because the usages are different, the validation rules are different by usage, which makes it hard for users to predict what will happen. 4. The fields are both imprecise and overly precise. Kind is not a precise mapping to a URL. This can produce ambiguity during interpretation and require a REST mapping. In most cases, the dependency is on the group,resource tuple and the version of the actual struct is irrelevant. 5. We cannot easily change it. Because this type is embedded in many locations, updates to this type will affect numerous schemas. Don't make new APIs embed an underspecified API type they do not control. Instead of using this type, create a locally provided and used type that is well-focused on your reference. For example, ServiceReferences for admission registration: https://github.com/kubernetes/api/blob/release-1.17/admissionregistration/v1/types.go#L533 .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#claim_ref DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#claim_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#claim_ref DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#claim_ref}
   */
   readonly claimRef?: DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestSpecClaimRef;
   /**
   * UserQuota specifies the quota for a user in Ceph
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#quota DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#quota DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#quota}
   */
   readonly quota?: DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestSpecQuota;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#s3_user_class DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#s3_user_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#s3_user_class DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest#s3_user_class}
   */
   readonly s3UserClass?: string;
 }
@@ -821,7 +821,7 @@ export class DataK8SS3SnappcloudIoS3UserV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest k8s_s3_snappcloud_io_s3_user_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest k8s_s3_snappcloud_io_s3_user_v1alpha1_manifest}
 */
 export class DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -837,7 +837,7 @@ export class DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -849,7 +849,7 @@ export class DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest k8s_s3_snappcloud_io_s3_user_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/s3_snappcloud_io_s3_user_v1alpha1_manifest k8s_s3_snappcloud_io_s3_user_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -860,8 +860,8 @@ export class DataK8SS3SnappcloudIoS3UserV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_s3_snappcloud_io_s3_user_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

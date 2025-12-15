@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecurityNatSourceAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Text description of rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#description SecurityNatSourceA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#description SecurityNatSourceA#description}
   */
   readonly description?: string;
   /**
   * Source nat rule-set name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#name SecurityNatSourceA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#name SecurityNatSourceA#name}
   */
   readonly name: string;
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#from SecurityNatSourceA#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#from SecurityNatSourceA#from}
   */
   readonly from: SecurityNatSourceFrom;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#rule SecurityNatSourceA#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#rule SecurityNatSourceA#rule}
   */
   readonly rule?: SecurityNatSourceRule[] | cdktf.IResolvable;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#to SecurityNatSourceA#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#to SecurityNatSourceA#to}
   */
   readonly to: SecurityNatSourceTo;
 }
@@ -42,13 +42,13 @@ export interface SecurityNatSourceFrom {
   /**
   * Type of traffice source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#type SecurityNatSourceA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#type SecurityNatSourceA#type}
   */
   readonly type: string;
   /**
   * Name of interface, routing-instance or zone for traffic source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#value SecurityNatSourceA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#value SecurityNatSourceA#value}
   */
   readonly value: string[];
 }
@@ -167,49 +167,49 @@ export interface SecurityNatSourceRuleMatch {
   /**
   * Application or application-set name to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#application SecurityNatSourceA#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#application SecurityNatSourceA#application}
   */
   readonly application?: string[];
   /**
   * CIDR destination address to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#destination_address SecurityNatSourceA#destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#destination_address SecurityNatSourceA#destination_address}
   */
   readonly destinationAddress?: string[];
   /**
   * Destination address from address book to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#destination_address_name SecurityNatSourceA#destination_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#destination_address_name SecurityNatSourceA#destination_address_name}
   */
   readonly destinationAddressName?: string[];
   /**
   * Destination port to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#destination_port SecurityNatSourceA#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#destination_port SecurityNatSourceA#destination_port}
   */
   readonly destinationPort?: string[];
   /**
   * IP Protocol to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#protocol SecurityNatSourceA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#protocol SecurityNatSourceA#protocol}
   */
   readonly protocol?: string[];
   /**
   * CIDR source address to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#source_address SecurityNatSourceA#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#source_address SecurityNatSourceA#source_address}
   */
   readonly sourceAddress?: string[];
   /**
   * Source address from address book to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#source_address_name SecurityNatSourceA#source_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#source_address_name SecurityNatSourceA#source_address_name}
   */
   readonly sourceAddressName?: string[];
   /**
   * Source port to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#source_port SecurityNatSourceA#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#source_port SecurityNatSourceA#source_port}
   */
   readonly sourcePort?: string[];
 }
@@ -508,13 +508,13 @@ export interface SecurityNatSourceRuleThen {
   /**
   * Name of source nat pool when type is pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#pool SecurityNatSourceA#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#pool SecurityNatSourceA#pool}
   */
   readonly pool?: string;
   /**
   * Type of source nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#type SecurityNatSourceA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#type SecurityNatSourceA#type}
   */
   readonly type: string;
 }
@@ -636,19 +636,19 @@ export interface SecurityNatSourceRule {
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#name SecurityNatSourceA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#name SecurityNatSourceA#name}
   */
   readonly name: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#match SecurityNatSourceA#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#match SecurityNatSourceA#match}
   */
   readonly match?: SecurityNatSourceRuleMatch;
   /**
   * then block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#then SecurityNatSourceA#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#then SecurityNatSourceA#then}
   */
   readonly then?: SecurityNatSourceRuleThen;
 }
@@ -821,13 +821,13 @@ export interface SecurityNatSourceTo {
   /**
   * Type of traffic destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#type SecurityNatSourceA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#type SecurityNatSourceA#type}
   */
   readonly type: string;
   /**
   * Name of interface, routing-instance or zone for traffic destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#value SecurityNatSourceA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#value SecurityNatSourceA#value}
   */
   readonly value: string[];
 }
@@ -944,7 +944,7 @@ export class SecurityNatSourceToOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source junos_security_nat_source}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source junos_security_nat_source}
 */
 export class SecurityNatSourceA extends cdktf.TerraformResource {
 
@@ -960,7 +960,7 @@ export class SecurityNatSourceA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityNatSourceA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityNatSourceA to import
-  * @param importFromId The id of the existing SecurityNatSourceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityNatSourceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityNatSourceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -972,7 +972,7 @@ export class SecurityNatSourceA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_source junos_security_nat_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_source junos_security_nat_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -983,8 +983,8 @@ export class SecurityNatSourceA extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_nat_source',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

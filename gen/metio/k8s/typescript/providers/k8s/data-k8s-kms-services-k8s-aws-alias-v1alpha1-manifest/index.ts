@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#metadata DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#metadata DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestMetadata;
   /**
   * AliasSpec defines the desired state of Alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#spec DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#spec DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#annotations DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#annotations DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#labels DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#labels DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#namespace DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#namespace DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestMetadataOutputReferenc
 }
 export interface DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestSpecTargetKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#namespace DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#namespace DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestSpecTargetKeyRef {
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#from DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#from DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestSpecTargetKeyRefFrom;
 }
@@ -442,19 +442,19 @@ export interface DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestSpec {
   /**
   * Specifies the alias name. This value must begin with alias/ followed by a name, such as alias/ExampleAlias. The AliasName value must be string of 1-256 characters. It can contain only alphanumeric characters, forward slashes (/), underscores (_), and dashes (-). The alias name cannot begin with alias/aws/. The alias/aws/ prefix is reserved for Amazon Web Services managed keys (https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-managed-cmk).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#name DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Associates the alias with the specified customer managed key (https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#customer-cmk). The KMS key must be in the same Amazon Web Services Region. A valid key ID is required. If you supply a null or empty string value, this operation returns an error. For help finding the key ID and ARN, see Finding the Key ID and ARN (https://docs.aws.amazon.com/kms/latest/developerguide/viewing-keys.html#find-cmk-id-arn) in the Key Management Service Developer Guide . Specify the key ID or key ARN of the KMS key. For example: * Key ID: 1234abcd-12ab-34cd-56ef-1234567890ab * Key ARN: arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab To get the key ID and key ARN for a KMS key, use ListKeys or DescribeKey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#target_key_id DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#target_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#target_key_id DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#target_key_id}
   */
   readonly targetKeyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#target_key_ref DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#target_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#target_key_ref DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest#target_key_ref}
   */
   readonly targetKeyRef?: DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestSpecTargetKeyRef;
 }
@@ -603,7 +603,7 @@ export class DataK8SKmsServicesK8SAwsAliasV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest k8s_kms_services_k8s_aws_alias_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest k8s_kms_services_k8s_aws_alias_v1alpha1_manifest}
 */
 export class DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -619,7 +619,7 @@ export class DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +631,7 @@ export class DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest k8s_kms_services_k8s_aws_alias_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kms_services_k8s_aws_alias_v1alpha1_manifest k8s_kms_services_k8s_aws_alias_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,8 +642,8 @@ export class DataK8SKmsServicesK8SAwsAliasV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_kms_services_k8s_aws_alias_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

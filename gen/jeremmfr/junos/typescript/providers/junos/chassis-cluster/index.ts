@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ChassisClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disable auto configuration synchronize on secondary bootup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#config_sync_no_secondary_bootup_auto ChassisCluster#config_sync_no_secondary_bootup_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#config_sync_no_secondary_bootup_auto ChassisCluster#config_sync_no_secondary_bootup_auto}
   */
   readonly configSyncNoSecondaryBootupAuto?: boolean | cdktf.IResolvable;
   /**
   * Enable automatic control link recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#control_link_recovery ChassisCluster#control_link_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#control_link_recovery ChassisCluster#control_link_recovery}
   */
   readonly controlLinkRecovery?: boolean | cdktf.IResolvable;
   /**
   * Interval between successive heartbeats (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#heartbeat_interval ChassisCluster#heartbeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#heartbeat_interval ChassisCluster#heartbeat_interval}
   */
   readonly heartbeatInterval?: number;
   /**
   * Number of consecutive missed heartbeats to indicate device failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#heartbeat_threshold ChassisCluster#heartbeat_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#heartbeat_threshold ChassisCluster#heartbeat_threshold}
   */
   readonly heartbeatThreshold?: number;
   /**
   * Number of redundant ethernet interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#reth_count ChassisCluster#reth_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#reth_count ChassisCluster#reth_count}
   */
   readonly rethCount: number;
   /**
   * control_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#control_ports ChassisCluster#control_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#control_ports ChassisCluster#control_ports}
   */
   readonly controlPorts?: ChassisClusterControlPorts[] | cdktf.IResolvable;
   /**
   * fab0 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#fab0 ChassisCluster#fab0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#fab0 ChassisCluster#fab0}
   */
   readonly fab0?: ChassisClusterFab0;
   /**
   * fab1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#fab1 ChassisCluster#fab1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#fab1 ChassisCluster#fab1}
   */
   readonly fab1?: ChassisClusterFab1;
   /**
   * redundancy_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#redundancy_group ChassisCluster#redundancy_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#redundancy_group ChassisCluster#redundancy_group}
   */
   readonly redundancyGroup?: ChassisClusterRedundancyGroup[] | cdktf.IResolvable;
 }
@@ -66,13 +66,13 @@ export interface ChassisClusterControlPorts {
   /**
   * Flexible PIC Concentrator (FPC) slot number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#fpc ChassisCluster#fpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#fpc ChassisCluster#fpc}
   */
   readonly fpc: number;
   /**
   * Port number on which to configure the control port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#port ChassisCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#port ChassisCluster#port}
   */
   readonly port: number;
 }
@@ -213,13 +213,13 @@ export interface ChassisClusterFab0 {
   /**
   * Text description of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#description ChassisCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#description ChassisCluster#description}
   */
   readonly description?: string;
   /**
   * Member interfaces for the fabric interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#member_interfaces ChassisCluster#member_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#member_interfaces ChassisCluster#member_interfaces}
   */
   readonly memberInterfaces: string[];
 }
@@ -341,13 +341,13 @@ export interface ChassisClusterFab1 {
   /**
   * Text description of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#description ChassisCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#description ChassisCluster#description}
   */
   readonly description?: string;
   /**
   * Member interfaces for the fabric interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#member_interfaces ChassisCluster#member_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#member_interfaces ChassisCluster#member_interfaces}
   */
   readonly memberInterfaces?: string[];
 }
@@ -472,13 +472,13 @@ export interface ChassisClusterRedundancyGroupInterfaceMonitor {
   /**
   * Name of the interface to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#name ChassisCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#name ChassisCluster#name}
   */
   readonly name: string;
   /**
   * Weight assigned to this interface that influences failover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#weight ChassisCluster#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#weight ChassisCluster#weight}
   */
   readonly weight: number;
 }
@@ -619,55 +619,55 @@ export interface ChassisClusterRedundancyGroup {
   /**
   * Number of gratuitous ARPs to send on an active interface after failover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#gratuitous_arp_count ChassisCluster#gratuitous_arp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#gratuitous_arp_count ChassisCluster#gratuitous_arp_count}
   */
   readonly gratuitousArpCount?: number;
   /**
   * RG failover interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#hold_down_interval ChassisCluster#hold_down_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#hold_down_interval ChassisCluster#hold_down_interval}
   */
   readonly holdDownInterval?: number;
   /**
   * Priority of the node0 in the redundancy-group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#node0_priority ChassisCluster#node0_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#node0_priority ChassisCluster#node0_priority}
   */
   readonly node0Priority: number;
   /**
   * Priority of the node1 in the redundancy-group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#node1_priority ChassisCluster#node1_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#node1_priority ChassisCluster#node1_priority}
   */
   readonly node1Priority: number;
   /**
   * Allow preemption of primaryship based on priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#preempt ChassisCluster#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#preempt ChassisCluster#preempt}
   */
   readonly preempt?: boolean | cdktf.IResolvable;
   /**
   * Time to wait before taking over mastership (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#preempt_delay ChassisCluster#preempt_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#preempt_delay ChassisCluster#preempt_delay}
   */
   readonly preemptDelay?: number;
   /**
   * Max number of preemptive failovers allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#preempt_limit ChassisCluster#preempt_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#preempt_limit ChassisCluster#preempt_limit}
   */
   readonly preemptLimit?: number;
   /**
   * Time period during which the limit is applied (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#preempt_period ChassisCluster#preempt_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#preempt_period ChassisCluster#preempt_period}
   */
   readonly preemptPeriod?: number;
   /**
   * interface_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#interface_monitor ChassisCluster#interface_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#interface_monitor ChassisCluster#interface_monitor}
   */
   readonly interfaceMonitor?: ChassisClusterRedundancyGroupInterfaceMonitor[] | cdktf.IResolvable;
 }
@@ -1009,7 +1009,7 @@ export class ChassisClusterRedundancyGroupList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster junos_chassis_cluster}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster junos_chassis_cluster}
 */
 export class ChassisCluster extends cdktf.TerraformResource {
 
@@ -1025,7 +1025,7 @@ export class ChassisCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChassisCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChassisCluster to import
-  * @param importFromId The id of the existing ChassisCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChassisCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChassisCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1037,7 +1037,7 @@ export class ChassisCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/chassis_cluster junos_chassis_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/chassis_cluster junos_chassis_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1048,8 +1048,8 @@ export class ChassisCluster extends cdktf.TerraformResource {
       terraformResourceType: 'junos_chassis_cluster',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

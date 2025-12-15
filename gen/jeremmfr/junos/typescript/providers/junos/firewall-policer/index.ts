@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface FirewallPolicerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policer is filter-specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#filter_specific FirewallPolicer#filter_specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#filter_specific FirewallPolicer#filter_specific}
   */
   readonly filterSpecific?: boolean | cdktf.IResolvable;
   /**
   * Policer uses logical interface bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#logical_bandwidth_policer FirewallPolicer#logical_bandwidth_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#logical_bandwidth_policer FirewallPolicer#logical_bandwidth_policer}
   */
   readonly logicalBandwidthPolicer?: boolean | cdktf.IResolvable;
   /**
   * Policer is logical interface policer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#logical_interface_policer FirewallPolicer#logical_interface_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#logical_interface_policer FirewallPolicer#logical_interface_policer}
   */
   readonly logicalInterfacePolicer?: boolean | cdktf.IResolvable;
   /**
   * Policer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#name FirewallPolicer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#name FirewallPolicer#name}
   */
   readonly name: string;
   /**
   * Policer is physical interface policer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#physical_interface_policer FirewallPolicer#physical_interface_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#physical_interface_policer FirewallPolicer#physical_interface_policer}
   */
   readonly physicalInterfacePolicer?: boolean | cdktf.IResolvable;
   /**
   * Share policer bandwidth among bundle links.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#shared_bandwidth_policer FirewallPolicer#shared_bandwidth_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#shared_bandwidth_policer FirewallPolicer#shared_bandwidth_policer}
   */
   readonly sharedBandwidthPolicer?: boolean | cdktf.IResolvable;
   /**
   * if_exceeding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#if_exceeding FirewallPolicer#if_exceeding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#if_exceeding FirewallPolicer#if_exceeding}
   */
   readonly ifExceeding?: FirewallPolicerIfExceeding;
   /**
   * if_exceeding_pps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#if_exceeding_pps FirewallPolicer#if_exceeding_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#if_exceeding_pps FirewallPolicer#if_exceeding_pps}
   */
   readonly ifExceedingPps?: FirewallPolicerIfExceedingPps;
   /**
   * then block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#then FirewallPolicer#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#then FirewallPolicer#then}
   */
   readonly then?: FirewallPolicerThen;
 }
@@ -66,19 +66,19 @@ export interface FirewallPolicerIfExceeding {
   /**
   * Bandwidth limit in bits/second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#bandwidth_limit FirewallPolicer#bandwidth_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#bandwidth_limit FirewallPolicer#bandwidth_limit}
   */
   readonly bandwidthLimit?: string;
   /**
   * Bandwidth limit in percentage (1..100 percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#bandwidth_percent FirewallPolicer#bandwidth_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#bandwidth_percent FirewallPolicer#bandwidth_percent}
   */
   readonly bandwidthPercent?: number;
   /**
   * Burst size limit in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#burst_size_limit FirewallPolicer#burst_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#burst_size_limit FirewallPolicer#burst_size_limit}
   */
   readonly burstSizeLimit?: string;
 }
@@ -232,13 +232,13 @@ export interface FirewallPolicerIfExceedingPps {
   /**
   * PPS burst size limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#packet_burst FirewallPolicer#packet_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#packet_burst FirewallPolicer#packet_burst}
   */
   readonly packetBurst?: string;
   /**
   * PPS limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#pps_limit FirewallPolicer#pps_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#pps_limit FirewallPolicer#pps_limit}
   */
   readonly ppsLimit?: string;
 }
@@ -363,25 +363,25 @@ export interface FirewallPolicerThen {
   /**
   * Discard the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#discard FirewallPolicer#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#discard FirewallPolicer#discard}
   */
   readonly discard?: boolean | cdktf.IResolvable;
   /**
   * Classify packet to forwarding class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#forwarding_class FirewallPolicer#forwarding_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#forwarding_class FirewallPolicer#forwarding_class}
   */
   readonly forwardingClass?: string;
   /**
   * Packet's loss priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#loss_priority FirewallPolicer#loss_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#loss_priority FirewallPolicer#loss_priority}
   */
   readonly lossPriority?: string;
   /**
   * Discard packets only if both congested and over threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#out_of_profile FirewallPolicer#out_of_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#out_of_profile FirewallPolicer#out_of_profile}
   */
   readonly outOfProfile?: boolean | cdktf.IResolvable;
 }
@@ -562,7 +562,7 @@ export class FirewallPolicerThenOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer junos_firewall_policer}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer junos_firewall_policer}
 */
 export class FirewallPolicer extends cdktf.TerraformResource {
 
@@ -578,7 +578,7 @@ export class FirewallPolicer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallPolicer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallPolicer to import
-  * @param importFromId The id of the existing FirewallPolicer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallPolicer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallPolicer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -590,7 +590,7 @@ export class FirewallPolicer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/firewall_policer junos_firewall_policer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/firewall_policer junos_firewall_policer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -601,8 +601,8 @@ export class FirewallPolicer extends cdktf.TerraformResource {
       terraformResourceType: 'junos_firewall_policer',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

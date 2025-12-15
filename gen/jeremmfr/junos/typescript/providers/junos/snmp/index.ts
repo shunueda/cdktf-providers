@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface SnmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * JVision ARP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#arp Snmp#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#arp Snmp#arp}
   */
   readonly arp?: boolean | cdktf.IResolvable;
   /**
   * Enable host name resolution for JVision ARP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#arp_host_name_resolution Snmp#arp_host_name_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#arp_host_name_resolution Snmp#arp_host_name_resolution}
   */
   readonly arpHostNameResolution?: boolean | cdktf.IResolvable;
   /**
   * Clean supported lines when destroy this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#clean_on_destroy Snmp#clean_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#clean_on_destroy Snmp#clean_on_destroy}
   */
   readonly cleanOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Contact information for administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#contact Snmp#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#contact Snmp#contact}
   */
   readonly contact?: string;
   /**
   * System description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#description Snmp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#description Snmp#description}
   */
   readonly description?: string;
   /**
   * SNMPv3 engine ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#engine_id Snmp#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#engine_id Snmp#engine_id}
   */
   readonly engineId?: string;
   /**
   * Filter requests with duplicate source address/port and request ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#filter_duplicates Snmp#filter_duplicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#filter_duplicates Snmp#filter_duplicates}
   */
   readonly filterDuplicates?: boolean | cdktf.IResolvable;
   /**
   * Regular expressions to list of interfaces that needs to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#filter_interfaces Snmp#filter_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#filter_interfaces Snmp#filter_interfaces}
   */
   readonly filterInterfaces?: string[];
   /**
   * Filter all internal interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#filter_internal_interfaces Snmp#filter_internal_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#filter_internal_interfaces Snmp#filter_internal_interfaces}
   */
   readonly filterInternalInterfaces?: boolean | cdktf.IResolvable;
   /**
   * Filter interfaces config for ifNumber and ipv6Interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#if_count_with_filter_interfaces Snmp#if_count_with_filter_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#if_count_with_filter_interfaces Snmp#if_count_with_filter_interfaces}
   */
   readonly ifCountWithFilterInterfaces?: boolean | cdktf.IResolvable;
   /**
   * Restrict SNMP requests to interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#interface Snmp#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#interface Snmp#interface}
   */
   readonly interface?: string[];
   /**
   * Physical location of system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#location Snmp#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#location Snmp#location}
   */
   readonly location?: string;
   /**
   * Enable SNMP routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#routing_instance_access Snmp#routing_instance_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#routing_instance_access Snmp#routing_instance_access}
   */
   readonly routingInstanceAccess?: boolean | cdktf.IResolvable;
   /**
   * Allow/Deny SNMP access to routing instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#routing_instance_access_list Snmp#routing_instance_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#routing_instance_access_list Snmp#routing_instance_access_list}
   */
   readonly routingInstanceAccessList?: string[];
   /**
   * health_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#health_monitor Snmp#health_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#health_monitor Snmp#health_monitor}
   */
   readonly healthMonitor?: SnmpHealthMonitor;
 }
@@ -102,43 +102,43 @@ export interface SnmpHealthMonitor {
   /**
   * Falling threshold applied to all monitored objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#falling_threshold Snmp#falling_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#falling_threshold Snmp#falling_threshold}
   */
   readonly fallingThreshold?: number;
   /**
   * Enable IDP health monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#idp Snmp#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#idp Snmp#idp}
   */
   readonly idp?: boolean | cdktf.IResolvable;
   /**
   * Falling threshold applied to all idp monitored objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#idp_falling_threshold Snmp#idp_falling_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#idp_falling_threshold Snmp#idp_falling_threshold}
   */
   readonly idpFallingThreshold?: number;
   /**
   * Interval between idp samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#idp_interval Snmp#idp_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#idp_interval Snmp#idp_interval}
   */
   readonly idpInterval?: number;
   /**
   * Rising threshold applied to all monitored idp objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#idp_rising_threshold Snmp#idp_rising_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#idp_rising_threshold Snmp#idp_rising_threshold}
   */
   readonly idpRisingThreshold?: number;
   /**
   * Interval between samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#interval Snmp#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#interval Snmp#interval}
   */
   readonly interval?: number;
   /**
   * Rising threshold applied to all monitored objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#rising_threshold Snmp#rising_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#rising_threshold Snmp#rising_threshold}
   */
   readonly risingThreshold?: number;
 }
@@ -406,7 +406,7 @@ export class SnmpHealthMonitorOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp junos_snmp}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp junos_snmp}
 */
 export class Snmp extends cdktf.TerraformResource {
 
@@ -422,7 +422,7 @@ export class Snmp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Snmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Snmp to import
-  * @param importFromId The id of the existing Snmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Snmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Snmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -434,7 +434,7 @@ export class Snmp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/snmp junos_snmp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/snmp junos_snmp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -445,8 +445,8 @@ export class Snmp extends cdktf.TerraformResource {
       terraformResourceType: 'junos_snmp',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

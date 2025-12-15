@@ -3,25 +3,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#labels DataK8SRcAppStacksRuntimeComponentV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#labels DataK8SRcAppStacksRuntimeComponentV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,19 +198,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -380,19 +380,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -562,13 +562,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_fields DataK8SRcAppStacksRuntimeComponentV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_fields DataK8SRcAppStacksRuntimeComponentV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -693,13 +693,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#preference DataK8SRcAppStacksRuntimeComponentV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#preference DataK8SRcAppStacksRuntimeComponentV1Manifest#preference}
   */
   readonly preference: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#weight DataK8SRcAppStacksRuntimeComponentV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#weight DataK8SRcAppStacksRuntimeComponentV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -840,19 +840,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1022,19 +1022,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1204,13 +1204,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_fields DataK8SRcAppStacksRuntimeComponentV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_fields DataK8SRcAppStacksRuntimeComponentV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1357,7 +1357,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_selector_terms DataK8SRcAppStacksRuntimeComponentV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_selector_terms DataK8SRcAppStacksRuntimeComponentV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1450,13 +1450,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAff
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1581,19 +1581,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1763,13 +1763,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1894,19 +1894,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2076,13 +2076,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2207,25 +2207,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#label_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#label_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespaces DataK8SRcAppStacksRuntimeComponentV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespaces DataK8SRcAppStacksRuntimeComponentV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#topology_key DataK8SRcAppStacksRuntimeComponentV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#topology_key DataK8SRcAppStacksRuntimeComponentV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2405,13 +2405,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pod_affinity_term DataK8SRcAppStacksRuntimeComponentV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pod_affinity_term DataK8SRcAppStacksRuntimeComponentV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#weight DataK8SRcAppStacksRuntimeComponentV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#weight DataK8SRcAppStacksRuntimeComponentV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2552,19 +2552,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2734,13 +2734,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2865,19 +2865,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3047,13 +3047,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3178,25 +3178,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#label_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#label_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespaces DataK8SRcAppStacksRuntimeComponentV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespaces DataK8SRcAppStacksRuntimeComponentV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#topology_key DataK8SRcAppStacksRuntimeComponentV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#topology_key DataK8SRcAppStacksRuntimeComponentV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3398,13 +3398,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffi
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3529,19 +3529,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3711,13 +3711,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3842,19 +3842,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4024,13 +4024,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4155,25 +4155,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#label_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#label_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespaces DataK8SRcAppStacksRuntimeComponentV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespaces DataK8SRcAppStacksRuntimeComponentV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#topology_key DataK8SRcAppStacksRuntimeComponentV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#topology_key DataK8SRcAppStacksRuntimeComponentV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4353,13 +4353,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pod_affinity_term DataK8SRcAppStacksRuntimeComponentV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pod_affinity_term DataK8SRcAppStacksRuntimeComponentV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#weight DataK8SRcAppStacksRuntimeComponentV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#weight DataK8SRcAppStacksRuntimeComponentV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4500,19 +4500,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4682,13 +4682,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4813,19 +4813,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#operator DataK8SRcAppStacksRuntimeComponentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#values DataK8SRcAppStacksRuntimeComponentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4995,13 +4995,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_expressions DataK8SRcAppStacksRuntimeComponentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#match_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5126,25 +5126,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#label_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#label_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_selector DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespaces DataK8SRcAppStacksRuntimeComponentV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespaces DataK8SRcAppStacksRuntimeComponentV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#topology_key DataK8SRcAppStacksRuntimeComponentV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#topology_key DataK8SRcAppStacksRuntimeComponentV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5346,13 +5346,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAnti
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SRcAppStacksRuntimeComponentV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5477,31 +5477,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinity {
   /**
   * An array of architectures to be considered for deployment. Their position in the array indicates preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#architecture DataK8SRcAppStacksRuntimeComponentV1Manifest#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#architecture DataK8SRcAppStacksRuntimeComponentV1Manifest#architecture}
   */
   readonly architecture?: string[];
   /**
   * Controls which nodes the pod are scheduled to run on, based on labels on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_affinity DataK8SRcAppStacksRuntimeComponentV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_affinity DataK8SRcAppStacksRuntimeComponentV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityNodeAffinity;
   /**
   * A YAML object that contains a set of required labels and their values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_affinity_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#node_affinity_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_affinity_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#node_affinity_labels}
   */
   readonly nodeAffinityLabels?: { [key: string]: string };
   /**
   * Controls the nodes the pod are scheduled to run on, based on labels on the pods that are already running on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pod_affinity DataK8SRcAppStacksRuntimeComponentV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pod_affinity DataK8SRcAppStacksRuntimeComponentV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAffinity;
   /**
   * Enables the ability to prevent running a pod on the same node as another pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pod_anti_affinity DataK8SRcAppStacksRuntimeComponentV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pod_anti_affinity DataK8SRcAppStacksRuntimeComponentV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5713,19 +5713,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecAutoscaling {
   /**
   * Required field for autoscaling. Upper limit for the number of pods that can be set by the autoscaler. Parameter .spec.resources.requests.cpu must also be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#max_replicas DataK8SRcAppStacksRuntimeComponentV1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#max_replicas DataK8SRcAppStacksRuntimeComponentV1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
   * Lower limit for the number of pods that can be set by the autoscaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#min_replicas DataK8SRcAppStacksRuntimeComponentV1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#min_replicas DataK8SRcAppStacksRuntimeComponentV1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * Target average CPU utilization, represented as a percentage of requested CPU, over all the pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_cpu_utilization_percentage DataK8SRcAppStacksRuntimeComponentV1Manifest#target_cpu_utilization_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_cpu_utilization_percentage DataK8SRcAppStacksRuntimeComponentV1Manifest#target_cpu_utilization_percentage}
   */
   readonly targetCpuUtilizationPercentage?: number;
 }
@@ -5879,13 +5879,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDeploymentUpdat
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#max_surge DataK8SRcAppStacksRuntimeComponentV1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#max_surge DataK8SRcAppStacksRuntimeComponentV1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#max_unavailable DataK8SRcAppStacksRuntimeComponentV1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#max_unavailable DataK8SRcAppStacksRuntimeComponentV1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -6010,13 +6010,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDeploymentUpdat
   /**
   * Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate. --- TODO: Update this to follow our convention for oneOf, whatever we decide it to be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#rolling_update DataK8SRcAppStacksRuntimeComponentV1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#rolling_update DataK8SRcAppStacksRuntimeComponentV1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDeploymentUpdateStrategyRollingUpdate;
   /**
   * Type of deployment. Can be 'Recreate' or 'RollingUpdate'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6141,13 +6141,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDeployment {
   /**
   * Annotations to be added only to the Deployment and resources owned by the Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Specifies the strategy to replace old deployment pods with new pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#update_strategy DataK8SRcAppStacksRuntimeComponentV1Manifest#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#update_strategy DataK8SRcAppStacksRuntimeComponentV1Manifest#update_strategy}
   */
   readonly updateStrategy?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDeploymentUpdateStrategy;
 }
@@ -6272,11 +6272,11 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDnsConfigOption
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6423,19 +6423,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDnsConfig {
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#nameservers DataK8SRcAppStacksRuntimeComponentV1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#nameservers DataK8SRcAppStacksRuntimeComponentV1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#options DataK8SRcAppStacksRuntimeComponentV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#options DataK8SRcAppStacksRuntimeComponentV1Manifest#options}
   */
   readonly options?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#searches DataK8SRcAppStacksRuntimeComponentV1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#searches DataK8SRcAppStacksRuntimeComponentV1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -6589,13 +6589,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDns {
   /**
   * The DNS Config for the application pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config DataK8SRcAppStacksRuntimeComponentV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config DataK8SRcAppStacksRuntimeComponentV1Manifest#config}
   */
   readonly config?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecDnsConfig;
   /**
   * The DNS Policy for the application pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#policy DataK8SRcAppStacksRuntimeComponentV1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#policy DataK8SRcAppStacksRuntimeComponentV1Manifest#policy}
   */
   readonly policy?: string;
 }
@@ -6720,19 +6720,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFromCon
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6883,13 +6883,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFromFie
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#api_version DataK8SRcAppStacksRuntimeComponentV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#api_version DataK8SRcAppStacksRuntimeComponentV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_path DataK8SRcAppStacksRuntimeComponentV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_path DataK8SRcAppStacksRuntimeComponentV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -7011,19 +7011,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFromRes
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#container_name DataK8SRcAppStacksRuntimeComponentV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#container_name DataK8SRcAppStacksRuntimeComponentV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#divisor DataK8SRcAppStacksRuntimeComponentV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#divisor DataK8SRcAppStacksRuntimeComponentV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource DataK8SRcAppStacksRuntimeComponentV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource DataK8SRcAppStacksRuntimeComponentV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -7174,19 +7174,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFromSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7337,25 +7337,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFrom {
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map_key_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map_key_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource_field_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource_field_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret_key_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret_key_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -7538,19 +7538,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value_from DataK8SRcAppStacksRuntimeComponentV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value_from DataK8SRcAppStacksRuntimeComponentV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvValueFrom;
 }
@@ -7723,13 +7723,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvFromConfigMa
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7854,13 +7854,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvFromSecretRe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7985,19 +7985,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#prefix DataK8SRcAppStacksRuntimeComponentV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#prefix DataK8SRcAppStacksRuntimeComponentV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecEnvFromSecretRef;
 }
@@ -8173,19 +8173,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8336,13 +8336,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#api_version DataK8SRcAppStacksRuntimeComponentV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#api_version DataK8SRcAppStacksRuntimeComponentV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_path DataK8SRcAppStacksRuntimeComponentV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_path DataK8SRcAppStacksRuntimeComponentV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -8464,19 +8464,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#container_name DataK8SRcAppStacksRuntimeComponentV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#container_name DataK8SRcAppStacksRuntimeComponentV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#divisor DataK8SRcAppStacksRuntimeComponentV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#divisor DataK8SRcAppStacksRuntimeComponentV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource DataK8SRcAppStacksRuntimeComponentV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource DataK8SRcAppStacksRuntimeComponentV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -8627,19 +8627,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8790,25 +8790,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map_key_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map_key_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource_field_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource_field_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret_key_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret_key_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -8991,19 +8991,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value_from DataK8SRcAppStacksRuntimeComponentV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value_from DataK8SRcAppStacksRuntimeComponentV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnvValueFrom;
 }
@@ -9176,13 +9176,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9307,13 +9307,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9438,19 +9438,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersE
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#prefix DataK8SRcAppStacksRuntimeComponentV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#prefix DataK8SRcAppStacksRuntimeComponentV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnvFromSecretRef;
 }
@@ -9626,7 +9626,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9722,13 +9722,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value: string;
 }
@@ -9869,31 +9869,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10102,13 +10102,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
 }
@@ -10230,19 +10230,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
   */
   readonly exec?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePostStartHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -10396,7 +10396,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10492,13 +10492,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value: string;
 }
@@ -10639,31 +10639,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10872,13 +10872,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
 }
@@ -11000,19 +11000,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
   */
   readonly exec?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePreStopHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -11166,13 +11166,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#post_start DataK8SRcAppStacksRuntimeComponentV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#post_start DataK8SRcAppStacksRuntimeComponentV1Manifest#post_start}
   */
   readonly postStart?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pre_stop DataK8SRcAppStacksRuntimeComponentV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#pre_stop DataK8SRcAppStacksRuntimeComponentV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecyclePreStop;
 }
@@ -11297,7 +11297,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11393,13 +11393,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -11521,13 +11521,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value: string;
 }
@@ -11668,31 +11668,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11901,13 +11901,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
 }
@@ -12029,61 +12029,61 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersL
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
   */
   readonly exec?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12440,31 +12440,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersP
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#container_port DataK8SRcAppStacksRuntimeComponentV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#container_port DataK8SRcAppStacksRuntimeComponentV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host_ip DataK8SRcAppStacksRuntimeComponentV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host_ip DataK8SRcAppStacksRuntimeComponentV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host_port DataK8SRcAppStacksRuntimeComponentV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host_port DataK8SRcAppStacksRuntimeComponentV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#protocol DataK8SRcAppStacksRuntimeComponentV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#protocol DataK8SRcAppStacksRuntimeComponentV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -12695,7 +12695,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12791,13 +12791,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -12919,13 +12919,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value: string;
 }
@@ -13066,31 +13066,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13299,13 +13299,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
 }
@@ -13427,61 +13427,61 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
   */
   readonly exec?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -13838,13 +13838,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource_name DataK8SRcAppStacksRuntimeComponentV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resource_name DataK8SRcAppStacksRuntimeComponentV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#restart_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#restart_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -13985,7 +13985,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
 }
@@ -14100,19 +14100,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersR
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#claims DataK8SRcAppStacksRuntimeComponentV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#claims DataK8SRcAppStacksRuntimeComponentV1Manifest#claims}
   */
   readonly claims?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#limits DataK8SRcAppStacksRuntimeComponentV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#limits DataK8SRcAppStacksRuntimeComponentV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#requests DataK8SRcAppStacksRuntimeComponentV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#requests DataK8SRcAppStacksRuntimeComponentV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -14266,13 +14266,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#add DataK8SRcAppStacksRuntimeComponentV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#add DataK8SRcAppStacksRuntimeComponentV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#drop DataK8SRcAppStacksRuntimeComponentV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#drop DataK8SRcAppStacksRuntimeComponentV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -14397,25 +14397,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#level DataK8SRcAppStacksRuntimeComponentV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#level DataK8SRcAppStacksRuntimeComponentV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#role DataK8SRcAppStacksRuntimeComponentV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#role DataK8SRcAppStacksRuntimeComponentV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#user DataK8SRcAppStacksRuntimeComponentV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#user DataK8SRcAppStacksRuntimeComponentV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -14598,13 +14598,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#localhost_profile DataK8SRcAppStacksRuntimeComponentV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#localhost_profile DataK8SRcAppStacksRuntimeComponentV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
   */
   readonly type: string;
 }
@@ -14726,25 +14726,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#gmsa_credential_spec DataK8SRcAppStacksRuntimeComponentV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#gmsa_credential_spec DataK8SRcAppStacksRuntimeComponentV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#gmsa_credential_spec_name DataK8SRcAppStacksRuntimeComponentV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#gmsa_credential_spec_name DataK8SRcAppStacksRuntimeComponentV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host_process DataK8SRcAppStacksRuntimeComponentV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host_process DataK8SRcAppStacksRuntimeComponentV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_user_name DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_user_name DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -14927,67 +14927,67 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#allow_privilege_escalation DataK8SRcAppStacksRuntimeComponentV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#allow_privilege_escalation DataK8SRcAppStacksRuntimeComponentV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#capabilities DataK8SRcAppStacksRuntimeComponentV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#capabilities DataK8SRcAppStacksRuntimeComponentV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#privileged DataK8SRcAppStacksRuntimeComponentV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#privileged DataK8SRcAppStacksRuntimeComponentV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#proc_mount DataK8SRcAppStacksRuntimeComponentV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#proc_mount DataK8SRcAppStacksRuntimeComponentV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#read_only_root_filesystem DataK8SRcAppStacksRuntimeComponentV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#read_only_root_filesystem DataK8SRcAppStacksRuntimeComponentV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_group DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_group DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_non_root DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_non_root DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_user DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_user DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#se_linux_options DataK8SRcAppStacksRuntimeComponentV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#se_linux_options DataK8SRcAppStacksRuntimeComponentV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#seccomp_profile DataK8SRcAppStacksRuntimeComponentV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#seccomp_profile DataK8SRcAppStacksRuntimeComponentV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#windows_options DataK8SRcAppStacksRuntimeComponentV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#windows_options DataK8SRcAppStacksRuntimeComponentV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -15373,7 +15373,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -15469,13 +15469,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -15597,13 +15597,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value: string;
 }
@@ -15744,31 +15744,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -15977,13 +15977,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
 }
@@ -16105,61 +16105,61 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersS
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
   */
   readonly exec?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -16516,13 +16516,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersV
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#device_path DataK8SRcAppStacksRuntimeComponentV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#device_path DataK8SRcAppStacksRuntimeComponentV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
 }
@@ -16663,37 +16663,37 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersV
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#mount_path DataK8SRcAppStacksRuntimeComponentV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#mount_path DataK8SRcAppStacksRuntimeComponentV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#mount_propagation DataK8SRcAppStacksRuntimeComponentV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#mount_propagation DataK8SRcAppStacksRuntimeComponentV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#read_only DataK8SRcAppStacksRuntimeComponentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#read_only DataK8SRcAppStacksRuntimeComponentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#sub_path DataK8SRcAppStacksRuntimeComponentV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#sub_path DataK8SRcAppStacksRuntimeComponentV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#sub_path_expr DataK8SRcAppStacksRuntimeComponentV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#sub_path_expr DataK8SRcAppStacksRuntimeComponentV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -16950,145 +16950,145 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainers 
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#args DataK8SRcAppStacksRuntimeComponentV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#args DataK8SRcAppStacksRuntimeComponentV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#env DataK8SRcAppStacksRuntimeComponentV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#env DataK8SRcAppStacksRuntimeComponentV1Manifest#env}
   */
   readonly env?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#env_from DataK8SRcAppStacksRuntimeComponentV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#env_from DataK8SRcAppStacksRuntimeComponentV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#image DataK8SRcAppStacksRuntimeComponentV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#image DataK8SRcAppStacksRuntimeComponentV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#image_pull_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#image_pull_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#lifecycle DataK8SRcAppStacksRuntimeComponentV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#lifecycle DataK8SRcAppStacksRuntimeComponentV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#liveness_probe DataK8SRcAppStacksRuntimeComponentV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#liveness_probe DataK8SRcAppStacksRuntimeComponentV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#ports DataK8SRcAppStacksRuntimeComponentV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#ports DataK8SRcAppStacksRuntimeComponentV1Manifest#ports}
   */
   readonly ports?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#readiness_probe DataK8SRcAppStacksRuntimeComponentV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#readiness_probe DataK8SRcAppStacksRuntimeComponentV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resize_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resize_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resources DataK8SRcAppStacksRuntimeComponentV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#resources DataK8SRcAppStacksRuntimeComponentV1Manifest#resources}
   */
   readonly resources?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#restart_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#restart_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#security_context DataK8SRcAppStacksRuntimeComponentV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#security_context DataK8SRcAppStacksRuntimeComponentV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#startup_probe DataK8SRcAppStacksRuntimeComponentV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#startup_probe DataK8SRcAppStacksRuntimeComponentV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#stdin DataK8SRcAppStacksRuntimeComponentV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#stdin DataK8SRcAppStacksRuntimeComponentV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#stdin_once DataK8SRcAppStacksRuntimeComponentV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#stdin_once DataK8SRcAppStacksRuntimeComponentV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_message_path DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_message_path DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_message_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_message_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tty DataK8SRcAppStacksRuntimeComponentV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tty DataK8SRcAppStacksRuntimeComponentV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#volume_devices DataK8SRcAppStacksRuntimeComponentV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#volume_devices DataK8SRcAppStacksRuntimeComponentV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#volume_mounts DataK8SRcAppStacksRuntimeComponentV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#volume_mounts DataK8SRcAppStacksRuntimeComponentV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#working_dir DataK8SRcAppStacksRuntimeComponentV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#working_dir DataK8SRcAppStacksRuntimeComponentV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -17870,19 +17870,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18033,13 +18033,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#credentials DataK8SRcAppStacksRuntimeComponentV1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#credentials DataK8SRcAppStacksRuntimeComponentV1Manifest#credentials}
   */
   readonly credentials?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -18164,19 +18164,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18327,19 +18327,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18490,13 +18490,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#password DataK8SRcAppStacksRuntimeComponentV1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#password DataK8SRcAppStacksRuntimeComponentV1Manifest#password}
   */
   readonly password?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#username DataK8SRcAppStacksRuntimeComponentV1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#username DataK8SRcAppStacksRuntimeComponentV1Manifest#username}
   */
   readonly username?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsBasicAuthUsername;
 }
@@ -18621,19 +18621,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18784,43 +18784,43 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#action DataK8SRcAppStacksRuntimeComponentV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#action DataK8SRcAppStacksRuntimeComponentV1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#modulus DataK8SRcAppStacksRuntimeComponentV1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#modulus DataK8SRcAppStacksRuntimeComponentV1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#regex DataK8SRcAppStacksRuntimeComponentV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#regex DataK8SRcAppStacksRuntimeComponentV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#replacement DataK8SRcAppStacksRuntimeComponentV1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#replacement DataK8SRcAppStacksRuntimeComponentV1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#separator DataK8SRcAppStacksRuntimeComponentV1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#separator DataK8SRcAppStacksRuntimeComponentV1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#source_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#source_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_label DataK8SRcAppStacksRuntimeComponentV1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_label DataK8SRcAppStacksRuntimeComponentV1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -19112,19 +19112,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19275,19 +19275,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19438,13 +19438,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map}
   */
   readonly configMap?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret DataK8SRcAppStacksRuntimeComponentV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret DataK8SRcAppStacksRuntimeComponentV1Manifest#secret}
   */
   readonly secret?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsOauth2ClientIdSecret;
 }
@@ -19569,19 +19569,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19732,31 +19732,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#client_id DataK8SRcAppStacksRuntimeComponentV1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#client_id DataK8SRcAppStacksRuntimeComponentV1Manifest#client_id}
   */
   readonly clientId: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#client_secret DataK8SRcAppStacksRuntimeComponentV1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#client_secret DataK8SRcAppStacksRuntimeComponentV1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#endpoint_params DataK8SRcAppStacksRuntimeComponentV1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#endpoint_params DataK8SRcAppStacksRuntimeComponentV1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scopes DataK8SRcAppStacksRuntimeComponentV1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scopes DataK8SRcAppStacksRuntimeComponentV1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#token_url DataK8SRcAppStacksRuntimeComponentV1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#token_url DataK8SRcAppStacksRuntimeComponentV1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -19959,43 +19959,43 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#action DataK8SRcAppStacksRuntimeComponentV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#action DataK8SRcAppStacksRuntimeComponentV1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#modulus DataK8SRcAppStacksRuntimeComponentV1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#modulus DataK8SRcAppStacksRuntimeComponentV1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#regex DataK8SRcAppStacksRuntimeComponentV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#regex DataK8SRcAppStacksRuntimeComponentV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#replacement DataK8SRcAppStacksRuntimeComponentV1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#replacement DataK8SRcAppStacksRuntimeComponentV1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#separator DataK8SRcAppStacksRuntimeComponentV1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#separator DataK8SRcAppStacksRuntimeComponentV1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#source_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#source_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_label DataK8SRcAppStacksRuntimeComponentV1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_label DataK8SRcAppStacksRuntimeComponentV1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -20287,19 +20287,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20450,19 +20450,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20613,13 +20613,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map}
   */
   readonly configMap?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret DataK8SRcAppStacksRuntimeComponentV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret DataK8SRcAppStacksRuntimeComponentV1Manifest#secret}
   */
   readonly secret?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsTlsConfigCaSecret;
 }
@@ -20744,19 +20744,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20907,19 +20907,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21070,13 +21070,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#config_map DataK8SRcAppStacksRuntimeComponentV1Manifest#config_map}
   */
   readonly configMap?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret DataK8SRcAppStacksRuntimeComponentV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#secret DataK8SRcAppStacksRuntimeComponentV1Manifest#secret}
   */
   readonly secret?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsTlsConfigCertSecret;
 }
@@ -21201,19 +21201,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21364,49 +21364,49 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#ca DataK8SRcAppStacksRuntimeComponentV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#ca DataK8SRcAppStacksRuntimeComponentV1Manifest#ca}
   */
   readonly ca?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsTlsConfigCa;
   /**
   * Path to the CA cert in the Prometheus container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#ca_file DataK8SRcAppStacksRuntimeComponentV1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#ca_file DataK8SRcAppStacksRuntimeComponentV1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#cert DataK8SRcAppStacksRuntimeComponentV1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#cert DataK8SRcAppStacksRuntimeComponentV1Manifest#cert}
   */
   readonly cert?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsTlsConfigCert;
   /**
   * Path to the client cert file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#cert_file DataK8SRcAppStacksRuntimeComponentV1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#cert_file DataK8SRcAppStacksRuntimeComponentV1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#insecure_skip_verify DataK8SRcAppStacksRuntimeComponentV1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#insecure_skip_verify DataK8SRcAppStacksRuntimeComponentV1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key_file DataK8SRcAppStacksRuntimeComponentV1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key_file DataK8SRcAppStacksRuntimeComponentV1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key_secret DataK8SRcAppStacksRuntimeComponentV1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key_secret DataK8SRcAppStacksRuntimeComponentV1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#server_name DataK8SRcAppStacksRuntimeComponentV1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#server_name DataK8SRcAppStacksRuntimeComponentV1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -21705,133 +21705,133 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpo
   /**
   * 'authorization' configures the Authorization header credentials to use when scraping the target. Cannot be set at the same time as 'basicAuth', or 'oauth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#authorization DataK8SRcAppStacksRuntimeComponentV1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#authorization DataK8SRcAppStacksRuntimeComponentV1Manifest#authorization}
   */
   readonly authorization?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsAuthorization;
   /**
   * 'basicAuth' configures the Basic Authentication credentials to use when scraping the target. Cannot be set at the same time as 'authorization', or 'oauth2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#basic_auth DataK8SRcAppStacksRuntimeComponentV1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#basic_auth DataK8SRcAppStacksRuntimeComponentV1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsBasicAuth;
   /**
   * File to read bearer token for scraping the target. Deprecated: use 'authorization' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#bearer_token_file DataK8SRcAppStacksRuntimeComponentV1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#bearer_token_file DataK8SRcAppStacksRuntimeComponentV1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * 'bearerTokenSecret' specifies a key of a Secret containing the bearer token for scraping targets. The secret needs to be in the same namespace as the ServiceMonitor object and readable by the Prometheus Operator. Deprecated: use 'authorization' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#bearer_token_secret DataK8SRcAppStacksRuntimeComponentV1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#bearer_token_secret DataK8SRcAppStacksRuntimeComponentV1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsBearerTokenSecret;
   /**
   * 'enableHttp2' can be used to disable HTTP2 when scraping the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#enable_http2 DataK8SRcAppStacksRuntimeComponentV1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#enable_http2 DataK8SRcAppStacksRuntimeComponentV1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * When true, the pods which are not running (e.g. either in Failed or Succeeded state) are dropped during the target discovery. If unset, the filtering is enabled. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#filter_running DataK8SRcAppStacksRuntimeComponentV1Manifest#filter_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#filter_running DataK8SRcAppStacksRuntimeComponentV1Manifest#filter_running}
   */
   readonly filterRunning?: boolean | cdktf.IResolvable;
   /**
   * 'followRedirects' defines whether the scrape requests should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#follow_redirects DataK8SRcAppStacksRuntimeComponentV1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#follow_redirects DataK8SRcAppStacksRuntimeComponentV1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * When true, 'honorLabels' preserves the metric's labels when they collide with the target's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#honor_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#honor_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#honor_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#honor_labels}
   */
   readonly honorLabels?: boolean | cdktf.IResolvable;
   /**
   * 'honorTimestamps' controls whether Prometheus preserves the timestamps when exposed by the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#honor_timestamps DataK8SRcAppStacksRuntimeComponentV1Manifest#honor_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#honor_timestamps DataK8SRcAppStacksRuntimeComponentV1Manifest#honor_timestamps}
   */
   readonly honorTimestamps?: boolean | cdktf.IResolvable;
   /**
   * Interval at which Prometheus scrapes the metrics from the target. If empty, Prometheus uses the global scrape interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#interval DataK8SRcAppStacksRuntimeComponentV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#interval DataK8SRcAppStacksRuntimeComponentV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * 'metricRelabelings' configures the relabeling rules to apply to the samples before ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#metric_relabelings DataK8SRcAppStacksRuntimeComponentV1Manifest#metric_relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#metric_relabelings DataK8SRcAppStacksRuntimeComponentV1Manifest#metric_relabelings}
   */
   readonly metricRelabelings?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsMetricRelabelings[] | cdktf.IResolvable;
   /**
   * 'oauth2' configures the OAuth2 settings to use when scraping the target. It requires Prometheus >= 2.27.0. Cannot be set at the same time as 'authorization', or 'basicAuth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#oauth2 DataK8SRcAppStacksRuntimeComponentV1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#oauth2 DataK8SRcAppStacksRuntimeComponentV1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsOauth2;
   /**
   * params define optional HTTP URL parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#params DataK8SRcAppStacksRuntimeComponentV1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#params DataK8SRcAppStacksRuntimeComponentV1Manifest#params}
   */
   readonly params?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * HTTP path from which to scrape for metrics. If empty, Prometheus uses the default value (e.g. '/metrics').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name of the Service port which this endpoint refers to. It takes precedence over 'targetPort'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port?: string;
   /**
   * 'proxyURL' configures the HTTP Proxy URL (e.g. 'http://proxyserver:2195') to go through when scraping the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#proxy_url DataK8SRcAppStacksRuntimeComponentV1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#proxy_url DataK8SRcAppStacksRuntimeComponentV1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'relabelings' configures the relabeling rules to apply the target's metadata labels. The Operator automatically adds relabelings for a few standard Kubernetes fields. The original scrape job's name is available via the '__tmp_prometheus_job_name' label. More info: https://prometheus.io/docs/prometheus/latest/configuration/configuration/#relabel_config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#relabelings DataK8SRcAppStacksRuntimeComponentV1Manifest#relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#relabelings DataK8SRcAppStacksRuntimeComponentV1Manifest#relabelings}
   */
   readonly relabelings?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsRelabelings[] | cdktf.IResolvable;
   /**
   * HTTP scheme to use for scraping. 'http' and 'https' are the expected values unless you rewrite the '__scheme__' label via relabeling. If empty, Prometheus uses the default value 'http'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Timeout after which Prometheus considers the scrape to be failed. If empty, Prometheus uses the global scrape timeout unless it is less than the target's scrape interval value in which the latter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scrape_timeout DataK8SRcAppStacksRuntimeComponentV1Manifest#scrape_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scrape_timeout DataK8SRcAppStacksRuntimeComponentV1Manifest#scrape_timeout}
   */
   readonly scrapeTimeout?: string;
   /**
   * Name or number of the target port of the 'Pod' object behind the Service, the port must be specified with container port property. Deprecated: use 'port' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_port DataK8SRcAppStacksRuntimeComponentV1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_port DataK8SRcAppStacksRuntimeComponentV1Manifest#target_port}
   */
   readonly targetPort?: string;
   /**
   * TLS configuration to use when scraping the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tls_config DataK8SRcAppStacksRuntimeComponentV1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tls_config DataK8SRcAppStacksRuntimeComponentV1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpointsTlsConfig;
   /**
   * 'trackTimestampsStaleness' defines whether Prometheus tracks staleness of the metrics that have an explicit timestamp present in scraped data. Has no effect if 'honorTimestamps' is false. It requires Prometheus >= v2.48.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#track_timestamps_staleness DataK8SRcAppStacksRuntimeComponentV1Manifest#track_timestamps_staleness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#track_timestamps_staleness DataK8SRcAppStacksRuntimeComponentV1Manifest#track_timestamps_staleness}
   */
   readonly trackTimestampsStaleness?: boolean | cdktf.IResolvable;
 }
@@ -22558,13 +22558,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoring {
   /**
   * A YAML snippet representing an array of Endpoint component from ServiceMonitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#endpoints DataK8SRcAppStacksRuntimeComponentV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#endpoints DataK8SRcAppStacksRuntimeComponentV1Manifest#endpoints}
   */
   readonly endpoints?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecMonitoringEndpoints[] | cdktf.IResolvable;
   /**
   * Labels to set on ServiceMonitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#labels DataK8SRcAppStacksRuntimeComponentV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#labels DataK8SRcAppStacksRuntimeComponentV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -22689,19 +22689,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecNetworkPolicy {
   /**
   * Disable the creation of the network policy. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#disable DataK8SRcAppStacksRuntimeComponentV1Manifest#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#disable DataK8SRcAppStacksRuntimeComponentV1Manifest#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Specify the labels of pod(s) that incoming traffic is allowed from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#from_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#from_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#from_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#from_labels}
   */
   readonly fromLabels?: { [key: string]: string };
   /**
   * Specify the labels of namespaces that incoming traffic is allowed from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#namespace_labels DataK8SRcAppStacksRuntimeComponentV1Manifest#namespace_labels}
   */
   readonly namespaceLabels?: { [key: string]: string };
 }
@@ -22855,7 +22855,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessE
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -22951,13 +22951,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessG
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -23079,13 +23079,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessH
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value: string;
 }
@@ -23226,31 +23226,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessH
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -23459,13 +23459,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessT
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
 }
@@ -23587,61 +23587,61 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLiveness 
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
   */
   readonly exec?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLivenessTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -23998,7 +23998,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadiness
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -24094,13 +24094,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadiness
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -24222,13 +24222,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadiness
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value: string;
 }
@@ -24369,31 +24369,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadiness
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadinessHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -24602,13 +24602,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadiness
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
 }
@@ -24730,61 +24730,61 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadiness
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
   */
   readonly exec?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadinessExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadinessGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadinessHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadinessTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -25141,7 +25141,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupEx
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#command DataK8SRcAppStacksRuntimeComponentV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -25237,13 +25237,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupGr
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#service DataK8SRcAppStacksRuntimeComponentV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -25365,13 +25365,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupHt
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#value DataK8SRcAppStacksRuntimeComponentV1Manifest#value}
   */
   readonly value: string;
 }
@@ -25512,31 +25512,31 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupHt
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_headers DataK8SRcAppStacksRuntimeComponentV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#scheme DataK8SRcAppStacksRuntimeComponentV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25745,13 +25745,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupTc
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: string;
 }
@@ -25873,61 +25873,61 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartup {
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#exec DataK8SRcAppStacksRuntimeComponentV1Manifest#exec}
   */
   readonly exec?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#failure_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#grpc DataK8SRcAppStacksRuntimeComponentV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#http_get DataK8SRcAppStacksRuntimeComponentV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#initial_delay_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#success_threshold DataK8SRcAppStacksRuntimeComponentV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#tcp_socket DataK8SRcAppStacksRuntimeComponentV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartupTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination_grace_period_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#timeout_seconds DataK8SRcAppStacksRuntimeComponentV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -26284,19 +26284,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbes {
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#liveness DataK8SRcAppStacksRuntimeComponentV1Manifest#liveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#liveness DataK8SRcAppStacksRuntimeComponentV1Manifest#liveness}
   */
   readonly liveness?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesLiveness;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#readiness DataK8SRcAppStacksRuntimeComponentV1Manifest#readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#readiness DataK8SRcAppStacksRuntimeComponentV1Manifest#readiness}
   */
   readonly readiness?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesReadiness;
   /**
   * Probe to determine successful initialization. If specified, other probes are not executed until this completes successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#startup DataK8SRcAppStacksRuntimeComponentV1Manifest#startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#startup DataK8SRcAppStacksRuntimeComponentV1Manifest#startup}
   */
   readonly startup?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecProbesStartup;
 }
@@ -26450,7 +26450,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecResourcesClaims
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name: string;
 }
@@ -26565,19 +26565,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#claims DataK8SRcAppStacksRuntimeComponentV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#claims DataK8SRcAppStacksRuntimeComponentV1Manifest#claims}
   */
   readonly claims?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#limits DataK8SRcAppStacksRuntimeComponentV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#limits DataK8SRcAppStacksRuntimeComponentV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#requests DataK8SRcAppStacksRuntimeComponentV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#requests DataK8SRcAppStacksRuntimeComponentV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -26731,43 +26731,43 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecRoute {
   /**
   * Annotations to be added to the Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * A name of a secret that already contains TLS key, certificate and CA to be used in the route. It can also contain destination CA certificate. The following keys are valid in the secret: ca.crt, destCA.crt, tls.crt, and tls.key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#certificate_secret_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#certificate_secret_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#certificate_secret_ref}
   */
   readonly certificateSecretRef?: string;
   /**
   * Hostname to be used for the Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host DataK8SRcAppStacksRuntimeComponentV1Manifest#host}
   */
   readonly host?: string;
   /**
   * HTTP traffic policy with TLS enabled. Can be one of Allow, Redirect and None.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#insecure_edge_termination_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#insecure_edge_termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#insecure_edge_termination_policy DataK8SRcAppStacksRuntimeComponentV1Manifest#insecure_edge_termination_policy}
   */
   readonly insecureEdgeTerminationPolicy?: string;
   /**
   * Path to be used for Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path DataK8SRcAppStacksRuntimeComponentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Path type to be used for Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path_type DataK8SRcAppStacksRuntimeComponentV1Manifest#path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#path_type DataK8SRcAppStacksRuntimeComponentV1Manifest#path_type}
   */
   readonly pathType?: string;
   /**
   * TLS termination policy. Can be one of edge, reencrypt and passthrough.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination DataK8SRcAppStacksRuntimeComponentV1Manifest#termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#termination DataK8SRcAppStacksRuntimeComponentV1Manifest#termination}
   */
   readonly termination?: string;
 }
@@ -27037,13 +27037,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContext
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#add DataK8SRcAppStacksRuntimeComponentV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#add DataK8SRcAppStacksRuntimeComponentV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#drop DataK8SRcAppStacksRuntimeComponentV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#drop DataK8SRcAppStacksRuntimeComponentV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -27168,25 +27168,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContext
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#level DataK8SRcAppStacksRuntimeComponentV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#level DataK8SRcAppStacksRuntimeComponentV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#role DataK8SRcAppStacksRuntimeComponentV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#role DataK8SRcAppStacksRuntimeComponentV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#user DataK8SRcAppStacksRuntimeComponentV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#user DataK8SRcAppStacksRuntimeComponentV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -27369,13 +27369,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContext
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#localhost_profile DataK8SRcAppStacksRuntimeComponentV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#localhost_profile DataK8SRcAppStacksRuntimeComponentV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
   */
   readonly type: string;
 }
@@ -27497,25 +27497,25 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContext
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#gmsa_credential_spec DataK8SRcAppStacksRuntimeComponentV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#gmsa_credential_spec DataK8SRcAppStacksRuntimeComponentV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#gmsa_credential_spec_name DataK8SRcAppStacksRuntimeComponentV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#gmsa_credential_spec_name DataK8SRcAppStacksRuntimeComponentV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host_process DataK8SRcAppStacksRuntimeComponentV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#host_process DataK8SRcAppStacksRuntimeComponentV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_user_name DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_user_name DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -27698,67 +27698,67 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContext
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#allow_privilege_escalation DataK8SRcAppStacksRuntimeComponentV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#allow_privilege_escalation DataK8SRcAppStacksRuntimeComponentV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#capabilities DataK8SRcAppStacksRuntimeComponentV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#capabilities DataK8SRcAppStacksRuntimeComponentV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#privileged DataK8SRcAppStacksRuntimeComponentV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#privileged DataK8SRcAppStacksRuntimeComponentV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#proc_mount DataK8SRcAppStacksRuntimeComponentV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#proc_mount DataK8SRcAppStacksRuntimeComponentV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#read_only_root_filesystem DataK8SRcAppStacksRuntimeComponentV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#read_only_root_filesystem DataK8SRcAppStacksRuntimeComponentV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_group DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_group DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_non_root DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_non_root DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_user DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#run_as_user DataK8SRcAppStacksRuntimeComponentV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#se_linux_options DataK8SRcAppStacksRuntimeComponentV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#se_linux_options DataK8SRcAppStacksRuntimeComponentV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#seccomp_profile DataK8SRcAppStacksRuntimeComponentV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#seccomp_profile DataK8SRcAppStacksRuntimeComponentV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#windows_options DataK8SRcAppStacksRuntimeComponentV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#windows_options DataK8SRcAppStacksRuntimeComponentV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSecurityContextWindowsOptions;
 }
@@ -28144,7 +28144,7 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecServiceCertific
   /**
   * Annotations to be added to the service certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
 }
@@ -28240,37 +28240,37 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecServicePorts {
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 over cleartext as described in https://www.rfc-editor.org/rfc/rfc7540 * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#app_protocol DataK8SRcAppStacksRuntimeComponentV1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#app_protocol DataK8SRcAppStacksRuntimeComponentV1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort. Optional if only one ServicePort is defined on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_port DataK8SRcAppStacksRuntimeComponentV1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_port DataK8SRcAppStacksRuntimeComponentV1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#protocol DataK8SRcAppStacksRuntimeComponentV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#protocol DataK8SRcAppStacksRuntimeComponentV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_port DataK8SRcAppStacksRuntimeComponentV1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_port DataK8SRcAppStacksRuntimeComponentV1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -28530,61 +28530,61 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecService {
   /**
   * Annotations to be added to the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#annotations DataK8SRcAppStacksRuntimeComponentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Expose the application as a bindable service. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#bindable DataK8SRcAppStacksRuntimeComponentV1Manifest#bindable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#bindable DataK8SRcAppStacksRuntimeComponentV1Manifest#bindable}
   */
   readonly bindable?: boolean | cdktf.IResolvable;
   /**
   * Configure service certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#certificate DataK8SRcAppStacksRuntimeComponentV1Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#certificate DataK8SRcAppStacksRuntimeComponentV1Manifest#certificate}
   */
   readonly certificate?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecServiceCertificate;
   /**
   * A name of a secret that already contains TLS key, certificate and CA to be mounted in the pod. The following keys are valid in the secret: ca.crt, tls.crt, and tls.key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#certificate_secret_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#certificate_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#certificate_secret_ref DataK8SRcAppStacksRuntimeComponentV1Manifest#certificate_secret_ref}
   */
   readonly certificateSecretRef?: string;
   /**
   * Node proxies this port into your service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_port DataK8SRcAppStacksRuntimeComponentV1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#node_port DataK8SRcAppStacksRuntimeComponentV1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port exposed by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port DataK8SRcAppStacksRuntimeComponentV1Manifest#port}
   */
   readonly port?: number;
   /**
   * The name for the port exposed by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port_name DataK8SRcAppStacksRuntimeComponentV1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#port_name DataK8SRcAppStacksRuntimeComponentV1Manifest#port_name}
   */
   readonly portName?: string;
   /**
   * An array consisting of service ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#ports DataK8SRcAppStacksRuntimeComponentV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#ports DataK8SRcAppStacksRuntimeComponentV1Manifest#ports}
   */
   readonly ports?: DataK8SRcAppStacksRuntimeComponentV1ManifestSpecServicePorts[] | cdktf.IResolvable;
   /**
   * The port that the operator assigns to containers inside pods. Defaults to the value of .spec.service.port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_port DataK8SRcAppStacksRuntimeComponentV1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#target_port DataK8SRcAppStacksRuntimeComponentV1Manifest#target_port}
   */
   readonly targetPort?: number;
   /**
   * Service Type string describes ingress methods for a service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#type DataK8SRcAppStacksRuntimeComponentV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -28941,13 +28941,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecServiceAccount 
   /**
   * Whether the Service Account token should be mounted into the application pods. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#mount_token DataK8SRcAppStacksRuntimeComponentV1Manifest#mount_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#mount_token DataK8SRcAppStacksRuntimeComponentV1Manifest#mount_token}
   */
   readonly mountToken?: boolean | cdktf.IResolvable;
   /**
   * Name of the service account to use for deploying the application. A service account is automatically created if it's not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -29072,19 +29072,19 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSidecarContaine
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#key DataK8SRcAppStacksRuntimeComponentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#name DataK8SRcAppStacksRuntimeComponentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#optional DataK8SRcAppStacksRuntimeComponentV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29235,13 +29235,13 @@ export interface DataK8SRcAppStacksRuntimeComponentV1ManifestSpecSidecarContaine
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#api_version DataK8SRcAppStacksRuntimeComponentV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#api_version DataK8SRcAppStacksRuntimeComponentV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_path DataK8SRcAppStacksRuntimeComponentV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rc_app_stacks_runtime_component_v1_manifest#field_path DataK8SRcAppStacksRuntimeComponentV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface VstpVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Priority of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#backup_bridge_priority VstpVlan#backup_bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#backup_bridge_priority VstpVlan#backup_bridge_priority}
   */
   readonly backupBridgePriority?: string;
   /**
   * Priority of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#bridge_priority VstpVlan#bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#bridge_priority VstpVlan#bridge_priority}
   */
   readonly bridgePriority?: string;
   /**
   * Time spent in listening or learning state (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#forward_delay VstpVlan#forward_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#forward_delay VstpVlan#forward_delay}
   */
   readonly forwardDelay?: number;
   /**
   * Time interval between configuration BPDUs (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#hello_time VstpVlan#hello_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#hello_time VstpVlan#hello_time}
   */
   readonly helloTime?: number;
   /**
   * Maximum age of received protocol bpdu (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#max_age VstpVlan#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#max_age VstpVlan#max_age}
   */
   readonly maxAge?: number;
   /**
   * Routing instance for vstp protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#routing_instance VstpVlan#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#routing_instance VstpVlan#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * System identifier to represent this node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#system_identifier VstpVlan#system_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#system_identifier VstpVlan#system_identifier}
   */
   readonly systemIdentifier?: string;
   /**
   * VLAN id or `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#vlan_id VstpVlan#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#vlan_id VstpVlan#vlan_id}
   */
   readonly vlanId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan junos_vstp_vlan}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan junos_vstp_vlan}
 */
 export class VstpVlan extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class VstpVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VstpVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VstpVlan to import
-  * @param importFromId The id of the existing VstpVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VstpVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VstpVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class VstpVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_vlan junos_vstp_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_vlan junos_vstp_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class VstpVlan extends cdktf.TerraformResource {
       terraformResourceType: 'junos_vstp_vlan',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataInstaclustrAwsEncryptionKeysV2Config extends cdktf.Terrafor
   /**
   * UUID of the Instaclustr Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#account_id DataInstaclustrAwsEncryptionKeysV2#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#account_id DataInstaclustrAwsEncryptionKeysV2#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#id DataInstaclustrAwsEncryptionKeysV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#id DataInstaclustrAwsEncryptionKeysV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataInstaclustrAwsEncryptionKeysV2Config extends cdktf.Terrafor
   /**
   * encryption_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#encryption_keys DataInstaclustrAwsEncryptionKeysV2#encryption_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#encryption_keys DataInstaclustrAwsEncryptionKeysV2#encryption_keys}
   */
   readonly encryptionKeys?: DataInstaclustrAwsEncryptionKeysV2EncryptionKeys[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#filter DataInstaclustrAwsEncryptionKeysV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#filter DataInstaclustrAwsEncryptionKeysV2#filter}
   */
   readonly filter?: DataInstaclustrAwsEncryptionKeysV2Filter[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface DataInstaclustrAwsEncryptionKeysV2EncryptionKeysRegions {
   /**
   * Name of the AWS Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#name DataInstaclustrAwsEncryptionKeysV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#name DataInstaclustrAwsEncryptionKeysV2#name}
   */
   readonly name?: string;
 }
@@ -155,19 +155,19 @@ export interface DataInstaclustrAwsEncryptionKeysV2EncryptionKeys {
   /**
   * Encryption key alias for display purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#alias DataInstaclustrAwsEncryptionKeysV2#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#alias DataInstaclustrAwsEncryptionKeysV2#alias}
   */
   readonly alias?: string;
   /**
   * AWS ARN for the encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#arn DataInstaclustrAwsEncryptionKeysV2#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#arn DataInstaclustrAwsEncryptionKeysV2#arn}
   */
   readonly arn?: string;
   /**
   * ID of the encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#id DataInstaclustrAwsEncryptionKeysV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#id DataInstaclustrAwsEncryptionKeysV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -176,19 +176,19 @@ export interface DataInstaclustrAwsEncryptionKeysV2EncryptionKeys {
   /**
   * Whether the encryption key is used by a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#in_use DataInstaclustrAwsEncryptionKeysV2#in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#in_use DataInstaclustrAwsEncryptionKeysV2#in_use}
   */
   readonly inUse?: boolean | cdktf.IResolvable;
   /**
   * For customers running in their own account. Your provider account can be found on the Create Cluster page on the Instaclustr Console, or the "Provider Account" property on any existing cluster. For customers provisioning on Instaclustr's cloud provider accounts, this property may be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#provider_account_name DataInstaclustrAwsEncryptionKeysV2#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#provider_account_name DataInstaclustrAwsEncryptionKeysV2#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * regions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#regions DataInstaclustrAwsEncryptionKeysV2#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#regions DataInstaclustrAwsEncryptionKeysV2#regions}
   */
   readonly regions?: DataInstaclustrAwsEncryptionKeysV2EncryptionKeysRegions[] | cdktf.IResolvable;
 }
@@ -449,11 +449,11 @@ export class DataInstaclustrAwsEncryptionKeysV2EncryptionKeysList extends cdktf.
 }
 export interface DataInstaclustrAwsEncryptionKeysV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#name DataInstaclustrAwsEncryptionKeysV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#name DataInstaclustrAwsEncryptionKeysV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#values DataInstaclustrAwsEncryptionKeysV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#values DataInstaclustrAwsEncryptionKeysV2#values}
   */
   readonly values: string[];
 }
@@ -592,7 +592,7 @@ export class DataInstaclustrAwsEncryptionKeysV2FilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2 instaclustr_aws_encryption_keys_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2 instaclustr_aws_encryption_keys_v2}
 */
 export class DataInstaclustrAwsEncryptionKeysV2 extends cdktf.TerraformDataSource {
 
@@ -608,7 +608,7 @@ export class DataInstaclustrAwsEncryptionKeysV2 extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataInstaclustrAwsEncryptionKeysV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrAwsEncryptionKeysV2 to import
-  * @param importFromId The id of the existing DataInstaclustrAwsEncryptionKeysV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrAwsEncryptionKeysV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrAwsEncryptionKeysV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -620,7 +620,7 @@ export class DataInstaclustrAwsEncryptionKeysV2 extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_encryption_keys_v2 instaclustr_aws_encryption_keys_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_encryption_keys_v2 instaclustr_aws_encryption_keys_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -631,8 +631,8 @@ export class DataInstaclustrAwsEncryptionKeysV2 extends cdktf.TerraformDataSourc
       terraformResourceType: 'instaclustr_aws_encryption_keys_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.35',
-        providerVersionConstraint: '2.1.35'
+        providerVersion: '2.1.36',
+        providerVersionConstraint: '2.1.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

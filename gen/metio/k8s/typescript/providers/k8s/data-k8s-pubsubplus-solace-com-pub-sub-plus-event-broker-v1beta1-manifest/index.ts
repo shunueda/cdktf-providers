@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#metadata DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#metadata DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestMetadata;
   /**
   * EventBrokerSpec defines the desired state of PubSubPlusEventBroker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#spec DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#spec DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#annotations DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#annotations DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Specifies runAsGroup in container security context. 0 or unset defaults either to 1000002, or if OpenShift detected to unspecified (see documentation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#run_as_group DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#run_as_group DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Specifies runAsUser in container security context. 0 or unset defaults either to 1000001, or if OpenShift detected to unspecified (see documentation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#run_as_user DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#run_as_user DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
 }
@@ -350,13 +350,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Specifies the Name of an environment variable to be added to the PubSubPlusEventBroker container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the Value of an environment variable to be added to the PubSubPlusEventBroker container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#value DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#value DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -497,7 +497,7 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -615,25 +615,25 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Specifies ImagePullPolicy of the container image for the event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pull_policy DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pull_policy DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * pullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pull_secrets DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pull_secrets DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Defines the container image repo where the event broker image is pulled from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#repository DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#repository DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Specifies the tag of the container image to be used for the event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#tag DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#tag DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -816,13 +816,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Specifies the Name of an environment variable to be added to the Prometheus Exporter container for Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the Value of an environment variable to be added to the Prometheus Exporter container for Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#value DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#value DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -963,7 +963,7 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1081,25 +1081,25 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Specifies ImagePullPolicy of the container image for the Prometheus Exporter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pull_policy DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pull_policy DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * pullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pull_secrets DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pull_secrets DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecMonitoringImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Defines the container image repo where the Prometheus Exporter image is pulled from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#repository DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#repository DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Specifies the tag of the container image to be used for the Prometheus Exporter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#tag DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#tag DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -1282,55 +1282,55 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * ContainerPort is the port number to expose on the Prometheus Exporter pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#container_port DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#container_port DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#container_port}
   */
   readonly containerPort?: number;
   /**
   * EndpointTlsConfigPrivateKeyName is the file name of the Private Key used to set up TLS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#endpoint_tls_config_private_key_name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#endpoint_tls_config_private_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#endpoint_tls_config_private_key_name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#endpoint_tls_config_private_key_name}
   */
   readonly endpointTlsConfigPrivateKeyName?: string;
   /**
   * EndpointTLSConfigSecret defines TLS secret name to set up TLS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#endpoint_tls_config_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#endpoint_tls_config_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#endpoint_tls_config_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#endpoint_tls_config_secret}
   */
   readonly endpointTlsConfigSecret?: string;
   /**
   * EndpointTlsConfigServerCertName is the file name of the Server Certificate used to set up TLS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#endpoint_tls_config_server_cert_name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#endpoint_tls_config_server_cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#endpoint_tls_config_server_cert_name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#endpoint_tls_config_server_cert_name}
   */
   readonly endpointTlsConfigServerCertName?: string;
   /**
   * Defines if Metrics Service Endpoint uses TLS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#listen_tls DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#listen_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#listen_tls DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#listen_tls}
   */
   readonly listenTls?: boolean | cdktf.IResolvable;
   /**
   * Name is a unique name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#protocol DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#protocol DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * ServicePort is the port number to expose on the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service_port DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service_port DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service_port}
   */
   readonly servicePort?: number;
   /**
   * Defines the service type for the Metrics Service Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service_type DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service_type DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -1658,43 +1658,43 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Enabled true enables the setup of the Prometheus Exporter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#enabled DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#enabled DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of extra environment variables to be added to the Prometheus Exporter container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#extra_env_vars DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#extra_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#extra_env_vars DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#extra_env_vars}
   */
   readonly extraEnvVars?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecMonitoringExtraEnvVars[] | cdktf.IResolvable;
   /**
   * Image defines container image parameters for the Prometheus Exporter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#image DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#image DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#image}
   */
   readonly image?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecMonitoringImage;
   /**
   * Defines if Prometheus Exporter should include rates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#include_rates DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#include_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#include_rates DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#include_rates}
   */
   readonly includeRates?: boolean | cdktf.IResolvable;
   /**
   * MetricsEndpoint defines parameters to configure monitoring for the Prometheus Exporter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#metrics_endpoint DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#metrics_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#metrics_endpoint DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#metrics_endpoint}
   */
   readonly metricsEndpoint?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecMonitoringMetricsEndpoint;
   /**
   * Defines if Prometheus Exporter verifies SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#ssl_verify DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#ssl_verify DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Timeout configuration for Prometheus Exporter scrapper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#time_out DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#time_out DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#time_out}
   */
   readonly timeOut?: number;
 }
@@ -1964,19 +1964,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2146,19 +2146,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2328,13 +2328,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_fields DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_fields DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -2459,13 +2459,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#preference DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#preference DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#weight DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#weight DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2606,19 +2606,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2788,19 +2788,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2970,13 +2970,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_fields DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_fields DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -3123,7 +3123,7 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#node_selector_terms DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#node_selector_terms DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -3216,13 +3216,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -3347,19 +3347,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3529,13 +3529,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3660,19 +3660,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3842,13 +3842,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3973,37 +3973,37 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#label_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#label_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#mismatch_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#mismatch_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespaces DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespaces DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#topology_key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#topology_key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4241,13 +4241,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_affinity_term DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_affinity_term DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#weight DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#weight DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4388,19 +4388,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4570,13 +4570,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4701,19 +4701,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4883,13 +4883,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5014,37 +5014,37 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#label_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#label_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#mismatch_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#mismatch_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespaces DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespaces DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#topology_key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#topology_key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5304,13 +5304,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5435,19 +5435,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5617,13 +5617,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5748,19 +5748,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5930,13 +5930,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6061,37 +6061,37 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#label_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#label_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#mismatch_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#mismatch_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespaces DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespaces DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#topology_key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#topology_key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6329,13 +6329,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_affinity_term DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_affinity_term DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#weight DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#weight DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -6476,19 +6476,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6658,13 +6658,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6789,19 +6789,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#values DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6971,13 +6971,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_expressions DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7102,37 +7102,37 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#label_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#label_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#match_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#mismatch_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#mismatch_label_keys DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespace_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespaces DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#namespaces DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#topology_key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#topology_key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -7392,13 +7392,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -7523,19 +7523,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#node_affinity DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#node_affinity DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_affinity DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_affinity DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_anti_affinity DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_anti_affinity DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinityPodAntiAffinity;
 }
@@ -7689,31 +7689,31 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#effect DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#effect DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#key DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#operator DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#toleration_seconds DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#toleration_seconds DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#value DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#value DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7947,19 +7947,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Affinity if provided defines the conditional approach to assign PubSubPlusEventBroker nodes to specific nodes to which they can be scheduled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#affinity DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#affinity DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecAffinity;
   /**
   * NodeSelector if provided defines the exact labels of nodes to which PubSubPlusEventBroker nodes can be scheduled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#node_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#node_selector DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Toleration if provided defines the exact properties of the PubSubPlusEventBroker nodes can be scheduled on nodes with d matching taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#tolerations DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#tolerations DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpecTolerations[] | cdktf.IResolvable;
 }
@@ -8113,13 +8113,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Defines the name of broker node type that has the nodeAssignment spec defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * If provided defines the labels to constrain the PubSubPlusEventBroker node to specific nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#spec DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#spec DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignmentSpec;
 }
@@ -8260,13 +8260,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Specifies fsGroup in pod security context. 0 or unset defaults either to 1000002, or if OpenShift detected to unspecified (see documentation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#fs_group DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#fs_group DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * Specifies runAsUser in pod security context. 0 or unset defaults either to 1000001, or if OpenShift detected to unspecified (see documentation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#run_as_user DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#run_as_user DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
 }
@@ -8391,25 +8391,25 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Port number to expose on the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#container_port DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#container_port DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * Unique name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#protocol DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#protocol DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#protocol}
   */
   readonly protocol: string;
   /**
   * Port number to expose on the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service_port DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service_port DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service_port}
   */
   readonly servicePort: number;
 }
@@ -8602,19 +8602,19 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Annotations allows adding provider-specific service annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#annotations DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#annotations DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Ports specifies the ports to expose PubSubPlusEventBroker services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#ports DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#ports DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecServicePorts[] | cdktf.IResolvable;
   /**
   * ServiceType specifies how to expose the broker services. Options include ClusterIP, NodePort, LoadBalancer (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#type DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#type DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8768,7 +8768,7 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Name specifies the name of an existing ServiceAccount dedicated to the PubSubPlusEventBroker. If this value is missing a new ServiceAccount will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -8861,7 +8861,7 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Defines the claimName of a custom PersistentVolumeClaim to be used instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#claim_name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#claim_name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#claim_name}
   */
   readonly claimName: string;
 }
@@ -8954,13 +8954,13 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Defines the name of PubSubPlusEventBroker node type that has the customVolumeMount spec defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#name DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Defines the customVolumeMount that can be used mount the data volume instead of using a storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#persistent_volume_claim DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#persistent_volume_claim DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecStorageCustomVolumeMountPersistentVolumeClaim;
 }
@@ -9107,31 +9107,31 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * CustomVolumeMount can be used to show the data volume should be mounted instead of using a storage class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#custom_volume_mount DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#custom_volume_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#custom_volume_mount DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#custom_volume_mount}
   */
   readonly customVolumeMount?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecStorageCustomVolumeMount[] | cdktf.IResolvable;
   /**
   * MessagingNodeStorageSize if provided will assign the minimum persistent storage to be used by the message nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#messaging_node_storage_size DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#messaging_node_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#messaging_node_storage_size DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#messaging_node_storage_size}
   */
   readonly messagingNodeStorageSize?: string;
   /**
   * MonitorNodeStorageSize if provided this will create and assign the minimum recommended storage to Monitor pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#monitor_node_storage_size DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#monitor_node_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#monitor_node_storage_size DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#monitor_node_storage_size}
   */
   readonly monitorNodeStorageSize?: string;
   /**
   * Slow indicate slow storage is in use, an example is NFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#slow DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#slow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#slow DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#slow}
   */
   readonly slow?: boolean | cdktf.IResolvable;
   /**
   * UseStrorageClass Name of the StorageClass to be used to request persistent storage volumes. If undefined, the 'default' StorageClass will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#use_storage_class DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#use_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#use_storage_class DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#use_storage_class}
   */
   readonly useStorageClass?: string;
 }
@@ -9343,25 +9343,25 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Name of the Certificate file in the 'serverCertificatesSecret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#cert_filename DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#cert_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#cert_filename DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#cert_filename}
   */
   readonly certFilename?: string;
   /**
   * Name of the Key file in the 'serverCertificatesSecret'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#cert_key_filename DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#cert_key_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#cert_key_filename DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#cert_key_filename}
   */
   readonly certKeyFilename?: string;
   /**
   * Enabled true enables TLS for the broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#enabled DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#enabled DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies the tls configuration secret to be used for the broker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#server_tls_config_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#server_tls_config_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#server_tls_config_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#server_tls_config_secret}
   */
   readonly serverTlsConfigSecret?: string;
 }
@@ -9544,145 +9544,145 @@ export interface DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestS
   /**
   * Defines the password for PubSubPlusEventBroker if provided. Random one will be generated if not provided. When provided, ensure the secret key name is 'username_admin_password'. For valid values refer to the Solace documentation https://docs.solace.com/Admin/Configuring-Internal-CLI-User-Accounts.htm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#admin_credentials_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#admin_credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#admin_credentials_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#admin_credentials_secret}
   */
   readonly adminCredentialsSecret?: string;
   /**
   * ContainerSecurityContext defines the container security context for the PubSubPlusEventBroker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#broker_container_security DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#broker_container_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#broker_container_security DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#broker_container_security}
   */
   readonly brokerContainerSecurity?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecBrokerContainerSecurity;
   /**
   * Developer true specifies a minimum footprint scaled-down deployment, not for production use. If set to true it overrides SystemScaling parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#developer DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#developer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#developer DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#developer}
   */
   readonly developer?: boolean | cdktf.IResolvable;
   /**
   * EnableServiceLinks indicates whether information about services should be injected into pod's environment variables, matching the syntax of Docker links. Optional: Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#enable_service_links DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#enable_service_links DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
   * List of extra environment variables to be added to the PubSubPlusEventBroker container. Note: Do not configure Timezone or SystemScaling parameters here as it could cause unintended consequences. A primary use case is to specify configuration keys, although the variables defined here will not override the ones defined in ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#extra_env_vars DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#extra_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#extra_env_vars DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#extra_env_vars}
   */
   readonly extraEnvVars?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecExtraEnvVars[] | cdktf.IResolvable;
   /**
   * List of extra environment variables to be added to the PubSubPlusEventBroker container from an existing ConfigMap. Note: Do not configure Timezone or SystemScaling parameters here as it could cause unintended consequences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#extra_env_vars_cm DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#extra_env_vars_cm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#extra_env_vars_cm DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#extra_env_vars_cm}
   */
   readonly extraEnvVarsCm?: string;
   /**
   * List of extra environment variables to be added to the PubSubPlusEventBroker container from an existing Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#extra_env_vars_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#extra_env_vars_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#extra_env_vars_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#extra_env_vars_secret}
   */
   readonly extraEnvVarsSecret?: string;
   /**
   * Image defines container image parameters for the event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#image DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#image DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#image}
   */
   readonly image?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecImage;
   /**
   * Monitoring specifies a Prometheus monitoring endpoint for the event broker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#monitoring DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#monitoring DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#monitoring}
   */
   readonly monitoring?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecMonitoring;
   /**
   * Defines the password for PubSubPlusEventBroker to be used by the Exporter for monitoring. When provided, ensure the secret key name is 'username_monitor_password'. For valid values refer to the Solace documentation https://docs.solace.com/Admin/Configuring-Internal-CLI-User-Accounts.htm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#monitoring_credentials_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#monitoring_credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#monitoring_credentials_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#monitoring_credentials_secret}
   */
   readonly monitoringCredentialsSecret?: string;
   /**
   * NodeAssignment defines labels to constrain PubSubPlusEventBroker nodes to run on particular node(s), or to prefer to run on particular nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#node_assignment DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#node_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#node_assignment DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#node_assignment}
   */
   readonly nodeAssignment?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecNodeAssignment[] | cdktf.IResolvable;
   /**
   * PodAnnotations allows adding provider-specific pod annotations to PubSubPlusEventBroker pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_annotations DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_annotations DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_annotations}
   */
   readonly podAnnotations?: { [key: string]: string };
   /**
   * PodDisruptionBudgetForHA enables setting up PodDisruptionBudget for the broker pods in HA deployment. This parameter is ignored for non-HA deployments (if redundancy is false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_disruption_budget_for_ha DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_disruption_budget_for_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_disruption_budget_for_ha DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_disruption_budget_for_ha}
   */
   readonly podDisruptionBudgetForHa?: boolean | cdktf.IResolvable;
   /**
   * PodLabels allows adding provider-specific pod labels to PubSubPlusEventBroker pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pod_labels DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pod_labels}
   */
   readonly podLabels?: { [key: string]: string };
   /**
   * PreSharedAuthKeySecret defines the PreSharedAuthKey Secret for PubSubPlusEventBroker. Random one will be generated if not provided. When provided, ensure the secret key name is 'preshared_auth_key'. For valid values refer to the Solace documentation https://docs.solace.com/Features/HA-Redundancy/Pre-Shared-Keys-SMB.htm?Highlight=pre%20shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pre_shared_auth_key_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pre_shared_auth_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#pre_shared_auth_key_secret DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#pre_shared_auth_key_secret}
   */
   readonly preSharedAuthKeySecret?: string;
   /**
   * Redundancy true specifies HA deployment, false specifies Non-HA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#redundancy DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#redundancy DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#redundancy}
   */
   readonly redundancy?: boolean | cdktf.IResolvable;
   /**
   * SecurityContext defines the pod security context for the event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#security_context DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#security_context DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecSecurityContext;
   /**
   * Service defines broker service details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service}
   */
   readonly service?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecService;
   /**
   * ServiceAccount defines a ServiceAccount dedicated to the PubSubPlusEventBroker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service_account DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#service_account DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecServiceAccount;
   /**
   * Storage defines storage details for the broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#storage DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#storage DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#storage}
   */
   readonly storage?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecStorage;
   /**
   * SystemScaling provides exact fine-grained specification of the event broker scaling parameters and the assigned CPU / memory resources to the Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#system_scaling DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#system_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#system_scaling DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#system_scaling}
   */
   readonly systemScaling?: { [key: string]: string };
   /**
   * Defines the timezone for the event broker container, if undefined default is UTC. Valid values are tz database time zone names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#timezone DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#timezone DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * TLS provides TLS configuration for the event broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#tls DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#tls DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecTls;
   /**
   * UpdateStrategy specifies how to update an existing deployment. manualPodRestart waits for user intervention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#update_strategy DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#update_strategy DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest#update_strategy}
   */
   readonly updateStrategy?: string;
 }
@@ -10443,7 +10443,7 @@ export class DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest k8s_pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest k8s_pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest}
 */
 export class DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -10459,7 +10459,7 @@ export class DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest exte
   * Generates CDKTF code for importing a DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10471,7 +10471,7 @@ export class DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest k8s_pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest k8s_pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10482,8 +10482,8 @@ export class DataK8SPubsubplusSolaceComPubSubPlusEventBrokerV1Beta1Manifest exte
       terraformResourceType: 'k8s_pubsubplus_solace_com_pub_sub_plus_event_broker_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

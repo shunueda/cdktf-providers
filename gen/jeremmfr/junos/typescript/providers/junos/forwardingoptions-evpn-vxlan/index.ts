@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_evpn_vxlan
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_evpn_vxlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ForwardingoptionsEvpnVxlanConfig extends cdktf.TerraformMetaArg
   /**
   * Routing instance if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_evpn_vxlan#routing_instance ForwardingoptionsEvpnVxlan#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_evpn_vxlan#routing_instance ForwardingoptionsEvpnVxlan#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Create VTEP tunnels to EVPN PE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_evpn_vxlan#shared_tunnels ForwardingoptionsEvpnVxlan#shared_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_evpn_vxlan#shared_tunnels ForwardingoptionsEvpnVxlan#shared_tunnels}
   */
   readonly sharedTunnels?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_evpn_vxlan junos_forwardingoptions_evpn_vxlan}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_evpn_vxlan junos_forwardingoptions_evpn_vxlan}
 */
 export class ForwardingoptionsEvpnVxlan extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ForwardingoptionsEvpnVxlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ForwardingoptionsEvpnVxlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardingoptionsEvpnVxlan to import
-  * @param importFromId The id of the existing ForwardingoptionsEvpnVxlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_evpn_vxlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardingoptionsEvpnVxlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_evpn_vxlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardingoptionsEvpnVxlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ForwardingoptionsEvpnVxlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_evpn_vxlan junos_forwardingoptions_evpn_vxlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_evpn_vxlan junos_forwardingoptions_evpn_vxlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ForwardingoptionsEvpnVxlan extends cdktf.TerraformResource {
       terraformResourceType: 'junos_forwardingoptions_evpn_vxlan',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

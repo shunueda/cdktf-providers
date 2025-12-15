@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#metadata DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#metadata DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#spec DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#spec DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#annotations DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#annotations DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#labels DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#labels DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#name DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#name DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#namespace DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#namespace DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,11 +215,11 @@ export class DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestMetadataOutputReferenc
 }
 export interface DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecRestoreResourceRequirementsLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -342,11 +342,11 @@ export class DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecRestoreResourceReq
 }
 export interface DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecRestoreResourceRequirementsRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#cpu DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#memory DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -469,11 +469,11 @@ export class DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecRestoreResourceReq
 }
 export interface DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecRestoreResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#limits DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecRestoreResourceRequirementsLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#requests DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#requests}
   */
   readonly requests?: DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecRestoreResourceRequirementsRequests;
 }
@@ -598,109 +598,109 @@ export interface DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpec {
   /**
   * Additional labels defined on the resource, which should be propagated to child resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#additional_labels DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#additional_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#additional_labels DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#additional_labels}
   */
   readonly additionalLabels?: string[];
   /**
   * Backup directory name, set as a status found on the awxbackup object (backupDirectory)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_dir DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_dir DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_dir}
   */
   readonly backupDir?: string;
   /**
   * AWXBackup object name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_name DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_name DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_name}
   */
   readonly backupName?: string;
   /**
   * Name of the PVC to be restored from, set as a status found on the awxbackup object (backupClaim)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_pvc DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_pvc DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_pvc}
   */
   readonly backupPvc?: string;
   /**
   * (Deprecated) Namespace the PVC is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_pvc_namespace DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_pvc_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_pvc_namespace DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_pvc_namespace}
   */
   readonly backupPvcNamespace?: string;
   /**
   * Backup source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_source DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#backup_source DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#backup_source}
   */
   readonly backupSource?: string;
   /**
   * Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#cluster_name DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#cluster_name DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * nodeSelector for the Postgres pods to backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#db_management_pod_node_selector DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#db_management_pod_node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#db_management_pod_node_selector DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#db_management_pod_node_selector}
   */
   readonly dbManagementPodNodeSelector?: string;
   /**
   * Name of the restored deployment. This should be different from the original deployment name if the original deployment still exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#deployment_name DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#deployment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#deployment_name DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#deployment_name}
   */
   readonly deploymentName: string;
   /**
   * Force drop the database before restoring. USE WITH CAUTION!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#force_drop_db DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#force_drop_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#force_drop_db DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#force_drop_db}
   */
   readonly forceDropDb?: boolean | cdktf.IResolvable;
   /**
   * The image pull policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#image_pull_policy DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#image_pull_policy DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Configure no_log for no_log tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#no_log DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#no_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#no_log DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#no_log}
   */
   readonly noLog?: boolean | cdktf.IResolvable;
   /**
   * Registry path to the PostgreSQL container to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#postgres_image DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#postgres_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#postgres_image DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#postgres_image}
   */
   readonly postgresImage?: string;
   /**
   * PostgreSQL container image version to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#postgres_image_version DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#postgres_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#postgres_image_version DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#postgres_image_version}
   */
   readonly postgresImageVersion?: string;
   /**
   * Label selector used to identify postgres pod for backing up data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#postgres_label_selector DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#postgres_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#postgres_label_selector DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#postgres_label_selector}
   */
   readonly postgresLabelSelector?: string;
   /**
   * Resource requirements for the management pod that restores AWX from a backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#restore_resource_requirements DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#restore_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#restore_resource_requirements DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#restore_resource_requirements}
   */
   readonly restoreResourceRequirements?: DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecRestoreResourceRequirements;
   /**
   * Maintain some of the recommended 'app.kubernetes.io/*' labels on the resource (self)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#set_self_labels DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#set_self_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#set_self_labels DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#set_self_labels}
   */
   readonly setSelfLabels?: boolean | cdktf.IResolvable;
   /**
   * Overrides for the AWX spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#spec_overrides DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#spec_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#spec_overrides DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest#spec_overrides}
   */
   readonly specOverrides?: { [key: string]: string };
 }
@@ -1284,7 +1284,7 @@ export class DataK8SAwxAnsibleComAwxRestoreV1Beta1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest k8s_awx_ansible_com_awx_restore_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest k8s_awx_ansible_com_awx_restore_v1beta1_manifest}
 */
 export class DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1300,7 +1300,7 @@ export class DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1312,7 +1312,7 @@ export class DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest k8s_awx_ansible_com_awx_restore_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/awx_ansible_com_awx_restore_v1beta1_manifest k8s_awx_ansible_com_awx_restore_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1323,8 +1323,8 @@ export class DataK8SAwxAnsibleComAwxRestoreV1Beta1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_awx_ansible_com_awx_restore_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestMetadata;
   /**
   * BundlesSpec defines the desired state of Bundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -315,7 +315,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -411,41 +411,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -715,41 +715,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -1019,7 +1019,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -1113,27 +1113,27 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
   */
   readonly clusterTemplate: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesAwsClusterTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesAwsComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
   */
   readonly controller: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesAwsController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
   */
   readonly kubeProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesAwsKubeProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesAwsMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -1356,7 +1356,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -1452,41 +1452,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -1756,41 +1756,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -2060,7 +2060,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -2154,23 +2154,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBootstrap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBootstrapComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
   */
   readonly controller: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBootstrapController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
   */
   readonly kubeProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBootstrapKubeProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBootstrapMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -2367,41 +2367,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -2671,41 +2671,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -2975,41 +2975,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -3277,15 +3277,15 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBottlerocketHostContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#admin DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#admin DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#admin}
   */
   readonly admin: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBottlerocketHostContainersAdmin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#control DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#control DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#control}
   */
   readonly control: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBottlerocketHostContainersControl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kubeadm_bootstrap DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kubeadm_bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kubeadm_bootstrap DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kubeadm_bootstrap}
   */
   readonly kubeadmBootstrap: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBottlerocketHostContainersKubeadmBootstrap;
 }
@@ -3430,41 +3430,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -3734,41 +3734,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -4038,41 +4038,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -4342,41 +4342,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -4646,7 +4646,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -4742,41 +4742,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -5046,41 +5046,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -5348,37 +5348,37 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManager {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#acmesolver DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#acmesolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#acmesolver DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#acmesolver}
   */
   readonly acmesolver: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManagerAcmesolver;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cainjector DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cainjector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cainjector DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cainjector}
   */
   readonly cainjector: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManagerCainjector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
   */
   readonly controller: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManagerController;
   /**
   * This field has been deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#ctl DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#ctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#ctl DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#ctl}
   */
   readonly ctl?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManagerCtl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manifest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manifest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manifest}
   */
   readonly manifest: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManagerManifest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#startupapicheck DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#startupapicheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#startupapicheck DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#startupapicheck}
   */
   readonly startupapicheck: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManagerStartupapicheck;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#webhook DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#webhook DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#webhook}
   */
   readonly webhook: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManagerWebhook;
 }
@@ -5659,41 +5659,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -5963,41 +5963,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -6267,7 +6267,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -6363,41 +6363,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -6665,23 +6665,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCilium {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cilium DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cilium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cilium DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cilium}
   */
   readonly cilium: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCiliumCilium;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#helm_chart DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#helm_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#helm_chart DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#helm_chart}
   */
   readonly helmChart?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCiliumHelmChart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manifest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manifest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manifest}
   */
   readonly manifest: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCiliumManifest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#operator DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#operator DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#operator}
   */
   readonly operator: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCiliumOperator;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -6884,41 +6884,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -7188,7 +7188,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -7284,41 +7284,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -7588,41 +7588,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -7892,7 +7892,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -7986,27 +7986,27 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCloudStack {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api_controller}
   */
   readonly clusterApiController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCloudStackClusterApiController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCloudStackComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_rbac_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_rbac_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_rbac_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_rbac_proxy}
   */
   readonly kubeRbacProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCloudStackKubeRbacProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
   */
   readonly kubeVip: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCloudStackKubeVip;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCloudStackMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -8229,7 +8229,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -8325,41 +8325,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -8629,41 +8629,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -8933,7 +8933,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -9027,23 +9027,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesClusterApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesClusterApiComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
   */
   readonly controller: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesClusterApiController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
   */
   readonly kubeProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesClusterApiKubeProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesClusterApiMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -9240,7 +9240,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -9336,41 +9336,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -9640,41 +9640,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -9944,7 +9944,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -10038,23 +10038,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesControlPlane {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesControlPlaneComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
   */
   readonly controller: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesControlPlaneController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
   */
   readonly kubeProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesControlPlaneKubeProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesControlPlaneMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -10251,7 +10251,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -10347,7 +10347,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -10443,41 +10443,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -10747,41 +10747,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -11051,7 +11051,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -11145,27 +11145,27 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesDocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
   */
   readonly clusterTemplate: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesDockerClusterTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesDockerComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
   */
   readonly kubeProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesDockerKubeProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manager DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manager DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manager}
   */
   readonly manager: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesDockerManager;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesDockerMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -11388,47 +11388,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -11725,7 +11725,7 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDAmi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket}
   */
   readonly bottlerocket?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDAmiBottlerocket;
 }
@@ -11821,47 +11821,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -12160,47 +12160,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -12499,47 +12499,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -12838,47 +12838,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -13177,41 +13177,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -13481,47 +13481,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -13818,7 +13818,7 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDOva {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket}
   */
   readonly bottlerocket?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDOvaBottlerocket;
 }
@@ -13914,47 +13914,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -14251,7 +14251,7 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDRaw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket}
   */
   readonly bottlerocket?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDRawBottlerocket;
 }
@@ -14347,83 +14347,83 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Ami points to a collection of AMIs built with this eks-d version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#ami DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#ami DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#ami}
   */
   readonly ami?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDAmi;
   /**
   * Release branch of the EKS-D release like 1-19, 1-20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#channel DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#channel DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#channel}
   */
   readonly channel?: string;
   /**
   * Components refers to the url that points to the EKS-D release CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components?: string;
   /**
   * Containerd points to the containerd binary baked into this eks-D based node image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#containerd DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#containerd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#containerd DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#containerd}
   */
   readonly containerd?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDContainerd;
   /**
   * Crictl points to the crictl binary/tarball built for this eks-d kube version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#crictl DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#crictl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#crictl DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#crictl}
   */
   readonly crictl?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDCrictl;
   /**
   * Etcdadm points to the etcdadm binary/tarball built for this eks-d kube version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#etcdadm DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#etcdadm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#etcdadm DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#etcdadm}
   */
   readonly etcdadm?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDEtcdadm;
   /**
   * Git commit the component is built from, before any patches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#git_commit DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#git_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#git_commit DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#git_commit}
   */
   readonly gitCommit?: string;
   /**
   * ImageBuilder points to the image-builder binary used to build eks-D based node images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#imagebuilder DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#imagebuilder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#imagebuilder DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#imagebuilder}
   */
   readonly imagebuilder?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDImagebuilder;
   /**
   * KindNode points to a kind image built with this eks-d version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kind_node DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kind_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kind_node DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kind_node}
   */
   readonly kindNode?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDKindNode;
   /**
   * Release number of EKS-D release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_version}
   */
   readonly kubeVersion?: string;
   /**
   * Url pointing to the EKS-D release manifest using which assets where created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manifest_url DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manifest_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manifest_url DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manifest_url}
   */
   readonly manifestUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Ova points to a collection of OVAs built with this eks-d version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#ova DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#ova}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#ova DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#ova}
   */
   readonly ova?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDOva;
   /**
   * Raw points to a collection of Raw images built with this eks-d version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#raw DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#raw DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#raw}
   */
   readonly raw?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksDRaw;
 }
@@ -14896,41 +14896,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -15200,41 +15200,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -15504,7 +15504,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -15600,41 +15600,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -15902,23 +15902,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cli_tools DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cli_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cli_tools DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cli_tools}
   */
   readonly cliTools: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksaCliTools;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_controller}
   */
   readonly clusterController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksaClusterController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksaComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#diagnostic_collector DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#diagnostic_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#diagnostic_collector DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#diagnostic_collector}
   */
   readonly diagnosticCollector: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksaDiagnosticCollector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -16118,7 +16118,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -16214,41 +16214,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -16518,41 +16518,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -16822,7 +16822,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -16916,23 +16916,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmBootstrap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmBootstrapComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
   */
   readonly controller: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmBootstrapController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
   */
   readonly kubeProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmBootstrapKubeProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmBootstrapMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -17129,7 +17129,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -17225,41 +17225,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -17529,41 +17529,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -17833,7 +17833,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -17927,23 +17927,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmControllerComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#controller}
   */
   readonly controller: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmControllerController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
   */
   readonly kubeProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmControllerKubeProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmControllerMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -18140,41 +18140,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -18444,41 +18444,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -18748,41 +18748,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -19052,41 +19052,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -19354,23 +19354,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesFlux {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#helm_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#helm_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#helm_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#helm_controller}
   */
   readonly helmController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesFluxHelmController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kustomize_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kustomize_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kustomize_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kustomize_controller}
   */
   readonly kustomizeController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesFluxKustomizeController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#notification_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#notification_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#notification_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#notification_controller}
   */
   readonly notificationController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesFluxNotificationController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#source_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#source_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#source_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#source_controller}
   */
   readonly sourceController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesFluxSourceController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -19570,41 +19570,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -19872,7 +19872,7 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesHaproxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image}
   */
   readonly image: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesHaproxyImage;
 }
@@ -19965,7 +19965,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -20059,11 +20059,11 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesKindnetd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manifest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manifest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manifest}
   */
   readonly manifest: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesKindnetdManifest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -20185,41 +20185,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -20489,41 +20489,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -20793,7 +20793,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -20889,7 +20889,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -20985,41 +20985,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -21289,7 +21289,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -21383,31 +21383,31 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesNutanix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cloud_provider DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cloud_provider DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cloud_provider}
   */
   readonly cloudProvider?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesNutanixCloudProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api_controller}
   */
   readonly clusterApiController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesNutanixClusterApiController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
   */
   readonly clusterTemplate: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesNutanixClusterTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesNutanixComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
   */
   readonly kubeVip: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesNutanixKubeVip;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesNutanixMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -21659,41 +21659,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -21963,41 +21963,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -22267,41 +22267,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -22571,41 +22571,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -22873,23 +22873,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesPackageController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#credential_provider_package DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#credential_provider_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#credential_provider_package DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#credential_provider_package}
   */
   readonly credentialProviderPackage?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesPackageControllerCredentialProviderPackage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#helm_chart DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#helm_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#helm_chart DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#helm_chart}
   */
   readonly helmChart?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesPackageControllerHelmChart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#package_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#package_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#package_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#package_controller}
   */
   readonly packageController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesPackageControllerPackageController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#token_refresher DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#token_refresher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#token_refresher DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#token_refresher}
   */
   readonly tokenRefresher: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesPackageControllerTokenRefresher;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -23095,41 +23095,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -23399,7 +23399,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -23495,41 +23495,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -23799,41 +23799,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -24103,7 +24103,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -24197,27 +24197,27 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesSnow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket_bootstrap_snow DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket_bootstrap_snow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket_bootstrap_snow DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket_bootstrap_snow}
   */
   readonly bottlerocketBootstrapSnow: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesSnowBottlerocketBootstrapSnow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesSnowComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
   */
   readonly kubeVip: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesSnowKubeVip;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manager DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manager DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manager}
   */
   readonly manager: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesSnowManager;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesSnowMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -24440,41 +24440,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -24744,7 +24744,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -24840,7 +24840,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -24936,41 +24936,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -25240,41 +25240,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -25544,7 +25544,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -25640,41 +25640,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -25944,41 +25944,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -26248,41 +26248,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -26552,41 +26552,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -26856,41 +26856,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -27160,41 +27160,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -27462,27 +27462,27 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cexec DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cexec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cexec DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cexec}
   */
   readonly cexec: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackActionsCexec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_to_disk DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_to_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_to_disk DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_to_disk}
   */
   readonly imageToDisk: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackActionsImageToDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kexec DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kexec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kexec DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kexec}
   */
   readonly kexec: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackActionsKexec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#oci_to_disk DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#oci_to_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#oci_to_disk DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#oci_to_disk}
   */
   readonly ociToDisk: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackActionsOciToDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#reboot DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#reboot DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#reboot}
   */
   readonly reboot: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackActionsReboot;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#write_file DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#write_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#write_file DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#write_file}
   */
   readonly writeFile: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackActionsWriteFile;
 }
@@ -27705,41 +27705,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -28009,41 +28009,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -28313,41 +28313,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -28617,41 +28617,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -28921,47 +28921,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -29260,47 +29260,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -29597,11 +29597,11 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookInitramfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#amd DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#amd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#amd DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#amd}
   */
   readonly amd: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookInitramfsAmd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arm DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arm DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arm}
   */
   readonly arm: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookInitramfsArm;
 }
@@ -29720,41 +29720,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -30024,47 +30024,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -30363,47 +30363,47 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The sha256 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha256 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
   * The sha512 of the asset, only applies for 'file' store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#sha512 DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#sha512}
   */
   readonly sha512?: string;
   /**
   * The URI where the asset is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -30700,11 +30700,11 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookVmlinuz {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#amd DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#amd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#amd DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#amd}
   */
   readonly amd: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookVmlinuzAmd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arm DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arm DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arm}
   */
   readonly arm: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookVmlinuzArm;
 }
@@ -30821,23 +30821,23 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bootkit DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bootkit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bootkit DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bootkit}
   */
   readonly bootkit: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookBootkit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#docker DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#docker DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#docker}
   */
   readonly docker: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookDocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#initramfs DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#initramfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#initramfs DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#initramfs}
   */
   readonly initramfs: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookInitramfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kernel DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kernel DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kernel}
   */
   readonly kernel: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookKernel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#vmlinuz DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#vmlinuz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#vmlinuz DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#vmlinuz}
   */
   readonly vmlinuz: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHookVmlinuz;
 }
@@ -31034,41 +31034,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -31338,41 +31338,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -31642,41 +31642,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -31946,41 +31946,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -32250,41 +32250,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -32554,41 +32554,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -32858,41 +32858,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -33162,41 +33162,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -33464,27 +33464,27 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#nginx DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#nginx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#nginx DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#nginx}
   */
   readonly nginx: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTinkNginx;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_controller}
   */
   readonly tinkController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTinkTinkController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_relay DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_relay DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_relay}
   */
   readonly tinkRelay: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTinkTinkRelay;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_relay_init DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_relay_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_relay_init DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_relay_init}
   */
   readonly tinkRelayInit: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTinkTinkRelayInit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_server DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_server DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_server}
   */
   readonly tinkServer: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTinkTinkServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_worker DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink_worker DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink_worker}
   */
   readonly tinkWorker: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTinkTinkWorker;
 }
@@ -33707,41 +33707,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -34011,41 +34011,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -34315,41 +34315,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Tinkerbell Template Actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#actions DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#actions DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#actions}
   */
   readonly actions: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackActions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#boots DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#boots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#boots DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#boots}
   */
   readonly boots: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackBoots;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#hegel DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#hegel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#hegel DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#hegel}
   */
   readonly hegel: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHegel;
   /**
   * Tinkerbell hook OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#hook DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#hook DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#hook}
   */
   readonly hook: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackHook;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#rufio DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#rufio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#rufio DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#rufio}
   */
   readonly rufio: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackRufio;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#stack DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#stack DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#stack}
   */
   readonly stack: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackStack;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tink DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tink}
   */
   readonly tink: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTink;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tinkerbell_chart DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tinkerbell_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tinkerbell_chart DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tinkerbell_chart}
   */
   readonly tinkerbellChart: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTinkerbellChart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tinkerbell_crds DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tinkerbell_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tinkerbell_crds DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tinkerbell_crds}
   */
   readonly tinkerbellCrds: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStackTinkerbellCrds;
 }
@@ -34648,35 +34648,35 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbell {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api_controller}
   */
   readonly clusterApiController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellClusterApiController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
   */
   readonly clusterTemplate: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellClusterTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellComponents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#envoy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#envoy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#envoy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#envoy}
   */
   readonly envoy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellEnvoy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
   */
   readonly kubeVip: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellKubeVip;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tinkerbell_stack DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tinkerbell_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tinkerbell_stack DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tinkerbell_stack}
   */
   readonly tinkerbellStack?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbellTinkerbellStack;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -34954,41 +34954,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -35256,7 +35256,7 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesUpgrader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#upgrader DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#upgrader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#upgrader DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#upgrader}
   */
   readonly upgrader: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesUpgraderUpgrader;
 }
@@ -35349,41 +35349,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -35653,7 +35653,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -35749,7 +35749,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -35845,41 +35845,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -36149,41 +36149,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -36453,41 +36453,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -36757,41 +36757,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -37061,7 +37061,7 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * URI points to the manifest yaml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -37157,41 +37157,41 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * Architectures of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#arch DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#arch}
   */
   readonly arch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#description DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The SHA256 digest of the image manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#image_digest DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * The asset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Operating system of the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os}
   */
   readonly os?: string;
   /**
   * Name of the OS like ubuntu, bottlerocket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#os_name DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#os_name}
   */
   readonly osName?: string;
   /**
   * The image repository, name, and tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#uri DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -37459,47 +37459,47 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphere {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api_controller}
   */
   readonly clusterApiController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereClusterApiController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_template DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_template}
   */
   readonly clusterTemplate: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereClusterTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#components DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#components}
   */
   readonly components: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereComponents;
   /**
   * This field has been deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#driver DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#driver DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#driver}
   */
   readonly driver?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereDriver;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_proxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_proxy}
   */
   readonly kubeProxy: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereKubeProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_vip DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_vip}
   */
   readonly kubeVip: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereKubeVip;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manager DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#manager DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#manager}
   */
   readonly manager: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereManager;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereMetadata;
   /**
   * This field has been deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#syncer DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#syncer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#syncer DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#syncer}
   */
   readonly syncer?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphereSyncer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -37832,97 +37832,97 @@ export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersio
   /**
   * This field has been deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#aws DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#aws DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#aws}
   */
   readonly aws?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesAws;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bootstrap DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bootstrap DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bootstrap}
   */
   readonly bootstrap: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBootstrap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket_host_containers DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket_host_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#bottlerocket_host_containers DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#bottlerocket_host_containers}
   */
   readonly bottlerocketHostContainers: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesBottlerocketHostContainers;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cert_manager DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cert_manager DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cert_manager}
   */
   readonly certManager: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCertManager;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cilium DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cilium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cilium DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cilium}
   */
   readonly cilium: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCilium;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cloud_stack DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cloud_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cloud_stack DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cloud_stack}
   */
   readonly cloudStack?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesCloudStack;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cluster_api DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cluster_api}
   */
   readonly clusterApi: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesClusterApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#control_plane DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#control_plane DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#control_plane}
   */
   readonly controlPlane: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesControlPlane;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#docker DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#docker DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#docker}
   */
   readonly docker: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesDocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#eks_d DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#eks_d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#eks_d DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#eks_d}
   */
   readonly eksD: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksD;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#eksa DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#eksa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#eksa DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#eksa}
   */
   readonly eksa: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEksa;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#etcdadm_bootstrap DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#etcdadm_bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#etcdadm_bootstrap DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#etcdadm_bootstrap}
   */
   readonly etcdadmBootstrap: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmBootstrap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#etcdadm_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#etcdadm_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#etcdadm_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#etcdadm_controller}
   */
   readonly etcdadmController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesEtcdadmController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#flux DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#flux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#flux DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#flux}
   */
   readonly flux: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesFlux;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#haproxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#haproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#haproxy DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#haproxy}
   */
   readonly haproxy?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesHaproxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kindnetd DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kindnetd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kindnetd DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kindnetd}
   */
   readonly kindnetd: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesKindnetd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#kube_version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#kube_version}
   */
   readonly kubeVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#nutanix DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#nutanix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#nutanix DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#nutanix}
   */
   readonly nutanix?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesNutanix;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#package_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#package_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#package_controller DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#package_controller}
   */
   readonly packageController: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesPackageController;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#snow DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#snow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#snow DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#snow}
   */
   readonly snow?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesSnow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tinkerbell DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tinkerbell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#tinkerbell DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#tinkerbell}
   */
   readonly tinkerbell?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesTinkerbell;
   /**
   * UpgraderBundle is a In-place Kubernetes version upgrader bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#upgrader DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#upgrader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#upgrader DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#upgrader}
   */
   readonly upgrader?: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesUpgrader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#v_sphere DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#v_sphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#v_sphere DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#v_sphere}
   */
   readonly vSphere: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundlesVSphere;
 }
@@ -38628,21 +38628,21 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBu
 }
 export interface DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cli_max_version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cli_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cli_max_version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cli_max_version}
   */
   readonly cliMaxVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cli_min_version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cli_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#cli_min_version DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#cli_min_version}
   */
   readonly cliMinVersion: string;
   /**
   * Monotonically increasing release number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#number DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#number DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#number}
   */
   readonly number: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#versions_bundles DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#versions_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#versions_bundles DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest#versions_bundles}
   */
   readonly versionsBundles: DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecVersionsBundles[] | cdktf.IResolvable;
 }
@@ -38811,7 +38811,7 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -38827,7 +38827,7 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38839,7 +38839,7 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -38850,8 +38850,8 @@ export class DataK8SAnywhereEksAmazonawsComBundlesV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_bundles_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

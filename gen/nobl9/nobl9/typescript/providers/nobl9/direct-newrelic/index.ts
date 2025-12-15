@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DirectNewrelicConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID number assigned to the New Relic user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#account_id DirectNewrelic#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#account_id DirectNewrelic#account_id}
   */
   readonly accountId: number;
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#description DirectNewrelic#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#description DirectNewrelic#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#display_name DirectNewrelic#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#display_name DirectNewrelic#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#id DirectNewrelic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#id DirectNewrelic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface DirectNewrelicConfig extends cdktf.TerraformMetaArguments {
   /**
   * [required] | New Relic Insights Query Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#insights_query_key DirectNewrelic#insights_query_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#insights_query_key DirectNewrelic#insights_query_key}
   */
   readonly insightsQueryKey?: string;
   /**
   * [Logs documentation](https://docs.nobl9.com/features/slo-troubleshooting/event-logs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#log_collection_enabled DirectNewrelic#log_collection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#log_collection_enabled DirectNewrelic#log_collection_enabled}
   */
   readonly logCollectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#name DirectNewrelic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#name DirectNewrelic#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#project DirectNewrelic#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#project DirectNewrelic#project}
   */
   readonly project: string;
   /**
   * Release channel of the created data source [stable/beta]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#release_channel DirectNewrelic#release_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#release_channel DirectNewrelic#release_channel}
   */
   readonly releaseChannel?: string;
   /**
   * This value indicated whether the field was a source of metrics and/or services. 'source_of' is deprecated and not used anywhere; however, it's kept for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#source_of DirectNewrelic#source_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#source_of DirectNewrelic#source_of}
   */
   readonly sourceOf?: string[];
   /**
   * historical_data_retrieval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#historical_data_retrieval DirectNewrelic#historical_data_retrieval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#historical_data_retrieval DirectNewrelic#historical_data_retrieval}
   */
   readonly historicalDataRetrieval?: DirectNewrelicHistoricalDataRetrieval;
   /**
   * query_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#query_delay DirectNewrelic#query_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#query_delay DirectNewrelic#query_delay}
   */
   readonly queryDelay?: DirectNewrelicQueryDelay;
 }
@@ -85,13 +85,13 @@ export interface DirectNewrelicHistoricalDataRetrievalDefaultDuration {
   /**
   * Must be one of Minute, Hour, or Day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#unit DirectNewrelic#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#unit DirectNewrelic#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#value DirectNewrelic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#value DirectNewrelic#value}
   */
   readonly value: number;
 }
@@ -232,13 +232,13 @@ export interface DirectNewrelicHistoricalDataRetrievalMaxDuration {
   /**
   * Must be one of Minute, Hour, or Day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#unit DirectNewrelic#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#unit DirectNewrelic#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#value DirectNewrelic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#value DirectNewrelic#value}
   */
   readonly value: number;
 }
@@ -379,13 +379,13 @@ export interface DirectNewrelicHistoricalDataRetrieval {
   /**
   * default_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#default_duration DirectNewrelic#default_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#default_duration DirectNewrelic#default_duration}
   */
   readonly defaultDuration: DirectNewrelicHistoricalDataRetrievalDefaultDuration[] | cdktf.IResolvable;
   /**
   * max_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#max_duration DirectNewrelic#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#max_duration DirectNewrelic#max_duration}
   */
   readonly maxDuration: DirectNewrelicHistoricalDataRetrievalMaxDuration[] | cdktf.IResolvable;
 }
@@ -494,13 +494,13 @@ export interface DirectNewrelicQueryDelay {
   /**
   * Must be one of Minute or Second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#unit DirectNewrelic#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#unit DirectNewrelic#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#value DirectNewrelic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#value DirectNewrelic#value}
   */
   readonly value: number;
 }
@@ -607,7 +607,7 @@ export class DirectNewrelicQueryDelayOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic nobl9_direct_newrelic}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic nobl9_direct_newrelic}
 */
 export class DirectNewrelic extends cdktf.TerraformResource {
 
@@ -623,7 +623,7 @@ export class DirectNewrelic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DirectNewrelic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectNewrelic to import
-  * @param importFromId The id of the existing DirectNewrelic that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectNewrelic that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectNewrelic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -635,7 +635,7 @@ export class DirectNewrelic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_newrelic nobl9_direct_newrelic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_newrelic nobl9_direct_newrelic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -646,8 +646,8 @@ export class DirectNewrelic extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_direct_newrelic',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

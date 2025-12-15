@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#metadata DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#metadata DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#spec DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#spec DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#annotations DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#annotations DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#labels DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#labels DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#name DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#name DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#namespace DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#namespace DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestMetadataOutputRefe
 }
 export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#pull_policy DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#pull_policy DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#repository DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#repository DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#tag DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#tag DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -375,11 +375,11 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecImageOutputRef
 }
 export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecInitContainerImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#repository DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#repository DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#tag DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#tag DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -502,7 +502,7 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecInitContainerI
 }
 export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#memory DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#memory DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -596,7 +596,7 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecLimitsOutputRe
 }
 export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#disable_beta_arch_node_selector DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#disable_beta_arch_node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#disable_beta_arch_node_selector DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#disable_beta_arch_node_selector}
   */
   readonly disableBetaArchNodeSelector?: boolean | cdktf.IResolvable;
 }
@@ -690,19 +690,19 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecNodeAffinityOu
 }
 export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecPvc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#create DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#create DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#enabled DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#enabled DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#name DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#name DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#storage_class_name DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#storage_class_name DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -883,7 +883,7 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecPvcOutputRefer
 }
 export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#memory DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#memory DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -977,49 +977,49 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecRequestsOutput
 }
 export interface DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#cluster_name DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#cluster_name DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#image DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#image DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#image}
   */
   readonly image?: DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecImage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#init_container_image DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#init_container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#init_container_image DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#init_container_image}
   */
   readonly initContainerImage?: DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecInitContainerImage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#integration_api DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#integration_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#integration_api DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#integration_api}
   */
   readonly integrationApi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#limits DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#limits DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#limits}
   */
   readonly limits?: DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecLimits;
   /**
   * The name of the secret object that stores the Snyk controller secrets. The secret needs to contain the following data fields: - integrationId - dockercfg.json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#monitor_secrets DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#monitor_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#monitor_secrets DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#monitor_secrets}
   */
   readonly monitorSecrets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#node_affinity DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#node_affinity DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#pvc DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#pvc DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#pvc}
   */
   readonly pvc?: DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecPvc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#requests DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#requests DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#requests}
   */
   readonly requests?: DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecRequests;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#scope DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#scope DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#temporary_storage_size DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#temporary_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#temporary_storage_size DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest#temporary_storage_size}
   */
   readonly temporaryStorageSize?: string;
 }
@@ -1403,7 +1403,7 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest k8s_charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest k8s_charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest}
 */
 export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1419,7 +1419,7 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1431,7 +1431,7 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest k8s_charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest k8s_charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1442,8 +1442,8 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

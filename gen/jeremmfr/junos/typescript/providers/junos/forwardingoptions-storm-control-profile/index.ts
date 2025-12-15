@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ForwardingoptionsStormControlProfileConfig extends cdktf.Terraf
   /**
   * Disable port for excessive storm control errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#action_shutdown ForwardingoptionsStormControlProfile#action_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#action_shutdown ForwardingoptionsStormControlProfile#action_shutdown}
   */
   readonly actionShutdown?: boolean | cdktf.IResolvable;
   /**
   * Storm control profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#name ForwardingoptionsStormControlProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#name ForwardingoptionsStormControlProfile#name}
   */
   readonly name: string;
   /**
   * all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#all ForwardingoptionsStormControlProfile#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#all ForwardingoptionsStormControlProfile#all}
   */
   readonly all?: ForwardingoptionsStormControlProfileAll;
 }
@@ -30,49 +30,49 @@ export interface ForwardingoptionsStormControlProfileAll {
   /**
   * Link bandwidth (kbps)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#bandwidth_level ForwardingoptionsStormControlProfile#bandwidth_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#bandwidth_level ForwardingoptionsStormControlProfile#bandwidth_level}
   */
   readonly bandwidthLevel?: number;
   /**
   * Percentage of link bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#bandwidth_percentage ForwardingoptionsStormControlProfile#bandwidth_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#bandwidth_percentage ForwardingoptionsStormControlProfile#bandwidth_percentage}
   */
   readonly bandwidthPercentage?: number;
   /**
   * Burst size (bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#burst_size ForwardingoptionsStormControlProfile#burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#burst_size ForwardingoptionsStormControlProfile#burst_size}
   */
   readonly burstSize?: number;
   /**
   * Disable broadcast storm control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#no_broadcast ForwardingoptionsStormControlProfile#no_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#no_broadcast ForwardingoptionsStormControlProfile#no_broadcast}
   */
   readonly noBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Disable multicast storm control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#no_multicast ForwardingoptionsStormControlProfile#no_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#no_multicast ForwardingoptionsStormControlProfile#no_multicast}
   */
   readonly noMulticast?: boolean | cdktf.IResolvable;
   /**
   * Disable registered multicast storm control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#no_registered_multicast ForwardingoptionsStormControlProfile#no_registered_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#no_registered_multicast ForwardingoptionsStormControlProfile#no_registered_multicast}
   */
   readonly noRegisteredMulticast?: boolean | cdktf.IResolvable;
   /**
   * Disable unknown unicast storm control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#no_unknown_unicast ForwardingoptionsStormControlProfile#no_unknown_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#no_unknown_unicast ForwardingoptionsStormControlProfile#no_unknown_unicast}
   */
   readonly noUnknownUnicast?: boolean | cdktf.IResolvable;
   /**
   * Disable unregistered multicast storm control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#no_unregistered_multicast ForwardingoptionsStormControlProfile#no_unregistered_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#no_unregistered_multicast ForwardingoptionsStormControlProfile#no_unregistered_multicast}
   */
   readonly noUnregisteredMulticast?: boolean | cdktf.IResolvable;
 }
@@ -369,7 +369,7 @@ export class ForwardingoptionsStormControlProfileAllOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile junos_forwardingoptions_storm_control_profile}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile junos_forwardingoptions_storm_control_profile}
 */
 export class ForwardingoptionsStormControlProfile extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class ForwardingoptionsStormControlProfile extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ForwardingoptionsStormControlProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardingoptionsStormControlProfile to import
-  * @param importFromId The id of the existing ForwardingoptionsStormControlProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardingoptionsStormControlProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardingoptionsStormControlProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class ForwardingoptionsStormControlProfile extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_storm_control_profile junos_forwardingoptions_storm_control_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_storm_control_profile junos_forwardingoptions_storm_control_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class ForwardingoptionsStormControlProfile extends cdktf.TerraformResourc
       terraformResourceType: 'junos_forwardingoptions_storm_control_profile',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

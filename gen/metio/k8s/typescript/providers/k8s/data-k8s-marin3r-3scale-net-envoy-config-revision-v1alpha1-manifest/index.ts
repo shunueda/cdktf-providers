@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#metadata DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#metadata DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestMetadata;
   /**
   * EnvoyConfigRevisionSpec defines the desired state of EnvoyConfigRevision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#spec DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#spec DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#annotations DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#annotations DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#labels DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#labels DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#namespace DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#namespace DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Name of the envoy resource. DEPRECATED: this field has no effect and will be removed in an upcoming release. The name of the resources for discovery purposes is included in the resource itself. Refer to the envoy API reference to check how the name is specified for each resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Value is the serialized representation of the envoy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -369,13 +369,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Name of the envoy resource. DEPRECATED: this field has no effect and will be removed in an upcoming release. The name of the resources for discovery purposes is included in the resource itself. Refer to the envoy API reference to check how the name is specified for each resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Value is the serialized representation of the envoy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -519,13 +519,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Name of the envoy resource. DEPRECATED: this field has no effect and will be removed in an upcoming release. The name of the resources for discovery purposes is included in the resource itself. Refer to the envoy API reference to check how the name is specified for each resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Value is the serialized representation of the envoy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -669,13 +669,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Name of the envoy resource. DEPRECATED: this field has no effect and will be removed in an upcoming release. The name of the resources for discovery purposes is included in the resource itself. Refer to the envoy API reference to check how the name is specified for each resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Value is the serialized representation of the envoy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -819,13 +819,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Name of the envoy resource. DEPRECATED: this field has no effect and will be removed in an upcoming release. The name of the resources for discovery purposes is included in the resource itself. Refer to the envoy API reference to check how the name is specified for each resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Value is the serialized representation of the envoy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -969,13 +969,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Name of the envoy resource. DEPRECATED: this field has no effect and will be removed in an upcoming release. The name of the resources for discovery purposes is included in the resource itself. Refer to the envoy API reference to check how the name is specified for each resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Value is the serialized representation of the envoy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1119,13 +1119,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Name of the envoy resource. DEPRECATED: this field has no effect and will be removed in an upcoming release. The name of the resources for discovery purposes is included in the resource itself. Refer to the envoy API reference to check how the name is specified for each resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Value is the serialized representation of the envoy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1269,13 +1269,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#namespace DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#namespace DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1400,13 +1400,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Name of the envoy tslCerticate secret resource. The certificate will be fetched from a Kubernetes Secrets of type 'kubernetes.io/tls' with this same name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * DEPRECATED: this field is deprecated and it's value will be ignored. The 'name' of the Kubernetes Secret must match the 'name' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#ref DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#ref DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#ref}
   */
   readonly ref?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesSecretsRef;
 }
@@ -1550,49 +1550,49 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecE
   /**
   * Clusters is a list of the envoy Cluster resource type. API V3 reference: https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#clusters DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#clusters DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesClusters[] | cdktf.IResolvable;
   /**
   * Endpoints is a list of the envoy ClusterLoadAssignment resource type. API V3 reference: https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/endpoint/v3/endpoint.proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#endpoints DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#endpoints DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#endpoints}
   */
   readonly endpoints?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesEndpoints[] | cdktf.IResolvable;
   /**
   * ExtensionConfigs is a list of the envoy ExtensionConfig resource type API V3 reference: https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/core/v3/extension.proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#extension_configs DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#extension_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#extension_configs DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#extension_configs}
   */
   readonly extensionConfigs?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesExtensionConfigs[] | cdktf.IResolvable;
   /**
   * Listeners is a list of the envoy Listener resource type. API V3 reference: https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/listener/v3/listener.proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#listeners DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#listeners DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#listeners}
   */
   readonly listeners?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesListeners[] | cdktf.IResolvable;
   /**
   * Routes is a list of the envoy Route resource type. API V3 reference: https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/route/v3/route.proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#routes DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#routes DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#routes}
   */
   readonly routes?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesRoutes[] | cdktf.IResolvable;
   /**
   * Runtimes is a list of the envoy Runtime resource type. API V3 reference: https://www.envoyproxy.io/docs/envoy/latest/api-v3/service/runtime/v3/rtds.proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#runtimes DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#runtimes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#runtimes DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#runtimes}
   */
   readonly runtimes?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesRuntimes[] | cdktf.IResolvable;
   /**
   * ScopedRoutes is a list of the envoy ScopeRoute resource type. API V3 reference: https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/route/v3/scoped_route.proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#scoped_routes DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#scoped_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#scoped_routes DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#scoped_routes}
   */
   readonly scopedRoutes?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesScopedRoutes[] | cdktf.IResolvable;
   /**
   * Secrets is a list of references to Kubernetes Secret objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#secrets DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#secrets DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#secrets}
   */
   readonly secrets?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResourcesSecrets[] | cdktf.IResolvable;
 }
@@ -1891,19 +1891,19 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecR
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#key DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#key DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#operator DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#operator DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#values DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#values DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2073,13 +2073,13 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecR
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#match_expressions DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#match_expressions DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecResourcesGenerateFromEndpointSlicesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#match_labels DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#match_labels DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2202,17 +2202,17 @@ export class DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecResou
 }
 export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecResourcesGenerateFromEndpointSlices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#cluster_name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#cluster_name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#selector DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#selector DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecResourcesGenerateFromEndpointSlicesSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#target_port DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#target_port DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#target_port}
   */
   readonly targetPort: string;
 }
@@ -2357,19 +2357,19 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecR
   /**
   * A unique name to refer to the name:key combination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#alias DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#alias DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#alias}
   */
   readonly alias: string;
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#key DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#key DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the secret in the pod's namespace to select from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#name DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2514,37 +2514,37 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecR
   /**
   * Blueprint specifies a template to generate a configuration proto. It is currently only supported to generate secret configuration resources from k8s Secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#blueprint DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#blueprint DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#blueprint}
   */
   readonly blueprint?: string;
   /**
   * Specifies a label selector to watch for EndpointSlices that will be used to generate the endpoint resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#generate_from_endpoint_slices DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#generate_from_endpoint_slices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#generate_from_endpoint_slices DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#generate_from_endpoint_slices}
   */
   readonly generateFromEndpointSlices?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecResourcesGenerateFromEndpointSlices;
   /**
   * The name of a Kubernetes Secret of type 'Opaque'. It will generate an envoy 'generic secret' proto.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#generate_from_opaque_secret DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#generate_from_opaque_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#generate_from_opaque_secret DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#generate_from_opaque_secret}
   */
   readonly generateFromOpaqueSecret?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecResourcesGenerateFromOpaqueSecret;
   /**
   * The name of a Kubernetes Secret of type 'kubernetes.io/tls'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#generate_from_tls_secret DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#generate_from_tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#generate_from_tls_secret DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#generate_from_tls_secret}
   */
   readonly generateFromTlsSecret?: string;
   /**
   * Type is the type url for the protobuf message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#type DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#type DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Value is the protobufer message that configures the resource. The proto must match the envoy configuration API v3 specification for the given resource type (https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol#resource-types)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#value DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -2804,37 +2804,37 @@ export interface DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpec 
   /**
   * EnvoyAPI is the version of envoy's API to use. Defaults to v3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#envoy_api DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#envoy_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#envoy_api DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#envoy_api}
   */
   readonly envoyApi?: string;
   /**
   * EnvoyResources holds the different types of resources suported by the envoy discovery service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#envoy_resources DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#envoy_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#envoy_resources DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#envoy_resources}
   */
   readonly envoyResources?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecEnvoyResources;
   /**
   * NodeID holds the envoy identifier for the discovery service to know which set of resources to send to each of the envoy clients that connect to it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#node_id DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#node_id DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#node_id}
   */
   readonly nodeId: string;
   /**
   * Resources holds the different types of resources suported by the envoy discovery service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#resources DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#resources DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecResources[] | cdktf.IResolvable;
   /**
   * Serialization specicifies the serialization format used to describe the resources. 'json' and 'yaml' are supported. 'json' is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#serialization DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#serialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#serialization DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#serialization}
   */
   readonly serialization?: string;
   /**
   * Version is a hash of the EnvoyResources field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#version DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#version DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -3067,7 +3067,7 @@ export class DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest k8s_marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest k8s_marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest}
 */
 export class DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3083,7 +3083,7 @@ export class DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3095,7 +3095,7 @@ export class DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest k8s_marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest k8s_marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3106,8 +3106,8 @@ export class DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

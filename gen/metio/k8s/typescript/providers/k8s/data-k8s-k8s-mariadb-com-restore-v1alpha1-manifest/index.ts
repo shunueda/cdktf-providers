@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#metadata DataK8SK8SMariadbComRestoreV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#metadata DataK8SK8SMariadbComRestoreV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SK8SMariadbComRestoreV1Alpha1ManifestMetadata;
   /**
   * RestoreSpec defines the desired state of restore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#spec DataK8SK8SMariadbComRestoreV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#spec DataK8SK8SMariadbComRestoreV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#annotations DataK8SK8SMariadbComRestoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#annotations DataK8SK8SMariadbComRestoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#namespace DataK8SK8SMariadbComRestoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#namespace DataK8SK8SMariadbComRestoreV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,17 +217,17 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestMetadataOutputReference 
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * A node selector operator is the set of operators that can be used in a node selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -395,17 +395,17 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * A node selector operator is the set of operators that can be used in a node selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -573,11 +573,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_expressions DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_expressions DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_fields DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_fields DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -702,11 +702,11 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffi
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#nodeselectorterm-v1-core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#preference DataK8SK8SMariadbComRestoreV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#preference DataK8SK8SMariadbComRestoreV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#weight DataK8SK8SMariadbComRestoreV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#weight DataK8SK8SMariadbComRestoreV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -845,17 +845,17 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * A node selector operator is the set of operators that can be used in a node selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1023,17 +1023,17 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * A node selector operator is the set of operators that can be used in a node selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1201,11 +1201,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_expressions DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_expressions DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_fields DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_fields DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1350,7 +1350,7 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#node_selector_terms DataK8SK8SMariadbComRestoreV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#node_selector_terms DataK8SK8SMariadbComRestoreV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1441,13 +1441,13 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SMariadbComRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SMariadbComRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#nodeselector-v1-core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SMariadbComRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SMariadbComRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1570,17 +1570,17 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * A label selector operator is the set of operators that can be used in a selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1748,11 +1748,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffin
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_expressions DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_expressions DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1877,11 +1877,11 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiA
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#labelselector-v1-meta
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#label_selector DataK8SK8SMariadbComRestoreV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#label_selector DataK8SK8SMariadbComRestoreV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#topology_key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#topology_key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2003,11 +2003,11 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiA
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#podaffinityterm-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#pod_affinity_term DataK8SK8SMariadbComRestoreV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#pod_affinity_term DataK8SK8SMariadbComRestoreV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#weight DataK8SK8SMariadbComRestoreV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#weight DataK8SK8SMariadbComRestoreV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2146,17 +2146,17 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffin
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * A label selector operator is the set of operators that can be used in a selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#values DataK8SK8SMariadbComRestoreV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2324,11 +2324,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffin
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_expressions DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_expressions DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#match_labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2453,11 +2453,11 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiA
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#labelselector-v1-meta
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#label_selector DataK8SK8SMariadbComRestoreV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#label_selector DataK8SK8SMariadbComRestoreV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#topology_key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#topology_key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2599,11 +2599,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffin
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SMariadbComRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SMariadbComRestoreV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SMariadbComRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SMariadbComRestoreV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -2728,19 +2728,19 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinity {
   /**
   * AntiAffinityEnabled configures PodAntiAffinity so each Pod is scheduled in a different Node, enabling HA. Make sure you have at least as many Nodes available as the replicas to not end up with unscheduled Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#anti_affinity_enabled DataK8SK8SMariadbComRestoreV1Alpha1Manifest#anti_affinity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#anti_affinity_enabled DataK8SK8SMariadbComRestoreV1Alpha1Manifest#anti_affinity_enabled}
   */
   readonly antiAffinityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#nodeaffinity-v1-core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#node_affinity DataK8SK8SMariadbComRestoreV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#node_affinity DataK8SK8SMariadbComRestoreV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#podantiaffinity-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#pod_anti_affinity DataK8SK8SMariadbComRestoreV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#pod_anti_affinity DataK8SK8SMariadbComRestoreV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -2892,7 +2892,7 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinityOutputRefere
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecBackupRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2986,7 +2986,7 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecBackupRefOutputRefer
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3104,13 +3104,13 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecInheritMetadata 
   /**
   * Annotations to be added to children resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#annotations DataK8SK8SMariadbComRestoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#annotations DataK8SK8SMariadbComRestoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to be added to children resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -3233,17 +3233,17 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecInheritMetadataOutpu
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecMariaDbRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#namespace DataK8SK8SMariadbComRestoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#namespace DataK8SK8SMariadbComRestoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * WaitForIt indicates whether the controller using this reference should wait for MariaDB to be ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#wait_for_it DataK8SK8SMariadbComRestoreV1Alpha1Manifest#wait_for_it}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#wait_for_it DataK8SK8SMariadbComRestoreV1Alpha1Manifest#wait_for_it}
   */
   readonly waitForIt?: boolean | cdktf.IResolvable;
 }
@@ -3397,13 +3397,13 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodMetadata {
   /**
   * Annotations to be added to children resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#annotations DataK8SK8SMariadbComRestoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#annotations DataK8SK8SMariadbComRestoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to be added to children resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#labels DataK8SK8SMariadbComRestoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -3528,13 +3528,13 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodSecurityConte
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#localhost_profile DataK8SK8SMariadbComRestoreV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#localhost_profile DataK8SK8SMariadbComRestoreV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#type DataK8SK8SMariadbComRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#type DataK8SK8SMariadbComRestoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -3656,25 +3656,25 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodSecurityConte
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#level DataK8SK8SMariadbComRestoreV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#level DataK8SK8SMariadbComRestoreV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#role DataK8SK8SMariadbComRestoreV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#role DataK8SK8SMariadbComRestoreV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#type DataK8SK8SMariadbComRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#type DataK8SK8SMariadbComRestoreV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#user DataK8SK8SMariadbComRestoreV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#user DataK8SK8SMariadbComRestoreV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -3857,13 +3857,13 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodSecurityConte
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#localhost_profile DataK8SK8SMariadbComRestoreV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#localhost_profile DataK8SK8SMariadbComRestoreV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#type DataK8SK8SMariadbComRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#type DataK8SK8SMariadbComRestoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -3985,45 +3985,45 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodSecurityConte
   /**
   * AppArmorProfile defines a pod or container's AppArmor settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#app_armor_profile DataK8SK8SMariadbComRestoreV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#app_armor_profile DataK8SK8SMariadbComRestoreV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#fs_group DataK8SK8SMariadbComRestoreV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#fs_group DataK8SK8SMariadbComRestoreV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * PodFSGroupChangePolicy holds policies that will be used for applying fsGroup to a volume when volume is mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#fs_group_change_policy DataK8SK8SMariadbComRestoreV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#fs_group_change_policy DataK8SK8SMariadbComRestoreV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_group DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_group DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_non_root DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_non_root DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_user DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_user DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * SELinuxOptions are the labels to be applied to the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#se_linux_options DataK8SK8SMariadbComRestoreV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#se_linux_options DataK8SK8SMariadbComRestoreV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodSecurityContextSeLinuxOptions;
   /**
   * SeccompProfile defines a pod/container's seccomp profile settings. Only one profile source may be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#seccomp_profile DataK8SK8SMariadbComRestoreV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#seccomp_profile DataK8SK8SMariadbComRestoreV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#supplemental_groups DataK8SK8SMariadbComRestoreV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#supplemental_groups DataK8SK8SMariadbComRestoreV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
 }
@@ -4351,13 +4351,13 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecResources {
   /**
   * ResourceList is a set of (resource name, quantity) pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#limits DataK8SK8SMariadbComRestoreV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#limits DataK8SK8SMariadbComRestoreV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * ResourceList is a set of (resource name, quantity) pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#requests DataK8SK8SMariadbComRestoreV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#requests DataK8SK8SMariadbComRestoreV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4480,11 +4480,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecResourcesOutputRefer
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3AccessKeyIdSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4604,11 +4604,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3AccessKeyIdSecretK
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3SecretAccessKeySecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4728,11 +4728,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3SecretAccessKeySec
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3SessionTokenSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4852,11 +4852,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3SessionTokenSecret
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3TlsCaSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4978,13 +4978,13 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3Tls {
   /**
   * CASecretKeyRef is a reference to a Secret key containing a CA bundle in PEM format used to establish TLS connections with S3. By default, the system trust chain will be used, but you can use this field to add more CAs to the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#ca_secret_key_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#ca_secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#ca_secret_key_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#ca_secret_key_ref}
   */
   readonly caSecretKeyRef?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3TlsCaSecretKeyRef;
   /**
   * Enabled is a flag to enable TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#enabled DataK8SK8SMariadbComRestoreV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#enabled DataK8SK8SMariadbComRestoreV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -5109,49 +5109,49 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3 {
   /**
   * AccessKeyIdSecretKeyRef is a reference to a Secret key containing the S3 access key id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#access_key_id_secret_key_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#access_key_id_secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#access_key_id_secret_key_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#access_key_id_secret_key_ref}
   */
   readonly accessKeyIdSecretKeyRef: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3AccessKeyIdSecretKeyRef;
   /**
   * Bucket is the name Name of the bucket to store backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#bucket DataK8SK8SMariadbComRestoreV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#bucket DataK8SK8SMariadbComRestoreV1Alpha1Manifest#bucket}
   */
   readonly bucket: string;
   /**
   * Endpoint is the S3 API endpoint without scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#endpoint DataK8SK8SMariadbComRestoreV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#endpoint DataK8SK8SMariadbComRestoreV1Alpha1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * Prefix indicates a folder/subfolder in the bucket. For example: mariadb/ or mariadb/backups. A trailing slash '/' is added if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#prefix DataK8SK8SMariadbComRestoreV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#prefix DataK8SK8SMariadbComRestoreV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Region is the S3 region name to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#region DataK8SK8SMariadbComRestoreV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#region DataK8SK8SMariadbComRestoreV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
   * AccessKeyIdSecretKeyRef is a reference to a Secret key containing the S3 secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#secret_access_key_secret_key_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#secret_access_key_secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#secret_access_key_secret_key_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#secret_access_key_secret_key_ref}
   */
   readonly secretAccessKeySecretKeyRef: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3SecretAccessKeySecretKeyRef;
   /**
   * SessionTokenSecretKeyRef is a reference to a Secret key containing the S3 session token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#session_token_secret_key_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#session_token_secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#session_token_secret_key_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#session_token_secret_key_ref}
   */
   readonly sessionTokenSecretKeyRef?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3SessionTokenSecretKeyRef;
   /**
   * TLS provides the configuration required to establish TLS connections with S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#tls DataK8SK8SMariadbComRestoreV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#tls DataK8SK8SMariadbComRestoreV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3Tls;
 }
@@ -5438,13 +5438,13 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecSecurityContextC
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#add DataK8SK8SMariadbComRestoreV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#add DataK8SK8SMariadbComRestoreV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#drop DataK8SK8SMariadbComRestoreV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#drop DataK8SK8SMariadbComRestoreV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -5567,33 +5567,33 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecSecurityContextCapab
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#allow_privilege_escalation DataK8SK8SMariadbComRestoreV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#allow_privilege_escalation DataK8SK8SMariadbComRestoreV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * Adds and removes POSIX capabilities from running containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#capabilities DataK8SK8SMariadbComRestoreV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#capabilities DataK8SK8SMariadbComRestoreV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#privileged DataK8SK8SMariadbComRestoreV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#privileged DataK8SK8SMariadbComRestoreV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#read_only_root_filesystem DataK8SK8SMariadbComRestoreV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#read_only_root_filesystem DataK8SK8SMariadbComRestoreV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_group DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_group DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_non_root DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_non_root DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_user DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#run_as_user DataK8SK8SMariadbComRestoreV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
 }
@@ -5863,31 +5863,31 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecTolerations {
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#effect DataK8SK8SMariadbComRestoreV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#effect DataK8SK8SMariadbComRestoreV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#key DataK8SK8SMariadbComRestoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#operator DataK8SK8SMariadbComRestoreV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#toleration_seconds DataK8SK8SMariadbComRestoreV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#toleration_seconds DataK8SK8SMariadbComRestoreV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#value DataK8SK8SMariadbComRestoreV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#value DataK8SK8SMariadbComRestoreV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6119,11 +6119,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecTolerationsList exte
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#default_mode DataK8SK8SMariadbComRestoreV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#default_mode DataK8SK8SMariadbComRestoreV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6246,7 +6246,7 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeConfigMapOutpu
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6340,25 +6340,25 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeCsiNodePublish
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#driver DataK8SK8SMariadbComRestoreV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#driver DataK8SK8SMariadbComRestoreV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#fs_type DataK8SK8SMariadbComRestoreV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#fs_type DataK8SK8SMariadbComRestoreV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#localobjectreference-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#node_publish_secret_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#node_publish_secret_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#read_only DataK8SK8SMariadbComRestoreV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#read_only DataK8SK8SMariadbComRestoreV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#volume_attributes DataK8SK8SMariadbComRestoreV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#volume_attributes DataK8SK8SMariadbComRestoreV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -6567,11 +6567,11 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeEmptyDir {
   /**
   * StorageMedium defines ways that storage can be allocated to a volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#medium DataK8SK8SMariadbComRestoreV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#medium DataK8SK8SMariadbComRestoreV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#size_limit DataK8SK8SMariadbComRestoreV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#size_limit DataK8SK8SMariadbComRestoreV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -6694,15 +6694,15 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeEmptyDirOutput
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#path DataK8SK8SMariadbComRestoreV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#path DataK8SK8SMariadbComRestoreV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#read_only DataK8SK8SMariadbComRestoreV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#read_only DataK8SK8SMariadbComRestoreV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#server DataK8SK8SMariadbComRestoreV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#server DataK8SK8SMariadbComRestoreV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -6848,11 +6848,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeNfsOutputRefer
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumePersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#claim_name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#claim_name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#read_only DataK8SK8SMariadbComRestoreV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#read_only DataK8SK8SMariadbComRestoreV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -6972,11 +6972,11 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumePersistentVolu
 }
 export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#default_mode DataK8SK8SMariadbComRestoreV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#default_mode DataK8SK8SMariadbComRestoreV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#secret_name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#secret_name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -7101,37 +7101,37 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolume {
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#configmapvolumesource-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#config_map DataK8SK8SMariadbComRestoreV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#config_map DataK8SK8SMariadbComRestoreV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeConfigMap;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#csivolumesource-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#csi DataK8SK8SMariadbComRestoreV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#csi DataK8SK8SMariadbComRestoreV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeCsi;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#emptydirvolumesource-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#empty_dir DataK8SK8SMariadbComRestoreV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#empty_dir DataK8SK8SMariadbComRestoreV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeEmptyDir;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#nfsvolumesource-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#nfs DataK8SK8SMariadbComRestoreV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#nfs DataK8SK8SMariadbComRestoreV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeNfs;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#persistentvolumeclaimvolumesource-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#persistent_volume_claim DataK8SK8SMariadbComRestoreV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#persistent_volume_claim DataK8SK8SMariadbComRestoreV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumePersistentVolumeClaim;
   /**
   * Refer to the Kubernetes docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.31/#secretvolumesource-v1-core.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#secret DataK8SK8SMariadbComRestoreV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#secret DataK8SK8SMariadbComRestoreV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolumeSecret;
 }
@@ -7372,127 +7372,127 @@ export interface DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpec {
   /**
   * Affinity to be used in the Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#affinity DataK8SK8SMariadbComRestoreV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#affinity DataK8SK8SMariadbComRestoreV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecAffinity;
   /**
   * Args to be used in the Container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#args DataK8SK8SMariadbComRestoreV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#args DataK8SK8SMariadbComRestoreV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * BackoffLimit defines the maximum number of attempts to successfully perform a Backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#backoff_limit DataK8SK8SMariadbComRestoreV1Alpha1Manifest#backoff_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#backoff_limit DataK8SK8SMariadbComRestoreV1Alpha1Manifest#backoff_limit}
   */
   readonly backoffLimit?: number;
   /**
   * BackupRef is a reference to a Backup object. It has priority over S3 and Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#backup_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#backup_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#backup_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#backup_ref}
   */
   readonly backupRef?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecBackupRef;
   /**
   * Database defines the logical database to be restored. If not provided, all databases available in the backup are restored. IMPORTANT: The database must previously exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#database DataK8SK8SMariadbComRestoreV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#database DataK8SK8SMariadbComRestoreV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * ImagePullSecrets is the list of pull Secrets to be used to pull the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#image_pull_secrets DataK8SK8SMariadbComRestoreV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#image_pull_secrets DataK8SK8SMariadbComRestoreV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * InheritMetadata defines the metadata to be inherited by children resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#inherit_metadata DataK8SK8SMariadbComRestoreV1Alpha1Manifest#inherit_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#inherit_metadata DataK8SK8SMariadbComRestoreV1Alpha1Manifest#inherit_metadata}
   */
   readonly inheritMetadata?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecInheritMetadata;
   /**
   * LogLevel to be used n the Backup Job. It defaults to 'info'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#log_level DataK8SK8SMariadbComRestoreV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#log_level DataK8SK8SMariadbComRestoreV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * MariaDBRef is a reference to a MariaDB object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#maria_db_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#maria_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#maria_db_ref DataK8SK8SMariadbComRestoreV1Alpha1Manifest#maria_db_ref}
   */
   readonly mariaDbRef: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecMariaDbRef;
   /**
   * NodeSelector to be used in the Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#node_selector DataK8SK8SMariadbComRestoreV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#node_selector DataK8SK8SMariadbComRestoreV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodMetadata defines extra metadata for the Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#pod_metadata DataK8SK8SMariadbComRestoreV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#pod_metadata DataK8SK8SMariadbComRestoreV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodMetadata;
   /**
   * SecurityContext holds pod-level security attributes and common container settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#pod_security_context DataK8SK8SMariadbComRestoreV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#pod_security_context DataK8SK8SMariadbComRestoreV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecPodSecurityContext;
   /**
   * PriorityClassName to be used in the Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#priority_class_name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#priority_class_name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Resouces describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#resources DataK8SK8SMariadbComRestoreV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#resources DataK8SK8SMariadbComRestoreV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecResources;
   /**
   * RestartPolicy to be added to the Backup Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#restart_policy DataK8SK8SMariadbComRestoreV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#restart_policy DataK8SK8SMariadbComRestoreV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * S3 defines the configuration to restore backups from a S3 compatible storage. It has priority over Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#s3 DataK8SK8SMariadbComRestoreV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#s3 DataK8SK8SMariadbComRestoreV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecS3;
   /**
   * SecurityContext holds security configuration that will be applied to a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#security_context DataK8SK8SMariadbComRestoreV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#security_context DataK8SK8SMariadbComRestoreV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecSecurityContext;
   /**
   * ServiceAccountName is the name of the ServiceAccount to be used by the Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#service_account_name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#service_account_name DataK8SK8SMariadbComRestoreV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * TargetRecoveryTime is a RFC3339 (1970-01-01T00:00:00Z) date and time that defines the point in time recovery objective. It is used to determine the closest restoration source in time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#target_recovery_time DataK8SK8SMariadbComRestoreV1Alpha1Manifest#target_recovery_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#target_recovery_time DataK8SK8SMariadbComRestoreV1Alpha1Manifest#target_recovery_time}
   */
   readonly targetRecoveryTime?: string;
   /**
   * Tolerations to be used in the Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#tolerations DataK8SK8SMariadbComRestoreV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#tolerations DataK8SK8SMariadbComRestoreV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
   * Volume is a Kubernetes Volume object that contains a backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#volume DataK8SK8SMariadbComRestoreV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#volume DataK8SK8SMariadbComRestoreV1Alpha1Manifest#volume}
   */
   readonly volume?: DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecVolume;
 }
@@ -8163,7 +8163,7 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest k8s_k8s_mariadb_com_restore_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest k8s_k8s_mariadb_com_restore_v1alpha1_manifest}
 */
 export class DataK8SK8SMariadbComRestoreV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -8179,7 +8179,7 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SK8SMariadbComRestoreV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SK8SMariadbComRestoreV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SK8SMariadbComRestoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SK8SMariadbComRestoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SK8SMariadbComRestoreV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8191,7 +8191,7 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest k8s_k8s_mariadb_com_restore_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/k8s_mariadb_com_restore_v1alpha1_manifest k8s_k8s_mariadb_com_restore_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8202,8 +8202,8 @@ export class DataK8SK8SMariadbComRestoreV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_k8s_mariadb_com_restore_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

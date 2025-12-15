@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface SecurityIkeGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Addresses or hostnames of peer:1 primary, upto 4 backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#address SecurityIkeGateway#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#address SecurityIkeGateway#address}
   */
   readonly address?: string[];
   /**
   * Interface for IKE negotiations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#external_interface SecurityIkeGateway#external_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#external_interface SecurityIkeGateway#external_interface}
   */
   readonly externalInterface: string;
   /**
   * Accept peer IKE-ID in general.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#general_ike_id SecurityIkeGateway#general_ike_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#general_ike_id SecurityIkeGateway#general_ike_id}
   */
   readonly generalIkeId?: boolean | cdktf.IResolvable;
   /**
   * Local IP for IKE negotiations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#local_address SecurityIkeGateway#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#local_address SecurityIkeGateway#local_address}
   */
   readonly localAddress?: string;
   /**
   * Label for the remote (peer) gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#name SecurityIkeGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#name SecurityIkeGateway#name}
   */
   readonly name: string;
   /**
   * Disable IPSec NAT traversal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#no_nat_traversal SecurityIkeGateway#no_nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#no_nat_traversal SecurityIkeGateway#no_nat_traversal}
   */
   readonly noNatTraversal?: boolean | cdktf.IResolvable;
   /**
   * Name of the IKE policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#policy SecurityIkeGateway#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#policy SecurityIkeGateway#policy}
   */
   readonly policy: string;
   /**
   * Negotiate using either IKE v1 or IKE v2 protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#version SecurityIkeGateway#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#version SecurityIkeGateway#version}
   */
   readonly version?: string;
   /**
   * aaa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#aaa SecurityIkeGateway#aaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#aaa SecurityIkeGateway#aaa}
   */
   readonly aaa?: SecurityIkeGatewayAaa;
   /**
   * dead_peer_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#dead_peer_detection SecurityIkeGateway#dead_peer_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#dead_peer_detection SecurityIkeGateway#dead_peer_detection}
   */
   readonly deadPeerDetection?: SecurityIkeGatewayDeadPeerDetection;
   /**
   * dynamic_remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#dynamic_remote SecurityIkeGateway#dynamic_remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#dynamic_remote SecurityIkeGateway#dynamic_remote}
   */
   readonly dynamicRemote?: SecurityIkeGatewayDynamicRemote;
   /**
   * local_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#local_identity SecurityIkeGateway#local_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#local_identity SecurityIkeGateway#local_identity}
   */
   readonly localIdentity?: SecurityIkeGatewayLocalIdentity;
   /**
   * remote_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#remote_identity SecurityIkeGateway#remote_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#remote_identity SecurityIkeGateway#remote_identity}
   */
   readonly remoteIdentity?: SecurityIkeGatewayRemoteIdentity;
 }
@@ -90,19 +90,19 @@ export interface SecurityIkeGatewayAaa {
   /**
   * Access profile that contains authentication information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#access_profile SecurityIkeGateway#access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#access_profile SecurityIkeGateway#access_profile}
   */
   readonly accessProfile?: string;
   /**
   * AAA client password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#client_password SecurityIkeGateway#client_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#client_password SecurityIkeGateway#client_password}
   */
   readonly clientPassword?: string;
   /**
   * AAA client username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#client_username SecurityIkeGateway#client_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#client_username SecurityIkeGateway#client_username}
   */
   readonly clientUsername?: string;
 }
@@ -256,19 +256,19 @@ export interface SecurityIkeGatewayDeadPeerDetection {
   /**
   * The interval at which to send DPD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#interval SecurityIkeGateway#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#interval SecurityIkeGateway#interval}
   */
   readonly interval?: number;
   /**
   * Specify how probes are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#send_mode SecurityIkeGateway#send_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#send_mode SecurityIkeGateway#send_mode}
   */
   readonly sendMode?: string;
   /**
   * Maximum number of DPD retransmissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#threshold SecurityIkeGateway#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#threshold SecurityIkeGateway#threshold}
   */
   readonly threshold?: number;
 }
@@ -422,13 +422,13 @@ export interface SecurityIkeGatewayDynamicRemoteDistinguishedName {
   /**
   * Container string for a distinguished name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#container SecurityIkeGateway#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#container SecurityIkeGateway#container}
   */
   readonly container?: string;
   /**
   * Wildcard string for a distinguished name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#wildcard SecurityIkeGateway#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#wildcard SecurityIkeGateway#wildcard}
   */
   readonly wildcard?: string;
 }
@@ -553,49 +553,49 @@ export interface SecurityIkeGatewayDynamicRemote {
   /**
   * Maximum number of users connected to gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#connections_limit SecurityIkeGateway#connections_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#connections_limit SecurityIkeGateway#connections_limit}
   */
   readonly connectionsLimit?: number;
   /**
   * Use a fully-qualified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#hostname SecurityIkeGateway#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#hostname SecurityIkeGateway#hostname}
   */
   readonly hostname?: string;
   /**
   * Type of the IKE ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#ike_user_type SecurityIkeGateway#ike_user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#ike_user_type SecurityIkeGateway#ike_user_type}
   */
   readonly ikeUserType?: string;
   /**
   * Use an IPV4 address to identify the dynamic peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#inet SecurityIkeGateway#inet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#inet SecurityIkeGateway#inet}
   */
   readonly inet?: string;
   /**
   * Use an IPV6 address to identify the dynamic peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#inet6 SecurityIkeGateway#inet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#inet6 SecurityIkeGateway#inet6}
   */
   readonly inet6?: string;
   /**
   * Reject new connection from duplicate IKE-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#reject_duplicate_connection SecurityIkeGateway#reject_duplicate_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#reject_duplicate_connection SecurityIkeGateway#reject_duplicate_connection}
   */
   readonly rejectDuplicateConnection?: boolean | cdktf.IResolvable;
   /**
   * Use an e-mail address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#user_at_hostname SecurityIkeGateway#user_at_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#user_at_hostname SecurityIkeGateway#user_at_hostname}
   */
   readonly userAtHostname?: string;
   /**
   * distinguished_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#distinguished_name SecurityIkeGateway#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#distinguished_name SecurityIkeGateway#distinguished_name}
   */
   readonly distinguishedName?: SecurityIkeGatewayDynamicRemoteDistinguishedName;
 }
@@ -894,13 +894,13 @@ export interface SecurityIkeGatewayLocalIdentity {
   /**
   * Type of IKE identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#type SecurityIkeGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#type SecurityIkeGateway#type}
   */
   readonly type?: string;
   /**
   * Value for IKE identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#value SecurityIkeGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#value SecurityIkeGateway#value}
   */
   readonly value?: string;
 }
@@ -1025,25 +1025,25 @@ export interface SecurityIkeGatewayRemoteIdentity {
   /**
   * Container string for a distinguished name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#distinguished_name_container SecurityIkeGateway#distinguished_name_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#distinguished_name_container SecurityIkeGateway#distinguished_name_container}
   */
   readonly distinguishedNameContainer?: string;
   /**
   * Wildcard string for a distinguished name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#distinguished_name_wildcard SecurityIkeGateway#distinguished_name_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#distinguished_name_wildcard SecurityIkeGateway#distinguished_name_wildcard}
   */
   readonly distinguishedNameWildcard?: string;
   /**
   * Type of IKE identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#type SecurityIkeGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#type SecurityIkeGateway#type}
   */
   readonly type?: string;
   /**
   * Value for IKE identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#value SecurityIkeGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#value SecurityIkeGateway#value}
   */
   readonly value?: string;
 }
@@ -1224,7 +1224,7 @@ export class SecurityIkeGatewayRemoteIdentityOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway junos_security_ike_gateway}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway junos_security_ike_gateway}
 */
 export class SecurityIkeGateway extends cdktf.TerraformResource {
 
@@ -1240,7 +1240,7 @@ export class SecurityIkeGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityIkeGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityIkeGateway to import
-  * @param importFromId The id of the existing SecurityIkeGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityIkeGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityIkeGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1252,7 +1252,7 @@ export class SecurityIkeGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ike_gateway junos_security_ike_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ike_gateway junos_security_ike_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1263,8 +1263,8 @@ export class SecurityIkeGateway extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_ike_gateway',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1M
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#metadata DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#metadata DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1ManifestMetadata;
   /**
   * IBMVPCMachineTemplateSpec defines the desired state of IBMVPCMachineTemplate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1M
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#annotations DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#annotations DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#labels DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#labels DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#namespace DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#namespace DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,37 +219,37 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1M
   /**
   * DeleteVolumeOnInstanceDelete If set to true, when deleting the instance the volume will also be deleted. Default is set as true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#delete_volume_on_instance_delete DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#delete_volume_on_instance_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#delete_volume_on_instance_delete DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#delete_volume_on_instance_delete}
   */
   readonly deleteVolumeOnInstanceDelete?: boolean | cdktf.IResolvable;
   /**
   * EncryptionKey is the root key to use to wrap the data encryption key for the volume and this points to the CRN and possible values are as follows. The CRN of the [Key Protect Root Key](https://cloud.ibm.com/docs/key-protect?topic=key-protect-getting-started-tutorial) or [Hyper Protect Crypto Service Root Key](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-get-started) for this resource. If unspecified, the 'encryption' type for the volume will be 'provider_managed'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#encryption_key_crn DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#encryption_key_crn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#encryption_key_crn DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#encryption_key_crn}
   */
   readonly encryptionKeyCrn?: string;
   /**
   * Iops is the maximum I/O operations per second (IOPS) to use for the volume. Applicable only to volumes using a profile family of 'custom'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#iops DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#iops DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#iops}
   */
   readonly iops?: number;
   /**
   * Name is the unique user-defined name for this volume. Default will be autogenerated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Profile is the volume profile for the bootdisk, refer https://cloud.ibm.com/docs/vpc?topic=vpc-block-storage-profiles for more information. Default to general-purpose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#profile DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#profile DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#profile}
   */
   readonly profile?: string;
   /**
   * SizeGiB is the size of the virtual server's boot disk in GiB. Default to the size of the image's 'minimum_provisioned_size'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#size_gi_b DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#size_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#size_gi_b DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#size_gi_b}
   */
   readonly sizeGiB?: number;
 }
@@ -490,7 +490,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1M
   /**
   * Subnet ID of the network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#subnet DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#subnet DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#subnet}
   */
   readonly subnet?: string;
 }
@@ -586,61 +586,61 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1M
   /**
   * BootVolume contains machines's boot volume configurations like size, iops etc..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#boot_volume DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#boot_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#boot_volume DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#boot_volume}
   */
   readonly bootVolume?: DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1ManifestSpecTemplateSpecBootVolume;
   /**
   * Image is the id of OS image which would be install on the instance. Example: r134-ed3f775f-ad7e-4e37-ae62-7199b4988b00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#image DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#image DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * ImageName is the name of OS image which would be install on the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#image_name DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#image_name DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#image_name}
   */
   readonly imageName?: string;
   /**
   * Name of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * PrimaryNetworkInterface is required to specify subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#primary_network_interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#primary_network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#primary_network_interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#primary_network_interface}
   */
   readonly primaryNetworkInterface?: DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1ManifestSpecTemplateSpecPrimaryNetworkInterface;
   /**
   * Profile indicates the flavor of instance. Example: bx2-8x32 means 8 vCPUs 32 GB RAM 16 Gbps TODO: add a reference link of profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#profile DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#profile DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#profile}
   */
   readonly profile?: string;
   /**
   * ProviderID is the unique identifier as specified by the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#provider_id DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#provider_id DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
   * SSHKeysNames is the SSH pub key names that will be used to access VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#ssh_key_names DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#ssh_key_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#ssh_key_names DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#ssh_key_names}
   */
   readonly sshKeyNames?: string[];
   /**
   * SSHKeys is the SSH pub keys that will be used to access VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#ssh_keys DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#ssh_keys DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
   * Zone is the place where the instance should be created. Example: us-south-3 TODO: Actually zone is transparent to user. The field user can access is location. Example: Dallas 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#zone DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#zone DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#zone}
   */
   readonly zone: string;
 }
@@ -994,7 +994,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1M
   /**
   * Spec is the specification of the desired behavior of the machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1ManifestSpecTemplateSpec;
 }
@@ -1087,7 +1087,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1M
   /**
   * IBMVPCMachineTemplateResource describes the data needed to create am IBMVPCMachine from a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#template DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#template DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest#template}
   */
   readonly template: DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1ManifestSpecTemplate;
 }
@@ -1178,7 +1178,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manif
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest k8s_infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest k8s_infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1194,7 +1194,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manif
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1206,7 +1206,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manif
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest k8s_infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest k8s_infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1217,8 +1217,8 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcMachineTemplateV1Beta1Manif
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_ibmvpc_machine_template_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

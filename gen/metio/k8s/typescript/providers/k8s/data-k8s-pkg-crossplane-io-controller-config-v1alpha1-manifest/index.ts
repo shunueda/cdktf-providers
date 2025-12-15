@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#metadata DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#metadata DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestMetadata;
   /**
   * ControllerConfigSpec specifies the configuration for a packaged controller. Values provided will override package manager defaults. Labels and annotations are passed to both the controller Deployment and ServiceAccount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#spec DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#spec DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#annotations DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#annotations DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,19 +369,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -551,13 +551,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_fields DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_fields DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -682,13 +682,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#preference DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#preference DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#weight DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#weight DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -829,19 +829,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1011,19 +1011,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1193,13 +1193,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_fields DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_fields DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1346,7 +1346,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_selector_terms DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_selector_terms DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1439,13 +1439,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1570,19 +1570,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1752,13 +1752,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1883,19 +1883,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2065,13 +2065,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2196,37 +2196,37 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mismatch_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mismatch_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespaces DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespaces DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#topology_key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#topology_key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2464,13 +2464,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_affinity_term DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_affinity_term DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#weight DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#weight DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2611,19 +2611,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2793,13 +2793,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2924,19 +2924,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3106,13 +3106,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3237,37 +3237,37 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mismatch_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mismatch_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespaces DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespaces DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#topology_key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#topology_key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3527,13 +3527,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3658,19 +3658,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3840,13 +3840,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3971,19 +3971,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4153,13 +4153,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4284,37 +4284,37 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mismatch_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mismatch_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespaces DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespaces DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#topology_key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#topology_key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4552,13 +4552,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_affinity_term DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_affinity_term DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#weight DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#weight DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4699,19 +4699,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4881,13 +4881,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5012,19 +5012,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5194,13 +5194,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5325,37 +5325,37 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mismatch_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mismatch_label_keys DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespaces DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespaces DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#topology_key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#topology_key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5615,13 +5615,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5746,19 +5746,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffin
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_affinity DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_affinity DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_affinity DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_affinity DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_anti_affinity DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_anti_affinity DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5912,19 +5912,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvVa
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6075,13 +6075,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvVa
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_version DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_version DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6203,19 +6203,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvVa
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#container_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#container_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#divisor DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#divisor DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6366,19 +6366,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvVa
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6529,25 +6529,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvVa
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#config_map_key_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#config_map_key_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource_field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource_field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_key_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_key_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -6730,19 +6730,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#value DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#value DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#value_from DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#value_from DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvValueFrom;
 }
@@ -6915,13 +6915,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvFr
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7046,13 +7046,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvFr
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7177,19 +7177,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvFr
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#config_map_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#config_map_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#prefix DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#prefix DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvFromSecretRef;
 }
@@ -7365,7 +7365,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecImage
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7483,13 +7483,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecMetad
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http:https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#annotations DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#annotations DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. This will only affect labels on the pod, not the pod selector. Labels will be merged with internal labels used by crossplane, and labels with a crossplane.io key might be overwritten. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -7614,13 +7614,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSe
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#localhost_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#localhost_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -7742,25 +7742,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSe
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#level DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#level DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#role DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#role DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -7943,13 +7943,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSe
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#localhost_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#localhost_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8071,13 +8071,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSe
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#value DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#value DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8218,25 +8218,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSe
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gmsa_credential_spec DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gmsa_credential_spec DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_process DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_process DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_user_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_user_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -8419,67 +8419,67 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSe
   /**
   * appArmorProfile is the AppArmor options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#app_armor_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#app_armor_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSecurityContextAppArmorProfile;
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_group_change_policy DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_group_change_policy DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_non_root DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_non_root DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#se_linux_options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#se_linux_options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#seccomp_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#seccomp_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#supplemental_groups DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#supplemental_groups DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#sysctls DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#sysctls DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#windows_options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#windows_options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSecurityContextWindowsOptions;
 }
@@ -8865,31 +8865,31 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPorts
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#container_port DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#container_port DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_ip DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_ip DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_port DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_port DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#protocol DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#protocol DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -9120,7 +9120,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecResou
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9235,19 +9235,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecResou
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#claims DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#claims DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#limits DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#limits DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#requests DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#requests DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9401,13 +9401,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecur
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#localhost_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#localhost_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -9529,13 +9529,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecur
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#add DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#add DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#drop DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#drop DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -9660,25 +9660,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecur
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#level DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#level DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#role DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#role DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -9861,13 +9861,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecur
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#localhost_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#localhost_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -9989,25 +9989,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecur
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gmsa_credential_spec DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gmsa_credential_spec DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_process DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_process DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_user_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_user_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -10190,73 +10190,73 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecur
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#allow_privilege_escalation DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#allow_privilege_escalation DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#app_armor_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#app_armor_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#capabilities DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#capabilities DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#privileged DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#privileged DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#proc_mount DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#proc_mount DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only_root_filesystem DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only_root_filesystem DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_non_root DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_non_root DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#run_as_user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#se_linux_options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#se_linux_options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#seccomp_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#seccomp_profile DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#windows_options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#windows_options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecurityContextWindowsOptions;
 }
@@ -10671,31 +10671,31 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecToler
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#effect DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#effect DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#toleration_seconds DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#toleration_seconds DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#value DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#value DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -10929,43 +10929,43 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mount_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mount_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mount_propagation DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mount_propagation DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#recursive_read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#recursive_read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#sub_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#sub_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#sub_path_expr DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#sub_path_expr DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -11251,25 +11251,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#partition DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#partition DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -11449,37 +11449,37 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#caching_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#caching_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#disk_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#disk_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#disk_uri DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#disk_uri DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#kind DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#kind DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -11714,19 +11714,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#share_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#share_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -11874,7 +11874,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -11970,37 +11970,37 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#monitors DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#monitors DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_file DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_file DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -12238,7 +12238,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12334,25 +12334,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -12532,19 +12532,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -12714,25 +12714,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#default_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#default_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12915,7 +12915,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13011,31 +13011,31 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#driver DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#driver DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_publish_secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_publish_secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_attributes DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_attributes DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -13244,13 +13244,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_version DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_version DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -13372,19 +13372,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#container_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#container_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#divisor DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#divisor DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -13535,25 +13535,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource_field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource_field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -13755,13 +13755,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#default_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#default_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -13886,13 +13886,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#medium DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#medium DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#size_limit DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#size_limit DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -14015,23 +14015,23 @@ export class DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEm
 }
 export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#annotations DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#annotations DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#finalizers DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#finalizers DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14243,19 +14243,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#kind DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#kind DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -14403,25 +14403,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#kind DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#kind DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#namespace DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14598,13 +14598,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#limits DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#limits DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#requests DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#requests DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -14729,19 +14729,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14911,13 +14911,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15042,55 +15042,55 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#access_modes DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#access_modes DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#data_source DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#data_source DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#data_source_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#data_source_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resources DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resources DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_class_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_class_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Alpha) Using this field requires the VolumeAttributesClass feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_attributes_class_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_attributes_class_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -15418,13 +15418,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#metadata DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#metadata DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateMetadata;
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#spec DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#spec DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -15546,7 +15546,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_claim_template DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_claim_template DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplate;
 }
@@ -15642,31 +15642,31 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#lun DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#lun DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#target_ww_ns DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#target_ww_ns DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#wwids DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#wwids DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -15878,7 +15878,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -15974,31 +15974,31 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#driver DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#driver DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#options DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesFlexVolumeSecretRef;
 }
@@ -16207,13 +16207,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#dataset_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#dataset_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#dataset_uuid DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#dataset_uuid DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -16338,25 +16338,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#partition DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#partition DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pd_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pd_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -16536,19 +16536,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#directory DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#directory DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#repository DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#repository DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#revision DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#revision DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -16699,19 +16699,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#endpoints DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#endpoints DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -16859,13 +16859,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -16987,7 +16987,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17083,67 +17083,67 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#chap_auth_discovery DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#chap_auth_discovery DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#chap_auth_session DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#chap_auth_session DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#initiator_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#initiator_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#iqn DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#iqn DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#iscsi_interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#iscsi_interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#lun DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#lun DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#portals DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#portals DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#target_portal DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#target_portal DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -17520,19 +17520,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#server DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#server DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -17680,13 +17680,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#claim_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#claim_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -17808,13 +17808,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pd_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pd_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -17936,19 +17936,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -18099,19 +18099,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#operator DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#values DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18281,13 +18281,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_expressions DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#match_labels DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18412,31 +18412,31 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#label_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#signer_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#signer_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -18645,19 +18645,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -18827,19 +18827,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18993,13 +18993,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_version DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#api_version DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -19121,19 +19121,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#container_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#container_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#divisor DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#divisor DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -19284,25 +19284,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource_field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resource_field_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -19504,7 +19504,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -19600,19 +19600,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -19782,19 +19782,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19948,19 +19948,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#audience DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#audience DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#expiration_seconds DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#expiration_seconds DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -20111,31 +20111,31 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#cluster_trust_bundle DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#cluster_trust_bundle DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#config_map DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#config_map DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#downward_api DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#downward_api DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#service_account_token DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#service_account_token DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSourcesServiceAccountToken;
 }
@@ -20369,13 +20369,13 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#default_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#default_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#sources DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#sources DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -20500,37 +20500,37 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#group DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#registry DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#registry DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#tenant DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#tenant DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -20765,7 +20765,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -20861,49 +20861,49 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#image DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#image DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#keyring DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#keyring DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#monitors DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#monitors DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pool DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pool DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#user DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -21196,7 +21196,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -21292,61 +21292,61 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gateway DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gateway DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#protection_domain DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#protection_domain DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#ssl_enabled DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#ssl_enabled DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_pool DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_pool DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#system DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#system DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -21694,19 +21694,19 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#key DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -21876,25 +21876,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#default_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#default_mode DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#items DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#optional DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -22077,7 +22077,7 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22173,31 +22173,31 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#read_only DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret_ref DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_namespace DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_namespace DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -22409,25 +22409,25 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fs_type DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_policy_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_policy_id DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_policy_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storage_policy_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -22607,181 +22607,181 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolum
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#aws_elastic_block_store DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#aws_elastic_block_store DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#azure_disk DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#azure_disk DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#azure_file DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#azure_file DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#cephfs DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#cephfs DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#cinder DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#cinder DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#config_map DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#config_map DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#csi DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#csi DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#downward_api DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#downward_api DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#empty_dir DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#empty_dir DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#ephemeral DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#ephemeral DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fc DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#fc DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#flex_volume DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#flex_volume DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#flocker DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#flocker DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gce_persistent_disk DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#gce_persistent_disk DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#git_repo DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#git_repo DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#glusterfs DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#glusterfs DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#host_path DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#iscsi DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#iscsi DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#nfs DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#nfs DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#persistent_volume_claim DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#persistent_volume_claim DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#photon_persistent_disk DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#photon_persistent_disk DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#portworx_volume DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#portworx_volume DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#projected DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#projected DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#quobyte DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#quobyte DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#rbd DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#rbd DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#scale_io DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#scale_io DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#secret DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storageos DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#storageos DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#vsphere_volume DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#vsphere_volume DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumesVsphereVolume;
 }
@@ -23737,127 +23737,127 @@ export interface DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpec {
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#affinity DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#affinity DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecAffinity;
   /**
   * Arguments to the entrypoint. The docker image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#args DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#args DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#env DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#env DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#env_from DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#env_from DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecEnvFrom[] | cdktf.IResolvable;
   /**
   * Docker image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#image DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#image DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#image_pull_policy DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#image_pull_policy DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec. If specified, these secrets will be passed to individual puller implementations for them to use. For example, in the case of docker, only DockerConfig type secrets are honored. More info: https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod Setting ImagePullSecrets will replace any secrets that have been propagated to a controller Deployment, typically via packagePullSecrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#image_pull_secrets DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#image_pull_secrets DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Metadata that will be added to the provider Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#metadata DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#metadata DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecMetadata;
   /**
   * NodeName is a request to schedule this pod onto a specific node. If it is non-empty, the scheduler simply schedules this pod onto that node, assuming that it fits resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#node_selector DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext holds pod-level security attributes and common container settings. Optional: Defaults to empty. See type description for default values of each field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_security_context DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#pod_security_context DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPodSecurityContext;
   /**
   * List of container ports to expose on the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#ports DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#ports DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecPorts[] | cdktf.IResolvable;
   /**
   * If specified, indicates the pod's priority. 'system-node-critical' and 'system-cluster-critical' are two special keywords which indicate the highest priorities with the former being the highest priority. Any other name must be defined by creating a PriorityClass object with that name. If not specified, the pod priority will be default or zero if there is no default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#priority_class_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#priority_class_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Number of desired pods. This is a pointer to distinguish between explicit zero and not specified. Defaults to 1. Note: If more than 1 replica is set and leader election is not enabled then controllers could conflict. Environment variable 'LEADER_ELECTION' can be used to enable leader election process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#replicas DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#replicas DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resources DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#resources DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecResources;
   /**
   * RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run this pod. If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the 'legacy' RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/585-runtime-class/README.md This is a beta feature as of Kubernetes v1.14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#runtime_class_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#runtime_class_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
   * SecurityContext holds container-level security attributes and common container settings. Optional: Defaults to empty. See type description for default values of each field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#security_context DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#security_context DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecSecurityContext;
   /**
   * ServiceAccountName is the name of the ServiceAccount to use to run this pod. More info: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/ If specified, a ServiceAccount named this ServiceAccountName will be used for the spec.serviceAccountName field in Pods to be created and for the subjects.name field in a ClusterRoleBinding to be created. If there is no ServiceAccount named this ServiceAccountName, a new ServiceAccount will be created. If there is a pre-existing ServiceAccount named this ServiceAccountName, the ServiceAccount will be used. The annotations in the ControllerConfig will be copied to the ServiceAccount and pre-existing annotations will be kept. Regardless of whether there is a ServiceAccount created by Crossplane or is in place already, the ServiceAccount will be deleted once the Provider and ControllerConfig are deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#service_account_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#service_account_name DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#tolerations DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#tolerations DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
   * List of VolumeMounts to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_mounts DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volume_mounts DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumeMounts[] | cdktf.IResolvable;
   /**
   * List of volumes that can be mounted by containers belonging to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volumes DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#volumes DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecVolumes[] | cdktf.IResolvable;
 }
@@ -24531,7 +24531,7 @@ export class DataK8SPkgCrossplaneIoControllerConfigV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest k8s_pkg_crossplane_io_controller_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest k8s_pkg_crossplane_io_controller_config_v1alpha1_manifest}
 */
 export class DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -24547,7 +24547,7 @@ export class DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -24559,7 +24559,7 @@ export class DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest k8s_pkg_crossplane_io_controller_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/pkg_crossplane_io_controller_config_v1alpha1_manifest k8s_pkg_crossplane_io_controller_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -24570,8 +24570,8 @@ export class DataK8SPkgCrossplaneIoControllerConfigV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_pkg_crossplane_io_controller_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface MdbGreenplumClusterV2Config extends cdktf.TerraformMetaArgument
   /**
   * Cloud storage settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#cloud_storage MdbGreenplumClusterV2#cloud_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#cloud_storage MdbGreenplumClusterV2#cloud_storage}
   */
   readonly cloudStorage?: MdbGreenplumClusterV2CloudStorage;
   /**
   * Greenplum® and Odyssey® configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#cluster_config MdbGreenplumClusterV2#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#cluster_config MdbGreenplumClusterV2#cluster_config}
   */
   readonly clusterConfig?: MdbGreenplumClusterV2ClusterConfig;
   /**
   * Greenplum® cluster configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#config MdbGreenplumClusterV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#config MdbGreenplumClusterV2#config}
   */
   readonly config: MdbGreenplumClusterV2ConfigA;
   /**
   * Determines whether the cluster is protected from being deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#deletion_protection MdbGreenplumClusterV2#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#deletion_protection MdbGreenplumClusterV2#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the Greenplum® cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#description MdbGreenplumClusterV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#description MdbGreenplumClusterV2#description}
   */
   readonly description?: string;
   /**
   * Deployment environment of the Greenplum® cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#environment MdbGreenplumClusterV2#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#environment MdbGreenplumClusterV2#environment}
   */
   readonly environment: string;
   /**
   * ID of the folder that the Greenplum® cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#folder_id MdbGreenplumClusterV2#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#folder_id MdbGreenplumClusterV2#folder_id}
   */
   readonly folderId?: string;
   /**
   * Host groups hosting VMs of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#host_group_ids MdbGreenplumClusterV2#host_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#host_group_ids MdbGreenplumClusterV2#host_group_ids}
   */
   readonly hostGroupIds?: string[];
   /**
@@ -60,7 +60,7 @@ export interface MdbGreenplumClusterV2Config extends cdktf.TerraformMetaArgument
   * 
   *  To get the cluster ID, use a [ClusterService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#id MdbGreenplumClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#id MdbGreenplumClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,108 +69,108 @@ export interface MdbGreenplumClusterV2Config extends cdktf.TerraformMetaArgument
   /**
   * Custom labels for the Greenplum® cluster as `key:value` pairs. Maximum 64 labels per resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#labels MdbGreenplumClusterV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#labels MdbGreenplumClusterV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Cloud logging configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#logging MdbGreenplumClusterV2#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#logging MdbGreenplumClusterV2#logging}
   */
   readonly logging?: MdbGreenplumClusterV2Logging;
   /**
   * A Greenplum® cluster maintenance window. Should be defined by either one of the two options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#maintenance_window MdbGreenplumClusterV2#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#maintenance_window MdbGreenplumClusterV2#maintenance_window}
   */
   readonly maintenanceWindow?: MdbGreenplumClusterV2MaintenanceWindow;
   /**
   * Configuration of the Greenplum® master subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#master_config MdbGreenplumClusterV2#master_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#master_config MdbGreenplumClusterV2#master_config}
   */
   readonly masterConfig?: MdbGreenplumClusterV2MasterConfig;
   /**
   * Number of hosts in the master subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#master_host_count MdbGreenplumClusterV2#master_host_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#master_host_count MdbGreenplumClusterV2#master_host_count}
   */
   readonly masterHostCount?: number;
   /**
   * Host groups hosting VMs of the master subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#master_host_group_ids MdbGreenplumClusterV2#master_host_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#master_host_group_ids MdbGreenplumClusterV2#master_host_group_ids}
   */
   readonly masterHostGroupIds?: string[];
   /**
   * Name of the Greenplum® cluster.
   *  The name is unique within the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#name MdbGreenplumClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#name MdbGreenplumClusterV2#name}
   */
   readonly name: string;
   /**
   * ID of the cloud network that the cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#network_id MdbGreenplumClusterV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#network_id MdbGreenplumClusterV2#network_id}
   */
   readonly networkId: string;
   /**
   * The cluster will be created from the specified backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#restore MdbGreenplumClusterV2#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#restore MdbGreenplumClusterV2#restore}
   */
   readonly restore?: MdbGreenplumClusterV2Restore;
   /**
   * User security groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#security_group_ids MdbGreenplumClusterV2#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#security_group_ids MdbGreenplumClusterV2#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Configuration of the Greenplum® segment subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#segment_config MdbGreenplumClusterV2#segment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#segment_config MdbGreenplumClusterV2#segment_config}
   */
   readonly segmentConfig?: MdbGreenplumClusterV2SegmentConfig;
   /**
   * Number of hosts in the segment subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#segment_host_count MdbGreenplumClusterV2#segment_host_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#segment_host_count MdbGreenplumClusterV2#segment_host_count}
   */
   readonly segmentHostCount?: number;
   /**
   * Host groups hosting VMs of the segment subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#segment_host_group_ids MdbGreenplumClusterV2#segment_host_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#segment_host_group_ids MdbGreenplumClusterV2#segment_host_group_ids}
   */
   readonly segmentHostGroupIds?: string[];
   /**
   * Number of segments per host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#segment_in_host MdbGreenplumClusterV2#segment_in_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#segment_in_host MdbGreenplumClusterV2#segment_in_host}
   */
   readonly segmentInHost?: number;
   /**
   * Service account that will be used to access a Yandex Cloud resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#service_account_id MdbGreenplumClusterV2#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#service_account_id MdbGreenplumClusterV2#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#timeouts MdbGreenplumClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#timeouts MdbGreenplumClusterV2#timeouts}
   */
   readonly timeouts?: MdbGreenplumClusterV2Timeouts;
   /**
   * Owner user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#user_name MdbGreenplumClusterV2#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#user_name MdbGreenplumClusterV2#user_name}
   */
   readonly userName: string;
   /**
   * Owner user password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#user_password MdbGreenplumClusterV2#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#user_password MdbGreenplumClusterV2#user_password}
   */
   readonly userPassword: string;
 }
@@ -178,7 +178,7 @@ export interface MdbGreenplumClusterV2CloudStorage {
   /**
   * enable Cloud Storage for cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#enable MdbGreenplumClusterV2#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#enable MdbGreenplumClusterV2#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -274,13 +274,13 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesAnalyzeAn
   /**
   * hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#hours MdbGreenplumClusterV2#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#hours MdbGreenplumClusterV2#hours}
   */
   readonly hours?: number;
   /**
   * minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#minutes MdbGreenplumClusterV2#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#minutes MdbGreenplumClusterV2#minutes}
   */
   readonly minutes?: number;
 }
@@ -405,19 +405,19 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesAnalyzeAn
   /**
   * Maximum duration of the `ANALYZE` operation, in seconds. The default value is `36000`. As soon as this period expires, the `ANALYZE` operation will be forced to terminate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#analyze_timeout MdbGreenplumClusterV2#analyze_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#analyze_timeout MdbGreenplumClusterV2#analyze_timeout}
   */
   readonly analyzeTimeout?: number;
   /**
   * Time when analyze will start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#start MdbGreenplumClusterV2#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#start MdbGreenplumClusterV2#start}
   */
   readonly start?: MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesAnalyzeAndVacuumStart;
   /**
   * Maximum duration of the `VACUUM` operation, in seconds. The default value is `36000`. As soon as this period expires, the `VACUUM` operation will be forced to terminate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#vacuum_timeout MdbGreenplumClusterV2#vacuum_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#vacuum_timeout MdbGreenplumClusterV2#vacuum_timeout}
   */
   readonly vacuumTimeout?: number;
 }
@@ -571,19 +571,19 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesQueryKill
   /**
   * Use query killer or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#enable MdbGreenplumClusterV2#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#enable MdbGreenplumClusterV2#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Ignore these users when considering queries to terminate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#ignore_users MdbGreenplumClusterV2#ignore_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#ignore_users MdbGreenplumClusterV2#ignore_users}
   */
   readonly ignoreUsers?: string[];
   /**
   * Maximum duration for this type of queries (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#max_age MdbGreenplumClusterV2#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#max_age MdbGreenplumClusterV2#max_age}
   */
   readonly maxAge?: number;
 }
@@ -737,19 +737,19 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesQueryKill
   /**
   * Use query killer or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#enable MdbGreenplumClusterV2#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#enable MdbGreenplumClusterV2#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Ignore these users when considering queries to terminate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#ignore_users MdbGreenplumClusterV2#ignore_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#ignore_users MdbGreenplumClusterV2#ignore_users}
   */
   readonly ignoreUsers?: string[];
   /**
   * Maximum duration for this type of queries (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#max_age MdbGreenplumClusterV2#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#max_age MdbGreenplumClusterV2#max_age}
   */
   readonly maxAge?: number;
 }
@@ -903,19 +903,19 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesQueryKill
   /**
   * Use query killer or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#enable MdbGreenplumClusterV2#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#enable MdbGreenplumClusterV2#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Ignore these users when considering queries to terminate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#ignore_users MdbGreenplumClusterV2#ignore_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#ignore_users MdbGreenplumClusterV2#ignore_users}
   */
   readonly ignoreUsers?: string[];
   /**
   * Maximum duration for this type of queries (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#max_age MdbGreenplumClusterV2#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#max_age MdbGreenplumClusterV2#max_age}
   */
   readonly maxAge?: number;
 }
@@ -1069,19 +1069,19 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesQueryKill
   /**
   * Configuration of script that kills long running queries that are in `idle` state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#idle MdbGreenplumClusterV2#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#idle MdbGreenplumClusterV2#idle}
   */
   readonly idle?: MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesQueryKillerScriptsIdle;
   /**
   * Configuration of script that kills long running queries that are in `idle in transaction` state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#idle_in_transaction MdbGreenplumClusterV2#idle_in_transaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#idle_in_transaction MdbGreenplumClusterV2#idle_in_transaction}
   */
   readonly idleInTransaction?: MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesQueryKillerScriptsIdleInTransaction;
   /**
   * Configuration of script that kills long running queries (in any state).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#long_running MdbGreenplumClusterV2#long_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#long_running MdbGreenplumClusterV2#long_running}
   */
   readonly longRunning?: MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesQueryKillerScriptsLongRunning;
 }
@@ -1235,13 +1235,13 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesTableSize
   /**
   * hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#hours MdbGreenplumClusterV2#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#hours MdbGreenplumClusterV2#hours}
   */
   readonly hours?: number;
   /**
   * minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#minutes MdbGreenplumClusterV2#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#minutes MdbGreenplumClusterV2#minutes}
   */
   readonly minutes?: number;
 }
@@ -1388,7 +1388,7 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesTableSize
   /**
   * Time when start "table_sizes" script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#starts MdbGreenplumClusterV2#starts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#starts MdbGreenplumClusterV2#starts}
   */
   readonly starts?: MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesTableSizesStarts[] | cdktf.IResolvable;
 }
@@ -1484,19 +1484,19 @@ export interface MdbGreenplumClusterV2ClusterConfigBackgroundActivities {
   /**
   * Configuration for `ANALYZE` and `VACUUM` operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#analyze_and_vacuum MdbGreenplumClusterV2#analyze_and_vacuum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#analyze_and_vacuum MdbGreenplumClusterV2#analyze_and_vacuum}
   */
   readonly analyzeAndVacuum?: MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesAnalyzeAndVacuum;
   /**
   * Configuration for long running queries killer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#query_killer_scripts MdbGreenplumClusterV2#query_killer_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#query_killer_scripts MdbGreenplumClusterV2#query_killer_scripts}
   */
   readonly queryKillerScripts?: MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesQueryKillerScripts;
   /**
   * Enables scripts that collects tables sizes to `*_sizes` tables in `mdb_toolkit` schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#table_sizes MdbGreenplumClusterV2#table_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#table_sizes MdbGreenplumClusterV2#table_sizes}
   */
   readonly tableSizes?: MdbGreenplumClusterV2ClusterConfigBackgroundActivitiesTableSizes;
 }
@@ -1650,28 +1650,28 @@ export interface MdbGreenplumClusterV2ClusterConfigGreenplumConfig {
   /**
   * https://docs.vmware.com/en/VMware-Tanzu-Greenplum/6/greenplum-database/GUID-ref_guide-config_params-guc-list.html#gp_add_column_inherits_table_setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_add_column_inherits_table_setting MdbGreenplumClusterV2#gp_add_column_inherits_table_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_add_column_inherits_table_setting MdbGreenplumClusterV2#gp_add_column_inherits_table_setting}
   */
   readonly gpAddColumnInheritsTableSetting?: boolean | cdktf.IResolvable;
   /**
   * Specifies the mode for triggering automatic statistics collection after DML.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_autostats_mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_autostats_mode MdbGreenplumClusterV2#gp_autostats_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_autostats_mode MdbGreenplumClusterV2#gp_autostats_mode}
   */
   readonly gpAutostatsMode?: string;
   /**
   * Specifies the threshold for automatic statistics collection when gp_autostats_mode is set to on_change.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_autostats_on_change_threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_autostats_on_change_threshold MdbGreenplumClusterV2#gp_autostats_on_change_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_autostats_on_change_threshold MdbGreenplumClusterV2#gp_autostats_on_change_threshold}
   */
   readonly gpAutostatsOnChangeThreshold?: number;
   /**
   * Define amount of working processes in segment, that keeping in warm cash after end of query for usage again in next queries.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_cached_segworkers_threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_cached_segworkers_threshold MdbGreenplumClusterV2#gp_cached_segworkers_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_cached_segworkers_threshold MdbGreenplumClusterV2#gp_cached_segworkers_threshold}
   */
   readonly gpCachedSegworkersThreshold?: number;
   /**
@@ -1680,55 +1680,55 @@ export interface MdbGreenplumClusterV2ClusterConfigGreenplumConfig {
   *  If the Global Deadlock Detector is enabled, concurrent updates are permitted and the Global Deadlock Detector determines when a deadlock exists, and breaks the deadlock by cancelling one or more backend processes associated with the youngest transaction(s) involved.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_enable_global_deadlock_detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_enable_global_deadlock_detector MdbGreenplumClusterV2#gp_enable_global_deadlock_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_enable_global_deadlock_detector MdbGreenplumClusterV2#gp_enable_global_deadlock_detector}
   */
   readonly gpEnableGlobalDeadlockDetector?: boolean | cdktf.IResolvable;
   /**
   * Forces ZSTD lib use Greenplum memory allocation system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_enable_zstd_memory_accounting MdbGreenplumClusterV2#gp_enable_zstd_memory_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_enable_zstd_memory_accounting MdbGreenplumClusterV2#gp_enable_zstd_memory_accounting}
   */
   readonly gpEnableZstdMemoryAccounting?: boolean | cdktf.IResolvable;
   /**
   * Specifies the executing interval (in seconds) of the global deadlock detector background worker process.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_global_deadlock_detector_period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_global_deadlock_detector_period MdbGreenplumClusterV2#gp_global_deadlock_detector_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_global_deadlock_detector_period MdbGreenplumClusterV2#gp_global_deadlock_detector_period}
   */
   readonly gpGlobalDeadlockDetectorPeriod?: number;
   /**
   * Specifies the total maximum uncompressed size of a query execution plan multiplied by the number of Motion operators (slices) in the plan.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_max_plan_size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_max_plan_size MdbGreenplumClusterV2#gp_max_plan_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_max_plan_size MdbGreenplumClusterV2#gp_max_plan_size}
   */
   readonly gpMaxPlanSize?: number;
   /**
   * Max amount of slice-processes for one query in one segment.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_max_slices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_max_slices MdbGreenplumClusterV2#gp_max_slices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_max_slices MdbGreenplumClusterV2#gp_max_slices}
   */
   readonly gpMaxSlices?: number;
   /**
   * Identifies the maximum percentage of system memory resources to allocate to resource groups on each Greenplum Database segment node.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_resource_group_memory_limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_resource_group_memory_limit MdbGreenplumClusterV2#gp_resource_group_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_resource_group_memory_limit MdbGreenplumClusterV2#gp_resource_group_memory_limit}
   */
   readonly gpResourceGroupMemoryLimit?: number;
   /**
   * Set memory limit (in MB) for working process. If a query executor process consumes more than this configured amount, then the process will not be cached for use in subsequent queries after the process completes.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#gp_vmem_protect_segworker_cache_limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_vmem_protect_segworker_cache_limit MdbGreenplumClusterV2#gp_vmem_protect_segworker_cache_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_vmem_protect_segworker_cache_limit MdbGreenplumClusterV2#gp_vmem_protect_segworker_cache_limit}
   */
   readonly gpVmemProtectSegworkerCacheLimit?: number;
   /**
   * Specifies whether the temporary files created, when a hash aggregation or hash join operation spills to disk, are compressed.
   *  https://docs.greenplum.org/6-5/ref_guide/config_params/guc-list.html#gp_workfile_compression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_workfile_compression MdbGreenplumClusterV2#gp_workfile_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_workfile_compression MdbGreenplumClusterV2#gp_workfile_compression}
   */
   readonly gpWorkfileCompression?: boolean | cdktf.IResolvable;
   /**
@@ -1739,7 +1739,7 @@ export interface MdbGreenplumClusterV2ClusterConfigGreenplumConfig {
   *  https://docs.greenplum.org/6-5/ref_guide/config_params/guc-list.html#gp_workfile_limit_files_per_query
   *  Default value is 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_workfile_limit_files_per_query MdbGreenplumClusterV2#gp_workfile_limit_files_per_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_workfile_limit_files_per_query MdbGreenplumClusterV2#gp_workfile_limit_files_per_query}
   */
   readonly gpWorkfileLimitFilesPerQuery?: number;
   /**
@@ -1747,7 +1747,7 @@ export interface MdbGreenplumClusterV2ClusterConfigGreenplumConfig {
   *  The default value is 0, which means a limit is not enforced.
   *  https://docs.greenplum.org/6-5/ref_guide/config_params/guc-list.html#gp_workfile_limit_per_query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_workfile_limit_per_query MdbGreenplumClusterV2#gp_workfile_limit_per_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_workfile_limit_per_query MdbGreenplumClusterV2#gp_workfile_limit_per_query}
   */
   readonly gpWorkfileLimitPerQuery?: number;
   /**
@@ -1755,21 +1755,21 @@ export interface MdbGreenplumClusterV2ClusterConfigGreenplumConfig {
   *  The default value is 0, which means a limit is not enforced.
   *  https://docs.greenplum.org/6-5/ref_guide/config_params/guc-list.html#gp_workfile_limit_per_segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#gp_workfile_limit_per_segment MdbGreenplumClusterV2#gp_workfile_limit_per_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#gp_workfile_limit_per_segment MdbGreenplumClusterV2#gp_workfile_limit_per_segment}
   */
   readonly gpWorkfileLimitPerSegment?: number;
   /**
   * Max time (in ms) which session can idle in open transaction
   *  https://postgrespro.ru/docs/postgrespro/current/runtime-config-client#GUC-IDLE-IN-TRANSACTION-SESSION-TIMEOUT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#idle_in_transaction_session_timeout MdbGreenplumClusterV2#idle_in_transaction_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#idle_in_transaction_session_timeout MdbGreenplumClusterV2#idle_in_transaction_session_timeout}
   */
   readonly idleInTransactionSessionTimeout?: number;
   /**
   * Max time (in ms) which query will wait lock free on object
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#lock_timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#lock_timeout MdbGreenplumClusterV2#lock_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#lock_timeout MdbGreenplumClusterV2#lock_timeout}
   */
   readonly lockTimeout?: number;
   /**
@@ -1779,27 +1779,27 @@ export interface MdbGreenplumClusterV2ClusterConfigGreenplumConfig {
   *  https://docs.greenplum.org/6-5/ref_guide/config_params/guc-list.html#log_statement
   *  Default value is ddl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#log_statement MdbGreenplumClusterV2#log_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#log_statement MdbGreenplumClusterV2#log_statement}
   */
   readonly logStatement?: string;
   /**
   * Maximum number of inbound connections on master segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#max_connections MdbGreenplumClusterV2#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#max_connections MdbGreenplumClusterV2#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * Sets the maximum number of transactions that can be in the "prepared" state simultaneously
   *  https://www.postgresql.org/docs/9.6/runtime-config-resource.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#max_prepared_transactions MdbGreenplumClusterV2#max_prepared_transactions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#max_prepared_transactions MdbGreenplumClusterV2#max_prepared_transactions}
   */
   readonly maxPreparedTransactions?: number;
   /**
   * Specify the maximum size of WAL files that replication slots are allowed to retain in the pg_wal directory at checkpoint time.
   *  https://www.postgresql.org/docs/current/runtime-config-replication.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#max_slot_wal_keep_size MdbGreenplumClusterV2#max_slot_wal_keep_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#max_slot_wal_keep_size MdbGreenplumClusterV2#max_slot_wal_keep_size}
   */
   readonly maxSlotWalKeepSize?: number;
   /**
@@ -1810,14 +1810,14 @@ export interface MdbGreenplumClusterV2ClusterConfigGreenplumConfig {
   *  https://greenplum.docs.pivotal.io/6-19/ref_guide/config_params/guc-list.html#max_statement_mem
   *  Default value is 2097152000 (2000MB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#max_statement_mem MdbGreenplumClusterV2#max_statement_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#max_statement_mem MdbGreenplumClusterV2#max_statement_mem}
   */
   readonly maxStatementMem?: number;
   /**
   * Percent of utilized Greenplum Database vmem that triggers the termination of queries.
   *  https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-greenplum/6/greenplum-database/ref_guide-config_params-guc-list.html#runaway_detector_activation_percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#runaway_detector_activation_percent MdbGreenplumClusterV2#runaway_detector_activation_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#runaway_detector_activation_percent MdbGreenplumClusterV2#runaway_detector_activation_percent}
   */
   readonly runawayDetectorActivationPercent?: number;
 }
@@ -2555,7 +2555,7 @@ export interface MdbGreenplumClusterV2ClusterConfigPool {
   * 
   *  Set to zero to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#client_idle_timeout MdbGreenplumClusterV2#client_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#client_idle_timeout MdbGreenplumClusterV2#client_idle_timeout}
   */
   readonly clientIdleTimeout?: number;
   /**
@@ -2565,13 +2565,13 @@ export interface MdbGreenplumClusterV2ClusterConfigPool {
   * 
   *  Set to zero to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#idle_in_transaction_timeout MdbGreenplumClusterV2#idle_in_transaction_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#idle_in_transaction_timeout MdbGreenplumClusterV2#idle_in_transaction_timeout}
   */
   readonly idleInTransactionTimeout?: number;
   /**
   * Route server pool mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#mode MdbGreenplumClusterV2#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#mode MdbGreenplumClusterV2#mode}
   */
   readonly mode?: string;
   /**
@@ -2579,7 +2579,7 @@ export interface MdbGreenplumClusterV2ClusterConfigPool {
   * 
   *  Set to zero to disable the limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#size MdbGreenplumClusterV2#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#size MdbGreenplumClusterV2#size}
   */
   readonly size?: number;
 }
@@ -2764,7 +2764,7 @@ export interface MdbGreenplumClusterV2ClusterConfigPxfConfig {
   * 
   *  Specify values in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#connection_timeout MdbGreenplumClusterV2#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#connection_timeout MdbGreenplumClusterV2#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
@@ -2772,25 +2772,25 @@ export interface MdbGreenplumClusterV2ClusterConfigPxfConfig {
   * 
   *  To prevent situations when requests get stuck or fail due to running out of memory or malfunctioning of the Java garbage collector, specify the number of the Apache Tomcat® threads. Learn more about adjusting the number of threads in the [VMware Greenplum® Platform Extension Framework](https://docs.vmware.com/en/VMware-Greenplum-Platform-Extension-Framework/6.9/greenplum-platform-extension-framework/cfg_mem.html) documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#max_threads MdbGreenplumClusterV2#max_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#max_threads MdbGreenplumClusterV2#max_threads}
   */
   readonly maxThreads?: number;
   /**
   * Determines whether the timeout for core streaming threads is permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#pool_allow_core_thread_timeout MdbGreenplumClusterV2#pool_allow_core_thread_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#pool_allow_core_thread_timeout MdbGreenplumClusterV2#pool_allow_core_thread_timeout}
   */
   readonly poolAllowCoreThreadTimeout?: boolean | cdktf.IResolvable;
   /**
   * Number of core streaming threads per pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#pool_core_size MdbGreenplumClusterV2#pool_core_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#pool_core_size MdbGreenplumClusterV2#pool_core_size}
   */
   readonly poolCoreSize?: number;
   /**
   * Maximum allowed number of core streaming threads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#pool_max_size MdbGreenplumClusterV2#pool_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#pool_max_size MdbGreenplumClusterV2#pool_max_size}
   */
   readonly poolMaxSize?: number;
   /**
@@ -2798,7 +2798,7 @@ export interface MdbGreenplumClusterV2ClusterConfigPxfConfig {
   * 
   *  If `0`, no pool queue is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#pool_queue_capacity MdbGreenplumClusterV2#pool_queue_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#pool_queue_capacity MdbGreenplumClusterV2#pool_queue_capacity}
   */
   readonly poolQueueCapacity?: number;
   /**
@@ -2806,19 +2806,19 @@ export interface MdbGreenplumClusterV2ClusterConfigPxfConfig {
   * 
   *  Specify the values in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#upload_timeout MdbGreenplumClusterV2#upload_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#upload_timeout MdbGreenplumClusterV2#upload_timeout}
   */
   readonly uploadTimeout?: number;
   /**
   * Maximum size, in megabytes, of the JVM heap for the PXF daemon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#xms MdbGreenplumClusterV2#xms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#xms MdbGreenplumClusterV2#xms}
   */
   readonly xms?: number;
   /**
   * Initial size, in megabytes, of the JVM heap for the PXF daemon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#xmx MdbGreenplumClusterV2#xmx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#xmx MdbGreenplumClusterV2#xmx}
   */
   readonly xmx?: number;
 }
@@ -3146,7 +3146,7 @@ export interface MdbGreenplumClusterV2ClusterConfig {
   /**
   * Managed Greenplum® background tasks configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#background_activities MdbGreenplumClusterV2#background_activities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#background_activities MdbGreenplumClusterV2#background_activities}
   */
   readonly backgroundActivities?: MdbGreenplumClusterV2ClusterConfigBackgroundActivities;
   /**
@@ -3154,13 +3154,13 @@ export interface MdbGreenplumClusterV2ClusterConfig {
   * filename: yandex/cloud/mdb/greenplum/v1/cluster_service.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#greenplum_config MdbGreenplumClusterV2#greenplum_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#greenplum_config MdbGreenplumClusterV2#greenplum_config}
   */
   readonly greenplumConfig?: MdbGreenplumClusterV2ClusterConfigGreenplumConfig;
   /**
   * Odyssey® pool settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#pool MdbGreenplumClusterV2#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#pool MdbGreenplumClusterV2#pool}
   */
   readonly pool?: MdbGreenplumClusterV2ClusterConfigPool;
   /**
@@ -3168,7 +3168,7 @@ export interface MdbGreenplumClusterV2ClusterConfig {
   * filename: yandex/cloud/mdb/greenplum/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#pxf_config MdbGreenplumClusterV2#pxf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#pxf_config MdbGreenplumClusterV2#pxf_config}
   */
   readonly pxfConfig?: MdbGreenplumClusterV2ClusterConfigPxfConfig;
 }
@@ -3351,25 +3351,25 @@ export interface MdbGreenplumClusterV2ConfigAccess {
   /**
   * Allows data export from the cluster to DataLens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#data_lens MdbGreenplumClusterV2#data_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#data_lens MdbGreenplumClusterV2#data_lens}
   */
   readonly dataLens?: boolean | cdktf.IResolvable;
   /**
   * Allows access for DataTransfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#data_transfer MdbGreenplumClusterV2#data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#data_transfer MdbGreenplumClusterV2#data_transfer}
   */
   readonly dataTransfer?: boolean | cdktf.IResolvable;
   /**
   * Allows SQL queries to the cluster databases from the management console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#web_sql MdbGreenplumClusterV2#web_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#web_sql MdbGreenplumClusterV2#web_sql}
   */
   readonly webSql?: boolean | cdktf.IResolvable;
   /**
   * Allow access for YandexQuery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#yandex_query MdbGreenplumClusterV2#yandex_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#yandex_query MdbGreenplumClusterV2#yandex_query}
   */
   readonly yandexQuery?: boolean | cdktf.IResolvable;
 }
@@ -3552,7 +3552,7 @@ export interface MdbGreenplumClusterV2ConfigA {
   /**
   * Access policy for external services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#access MdbGreenplumClusterV2#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#access MdbGreenplumClusterV2#access}
   */
   readonly access?: MdbGreenplumClusterV2ConfigAccess;
   /**
@@ -3560,38 +3560,38 @@ export interface MdbGreenplumClusterV2ConfigA {
   * 
   *  After the cluster has been created, this setting cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#assign_public_ip MdbGreenplumClusterV2#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#assign_public_ip MdbGreenplumClusterV2#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Retention policy of automated backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#backup_retain_period_days MdbGreenplumClusterV2#backup_retain_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#backup_retain_period_days MdbGreenplumClusterV2#backup_retain_period_days}
   */
   readonly backupRetainPeriodDays?: number;
   /**
   * Time to start the daily backup, in the UTC timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#backup_window_start MdbGreenplumClusterV2#backup_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#backup_window_start MdbGreenplumClusterV2#backup_window_start}
   */
   readonly backupWindowStart?: string;
   /**
   * ID of the subnet the cluster belongs to. This subnet should be a part of the cloud network the cluster belongs to (see [Cluster.network_id]).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#subnet_id MdbGreenplumClusterV2#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#subnet_id MdbGreenplumClusterV2#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Version of the Greenplum® server software.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#version MdbGreenplumClusterV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#version MdbGreenplumClusterV2#version}
   */
   readonly version?: string;
   /**
   * ID of the availability zone the cluster belongs to.
   *  To get a list of available zones, use the [yandex.cloud.compute.v1.ZoneService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#zone_id MdbGreenplumClusterV2#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#zone_id MdbGreenplumClusterV2#zone_id}
   */
   readonly zoneId: string;
 }
@@ -3858,7 +3858,7 @@ export interface MdbGreenplumClusterV2Logging {
   /**
   * send Yandex Command Center logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#command_center_enabled MdbGreenplumClusterV2#command_center_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#command_center_enabled MdbGreenplumClusterV2#command_center_enabled}
   */
   readonly commandCenterEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -3866,7 +3866,7 @@ export interface MdbGreenplumClusterV2Logging {
   * filename: yandex/cloud/mdb/greenplum/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#enabled MdbGreenplumClusterV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#enabled MdbGreenplumClusterV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -3874,13 +3874,13 @@ export interface MdbGreenplumClusterV2Logging {
   * filename: yandex/cloud/mdb/greenplum/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#folder_id MdbGreenplumClusterV2#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#folder_id MdbGreenplumClusterV2#folder_id}
   */
   readonly folderId?: string;
   /**
   * send Greenplum logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#greenplum_enabled MdbGreenplumClusterV2#greenplum_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#greenplum_enabled MdbGreenplumClusterV2#greenplum_enabled}
   */
   readonly greenplumEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -3888,13 +3888,13 @@ export interface MdbGreenplumClusterV2Logging {
   * filename: yandex/cloud/mdb/greenplum/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#log_group_id MdbGreenplumClusterV2#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#log_group_id MdbGreenplumClusterV2#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * send Pooler logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#pooler_enabled MdbGreenplumClusterV2#pooler_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#pooler_enabled MdbGreenplumClusterV2#pooler_enabled}
   */
   readonly poolerEnabled?: boolean | cdktf.IResolvable;
 }
@@ -4194,13 +4194,13 @@ export interface MdbGreenplumClusterV2MaintenanceWindowWeeklyMaintenanceWindow {
   /**
   * Day of the week.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#day MdbGreenplumClusterV2#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#day MdbGreenplumClusterV2#day}
   */
   readonly day?: string;
   /**
   * Hour of the day in the UTC timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#hour MdbGreenplumClusterV2#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#hour MdbGreenplumClusterV2#hour}
   */
   readonly hour?: number;
 }
@@ -4325,13 +4325,13 @@ export interface MdbGreenplumClusterV2MaintenanceWindow {
   /**
   * An any-time maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#anytime MdbGreenplumClusterV2#anytime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#anytime MdbGreenplumClusterV2#anytime}
   */
   readonly anytime?: MdbGreenplumClusterV2MaintenanceWindowAnytime;
   /**
   * A weekly maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#weekly_maintenance_window MdbGreenplumClusterV2#weekly_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#weekly_maintenance_window MdbGreenplumClusterV2#weekly_maintenance_window}
   */
   readonly weeklyMaintenanceWindow?: MdbGreenplumClusterV2MaintenanceWindowWeeklyMaintenanceWindow;
 }
@@ -4456,13 +4456,13 @@ export interface MdbGreenplumClusterV2MasterConfigResources {
   /**
   * Volume of the storage used by the host, in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#disk_size MdbGreenplumClusterV2#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#disk_size MdbGreenplumClusterV2#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Type of the storage used by the host: `network-hdd`, `network-ssd` or `local-ssd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#disk_type_id MdbGreenplumClusterV2#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#disk_type_id MdbGreenplumClusterV2#disk_type_id}
   */
   readonly diskTypeId?: string;
   /**
@@ -4470,7 +4470,7 @@ export interface MdbGreenplumClusterV2MasterConfigResources {
   * 
   *  Available presets are listed in the [documentation](/docs/managed-greenplum/concepts/instance-types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#resource_preset_id MdbGreenplumClusterV2#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#resource_preset_id MdbGreenplumClusterV2#resource_preset_id}
   */
   readonly resourcePresetId?: string;
 }
@@ -4624,7 +4624,7 @@ export interface MdbGreenplumClusterV2MasterConfig {
   /**
   * Computational resources allocated to Greenplum® master subcluster hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#resources MdbGreenplumClusterV2#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#resources MdbGreenplumClusterV2#resources}
   */
   readonly resources?: MdbGreenplumClusterV2MasterConfigResources;
 }
@@ -4864,19 +4864,19 @@ export interface MdbGreenplumClusterV2Restore {
   /**
   * ID of the backup to create a cluster from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#backup_id MdbGreenplumClusterV2#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#backup_id MdbGreenplumClusterV2#backup_id}
   */
   readonly backupId: string;
   /**
   * List of databases and tables to restore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#restore_only MdbGreenplumClusterV2#restore_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#restore_only MdbGreenplumClusterV2#restore_only}
   */
   readonly restoreOnly?: string[];
   /**
   * Timestamp of the moment to which the Greenplum cluster should be restored. (Format: `2006-01-02T15:04:05` - UTC). When not set, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#time MdbGreenplumClusterV2#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#time MdbGreenplumClusterV2#time}
   */
   readonly time?: string;
 }
@@ -5027,13 +5027,13 @@ export interface MdbGreenplumClusterV2SegmentConfigResources {
   /**
   * Volume of the storage used by the host, in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#disk_size MdbGreenplumClusterV2#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#disk_size MdbGreenplumClusterV2#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Type of the storage used by the host: `network-hdd`, `network-ssd` or `local-ssd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#disk_type_id MdbGreenplumClusterV2#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#disk_type_id MdbGreenplumClusterV2#disk_type_id}
   */
   readonly diskTypeId?: string;
   /**
@@ -5041,7 +5041,7 @@ export interface MdbGreenplumClusterV2SegmentConfigResources {
   * 
   *  Available presets are listed in the [documentation](/docs/managed-greenplum/concepts/instance-types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#resource_preset_id MdbGreenplumClusterV2#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#resource_preset_id MdbGreenplumClusterV2#resource_preset_id}
   */
   readonly resourcePresetId?: string;
 }
@@ -5195,7 +5195,7 @@ export interface MdbGreenplumClusterV2SegmentConfig {
   /**
   * Computational resources allocated to Greenplum® segment subcluster hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#resources MdbGreenplumClusterV2#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#resources MdbGreenplumClusterV2#resources}
   */
   readonly resources?: MdbGreenplumClusterV2SegmentConfigResources;
 }
@@ -5291,25 +5291,25 @@ export interface MdbGreenplumClusterV2Timeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#create MdbGreenplumClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#create MdbGreenplumClusterV2#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#delete MdbGreenplumClusterV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#delete MdbGreenplumClusterV2#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#read MdbGreenplumClusterV2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#read MdbGreenplumClusterV2#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#update MdbGreenplumClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#update MdbGreenplumClusterV2#update}
   */
   readonly update?: string;
 }
@@ -5490,7 +5490,7 @@ export class MdbGreenplumClusterV2TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2 yandex_mdb_greenplum_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2 yandex_mdb_greenplum_cluster_v2}
 */
 export class MdbGreenplumClusterV2 extends cdktf.TerraformResource {
 
@@ -5506,7 +5506,7 @@ export class MdbGreenplumClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbGreenplumClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbGreenplumClusterV2 to import
-  * @param importFromId The id of the existing MdbGreenplumClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbGreenplumClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbGreenplumClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5518,7 +5518,7 @@ export class MdbGreenplumClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/mdb_greenplum_cluster_v2 yandex_mdb_greenplum_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_greenplum_cluster_v2 yandex_mdb_greenplum_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5529,8 +5529,8 @@ export class MdbGreenplumClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_greenplum_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

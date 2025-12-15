@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ServicesUserIdentificationAdAccessDomainConfig extends cdktf.Te
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#name ServicesUserIdentificationAdAccessDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#name ServicesUserIdentificationAdAccessDomain#name}
   */
   readonly name: string;
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#user_name ServicesUserIdentificationAdAccessDomain#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#user_name ServicesUserIdentificationAdAccessDomain#user_name}
   */
   readonly userName: string;
   /**
   * Password string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#user_password ServicesUserIdentificationAdAccessDomain#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#user_password ServicesUserIdentificationAdAccessDomain#user_password}
   */
   readonly userPassword: string;
   /**
   * domain_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#domain_controller ServicesUserIdentificationAdAccessDomain#domain_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#domain_controller ServicesUserIdentificationAdAccessDomain#domain_controller}
   */
   readonly domainController?: ServicesUserIdentificationAdAccessDomainDomainController[] | cdktf.IResolvable;
   /**
   * ip_user_mapping_discovery_wmi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#ip_user_mapping_discovery_wmi ServicesUserIdentificationAdAccessDomain#ip_user_mapping_discovery_wmi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#ip_user_mapping_discovery_wmi ServicesUserIdentificationAdAccessDomain#ip_user_mapping_discovery_wmi}
   */
   readonly ipUserMappingDiscoveryWmi?: ServicesUserIdentificationAdAccessDomainIpUserMappingDiscoveryWmi;
   /**
   * user_group_mapping_ldap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#user_group_mapping_ldap ServicesUserIdentificationAdAccessDomain#user_group_mapping_ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#user_group_mapping_ldap ServicesUserIdentificationAdAccessDomain#user_group_mapping_ldap}
   */
   readonly userGroupMappingLdap?: ServicesUserIdentificationAdAccessDomainUserGroupMappingLdap;
 }
@@ -48,13 +48,13 @@ export interface ServicesUserIdentificationAdAccessDomainDomainController {
   /**
   * Address of domain controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#address ServicesUserIdentificationAdAccessDomain#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#address ServicesUserIdentificationAdAccessDomain#address}
   */
   readonly address: string;
   /**
   * Domain controller name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#name ServicesUserIdentificationAdAccessDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#name ServicesUserIdentificationAdAccessDomain#name}
   */
   readonly name: string;
 }
@@ -195,13 +195,13 @@ export interface ServicesUserIdentificationAdAccessDomainIpUserMappingDiscoveryW
   /**
   * Interval of event log scanning (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#event_log_scanning_interval ServicesUserIdentificationAdAccessDomain#event_log_scanning_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#event_log_scanning_interval ServicesUserIdentificationAdAccessDomain#event_log_scanning_interval}
   */
   readonly eventLogScanningInterval?: number;
   /**
   * Event log scanning timespan (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#initial_event_log_timespan ServicesUserIdentificationAdAccessDomain#initial_event_log_timespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#initial_event_log_timespan ServicesUserIdentificationAdAccessDomain#initial_event_log_timespan}
   */
   readonly initialEventLogTimespan?: number;
 }
@@ -326,37 +326,37 @@ export interface ServicesUserIdentificationAdAccessDomainUserGroupMappingLdap {
   /**
   * Address of LDAP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#address ServicesUserIdentificationAdAccessDomain#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#address ServicesUserIdentificationAdAccessDomain#address}
   */
   readonly address?: string[];
   /**
   * Authentication-algorithm simple.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#auth_algo_simple ServicesUserIdentificationAdAccessDomain#auth_algo_simple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#auth_algo_simple ServicesUserIdentificationAdAccessDomain#auth_algo_simple}
   */
   readonly authAlgoSimple?: boolean | cdktf.IResolvable;
   /**
   * Base distinguished name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#base ServicesUserIdentificationAdAccessDomain#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#base ServicesUserIdentificationAdAccessDomain#base}
   */
   readonly base?: string;
   /**
   * SSL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#ssl ServicesUserIdentificationAdAccessDomain#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#ssl ServicesUserIdentificationAdAccessDomain#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#user_name ServicesUserIdentificationAdAccessDomain#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#user_name ServicesUserIdentificationAdAccessDomain#user_name}
   */
   readonly userName?: string;
   /**
   * Password string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#user_password ServicesUserIdentificationAdAccessDomain#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#user_password ServicesUserIdentificationAdAccessDomain#user_password}
   */
   readonly userPassword?: string;
 }
@@ -595,7 +595,7 @@ export class ServicesUserIdentificationAdAccessDomainUserGroupMappingLdapOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain junos_services_user_identification_ad_access_domain}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain junos_services_user_identification_ad_access_domain}
 */
 export class ServicesUserIdentificationAdAccessDomain extends cdktf.TerraformResource {
 
@@ -611,7 +611,7 @@ export class ServicesUserIdentificationAdAccessDomain extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ServicesUserIdentificationAdAccessDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicesUserIdentificationAdAccessDomain to import
-  * @param importFromId The id of the existing ServicesUserIdentificationAdAccessDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicesUserIdentificationAdAccessDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicesUserIdentificationAdAccessDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -623,7 +623,7 @@ export class ServicesUserIdentificationAdAccessDomain extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_user_identification_ad_access_domain junos_services_user_identification_ad_access_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_user_identification_ad_access_domain junos_services_user_identification_ad_access_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -634,8 +634,8 @@ export class ServicesUserIdentificationAdAccessDomain extends cdktf.TerraformRes
       terraformResourceType: 'junos_services_user_identification_ad_access_domain',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

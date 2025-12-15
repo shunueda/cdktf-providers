@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#metadata DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#metadata DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#metadata}
   */
   readonly metadata: DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestMetadata;
   /**
   * Specification of the behavior of the autoscaler. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#spec DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#spec DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#spec}
   */
   readonly spec: DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#annotations DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#annotations DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#labels DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#labels DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#name DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#name DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#namespace DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#namespace DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecRecom
   /**
   * Name of the recommender responsible for generating recommendation for this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#name DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#name DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -334,37 +334,37 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecResou
   /**
   * Name of the container or DefaultContainerResourcePolicy, in which case the policy is used by the containers that don't have their own policy specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#container_name DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#container_name DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the type of recommendations that will be computed (and possibly applied) by VPA. If not specified, the default of [ResourceCPU, ResourceMemory] will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#controlled_resources DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#controlled_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#controlled_resources DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#controlled_resources}
   */
   readonly controlledResources?: string[];
   /**
   * Specifies which resource values should be controlled. The default is 'RequestsAndLimits'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#controlled_values DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#controlled_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#controlled_values DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#controlled_values}
   */
   readonly controlledValues?: string;
   /**
   * Specifies the maximum amount of resources that will be recommended for the container. The default is no maximum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#max_allowed DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#max_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#max_allowed DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#max_allowed}
   */
   readonly maxAllowed?: { [key: string]: string };
   /**
   * Specifies the minimal amount of resources that will be recommended for the container. The default is no minimum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#min_allowed DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#min_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#min_allowed DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#min_allowed}
   */
   readonly minAllowed?: { [key: string]: string };
   /**
   * Whether autoscaler is enabled for the container. The default is 'Auto'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#mode DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#mode DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -627,7 +627,7 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecResou
   /**
   * Per-container resource policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#container_policies DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#container_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#container_policies DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#container_policies}
   */
   readonly containerPolicies?: DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecResourcePolicyContainerPolicies[] | cdktf.IResolvable;
 }
@@ -723,19 +723,19 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecTarge
   /**
   * API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#api_version DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#api_version DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#kind DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#kind DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent; More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#name DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#name DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -883,13 +883,13 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecUpdat
   /**
   * EvictionChangeRequirement refers to the relationship between the new target recommendation for a Pod and its current requests, what kind of change is necessary for the Pod to be evicted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#change_requirement DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#change_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#change_requirement DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#change_requirement}
   */
   readonly changeRequirement: string;
   /**
   * Resources is a list of one or more resources that the condition applies to. If more than one resource is given, the EvictionRequirement is fulfilled if at least one resource meets 'changeRequirement'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#resources DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#resources DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#resources}
   */
   readonly resources: string[];
 }
@@ -1030,19 +1030,19 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecUpdat
   /**
   * EvictionRequirements is a list of EvictionRequirements that need to evaluate to true in order for a Pod to be evicted. If more than one EvictionRequirement is specified, all of them need to be fulfilled to allow eviction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#eviction_requirements DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#eviction_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#eviction_requirements DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#eviction_requirements}
   */
   readonly evictionRequirements?: DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecUpdatePolicyEvictionRequirements[] | cdktf.IResolvable;
   /**
   * Minimal number of replicas which need to be alive for Updater to attempt pod eviction (pending other checks like PDB). Only positive values are allowed. Overrides global '--min-replicas' flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#min_replicas DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#min_replicas DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * Controls when autoscaler applies changes to the pod resources. The default is 'Auto'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#update_mode DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#update_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#update_mode DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#update_mode}
   */
   readonly updateMode?: string;
 }
@@ -1196,25 +1196,25 @@ export interface DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpec {
   /**
   * Recommender responsible for generating recommendation for this object. List should be empty (then the default recommender will generate the recommendation) or contain exactly one recommender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#recommenders DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#recommenders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#recommenders DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#recommenders}
   */
   readonly recommenders?: DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecRecommenders[] | cdktf.IResolvable;
   /**
   * Controls how the autoscaler computes recommended resources. The resource policy may be used to set constraints on the recommendations for individual containers. If any individual containers need to be excluded from getting the VPA recommendations, then it must be disabled explicitly by setting mode to 'Off' under containerPolicies. If not specified, the autoscaler computes recommended resources for all containers in the pod, without additional constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#resource_policy DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#resource_policy DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#resource_policy}
   */
   readonly resourcePolicy?: DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecResourcePolicy;
   /**
   * TargetRef points to the controller managing the set of pods for the autoscaler to control - e.g. Deployment, StatefulSet. VerticalPodAutoscaler can be targeted at controller implementing scale subresource (the pod set is retrieved from the controller's ScaleStatus) or some well known controllers (e.g. for DaemonSet the pod set is read from the controller's spec). If VerticalPodAutoscaler cannot use specified target it will report ConfigUnsupported condition. Note that VerticalPodAutoscaler does not require full implementation of scale subresource - it will not use it to modify the replica count. The only thing retrieved is a label selector matching pods grouped by the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#target_ref DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#target_ref DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#target_ref}
   */
   readonly targetRef: DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecTargetRef;
   /**
   * Describes the rules on how changes are applied to the pods. If not specified, all fields in the 'PodUpdatePolicy' are set to their default values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#update_policy DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#update_policy DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest#update_policy}
   */
   readonly updatePolicy?: DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecUpdatePolicy;
 }
@@ -1392,7 +1392,7 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest k8s_autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest k8s_autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest}
 */
 export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1408,7 +1408,7 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest to import
-  * @param importFromId The id of the existing DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1420,7 +1420,7 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest k8s_autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest k8s_autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1431,8 +1431,8 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerV1Manifest extends cdkt
       terraformResourceType: 'k8s_autoscaling_k8s_io_vertical_pod_autoscaler_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

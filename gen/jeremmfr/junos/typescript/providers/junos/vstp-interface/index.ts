@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface VstpInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Send/Receive untagged RSTP BPDUs on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#access_trunk VstpInterface#access_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#access_trunk VstpInterface#access_trunk}
   */
   readonly accessTrunk?: boolean | cdktf.IResolvable;
   /**
   * Generate an alarm on BPDU expiry (Loop Protect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#bpdu_timeout_action_alarm VstpInterface#bpdu_timeout_action_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#bpdu_timeout_action_alarm VstpInterface#bpdu_timeout_action_alarm}
   */
   readonly bpduTimeoutActionAlarm?: boolean | cdktf.IResolvable;
   /**
   * Block the interface on BPDU expiry (Loop Protect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#bpdu_timeout_action_block VstpInterface#bpdu_timeout_action_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#bpdu_timeout_action_block VstpInterface#bpdu_timeout_action_block}
   */
   readonly bpduTimeoutActionBlock?: boolean | cdktf.IResolvable;
   /**
   * Cost of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#cost VstpInterface#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#cost VstpInterface#cost}
   */
   readonly cost?: number;
   /**
   * Port is an edge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#edge VstpInterface#edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#edge VstpInterface#edge}
   */
   readonly edge?: boolean | cdktf.IResolvable;
   /**
   * Interface mode (P2P or shared).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#mode VstpInterface#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#mode VstpInterface#mode}
   */
   readonly mode?: string;
   /**
   * Interface name or `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#name VstpInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#name VstpInterface#name}
   */
   readonly name: string;
   /**
   * Do not allow the interface to become root (Root Protect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#no_root_port VstpInterface#no_root_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#no_root_port VstpInterface#no_root_port}
   */
   readonly noRootPort?: boolean | cdktf.IResolvable;
   /**
   * Interface priority (in increments of 16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#priority VstpInterface#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#priority VstpInterface#priority}
   */
   readonly priority?: number;
   /**
   * Routing instance for vstp protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#routing_instance VstpInterface#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#routing_instance VstpInterface#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Configure interface in VSTP vlan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#vlan VstpInterface#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#vlan VstpInterface#vlan}
   */
   readonly vlan?: string;
   /**
   * Configure interface in VSTP vlan-group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#vlan_group VstpInterface#vlan_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#vlan_group VstpInterface#vlan_group}
   */
   readonly vlanGroup?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface junos_vstp_interface}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface junos_vstp_interface}
 */
 export class VstpInterface extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class VstpInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VstpInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VstpInterface to import
-  * @param importFromId The id of the existing VstpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VstpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VstpInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class VstpInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/vstp_interface junos_vstp_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/vstp_interface junos_vstp_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class VstpInterface extends cdktf.TerraformResource {
       terraformResourceType: 'junos_vstp_interface',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

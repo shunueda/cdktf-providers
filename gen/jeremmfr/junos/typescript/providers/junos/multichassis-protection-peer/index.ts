@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis_protection_peer
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis_protection_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MultichassisProtectionPeerConfig extends cdktf.TerraformMetaArg
   /**
   * Time in seconds between ICL down and MCAEs moving to standby (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis_protection_peer#icl_down_delay MultichassisProtectionPeer#icl_down_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis_protection_peer#icl_down_delay MultichassisProtectionPeer#icl_down_delay}
   */
   readonly iclDownDelay?: number;
   /**
   * Inter-Chassis protection link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis_protection_peer#interface MultichassisProtectionPeer#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis_protection_peer#interface MultichassisProtectionPeer#interface}
   */
   readonly interface: string;
   /**
   * IP address for this peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis_protection_peer#ip_address MultichassisProtectionPeer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis_protection_peer#ip_address MultichassisProtectionPeer#ip_address}
   */
   readonly ipAddress: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis_protection_peer junos_multichassis_protection_peer}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis_protection_peer junos_multichassis_protection_peer}
 */
 export class MultichassisProtectionPeer extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class MultichassisProtectionPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MultichassisProtectionPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MultichassisProtectionPeer to import
-  * @param importFromId The id of the existing MultichassisProtectionPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis_protection_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MultichassisProtectionPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis_protection_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MultichassisProtectionPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class MultichassisProtectionPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis_protection_peer junos_multichassis_protection_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis_protection_peer junos_multichassis_protection_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class MultichassisProtectionPeer extends cdktf.TerraformResource {
       terraformResourceType: 'junos_multichassis_protection_peer',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

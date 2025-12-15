@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMonitoringCoreosComPrometheusRuleV1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#metadata DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#metadata DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#metadata}
   */
   readonly metadata: DataK8SMonitoringCoreosComPrometheusRuleV1ManifestMetadata;
   /**
   * Specification of desired alerting rule definitions for Prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#spec DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#spec DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#spec}
   */
   readonly spec: DataK8SMonitoringCoreosComPrometheusRuleV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMonitoringCoreosComPrometheusRuleV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#annotations DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#annotations DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#labels DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#labels DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#name DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#name DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#namespace DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#namespace DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SMonitoringCoreosComPrometheusRuleV1ManifestSpecGroupsRul
   /**
   * Name of the alert. Must be a valid label value. Only one of 'record' and 'alert' must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#alert DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#alert DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#alert}
   */
   readonly alert?: string;
   /**
   * Annotations to add to each alert. Only valid for alerting rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#annotations DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#annotations DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * PromQL expression to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#expr DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#expr DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#expr}
   */
   readonly expr: string;
   /**
   * Alerts are considered firing once they have been returned for this long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#for DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#for DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#for}
   */
   readonly for?: string;
   /**
   * KeepFiringFor defines how long an alert will continue firing after the condition that triggered it has cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#keep_firing_for DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#keep_firing_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#keep_firing_for DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#keep_firing_for}
   */
   readonly keepFiringFor?: string;
   /**
   * Labels to add or overwrite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#labels DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#labels DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the time series to output to. Must be a valid metric name. Only one of 'record' and 'alert' must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#record DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#record DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#record}
   */
   readonly record?: string;
 }
@@ -544,37 +544,37 @@ export interface DataK8SMonitoringCoreosComPrometheusRuleV1ManifestSpecGroups {
   /**
   * Interval determines how often rules in the group are evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#interval DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#interval DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Limit the number of alerts an alerting rule and series a recording rule can produce. Limit is supported starting with Prometheus >= 2.31 and Thanos Ruler >= 0.24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#limit DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#limit DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#limit}
   */
   readonly limit?: number;
   /**
   * Name of the rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#name DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#name DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * PartialResponseStrategy is only used by ThanosRuler and will be ignored by Prometheus instances. More info: https://github.com/thanos-io/thanos/blob/main/docs/components/rule.md#partial-response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#partial_response_strategy DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#partial_response_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#partial_response_strategy DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#partial_response_strategy}
   */
   readonly partialResponseStrategy?: string;
   /**
   * Defines the offset the rule evaluation timestamp of this particular group by the specified duration into the past. It requires Prometheus >= v2.53.0. It is not supported for ThanosRuler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#query_offset DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#query_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#query_offset DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#query_offset}
   */
   readonly queryOffset?: string;
   /**
   * List of alerting and recording rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#rules DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#rules DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#rules}
   */
   readonly rules?: DataK8SMonitoringCoreosComPrometheusRuleV1ManifestSpecGroupsRules[] | cdktf.IResolvable;
 }
@@ -834,7 +834,7 @@ export interface DataK8SMonitoringCoreosComPrometheusRuleV1ManifestSpec {
   /**
   * Content of Prometheus rule file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#groups DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#groups DataK8SMonitoringCoreosComPrometheusRuleV1Manifest#groups}
   */
   readonly groups?: DataK8SMonitoringCoreosComPrometheusRuleV1ManifestSpecGroups[] | cdktf.IResolvable;
 }
@@ -928,7 +928,7 @@ export class DataK8SMonitoringCoreosComPrometheusRuleV1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest k8s_monitoring_coreos_com_prometheus_rule_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest k8s_monitoring_coreos_com_prometheus_rule_v1_manifest}
 */
 export class DataK8SMonitoringCoreosComPrometheusRuleV1Manifest extends cdktf.TerraformDataSource {
 
@@ -944,7 +944,7 @@ export class DataK8SMonitoringCoreosComPrometheusRuleV1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SMonitoringCoreosComPrometheusRuleV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMonitoringCoreosComPrometheusRuleV1Manifest to import
-  * @param importFromId The id of the existing DataK8SMonitoringCoreosComPrometheusRuleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMonitoringCoreosComPrometheusRuleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMonitoringCoreosComPrometheusRuleV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -956,7 +956,7 @@ export class DataK8SMonitoringCoreosComPrometheusRuleV1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest k8s_monitoring_coreos_com_prometheus_rule_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/monitoring_coreos_com_prometheus_rule_v1_manifest k8s_monitoring_coreos_com_prometheus_rule_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -967,8 +967,8 @@ export class DataK8SMonitoringCoreosComPrometheusRuleV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_monitoring_coreos_com_prometheus_rule_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

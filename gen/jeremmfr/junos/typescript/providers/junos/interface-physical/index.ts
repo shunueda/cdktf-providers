@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,151 +10,151 @@ export interface InterfacePhysicalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#description InterfacePhysical#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#description InterfacePhysical#description}
   */
   readonly description?: string;
   /**
   * Disable this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#disable InterfacePhysical#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#disable InterfacePhysical#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Physical link-layer encapsulation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#encapsulation InterfacePhysical#encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#encapsulation InterfacePhysical#encapsulation}
   */
   readonly encapsulation?: string;
   /**
   * Support for no tagging, or single and double 802.1q VLAN tagging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#flexible_vlan_tagging InterfacePhysical#flexible_vlan_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#flexible_vlan_tagging InterfacePhysical#flexible_vlan_tagging}
   */
   readonly flexibleVlanTagging?: boolean | cdktf.IResolvable;
   /**
   * Enable gratuitous ARP reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#gratuitous_arp_reply InterfacePhysical#gratuitous_arp_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#gratuitous_arp_reply InterfacePhysical#gratuitous_arp_reply}
   */
   readonly gratuitousArpReply?: boolean | cdktf.IResolvable;
   /**
   * Link down hold time (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#hold_time_down InterfacePhysical#hold_time_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#hold_time_down InterfacePhysical#hold_time_down}
   */
   readonly holdTimeDown?: number;
   /**
   * Link up hold time (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#hold_time_up InterfacePhysical#hold_time_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#hold_time_up InterfacePhysical#hold_time_up}
   */
   readonly holdTimeUp?: number;
   /**
   * Link operational mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#link_mode InterfacePhysical#link_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#link_mode InterfacePhysical#link_mode}
   */
   readonly linkMode?: string;
   /**
   * Maximum transmission unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#mtu InterfacePhysical#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#mtu InterfacePhysical#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of physical interface (without dot).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#name InterfacePhysical#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#name InterfacePhysical#name}
   */
   readonly name: string;
   /**
   * When destroy this resource, delete all configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_disable_on_destroy InterfacePhysical#no_disable_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_disable_on_destroy InterfacePhysical#no_disable_on_destroy}
   */
   readonly noDisableOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Don't enable gratuitous ARP reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_gratuitous_arp_reply InterfacePhysical#no_gratuitous_arp_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_gratuitous_arp_reply InterfacePhysical#no_gratuitous_arp_reply}
   */
   readonly noGratuitousArpReply?: boolean | cdktf.IResolvable;
   /**
   * Ignore gratuitous ARP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_gratuitous_arp_request InterfacePhysical#no_gratuitous_arp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_gratuitous_arp_request InterfacePhysical#no_gratuitous_arp_request}
   */
   readonly noGratuitousArpRequest?: boolean | cdktf.IResolvable;
   /**
   * Link speed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#speed InterfacePhysical#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#speed InterfacePhysical#speed}
   */
   readonly speed?: string;
   /**
   * Storm control profile name to bind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#storm_control InterfacePhysical#storm_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#storm_control InterfacePhysical#storm_control}
   */
   readonly stormControl?: string;
   /**
   * Interface mode is trunk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#trunk InterfacePhysical#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#trunk InterfacePhysical#trunk}
   */
   readonly trunk?: boolean | cdktf.IResolvable;
   /**
   * Port mode is trunk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#trunk_non_els InterfacePhysical#trunk_non_els}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#trunk_non_els InterfacePhysical#trunk_non_els}
   */
   readonly trunkNonEls?: boolean | cdktf.IResolvable;
   /**
   * List of vlan for membership for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#vlan_members InterfacePhysical#vlan_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#vlan_members InterfacePhysical#vlan_members}
   */
   readonly vlanMembers?: string[];
   /**
   * Vlan for untagged frames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#vlan_native InterfacePhysical#vlan_native}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#vlan_native InterfacePhysical#vlan_native}
   */
   readonly vlanNative?: number;
   /**
   * Vlan for untagged frames (non-ELS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#vlan_native_non_els InterfacePhysical#vlan_native_non_els}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#vlan_native_non_els InterfacePhysical#vlan_native_non_els}
   */
   readonly vlanNativeNonEls?: string;
   /**
   * Add 802.1q VLAN tagging support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#vlan_tagging InterfacePhysical#vlan_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#vlan_tagging InterfacePhysical#vlan_tagging}
   */
   readonly vlanTagging?: boolean | cdktf.IResolvable;
   /**
   * esi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#esi InterfacePhysical#esi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#esi InterfacePhysical#esi}
   */
   readonly esi?: InterfacePhysicalEsi;
   /**
   * ether_opts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#ether_opts InterfacePhysical#ether_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#ether_opts InterfacePhysical#ether_opts}
   */
   readonly etherOpts?: InterfacePhysicalEtherOpts;
   /**
   * gigether_opts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#gigether_opts InterfacePhysical#gigether_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#gigether_opts InterfacePhysical#gigether_opts}
   */
   readonly gigetherOpts?: InterfacePhysicalGigetherOpts;
   /**
   * parent_ether_opts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#parent_ether_opts InterfacePhysical#parent_ether_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#parent_ether_opts InterfacePhysical#parent_ether_opts}
   */
   readonly parentEtherOpts?: InterfacePhysicalParentEtherOpts;
 }
@@ -162,31 +162,31 @@ export interface InterfacePhysicalEsi {
   /**
   * Auto-derive ESI value for the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#auto_derive_lacp InterfacePhysical#auto_derive_lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#auto_derive_lacp InterfacePhysical#auto_derive_lacp}
   */
   readonly autoDeriveLacp?: boolean | cdktf.IResolvable;
   /**
   * DF Election Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#df_election_type InterfacePhysical#df_election_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#df_election_type InterfacePhysical#df_election_type}
   */
   readonly dfElectionType?: string;
   /**
   * The ESI value for the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#identifier InterfacePhysical#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#identifier InterfacePhysical#identifier}
   */
   readonly identifier?: string;
   /**
   * ESI Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#mode InterfacePhysical#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#mode InterfacePhysical#mode}
   */
   readonly mode?: string;
   /**
   * Unicast Source B-MAC address per ESI for PBB-EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#source_bmac InterfacePhysical#source_bmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#source_bmac InterfacePhysical#source_bmac}
   */
   readonly sourceBmac?: string;
 }
@@ -398,49 +398,49 @@ export interface InterfacePhysicalEtherOpts {
   /**
   * Name of an aggregated Ethernet interface to join.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#ae_8023ad InterfacePhysical#ae_8023ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#ae_8023ad InterfacePhysical#ae_8023ad}
   */
   readonly ae8023Ad?: string;
   /**
   * Enable auto-negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#auto_negotiation InterfacePhysical#auto_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#auto_negotiation InterfacePhysical#auto_negotiation}
   */
   readonly autoNegotiation?: boolean | cdktf.IResolvable;
   /**
   * Enable flow control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#flow_control InterfacePhysical#flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#flow_control InterfacePhysical#flow_control}
   */
   readonly flowControl?: boolean | cdktf.IResolvable;
   /**
   * Enable loopback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#loopback InterfacePhysical#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#loopback InterfacePhysical#loopback}
   */
   readonly loopback?: boolean | cdktf.IResolvable;
   /**
   * Don't enable auto-negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_auto_negotiation InterfacePhysical#no_auto_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_auto_negotiation InterfacePhysical#no_auto_negotiation}
   */
   readonly noAutoNegotiation?: boolean | cdktf.IResolvable;
   /**
   * Don't enable flow control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_flow_control InterfacePhysical#no_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_flow_control InterfacePhysical#no_flow_control}
   */
   readonly noFlowControl?: boolean | cdktf.IResolvable;
   /**
   * Don't enable loopback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_loopback InterfacePhysical#no_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_loopback InterfacePhysical#no_loopback}
   */
   readonly noLoopback?: boolean | cdktf.IResolvable;
   /**
   * Name of a redundant ethernet interface to join.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#redundant_parent InterfacePhysical#redundant_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#redundant_parent InterfacePhysical#redundant_parent}
   */
   readonly redundantParent?: string;
 }
@@ -739,49 +739,49 @@ export interface InterfacePhysicalGigetherOpts {
   /**
   * Name of an aggregated Ethernet interface to join.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#ae_8023ad InterfacePhysical#ae_8023ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#ae_8023ad InterfacePhysical#ae_8023ad}
   */
   readonly ae8023Ad?: string;
   /**
   * Enable auto-negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#auto_negotiation InterfacePhysical#auto_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#auto_negotiation InterfacePhysical#auto_negotiation}
   */
   readonly autoNegotiation?: boolean | cdktf.IResolvable;
   /**
   * Enable flow control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#flow_control InterfacePhysical#flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#flow_control InterfacePhysical#flow_control}
   */
   readonly flowControl?: boolean | cdktf.IResolvable;
   /**
   * Enable loopback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#loopback InterfacePhysical#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#loopback InterfacePhysical#loopback}
   */
   readonly loopback?: boolean | cdktf.IResolvable;
   /**
   * Don't enable auto-negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_auto_negotiation InterfacePhysical#no_auto_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_auto_negotiation InterfacePhysical#no_auto_negotiation}
   */
   readonly noAutoNegotiation?: boolean | cdktf.IResolvable;
   /**
   * Don't enable flow control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_flow_control InterfacePhysical#no_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_flow_control InterfacePhysical#no_flow_control}
   */
   readonly noFlowControl?: boolean | cdktf.IResolvable;
   /**
   * Don't enable loopback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_loopback InterfacePhysical#no_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_loopback InterfacePhysical#no_loopback}
   */
   readonly noLoopback?: boolean | cdktf.IResolvable;
   /**
   * Name of a redundant ethernet interface to join.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#redundant_parent InterfacePhysical#redundant_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#redundant_parent InterfacePhysical#redundant_parent}
   */
   readonly redundantParent?: string;
 }
@@ -1080,85 +1080,85 @@ export interface InterfacePhysicalParentEtherOptsBfdLivenessDetection {
   /**
   * Authentication algorithm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#authentication_algorithm InterfacePhysical#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#authentication_algorithm InterfacePhysical#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * Authentication Key chain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#authentication_key_chain InterfacePhysical#authentication_key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#authentication_key_chain InterfacePhysical#authentication_key_chain}
   */
   readonly authenticationKeyChain?: string;
   /**
   * Verify authentication only if authentication is negotiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#authentication_loose_check InterfacePhysical#authentication_loose_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#authentication_loose_check InterfacePhysical#authentication_loose_check}
   */
   readonly authenticationLooseCheck?: boolean | cdktf.IResolvable;
   /**
   * High detection-time triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#detection_time_threshold InterfacePhysical#detection_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#detection_time_threshold InterfacePhysical#detection_time_threshold}
   */
   readonly detectionTimeThreshold?: number;
   /**
   * Time to hold the session-UP notification to the client (0..255000 milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#holddown_interval InterfacePhysical#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#holddown_interval InterfacePhysical#holddown_interval}
   */
   readonly holddownInterval?: number;
   /**
   * BFD local address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#local_address InterfacePhysical#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#local_address InterfacePhysical#local_address}
   */
   readonly localAddress?: string;
   /**
   * Minimum transmit and receive interval (1..255000 milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#minimum_interval InterfacePhysical#minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#minimum_interval InterfacePhysical#minimum_interval}
   */
   readonly minimumInterval?: number;
   /**
   * Minimum receive interval (1..255000 milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#minimum_receive_interval InterfacePhysical#minimum_receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#minimum_receive_interval InterfacePhysical#minimum_receive_interval}
   */
   readonly minimumReceiveInterval?: number;
   /**
   * Detection time multiplier (1..255).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#multiplier InterfacePhysical#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#multiplier InterfacePhysical#multiplier}
   */
   readonly multiplier?: number;
   /**
   * BFD neighbor address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#neighbor InterfacePhysical#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#neighbor InterfacePhysical#neighbor}
   */
   readonly neighbor?: string;
   /**
   * Disable adaptation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_adaptation InterfacePhysical#no_adaptation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_adaptation InterfacePhysical#no_adaptation}
   */
   readonly noAdaptation?: boolean | cdktf.IResolvable;
   /**
   * Minimum transmit interval (1..255000 milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#transmit_interval_minimum_interval InterfacePhysical#transmit_interval_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#transmit_interval_minimum_interval InterfacePhysical#transmit_interval_minimum_interval}
   */
   readonly transmitIntervalMinimumInterval?: number;
   /**
   * High transmit interval triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#transmit_interval_threshold InterfacePhysical#transmit_interval_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#transmit_interval_threshold InterfacePhysical#transmit_interval_threshold}
   */
   readonly transmitIntervalThreshold?: number;
   /**
   * BFD protocol version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#version InterfacePhysical#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#version InterfacePhysical#version}
   */
   readonly version?: string;
 }
@@ -1631,35 +1631,35 @@ export interface InterfacePhysicalParentEtherOptsLacp {
   /**
   * Node's administrative key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#admin_key InterfacePhysical#admin_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#admin_key InterfacePhysical#admin_key}
   */
   readonly adminKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#mode InterfacePhysical#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#mode InterfacePhysical#mode}
   */
   readonly mode?: string;
   /**
   * Timer interval for periodic transmission of LACP packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#periodic InterfacePhysical#periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#periodic InterfacePhysical#periodic}
   */
   readonly periodic?: string;
   /**
   * On minimum-link failure notify out of sync to peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#sync_reset InterfacePhysical#sync_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#sync_reset InterfacePhysical#sync_reset}
   */
   readonly syncReset?: string;
   /**
   * Node's System ID, encoded as a MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#system_id InterfacePhysical#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#system_id InterfacePhysical#system_id}
   */
   readonly systemId?: string;
   /**
   * Priority of the system (0 ... 65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#system_priority InterfacePhysical#system_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#system_priority InterfacePhysical#system_priority}
   */
   readonly systemPriority?: number;
 }
@@ -1900,13 +1900,13 @@ export interface InterfacePhysicalParentEtherOptsMcAeEventsIccpPeerDown {
   /**
   * Bring down ICL logical interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#force_icl_down InterfacePhysical#force_icl_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#force_icl_down InterfacePhysical#force_icl_down}
   */
   readonly forceIclDown?: boolean | cdktf.IResolvable;
   /**
   * Keep this node up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#prefer_status_control_active InterfacePhysical#prefer_status_control_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#prefer_status_control_active InterfacePhysical#prefer_status_control_active}
   */
   readonly preferStatusControlActive?: boolean | cdktf.IResolvable;
 }
@@ -2031,61 +2031,61 @@ export interface InterfacePhysicalParentEtherOptsMcAe {
   /**
   * Chassis id of MC-AE network device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#chassis_id InterfacePhysical#chassis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#chassis_id InterfacePhysical#chassis_id}
   */
   readonly chassisId?: number;
   /**
   * Optimized convergence time for mcae.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#enhanced_convergence InterfacePhysical#enhanced_convergence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#enhanced_convergence InterfacePhysical#enhanced_convergence}
   */
   readonly enhancedConvergence?: boolean | cdktf.IResolvable;
   /**
   * Init delay timer for mcae sm for min traffic loss (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#init_delay_time InterfacePhysical#init_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#init_delay_time InterfacePhysical#init_delay_time}
   */
   readonly initDelayTime?: number;
   /**
   * MC-AE group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#mc_ae_id InterfacePhysical#mc_ae_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#mc_ae_id InterfacePhysical#mc_ae_id}
   */
   readonly mcAeId?: number;
   /**
   * Mode of the MC-AE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#mode InterfacePhysical#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#mode InterfacePhysical#mode}
   */
   readonly mode?: string;
   /**
   * Redundancy group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#redundancy_group InterfacePhysical#redundancy_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#redundancy_group InterfacePhysical#redundancy_group}
   */
   readonly redundancyGroup?: number;
   /**
   * Wait interval before performing switchover (minute).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#revert_time InterfacePhysical#revert_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#revert_time InterfacePhysical#revert_time}
   */
   readonly revertTime?: number;
   /**
   * Status of the MC-AE chassis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#status_control InterfacePhysical#status_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#status_control InterfacePhysical#status_control}
   */
   readonly statusControl?: string;
   /**
   * Switchover mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#switchover_mode InterfacePhysical#switchover_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#switchover_mode InterfacePhysical#switchover_mode}
   */
   readonly switchoverMode?: string;
   /**
   * events_iccp_peer_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#events_iccp_peer_down InterfacePhysical#events_iccp_peer_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#events_iccp_peer_down InterfacePhysical#events_iccp_peer_down}
   */
   readonly eventsIccpPeerDown?: InterfacePhysicalParentEtherOptsMcAeEventsIccpPeerDown;
 }
@@ -2442,79 +2442,79 @@ export interface InterfacePhysicalParentEtherOpts {
   /**
   * Enable flow control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#flow_control InterfacePhysical#flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#flow_control InterfacePhysical#flow_control}
   */
   readonly flowControl?: boolean | cdktf.IResolvable;
   /**
   * Link speed of individual interface that joins the AE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#link_speed InterfacePhysical#link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#link_speed InterfacePhysical#link_speed}
   */
   readonly linkSpeed?: string;
   /**
   * Enable loopback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#loopback InterfacePhysical#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#loopback InterfacePhysical#loopback}
   */
   readonly loopback?: boolean | cdktf.IResolvable;
   /**
   * Minimum bandwidth configured for aggregated bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#minimum_bandwidth InterfacePhysical#minimum_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#minimum_bandwidth InterfacePhysical#minimum_bandwidth}
   */
   readonly minimumBandwidth?: string;
   /**
   * Minimum number of aggregated/active links (1..64).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#minimum_links InterfacePhysical#minimum_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#minimum_links InterfacePhysical#minimum_links}
   */
   readonly minimumLinks?: number;
   /**
   * Don't enable flow control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_flow_control InterfacePhysical#no_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_flow_control InterfacePhysical#no_flow_control}
   */
   readonly noFlowControl?: boolean | cdktf.IResolvable;
   /**
   * Don't enable loopback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#no_loopback InterfacePhysical#no_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#no_loopback InterfacePhysical#no_loopback}
   */
   readonly noLoopback?: boolean | cdktf.IResolvable;
   /**
   * Redundancy group of this interface (1..128) for reth interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#redundancy_group InterfacePhysical#redundancy_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#redundancy_group InterfacePhysical#redundancy_group}
   */
   readonly redundancyGroup?: number;
   /**
   * Source address filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#source_address_filter InterfacePhysical#source_address_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#source_address_filter InterfacePhysical#source_address_filter}
   */
   readonly sourceAddressFilter?: string[];
   /**
   * Enable source address filtering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#source_filtering InterfacePhysical#source_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#source_filtering InterfacePhysical#source_filtering}
   */
   readonly sourceFiltering?: boolean | cdktf.IResolvable;
   /**
   * bfd_liveness_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#bfd_liveness_detection InterfacePhysical#bfd_liveness_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#bfd_liveness_detection InterfacePhysical#bfd_liveness_detection}
   */
   readonly bfdLivenessDetection?: InterfacePhysicalParentEtherOptsBfdLivenessDetection;
   /**
   * lacp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#lacp InterfacePhysical#lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#lacp InterfacePhysical#lacp}
   */
   readonly lacp?: InterfacePhysicalParentEtherOptsLacp;
   /**
   * mc_ae block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#mc_ae InterfacePhysical#mc_ae}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#mc_ae InterfacePhysical#mc_ae}
   */
   readonly mcAe?: InterfacePhysicalParentEtherOptsMcAe;
 }
@@ -2956,7 +2956,7 @@ export class InterfacePhysicalParentEtherOptsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical junos_interface_physical}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical junos_interface_physical}
 */
 export class InterfacePhysical extends cdktf.TerraformResource {
 
@@ -2972,7 +2972,7 @@ export class InterfacePhysical extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacePhysical resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacePhysical to import
-  * @param importFromId The id of the existing InterfacePhysical that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacePhysical that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacePhysical to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2984,7 +2984,7 @@ export class InterfacePhysical extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_physical junos_interface_physical} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_physical junos_interface_physical} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2995,8 +2995,8 @@ export class InterfacePhysical extends cdktf.TerraformResource {
       terraformResourceType: 'junos_interface_physical',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ActiveActiveTransitGatewayAttachmentConfig extends cdktf.Terraf
   /**
   * A list of consumer Cidr blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#cidrs ActiveActiveTransitGatewayAttachment#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#cidrs ActiveActiveTransitGatewayAttachment#cidrs}
   */
   readonly cidrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#id ActiveActiveTransitGatewayAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#id ActiveActiveTransitGatewayAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface ActiveActiveTransitGatewayAttachmentConfig extends cdktf.Terraf
   /**
   * The id of the AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#region_id ActiveActiveTransitGatewayAttachment#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#region_id ActiveActiveTransitGatewayAttachment#region_id}
   */
   readonly regionId: string;
   /**
   * The id of the Pro/Flexible subscription to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#subscription_id ActiveActiveTransitGatewayAttachment#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#subscription_id ActiveActiveTransitGatewayAttachment#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The id of the Transit Gateway to attach to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#tgw_id ActiveActiveTransitGatewayAttachment#tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#tgw_id ActiveActiveTransitGatewayAttachment#tgw_id}
   */
   readonly tgwId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#timeouts ActiveActiveTransitGatewayAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#timeouts ActiveActiveTransitGatewayAttachment#timeouts}
   */
   readonly timeouts?: ActiveActiveTransitGatewayAttachmentTimeouts;
 }
 export interface ActiveActiveTransitGatewayAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#create ActiveActiveTransitGatewayAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#create ActiveActiveTransitGatewayAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#delete ActiveActiveTransitGatewayAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#delete ActiveActiveTransitGatewayAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#read ActiveActiveTransitGatewayAttachment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#read ActiveActiveTransitGatewayAttachment#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#update ActiveActiveTransitGatewayAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#update ActiveActiveTransitGatewayAttachment#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class ActiveActiveTransitGatewayAttachmentTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment rediscloud_active_active_transit_gateway_attachment}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment rediscloud_active_active_transit_gateway_attachment}
 */
 export class ActiveActiveTransitGatewayAttachment extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class ActiveActiveTransitGatewayAttachment extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ActiveActiveTransitGatewayAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiveActiveTransitGatewayAttachment to import
-  * @param importFromId The id of the existing ActiveActiveTransitGatewayAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiveActiveTransitGatewayAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiveActiveTransitGatewayAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class ActiveActiveTransitGatewayAttachment extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_transit_gateway_attachment rediscloud_active_active_transit_gateway_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/active_active_transit_gateway_attachment rediscloud_active_active_transit_gateway_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class ActiveActiveTransitGatewayAttachment extends cdktf.TerraformResourc
       terraformResourceType: 'rediscloud_active_active_transit_gateway_attachment',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.8.0',
-        providerVersionConstraint: '2.8.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

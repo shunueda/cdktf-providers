@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#metadata DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#metadata DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestMetadata;
   /**
   * AlertingRuleSpec defines the desired state of AlertingRule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#spec DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#spec DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#annotations DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#annotations DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#labels DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#labels DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#name DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#name DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#namespace DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#namespace DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestSpecGroupsRules
   /**
   * The name of the alert. Must be a valid label value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#alert DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#alert DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#alert}
   */
   readonly alert?: string;
   /**
   * Annotations to add to each alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#annotations DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#annotations DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The LogQL expression to evaluate. Every evaluation cycle this is evaluated at the current time, and all resultant time series become pending/firing alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#expr DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#expr DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#expr}
   */
   readonly expr: string;
   /**
   * Alerts are considered firing once they have been returned for this long. Alerts which have not yet fired for long enough are considered pending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#for DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#for DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#for}
   */
   readonly for?: string;
   /**
   * Labels to add to each alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#labels DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#labels DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -474,25 +474,25 @@ export interface DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestSpecGroups {
   /**
   * Interval defines the time interval between evaluation of the given alerting rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#interval DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#interval DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Limit defines the number of alerts an alerting rule can produce. 0 is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#limit DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#limit DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#limit}
   */
   readonly limit?: number;
   /**
   * Name of the alerting rule group. Must be unique within all alerting rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#name DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#name DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Rules defines a list of alerting rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#rules DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#rules DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#rules}
   */
   readonly rules: DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestSpecGroupsRules[] | cdktf.IResolvable;
 }
@@ -691,13 +691,13 @@ export interface DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestSpec {
   /**
   * List of groups for alerting rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#groups DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#groups DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#groups}
   */
   readonly groups?: DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestSpecGroups[] | cdktf.IResolvable;
   /**
   * TenantID of tenant where the alerting rules are evaluated in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#tenant_id DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#tenant_id DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -817,7 +817,7 @@ export class DataK8SLokiGrafanaComAlertingRuleV1Beta1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest k8s_loki_grafana_com_alerting_rule_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest k8s_loki_grafana_com_alerting_rule_v1beta1_manifest}
 */
 export class DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -833,7 +833,7 @@ export class DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -845,7 +845,7 @@ export class DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest k8s_loki_grafana_com_alerting_rule_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_alerting_rule_v1beta1_manifest k8s_loki_grafana_com_alerting_rule_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -856,8 +856,8 @@ export class DataK8SLokiGrafanaComAlertingRuleV1Beta1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_loki_grafana_com_alerting_rule_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

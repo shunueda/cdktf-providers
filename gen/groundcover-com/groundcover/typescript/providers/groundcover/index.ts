@@ -7,6 +7,7 @@ export * as logspipeline from './logspipeline';
 export * as metricsaggregation from './metricsaggregation';
 export * as monitor from './monitor';
 export * as policy from './policy';
+export * as secret from './secret';
 export * as serviceaccount from './serviceaccount';
 export * as provider from './provider';
 

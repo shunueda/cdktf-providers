@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface SystemSyslogFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Do not suppress the repeated message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#allow_duplicates SystemSyslogFile#allow_duplicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#allow_duplicates SystemSyslogFile#allow_duplicates}
   */
   readonly allowDuplicates?: boolean | cdktf.IResolvable;
   /**
   * All facilities sseverity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#any_severity SystemSyslogFile#any_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#any_severity SystemSyslogFile#any_severity}
   */
   readonly anySeverity?: string;
   /**
   * Authorization system severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#authorization_severity SystemSyslogFile#authorization_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#authorization_severity SystemSyslogFile#authorization_severity}
   */
   readonly authorizationSeverity?: string;
   /**
   * Configuration change log severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#changelog_severity SystemSyslogFile#changelog_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#changelog_severity SystemSyslogFile#changelog_severity}
   */
   readonly changelogSeverity?: string;
   /**
   * Configuration conflict log severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#conflictlog_severity SystemSyslogFile#conflictlog_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#conflictlog_severity SystemSyslogFile#conflictlog_severity}
   */
   readonly conflictlogSeverity?: string;
   /**
   * Various system processes severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#daemon_severity SystemSyslogFile#daemon_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#daemon_severity SystemSyslogFile#daemon_severity}
   */
   readonly daemonSeverity?: string;
   /**
   * Dynamic flow capture severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#dfc_severity SystemSyslogFile#dfc_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#dfc_severity SystemSyslogFile#dfc_severity}
   */
   readonly dfcSeverity?: string;
   /**
   * Include priority and facility in messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#explicit_priority SystemSyslogFile#explicit_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#explicit_priority SystemSyslogFile#explicit_priority}
   */
   readonly explicitPriority?: boolean | cdktf.IResolvable;
   /**
   * Local external applications severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#external_severity SystemSyslogFile#external_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#external_severity SystemSyslogFile#external_severity}
   */
   readonly externalSeverity?: string;
   /**
   * Name of file in which to log data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#filename SystemSyslogFile#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#filename SystemSyslogFile#filename}
   */
   readonly filename: string;
   /**
   * Firewall filtering system severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#firewall_severity SystemSyslogFile#firewall_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#firewall_severity SystemSyslogFile#firewall_severity}
   */
   readonly firewallSeverity?: string;
   /**
   * FTP process severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#ftp_severity SystemSyslogFile#ftp_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#ftp_severity SystemSyslogFile#ftp_severity}
   */
   readonly ftpSeverity?: string;
   /**
   * Commands executed by the UI severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#interactivecommands_severity SystemSyslogFile#interactivecommands_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#interactivecommands_severity SystemSyslogFile#interactivecommands_severity}
   */
   readonly interactivecommandsSeverity?: string;
   /**
   * Kernel severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#kernel_severity SystemSyslogFile#kernel_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#kernel_severity SystemSyslogFile#kernel_severity}
   */
   readonly kernelSeverity?: string;
   /**
   * Regular expression for lines to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#match SystemSyslogFile#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#match SystemSyslogFile#match}
   */
   readonly match?: string;
   /**
   * Matching string(s) for lines to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#match_strings SystemSyslogFile#match_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#match_strings SystemSyslogFile#match_strings}
   */
   readonly matchStrings?: string[];
   /**
   * NTP process severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#ntp_severity SystemSyslogFile#ntp_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#ntp_severity SystemSyslogFile#ntp_severity}
   */
   readonly ntpSeverity?: string;
   /**
   * Packet Forwarding Engine severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#pfe_severity SystemSyslogFile#pfe_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#pfe_severity SystemSyslogFile#pfe_severity}
   */
   readonly pfeSeverity?: string;
   /**
   * Security related severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#security_severity SystemSyslogFile#security_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#security_severity SystemSyslogFile#security_severity}
   */
   readonly securitySeverity?: string;
   /**
   * User processes severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#user_severity SystemSyslogFile#user_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#user_severity SystemSyslogFile#user_severity}
   */
   readonly userSeverity?: string;
   /**
   * archive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#archive SystemSyslogFile#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#archive SystemSyslogFile#archive}
   */
   readonly archive?: SystemSyslogFileArchive;
   /**
   * structured_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#structured_data SystemSyslogFile#structured_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#structured_data SystemSyslogFile#structured_data}
   */
   readonly structuredData?: SystemSyslogFileStructuredData;
 }
@@ -144,19 +144,19 @@ export interface SystemSyslogFileArchiveSites {
   /**
   * Password for login into the archive site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#password SystemSyslogFile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#password SystemSyslogFile#password}
   */
   readonly password?: string;
   /**
   * Routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#routing_instance SystemSyslogFile#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#routing_instance SystemSyslogFile#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Primary or failover URLs to receive archive files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#url SystemSyslogFile#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#url SystemSyslogFile#url}
   */
   readonly url: string;
 }
@@ -329,55 +329,55 @@ export interface SystemSyslogFileArchive {
   /**
   * Mark file as if it contains binary data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#binary_data SystemSyslogFile#binary_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#binary_data SystemSyslogFile#binary_data}
   */
   readonly binaryData?: boolean | cdktf.IResolvable;
   /**
   * Number of files to be archived.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#files SystemSyslogFile#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#files SystemSyslogFile#files}
   */
   readonly files?: number;
   /**
   * Don't mark file as if it contains binary data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#no_binary_data SystemSyslogFile#no_binary_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#no_binary_data SystemSyslogFile#no_binary_data}
   */
   readonly noBinaryData?: boolean | cdktf.IResolvable;
   /**
   * Don't allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#no_world_readable SystemSyslogFile#no_world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#no_world_readable SystemSyslogFile#no_world_readable}
   */
   readonly noWorldReadable?: boolean | cdktf.IResolvable;
   /**
   * Size of files to be archived (bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#size SystemSyslogFile#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#size SystemSyslogFile#size}
   */
   readonly size?: number;
   /**
   * Start time for file transmission (YYYY-MM-DD.HH:MM:SS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#start_time SystemSyslogFile#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#start_time SystemSyslogFile#start_time}
   */
   readonly startTime?: string;
   /**
   * Frequency at which to transfer files to archive sites (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#transfer_interval SystemSyslogFile#transfer_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#transfer_interval SystemSyslogFile#transfer_interval}
   */
   readonly transferInterval?: number;
   /**
   * Allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#world_readable SystemSyslogFile#world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#world_readable SystemSyslogFile#world_readable}
   */
   readonly worldReadable?: boolean | cdktf.IResolvable;
   /**
   * sites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#sites SystemSyslogFile#sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#sites SystemSyslogFile#sites}
   */
   readonly sites?: SystemSyslogFileArchiveSites[] | cdktf.IResolvable;
 }
@@ -705,7 +705,7 @@ export interface SystemSyslogFileStructuredData {
   /**
   * Omit English-language text from end of logged message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#brief SystemSyslogFile#brief}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#brief SystemSyslogFile#brief}
   */
   readonly brief?: boolean | cdktf.IResolvable;
 }
@@ -799,7 +799,7 @@ export class SystemSyslogFileStructuredDataOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file junos_system_syslog_file}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file junos_system_syslog_file}
 */
 export class SystemSyslogFile extends cdktf.TerraformResource {
 
@@ -815,7 +815,7 @@ export class SystemSyslogFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemSyslogFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemSyslogFile to import
-  * @param importFromId The id of the existing SystemSyslogFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemSyslogFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemSyslogFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -827,7 +827,7 @@ export class SystemSyslogFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_syslog_file junos_system_syslog_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_syslog_file junos_system_syslog_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -838,8 +838,8 @@ export class SystemSyslogFile extends cdktf.TerraformResource {
       terraformResourceType: 'junos_system_syslog_file',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

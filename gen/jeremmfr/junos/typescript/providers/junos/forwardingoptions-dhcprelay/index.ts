@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,313 +10,313 @@ export interface ForwardingoptionsDhcprelayConfig extends cdktf.TerraformMetaArg
   /**
   * Access profile to use for AAA services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#access_profile ForwardingoptionsDhcprelay#access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#access_profile ForwardingoptionsDhcprelay#access_profile}
   */
   readonly accessProfile?: string;
   /**
   * Name of DHCP server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#active_server_group ForwardingoptionsDhcprelay#active_server_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#active_server_group ForwardingoptionsDhcprelay#active_server_group}
   */
   readonly activeServerGroup?: string;
   /**
   * Accept DHCP-ACK from any server in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#active_server_group_allow_server_change ForwardingoptionsDhcprelay#active_server_group_allow_server_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#active_server_group_allow_server_change ForwardingoptionsDhcprelay#active_server_group_allow_server_change}
   */
   readonly activeServerGroupAllowServerChange?: boolean | cdktf.IResolvable;
   /**
   * Enable Dynamic ARP Inspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#arp_inspection ForwardingoptionsDhcprelay#arp_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#arp_inspection ForwardingoptionsDhcprelay#arp_inspection}
   */
   readonly arpInspection?: boolean | cdktf.IResolvable;
   /**
   * DHCP authentication, username password to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#authentication_password ForwardingoptionsDhcprelay#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#authentication_password ForwardingoptionsDhcprelay#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * P time-to-live value to set in responses to client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#client_response_ttl ForwardingoptionsDhcprelay#client_response_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#client_response_ttl ForwardingoptionsDhcprelay#client_response_ttl}
   */
   readonly clientResponseTtl?: number;
   /**
   * Allow duplicate clients in a subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#duplicate_clients_in_subnet ForwardingoptionsDhcprelay#duplicate_clients_in_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#duplicate_clients_in_subnet ForwardingoptionsDhcprelay#duplicate_clients_in_subnet}
   */
   readonly duplicateClientsInSubnet?: string;
   /**
   * Allow duplicate clients on different underlying interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#duplicate_clients_incoming_interface ForwardingoptionsDhcprelay#duplicate_clients_incoming_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#duplicate_clients_incoming_interface ForwardingoptionsDhcprelay#duplicate_clients_incoming_interface}
   */
   readonly duplicateClientsIncomingInterface?: boolean | cdktf.IResolvable;
   /**
   * Dynamic profile to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#dynamic_profile ForwardingoptionsDhcprelay#dynamic_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#dynamic_profile ForwardingoptionsDhcprelay#dynamic_profile}
   */
   readonly dynamicProfile?: string;
   /**
   * Aggregate client profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#dynamic_profile_aggregate_clients ForwardingoptionsDhcprelay#dynamic_profile_aggregate_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#dynamic_profile_aggregate_clients ForwardingoptionsDhcprelay#dynamic_profile_aggregate_clients}
   */
   readonly dynamicProfileAggregateClients?: boolean | cdktf.IResolvable;
   /**
   * Merge or replace the client dynamic profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#dynamic_profile_aggregate_clients_action ForwardingoptionsDhcprelay#dynamic_profile_aggregate_clients_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#dynamic_profile_aggregate_clients_action ForwardingoptionsDhcprelay#dynamic_profile_aggregate_clients_action}
   */
   readonly dynamicProfileAggregateClientsAction?: string;
   /**
   * Dynamic profile to use on the primary interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#dynamic_profile_use_primary ForwardingoptionsDhcprelay#dynamic_profile_use_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#dynamic_profile_use_primary ForwardingoptionsDhcprelay#dynamic_profile_use_primary}
   */
   readonly dynamicProfileUsePrimary?: string;
   /**
   * Exclude relay agent identifier from packets to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#exclude_relay_agent_identifier ForwardingoptionsDhcprelay#exclude_relay_agent_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#exclude_relay_agent_identifier ForwardingoptionsDhcprelay#exclude_relay_agent_identifier}
   */
   readonly excludeRelayAgentIdentifier?: boolean | cdktf.IResolvable;
   /**
   * Forward DHCP packets without creating binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#forward_only ForwardingoptionsDhcprelay#forward_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#forward_only ForwardingoptionsDhcprelay#forward_only}
   */
   readonly forwardOnly?: boolean | cdktf.IResolvable;
   /**
   * Forward-only replies from server to appropriate routing instance based on options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#forward_only_replies ForwardingoptionsDhcprelay#forward_only_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#forward_only_replies ForwardingoptionsDhcprelay#forward_only_replies}
   */
   readonly forwardOnlyReplies?: boolean | cdktf.IResolvable;
   /**
   * Name of routing instance to forward-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#forward_only_routing_instance ForwardingoptionsDhcprelay#forward_only_routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#forward_only_routing_instance ForwardingoptionsDhcprelay#forward_only_routing_instance}
   */
   readonly forwardOnlyRoutingInstance?: string;
   /**
   * Forward snooped (unicast) packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#forward_snooped_clients ForwardingoptionsDhcprelay#forward_snooped_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#forward_snooped_clients ForwardingoptionsDhcprelay#forward_snooped_clients}
   */
   readonly forwardSnoopedClients?: string;
   /**
   * Liveness detection failure action options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#liveness_detection_failure_action ForwardingoptionsDhcprelay#liveness_detection_failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#liveness_detection_failure_action ForwardingoptionsDhcprelay#liveness_detection_failure_action}
   */
   readonly livenessDetectionFailureAction?: string;
   /**
   * Maximum number of hops per packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#maximum_hop_count ForwardingoptionsDhcprelay#maximum_hop_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#maximum_hop_count ForwardingoptionsDhcprelay#maximum_hop_count}
   */
   readonly maximumHopCount?: number;
   /**
   * Minimum number of seconds before requests are forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#minimum_wait_time ForwardingoptionsDhcprelay#minimum_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#minimum_wait_time ForwardingoptionsDhcprelay#minimum_wait_time}
   */
   readonly minimumWaitTime?: number;
   /**
   * Do not snoop DHCP packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_snoop ForwardingoptionsDhcprelay#no_snoop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_snoop ForwardingoptionsDhcprelay#no_snoop}
   */
   readonly noSnoop?: boolean | cdktf.IResolvable;
   /**
   * Trigger to enable flat file storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#persistent_storage_automatic ForwardingoptionsDhcprelay#persistent_storage_automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#persistent_storage_automatic ForwardingoptionsDhcprelay#persistent_storage_automatic}
   */
   readonly persistentStorageAutomatic?: boolean | cdktf.IResolvable;
   /**
   * Add the client MAC address to the Relay Forward header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_option_79 ForwardingoptionsDhcprelay#relay_agent_option_79}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_option_79 ForwardingoptionsDhcprelay#relay_agent_option_79}
   */
   readonly relayAgentOption79?: boolean | cdktf.IResolvable;
   /**
   * Disconnect session on remote-id mismatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#remote_id_mismatch_disconnect ForwardingoptionsDhcprelay#remote_id_mismatch_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#remote_id_mismatch_disconnect ForwardingoptionsDhcprelay#remote_id_mismatch_disconnect}
   */
   readonly remoteIdMismatchDisconnect?: boolean | cdktf.IResolvable;
   /**
   * Suppress access route addition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#route_suppression_access ForwardingoptionsDhcprelay#route_suppression_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#route_suppression_access ForwardingoptionsDhcprelay#route_suppression_access}
   */
   readonly routeSuppressionAccess?: boolean | cdktf.IResolvable;
   /**
   * Suppress access-internal route addition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#route_suppression_access_internal ForwardingoptionsDhcprelay#route_suppression_access_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#route_suppression_access_internal ForwardingoptionsDhcprelay#route_suppression_access_internal}
   */
   readonly routeSuppressionAccessInternal?: boolean | cdktf.IResolvable;
   /**
   * Suppress destination route addition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#route_suppression_destination ForwardingoptionsDhcprelay#route_suppression_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#route_suppression_destination ForwardingoptionsDhcprelay#route_suppression_destination}
   */
   readonly routeSuppressionDestination?: boolean | cdktf.IResolvable;
   /**
   * Routing instance if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#routing_instance ForwardingoptionsDhcprelay#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#routing_instance ForwardingoptionsDhcprelay#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Server match default action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#server_match_default_action ForwardingoptionsDhcprelay#server_match_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#server_match_default_action ForwardingoptionsDhcprelay#server_match_default_action}
   */
   readonly serverMatchDefaultAction?: string;
   /**
   * Number of seconds in a period of activity between the last server response and an unanswered request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#server_response_time ForwardingoptionsDhcprelay#server_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#server_response_time ForwardingoptionsDhcprelay#server_response_time}
   */
   readonly serverResponseTime?: number;
   /**
   * Dynamic profile to use for default service activation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#service_profile ForwardingoptionsDhcprelay#service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#service_profile ForwardingoptionsDhcprelay#service_profile}
   */
   readonly serviceProfile?: string;
   /**
   * Short cycle lockout max time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#short_cycle_protection_lockout_max_time ForwardingoptionsDhcprelay#short_cycle_protection_lockout_max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#short_cycle_protection_lockout_max_time ForwardingoptionsDhcprelay#short_cycle_protection_lockout_max_time}
   */
   readonly shortCycleProtectionLockoutMaxTime?: number;
   /**
   * hort cycle lockout min time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#short_cycle_protection_lockout_min_time ForwardingoptionsDhcprelay#short_cycle_protection_lockout_min_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#short_cycle_protection_lockout_min_time ForwardingoptionsDhcprelay#short_cycle_protection_lockout_min_time}
   */
   readonly shortCycleProtectionLockoutMinTime?: number;
   /**
   * Use address of egress interface as source ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#source_ip_change ForwardingoptionsDhcprelay#source_ip_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#source_ip_change ForwardingoptionsDhcprelay#source_ip_change}
   */
   readonly sourceIpChange?: boolean | cdktf.IResolvable;
   /**
   * DHCPv6 option 17 vendor-specific processing, add router host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#vendor_specific_information_host_name ForwardingoptionsDhcprelay#vendor_specific_information_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#vendor_specific_information_host_name ForwardingoptionsDhcprelay#vendor_specific_information_host_name}
   */
   readonly vendorSpecificInformationHostName?: boolean | cdktf.IResolvable;
   /**
   * DHCPv6 option 17 vendor-specific processing, add location information expressed as interface name format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#vendor_specific_information_location ForwardingoptionsDhcprelay#vendor_specific_information_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#vendor_specific_information_location ForwardingoptionsDhcprelay#vendor_specific_information_location}
   */
   readonly vendorSpecificInformationLocation?: boolean | cdktf.IResolvable;
   /**
   * Version for DHCP or DHCPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#version ForwardingoptionsDhcprelay#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#version ForwardingoptionsDhcprelay#version}
   */
   readonly version?: string;
   /**
   * active_leasequery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#active_leasequery ForwardingoptionsDhcprelay#active_leasequery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#active_leasequery ForwardingoptionsDhcprelay#active_leasequery}
   */
   readonly activeLeasequery?: ForwardingoptionsDhcprelayActiveLeasequery;
   /**
   * authentication_username_include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#authentication_username_include ForwardingoptionsDhcprelay#authentication_username_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#authentication_username_include ForwardingoptionsDhcprelay#authentication_username_include}
   */
   readonly authenticationUsernameInclude?: ForwardingoptionsDhcprelayAuthenticationUsernameInclude;
   /**
   * bulk_leasequery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#bulk_leasequery ForwardingoptionsDhcprelay#bulk_leasequery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#bulk_leasequery ForwardingoptionsDhcprelay#bulk_leasequery}
   */
   readonly bulkLeasequery?: ForwardingoptionsDhcprelayBulkLeasequery;
   /**
   * lease_time_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#lease_time_validation ForwardingoptionsDhcprelay#lease_time_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#lease_time_validation ForwardingoptionsDhcprelay#lease_time_validation}
   */
   readonly leaseTimeValidation?: ForwardingoptionsDhcprelayLeaseTimeValidation;
   /**
   * leasequery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#leasequery ForwardingoptionsDhcprelay#leasequery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#leasequery ForwardingoptionsDhcprelay#leasequery}
   */
   readonly leasequery?: ForwardingoptionsDhcprelayLeasequery;
   /**
   * liveness_detection_method_bfd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#liveness_detection_method_bfd ForwardingoptionsDhcprelay#liveness_detection_method_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#liveness_detection_method_bfd ForwardingoptionsDhcprelay#liveness_detection_method_bfd}
   */
   readonly livenessDetectionMethodBfd?: ForwardingoptionsDhcprelayLivenessDetectionMethodBfd;
   /**
   * liveness_detection_method_layer2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#liveness_detection_method_layer2 ForwardingoptionsDhcprelay#liveness_detection_method_layer2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#liveness_detection_method_layer2 ForwardingoptionsDhcprelay#liveness_detection_method_layer2}
   */
   readonly livenessDetectionMethodLayer2?: ForwardingoptionsDhcprelayLivenessDetectionMethodLayer2;
   /**
   * overrides_v4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#overrides_v4 ForwardingoptionsDhcprelay#overrides_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#overrides_v4 ForwardingoptionsDhcprelay#overrides_v4}
   */
   readonly overridesV4?: ForwardingoptionsDhcprelayOverridesV4;
   /**
   * overrides_v6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#overrides_v6 ForwardingoptionsDhcprelay#overrides_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#overrides_v6 ForwardingoptionsDhcprelay#overrides_v6}
   */
   readonly overridesV6?: ForwardingoptionsDhcprelayOverridesV6;
   /**
   * relay_agent_interface_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_interface_id ForwardingoptionsDhcprelay#relay_agent_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_interface_id ForwardingoptionsDhcprelay#relay_agent_interface_id}
   */
   readonly relayAgentInterfaceId?: ForwardingoptionsDhcprelayRelayAgentInterfaceId;
   /**
   * relay_agent_remote_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_remote_id ForwardingoptionsDhcprelay#relay_agent_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_remote_id ForwardingoptionsDhcprelay#relay_agent_remote_id}
   */
   readonly relayAgentRemoteId?: ForwardingoptionsDhcprelayRelayAgentRemoteId;
   /**
   * relay_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_option ForwardingoptionsDhcprelay#relay_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_option ForwardingoptionsDhcprelay#relay_option}
   */
   readonly relayOption?: ForwardingoptionsDhcprelayRelayOption;
   /**
   * relay_option_82 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_option_82 ForwardingoptionsDhcprelay#relay_option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_option_82 ForwardingoptionsDhcprelay#relay_option_82}
   */
   readonly relayOption82?: ForwardingoptionsDhcprelayRelayOption82;
   /**
   * server_match_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#server_match_address ForwardingoptionsDhcprelay#server_match_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#server_match_address ForwardingoptionsDhcprelay#server_match_address}
   */
   readonly serverMatchAddress?: ForwardingoptionsDhcprelayServerMatchAddress[] | cdktf.IResolvable;
   /**
   * server_match_duid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#server_match_duid ForwardingoptionsDhcprelay#server_match_duid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#server_match_duid ForwardingoptionsDhcprelay#server_match_duid}
   */
   readonly serverMatchDuid?: ForwardingoptionsDhcprelayServerMatchDuid[] | cdktf.IResolvable;
 }
@@ -324,25 +324,25 @@ export interface ForwardingoptionsDhcprelayActiveLeasequery {
   /**
   * Idle timeout in seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#idle_timeout ForwardingoptionsDhcprelay#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#idle_timeout ForwardingoptionsDhcprelay#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Server ip address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#peer_address ForwardingoptionsDhcprelay#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#peer_address ForwardingoptionsDhcprelay#peer_address}
   */
   readonly peerAddress?: string;
   /**
   * Read/write timeout in seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#timeout ForwardingoptionsDhcprelay#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#timeout ForwardingoptionsDhcprelay#timeout}
   */
   readonly timeout?: number;
   /**
   * Topology discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#topology_discover ForwardingoptionsDhcprelay#topology_discover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#topology_discover ForwardingoptionsDhcprelay#topology_discover}
   */
   readonly topologyDiscover?: boolean | cdktf.IResolvable;
 }
@@ -525,115 +525,115 @@ export interface ForwardingoptionsDhcprelayAuthenticationUsernameInclude {
   /**
   * Include circuit type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#circuit_type ForwardingoptionsDhcprelay#circuit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#circuit_type ForwardingoptionsDhcprelay#circuit_type}
   */
   readonly circuitType?: boolean | cdktf.IResolvable;
   /**
   * Include client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#client_id ForwardingoptionsDhcprelay#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#client_id ForwardingoptionsDhcprelay#client_id}
   */
   readonly clientId?: boolean | cdktf.IResolvable;
   /**
   * Exclude all the headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#client_id_exclude_headers ForwardingoptionsDhcprelay#client_id_exclude_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#client_id_exclude_headers ForwardingoptionsDhcprelay#client_id_exclude_headers}
   */
   readonly clientIdExcludeHeaders?: boolean | cdktf.IResolvable;
   /**
   * Use automatic ascii hex username encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#client_id_use_automatic_ascii_hex_encoding ForwardingoptionsDhcprelay#client_id_use_automatic_ascii_hex_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#client_id_use_automatic_ascii_hex_encoding ForwardingoptionsDhcprelay#client_id_use_automatic_ascii_hex_encoding}
   */
   readonly clientIdUseAutomaticAsciiHexEncoding?: boolean | cdktf.IResolvable;
   /**
   * Change delimiter/separator character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#delimiter ForwardingoptionsDhcprelay#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#delimiter ForwardingoptionsDhcprelay#delimiter}
   */
   readonly delimiter?: string;
   /**
   * Add domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#domain_name ForwardingoptionsDhcprelay#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#domain_name ForwardingoptionsDhcprelay#domain_name}
   */
   readonly domainName?: string;
   /**
   * Include interface description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#interface_description ForwardingoptionsDhcprelay#interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#interface_description ForwardingoptionsDhcprelay#interface_description}
   */
   readonly interfaceDescription?: string;
   /**
   * Include interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#interface_name ForwardingoptionsDhcprelay#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#interface_name ForwardingoptionsDhcprelay#interface_name}
   */
   readonly interfaceName?: boolean | cdktf.IResolvable;
   /**
   * Include MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#mac_address ForwardingoptionsDhcprelay#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#mac_address ForwardingoptionsDhcprelay#mac_address}
   */
   readonly macAddress?: boolean | cdktf.IResolvable;
   /**
   * Include option 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_60 ForwardingoptionsDhcprelay#option_60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_60 ForwardingoptionsDhcprelay#option_60}
   */
   readonly option60?: boolean | cdktf.IResolvable;
   /**
   * Include option 82.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_82 ForwardingoptionsDhcprelay#option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_82 ForwardingoptionsDhcprelay#option_82}
   */
   readonly option82?: boolean | cdktf.IResolvable;
   /**
   * Include option 82 circuit-id (sub option 1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_82_circuit_id ForwardingoptionsDhcprelay#option_82_circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_82_circuit_id ForwardingoptionsDhcprelay#option_82_circuit_id}
   */
   readonly option82CircuitId?: boolean | cdktf.IResolvable;
   /**
   * Include option 82 remote-id (sub option 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_82_remote_id ForwardingoptionsDhcprelay#option_82_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_82_remote_id ForwardingoptionsDhcprelay#option_82_remote_id}
   */
   readonly option82RemoteId?: boolean | cdktf.IResolvable;
   /**
   * Include the relay agent interface ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_interface_id ForwardingoptionsDhcprelay#relay_agent_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_interface_id ForwardingoptionsDhcprelay#relay_agent_interface_id}
   */
   readonly relayAgentInterfaceId?: boolean | cdktf.IResolvable;
   /**
   * Include the relay agent remote ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_remote_id ForwardingoptionsDhcprelay#relay_agent_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_remote_id ForwardingoptionsDhcprelay#relay_agent_remote_id}
   */
   readonly relayAgentRemoteId?: boolean | cdktf.IResolvable;
   /**
   * Include the relay agent subscriber ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_subscriber_id ForwardingoptionsDhcprelay#relay_agent_subscriber_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_agent_subscriber_id ForwardingoptionsDhcprelay#relay_agent_subscriber_id}
   */
   readonly relayAgentSubscriberId?: boolean | cdktf.IResolvable;
   /**
   * Include routing instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#routing_instance_name ForwardingoptionsDhcprelay#routing_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#routing_instance_name ForwardingoptionsDhcprelay#routing_instance_name}
   */
   readonly routingInstanceName?: boolean | cdktf.IResolvable;
   /**
   * Add user defined prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#user_prefix ForwardingoptionsDhcprelay#user_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#user_prefix ForwardingoptionsDhcprelay#user_prefix}
   */
   readonly userPrefix?: string;
   /**
   * Include the vlan tag(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#vlan_tags ForwardingoptionsDhcprelay#vlan_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#vlan_tags ForwardingoptionsDhcprelay#vlan_tags}
   */
   readonly vlanTags?: boolean | cdktf.IResolvable;
 }
@@ -1251,19 +1251,19 @@ export interface ForwardingoptionsDhcprelayBulkLeasequery {
   /**
   * Number of retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#attempts ForwardingoptionsDhcprelay#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#attempts ForwardingoptionsDhcprelay#attempts}
   */
   readonly attempts?: number;
   /**
   * Number of seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#timeout ForwardingoptionsDhcprelay#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#timeout ForwardingoptionsDhcprelay#timeout}
   */
   readonly timeout?: number;
   /**
   * Trigger automatically for bulk leasequery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#trigger_automatic ForwardingoptionsDhcprelay#trigger_automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#trigger_automatic ForwardingoptionsDhcprelay#trigger_automatic}
   */
   readonly triggerAutomatic?: boolean | cdktf.IResolvable;
 }
@@ -1417,13 +1417,13 @@ export interface ForwardingoptionsDhcprelayLeaseTimeValidation {
   /**
   * Threshold for lease time violation seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#lease_time_threshold ForwardingoptionsDhcprelay#lease_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#lease_time_threshold ForwardingoptionsDhcprelay#lease_time_threshold}
   */
   readonly leaseTimeThreshold?: number;
   /**
   * Lease time validation violation action is drop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#violation_action_drop ForwardingoptionsDhcprelay#violation_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#violation_action_drop ForwardingoptionsDhcprelay#violation_action_drop}
   */
   readonly violationActionDrop?: boolean | cdktf.IResolvable;
 }
@@ -1548,13 +1548,13 @@ export interface ForwardingoptionsDhcprelayLeasequery {
   /**
   * Number of retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#attempts ForwardingoptionsDhcprelay#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#attempts ForwardingoptionsDhcprelay#attempts}
   */
   readonly attempts?: number;
   /**
   * Number of seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#timeout ForwardingoptionsDhcprelay#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#timeout ForwardingoptionsDhcprelay#timeout}
   */
   readonly timeout?: number;
 }
@@ -1679,61 +1679,61 @@ export interface ForwardingoptionsDhcprelayLivenessDetectionMethodBfd {
   /**
   * High detection-time triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#detection_time_threshold ForwardingoptionsDhcprelay#detection_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#detection_time_threshold ForwardingoptionsDhcprelay#detection_time_threshold}
   */
   readonly detectionTimeThreshold?: number;
   /**
   * Time to hold the session-UP notification to the client (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#holddown_interval ForwardingoptionsDhcprelay#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#holddown_interval ForwardingoptionsDhcprelay#holddown_interval}
   */
   readonly holddownInterval?: number;
   /**
   * Minimum transmit and receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#minimum_interval ForwardingoptionsDhcprelay#minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#minimum_interval ForwardingoptionsDhcprelay#minimum_interval}
   */
   readonly minimumInterval?: number;
   /**
   * Minimum receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#minimum_receive_interval ForwardingoptionsDhcprelay#minimum_receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#minimum_receive_interval ForwardingoptionsDhcprelay#minimum_receive_interval}
   */
   readonly minimumReceiveInterval?: number;
   /**
   * Detection time multiplier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#multiplier ForwardingoptionsDhcprelay#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#multiplier ForwardingoptionsDhcprelay#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Disable adaptation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_adaptation ForwardingoptionsDhcprelay#no_adaptation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_adaptation ForwardingoptionsDhcprelay#no_adaptation}
   */
   readonly noAdaptation?: boolean | cdktf.IResolvable;
   /**
   * BFD single-hop or multihop session-mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#session_mode ForwardingoptionsDhcprelay#session_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#session_mode ForwardingoptionsDhcprelay#session_mode}
   */
   readonly sessionMode?: string;
   /**
   * Minimum transmit interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#transmit_interval_minimum ForwardingoptionsDhcprelay#transmit_interval_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#transmit_interval_minimum ForwardingoptionsDhcprelay#transmit_interval_minimum}
   */
   readonly transmitIntervalMinimum?: number;
   /**
   * High transmit interval triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#transmit_interval_threshold ForwardingoptionsDhcprelay#transmit_interval_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#transmit_interval_threshold ForwardingoptionsDhcprelay#transmit_interval_threshold}
   */
   readonly transmitIntervalThreshold?: number;
   /**
   * BFD protocol version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#version ForwardingoptionsDhcprelay#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#version ForwardingoptionsDhcprelay#version}
   */
   readonly version?: string;
 }
@@ -2090,13 +2090,13 @@ export interface ForwardingoptionsDhcprelayLivenessDetectionMethodLayer2 {
   /**
   * Retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#max_consecutive_retries ForwardingoptionsDhcprelay#max_consecutive_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#max_consecutive_retries ForwardingoptionsDhcprelay#max_consecutive_retries}
   */
   readonly maxConsecutiveRetries?: number;
   /**
   * Transmit interval for address resolution (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#transmit_interval ForwardingoptionsDhcprelay#transmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#transmit_interval ForwardingoptionsDhcprelay#transmit_interval}
   */
   readonly transmitInterval?: number;
 }
@@ -2221,133 +2221,133 @@ export interface ForwardingoptionsDhcprelayOverridesV4 {
   /**
   * Allow packets without end-of-option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#allow_no_end_option ForwardingoptionsDhcprelay#allow_no_end_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#allow_no_end_option ForwardingoptionsDhcprelay#allow_no_end_option}
   */
   readonly allowNoEndOption?: boolean | cdktf.IResolvable;
   /**
   * Allow client creation from snooped PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#allow_snooped_clients ForwardingoptionsDhcprelay#allow_snooped_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#allow_snooped_clients ForwardingoptionsDhcprelay#allow_snooped_clients}
   */
   readonly allowSnoopedClients?: boolean | cdktf.IResolvable;
   /**
   * Overwrite existing 'giaddr' field, when present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#always_write_giaddr ForwardingoptionsDhcprelay#always_write_giaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#always_write_giaddr ForwardingoptionsDhcprelay#always_write_giaddr}
   */
   readonly alwaysWriteGiaddr?: boolean | cdktf.IResolvable;
   /**
   * Overwrite existing value of option 82, when present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#always_write_option_82 ForwardingoptionsDhcprelay#always_write_option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#always_write_option_82 ForwardingoptionsDhcprelay#always_write_option_82}
   */
   readonly alwaysWriteOption82?: boolean | cdktf.IResolvable;
   /**
   * Use a reduced lease time for the client. In seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#asymmetric_lease_time ForwardingoptionsDhcprelay#asymmetric_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#asymmetric_lease_time ForwardingoptionsDhcprelay#asymmetric_lease_time}
   */
   readonly asymmetricLeaseTime?: number;
   /**
   * Allows relay of bootp req and reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#bootp_support ForwardingoptionsDhcprelay#bootp_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#bootp_support ForwardingoptionsDhcprelay#bootp_support}
   */
   readonly bootpSupport?: boolean | cdktf.IResolvable;
   /**
   * Use secondary match criteria for DISCOVER PDU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#client_discover_match ForwardingoptionsDhcprelay#client_discover_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#client_discover_match ForwardingoptionsDhcprelay#client_discover_match}
   */
   readonly clientDiscoverMatch?: string;
   /**
   * Delay subscriber authentication in DHCP protocol processing until request packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#delay_authentication ForwardingoptionsDhcprelay#delay_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#delay_authentication ForwardingoptionsDhcprelay#delay_authentication}
   */
   readonly delayAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Delete binding on renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#delete_binding_on_renegotiation ForwardingoptionsDhcprelay#delete_binding_on_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#delete_binding_on_renegotiation ForwardingoptionsDhcprelay#delete_binding_on_renegotiation}
   */
   readonly deleteBindingOnRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * Disable DHCP relay processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#disable_relay ForwardingoptionsDhcprelay#disable_relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#disable_relay ForwardingoptionsDhcprelay#disable_relay}
   */
   readonly disableRelay?: boolean | cdktf.IResolvable;
   /**
   * Dual stack group to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#dual_stack ForwardingoptionsDhcprelay#dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#dual_stack ForwardingoptionsDhcprelay#dual_stack}
   */
   readonly dualStack?: string;
   /**
   * Limit the number of clients allowed on an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#interface_client_limit ForwardingoptionsDhcprelay#interface_client_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#interface_client_limit ForwardingoptionsDhcprelay#interface_client_limit}
   */
   readonly interfaceClientLimit?: number;
   /**
   * Do not broadcast client responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#layer2_unicast_replies ForwardingoptionsDhcprelay#layer2_unicast_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#layer2_unicast_replies ForwardingoptionsDhcprelay#layer2_unicast_replies}
   */
   readonly layer2UnicastReplies?: boolean | cdktf.IResolvable;
   /**
   * Don't allow client creation from snooped PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_allow_snooped_clients ForwardingoptionsDhcprelay#no_allow_snooped_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_allow_snooped_clients ForwardingoptionsDhcprelay#no_allow_snooped_clients}
   */
   readonly noAllowSnoopedClients?: boolean | cdktf.IResolvable;
   /**
   * Do not bind if stray DHCP request is received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_bind_on_request ForwardingoptionsDhcprelay#no_bind_on_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_bind_on_request ForwardingoptionsDhcprelay#no_bind_on_request}
   */
   readonly noBindOnRequest?: boolean | cdktf.IResolvable;
   /**
   * Overwrite unicast bit in incoming packet, when present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_unicast_replies ForwardingoptionsDhcprelay#no_unicast_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_unicast_replies ForwardingoptionsDhcprelay#no_unicast_replies}
   */
   readonly noUnicastReplies?: boolean | cdktf.IResolvable;
   /**
   * Put the relay in proxy mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#proxy_mode ForwardingoptionsDhcprelay#proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#proxy_mode ForwardingoptionsDhcprelay#proxy_mode}
   */
   readonly proxyMode?: boolean | cdktf.IResolvable;
   /**
   * Interface for relay source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_source ForwardingoptionsDhcprelay#relay_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_source ForwardingoptionsDhcprelay#relay_source}
   */
   readonly relaySource?: string;
   /**
   * Replace IP source address in request and release packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#replace_ip_source_with_giaddr ForwardingoptionsDhcprelay#replace_ip_source_with_giaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#replace_ip_source_with_giaddr ForwardingoptionsDhcprelay#replace_ip_source_with_giaddr}
   */
   readonly replaceIpSourceWithGiaddr?: boolean | cdktf.IResolvable;
   /**
   * Always send RELEASE to the server when a binding is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#send_release_on_delete ForwardingoptionsDhcprelay#send_release_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#send_release_on_delete ForwardingoptionsDhcprelay#send_release_on_delete}
   */
   readonly sendReleaseOnDelete?: boolean | cdktf.IResolvable;
   /**
   * Trust options-82 option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#trust_option_82 ForwardingoptionsDhcprelay#trust_option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#trust_option_82 ForwardingoptionsDhcprelay#trust_option_82}
   */
   readonly trustOption82?: boolean | cdktf.IResolvable;
   /**
   * Set user defined description for option-82.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#user_defined_option_82 ForwardingoptionsDhcprelay#user_defined_option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#user_defined_option_82 ForwardingoptionsDhcprelay#user_defined_option_82}
   */
   readonly userDefinedOption82?: string;
 }
@@ -3052,79 +3052,79 @@ export interface ForwardingoptionsDhcprelayOverridesV6 {
   /**
   * Allow client creation from snooped PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#allow_snooped_clients ForwardingoptionsDhcprelay#allow_snooped_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#allow_snooped_clients ForwardingoptionsDhcprelay#allow_snooped_clients}
   */
   readonly allowSnoopedClients?: boolean | cdktf.IResolvable;
   /**
   * Always process option even after address allocation failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#always_process_option_request_option ForwardingoptionsDhcprelay#always_process_option_request_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#always_process_option_request_option ForwardingoptionsDhcprelay#always_process_option_request_option}
   */
   readonly alwaysProcessOptionRequestOption?: boolean | cdktf.IResolvable;
   /**
   * Use a reduced lease time for the client. In seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#asymmetric_lease_time ForwardingoptionsDhcprelay#asymmetric_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#asymmetric_lease_time ForwardingoptionsDhcprelay#asymmetric_lease_time}
   */
   readonly asymmetricLeaseTime?: number;
   /**
   * Use a reduced prefix lease time for the client. In seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#asymmetric_prefix_lease_time ForwardingoptionsDhcprelay#asymmetric_prefix_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#asymmetric_prefix_lease_time ForwardingoptionsDhcprelay#asymmetric_prefix_lease_time}
   */
   readonly asymmetricPrefixLeaseTime?: number;
   /**
   * Use incoming interface match criteria for SOLICIT PDU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#client_negotiation_match_incoming_interface ForwardingoptionsDhcprelay#client_negotiation_match_incoming_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#client_negotiation_match_incoming_interface ForwardingoptionsDhcprelay#client_negotiation_match_incoming_interface}
   */
   readonly clientNegotiationMatchIncomingInterface?: boolean | cdktf.IResolvable;
   /**
   * Delay subscriber authentication in DHCP protocol processing until request packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#delay_authentication ForwardingoptionsDhcprelay#delay_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#delay_authentication ForwardingoptionsDhcprelay#delay_authentication}
   */
   readonly delayAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Delete binding on renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#delete_binding_on_renegotiation ForwardingoptionsDhcprelay#delete_binding_on_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#delete_binding_on_renegotiation ForwardingoptionsDhcprelay#delete_binding_on_renegotiation}
   */
   readonly deleteBindingOnRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * Dual stack group to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#dual_stack ForwardingoptionsDhcprelay#dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#dual_stack ForwardingoptionsDhcprelay#dual_stack}
   */
   readonly dualStack?: string;
   /**
   * Limit the number of clients allowed on an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#interface_client_limit ForwardingoptionsDhcprelay#interface_client_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#interface_client_limit ForwardingoptionsDhcprelay#interface_client_limit}
   */
   readonly interfaceClientLimit?: number;
   /**
   * Don't allow client creation from snooped PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_allow_snooped_clients ForwardingoptionsDhcprelay#no_allow_snooped_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_allow_snooped_clients ForwardingoptionsDhcprelay#no_allow_snooped_clients}
   */
   readonly noAllowSnoopedClients?: boolean | cdktf.IResolvable;
   /**
   * Do not bind if stray DHCPv6 RENEW, REBIND is received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_bind_on_request ForwardingoptionsDhcprelay#no_bind_on_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_bind_on_request ForwardingoptionsDhcprelay#no_bind_on_request}
   */
   readonly noBindOnRequest?: boolean | cdktf.IResolvable;
   /**
   * Interface for relay source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#relay_source ForwardingoptionsDhcprelay#relay_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#relay_source ForwardingoptionsDhcprelay#relay_source}
   */
   readonly relaySource?: string;
   /**
   * Always send RELEASE to the server when a binding is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#send_release_on_delete ForwardingoptionsDhcprelay#send_release_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#send_release_on_delete ForwardingoptionsDhcprelay#send_release_on_delete}
   */
   readonly sendReleaseOnDelete?: boolean | cdktf.IResolvable;
 }
@@ -3568,61 +3568,61 @@ export interface ForwardingoptionsDhcprelayRelayAgentInterfaceId {
   /**
   * Include IRB and L2 interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#include_irb_and_l2 ForwardingoptionsDhcprelay#include_irb_and_l2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#include_irb_and_l2 ForwardingoptionsDhcprelay#include_irb_and_l2}
   */
   readonly includeIrbAndL2?: boolean | cdktf.IResolvable;
   /**
   * Keep incoming interface identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_id ForwardingoptionsDhcprelay#keep_incoming_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_id ForwardingoptionsDhcprelay#keep_incoming_id}
   */
   readonly keepIncomingId?: boolean | cdktf.IResolvable;
   /**
   * Drop packet if interface identifier not present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_id_strict ForwardingoptionsDhcprelay#keep_incoming_id_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_id_strict ForwardingoptionsDhcprelay#keep_incoming_id_strict}
   */
   readonly keepIncomingIdStrict?: boolean | cdktf.IResolvable;
   /**
   * Not include vlan or interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_vlan_interface_name ForwardingoptionsDhcprelay#no_vlan_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_vlan_interface_name ForwardingoptionsDhcprelay#no_vlan_interface_name}
   */
   readonly noVlanInterfaceName?: boolean | cdktf.IResolvable;
   /**
   * Add router host name to circuit / interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#prefix_host_name ForwardingoptionsDhcprelay#prefix_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#prefix_host_name ForwardingoptionsDhcprelay#prefix_host_name}
   */
   readonly prefixHostName?: boolean | cdktf.IResolvable;
   /**
   * Add routing instance name to circuit / interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#prefix_routing_instance_name ForwardingoptionsDhcprelay#prefix_routing_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#prefix_routing_instance_name ForwardingoptionsDhcprelay#prefix_routing_instance_name}
   */
   readonly prefixRoutingInstanceName?: boolean | cdktf.IResolvable;
   /**
   * Use interface description instead of circuit identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_interface_description ForwardingoptionsDhcprelay#use_interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_interface_description ForwardingoptionsDhcprelay#use_interface_description}
   */
   readonly useInterfaceDescription?: string;
   /**
   * Use option-82 circuit-id for interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_option_82 ForwardingoptionsDhcprelay#use_option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_option_82 ForwardingoptionsDhcprelay#use_option_82}
   */
   readonly useOption82?: boolean | cdktf.IResolvable;
   /**
   * Drop packet if option-82 circuit-id not present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_option_82_strict ForwardingoptionsDhcprelay#use_option_82_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_option_82_strict ForwardingoptionsDhcprelay#use_option_82_strict}
   */
   readonly useOption82Strict?: boolean | cdktf.IResolvable;
   /**
   * Use VLAN id instead of name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_vlan_id ForwardingoptionsDhcprelay#use_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_vlan_id ForwardingoptionsDhcprelay#use_vlan_id}
   */
   readonly useVlanId?: boolean | cdktf.IResolvable;
 }
@@ -3979,55 +3979,55 @@ export interface ForwardingoptionsDhcprelayRelayAgentRemoteId {
   /**
   * Include IRB and L2 interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#include_irb_and_l2 ForwardingoptionsDhcprelay#include_irb_and_l2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#include_irb_and_l2 ForwardingoptionsDhcprelay#include_irb_and_l2}
   */
   readonly includeIrbAndL2?: boolean | cdktf.IResolvable;
   /**
   * Keep incoming interface identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_id ForwardingoptionsDhcprelay#keep_incoming_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_id ForwardingoptionsDhcprelay#keep_incoming_id}
   */
   readonly keepIncomingId?: boolean | cdktf.IResolvable;
   /**
   * Not include vlan or interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_vlan_interface_name ForwardingoptionsDhcprelay#no_vlan_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_vlan_interface_name ForwardingoptionsDhcprelay#no_vlan_interface_name}
   */
   readonly noVlanInterfaceName?: boolean | cdktf.IResolvable;
   /**
   * Add router host name to circuit / interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#prefix_host_name ForwardingoptionsDhcprelay#prefix_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#prefix_host_name ForwardingoptionsDhcprelay#prefix_host_name}
   */
   readonly prefixHostName?: boolean | cdktf.IResolvable;
   /**
   * Add routing instance name to circuit / interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#prefix_routing_instance_name ForwardingoptionsDhcprelay#prefix_routing_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#prefix_routing_instance_name ForwardingoptionsDhcprelay#prefix_routing_instance_name}
   */
   readonly prefixRoutingInstanceName?: boolean | cdktf.IResolvable;
   /**
   * Use interface description instead of circuit identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_interface_description ForwardingoptionsDhcprelay#use_interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_interface_description ForwardingoptionsDhcprelay#use_interface_description}
   */
   readonly useInterfaceDescription?: string;
   /**
   * Use option-82 circuit-id for interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_option_82 ForwardingoptionsDhcprelay#use_option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_option_82 ForwardingoptionsDhcprelay#use_option_82}
   */
   readonly useOption82?: boolean | cdktf.IResolvable;
   /**
   * Drop packet if option-82 circuit-id not present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_option_82_strict ForwardingoptionsDhcprelay#use_option_82_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_option_82_strict ForwardingoptionsDhcprelay#use_option_82_strict}
   */
   readonly useOption82Strict?: boolean | cdktf.IResolvable;
   /**
   * Use VLAN id instead of name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_vlan_id ForwardingoptionsDhcprelay#use_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_vlan_id ForwardingoptionsDhcprelay#use_vlan_id}
   */
   readonly useVlanId?: boolean | cdktf.IResolvable;
 }
@@ -4355,31 +4355,31 @@ export interface ForwardingoptionsDhcprelayRelayOptionOption15 {
   /**
   * Action on match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action: string;
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
   */
   readonly compare: string;
   /**
   * Group for action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
   */
   readonly group?: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
   */
   readonly valueType: string;
 }
@@ -4601,13 +4601,13 @@ export interface ForwardingoptionsDhcprelayRelayOptionOption15DefaultAction {
   /**
   * Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action?: string;
   /**
   * Group for action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
   */
   readonly group?: string;
 }
@@ -4732,31 +4732,31 @@ export interface ForwardingoptionsDhcprelayRelayOptionOption16 {
   /**
   * Action on match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action: string;
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
   */
   readonly compare: string;
   /**
   * Group for action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
   */
   readonly group?: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
   */
   readonly valueType: string;
 }
@@ -4978,13 +4978,13 @@ export interface ForwardingoptionsDhcprelayRelayOptionOption16DefaultAction {
   /**
   * Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action?: string;
   /**
   * Group for action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
   */
   readonly group?: string;
 }
@@ -5109,31 +5109,31 @@ export interface ForwardingoptionsDhcprelayRelayOptionOption60 {
   /**
   * Action on match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action: string;
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
   */
   readonly compare: string;
   /**
   * Group for action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
   */
   readonly group?: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
   */
   readonly valueType: string;
 }
@@ -5355,13 +5355,13 @@ export interface ForwardingoptionsDhcprelayRelayOptionOption60DefaultAction {
   /**
   * Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action?: string;
   /**
   * Group for action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
   */
   readonly group?: string;
 }
@@ -5486,31 +5486,31 @@ export interface ForwardingoptionsDhcprelayRelayOptionOption77 {
   /**
   * Action on match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action: string;
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
   */
   readonly compare: string;
   /**
   * Group for action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
   */
   readonly group?: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
   */
   readonly valueType: string;
 }
@@ -5732,13 +5732,13 @@ export interface ForwardingoptionsDhcprelayRelayOptionOption77DefaultAction {
   /**
   * Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action?: string;
   /**
   * Group for action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#group ForwardingoptionsDhcprelay#group}
   */
   readonly group?: string;
 }
@@ -5863,55 +5863,55 @@ export interface ForwardingoptionsDhcprelayRelayOption {
   /**
   * Options precedence order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_order ForwardingoptionsDhcprelay#option_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_order ForwardingoptionsDhcprelay#option_order}
   */
   readonly optionOrder?: string[];
   /**
   * option_15 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_15 ForwardingoptionsDhcprelay#option_15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_15 ForwardingoptionsDhcprelay#option_15}
   */
   readonly option15?: ForwardingoptionsDhcprelayRelayOptionOption15[] | cdktf.IResolvable;
   /**
   * option_15_default_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_15_default_action ForwardingoptionsDhcprelay#option_15_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_15_default_action ForwardingoptionsDhcprelay#option_15_default_action}
   */
   readonly option15DefaultAction?: ForwardingoptionsDhcprelayRelayOptionOption15DefaultAction;
   /**
   * option_16 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_16 ForwardingoptionsDhcprelay#option_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_16 ForwardingoptionsDhcprelay#option_16}
   */
   readonly option16?: ForwardingoptionsDhcprelayRelayOptionOption16[] | cdktf.IResolvable;
   /**
   * option_16_default_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_16_default_action ForwardingoptionsDhcprelay#option_16_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_16_default_action ForwardingoptionsDhcprelay#option_16_default_action}
   */
   readonly option16DefaultAction?: ForwardingoptionsDhcprelayRelayOptionOption16DefaultAction;
   /**
   * option_60 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_60 ForwardingoptionsDhcprelay#option_60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_60 ForwardingoptionsDhcprelay#option_60}
   */
   readonly option60?: ForwardingoptionsDhcprelayRelayOptionOption60[] | cdktf.IResolvable;
   /**
   * option_60_default_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_60_default_action ForwardingoptionsDhcprelay#option_60_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_60_default_action ForwardingoptionsDhcprelay#option_60_default_action}
   */
   readonly option60DefaultAction?: ForwardingoptionsDhcprelayRelayOptionOption60DefaultAction;
   /**
   * option_77 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_77 ForwardingoptionsDhcprelay#option_77}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_77 ForwardingoptionsDhcprelay#option_77}
   */
   readonly option77?: ForwardingoptionsDhcprelayRelayOptionOption77[] | cdktf.IResolvable;
   /**
   * option_77_default_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#option_77_default_action ForwardingoptionsDhcprelay#option_77_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#option_77_default_action ForwardingoptionsDhcprelay#option_77_default_action}
   */
   readonly option77DefaultAction?: ForwardingoptionsDhcprelayRelayOptionOption77DefaultAction;
 }
@@ -6239,55 +6239,55 @@ export interface ForwardingoptionsDhcprelayRelayOption82CircuitId {
   /**
   * Include IRB and L2 interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#include_irb_and_l2 ForwardingoptionsDhcprelay#include_irb_and_l2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#include_irb_and_l2 ForwardingoptionsDhcprelay#include_irb_and_l2}
   */
   readonly includeIrbAndL2?: boolean | cdktf.IResolvable;
   /**
   * Keep incoming circuit identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_circuit_id ForwardingoptionsDhcprelay#keep_incoming_circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_circuit_id ForwardingoptionsDhcprelay#keep_incoming_circuit_id}
   */
   readonly keepIncomingCircuitId?: boolean | cdktf.IResolvable;
   /**
   * Not include vlan or interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_vlan_interface_name ForwardingoptionsDhcprelay#no_vlan_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_vlan_interface_name ForwardingoptionsDhcprelay#no_vlan_interface_name}
   */
   readonly noVlanInterfaceName?: boolean | cdktf.IResolvable;
   /**
   * Add router host name to circuit / interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#prefix_host_name ForwardingoptionsDhcprelay#prefix_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#prefix_host_name ForwardingoptionsDhcprelay#prefix_host_name}
   */
   readonly prefixHostName?: boolean | cdktf.IResolvable;
   /**
   * Add routing instance name to circuit / interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#prefix_routing_instance_name ForwardingoptionsDhcprelay#prefix_routing_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#prefix_routing_instance_name ForwardingoptionsDhcprelay#prefix_routing_instance_name}
   */
   readonly prefixRoutingInstanceName?: boolean | cdktf.IResolvable;
   /**
   * Use interface description instead of circuit identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_interface_description ForwardingoptionsDhcprelay#use_interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_interface_description ForwardingoptionsDhcprelay#use_interface_description}
   */
   readonly useInterfaceDescription?: string;
   /**
   * Use VLAN id instead of name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_vlan_id ForwardingoptionsDhcprelay#use_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_vlan_id ForwardingoptionsDhcprelay#use_vlan_id}
   */
   readonly useVlanId?: boolean | cdktf.IResolvable;
   /**
   * Include user defined string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#user_defined ForwardingoptionsDhcprelay#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#user_defined ForwardingoptionsDhcprelay#user_defined}
   */
   readonly userDefined?: boolean | cdktf.IResolvable;
   /**
   * Use only VLAN id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#vlan_id_only ForwardingoptionsDhcprelay#vlan_id_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#vlan_id_only ForwardingoptionsDhcprelay#vlan_id_only}
   */
   readonly vlanIdOnly?: boolean | cdktf.IResolvable;
 }
@@ -6615,55 +6615,55 @@ export interface ForwardingoptionsDhcprelayRelayOption82RemoteId {
   /**
   * Include hostname only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#hostname_only ForwardingoptionsDhcprelay#hostname_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#hostname_only ForwardingoptionsDhcprelay#hostname_only}
   */
   readonly hostnameOnly?: boolean | cdktf.IResolvable;
   /**
   * Include IRB and L2 interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#include_irb_and_l2 ForwardingoptionsDhcprelay#include_irb_and_l2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#include_irb_and_l2 ForwardingoptionsDhcprelay#include_irb_and_l2}
   */
   readonly includeIrbAndL2?: boolean | cdktf.IResolvable;
   /**
   * Keep incoming remote identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_remote_id ForwardingoptionsDhcprelay#keep_incoming_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#keep_incoming_remote_id ForwardingoptionsDhcprelay#keep_incoming_remote_id}
   */
   readonly keepIncomingRemoteId?: boolean | cdktf.IResolvable;
   /**
   * Not include vlan or interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#no_vlan_interface_name ForwardingoptionsDhcprelay#no_vlan_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#no_vlan_interface_name ForwardingoptionsDhcprelay#no_vlan_interface_name}
   */
   readonly noVlanInterfaceName?: boolean | cdktf.IResolvable;
   /**
   * Add router host name to circuit / interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#prefix_host_name ForwardingoptionsDhcprelay#prefix_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#prefix_host_name ForwardingoptionsDhcprelay#prefix_host_name}
   */
   readonly prefixHostName?: boolean | cdktf.IResolvable;
   /**
   * Add routing instance name to circuit / interface-id or remote-id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#prefix_routing_instance_name ForwardingoptionsDhcprelay#prefix_routing_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#prefix_routing_instance_name ForwardingoptionsDhcprelay#prefix_routing_instance_name}
   */
   readonly prefixRoutingInstanceName?: boolean | cdktf.IResolvable;
   /**
   * Use interface description instead of circuit identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_interface_description ForwardingoptionsDhcprelay#use_interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_interface_description ForwardingoptionsDhcprelay#use_interface_description}
   */
   readonly useInterfaceDescription?: string;
   /**
   * Use raw string instead of the default remote id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_string ForwardingoptionsDhcprelay#use_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_string ForwardingoptionsDhcprelay#use_string}
   */
   readonly useString?: string;
   /**
   * Use VLAN id instead of name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#use_vlan_id ForwardingoptionsDhcprelay#use_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#use_vlan_id ForwardingoptionsDhcprelay#use_vlan_id}
   */
   readonly useVlanId?: boolean | cdktf.IResolvable;
 }
@@ -6991,43 +6991,43 @@ export interface ForwardingoptionsDhcprelayRelayOption82 {
   /**
   * Exclude relay agent identifier from packets to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#exclude_relay_agent_identifier ForwardingoptionsDhcprelay#exclude_relay_agent_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#exclude_relay_agent_identifier ForwardingoptionsDhcprelay#exclude_relay_agent_identifier}
   */
   readonly excludeRelayAgentIdentifier?: boolean | cdktf.IResolvable;
   /**
   * Add link-selection sub-option on packets to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#link_selection ForwardingoptionsDhcprelay#link_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#link_selection ForwardingoptionsDhcprelay#link_selection}
   */
   readonly linkSelection?: boolean | cdktf.IResolvable;
   /**
   * Add link-selection and server-id sub-options on packets to server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#server_id_override ForwardingoptionsDhcprelay#server_id_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#server_id_override ForwardingoptionsDhcprelay#server_id_override}
   */
   readonly serverIdOverride?: boolean | cdktf.IResolvable;
   /**
   * Add vendor-specific information, add router host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#vendor_specific_host_name ForwardingoptionsDhcprelay#vendor_specific_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#vendor_specific_host_name ForwardingoptionsDhcprelay#vendor_specific_host_name}
   */
   readonly vendorSpecificHostName?: boolean | cdktf.IResolvable;
   /**
   * Add vendor-specific information, add location information expressed as interface name format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#vendor_specific_location ForwardingoptionsDhcprelay#vendor_specific_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#vendor_specific_location ForwardingoptionsDhcprelay#vendor_specific_location}
   */
   readonly vendorSpecificLocation?: boolean | cdktf.IResolvable;
   /**
   * circuit_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#circuit_id ForwardingoptionsDhcprelay#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#circuit_id ForwardingoptionsDhcprelay#circuit_id}
   */
   readonly circuitId?: ForwardingoptionsDhcprelayRelayOption82CircuitId;
   /**
   * remote_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#remote_id ForwardingoptionsDhcprelay#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#remote_id ForwardingoptionsDhcprelay#remote_id}
   */
   readonly remoteId?: ForwardingoptionsDhcprelayRelayOption82RemoteId;
 }
@@ -7297,13 +7297,13 @@ export interface ForwardingoptionsDhcprelayServerMatchAddress {
   /**
   * Action on address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action: string;
   /**
   * Server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#address ForwardingoptionsDhcprelay#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#address ForwardingoptionsDhcprelay#address}
   */
   readonly address: string;
 }
@@ -7444,25 +7444,25 @@ export interface ForwardingoptionsDhcprelayServerMatchDuid {
   /**
   * Action on match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#action ForwardingoptionsDhcprelay#action}
   */
   readonly action: string;
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#compare ForwardingoptionsDhcprelay#compare}
   */
   readonly compare: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value ForwardingoptionsDhcprelay#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#value_type ForwardingoptionsDhcprelay#value_type}
   */
   readonly valueType: string;
 }
@@ -7653,7 +7653,7 @@ export class ForwardingoptionsDhcprelayServerMatchDuidList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay junos_forwardingoptions_dhcprelay}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay junos_forwardingoptions_dhcprelay}
 */
 export class ForwardingoptionsDhcprelay extends cdktf.TerraformResource {
 
@@ -7669,7 +7669,7 @@ export class ForwardingoptionsDhcprelay extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ForwardingoptionsDhcprelay resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardingoptionsDhcprelay to import
-  * @param importFromId The id of the existing ForwardingoptionsDhcprelay that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardingoptionsDhcprelay that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardingoptionsDhcprelay to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7681,7 +7681,7 @@ export class ForwardingoptionsDhcprelay extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/forwardingoptions_dhcprelay junos_forwardingoptions_dhcprelay} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/forwardingoptions_dhcprelay junos_forwardingoptions_dhcprelay} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7692,8 +7692,8 @@ export class ForwardingoptionsDhcprelay extends cdktf.TerraformResource {
       terraformResourceType: 'junos_forwardingoptions_dhcprelay',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

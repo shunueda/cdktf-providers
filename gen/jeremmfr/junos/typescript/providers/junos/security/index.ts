@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface SecurityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Clean supported lines when destroy this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#clean_on_destroy Security#clean_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#clean_on_destroy Security#clean_on_destroy}
   */
   readonly cleanOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * alg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#alg Security#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#alg Security#alg}
   */
   readonly alg?: SecurityAlg;
   /**
   * flow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#flow Security#flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#flow Security#flow}
   */
   readonly flow?: SecurityFlow;
   /**
   * forwarding_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#forwarding_options Security#forwarding_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#forwarding_options Security#forwarding_options}
   */
   readonly forwardingOptions?: SecurityForwardingOptions;
   /**
   * forwarding_process block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#forwarding_process Security#forwarding_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#forwarding_process Security#forwarding_process}
   */
   readonly forwardingProcess?: SecurityForwardingProcess;
   /**
   * idp_security_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#idp_security_package Security#idp_security_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#idp_security_package Security#idp_security_package}
   */
   readonly idpSecurityPackage?: SecurityIdpSecurityPackage;
   /**
   * idp_sensor_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#idp_sensor_configuration Security#idp_sensor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#idp_sensor_configuration Security#idp_sensor_configuration}
   */
   readonly idpSensorConfiguration?: SecurityIdpSensorConfiguration;
   /**
   * ike_traceoptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#ike_traceoptions Security#ike_traceoptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#ike_traceoptions Security#ike_traceoptions}
   */
   readonly ikeTraceoptions?: SecurityIkeTraceoptions;
   /**
   * log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#log Security#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#log Security#log}
   */
   readonly log?: SecurityLog;
   /**
   * nat_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#nat_source Security#nat_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#nat_source Security#nat_source}
   */
   readonly natSource?: SecurityNatSource;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#policies Security#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#policies Security#policies}
   */
   readonly policies?: SecurityPolicies;
   /**
   * user_identification_auth_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#user_identification_auth_source Security#user_identification_auth_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#user_identification_auth_source Security#user_identification_auth_source}
   */
   readonly userIdentificationAuthSource?: SecurityUserIdentificationAuthSource;
   /**
   * utm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#utm Security#utm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#utm Security#utm}
   */
   readonly utm?: SecurityUtm;
 }
@@ -90,85 +90,85 @@ export interface SecurityAlg {
   /**
   * Disable dns alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#dns_disable Security#dns_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#dns_disable Security#dns_disable}
   */
   readonly dnsDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable ftp alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#ftp_disable Security#ftp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#ftp_disable Security#ftp_disable}
   */
   readonly ftpDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable h323 alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#h323_disable Security#h323_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#h323_disable Security#h323_disable}
   */
   readonly h323Disable?: boolean | cdktf.IResolvable;
   /**
   * Disable mgcp alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#mgcp_disable Security#mgcp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#mgcp_disable Security#mgcp_disable}
   */
   readonly mgcpDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable msrpc alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#msrpc_disable Security#msrpc_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#msrpc_disable Security#msrpc_disable}
   */
   readonly msrpcDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable pptp alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#pptp_disable Security#pptp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#pptp_disable Security#pptp_disable}
   */
   readonly pptpDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable rsh alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#rsh_disable Security#rsh_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#rsh_disable Security#rsh_disable}
   */
   readonly rshDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable rtsp alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#rtsp_disable Security#rtsp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#rtsp_disable Security#rtsp_disable}
   */
   readonly rtspDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable sccp alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#sccp_disable Security#sccp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#sccp_disable Security#sccp_disable}
   */
   readonly sccpDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable sip alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#sip_disable Security#sip_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#sip_disable Security#sip_disable}
   */
   readonly sipDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable sql alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#sql_disable Security#sql_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#sql_disable Security#sql_disable}
   */
   readonly sqlDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable sunrpc alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#sunrpc_disable Security#sunrpc_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#sunrpc_disable Security#sunrpc_disable}
   */
   readonly sunrpcDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable talk alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#talk_disable Security#talk_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#talk_disable Security#talk_disable}
   */
   readonly talkDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable tftp alg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#tftp_disable Security#tftp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#tftp_disable Security#tftp_disable}
   */
   readonly tftpDisable?: boolean | cdktf.IResolvable;
 }
@@ -641,19 +641,19 @@ export interface SecurityFlowAdvancedOptions {
   /**
   * Drop matching link local address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#drop_matching_link_local_address Security#drop_matching_link_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#drop_matching_link_local_address Security#drop_matching_link_local_address}
   */
   readonly dropMatchingLinkLocalAddress?: boolean | cdktf.IResolvable;
   /**
   * Drop matching reserved source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#drop_matching_reserved_ip_address Security#drop_matching_reserved_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#drop_matching_reserved_ip_address Security#drop_matching_reserved_ip_address}
   */
   readonly dropMatchingReservedIpAddress?: boolean | cdktf.IResolvable;
   /**
   * Allow reverse route lookup with packet mode vr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#reverse_route_packet_mode_vr Security#reverse_route_packet_mode_vr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#reverse_route_packet_mode_vr Security#reverse_route_packet_mode_vr}
   */
   readonly reverseRoutePacketModeVr?: boolean | cdktf.IResolvable;
 }
@@ -807,19 +807,19 @@ export interface SecurityFlowAging {
   /**
   * Delay before device declares session invalid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#early_ageout Security#early_ageout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#early_ageout Security#early_ageout}
   */
   readonly earlyAgeout?: number;
   /**
   * Percentage of session-table capacity at which aggressive aging-out starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#high_watermark Security#high_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#high_watermark Security#high_watermark}
   */
   readonly highWatermark?: number;
   /**
   * Percentage of session-table capacity at which aggressive aging-out ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#low_watermark Security#low_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#low_watermark Security#low_watermark}
   */
   readonly lowWatermark?: number;
 }
@@ -973,7 +973,7 @@ export interface SecurityFlowEthernetSwitchingNoPacketFlooding {
   /**
   * Don't send ICMP to trigger MAC learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#no_trace_route Security#no_trace_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#no_trace_route Security#no_trace_route}
   */
   readonly noTraceRoute?: boolean | cdktf.IResolvable;
 }
@@ -1069,25 +1069,25 @@ export interface SecurityFlowEthernetSwitching {
   /**
   * Block all non-IP and non-ARP traffic including broadcast/multicast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#block_non_ip_all Security#block_non_ip_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#block_non_ip_all Security#block_non_ip_all}
   */
   readonly blockNonIpAll?: boolean | cdktf.IResolvable;
   /**
   * Set 802.1D BPDU flooding based on VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#bpdu_vlan_flooding Security#bpdu_vlan_flooding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#bpdu_vlan_flooding Security#bpdu_vlan_flooding}
   */
   readonly bpduVlanFlooding?: boolean | cdktf.IResolvable;
   /**
   * Allow all non-IP (including unicast) traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#bypass_non_ip_unicast Security#bypass_non_ip_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#bypass_non_ip_unicast Security#bypass_non_ip_unicast}
   */
   readonly bypassNonIpUnicast?: boolean | cdktf.IResolvable;
   /**
   * no_packet_flooding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#no_packet_flooding Security#no_packet_flooding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#no_packet_flooding Security#no_packet_flooding}
   */
   readonly noPacketFlooding?: SecurityFlowEthernetSwitchingNoPacketFlooding;
 }
@@ -1270,7 +1270,7 @@ export interface SecurityFlowTcpMssGreIn {
   /**
   * MSS Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#mss Security#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#mss Security#mss}
   */
   readonly mss?: number;
 }
@@ -1366,7 +1366,7 @@ export interface SecurityFlowTcpMssGreOut {
   /**
   * MSS Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#mss Security#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#mss Security#mss}
   */
   readonly mss?: number;
 }
@@ -1462,7 +1462,7 @@ export interface SecurityFlowTcpMssIpsecVpn {
   /**
   * MSS Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#mss Security#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#mss Security#mss}
   */
   readonly mss?: number;
 }
@@ -1558,25 +1558,25 @@ export interface SecurityFlowTcpMss {
   /**
   * Enable MSS override for all packets with this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#all_tcp_mss Security#all_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#all_tcp_mss Security#all_tcp_mss}
   */
   readonly allTcpMss?: number;
   /**
   * gre_in block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#gre_in Security#gre_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#gre_in Security#gre_in}
   */
   readonly greIn?: SecurityFlowTcpMssGreIn;
   /**
   * gre_out block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#gre_out Security#gre_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#gre_out Security#gre_out}
   */
   readonly greOut?: SecurityFlowTcpMssGreOut;
   /**
   * ipsec_vpn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#ipsec_vpn Security#ipsec_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#ipsec_vpn Security#ipsec_vpn}
   */
   readonly ipsecVpn?: SecurityFlowTcpMssIpsecVpn;
 }
@@ -1759,19 +1759,19 @@ export interface SecurityFlowTcpSessionTimeWaitState {
   /**
   * Apply time-wait-state timeout to half-close state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#apply_to_half_close_state Security#apply_to_half_close_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#apply_to_half_close_state Security#apply_to_half_close_state}
   */
   readonly applyToHalfCloseState?: boolean | cdktf.IResolvable;
   /**
   * Allow session to ageout using service based timeout values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#session_ageout Security#session_ageout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#session_ageout Security#session_ageout}
   */
   readonly sessionAgeout?: boolean | cdktf.IResolvable;
   /**
   * Configure session timeout value for time-wait state (2..600 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#session_timeout Security#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#session_timeout Security#session_timeout}
   */
   readonly sessionTimeout?: number;
 }
@@ -1925,61 +1925,61 @@ export interface SecurityFlowTcpSession {
   /**
   * Immediately end session on receipt of fin (FIN) segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#fin_invalidate_session Security#fin_invalidate_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#fin_invalidate_session Security#fin_invalidate_session}
   */
   readonly finInvalidateSession?: boolean | cdktf.IResolvable;
   /**
   * Maximum TCP proxy scaled receive window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#maximum_window Security#maximum_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#maximum_window Security#maximum_window}
   */
   readonly maximumWindow?: string;
   /**
   * Disable sequence-number checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#no_sequence_check Security#no_sequence_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#no_sequence_check Security#no_sequence_check}
   */
   readonly noSequenceCheck?: boolean | cdktf.IResolvable;
   /**
   * Disable creation-time SYN-flag check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#no_syn_check Security#no_syn_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#no_syn_check Security#no_syn_check}
   */
   readonly noSynCheck?: boolean | cdktf.IResolvable;
   /**
   * Disable creation-time SYN-flag check for tunnel packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#no_syn_check_in_tunnel Security#no_syn_check_in_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#no_syn_check_in_tunnel Security#no_syn_check_in_tunnel}
   */
   readonly noSynCheckInTunnel?: boolean | cdktf.IResolvable;
   /**
   * Immediately end session on receipt of reset (RST) segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#rst_invalidate_session Security#rst_invalidate_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#rst_invalidate_session Security#rst_invalidate_session}
   */
   readonly rstInvalidateSession?: boolean | cdktf.IResolvable;
   /**
   * Check sequence number in reset (RST) segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#rst_sequence_check Security#rst_sequence_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#rst_sequence_check Security#rst_sequence_check}
   */
   readonly rstSequenceCheck?: boolean | cdktf.IResolvable;
   /**
   * Enable strict syn check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#strict_syn_check Security#strict_syn_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#strict_syn_check Security#strict_syn_check}
   */
   readonly strictSynCheck?: boolean | cdktf.IResolvable;
   /**
   * Timeout for TCP session when initialization fails (4..300 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#tcp_initial_timeout Security#tcp_initial_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#tcp_initial_timeout Security#tcp_initial_timeout}
   */
   readonly tcpInitialTimeout?: number;
   /**
   * time_wait_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#time_wait_state Security#time_wait_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#time_wait_state Security#time_wait_state}
   */
   readonly timeWaitState?: SecurityFlowTcpSessionTimeWaitState;
 }
@@ -2336,103 +2336,103 @@ export interface SecurityFlow {
   /**
   * Allow unmatched incoming DNS reply packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#allow_dns_reply Security#allow_dns_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#allow_dns_reply Security#allow_dns_reply}
   */
   readonly allowDnsReply?: boolean | cdktf.IResolvable;
   /**
   * Allow embedded ICMP packets not matching a session to pass through.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#allow_embedded_icmp Security#allow_embedded_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#allow_embedded_icmp Security#allow_embedded_icmp}
   */
   readonly allowEmbeddedIcmp?: boolean | cdktf.IResolvable;
   /**
   * Allow reverse ECMP route lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#allow_reverse_ecmp Security#allow_reverse_ecmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#allow_reverse_ecmp Security#allow_reverse_ecmp}
   */
   readonly allowReverseEcmp?: boolean | cdktf.IResolvable;
   /**
   * Enable reroute check with uniform link and NAT check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#enable_reroute_uniform_link_check_nat Security#enable_reroute_uniform_link_check_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#enable_reroute_uniform_link_check_nat Security#enable_reroute_uniform_link_check_nat}
   */
   readonly enableRerouteUniformLinkCheckNat?: boolean | cdktf.IResolvable;
   /**
   * Force to reassemble ip fragments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#force_ip_reassembly Security#force_ip_reassembly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#force_ip_reassembly Security#force_ip_reassembly}
   */
   readonly forceIpReassembly?: boolean | cdktf.IResolvable;
   /**
   * Accelerate the IPSec traffic performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#ipsec_performance_acceleration Security#ipsec_performance_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#ipsec_performance_acceleration Security#ipsec_performance_acceleration}
   */
   readonly ipsecPerformanceAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Allow to hold more packets during multicast session creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#mcast_buffer_enhance Security#mcast_buffer_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#mcast_buffer_enhance Security#mcast_buffer_enhance}
   */
   readonly mcastBufferEnhance?: boolean | cdktf.IResolvable;
   /**
   * Maximum queued length per pending session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#pending_sess_queue_length Security#pending_sess_queue_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#pending_sess_queue_length Security#pending_sess_queue_length}
   */
   readonly pendingSessQueueLength?: string;
   /**
   * Preserve incoming fragment size for egress MTU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#preserve_incoming_fragment_size Security#preserve_incoming_fragment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#preserve_incoming_fragment_size Security#preserve_incoming_fragment_size}
   */
   readonly preserveIncomingFragmentSize?: boolean | cdktf.IResolvable;
   /**
   * Timeout value for route change to nonexistent route (6..1800 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#route_change_timeout Security#route_change_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#route_change_timeout Security#route_change_timeout}
   */
   readonly routeChangeTimeout?: number;
   /**
   * TCP SYN flood protection mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#syn_flood_protection_mode Security#syn_flood_protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#syn_flood_protection_mode Security#syn_flood_protection_mode}
   */
   readonly synFloodProtectionMode?: string;
   /**
   * Allow icmp sessions to sync to peer node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#sync_icmp_session Security#sync_icmp_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#sync_icmp_session Security#sync_icmp_session}
   */
   readonly syncIcmpSession?: boolean | cdktf.IResolvable;
   /**
   * advanced_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#advanced_options Security#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#advanced_options Security#advanced_options}
   */
   readonly advancedOptions?: SecurityFlowAdvancedOptions;
   /**
   * aging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#aging Security#aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#aging Security#aging}
   */
   readonly aging?: SecurityFlowAging;
   /**
   * ethernet_switching block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#ethernet_switching Security#ethernet_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#ethernet_switching Security#ethernet_switching}
   */
   readonly ethernetSwitching?: SecurityFlowEthernetSwitching;
   /**
   * tcp_mss block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#tcp_mss Security#tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#tcp_mss Security#tcp_mss}
   */
   readonly tcpMss?: SecurityFlowTcpMss;
   /**
   * tcp_session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#tcp_session Security#tcp_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#tcp_session Security#tcp_session}
   */
   readonly tcpSession?: SecurityFlowTcpSession;
 }
@@ -2992,19 +2992,19 @@ export interface SecurityForwardingOptions {
   /**
   * Forwarding mode for inet6 family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#inet6_mode Security#inet6_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#inet6_mode Security#inet6_mode}
   */
   readonly inet6Mode?: string;
   /**
   * Forwarding mode packet-based for iso family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#iso_mode_packet_based Security#iso_mode_packet_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#iso_mode_packet_based Security#iso_mode_packet_based}
   */
   readonly isoModePacketBased?: boolean | cdktf.IResolvable;
   /**
   * Forwarding mode for mpls family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#mpls_mode Security#mpls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#mpls_mode Security#mpls_mode}
   */
   readonly mplsMode?: string;
 }
@@ -3158,7 +3158,7 @@ export interface SecurityForwardingProcess {
   /**
   * Enable enhanced application services mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#enhanced_services_mode Security#enhanced_services_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#enhanced_services_mode Security#enhanced_services_mode}
   */
   readonly enhancedServicesMode?: boolean | cdktf.IResolvable;
 }
@@ -3254,49 +3254,49 @@ export interface SecurityIdpSecurityPackage {
   /**
   * Enable scheduled download and update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#automatic_enable Security#automatic_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#automatic_enable Security#automatic_enable}
   */
   readonly automaticEnable?: boolean | cdktf.IResolvable;
   /**
   * Automatic interval (1..336 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#automatic_interval Security#automatic_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#automatic_interval Security#automatic_interval}
   */
   readonly automaticInterval?: number;
   /**
   * Automatic start time (YYYY-MM-DD.HH:MM:SS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#automatic_start_time Security#automatic_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#automatic_start_time Security#automatic_start_time}
   */
   readonly automaticStartTime?: string;
   /**
   * Skip version check when attack database gets installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#install_ignore_version_check Security#install_ignore_version_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#install_ignore_version_check Security#install_ignore_version_check}
   */
   readonly installIgnoreVersionCheck?: boolean | cdktf.IResolvable;
   /**
   * Proxy profile of security package download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#proxy_profile Security#proxy_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#proxy_profile Security#proxy_profile}
   */
   readonly proxyProfile?: string;
   /**
   * Routing instance for security-package download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#routing_instance Security#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#routing_instance Security#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Source address to be used for sending download request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#source_address Security#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#source_address Security#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * URL of Security package download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#url Security#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#url Security#url}
   */
   readonly url?: string;
 }
@@ -3595,37 +3595,37 @@ export interface SecurityIdpSensorConfigurationLogSuppression {
   /**
   * Disable log suppression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#disable Security#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#disable Security#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Include destination address while performing a log suppression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#include_destination_address Security#include_destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#include_destination_address Security#include_destination_address}
   */
   readonly includeDestinationAddress?: boolean | cdktf.IResolvable;
   /**
   * Maximum logs can be operate on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#max_logs_operate Security#max_logs_operate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#max_logs_operate Security#max_logs_operate}
   */
   readonly maxLogsOperate?: number;
   /**
   * Time after suppressed logs will be reported (1..60).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#max_time_report Security#max_time_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#max_time_report Security#max_time_report}
   */
   readonly maxTimeReport?: number;
   /**
   * Don't include destination address while performing a log suppression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#no_include_destination_address Security#no_include_destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#no_include_destination_address Security#no_include_destination_address}
   */
   readonly noIncludeDestinationAddress?: boolean | cdktf.IResolvable;
   /**
   * Suppression start log (1..128).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#start_log Security#start_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#start_log Security#start_log}
   */
   readonly startLog?: number;
 }
@@ -3866,37 +3866,37 @@ export interface SecurityIdpSensorConfigurationPacketLog {
   /**
   * Destination host to send packetlog to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#host_address Security#host_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#host_address Security#host_address}
   */
   readonly hostAddress?: string;
   /**
   * Destination UDP port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#host_port Security#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#host_port Security#host_port}
   */
   readonly hostPort?: number;
   /**
   * Max num of sessions in unit(%).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#max_sessions Security#max_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#max_sessions Security#max_sessions}
   */
   readonly maxSessions?: number;
   /**
   * Source IP address used to transport packetlog to a host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#source_address Security#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#source_address Security#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Interval of logs for max limit session/memory reached in minutes (1..60).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#threshold_logging_interval Security#threshold_logging_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#threshold_logging_interval Security#threshold_logging_interval}
   */
   readonly thresholdLoggingInterval?: number;
   /**
   * Total memory unit(%).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#total_memory Security#total_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#total_memory Security#total_memory}
   */
   readonly totalMemory?: number;
 }
@@ -4137,25 +4137,25 @@ export interface SecurityIdpSensorConfiguration {
   /**
   * Log cache size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#log_cache_size Security#log_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#log_cache_size Security#log_cache_size}
   */
   readonly logCacheSize?: number;
   /**
   * Enable security protection mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#security_configuration_protection_mode Security#security_configuration_protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#security_configuration_protection_mode Security#security_configuration_protection_mode}
   */
   readonly securityConfigurationProtectionMode?: string;
   /**
   * log_suppression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#log_suppression Security#log_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#log_suppression Security#log_suppression}
   */
   readonly logSuppression?: SecurityIdpSensorConfigurationLogSuppression;
   /**
   * packet_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#packet_log Security#packet_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#packet_log Security#packet_log}
   */
   readonly packetLog?: SecurityIdpSensorConfigurationPacketLog;
 }
@@ -4338,37 +4338,37 @@ export interface SecurityIkeTraceoptionsFile {
   /**
   * Maximum number of trace files (2..1000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#files Security#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#files Security#files}
   */
   readonly files?: number;
   /**
   * Regular expression for lines to be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#match Security#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#match Security#match}
   */
   readonly match?: string;
   /**
   * Name of file in which to write trace information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#name Security#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#name Security#name}
   */
   readonly name?: string;
   /**
   * Don't allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#no_world_readable Security#no_world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#no_world_readable Security#no_world_readable}
   */
   readonly noWorldReadable?: boolean | cdktf.IResolvable;
   /**
   * Maximum trace file size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#size Security#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#size Security#size}
   */
   readonly size?: number;
   /**
   * Allow any user to read the log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#world_readable Security#world_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#world_readable Security#world_readable}
   */
   readonly worldReadable?: boolean | cdktf.IResolvable;
 }
@@ -4609,25 +4609,25 @@ export interface SecurityIkeTraceoptions {
   /**
   * Tracing parameters for IKE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#flag Security#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#flag Security#flag}
   */
   readonly flag?: string[];
   /**
   * Disable remote tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#no_remote_trace Security#no_remote_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#no_remote_trace Security#no_remote_trace}
   */
   readonly noRemoteTrace?: boolean | cdktf.IResolvable;
   /**
   * Limit the incoming rate of trace messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#rate_limit Security#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#rate_limit Security#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#file Security#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#file Security#file}
   */
   readonly file?: SecurityIkeTraceoptionsFile;
 }
@@ -4810,25 +4810,25 @@ export interface SecurityLogFile {
   /**
   * Maximum number of binary log files (2..10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#files Security#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#files Security#files}
   */
   readonly files?: number;
   /**
   * Name of binary log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#name Security#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#name Security#name}
   */
   readonly name?: string;
   /**
   * Path to binary log files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#path Security#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#path Security#path}
   */
   readonly path?: string;
   /**
   * Maximum size of binary log file in megabytes (1..10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#size Security#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#size Security#size}
   */
   readonly size?: number;
 }
@@ -5011,19 +5011,19 @@ export interface SecurityLogTransport {
   /**
   * Set security log transport protocol for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#protocol Security#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#protocol Security#protocol}
   */
   readonly protocol?: string;
   /**
   * Set tcp connection number per-stream (1..5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#tcp_connections Security#tcp_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#tcp_connections Security#tcp_connections}
   */
   readonly tcpConnections?: number;
   /**
   * TLS profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#tls_profile Security#tls_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#tls_profile Security#tls_profile}
   */
   readonly tlsProfile?: string;
 }
@@ -5177,79 +5177,79 @@ export interface SecurityLog {
   /**
   * Disable security logging for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#disable Security#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#disable Security#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Control plane event rate (0..1500 logs per second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#event_rate Security#event_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#event_rate Security#event_rate}
   */
   readonly eventRate?: number;
   /**
   * Alternate facility for logging to remote host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#facility_override Security#facility_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#facility_override Security#facility_override}
   */
   readonly facilityOverride?: string;
   /**
   * Set security log format for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#format Security#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#format Security#format}
   */
   readonly format?: string;
   /**
   * Maximum records in database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#max_database_record Security#max_database_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#max_database_record Security#max_database_record}
   */
   readonly maxDatabaseRecord?: number;
   /**
   * Controls how security logs are processed and exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#mode Security#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#mode Security#mode}
   */
   readonly mode?: string;
   /**
   * Data plane event rate (0..5000 logs per second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#rate_cap Security#rate_cap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#rate_cap Security#rate_cap}
   */
   readonly rateCap?: number;
   /**
   * Set security log report settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#report Security#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#report Security#report}
   */
   readonly report?: boolean | cdktf.IResolvable;
   /**
   * Source ip address used when exporting security logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#source_address Security#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#source_address Security#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * Source interface used when exporting security logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#source_interface Security#source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#source_interface Security#source_interface}
   */
   readonly sourceInterface?: string;
   /**
   * Use UTC time for security log timestamps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#utc_timestamp Security#utc_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#utc_timestamp Security#utc_timestamp}
   */
   readonly utcTimestamp?: boolean | cdktf.IResolvable;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#file Security#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#file Security#file}
   */
   readonly file?: SecurityLogFile;
   /**
   * transport block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#transport Security#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#transport Security#transport}
   */
   readonly transport?: SecurityLogTransport;
 }
@@ -5693,73 +5693,73 @@ export interface SecurityNatSource {
   /**
   * Allow source address to maintain same translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#address_persistent Security#address_persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#address_persistent Security#address_persistent}
   */
   readonly addressPersistent?: boolean | cdktf.IResolvable;
   /**
   * Port overloading factor for interface NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#interface_port_overloading_factor Security#interface_port_overloading_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#interface_port_overloading_factor Security#interface_port_overloading_factor}
   */
   readonly interfacePortOverloadingFactor?: number;
   /**
   * Turn off interface port over-loading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#interface_port_overloading_off Security#interface_port_overloading_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#interface_port_overloading_off Security#interface_port_overloading_off}
   */
   readonly interfacePortOverloadingOff?: boolean | cdktf.IResolvable;
   /**
   * Configure Source NAT default port range lower limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#pool_default_port_range Security#pool_default_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#pool_default_port_range Security#pool_default_port_range}
   */
   readonly poolDefaultPortRange?: number;
   /**
   * Configure Source NAT default port range upper limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#pool_default_port_range_to Security#pool_default_port_range_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#pool_default_port_range_to Security#pool_default_port_range_to}
   */
   readonly poolDefaultPortRangeTo?: number;
   /**
   * Configure Source NAT default twin port range lower limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#pool_default_twin_port_range Security#pool_default_twin_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#pool_default_twin_port_range Security#pool_default_twin_port_range}
   */
   readonly poolDefaultTwinPortRange?: number;
   /**
   * Configure Source NAT default twin port range upper limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#pool_default_twin_port_range_to Security#pool_default_twin_port_range_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#pool_default_twin_port_range_to Security#pool_default_twin_port_range_to}
   */
   readonly poolDefaultTwinPortRangeTo?: number;
   /**
   * Clear threshold for pool utilization alarm (40..100).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#pool_utilization_alarm_clear_threshold Security#pool_utilization_alarm_clear_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#pool_utilization_alarm_clear_threshold Security#pool_utilization_alarm_clear_threshold}
   */
   readonly poolUtilizationAlarmClearThreshold?: number;
   /**
   * Raise threshold for pool utilization alarm (50..100).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#pool_utilization_alarm_raise_threshold Security#pool_utilization_alarm_raise_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#pool_utilization_alarm_raise_threshold Security#pool_utilization_alarm_raise_threshold}
   */
   readonly poolUtilizationAlarmRaiseThreshold?: number;
   /**
   * Disable Source NAT port randomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#port_randomization_disable Security#port_randomization_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#port_randomization_disable Security#port_randomization_disable}
   */
   readonly portRandomizationDisable?: boolean | cdktf.IResolvable;
   /**
   * Session drop hold down time (30..28800).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#session_drop_hold_down Security#session_drop_hold_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#session_drop_hold_down Security#session_drop_hold_down}
   */
   readonly sessionDropHoldDown?: number;
   /**
   * Allow source to maintain session when session scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#session_persistence_scan Security#session_persistence_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#session_persistence_scan Security#session_persistence_scan}
   */
   readonly sessionPersistenceScan?: boolean | cdktf.IResolvable;
 }
@@ -6174,13 +6174,13 @@ export interface SecurityPolicies {
   /**
   * Can be specified to allow session to remain open when an associated security policy is modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#policy_rematch Security#policy_rematch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#policy_rematch Security#policy_rematch}
   */
   readonly policyRematch?: boolean | cdktf.IResolvable;
   /**
   * Can be specified to allow session to remain open when an associated security policy is modified, renamed, deactivated, or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#policy_rematch_extensive Security#policy_rematch_extensive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#policy_rematch_extensive Security#policy_rematch_extensive}
   */
   readonly policyRematchExtensive?: boolean | cdktf.IResolvable;
 }
@@ -6305,31 +6305,31 @@ export interface SecurityUserIdentificationAuthSource {
   /**
   * Active-directory-authentication-table priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#ad_auth_priority Security#ad_auth_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#ad_auth_priority Security#ad_auth_priority}
   */
   readonly adAuthPriority?: number;
   /**
   * ClearPass-authentication-table priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#aruba_clearpass_priority Security#aruba_clearpass_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#aruba_clearpass_priority Security#aruba_clearpass_priority}
   */
   readonly arubaClearpassPriority?: number;
   /**
   * Firewall-authentication priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#firewall_auth_priority Security#firewall_auth_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#firewall_auth_priority Security#firewall_auth_priority}
   */
   readonly firewallAuthPriority?: number;
   /**
   * Local-authentication-table priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#local_auth_priority Security#local_auth_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#local_auth_priority Security#local_auth_priority}
   */
   readonly localAuthPriority?: number;
   /**
   * Unified-access-control priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#unified_access_control_priority Security#unified_access_control_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#unified_access_control_priority Security#unified_access_control_priority}
   */
   readonly unifiedAccessControlPriority?: number;
 }
@@ -6541,25 +6541,25 @@ export interface SecurityUtmFeatureProfileWebFilteringJuniperEnhancedServer {
   /**
   * Server host IP address or string host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#host Security#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#host Security#host}
   */
   readonly host?: string;
   /**
   * Server port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#port Security#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#port Security#port}
   */
   readonly port?: number;
   /**
   * Proxy profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#proxy_profile Security#proxy_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#proxy_profile Security#proxy_profile}
   */
   readonly proxyProfile?: string;
   /**
   * Routing instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#routing_instance Security#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#routing_instance Security#routing_instance}
   */
   readonly routingInstance?: string;
 }
@@ -6742,13 +6742,13 @@ export interface SecurityUtm {
   /**
   * Configuring feature-profile web-filtering type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#feature_profile_web_filtering_type Security#feature_profile_web_filtering_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#feature_profile_web_filtering_type Security#feature_profile_web_filtering_type}
   */
   readonly featureProfileWebFilteringType?: string;
   /**
   * feature_profile_web_filtering_juniper_enhanced_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#feature_profile_web_filtering_juniper_enhanced_server Security#feature_profile_web_filtering_juniper_enhanced_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#feature_profile_web_filtering_juniper_enhanced_server Security#feature_profile_web_filtering_juniper_enhanced_server}
   */
   readonly featureProfileWebFilteringJuniperEnhancedServer?: SecurityUtmFeatureProfileWebFilteringJuniperEnhancedServer;
 }
@@ -6871,7 +6871,7 @@ export class SecurityUtmOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security junos_security}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security junos_security}
 */
 export class Security extends cdktf.TerraformResource {
 
@@ -6887,7 +6887,7 @@ export class Security extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Security resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Security to import
-  * @param importFromId The id of the existing Security that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Security that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Security to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6899,7 +6899,7 @@ export class Security extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security junos_security} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security junos_security} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6910,8 +6910,8 @@ export class Security extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

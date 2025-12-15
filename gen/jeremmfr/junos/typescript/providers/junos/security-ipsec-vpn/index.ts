@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SecurityIpsecVpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interface to bind vpn for route-based vpn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#bind_interface SecurityIpsecVpn#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#bind_interface SecurityIpsecVpn#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Enable copying outer IP header DSCP and ECN to inner IP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#copy_outer_dscp SecurityIpsecVpn#copy_outer_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#copy_outer_dscp SecurityIpsecVpn#copy_outer_dscp}
   */
   readonly copyOuterDscp?: boolean | cdktf.IResolvable;
   /**
   * Specifies how to handle the Don't Fragment bit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#df_bit SecurityIpsecVpn#df_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#df_bit SecurityIpsecVpn#df_bit}
   */
   readonly dfBit?: string;
   /**
   * When the VPN comes up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#establish_tunnels SecurityIpsecVpn#establish_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#establish_tunnels SecurityIpsecVpn#establish_tunnels}
   */
   readonly establishTunnels?: string;
   /**
   * Negotiate multiple SAs with forwarding-classes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#multi_sa_forwarding_class SecurityIpsecVpn#multi_sa_forwarding_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#multi_sa_forwarding_class SecurityIpsecVpn#multi_sa_forwarding_class}
   */
   readonly multiSaForwardingClass?: string[];
   /**
   * The name of vpn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#name SecurityIpsecVpn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#name SecurityIpsecVpn#name}
   */
   readonly name: string;
   /**
   * ike block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#ike SecurityIpsecVpn#ike}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#ike SecurityIpsecVpn#ike}
   */
   readonly ike?: SecurityIpsecVpnIke;
   /**
   * manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#manual SecurityIpsecVpn#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#manual SecurityIpsecVpn#manual}
   */
   readonly manual?: SecurityIpsecVpnManual;
   /**
   * traffic_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#traffic_selector SecurityIpsecVpn#traffic_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#traffic_selector SecurityIpsecVpn#traffic_selector}
   */
   readonly trafficSelector?: SecurityIpsecVpnTrafficSelector[] | cdktf.IResolvable;
   /**
   * udp_encapsulate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#udp_encapsulate SecurityIpsecVpn#udp_encapsulate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#udp_encapsulate SecurityIpsecVpn#udp_encapsulate}
   */
   readonly udpEncapsulate?: SecurityIpsecVpnUdpEncapsulate;
   /**
   * vpn_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#vpn_monitor SecurityIpsecVpn#vpn_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#vpn_monitor SecurityIpsecVpn#vpn_monitor}
   */
   readonly vpnMonitor?: SecurityIpsecVpnVpnMonitor;
 }
@@ -78,31 +78,31 @@ export interface SecurityIpsecVpnIke {
   /**
   * The name of security IKE gateway (phase-1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#gateway SecurityIpsecVpn#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#gateway SecurityIpsecVpn#gateway}
   */
   readonly gateway?: string;
   /**
   * IPSec proxy-id local parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#identity_local SecurityIpsecVpn#identity_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#identity_local SecurityIpsecVpn#identity_local}
   */
   readonly identityLocal?: string;
   /**
   * IPSec proxy-id remote parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#identity_remote SecurityIpsecVpn#identity_remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#identity_remote SecurityIpsecVpn#identity_remote}
   */
   readonly identityRemote?: string;
   /**
   * IPSec proxy-id service parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#identity_service SecurityIpsecVpn#identity_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#identity_service SecurityIpsecVpn#identity_service}
   */
   readonly identityService?: string;
   /**
   * The name of IPSec policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#policy SecurityIpsecVpn#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#policy SecurityIpsecVpn#policy}
   */
   readonly policy?: string;
 }
@@ -314,61 +314,61 @@ export interface SecurityIpsecVpnManual {
   /**
   * Define authentication algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#authentication_algorithm SecurityIpsecVpn#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#authentication_algorithm SecurityIpsecVpn#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * Define an authentication key with format as hexadecimal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#authentication_key_hexa SecurityIpsecVpn#authentication_key_hexa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#authentication_key_hexa SecurityIpsecVpn#authentication_key_hexa}
   */
   readonly authenticationKeyHexa?: string;
   /**
   * Define an authentication key with format as text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#authentication_key_text SecurityIpsecVpn#authentication_key_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#authentication_key_text SecurityIpsecVpn#authentication_key_text}
   */
   readonly authenticationKeyText?: string;
   /**
   * Define encryption algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#encryption_algorithm SecurityIpsecVpn#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#encryption_algorithm SecurityIpsecVpn#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
   * Define an encryption key with format as hexadecimal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#encryption_key_hexa SecurityIpsecVpn#encryption_key_hexa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#encryption_key_hexa SecurityIpsecVpn#encryption_key_hexa}
   */
   readonly encryptionKeyHexa?: string;
   /**
   * Define an encryption key with format as text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#encryption_key_text SecurityIpsecVpn#encryption_key_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#encryption_key_text SecurityIpsecVpn#encryption_key_text}
   */
   readonly encryptionKeyText?: string;
   /**
   * External interface for the security association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#external_interface SecurityIpsecVpn#external_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#external_interface SecurityIpsecVpn#external_interface}
   */
   readonly externalInterface?: string;
   /**
   * Define the IPSec peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#gateway SecurityIpsecVpn#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#gateway SecurityIpsecVpn#gateway}
   */
   readonly gateway?: string;
   /**
   * Define an IPSec protocol for the security association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#protocol SecurityIpsecVpn#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#protocol SecurityIpsecVpn#protocol}
   */
   readonly protocol?: string;
   /**
   * Define security parameter index (256..16639).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#spi SecurityIpsecVpn#spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#spi SecurityIpsecVpn#spi}
   */
   readonly spi?: number;
 }
@@ -725,19 +725,19 @@ export interface SecurityIpsecVpnTrafficSelector {
   /**
   * CIDR for IP addresses of local traffic-selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#local_ip SecurityIpsecVpn#local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#local_ip SecurityIpsecVpn#local_ip}
   */
   readonly localIp: string;
   /**
   * Name of traffic-selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#name SecurityIpsecVpn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#name SecurityIpsecVpn#name}
   */
   readonly name: string;
   /**
   * CIDR for IP addresses of remote traffic-selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#remote_ip SecurityIpsecVpn#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#remote_ip SecurityIpsecVpn#remote_ip}
   */
   readonly remoteIp: string;
 }
@@ -904,7 +904,7 @@ export interface SecurityIpsecVpnUdpEncapsulate {
   /**
   * UDP destination port (1025..65536)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#dest_port SecurityIpsecVpn#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#dest_port SecurityIpsecVpn#dest_port}
   */
   readonly destPort?: number;
 }
@@ -1000,25 +1000,25 @@ export interface SecurityIpsecVpnVpnMonitor {
   /**
   * IP destination for monitor message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#destination_ip SecurityIpsecVpn#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#destination_ip SecurityIpsecVpn#destination_ip}
   */
   readonly destinationIp?: string;
   /**
   * Optimize for scalability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#optimized SecurityIpsecVpn#optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#optimized SecurityIpsecVpn#optimized}
   */
   readonly optimized?: boolean | cdktf.IResolvable;
   /**
   * Set source interface for monitor message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#source_interface SecurityIpsecVpn#source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#source_interface SecurityIpsecVpn#source_interface}
   */
   readonly sourceInterface?: string;
   /**
   * Compute the source_interface to 'bind_interface'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#source_interface_auto SecurityIpsecVpn#source_interface_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#source_interface_auto SecurityIpsecVpn#source_interface_auto}
   */
   readonly sourceInterfaceAuto?: boolean | cdktf.IResolvable;
 }
@@ -1199,7 +1199,7 @@ export class SecurityIpsecVpnVpnMonitorOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn junos_security_ipsec_vpn}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn junos_security_ipsec_vpn}
 */
 export class SecurityIpsecVpn extends cdktf.TerraformResource {
 
@@ -1215,7 +1215,7 @@ export class SecurityIpsecVpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityIpsecVpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityIpsecVpn to import
-  * @param importFromId The id of the existing SecurityIpsecVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityIpsecVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityIpsecVpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1227,7 +1227,7 @@ export class SecurityIpsecVpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_ipsec_vpn junos_security_ipsec_vpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_ipsec_vpn junos_security_ipsec_vpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1238,8 +1238,8 @@ export class SecurityIpsecVpn extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_ipsec_vpn',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

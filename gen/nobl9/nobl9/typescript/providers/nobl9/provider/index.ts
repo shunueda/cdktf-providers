@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface Nobl9ProviderConfig {
   /**
   * The [Client ID](https://docs.nobl9.com/sloctl-user-guide/#configuration) of your Nobl9 account required to connect to Nobl9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#client_id Nobl9Provider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#client_id Nobl9Provider#client_id}
   */
   readonly clientId?: string;
   /**
   * The [Client Secret](https://docs.nobl9.com/sloctl-user-guide/#configuration) of your Nobl9 account required to connect to Nobl9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#client_secret Nobl9Provider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#client_secret Nobl9Provider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Nobl9 API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#ingest_url Nobl9Provider#ingest_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#ingest_url Nobl9Provider#ingest_url}
   */
   readonly ingestUrl?: string;
   /**
   * Disable reading configuration from file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#no_config_file Nobl9Provider#no_config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#no_config_file Nobl9Provider#no_config_file}
   */
   readonly noConfigFile?: boolean | cdktf.IResolvable;
   /**
   * Authorization service configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#okta_auth_server Nobl9Provider#okta_auth_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#okta_auth_server Nobl9Provider#okta_auth_server}
   */
   readonly oktaAuthServer?: string;
   /**
   * Authorization service URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#okta_org_url Nobl9Provider#okta_org_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#okta_org_url Nobl9Provider#okta_org_url}
   */
   readonly oktaOrgUrl?: string;
   /**
   * Nobl9 Organization ID that contains resources managed by the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#organization Nobl9Provider#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#organization Nobl9Provider#organization}
   */
   readonly organization?: string;
   /**
   * Nobl9 project used when importing resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#project Nobl9Provider#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#project Nobl9Provider#project}
   */
   readonly project?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#alias Nobl9Provider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#alias Nobl9Provider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs nobl9}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs nobl9}
 */
 export class Nobl9Provider extends cdktf.TerraformProvider {
 
@@ -80,7 +80,7 @@ export class Nobl9Provider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a Nobl9Provider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nobl9Provider to import
-  * @param importFromId The id of the existing Nobl9Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nobl9Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nobl9Provider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class Nobl9Provider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs nobl9} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs nobl9} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class Nobl9Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'nobl9',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       terraformProviderSource: 'nobl9/nobl9'
     });

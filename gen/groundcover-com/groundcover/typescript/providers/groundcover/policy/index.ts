@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy
+// https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * SSO Role claim name used for mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#claim_role Policy#claim_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#claim_role Policy#claim_role}
   */
   readonly claimRole?: string;
   /**
   * Defines the data scope restrictions for the policy. Either 'simple' or 'advanced' must be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#data_scope Policy#data_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#data_scope Policy#data_scope}
   */
   readonly dataScope?: PolicyDataScope;
   /**
   * A description for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#description Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#description Policy#description}
   */
   readonly description?: string;
   /**
   * The name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#name Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#name Policy#name}
   */
   readonly name: string;
   /**
   * Role definitions associated with the policy. Maps role identifiers to specific permissions or access levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#role Policy#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#role Policy#role}
   */
   readonly role: { [key: string]: string };
 }
@@ -42,13 +42,13 @@ export interface PolicyDataScopeAdvancedEventsConditionsFilters {
   /**
   * The filter operation (e.g., 'match').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#op Policy#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#op Policy#op}
   */
   readonly op: string;
   /**
   * The value to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#value Policy#value}
   */
   readonly value: string;
 }
@@ -189,25 +189,25 @@ export interface PolicyDataScopeAdvancedEventsConditions {
   /**
   * List of filter criteria for the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#filters Policy#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#filters Policy#filters}
   */
   readonly filters: PolicyDataScopeAdvancedEventsConditionsFilters[] | cdktf.IResolvable;
   /**
   * The key for the condition (e.g., 'environment').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#key Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#key Policy#key}
   */
   readonly key: string;
   /**
   * The origin of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#origin Policy#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#origin Policy#origin}
   */
   readonly origin: string;
   /**
   * The type of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#type Policy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#type Policy#type}
   */
   readonly type: string;
 }
@@ -400,19 +400,19 @@ export interface PolicyDataScopeAdvancedEvents {
   /**
   * List of conditions for the data scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#conditions Policy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#conditions Policy#conditions}
   */
   readonly conditions: PolicyDataScopeAdvancedEventsConditions[] | cdktf.IResolvable;
   /**
   * Whether this data type is disabled (no data access). When true, users have no access to this data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#disabled Policy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#disabled Policy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Logical operator (e.g., 'and', 'or').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#operator Policy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#operator Policy#operator}
   */
   readonly operator: string;
 }
@@ -560,13 +560,13 @@ export interface PolicyDataScopeAdvancedLogsConditionsFilters {
   /**
   * The filter operation (e.g., 'match').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#op Policy#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#op Policy#op}
   */
   readonly op: string;
   /**
   * The value to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#value Policy#value}
   */
   readonly value: string;
 }
@@ -707,25 +707,25 @@ export interface PolicyDataScopeAdvancedLogsConditions {
   /**
   * List of filter criteria for the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#filters Policy#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#filters Policy#filters}
   */
   readonly filters: PolicyDataScopeAdvancedLogsConditionsFilters[] | cdktf.IResolvable;
   /**
   * The key for the condition (e.g., 'environment').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#key Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#key Policy#key}
   */
   readonly key: string;
   /**
   * The origin of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#origin Policy#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#origin Policy#origin}
   */
   readonly origin: string;
   /**
   * The type of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#type Policy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#type Policy#type}
   */
   readonly type: string;
 }
@@ -918,19 +918,19 @@ export interface PolicyDataScopeAdvancedLogs {
   /**
   * List of conditions for the data scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#conditions Policy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#conditions Policy#conditions}
   */
   readonly conditions: PolicyDataScopeAdvancedLogsConditions[] | cdktf.IResolvable;
   /**
   * Whether this data type is disabled (no data access). When true, users have no access to this data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#disabled Policy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#disabled Policy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Logical operator (e.g., 'and', 'or').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#operator Policy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#operator Policy#operator}
   */
   readonly operator: string;
 }
@@ -1078,13 +1078,13 @@ export interface PolicyDataScopeAdvancedMetricsConditionsFilters {
   /**
   * The filter operation (e.g., 'match').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#op Policy#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#op Policy#op}
   */
   readonly op: string;
   /**
   * The value to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#value Policy#value}
   */
   readonly value: string;
 }
@@ -1225,25 +1225,25 @@ export interface PolicyDataScopeAdvancedMetricsConditions {
   /**
   * List of filter criteria for the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#filters Policy#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#filters Policy#filters}
   */
   readonly filters: PolicyDataScopeAdvancedMetricsConditionsFilters[] | cdktf.IResolvable;
   /**
   * The key for the condition (e.g., 'environment').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#key Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#key Policy#key}
   */
   readonly key: string;
   /**
   * The origin of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#origin Policy#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#origin Policy#origin}
   */
   readonly origin: string;
   /**
   * The type of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#type Policy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#type Policy#type}
   */
   readonly type: string;
 }
@@ -1436,19 +1436,19 @@ export interface PolicyDataScopeAdvancedMetrics {
   /**
   * List of conditions for the data scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#conditions Policy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#conditions Policy#conditions}
   */
   readonly conditions: PolicyDataScopeAdvancedMetricsConditions[] | cdktf.IResolvable;
   /**
   * Whether this data type is disabled (no data access). When true, users have no access to this data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#disabled Policy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#disabled Policy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Logical operator (e.g., 'and', 'or').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#operator Policy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#operator Policy#operator}
   */
   readonly operator: string;
 }
@@ -1596,13 +1596,13 @@ export interface PolicyDataScopeAdvancedTracesConditionsFilters {
   /**
   * The filter operation (e.g., 'match').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#op Policy#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#op Policy#op}
   */
   readonly op: string;
   /**
   * The value to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#value Policy#value}
   */
   readonly value: string;
 }
@@ -1743,25 +1743,25 @@ export interface PolicyDataScopeAdvancedTracesConditions {
   /**
   * List of filter criteria for the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#filters Policy#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#filters Policy#filters}
   */
   readonly filters: PolicyDataScopeAdvancedTracesConditionsFilters[] | cdktf.IResolvable;
   /**
   * The key for the condition (e.g., 'environment').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#key Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#key Policy#key}
   */
   readonly key: string;
   /**
   * The origin of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#origin Policy#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#origin Policy#origin}
   */
   readonly origin: string;
   /**
   * The type of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#type Policy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#type Policy#type}
   */
   readonly type: string;
 }
@@ -1954,19 +1954,19 @@ export interface PolicyDataScopeAdvancedTraces {
   /**
   * List of conditions for the data scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#conditions Policy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#conditions Policy#conditions}
   */
   readonly conditions: PolicyDataScopeAdvancedTracesConditions[] | cdktf.IResolvable;
   /**
   * Whether this data type is disabled (no data access). When true, users have no access to this data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#disabled Policy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#disabled Policy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Logical operator (e.g., 'and', 'or').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#operator Policy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#operator Policy#operator}
   */
   readonly operator: string;
 }
@@ -2114,13 +2114,13 @@ export interface PolicyDataScopeAdvancedWorkloadsConditionsFilters {
   /**
   * The filter operation (e.g., 'match').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#op Policy#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#op Policy#op}
   */
   readonly op: string;
   /**
   * The value to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#value Policy#value}
   */
   readonly value: string;
 }
@@ -2261,25 +2261,25 @@ export interface PolicyDataScopeAdvancedWorkloadsConditions {
   /**
   * List of filter criteria for the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#filters Policy#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#filters Policy#filters}
   */
   readonly filters: PolicyDataScopeAdvancedWorkloadsConditionsFilters[] | cdktf.IResolvable;
   /**
   * The key for the condition (e.g., 'environment').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#key Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#key Policy#key}
   */
   readonly key: string;
   /**
   * The origin of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#origin Policy#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#origin Policy#origin}
   */
   readonly origin: string;
   /**
   * The type of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#type Policy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#type Policy#type}
   */
   readonly type: string;
 }
@@ -2472,19 +2472,19 @@ export interface PolicyDataScopeAdvancedWorkloads {
   /**
   * List of conditions for the data scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#conditions Policy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#conditions Policy#conditions}
   */
   readonly conditions: PolicyDataScopeAdvancedWorkloadsConditions[] | cdktf.IResolvable;
   /**
   * Whether this data type is disabled (no data access). When true, users have no access to this data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#disabled Policy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#disabled Policy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Logical operator (e.g., 'and', 'or').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#operator Policy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#operator Policy#operator}
   */
   readonly operator: string;
 }
@@ -2632,31 +2632,31 @@ export interface PolicyDataScopeAdvanced {
   /**
   * Data scope rules for events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#events Policy#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#events Policy#events}
   */
   readonly events?: PolicyDataScopeAdvancedEvents;
   /**
   * Data scope rules for logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#logs Policy#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#logs Policy#logs}
   */
   readonly logs?: PolicyDataScopeAdvancedLogs;
   /**
   * Data scope rules for metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#metrics Policy#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#metrics Policy#metrics}
   */
   readonly metrics?: PolicyDataScopeAdvancedMetrics;
   /**
   * Data scope rules for traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#traces Policy#traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#traces Policy#traces}
   */
   readonly traces?: PolicyDataScopeAdvancedTraces;
   /**
   * Data scope rules for workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#workloads Policy#workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#workloads Policy#workloads}
   */
   readonly workloads?: PolicyDataScopeAdvancedWorkloads;
 }
@@ -2868,13 +2868,13 @@ export interface PolicyDataScopeSimpleConditionsFilters {
   /**
   * The filter operation (e.g., 'match').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#op Policy#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#op Policy#op}
   */
   readonly op: string;
   /**
   * The value to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#value Policy#value}
   */
   readonly value: string;
 }
@@ -3015,25 +3015,25 @@ export interface PolicyDataScopeSimpleConditions {
   /**
   * List of filter criteria for the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#filters Policy#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#filters Policy#filters}
   */
   readonly filters: PolicyDataScopeSimpleConditionsFilters[] | cdktf.IResolvable;
   /**
   * The key for the condition (e.g., 'environment').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#key Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#key Policy#key}
   */
   readonly key: string;
   /**
   * The origin of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#origin Policy#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#origin Policy#origin}
   */
   readonly origin: string;
   /**
   * The type of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#type Policy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#type Policy#type}
   */
   readonly type: string;
 }
@@ -3226,19 +3226,19 @@ export interface PolicyDataScopeSimple {
   /**
   * List of conditions for the data scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#conditions Policy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#conditions Policy#conditions}
   */
   readonly conditions: PolicyDataScopeSimpleConditions[] | cdktf.IResolvable;
   /**
   * Whether this data type is disabled (no data access). When true, users have no access to this data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#disabled Policy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#disabled Policy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Logical operator (e.g., 'and', 'or').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#operator Policy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#operator Policy#operator}
   */
   readonly operator: string;
 }
@@ -3386,13 +3386,13 @@ export interface PolicyDataScope {
   /**
   * Advanced data scope configuration. Allows per-data-type filtering rules for fine-grained access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#advanced Policy#advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#advanced Policy#advanced}
   */
   readonly advanced?: PolicyDataScopeAdvanced;
   /**
   * Simple data scope configuration. Applies a single set of filtering rules to all data types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#simple Policy#simple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#simple Policy#simple}
   */
   readonly simple?: PolicyDataScopeSimple;
 }
@@ -3515,7 +3515,7 @@ export class PolicyDataScopeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy groundcover_policy}
+* Represents a {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy groundcover_policy}
 */
 export class Policy extends cdktf.TerraformResource {
 
@@ -3531,7 +3531,7 @@ export class Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policy to import
-  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3543,7 +3543,7 @@ export class Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/policy groundcover_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/policy groundcover_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3554,8 +3554,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'groundcover_policy',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface EvpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default gateway mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#default_gateway Evpn#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#default_gateway Evpn#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
   * Encapsulation type for EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#encapsulation Evpn#encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#encapsulation Evpn#encapsulation}
   */
   readonly encapsulation: string;
   /**
   * Multicast mode for EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#multicast_mode Evpn#multicast_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#multicast_mode Evpn#multicast_mode}
   */
   readonly multicastMode?: string;
   /**
   * Disable EVPN Core isolation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#no_core_isolation Evpn#no_core_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#no_core_isolation Evpn#no_core_isolation}
   */
   readonly noCoreIsolation?: boolean | cdktf.IResolvable;
   /**
   * Routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#routing_instance Evpn#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#routing_instance Evpn#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Configure routing instance is an evpn instance-type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#routing_instance_evpn Evpn#routing_instance_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#routing_instance_evpn Evpn#routing_instance_evpn}
   */
   readonly routingInstanceEvpn?: boolean | cdktf.IResolvable;
   /**
   * duplicate_mac_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#duplicate_mac_detection Evpn#duplicate_mac_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#duplicate_mac_detection Evpn#duplicate_mac_detection}
   */
   readonly duplicateMacDetection?: EvpnDuplicateMacDetection;
   /**
   * switch_or_ri_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#switch_or_ri_options Evpn#switch_or_ri_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#switch_or_ri_options Evpn#switch_or_ri_options}
   */
   readonly switchOrRiOptions?: EvpnSwitchOrRiOptions;
 }
@@ -60,19 +60,19 @@ export interface EvpnDuplicateMacDetection {
   /**
   * Automatically unblock duplicate MACs after a time delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#auto_recovery_time Evpn#auto_recovery_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#auto_recovery_time Evpn#auto_recovery_time}
   */
   readonly autoRecoveryTime?: number;
   /**
   * Number of moves to trigger duplicate MAC detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#detection_threshold Evpn#detection_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#detection_threshold Evpn#detection_threshold}
   */
   readonly detectionThreshold?: number;
   /**
   * Time window for detection of duplicate MACs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#detection_window Evpn#detection_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#detection_window Evpn#detection_window}
   */
   readonly detectionWindow?: number;
 }
@@ -226,43 +226,43 @@ export interface EvpnSwitchOrRiOptions {
   /**
   * Route distinguisher for this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#route_distinguisher Evpn#route_distinguisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#route_distinguisher Evpn#route_distinguisher}
   */
   readonly routeDistinguisher?: string;
   /**
   * Export policy for VRF instance RIBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#vrf_export Evpn#vrf_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#vrf_export Evpn#vrf_export}
   */
   readonly vrfExport?: string[];
   /**
   * Import policy for VRF instance RIBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#vrf_import Evpn#vrf_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#vrf_import Evpn#vrf_import}
   */
   readonly vrfImport?: string[];
   /**
   * VRF target community configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#vrf_target Evpn#vrf_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#vrf_target Evpn#vrf_target}
   */
   readonly vrfTarget?: string;
   /**
   * Auto derive import and export target community from BGP AS & L2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#vrf_target_auto Evpn#vrf_target_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#vrf_target_auto Evpn#vrf_target_auto}
   */
   readonly vrfTargetAuto?: boolean | cdktf.IResolvable;
   /**
   * Target community to use when marking routes on export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#vrf_target_export Evpn#vrf_target_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#vrf_target_export Evpn#vrf_target_export}
   */
   readonly vrfTargetExport?: string;
   /**
   * Target community to use when filtering on import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#vrf_target_import Evpn#vrf_target_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#vrf_target_import Evpn#vrf_target_import}
   */
   readonly vrfTargetImport?: string;
 }
@@ -530,7 +530,7 @@ export class EvpnSwitchOrRiOptionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn junos_evpn}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn junos_evpn}
 */
 export class Evpn extends cdktf.TerraformResource {
 
@@ -546,7 +546,7 @@ export class Evpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Evpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Evpn to import
-  * @param importFromId The id of the existing Evpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Evpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Evpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -558,7 +558,7 @@ export class Evpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/evpn junos_evpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/evpn junos_evpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -569,8 +569,8 @@ export class Evpn extends cdktf.TerraformResource {
       terraformResourceType: 'junos_evpn',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

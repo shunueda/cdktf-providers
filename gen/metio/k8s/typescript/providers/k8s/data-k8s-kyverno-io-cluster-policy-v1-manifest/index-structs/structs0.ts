@@ -3,19 +3,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#labels DataK8SKyvernoIoClusterPolicyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#labels DataK8SKyvernoIoClusterPolicyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -166,13 +166,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesCelPrecondition
   /**
   * Expression represents the expression which will be evaluated by CEL. Must evaluate to bool. CEL expressions have access to the contents of the AdmissionRequest and Authorizer, organized into CEL variables: 'object' - The object from the incoming request. The value is null for DELETE requests. 'oldObject' - The existing object. The value is null for CREATE requests. 'request' - Attributes of the admission request(/pkg/apis/admission/types.go#AdmissionRequest). 'authorizer' - A CEL Authorizer. May be used to perform authorization checks for the principal (user or service account) of the request. See https://pkg.go.dev/k8s.io/apiserver/pkg/cel/library#Authz 'authorizer.requestResource' - A CEL ResourceCheck constructed from the 'authorizer' and configured with the request resource. Documentation on CEL: https://kubernetes.io/docs/reference/using-api/cel/ Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expression DataK8SKyvernoIoClusterPolicyV1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expression DataK8SKyvernoIoClusterPolicyV1Manifest#expression}
   */
   readonly expression: string;
   /**
   * Name is an identifier for this match condition, used for strategic merging of MatchConditions, as well as providing an identifier for logging purposes. A good name should be descriptive of the associated expression. Name must be a qualified name consisting of alphanumeric characters, '-', '_' or '.', and must start and end with an alphanumeric character (e.g. 'MyName', or 'my.name', or '123-abc', regex used for validation is '([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9]') with an optional DNS subdomain prefix and '/' (e.g. 'example.com/MyName') Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -313,13 +313,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextApiCallD
   /**
   * Key is a unique identifier for the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -460,13 +460,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextApiCallS
   /**
   * Key is the header key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -607,19 +607,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextApiCallS
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Headers is a list of optional HTTP headers to be included in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
   */
   readonly headers?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextApiCallServiceHeaders[] | cdktf.IResolvable;
   /**
   * URL is the JSON web service URL. A typical form is 'https://{service}.{namespace}:{port}/{path}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url: string;
 }
@@ -770,37 +770,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextApiCall 
   /**
   * The data object specifies the POST data sent to the server. Only applicable when the method field is set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
   */
   readonly data?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextApiCallData[] | cdktf.IResolvable;
   /**
   * Default is an optional arbitrary JSON object that the context value is set to, if the apiCall returns error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Method is the HTTP request type (GET or POST). Defaults to GET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
   */
   readonly method?: string;
   /**
   * Service is an API call to a JSON web service. This is used for non-Kubernetes API server calls. It's mutually exclusive with the URLPath field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
   */
   readonly service?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextApiCallService;
   /**
   * URLPath is the URL path to be used in the HTTP GET or POST request to the Kubernetes API server (e.g. '/api/v1/namespaces' or '/apis/apps/v1/deployments'). The format required is the same format used by the 'kubectl get --raw' command. See https://kyverno.io/docs/writing-policies/external-data-sources/#variables-from-kubernetes-api-server-calls for details. It's mutually exclusive with the Service field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -1041,13 +1041,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextConfigMa
   /**
   * Name is the ConfigMap name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the ConfigMap namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1169,13 +1169,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextGlobalRe
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Name of the global context entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1297,19 +1297,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextImageReg
   /**
   * AllowInsecureRegistry allows insecure access to a registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
   */
   readonly allowInsecureRegistry?: boolean | cdktf.IResolvable;
   /**
   * Providers specifies a list of OCI Registry names, whose authentication providers are provided. It can be of one of these values: default,google,azure,amazon,github.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
   */
   readonly providers?: string[];
   /**
   * Secrets specifies a list of secrets that are provided for credentials. Secrets must live in the Kyverno namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -1463,19 +1463,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextImageReg
   /**
   * ImageRegistryCredentials provides credentials that will be used for authentication with registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
   */
   readonly imageRegistryCredentials?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextImageRegistryImageRegistryCredentials;
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the ImageData struct returned as a result of processing the image reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Reference is image reference to a container image in the registry. Example: ghcr.io/kyverno/kyverno:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
   */
   readonly reference: string;
 }
@@ -1626,19 +1626,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextVariable
   /**
   * Default is an optional arbitrary JSON object that the variable may take if the JMESPath expression evaluates to nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JMESPath Expression that can be used to transform the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Value is any arbitrary JSON object representable in YAML or JSON form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -1792,37 +1792,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContext {
   /**
   * APICall is an HTTP request to the Kubernetes API server, or other JSON web service. The data returned is stored in the context with the name for the context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
   */
   readonly apiCall?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextApiCall;
   /**
   * ConfigMap is the ConfigMap reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
   */
   readonly configMap?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextConfigMap;
   /**
   * GlobalContextEntryReference is a reference to a cached global context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
   */
   readonly globalReference?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextGlobalReference;
   /**
   * ImageRegistry defines requests to an OCI/Docker V2 registry to fetch image details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
   */
   readonly imageRegistry?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextImageRegistry;
   /**
   * Name is the variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable defines an arbitrary JMESPath context variable that can be defined inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
   */
   readonly variable?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContextVariable;
 }
@@ -2082,19 +2082,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2264,13 +2264,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2395,19 +2395,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2577,13 +2577,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2708,49 +2708,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResou
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResourcesSelector;
 }
@@ -3049,25 +3049,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllSubje
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3266,25 +3266,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAll {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAllSubjects[] | cdktf.IResolvable;
 }
@@ -3489,19 +3489,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3671,13 +3671,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3802,19 +3802,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3984,13 +3984,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4115,49 +4115,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResou
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResourcesSelector;
 }
@@ -4456,25 +4456,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnySubje
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4673,25 +4673,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAny {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnyResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAnySubjects[] | cdktf.IResolvable;
 }
@@ -4896,19 +4896,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResource
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5078,13 +5078,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResource
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5209,19 +5209,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResource
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5391,13 +5391,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResource
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5522,49 +5522,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResource
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResourcesSelector;
 }
@@ -5863,25 +5863,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeSubjects
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6080,37 +6080,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExclude {
   /**
   * All allows specifying resources which will be ANDed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAll[] | cdktf.IResolvable;
   /**
   * Any allows specifying resources which will be ORed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeAny[] | cdktf.IResolvable;
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified. Requires at least one tag to be specified when under MatchResources. Specifying ResourceDescription directly under match is being deprecated. Please specify under 'any' or 'all' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExcludeSubjects[] | cdktf.IResolvable;
 }
@@ -6351,13 +6351,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateClone {
   /**
   * Name specifies name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies source resource namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6482,19 +6482,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateCloneLi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6664,13 +6664,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateCloneLi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateCloneListSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6795,19 +6795,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateCloneLi
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Namespace specifies source resource namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels'. wildcard characters are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateCloneListSelector;
 }
@@ -6961,13 +6961,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * Name specifies name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies source resource namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7092,19 +7092,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7274,13 +7274,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachCloneListSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7405,19 +7405,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Namespace specifies source resource namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels'. wildcard characters are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachCloneListSelector;
 }
@@ -7571,13 +7571,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * Key is a unique identifier for the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -7718,13 +7718,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * Key is the header key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -7865,19 +7865,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Headers is a list of optional HTTP headers to be included in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
   */
   readonly headers?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextApiCallServiceHeaders[] | cdktf.IResolvable;
   /**
   * URL is the JSON web service URL. A typical form is 'https://{service}.{namespace}:{port}/{path}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url: string;
 }
@@ -8028,37 +8028,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * The data object specifies the POST data sent to the server. Only applicable when the method field is set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
   */
   readonly data?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextApiCallData[] | cdktf.IResolvable;
   /**
   * Default is an optional arbitrary JSON object that the context value is set to, if the apiCall returns error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Method is the HTTP request type (GET or POST). Defaults to GET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
   */
   readonly method?: string;
   /**
   * Service is an API call to a JSON web service. This is used for non-Kubernetes API server calls. It's mutually exclusive with the URLPath field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
   */
   readonly service?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextApiCallService;
   /**
   * URLPath is the URL path to be used in the HTTP GET or POST request to the Kubernetes API server (e.g. '/api/v1/namespaces' or '/apis/apps/v1/deployments'). The format required is the same format used by the 'kubectl get --raw' command. See https://kyverno.io/docs/writing-policies/external-data-sources/#variables-from-kubernetes-api-server-calls for details. It's mutually exclusive with the Service field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -8299,13 +8299,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * Name is the ConfigMap name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the ConfigMap namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8427,13 +8427,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Name of the global context entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -8555,19 +8555,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * AllowInsecureRegistry allows insecure access to a registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
   */
   readonly allowInsecureRegistry?: boolean | cdktf.IResolvable;
   /**
   * Providers specifies a list of OCI Registry names, whose authentication providers are provided. It can be of one of these values: default,google,azure,amazon,github.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
   */
   readonly providers?: string[];
   /**
   * Secrets specifies a list of secrets that are provided for credentials. Secrets must live in the Kyverno namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -8721,19 +8721,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * ImageRegistryCredentials provides credentials that will be used for authentication with registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
   */
   readonly imageRegistryCredentials?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextImageRegistryImageRegistryCredentials;
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the ImageData struct returned as a result of processing the image reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Reference is image reference to a container image in the registry. Example: ghcr.io/kyverno/kyverno:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
   */
   readonly reference: string;
 }
@@ -8884,19 +8884,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * Default is an optional arbitrary JSON object that the variable may take if the JMESPath expression evaluates to nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JMESPath Expression that can be used to transform the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Value is any arbitrary JSON object representable in YAML or JSON form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -9050,37 +9050,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * APICall is an HTTP request to the Kubernetes API server, or other JSON web service. The data returned is stored in the context with the name for the context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
   */
   readonly apiCall?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextApiCall;
   /**
   * ConfigMap is the ConfigMap reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
   */
   readonly configMap?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextConfigMap;
   /**
   * GlobalContextEntryReference is a reference to a cached global context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
   */
   readonly globalReference?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextGlobalReference;
   /**
   * ImageRegistry defines requests to an OCI/Docker V2 registry to fetch image details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
   */
   readonly imageRegistry?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextImageRegistry;
   /**
   * Name is the variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable defines an arbitrary JMESPath context variable that can be defined inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
   */
   readonly variable?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContextVariable;
 }
@@ -9340,25 +9340,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -9563,25 +9563,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -9786,13 +9786,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * AllConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, all of the conditions need to pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachPreconditionsAll[] | cdktf.IResolvable;
   /**
   * AnyConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, at least one of the conditions need to pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachPreconditionsAny[] | cdktf.IResolvable;
 }
@@ -9917,67 +9917,67 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach
   /**
   * APIVersion specifies resource apiVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_version DataK8SKyvernoIoClusterPolicyV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_version DataK8SKyvernoIoClusterPolicyV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Clone specifies the source resource used to populate each generated resource. At most one of Data or Clone can be specified. If neither are provided, the generated resource will be created with default data only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#clone DataK8SKyvernoIoClusterPolicyV1Manifest#clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#clone DataK8SKyvernoIoClusterPolicyV1Manifest#clone}
   */
   readonly clone?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachClone;
   /**
   * CloneList specifies the list of source resource used to populate each generated resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#clone_list DataK8SKyvernoIoClusterPolicyV1Manifest#clone_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#clone_list DataK8SKyvernoIoClusterPolicyV1Manifest#clone_list}
   */
   readonly cloneList?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachCloneListStruct;
   /**
   * Context defines variables and data sources that can be used during rule execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
   */
   readonly context?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachContext[] | cdktf.IResolvable;
   /**
   * Data provides the resource declaration used to populate each generated resource. At most one of Data or Clone must be specified. If neither are provided, the generated resource will be created with default data only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
   */
   readonly data?: { [key: string]: string };
   /**
   * Kind specifies resource kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * List specifies a JMESPath expression that results in one or more elements to which the validation logic is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#list DataK8SKyvernoIoClusterPolicyV1Manifest#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#list DataK8SKyvernoIoClusterPolicyV1Manifest#list}
   */
   readonly list?: string;
   /**
   * Name specifies the resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies resource namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * AnyAllConditions are used to determine if a policy rule should be applied by evaluating a set of conditions. The declaration can contain nested 'any' or 'all' statements. See: https://kyverno.io/docs/writing-policies/preconditions/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
   */
   readonly preconditions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeachPreconditions;
   /**
   * UID specifies the resource uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#uid DataK8SKyvernoIoClusterPolicyV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#uid DataK8SKyvernoIoClusterPolicyV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -10385,73 +10385,73 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerate {
   /**
   * APIVersion specifies resource apiVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_version DataK8SKyvernoIoClusterPolicyV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_version DataK8SKyvernoIoClusterPolicyV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Clone specifies the source resource used to populate each generated resource. At most one of Data or Clone can be specified. If neither are provided, the generated resource will be created with default data only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#clone DataK8SKyvernoIoClusterPolicyV1Manifest#clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#clone DataK8SKyvernoIoClusterPolicyV1Manifest#clone}
   */
   readonly clone?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateClone;
   /**
   * CloneList specifies the list of source resource used to populate each generated resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#clone_list DataK8SKyvernoIoClusterPolicyV1Manifest#clone_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#clone_list DataK8SKyvernoIoClusterPolicyV1Manifest#clone_list}
   */
   readonly cloneList?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateCloneListStruct;
   /**
   * Data provides the resource declaration used to populate each generated resource. At most one of Data or Clone must be specified. If neither are provided, the generated resource will be created with default data only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
   */
   readonly data?: { [key: string]: string };
   /**
   * ForEach applies generate rules to a list of sub-elements by creating a context for each entry in the list and looping over it to apply the specified logic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
   */
   readonly foreach?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerateForeach[] | cdktf.IResolvable;
   /**
   * GenerateExisting controls whether to trigger the rule in existing resources If is set to 'true' the rule will be triggered and applied to existing matched resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#generate_existing DataK8SKyvernoIoClusterPolicyV1Manifest#generate_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#generate_existing DataK8SKyvernoIoClusterPolicyV1Manifest#generate_existing}
   */
   readonly generateExisting?: boolean | cdktf.IResolvable;
   /**
   * Kind specifies resource kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name specifies the resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies resource namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * OrphanDownstreamOnPolicyDelete controls whether generated resources should be deleted when the rule that generated them is deleted with synchronization enabled. This option is only applicable to generate rules of the data type. See https://kyverno.io/docs/writing-policies/generate/#data-examples. Defaults to 'false' if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#orphan_downstream_on_policy_delete DataK8SKyvernoIoClusterPolicyV1Manifest#orphan_downstream_on_policy_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#orphan_downstream_on_policy_delete DataK8SKyvernoIoClusterPolicyV1Manifest#orphan_downstream_on_policy_delete}
   */
   readonly orphanDownstreamOnPolicyDelete?: boolean | cdktf.IResolvable;
   /**
   * Synchronize controls if generated resources should be kept in-sync with their source resource. If Synchronize is set to 'true' changes to generated resources will be overwritten with resource data from Data or the resource specified in the Clone declaration. Optional. Defaults to 'false' if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#synchronize DataK8SKyvernoIoClusterPolicyV1Manifest#synchronize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#synchronize DataK8SKyvernoIoClusterPolicyV1Manifest#synchronize}
   */
   readonly synchronize?: boolean | cdktf.IResolvable;
   /**
   * UID specifies the resource uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#uid DataK8SKyvernoIoClusterPolicyV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#uid DataK8SKyvernoIoClusterPolicyV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -10866,19 +10866,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11048,13 +11048,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11179,19 +11179,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11361,13 +11361,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11492,49 +11492,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourc
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResourcesSelector;
 }
@@ -11833,25 +11833,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllSubject
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -12050,25 +12050,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAll {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAllSubjects[] | cdktf.IResolvable;
 }
@@ -12273,19 +12273,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12455,13 +12455,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12586,19 +12586,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12768,13 +12768,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12899,49 +12899,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourc
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResourcesSelector;
 }
@@ -13240,25 +13240,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnySubject
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -13457,25 +13457,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAny {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnyResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAnySubjects[] | cdktf.IResolvable;
 }
@@ -13680,19 +13680,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResourcesN
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13862,13 +13862,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResourcesN
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13993,19 +13993,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResourcesS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14175,13 +14175,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResourcesS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14306,49 +14306,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResources 
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kinds DataK8SKyvernoIoClusterPolicyV1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#names DataK8SKyvernoIoClusterPolicyV1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operations DataK8SKyvernoIoClusterPolicyV1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResourcesSelector;
 }
@@ -14647,25 +14647,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchSubjects {
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_group DataK8SKyvernoIoClusterPolicyV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14864,37 +14864,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatch {
   /**
   * All allows specifying resources which will be ANDed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAll[] | cdktf.IResolvable;
   /**
   * Any allows specifying resources which will be ORed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchAny[] | cdktf.IResolvable;
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cluster_roles DataK8SKyvernoIoClusterPolicyV1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified. Requires at least one tag to be specified when under MatchResources. Specifying ResourceDescription directly under match is being deprecated. Please specify under 'any' or 'all' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#resources DataK8SKyvernoIoClusterPolicyV1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roles DataK8SKyvernoIoClusterPolicyV1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subjects DataK8SKyvernoIoClusterPolicyV1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatchSubjects[] | cdktf.IResolvable;
 }
@@ -15135,13 +15135,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * Key is a unique identifier for the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -15282,13 +15282,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * Key is the header key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -15429,19 +15429,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Headers is a list of optional HTTP headers to be included in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
   */
   readonly headers?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextApiCallServiceHeaders[] | cdktf.IResolvable;
   /**
   * URL is the JSON web service URL. A typical form is 'https://{service}.{namespace}:{port}/{path}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url: string;
 }
@@ -15592,37 +15592,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * The data object specifies the POST data sent to the server. Only applicable when the method field is set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
   */
   readonly data?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextApiCallData[] | cdktf.IResolvable;
   /**
   * Default is an optional arbitrary JSON object that the context value is set to, if the apiCall returns error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Method is the HTTP request type (GET or POST). Defaults to GET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
   */
   readonly method?: string;
   /**
   * Service is an API call to a JSON web service. This is used for non-Kubernetes API server calls. It's mutually exclusive with the URLPath field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
   */
   readonly service?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextApiCallService;
   /**
   * URLPath is the URL path to be used in the HTTP GET or POST request to the Kubernetes API server (e.g. '/api/v1/namespaces' or '/apis/apps/v1/deployments'). The format required is the same format used by the 'kubectl get --raw' command. See https://kyverno.io/docs/writing-policies/external-data-sources/#variables-from-kubernetes-api-server-calls for details. It's mutually exclusive with the Service field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -15863,13 +15863,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * Name is the ConfigMap name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the ConfigMap namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -15991,13 +15991,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Name of the global context entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -16119,19 +16119,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * AllowInsecureRegistry allows insecure access to a registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
   */
   readonly allowInsecureRegistry?: boolean | cdktf.IResolvable;
   /**
   * Providers specifies a list of OCI Registry names, whose authentication providers are provided. It can be of one of these values: default,google,azure,amazon,github.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
   */
   readonly providers?: string[];
   /**
   * Secrets specifies a list of secrets that are provided for credentials. Secrets must live in the Kyverno namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -16285,19 +16285,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * ImageRegistryCredentials provides credentials that will be used for authentication with registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
   */
   readonly imageRegistryCredentials?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextImageRegistryImageRegistryCredentials;
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the ImageData struct returned as a result of processing the image reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Reference is image reference to a container image in the registry. Example: ghcr.io/kyverno/kyverno:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
   */
   readonly reference: string;
 }
@@ -16448,19 +16448,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * Default is an optional arbitrary JSON object that the variable may take if the JMESPath expression evaluates to nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JMESPath Expression that can be used to transform the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Value is any arbitrary JSON object representable in YAML or JSON form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -16614,37 +16614,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachCo
   /**
   * APICall is an HTTP request to the Kubernetes API server, or other JSON web service. The data returned is stored in the context with the name for the context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
   */
   readonly apiCall?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextApiCall;
   /**
   * ConfigMap is the ConfigMap reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
   */
   readonly configMap?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextConfigMap;
   /**
   * GlobalContextEntryReference is a reference to a cached global context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
   */
   readonly globalReference?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextGlobalReference;
   /**
   * ImageRegistry defines requests to an OCI/Docker V2 registry to fetch image details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
   */
   readonly imageRegistry?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextImageRegistry;
   /**
   * Name is the variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable defines an arbitrary JMESPath context variable that can be defined inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
   */
   readonly variable?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContextVariable;
 }
@@ -16904,25 +16904,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachPr
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -17127,25 +17127,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachPr
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -17350,13 +17350,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachPr
   /**
   * AllConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, all of the conditions need to pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachPreconditionsAll[] | cdktf.IResolvable;
   /**
   * AnyConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, at least one of the conditions need to pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachPreconditionsAny[] | cdktf.IResolvable;
 }
@@ -17481,43 +17481,43 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeach {
   /**
   * Context defines variables and data sources that can be used during rule execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
   */
   readonly context?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachContext[] | cdktf.IResolvable;
   /**
   * Foreach declares a nested foreach iterator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
   */
   readonly foreach?: { [key: string]: string };
   /**
   * List specifies a JMESPath expression that results in one or more elements to which the validation logic is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#list DataK8SKyvernoIoClusterPolicyV1Manifest#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#list DataK8SKyvernoIoClusterPolicyV1Manifest#list}
   */
   readonly list?: string;
   /**
   * Order defines the iteration order on the list. Can be Ascending to iterate from first to last element or Descending to iterate in from last to first element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#order DataK8SKyvernoIoClusterPolicyV1Manifest#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#order DataK8SKyvernoIoClusterPolicyV1Manifest#order}
   */
   readonly order?: string;
   /**
   * PatchStrategicMerge is a strategic merge patch used to modify resources. See https://kubernetes.io/docs/tasks/manage-kubernetes-objects/update-api-object-kubectl-patch/ and https://kubectl.docs.kubernetes.io/references/kustomize/patchesstrategicmerge/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#patch_strategic_merge DataK8SKyvernoIoClusterPolicyV1Manifest#patch_strategic_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#patch_strategic_merge DataK8SKyvernoIoClusterPolicyV1Manifest#patch_strategic_merge}
   */
   readonly patchStrategicMerge?: { [key: string]: string };
   /**
   * PatchesJSON6902 is a list of RFC 6902 JSON Patch declarations used to modify resources. See https://tools.ietf.org/html/rfc6902 and https://kubectl.docs.kubernetes.io/references/kustomize/patchesjson6902/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#patches_json6902 DataK8SKyvernoIoClusterPolicyV1Manifest#patches_json6902}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#patches_json6902 DataK8SKyvernoIoClusterPolicyV1Manifest#patches_json6902}
   */
   readonly patchesJson6902?: string;
   /**
   * AnyAllConditions are used to determine if a policy rule should be applied by evaluating a set of conditions. The declaration can contain nested 'any' or 'all' statements. See: https://kyverno.io/docs/writing-policies/preconditions/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
   */
   readonly preconditions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeachPreconditions;
 }
@@ -17809,13 +17809,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * Key is a unique identifier for the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -17956,13 +17956,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * Key is the header key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -18103,19 +18103,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Headers is a list of optional HTTP headers to be included in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
   */
   readonly headers?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextApiCallServiceHeaders[] | cdktf.IResolvable;
   /**
   * URL is the JSON web service URL. A typical form is 'https://{service}.{namespace}:{port}/{path}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url: string;
 }
@@ -18266,37 +18266,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * The data object specifies the POST data sent to the server. Only applicable when the method field is set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
   */
   readonly data?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextApiCallData[] | cdktf.IResolvable;
   /**
   * Default is an optional arbitrary JSON object that the context value is set to, if the apiCall returns error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Method is the HTTP request type (GET or POST). Defaults to GET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
   */
   readonly method?: string;
   /**
   * Service is an API call to a JSON web service. This is used for non-Kubernetes API server calls. It's mutually exclusive with the URLPath field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
   */
   readonly service?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextApiCallService;
   /**
   * URLPath is the URL path to be used in the HTTP GET or POST request to the Kubernetes API server (e.g. '/api/v1/namespaces' or '/apis/apps/v1/deployments'). The format required is the same format used by the 'kubectl get --raw' command. See https://kyverno.io/docs/writing-policies/external-data-sources/#variables-from-kubernetes-api-server-calls for details. It's mutually exclusive with the Service field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -18537,13 +18537,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * Name is the ConfigMap name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the ConfigMap namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -18665,13 +18665,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Name of the global context entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -18793,19 +18793,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * AllowInsecureRegistry allows insecure access to a registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
   */
   readonly allowInsecureRegistry?: boolean | cdktf.IResolvable;
   /**
   * Providers specifies a list of OCI Registry names, whose authentication providers are provided. It can be of one of these values: default,google,azure,amazon,github.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
   */
   readonly providers?: string[];
   /**
   * Secrets specifies a list of secrets that are provided for credentials. Secrets must live in the Kyverno namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -18959,19 +18959,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * ImageRegistryCredentials provides credentials that will be used for authentication with registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
   */
   readonly imageRegistryCredentials?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextImageRegistryImageRegistryCredentials;
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the ImageData struct returned as a result of processing the image reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Reference is image reference to a container image in the registry. Example: ghcr.io/kyverno/kyverno:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
   */
   readonly reference: string;
 }
@@ -19122,19 +19122,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * Default is an optional arbitrary JSON object that the variable may take if the JMESPath expression evaluates to nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JMESPath Expression that can be used to transform the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Value is any arbitrary JSON object representable in YAML or JSON form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -19288,37 +19288,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsCo
   /**
   * APICall is an HTTP request to the Kubernetes API server, or other JSON web service. The data returned is stored in the context with the name for the context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
   */
   readonly apiCall?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextApiCall;
   /**
   * ConfigMap is the ConfigMap reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
   */
   readonly configMap?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextConfigMap;
   /**
   * GlobalContextEntryReference is a reference to a cached global context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
   */
   readonly globalReference?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextGlobalReference;
   /**
   * ImageRegistry defines requests to an OCI/Docker V2 registry to fetch image details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
   */
   readonly imageRegistry?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextImageRegistry;
   /**
   * Name is the variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable defines an arbitrary JMESPath context variable that can be defined inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
   */
   readonly variable?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContextVariable;
 }
@@ -19578,19 +19578,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19760,13 +19760,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19891,49 +19891,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargets {
   /**
   * APIVersion specifies resource apiVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_version DataK8SKyvernoIoClusterPolicyV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_version DataK8SKyvernoIoClusterPolicyV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Context defines variables and data sources that can be used during rule execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
   */
   readonly context?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsContext[] | cdktf.IResolvable;
   /**
   * Kind specifies resource kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name specifies the resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies resource namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Preconditions are used to determine if a policy rule should be applied by evaluating a set of conditions. The declaration can contain nested 'any' or 'all' statements. A direct list of conditions (without 'any' or 'all' statements is supported for backwards compatibility but will be deprecated in the next major release. See: https://kyverno.io/docs/writing-policies/preconditions/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
   */
   readonly preconditions?: { [key: string]: string };
   /**
   * Selector allows you to select target resources with their labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargetsSelector;
   /**
   * UID specifies the resource uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#uid DataK8SKyvernoIoClusterPolicyV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#uid DataK8SKyvernoIoClusterPolicyV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -20254,31 +20254,31 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutate {
   /**
   * ForEach applies mutation rules to a list of sub-elements by creating a context for each entry in the list and looping over it to apply the specified logic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
   */
   readonly foreach?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateForeach[] | cdktf.IResolvable;
   /**
   * MutateExistingOnPolicyUpdate controls if the mutateExisting rule will be applied on policy events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#mutate_existing_on_policy_update DataK8SKyvernoIoClusterPolicyV1Manifest#mutate_existing_on_policy_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#mutate_existing_on_policy_update DataK8SKyvernoIoClusterPolicyV1Manifest#mutate_existing_on_policy_update}
   */
   readonly mutateExistingOnPolicyUpdate?: boolean | cdktf.IResolvable;
   /**
   * PatchStrategicMerge is a strategic merge patch used to modify resources. See https://kubernetes.io/docs/tasks/manage-kubernetes-objects/update-api-object-kubectl-patch/ and https://kubectl.docs.kubernetes.io/references/kustomize/patchesstrategicmerge/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#patch_strategic_merge DataK8SKyvernoIoClusterPolicyV1Manifest#patch_strategic_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#patch_strategic_merge DataK8SKyvernoIoClusterPolicyV1Manifest#patch_strategic_merge}
   */
   readonly patchStrategicMerge?: { [key: string]: string };
   /**
   * PatchesJSON6902 is a list of RFC 6902 JSON Patch declarations used to modify resources. See https://tools.ietf.org/html/rfc6902 and https://kubectl.docs.kubernetes.io/references/kustomize/patchesjson6902/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#patches_json6902 DataK8SKyvernoIoClusterPolicyV1Manifest#patches_json6902}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#patches_json6902 DataK8SKyvernoIoClusterPolicyV1Manifest#patches_json6902}
   */
   readonly patchesJson6902?: string;
   /**
   * Targets defines the target resources to be mutated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#targets DataK8SKyvernoIoClusterPolicyV1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#targets DataK8SKyvernoIoClusterPolicyV1Manifest#targets}
   */
   readonly targets?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutateTargets[] | cdktf.IResolvable;
 }
@@ -20490,13 +20490,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelAudi
   /**
   * key specifies the audit annotation key. The audit annotation keys of a ValidatingAdmissionPolicy must be unique. The key must be a qualified name ([A-Za-z0-9][-A-Za-z0-9_.]*) no more than 63 bytes in length. The key is combined with the resource name of the ValidatingAdmissionPolicy to construct an audit annotation key: '{ValidatingAdmissionPolicy name}/{key}'. If an admission webhook uses the same resource name as this ValidatingAdmissionPolicy and the same audit annotation key, the annotation key will be identical. In this case, the first annotation written with the key will be included in the audit event and all subsequent annotations with the same key will be discarded. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * valueExpression represents the expression which is evaluated by CEL to produce an audit annotation value. The expression must evaluate to either a string or null value. If the expression evaluates to a string, the audit annotation is included with the string value. If the expression evaluates to null or empty string the audit annotation will be omitted. The valueExpression may be no longer than 5kb in length. If the result of the valueExpression is more than 10kb in length, it will be truncated to 10kb. If multiple ValidatingAdmissionPolicyBinding resources match an API request, then the valueExpression will be evaluated for each binding. All unique values produced by the valueExpressions will be joined together in a comma-separated list. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value_expression DataK8SKyvernoIoClusterPolicyV1Manifest#value_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value_expression DataK8SKyvernoIoClusterPolicyV1Manifest#value_expression}
   */
   readonly valueExpression: string;
 }
@@ -20637,25 +20637,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelExpr
   /**
   * Expression represents the expression which will be evaluated by CEL. ref: https://github.com/google/cel-spec CEL expressions have access to the contents of the API request/response, organized into CEL variables as well as some other useful variables: - 'object' - The object from the incoming request. The value is null for DELETE requests. - 'oldObject' - The existing object. The value is null for CREATE requests. - 'request' - Attributes of the API request([ref](/pkg/apis/admission/types.go#AdmissionRequest)). - 'params' - Parameter resource referred to by the policy binding being evaluated. Only populated if the policy has a ParamKind. - 'namespaceObject' - The namespace object that the incoming object belongs to. The value is null for cluster-scoped resources. - 'variables' - Map of composited variables, from its name to its lazily evaluated value. For example, a variable named 'foo' can be accessed as 'variables.foo'. - 'authorizer' - A CEL Authorizer. May be used to perform authorization checks for the principal (user or service account) of the request. See https://pkg.go.dev/k8s.io/apiserver/pkg/cel/library#Authz - 'authorizer.requestResource' - A CEL ResourceCheck constructed from the 'authorizer' and configured with the request resource. The 'apiVersion', 'kind', 'metadata.name' and 'metadata.generateName' are always accessible from the root of the object. No other metadata properties are accessible. Only property names of the form '[a-zA-Z_.-/][a-zA-Z0-9_.-/]*' are accessible. Accessible property names are escaped according to the following rules when accessed in the expression: - '__' escapes to '__underscores__' - '.' escapes to '__dot__' - '-' escapes to '__dash__' - '/' escapes to '__slash__' - Property names that exactly match a CEL RESERVED keyword escape to '__{keyword}__'. The keywords are: 'true', 'false', 'null', 'in', 'as', 'break', 'const', 'continue', 'else', 'for', 'function', 'if', 'import', 'let', 'loop', 'package', 'namespace', 'return'. Examples: - Expression accessing a property named 'namespace': {'Expression': 'object.__namespace__ > 0'} - Expression accessing a property named 'x-prop': {'Expression': 'object.x__dash__prop > 0'} - Expression accessing a property named 'redact__d': {'Expression': 'object.redact__underscores__d > 0'} Equality on arrays with list type of 'set' or 'map' ignores element order, i.e. [1, 2] == [2, 1]. Concatenation on arrays with x-kubernetes-list-type use the semantics of the list type: - 'set': 'X + Y' performs a union where the array positions of all elements in 'X' are preserved and non-intersecting elements in 'Y' are appended, retaining their partial order. - 'map': 'X + Y' performs a merge where the array positions of all keys in 'X' are preserved but the values are overwritten by values in 'Y' when the key sets of 'X' and 'Y' intersect. Elements in 'Y' with non-intersecting keys are appended, retaining their partial order. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expression DataK8SKyvernoIoClusterPolicyV1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expression DataK8SKyvernoIoClusterPolicyV1Manifest#expression}
   */
   readonly expression: string;
   /**
   * Message represents the message displayed when validation fails. The message is required if the Expression contains line breaks. The message must not contain line breaks. If unset, the message is 'failed rule: {Rule}'. e.g. 'must be a URL with the host matching spec.host' If the Expression contains line breaks. Message is required. The message must not contain line breaks. If unset, the message is 'failed Expression: {Expression}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * messageExpression declares a CEL expression that evaluates to the validation failure message that is returned when this rule fails. Since messageExpression is used as a failure message, it must evaluate to a string. If both message and messageExpression are present on a validation, then messageExpression will be used if validation fails. If messageExpression results in a runtime error, the runtime error is logged, and the validation failure message is produced as if the messageExpression field were unset. If messageExpression evaluates to an empty string, a string with only spaces, or a string that contains line breaks, then the validation failure message will also be produced as if the messageExpression field were unset, and the fact that messageExpression produced an empty string/string with only spaces/string with line breaks will be logged. messageExpression has access to all the same variables as the 'expression' except for 'authorizer' and 'authorizer.requestResource'. Example: 'object.x must be less than max ('+string(params.max)+')'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message_expression DataK8SKyvernoIoClusterPolicyV1Manifest#message_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message_expression DataK8SKyvernoIoClusterPolicyV1Manifest#message_expression}
   */
   readonly messageExpression?: string;
   /**
   * Reason represents a machine-readable description of why this validation failed. If this is the first validation in the list to fail, this reason, as well as the corresponding HTTP response code, are used in the HTTP response to the client. The currently supported reasons are: 'Unauthorized', 'Forbidden', 'Invalid', 'RequestEntityTooLarge'. If not set, StatusReasonInvalid is used in the response to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reason DataK8SKyvernoIoClusterPolicyV1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reason DataK8SKyvernoIoClusterPolicyV1Manifest#reason}
   */
   readonly reason?: string;
 }
@@ -20857,13 +20857,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelPara
   /**
   * APIVersion is the API group version the resources belong to. In format of 'group/version'. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_version DataK8SKyvernoIoClusterPolicyV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_version DataK8SKyvernoIoClusterPolicyV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is the API kind the resources belong to. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind?: string;
 }
@@ -20988,19 +20988,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelPara
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21170,13 +21170,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelPara
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelParamRefSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21301,25 +21301,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelPara
   /**
   * name is the name of the resource being referenced. One of 'name' or 'selector' must be set, but 'name' and 'selector' are mutually exclusive properties. If one is set, the other must be unset. A single parameter used for all admission requests can be configured by setting the 'name' field, leaving 'selector' blank, and setting namespace if 'paramKind' is namespace-scoped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace is the namespace of the referenced resource. Allows limiting the search for params to a specific namespace. Applies to both 'name' and 'selector' fields. A per-namespace parameter may be used by specifying a namespace-scoped 'paramKind' in the policy and leaving this field empty. - If 'paramKind' is cluster-scoped, this field MUST be unset. Setting this field results in a configuration error. - If 'paramKind' is namespace-scoped, the namespace of the object being evaluated for admission will be used when this field is left unset. Take care that if this is left empty the binding must not match any cluster-scoped resources, which will result in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * 'parameterNotFoundAction' controls the behavior of the binding when the resource exists, and name or selector is valid, but there are no parameters matched by the binding. If the value is set to 'Allow', then no matched parameters will be treated as successful validation by the binding. If set to 'Deny', then no matched parameters will be subject to the 'failurePolicy' of the policy. Allowed values are 'Allow' or 'Deny' Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#parameter_not_found_action DataK8SKyvernoIoClusterPolicyV1Manifest#parameter_not_found_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#parameter_not_found_action DataK8SKyvernoIoClusterPolicyV1Manifest#parameter_not_found_action}
   */
   readonly parameterNotFoundAction?: string;
   /**
   * selector can be used to match multiple param objects based on their labels. Supply selector: {} to match all resources of the ParamKind. If multiple params are found, they are all evaluated with the policy expressions and the results are ANDed together. One of 'name' or 'selector' must be set, but 'name' and 'selector' are mutually exclusive properties. If one is set, the other must be unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#selector DataK8SKyvernoIoClusterPolicyV1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelParamRefSelector;
 }
@@ -21502,13 +21502,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelVari
   /**
   * Expression is the expression that will be evaluated as the value of the variable. The CEL expression has access to the same identifiers as the CEL expressions in Validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expression DataK8SKyvernoIoClusterPolicyV1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expression DataK8SKyvernoIoClusterPolicyV1Manifest#expression}
   */
   readonly expression: string;
   /**
   * Name is the name of the variable. The name must be a valid CEL identifier and unique among all variables. The variable can be accessed in other expressions through 'variables' For example, if name is 'foo', the variable will be available as 'variables.foo'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -21649,31 +21649,31 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCel {
   /**
   * AuditAnnotations contains CEL expressions which are used to produce audit annotations for the audit event of the API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#audit_annotations DataK8SKyvernoIoClusterPolicyV1Manifest#audit_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#audit_annotations DataK8SKyvernoIoClusterPolicyV1Manifest#audit_annotations}
   */
   readonly auditAnnotations?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelAuditAnnotations[] | cdktf.IResolvable;
   /**
   * Expressions is a list of CELExpression types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expressions DataK8SKyvernoIoClusterPolicyV1Manifest#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expressions DataK8SKyvernoIoClusterPolicyV1Manifest#expressions}
   */
   readonly expressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelExpressions[] | cdktf.IResolvable;
   /**
   * ParamKind is a tuple of Group Kind and Version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#param_kind DataK8SKyvernoIoClusterPolicyV1Manifest#param_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#param_kind DataK8SKyvernoIoClusterPolicyV1Manifest#param_kind}
   */
   readonly paramKind?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelParamKind;
   /**
   * ParamRef references a parameter resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#param_ref DataK8SKyvernoIoClusterPolicyV1Manifest#param_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#param_ref DataK8SKyvernoIoClusterPolicyV1Manifest#param_ref}
   */
   readonly paramRef?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelParamRef;
   /**
   * Variables contain definitions of variables that can be used in composition of other expressions. Each variable is defined as a named CEL expression. The variables defined here will be available under 'variables' in other expressions of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variables DataK8SKyvernoIoClusterPolicyV1Manifest#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variables DataK8SKyvernoIoClusterPolicyV1Manifest#variables}
   */
   readonly variables?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCelVariables[] | cdktf.IResolvable;
 }
@@ -21885,7 +21885,7 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateDeny {
   /**
   * Multiple conditions can be declared under an 'any' or 'all' statement. A direct list of conditions (without 'any' or 'all' statements) is also supported for backwards compatibility but will be deprecated in the next major release. See: https://kyverno.io/docs/writing-policies/validate/#deny-rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#conditions DataK8SKyvernoIoClusterPolicyV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#conditions DataK8SKyvernoIoClusterPolicyV1Manifest#conditions}
   */
   readonly conditions?: { [key: string]: string };
 }
@@ -21981,19 +21981,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateFailure
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22163,13 +22163,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateFailure
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateFailureActionOverridesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22294,17 +22294,17 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateFailure
   /**
   * ValidationFailureAction defines the policy validation failure action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#action DataK8SKyvernoIoClusterPolicyV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#action DataK8SKyvernoIoClusterPolicyV1Manifest#action}
   */
   readonly action?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateFailureActionOverridesNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
 }
@@ -22480,13 +22480,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * Key is a unique identifier for the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -22627,13 +22627,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * Key is the header key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value: string;
 }
@@ -22774,19 +22774,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ca_bundle DataK8SKyvernoIoClusterPolicyV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Headers is a list of optional HTTP headers to be included in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#headers DataK8SKyvernoIoClusterPolicyV1Manifest#headers}
   */
   readonly headers?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextApiCallServiceHeaders[] | cdktf.IResolvable;
   /**
   * URL is the JSON web service URL. A typical form is 'https://{service}.{namespace}:{port}/{path}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url: string;
 }
@@ -22937,37 +22937,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * The data object specifies the POST data sent to the server. Only applicable when the method field is set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#data DataK8SKyvernoIoClusterPolicyV1Manifest#data}
   */
   readonly data?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextApiCallData[] | cdktf.IResolvable;
   /**
   * Default is an optional arbitrary JSON object that the context value is set to, if the apiCall returns error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Method is the HTTP request type (GET or POST). Defaults to GET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#method DataK8SKyvernoIoClusterPolicyV1Manifest#method}
   */
   readonly method?: string;
   /**
   * Service is an API call to a JSON web service. This is used for non-Kubernetes API server calls. It's mutually exclusive with the URLPath field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#service DataK8SKyvernoIoClusterPolicyV1Manifest#service}
   */
   readonly service?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextApiCallService;
   /**
   * URLPath is the URL path to be used in the HTTP GET or POST request to the Kubernetes API server (e.g. '/api/v1/namespaces' or '/apis/apps/v1/deployments'). The format required is the same format used by the 'kubectl get --raw' command. See https://kyverno.io/docs/writing-policies/external-data-sources/#variables-from-kubernetes-api-server-calls for details. It's mutually exclusive with the Service field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url_path DataK8SKyvernoIoClusterPolicyV1Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -23208,13 +23208,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * Name is the ConfigMap name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the ConfigMap namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -23336,13 +23336,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Name of the global context entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -23464,19 +23464,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * AllowInsecureRegistry allows insecure access to a registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
   */
   readonly allowInsecureRegistry?: boolean | cdktf.IResolvable;
   /**
   * Providers specifies a list of OCI Registry names, whose authentication providers are provided. It can be of one of these values: default,google,azure,amazon,github.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
   */
   readonly providers?: string[];
   /**
   * Secrets specifies a list of secrets that are provided for credentials. Secrets must live in the Kyverno namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -23630,19 +23630,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * ImageRegistryCredentials provides credentials that will be used for authentication with registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
   */
   readonly imageRegistryCredentials?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextImageRegistryImageRegistryCredentials;
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the ImageData struct returned as a result of processing the image reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Reference is image reference to a container image in the registry. Example: ghcr.io/kyverno/kyverno:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#reference DataK8SKyvernoIoClusterPolicyV1Manifest#reference}
   */
   readonly reference: string;
 }
@@ -23793,19 +23793,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * Default is an optional arbitrary JSON object that the variable may take if the JMESPath expression evaluates to nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#default DataK8SKyvernoIoClusterPolicyV1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JMESPath Expression that can be used to transform the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#jmes_path DataK8SKyvernoIoClusterPolicyV1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Value is any arbitrary JSON object representable in YAML or JSON form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -23959,37 +23959,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * APICall is an HTTP request to the Kubernetes API server, or other JSON web service. The data returned is stored in the context with the name for the context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#api_call DataK8SKyvernoIoClusterPolicyV1Manifest#api_call}
   */
   readonly apiCall?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextApiCall;
   /**
   * ConfigMap is the ConfigMap reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#config_map DataK8SKyvernoIoClusterPolicyV1Manifest#config_map}
   */
   readonly configMap?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextConfigMap;
   /**
   * GlobalContextEntryReference is a reference to a cached global context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#global_reference DataK8SKyvernoIoClusterPolicyV1Manifest#global_reference}
   */
   readonly globalReference?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextGlobalReference;
   /**
   * ImageRegistry defines requests to an OCI/Docker V2 registry to fetch image details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry}
   */
   readonly imageRegistry?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextImageRegistry;
   /**
   * Name is the variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable defines an arbitrary JMESPath context variable that can be defined inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#variable DataK8SKyvernoIoClusterPolicyV1Manifest#variable}
   */
   readonly variable?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContextVariable;
 }
@@ -24249,7 +24249,7 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * Multiple conditions can be declared under an 'any' or 'all' statement. A direct list of conditions (without 'any' or 'all' statements) is also supported for backwards compatibility but will be deprecated in the next major release. See: https://kyverno.io/docs/writing-policies/validate/#deny-rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#conditions DataK8SKyvernoIoClusterPolicyV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#conditions DataK8SKyvernoIoClusterPolicyV1Manifest#conditions}
   */
   readonly conditions?: { [key: string]: string };
 }
@@ -24345,25 +24345,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -24568,25 +24568,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -24791,13 +24791,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * AllConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, all of the conditions need to pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachPreconditionsAll[] | cdktf.IResolvable;
   /**
   * AnyConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, at least one of the conditions need to pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachPreconditionsAny[] | cdktf.IResolvable;
 }
@@ -24922,49 +24922,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach
   /**
   * AnyPattern specifies list of validation patterns. At least one of the patterns must be satisfied for the validation rule to succeed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any_pattern DataK8SKyvernoIoClusterPolicyV1Manifest#any_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any_pattern DataK8SKyvernoIoClusterPolicyV1Manifest#any_pattern}
   */
   readonly anyPattern?: { [key: string]: string };
   /**
   * Context defines variables and data sources that can be used during rule execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
   */
   readonly context?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachContext[] | cdktf.IResolvable;
   /**
   * Deny defines conditions used to pass or fail a validation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#deny DataK8SKyvernoIoClusterPolicyV1Manifest#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#deny DataK8SKyvernoIoClusterPolicyV1Manifest#deny}
   */
   readonly deny?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachDeny;
   /**
   * ElementScope specifies whether to use the current list element as the scope for validation. Defaults to 'true' if not specified. When set to 'false', 'request.object' is used as the validation scope within the foreach block to allow referencing other elements in the subtree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#element_scope DataK8SKyvernoIoClusterPolicyV1Manifest#element_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#element_scope DataK8SKyvernoIoClusterPolicyV1Manifest#element_scope}
   */
   readonly elementScope?: boolean | cdktf.IResolvable;
   /**
   * Foreach declares a nested foreach iterator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
   */
   readonly foreach?: { [key: string]: string };
   /**
   * List specifies a JMESPath expression that results in one or more elements to which the validation logic is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#list DataK8SKyvernoIoClusterPolicyV1Manifest#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#list DataK8SKyvernoIoClusterPolicyV1Manifest#list}
   */
   readonly list?: string;
   /**
   * Pattern specifies an overlay-style pattern used to check resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pattern DataK8SKyvernoIoClusterPolicyV1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pattern DataK8SKyvernoIoClusterPolicyV1Manifest#pattern}
   */
   readonly pattern?: { [key: string]: string };
   /**
   * AnyAllConditions are used to determine if a policy rule should be applied by evaluating a set of conditions. The declaration can contain nested 'any' or 'all' statements. See: https://kyverno.io/docs/writing-policies/preconditions/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
   */
   readonly preconditions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeachPreconditions;
 }
@@ -25285,19 +25285,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -25451,19 +25451,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -25617,25 +25617,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * Cert is an optional PEM-encoded public certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert DataK8SKyvernoIoClusterPolicyV1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert DataK8SKyvernoIoClusterPolicyV1Manifest#cert}
   */
   readonly cert?: string;
   /**
   * CertChain is an optional PEM encoded set of certificates used to verify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#cert_chain}
   */
   readonly certChain?: string;
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesCertificatesCtlog;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesCertificatesRekor;
 }
@@ -25818,19 +25818,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -25984,19 +25984,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -26150,49 +26150,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * AdditionalExtensions are certificate-extensions used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#additional_extensions DataK8SKyvernoIoClusterPolicyV1Manifest#additional_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#additional_extensions DataK8SKyvernoIoClusterPolicyV1Manifest#additional_extensions}
   */
   readonly additionalExtensions?: { [key: string]: string };
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesKeylessCtlog;
   /**
   * Issuer is the certificate issuer used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer DataK8SKyvernoIoClusterPolicyV1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer DataK8SKyvernoIoClusterPolicyV1Manifest#issuer}
   */
   readonly issuer?: string;
   /**
   * IssuerRegExp is the regular expression to match certificate issuer used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#issuer_reg_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#issuer_reg_exp}
   */
   readonly issuerRegExp?: string;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesKeylessRekor;
   /**
   * Roots is an optional set of PEM encoded trusted root certificates. If not provided, the system roots are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roots DataK8SKyvernoIoClusterPolicyV1Manifest#roots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roots DataK8SKyvernoIoClusterPolicyV1Manifest#roots}
   */
   readonly roots?: string;
   /**
   * Subject is the verified identity used for keyless signing, for example the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject DataK8SKyvernoIoClusterPolicyV1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject DataK8SKyvernoIoClusterPolicyV1Manifest#subject}
   */
   readonly subject?: string;
   /**
   * SubjectRegExp is the regular expression to match identity used for keyless signing, for example the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#subject_reg_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#subject_reg_exp}
   */
   readonly subjectRegExp?: string;
 }
@@ -26491,19 +26491,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -26657,19 +26657,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -26823,13 +26823,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * Name of the secret. The provided secret must contain a key named cosign.pub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace name where the Secret exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -26948,37 +26948,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesKeysCtlog;
   /**
   * KMS provides the URI to the public key stored in a Key Management System. See: https://github.com/sigstore/cosign/blob/main/KMS.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kms DataK8SKyvernoIoClusterPolicyV1Manifest#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kms DataK8SKyvernoIoClusterPolicyV1Manifest#kms}
   */
   readonly kms?: string;
   /**
   * Keys is a set of X.509 public keys used to verify image signatures. The keys can be directly specified or can be a variable reference to a key specified in a ConfigMap (see https://kyverno.io/docs/writing-policies/variables/), or reference a standard Kubernetes Secret elsewhere in the cluster by specifying it in the format 'k8s://<namespace>/<secret_name>'. The named Secret must specify a key 'cosign.pub' containing the public key used for verification, (see https://github.com/sigstore/cosign/blob/main/KMS.md#kubernetes-secret). When multiple keys are specified each key is processed as a separate staticKey entry (.attestors[*].entries.keys) within the set of attestors and the count is applied across the keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#public_keys DataK8SKyvernoIoClusterPolicyV1Manifest#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#public_keys DataK8SKyvernoIoClusterPolicyV1Manifest#public_keys}
   */
   readonly publicKeys?: string;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesKeysRekor;
   /**
   * Reference to a Secret resource that contains a public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secret DataK8SKyvernoIoClusterPolicyV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secret DataK8SKyvernoIoClusterPolicyV1Manifest#secret}
   */
   readonly secret?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesKeysSecret;
   /**
   * Deprecated. Use attestor.signatureAlgorithm instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
 }

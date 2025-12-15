@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#metadata DataK8SOperatorTigeraIoAuthenticationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#metadata DataK8SOperatorTigeraIoAuthenticationV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoAuthenticationV1ManifestMetadata;
   /**
   * AuthenticationSpec defines the desired state of Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#spec DataK8SOperatorTigeraIoAuthenticationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#spec DataK8SOperatorTigeraIoAuthenticationV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#annotations DataK8SOperatorTigeraIoAuthenticationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#annotations DataK8SOperatorTigeraIoAuthenticationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#labels DataK8SOperatorTigeraIoAuthenticationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#labels DataK8SOperatorTigeraIoAuthenticationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -302,19 +302,19 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#claims DataK8SOperatorTigeraIoAuthenticationV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#claims DataK8SOperatorTigeraIoAuthenticationV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#limits DataK8SOperatorTigeraIoAuthenticationV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#limits DataK8SOperatorTigeraIoAuthenticationV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#requests DataK8SOperatorTigeraIoAuthenticationV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#requests DataK8SOperatorTigeraIoAuthenticationV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -468,13 +468,13 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Name is an enum which identifies the Dex Deployment container by name. Supported values are: tigera-dex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Dex Deployment container's resources. If omitted, the Dex Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#resources DataK8SOperatorTigeraIoAuthenticationV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#resources DataK8SOperatorTigeraIoAuthenticationV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpecTemplateSpecContainersResources;
 }
@@ -618,7 +618,7 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -733,19 +733,19 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#claims DataK8SOperatorTigeraIoAuthenticationV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#claims DataK8SOperatorTigeraIoAuthenticationV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#limits DataK8SOperatorTigeraIoAuthenticationV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#limits DataK8SOperatorTigeraIoAuthenticationV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#requests DataK8SOperatorTigeraIoAuthenticationV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#requests DataK8SOperatorTigeraIoAuthenticationV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -899,13 +899,13 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Name is an enum which identifies the Dex Deployment init container by name. Supported values are: tigera-dex-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name DataK8SOperatorTigeraIoAuthenticationV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Dex Deployment init container's resources. If omitted, the Dex Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#resources DataK8SOperatorTigeraIoAuthenticationV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#resources DataK8SOperatorTigeraIoAuthenticationV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -1049,13 +1049,13 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Containers is a list of Dex containers. If specified, this overrides the specified Dex Deployment containers. If omitted, the Dex Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#containers DataK8SOperatorTigeraIoAuthenticationV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#containers DataK8SOperatorTigeraIoAuthenticationV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of Dex init containers. If specified, this overrides the specified Dex Deployment init containers. If omitted, the Dex Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#init_containers DataK8SOperatorTigeraIoAuthenticationV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#init_containers DataK8SOperatorTigeraIoAuthenticationV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -1180,7 +1180,7 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Spec is the Dex Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#spec DataK8SOperatorTigeraIoAuthenticationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#spec DataK8SOperatorTigeraIoAuthenticationV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpecTemplateSpec;
 }
@@ -1276,7 +1276,7 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Template describes the Dex Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#template DataK8SOperatorTigeraIoAuthenticationV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#template DataK8SOperatorTigeraIoAuthenticationV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpecTemplate;
 }
@@ -1372,7 +1372,7 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymen
   /**
   * Spec is the specification of the Dex Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#spec DataK8SOperatorTigeraIoAuthenticationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#spec DataK8SOperatorTigeraIoAuthenticationV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeploymentSpec;
 }
@@ -1468,13 +1468,13 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecLdapGroupSea
   /**
   * The attribute of a group that links it to a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#group_attribute DataK8SOperatorTigeraIoAuthenticationV1Manifest#group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#group_attribute DataK8SOperatorTigeraIoAuthenticationV1Manifest#group_attribute}
   */
   readonly groupAttribute: string;
   /**
   * The attribute of a user that links it to a group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#user_attribute DataK8SOperatorTigeraIoAuthenticationV1Manifest#user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#user_attribute DataK8SOperatorTigeraIoAuthenticationV1Manifest#user_attribute}
   */
   readonly userAttribute: string;
 }
@@ -1615,25 +1615,25 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecLdapGroupSea
   /**
   * BaseDN to start the search from. For example 'cn=groups,dc=example,dc=com'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#base_dn DataK8SOperatorTigeraIoAuthenticationV1Manifest#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#base_dn DataK8SOperatorTigeraIoAuthenticationV1Manifest#base_dn}
   */
   readonly baseDn: string;
   /**
   * Optional filter to apply when searching the directory. For example '(objectClass=posixGroup)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#filter DataK8SOperatorTigeraIoAuthenticationV1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#filter DataK8SOperatorTigeraIoAuthenticationV1Manifest#filter}
   */
   readonly filter?: string;
   /**
   * The attribute of the group that represents its name. This attribute can be used to apply RBAC to a user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name_attribute DataK8SOperatorTigeraIoAuthenticationV1Manifest#name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name_attribute DataK8SOperatorTigeraIoAuthenticationV1Manifest#name_attribute}
   */
   readonly nameAttribute: string;
   /**
   * Following list contains field pairs that are used to match a user to a group. It adds an additional requirement to the filter that an attribute in the group must match the user's attribute value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#user_matchers DataK8SOperatorTigeraIoAuthenticationV1Manifest#user_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#user_matchers DataK8SOperatorTigeraIoAuthenticationV1Manifest#user_matchers}
   */
   readonly userMatchers: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecLdapGroupSearchUserMatchers[] | cdktf.IResolvable;
 }
@@ -1807,19 +1807,19 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecLdapUserSear
   /**
   * BaseDN to start the search from. For example 'cn=users,dc=example,dc=com'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#base_dn DataK8SOperatorTigeraIoAuthenticationV1Manifest#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#base_dn DataK8SOperatorTigeraIoAuthenticationV1Manifest#base_dn}
   */
   readonly baseDn: string;
   /**
   * Optional filter to apply when searching the directory. For example '(objectClass=person)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#filter DataK8SOperatorTigeraIoAuthenticationV1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#filter DataK8SOperatorTigeraIoAuthenticationV1Manifest#filter}
   */
   readonly filter?: string;
   /**
   * A mapping of the attribute that is used as the username. This attribute can be used to apply RBAC to a user. Default: uid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name_attribute DataK8SOperatorTigeraIoAuthenticationV1Manifest#name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#name_attribute DataK8SOperatorTigeraIoAuthenticationV1Manifest#name_attribute}
   */
   readonly nameAttribute?: string;
 }
@@ -1970,25 +1970,25 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecLdap {
   /**
   * Group search configuration to find the groups that a user is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#group_search DataK8SOperatorTigeraIoAuthenticationV1Manifest#group_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#group_search DataK8SOperatorTigeraIoAuthenticationV1Manifest#group_search}
   */
   readonly groupSearch?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecLdapGroupSearch;
   /**
   * The host and port of the LDAP server. Example: ad.example.com:636
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#host DataK8SOperatorTigeraIoAuthenticationV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#host DataK8SOperatorTigeraIoAuthenticationV1Manifest#host}
   */
   readonly host: string;
   /**
   * StartTLS whether to enable the startTLS feature for establishing TLS on an existing LDAP session. If true, the ldap:// protocol is used and then issues a StartTLS command, otherwise, connections will use the ldaps:// protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#start_tls DataK8SOperatorTigeraIoAuthenticationV1Manifest#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#start_tls DataK8SOperatorTigeraIoAuthenticationV1Manifest#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
   * User entry search configuration to match the credentials with a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#user_search DataK8SOperatorTigeraIoAuthenticationV1Manifest#user_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#user_search DataK8SOperatorTigeraIoAuthenticationV1Manifest#user_search}
   */
   readonly userSearch: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecLdapUserSearch;
 }
@@ -2165,55 +2165,55 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecOidc {
   /**
   * Some providers do not include the claim 'email_verified' when there is no verification in the user enrollment process or if they are acting as a proxy for another identity provider. By default those tokens are deemed invalid. To skip this check, set the value to 'InsecureSkip'. Default: Verify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#email_verification DataK8SOperatorTigeraIoAuthenticationV1Manifest#email_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#email_verification DataK8SOperatorTigeraIoAuthenticationV1Manifest#email_verification}
   */
   readonly emailVerification?: string;
   /**
   * GroupsClaim specifies which claim to use from the OIDC provider as the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#groups_claim DataK8SOperatorTigeraIoAuthenticationV1Manifest#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#groups_claim DataK8SOperatorTigeraIoAuthenticationV1Manifest#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
   * Deprecated. Please use Authentication.Spec.GroupsPrefix instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#groups_prefix DataK8SOperatorTigeraIoAuthenticationV1Manifest#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#groups_prefix DataK8SOperatorTigeraIoAuthenticationV1Manifest#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
   * IssuerURL is the URL to the OIDC provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#issuer_url DataK8SOperatorTigeraIoAuthenticationV1Manifest#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#issuer_url DataK8SOperatorTigeraIoAuthenticationV1Manifest#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * PromptTypes is an optional list of string values that specifies whether the identity provider prompts the end user for re-authentication and consent. See the RFC for more information on prompt types: https://openid.net/specs/openid-connect-core-1_0.html. Default: 'Consent'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#prompt_types DataK8SOperatorTigeraIoAuthenticationV1Manifest#prompt_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#prompt_types DataK8SOperatorTigeraIoAuthenticationV1Manifest#prompt_types}
   */
   readonly promptTypes?: string[];
   /**
   * RequestedScopes is a list of scopes to request from the OIDC provider. If not provided, the following scopes are requested: ['openid', 'email', 'profile', 'groups', 'offline_access'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#requested_scopes DataK8SOperatorTigeraIoAuthenticationV1Manifest#requested_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#requested_scopes DataK8SOperatorTigeraIoAuthenticationV1Manifest#requested_scopes}
   */
   readonly requestedScopes?: string[];
   /**
   * Default: 'Dex'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#type DataK8SOperatorTigeraIoAuthenticationV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#type DataK8SOperatorTigeraIoAuthenticationV1Manifest#type}
   */
   readonly type?: string;
   /**
   * UsernameClaim specifies which claim to use from the OIDC provider as the username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#username_claim DataK8SOperatorTigeraIoAuthenticationV1Manifest#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#username_claim DataK8SOperatorTigeraIoAuthenticationV1Manifest#username_claim}
   */
   readonly usernameClaim: string;
   /**
   * Deprecated. Please use Authentication.Spec.UsernamePrefix instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#username_prefix DataK8SOperatorTigeraIoAuthenticationV1Manifest#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#username_prefix DataK8SOperatorTigeraIoAuthenticationV1Manifest#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -2535,7 +2535,7 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecOpenshift {
   /**
   * IssuerURL is the URL to the Openshift OAuth provider. Ex.: https://api.my-ocp-domain.com:6443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#issuer_url DataK8SOperatorTigeraIoAuthenticationV1Manifest#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#issuer_url DataK8SOperatorTigeraIoAuthenticationV1Manifest#issuer_url}
   */
   readonly issuerUrl: string;
 }
@@ -2628,43 +2628,43 @@ export interface DataK8SOperatorTigeraIoAuthenticationV1ManifestSpec {
   /**
   * DexDeployment configures the Dex Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#dex_deployment DataK8SOperatorTigeraIoAuthenticationV1Manifest#dex_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#dex_deployment DataK8SOperatorTigeraIoAuthenticationV1Manifest#dex_deployment}
   */
   readonly dexDeployment?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecDexDeployment;
   /**
   * If specified, GroupsPrefix is prepended to each group obtained from the identity provider. Note that Kibana does not support a groups prefix, so this prefix is removed from Kubernetes Groups when translating log access ClusterRoleBindings into Elastic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#groups_prefix DataK8SOperatorTigeraIoAuthenticationV1Manifest#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#groups_prefix DataK8SOperatorTigeraIoAuthenticationV1Manifest#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
   * LDAP contains the configuration needed to setup LDAP authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#ldap DataK8SOperatorTigeraIoAuthenticationV1Manifest#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#ldap DataK8SOperatorTigeraIoAuthenticationV1Manifest#ldap}
   */
   readonly ldap?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecLdap;
   /**
   * ManagerDomain is the domain name of the Manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#manager_domain DataK8SOperatorTigeraIoAuthenticationV1Manifest#manager_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#manager_domain DataK8SOperatorTigeraIoAuthenticationV1Manifest#manager_domain}
   */
   readonly managerDomain?: string;
   /**
   * OIDC contains the configuration needed to setup OIDC authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#oidc DataK8SOperatorTigeraIoAuthenticationV1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#oidc DataK8SOperatorTigeraIoAuthenticationV1Manifest#oidc}
   */
   readonly oidc?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecOidc;
   /**
   * Openshift contains the configuration needed to setup Openshift OAuth authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#openshift DataK8SOperatorTigeraIoAuthenticationV1Manifest#openshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#openshift DataK8SOperatorTigeraIoAuthenticationV1Manifest#openshift}
   */
   readonly openshift?: DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecOpenshift;
   /**
   * If specified, UsernamePrefix is prepended to each user obtained from the identity provider. Note that Kibana does not support a user prefix, so this prefix is removed from Kubernetes User when translating log access ClusterRoleBindings into Elastic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#username_prefix DataK8SOperatorTigeraIoAuthenticationV1Manifest#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#username_prefix DataK8SOperatorTigeraIoAuthenticationV1Manifest#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -2932,7 +2932,7 @@ export class DataK8SOperatorTigeraIoAuthenticationV1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest k8s_operator_tigera_io_authentication_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest k8s_operator_tigera_io_authentication_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoAuthenticationV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2948,7 +2948,7 @@ export class DataK8SOperatorTigeraIoAuthenticationV1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoAuthenticationV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoAuthenticationV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoAuthenticationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoAuthenticationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoAuthenticationV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2960,7 +2960,7 @@ export class DataK8SOperatorTigeraIoAuthenticationV1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_authentication_v1_manifest k8s_operator_tigera_io_authentication_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_authentication_v1_manifest k8s_operator_tigera_io_authentication_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2971,8 +2971,8 @@ export class DataK8SOperatorTigeraIoAuthenticationV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_operator_tigera_io_authentication_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

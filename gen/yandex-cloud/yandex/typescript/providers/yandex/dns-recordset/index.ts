@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DnsRecordsetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The string data for the records in this record set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#data DnsRecordset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#data DnsRecordset#data}
   */
   readonly data: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#id DnsRecordset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#id DnsRecordset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,45 +23,45 @@ export interface DnsRecordsetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The DNS name this record set will apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#name DnsRecordset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#name DnsRecordset#name}
   */
   readonly name: string;
   /**
   * The time-to-live of this record set (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#ttl DnsRecordset#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#ttl DnsRecordset#ttl}
   */
   readonly ttl: number;
   /**
   * The DNS record set type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#type DnsRecordset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#type DnsRecordset#type}
   */
   readonly type: string;
   /**
   * The id of the zone in which this record set will reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#zone_id DnsRecordset#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#zone_id DnsRecordset#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#timeouts DnsRecordset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#timeouts DnsRecordset#timeouts}
   */
   readonly timeouts?: DnsRecordsetTimeouts;
 }
 export interface DnsRecordsetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#create DnsRecordset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#create DnsRecordset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#delete DnsRecordset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#delete DnsRecordset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#update DnsRecordset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#update DnsRecordset#update}
   */
   readonly update?: string;
 }
@@ -213,7 +213,7 @@ export class DnsRecordsetTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset yandex_dns_recordset}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset yandex_dns_recordset}
 */
 export class DnsRecordset extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class DnsRecordset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecordset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecordset to import
-  * @param importFromId The id of the existing DnsRecordset that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecordset that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecordset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DnsRecordset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/dns_recordset yandex_dns_recordset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/dns_recordset yandex_dns_recordset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DnsRecordset extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_dns_recordset',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

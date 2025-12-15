@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SecurityNatDestinationPoolConfig extends cdktf.TerraformMetaArg
   /**
   * CIDR address to destination nat pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool#address SecurityNatDestinationPool#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool#address SecurityNatDestinationPool#address}
   */
   readonly address: string;
   /**
   * Port change too with destination nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool#address_port SecurityNatDestinationPool#address_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool#address_port SecurityNatDestinationPool#address_port}
   */
   readonly addressPort?: number;
   /**
   * CIDR to define range of address to destination nat pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool#address_to SecurityNatDestinationPool#address_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool#address_to SecurityNatDestinationPool#address_to}
   */
   readonly addressTo?: string;
   /**
   * Text description of pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool#description SecurityNatDestinationPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool#description SecurityNatDestinationPool#description}
   */
   readonly description?: string;
   /**
   * Pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool#name SecurityNatDestinationPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool#name SecurityNatDestinationPool#name}
   */
   readonly name: string;
   /**
   * Name of routing instance to switch instance with nat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool#routing_instance SecurityNatDestinationPool#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool#routing_instance SecurityNatDestinationPool#routing_instance}
   */
   readonly routingInstance?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool junos_security_nat_destination_pool}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool junos_security_nat_destination_pool}
 */
 export class SecurityNatDestinationPool extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SecurityNatDestinationPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityNatDestinationPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityNatDestinationPool to import
-  * @param importFromId The id of the existing SecurityNatDestinationPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityNatDestinationPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityNatDestinationPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SecurityNatDestinationPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_nat_destination_pool junos_security_nat_destination_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_nat_destination_pool junos_security_nat_destination_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SecurityNatDestinationPool extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_nat_destination_pool',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

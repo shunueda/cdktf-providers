@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AccessAddressAssignmentPoolConfig extends cdktf.TerraformMetaAr
   /**
   * Notify client of pool active drain mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#active_drain AccessAddressAssignmentPool#active_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#active_drain AccessAddressAssignmentPool#active_drain}
   */
   readonly activeDrain?: boolean | cdktf.IResolvable;
   /**
   * Place pool in passive drain mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#hold_down AccessAddressAssignmentPool#hold_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#hold_down AccessAddressAssignmentPool#hold_down}
   */
   readonly holdDown?: boolean | cdktf.IResolvable;
   /**
   * Address pool link name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#link AccessAddressAssignmentPool#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#link AccessAddressAssignmentPool#link}
   */
   readonly link?: string;
   /**
   * Address pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
   */
   readonly name: string;
   /**
   * Routing instance for pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#routing_instance AccessAddressAssignmentPool#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#routing_instance AccessAddressAssignmentPool#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * family block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#family AccessAddressAssignmentPool#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#family AccessAddressAssignmentPool#family}
   */
   readonly family?: AccessAddressAssignmentPoolFamily;
 }
@@ -48,13 +48,13 @@ export interface AccessAddressAssignmentPoolFamilyDhcpAttributesOptionMatch82Cir
   /**
   * Range name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#range AccessAddressAssignmentPool#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#range AccessAddressAssignmentPool#range}
   */
   readonly range: string;
   /**
   * Match value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#value AccessAddressAssignmentPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#value AccessAddressAssignmentPool#value}
   */
   readonly value: string;
 }
@@ -195,13 +195,13 @@ export interface AccessAddressAssignmentPoolFamilyDhcpAttributesOptionMatch82Rem
   /**
   * Range name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#range AccessAddressAssignmentPool#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#range AccessAddressAssignmentPool#range}
   */
   readonly range: string;
   /**
   * Match value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#value AccessAddressAssignmentPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#value AccessAddressAssignmentPool#value}
   */
   readonly value: string;
 }
@@ -342,193 +342,193 @@ export interface AccessAddressAssignmentPoolFamilyDhcpAttributes {
   /**
   * Boot filename advertised to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#boot_file AccessAddressAssignmentPool#boot_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#boot_file AccessAddressAssignmentPool#boot_file}
   */
   readonly bootFile?: string;
   /**
   * Boot server advertised to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#boot_server AccessAddressAssignmentPool#boot_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#boot_server AccessAddressAssignmentPool#boot_server}
   */
   readonly bootServer?: string;
   /**
   * IPv6 domain name servers available to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#dns_server AccessAddressAssignmentPool#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#dns_server AccessAddressAssignmentPool#dns_server}
   */
   readonly dnsServer?: string[];
   /**
   * Domain name advertised to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#domain_name AccessAddressAssignmentPool#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#domain_name AccessAddressAssignmentPool#domain_name}
   */
   readonly domainName?: string;
   /**
   * Length of IPv6 prefix to be excluded from delegated prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#exclude_prefix_len AccessAddressAssignmentPool#exclude_prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#exclude_prefix_len AccessAddressAssignmentPool#exclude_prefix_len}
   */
   readonly excludePrefixLen?: number;
   /**
   * Grace period for leases (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#grace_period AccessAddressAssignmentPool#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#grace_period AccessAddressAssignmentPool#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * Maximum lease time advertised to clients (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#maximum_lease_time AccessAddressAssignmentPool#maximum_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#maximum_lease_time AccessAddressAssignmentPool#maximum_lease_time}
   */
   readonly maximumLeaseTime?: number;
   /**
   * Lease time can be infinite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#maximum_lease_time_infinite AccessAddressAssignmentPool#maximum_lease_time_infinite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#maximum_lease_time_infinite AccessAddressAssignmentPool#maximum_lease_time_infinite}
   */
   readonly maximumLeaseTimeInfinite?: boolean | cdktf.IResolvable;
   /**
   * IPv4 domain name servers available to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#name_server AccessAddressAssignmentPool#name_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#name_server AccessAddressAssignmentPool#name_server}
   */
   readonly nameServer?: string[];
   /**
   * Type of NETBIOS node advertised to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#netbios_node_type AccessAddressAssignmentPool#netbios_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#netbios_node_type AccessAddressAssignmentPool#netbios_node_type}
   */
   readonly netbiosNodeType?: string;
   /**
   * Next server that clients need to contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#next_server AccessAddressAssignmentPool#next_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#next_server AccessAddressAssignmentPool#next_server}
   */
   readonly nextServer?: string;
   /**
   * DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#option AccessAddressAssignmentPool#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#option AccessAddressAssignmentPool#option}
   */
   readonly option?: string[];
   /**
   * Preferred lifetime advertised to clients (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#preferred_lifetime AccessAddressAssignmentPool#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#preferred_lifetime AccessAddressAssignmentPool#preferred_lifetime}
   */
   readonly preferredLifetime?: number;
   /**
   * Lease time can be infinite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#preferred_lifetime_infinite AccessAddressAssignmentPool#preferred_lifetime_infinite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#preferred_lifetime_infinite AccessAddressAssignmentPool#preferred_lifetime_infinite}
   */
   readonly preferredLifetimeInfinite?: boolean | cdktf.IResolvable;
   /**
   * PPP interface name for propagating DNS/WINS settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#propagate_ppp_settings AccessAddressAssignmentPool#propagate_ppp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#propagate_ppp_settings AccessAddressAssignmentPool#propagate_ppp_settings}
   */
   readonly propagatePppSettings?: string[];
   /**
   * Interface name for propagating TCP/IP Settings to pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#propagate_settings AccessAddressAssignmentPool#propagate_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#propagate_settings AccessAddressAssignmentPool#propagate_settings}
   */
   readonly propagateSettings?: string;
   /**
   * Routers advertised to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#router AccessAddressAssignmentPool#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#router AccessAddressAssignmentPool#router}
   */
   readonly router?: string[];
   /**
   * Server Identifier - IP address value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#server_identifier AccessAddressAssignmentPool#server_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#server_identifier AccessAddressAssignmentPool#server_identifier}
   */
   readonly serverIdentifier?: string;
   /**
   * SIP Servers list of IPv6 addresses available to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#sip_server_inet6_address AccessAddressAssignmentPool#sip_server_inet6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#sip_server_inet6_address AccessAddressAssignmentPool#sip_server_inet6_address}
   */
   readonly sipServerInet6Address?: string[];
   /**
   * SIP server domain name available to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#sip_server_inet6_domain_name AccessAddressAssignmentPool#sip_server_inet6_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#sip_server_inet6_domain_name AccessAddressAssignmentPool#sip_server_inet6_domain_name}
   */
   readonly sipServerInet6DomainName?: string;
   /**
   * SIP servers list of IPv4 addresses available to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#sip_server_inet_address AccessAddressAssignmentPool#sip_server_inet_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#sip_server_inet_address AccessAddressAssignmentPool#sip_server_inet_address}
   */
   readonly sipServerInetAddress?: string[];
   /**
   * SIP server domain name available to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#sip_server_inet_domain_name AccessAddressAssignmentPool#sip_server_inet_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#sip_server_inet_domain_name AccessAddressAssignmentPool#sip_server_inet_domain_name}
   */
   readonly sipServerInetDomainName?: string[];
   /**
   * T1 time as percentage of preferred lifetime or max lease (percent)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#t1_percentage AccessAddressAssignmentPool#t1_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#t1_percentage AccessAddressAssignmentPool#t1_percentage}
   */
   readonly t1Percentage?: number;
   /**
   * T1 renewal time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#t1_renewal_time AccessAddressAssignmentPool#t1_renewal_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#t1_renewal_time AccessAddressAssignmentPool#t1_renewal_time}
   */
   readonly t1RenewalTime?: number;
   /**
   * T2 time as percentage of preferred lifetime or max lease (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#t2_percentage AccessAddressAssignmentPool#t2_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#t2_percentage AccessAddressAssignmentPool#t2_percentage}
   */
   readonly t2Percentage?: number;
   /**
   * T2 rebinding time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#t2_rebinding_time AccessAddressAssignmentPool#t2_rebinding_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#t2_rebinding_time AccessAddressAssignmentPool#t2_rebinding_time}
   */
   readonly t2RebindingTime?: number;
   /**
   * TFTP server IP address advertised to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#tftp_server AccessAddressAssignmentPool#tftp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#tftp_server AccessAddressAssignmentPool#tftp_server}
   */
   readonly tftpServer?: string;
   /**
   * Valid lifetime advertised to clients (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#valid_lifetime AccessAddressAssignmentPool#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#valid_lifetime AccessAddressAssignmentPool#valid_lifetime}
   */
   readonly validLifetime?: number;
   /**
   * Lease time can be infinite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#valid_lifetime_infinite AccessAddressAssignmentPool#valid_lifetime_infinite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#valid_lifetime_infinite AccessAddressAssignmentPool#valid_lifetime_infinite}
   */
   readonly validLifetimeInfinite?: boolean | cdktf.IResolvable;
   /**
   * WINS name servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#wins_server AccessAddressAssignmentPool#wins_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#wins_server AccessAddressAssignmentPool#wins_server}
   */
   readonly winsServer?: string[];
   /**
   * option_match_82_circuit_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#option_match_82_circuit_id AccessAddressAssignmentPool#option_match_82_circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#option_match_82_circuit_id AccessAddressAssignmentPool#option_match_82_circuit_id}
   */
   readonly optionMatch82CircuitId?: AccessAddressAssignmentPoolFamilyDhcpAttributesOptionMatch82CircuitId[] | cdktf.IResolvable;
   /**
   * option_match_82_remote_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#option_match_82_remote_id AccessAddressAssignmentPool#option_match_82_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#option_match_82_remote_id AccessAddressAssignmentPool#option_match_82_remote_id}
   */
   readonly optionMatch82RemoteId?: AccessAddressAssignmentPoolFamilyDhcpAttributesOptionMatch82RemoteId[] | cdktf.IResolvable;
 }
@@ -1523,19 +1523,19 @@ export interface AccessAddressAssignmentPoolFamilyExcludedRange {
   /**
   * Upper limit of excluded address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#high AccessAddressAssignmentPool#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#high AccessAddressAssignmentPool#high}
   */
   readonly high: string;
   /**
   * Lower limit of excluded address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#low AccessAddressAssignmentPool#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#low AccessAddressAssignmentPool#low}
   */
   readonly low: string;
   /**
   * Range name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
   */
   readonly name: string;
 }
@@ -1702,25 +1702,25 @@ export interface AccessAddressAssignmentPoolFamilyHost {
   /**
   * Hardware address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#hardware_address AccessAddressAssignmentPool#hardware_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#hardware_address AccessAddressAssignmentPool#hardware_address}
   */
   readonly hardwareAddress?: string;
   /**
   * Reserved address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#ip_address AccessAddressAssignmentPool#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#ip_address AccessAddressAssignmentPool#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Hostname for static reservations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
   */
   readonly name: string;
   /**
   * Set subscriber user name as host identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#user_name AccessAddressAssignmentPool#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#user_name AccessAddressAssignmentPool#user_name}
   */
   readonly userName?: boolean | cdktf.IResolvable;
 }
@@ -1919,25 +1919,25 @@ export interface AccessAddressAssignmentPoolFamilyInet6Range {
   /**
   * Upper limit of IPv6 address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#high AccessAddressAssignmentPool#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#high AccessAddressAssignmentPool#high}
   */
   readonly high?: string;
   /**
   * Lower limit of IPv6 address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#low AccessAddressAssignmentPool#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#low AccessAddressAssignmentPool#low}
   */
   readonly low?: string;
   /**
   * Range name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
   */
   readonly name: string;
   /**
   * IPv6 delegated prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#prefix_length AccessAddressAssignmentPool#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#prefix_length AccessAddressAssignmentPool#prefix_length}
   */
   readonly prefixLength?: number;
 }
@@ -2139,19 +2139,19 @@ export interface AccessAddressAssignmentPoolFamilyInetRange {
   /**
   * Upper limit of address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#high AccessAddressAssignmentPool#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#high AccessAddressAssignmentPool#high}
   */
   readonly high: string;
   /**
   * Lower limit of address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#low AccessAddressAssignmentPool#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#low AccessAddressAssignmentPool#low}
   */
   readonly low: string;
   /**
   * Range name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#name AccessAddressAssignmentPool#name}
   */
   readonly name: string;
 }
@@ -2318,73 +2318,73 @@ export interface AccessAddressAssignmentPoolFamily {
   /**
   * Excluded Addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#excluded_address AccessAddressAssignmentPool#excluded_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#excluded_address AccessAddressAssignmentPool#excluded_address}
   */
   readonly excludedAddress?: string[];
   /**
   * Network address of pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#network AccessAddressAssignmentPool#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#network AccessAddressAssignmentPool#network}
   */
   readonly network: string;
   /**
   * Type of family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#type AccessAddressAssignmentPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#type AccessAddressAssignmentPool#type}
   */
   readonly type: string;
   /**
   * Specify the primary-dns IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#xauth_attributes_primary_dns AccessAddressAssignmentPool#xauth_attributes_primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#xauth_attributes_primary_dns AccessAddressAssignmentPool#xauth_attributes_primary_dns}
   */
   readonly xauthAttributesPrimaryDns?: string;
   /**
   * Specify the primary-wins IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#xauth_attributes_primary_wins AccessAddressAssignmentPool#xauth_attributes_primary_wins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#xauth_attributes_primary_wins AccessAddressAssignmentPool#xauth_attributes_primary_wins}
   */
   readonly xauthAttributesPrimaryWins?: string;
   /**
   * Specify the secondary-dns IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#xauth_attributes_secondary_dns AccessAddressAssignmentPool#xauth_attributes_secondary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#xauth_attributes_secondary_dns AccessAddressAssignmentPool#xauth_attributes_secondary_dns}
   */
   readonly xauthAttributesSecondaryDns?: string;
   /**
   * Specify the secondary-wins IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#xauth_attributes_secondary_wins AccessAddressAssignmentPool#xauth_attributes_secondary_wins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#xauth_attributes_secondary_wins AccessAddressAssignmentPool#xauth_attributes_secondary_wins}
   */
   readonly xauthAttributesSecondaryWins?: string;
   /**
   * dhcp_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#dhcp_attributes AccessAddressAssignmentPool#dhcp_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#dhcp_attributes AccessAddressAssignmentPool#dhcp_attributes}
   */
   readonly dhcpAttributes?: AccessAddressAssignmentPoolFamilyDhcpAttributes;
   /**
   * excluded_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#excluded_range AccessAddressAssignmentPool#excluded_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#excluded_range AccessAddressAssignmentPool#excluded_range}
   */
   readonly excludedRange?: AccessAddressAssignmentPoolFamilyExcludedRange[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#host AccessAddressAssignmentPool#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#host AccessAddressAssignmentPool#host}
   */
   readonly host?: AccessAddressAssignmentPoolFamilyHost[] | cdktf.IResolvable;
   /**
   * inet6_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#inet6_range AccessAddressAssignmentPool#inet6_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#inet6_range AccessAddressAssignmentPool#inet6_range}
   */
   readonly inet6Range?: AccessAddressAssignmentPoolFamilyInet6Range[] | cdktf.IResolvable;
   /**
   * inet_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#inet_range AccessAddressAssignmentPool#inet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#inet_range AccessAddressAssignmentPool#inet_range}
   */
   readonly inetRange?: AccessAddressAssignmentPoolFamilyInetRange[] | cdktf.IResolvable;
 }
@@ -2791,7 +2791,7 @@ export class AccessAddressAssignmentPoolFamilyOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool junos_access_address_assignment_pool}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool junos_access_address_assignment_pool}
 */
 export class AccessAddressAssignmentPool extends cdktf.TerraformResource {
 
@@ -2807,7 +2807,7 @@ export class AccessAddressAssignmentPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessAddressAssignmentPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessAddressAssignmentPool to import
-  * @param importFromId The id of the existing AccessAddressAssignmentPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessAddressAssignmentPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessAddressAssignmentPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2819,7 +2819,7 @@ export class AccessAddressAssignmentPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/access_address_assignment_pool junos_access_address_assignment_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/access_address_assignment_pool junos_access_address_assignment_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2830,8 +2830,8 @@ export class AccessAddressAssignmentPool extends cdktf.TerraformResource {
       terraformResourceType: 'junos_access_address_assignment_pool',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

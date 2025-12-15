@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#metadata DataK8SQuayRedhatComQuayRegistryV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#metadata DataK8SQuayRedhatComQuayRegistryV1Manifest#metadata}
   */
   readonly metadata: DataK8SQuayRedhatComQuayRegistryV1ManifestMetadata;
   /**
   * QuayRegistrySpec defines the desired state of QuayRegistry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#spec DataK8SQuayRedhatComQuayRegistryV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#spec DataK8SQuayRedhatComQuayRegistryV1Manifest#spec}
   */
   readonly spec?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#annotations DataK8SQuayRedhatComQuayRegistryV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#annotations DataK8SQuayRedhatComQuayRegistryV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#labels DataK8SQuayRedhatComQuayRegistryV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#labels DataK8SQuayRedhatComQuayRegistryV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#name DataK8SQuayRedhatComQuayRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#name DataK8SQuayRedhatComQuayRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_fields DataK8SQuayRedhatComQuayRegistryV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_fields DataK8SQuayRedhatComQuayRegistryV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#preference DataK8SQuayRedhatComQuayRegistryV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#preference DataK8SQuayRedhatComQuayRegistryV1Manifest#preference}
   */
   readonly preference: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#weight DataK8SQuayRedhatComQuayRegistryV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#weight DataK8SQuayRedhatComQuayRegistryV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_fields DataK8SQuayRedhatComQuayRegistryV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_fields DataK8SQuayRedhatComQuayRegistryV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#node_selector_terms DataK8SQuayRedhatComQuayRegistryV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#node_selector_terms DataK8SQuayRedhatComQuayRegistryV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,25 +2228,25 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#label_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#label_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespaces DataK8SQuayRedhatComQuayRegistryV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespaces DataK8SQuayRedhatComQuayRegistryV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#topology_key DataK8SQuayRedhatComQuayRegistryV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#topology_key DataK8SQuayRedhatComQuayRegistryV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2426,13 +2426,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#pod_affinity_term DataK8SQuayRedhatComQuayRegistryV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#pod_affinity_term DataK8SQuayRedhatComQuayRegistryV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#weight DataK8SQuayRedhatComQuayRegistryV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#weight DataK8SQuayRedhatComQuayRegistryV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2573,19 +2573,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2755,13 +2755,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2886,19 +2886,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3068,13 +3068,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3199,25 +3199,25 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#label_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#label_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespaces DataK8SQuayRedhatComQuayRegistryV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespaces DataK8SQuayRedhatComQuayRegistryV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#topology_key DataK8SQuayRedhatComQuayRegistryV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#topology_key DataK8SQuayRedhatComQuayRegistryV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3419,13 +3419,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3550,19 +3550,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3732,13 +3732,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3863,19 +3863,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4045,13 +4045,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4176,25 +4176,25 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#label_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#label_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespaces DataK8SQuayRedhatComQuayRegistryV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespaces DataK8SQuayRedhatComQuayRegistryV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#topology_key DataK8SQuayRedhatComQuayRegistryV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#topology_key DataK8SQuayRedhatComQuayRegistryV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4374,13 +4374,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#pod_affinity_term DataK8SQuayRedhatComQuayRegistryV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#pod_affinity_term DataK8SQuayRedhatComQuayRegistryV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#weight DataK8SQuayRedhatComQuayRegistryV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#weight DataK8SQuayRedhatComQuayRegistryV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4521,19 +4521,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4703,13 +4703,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4834,19 +4834,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#operator DataK8SQuayRedhatComQuayRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#values DataK8SQuayRedhatComQuayRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5016,13 +5016,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_expressions DataK8SQuayRedhatComQuayRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#match_labels DataK8SQuayRedhatComQuayRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5147,25 +5147,25 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#label_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#label_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespace_selector DataK8SQuayRedhatComQuayRegistryV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespaces DataK8SQuayRedhatComQuayRegistryV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#namespaces DataK8SQuayRedhatComQuayRegistryV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#topology_key DataK8SQuayRedhatComQuayRegistryV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#topology_key DataK8SQuayRedhatComQuayRegistryV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5367,13 +5367,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SQuayRedhatComQuayRegistryV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5498,19 +5498,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#node_affinity DataK8SQuayRedhatComQuayRegistryV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#node_affinity DataK8SQuayRedhatComQuayRegistryV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#pod_affinity DataK8SQuayRedhatComQuayRegistryV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#pod_affinity DataK8SQuayRedhatComQuayRegistryV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#pod_anti_affinity DataK8SQuayRedhatComQuayRegistryV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#pod_anti_affinity DataK8SQuayRedhatComQuayRegistryV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinityPodAntiAffinity;
 }
@@ -5664,19 +5664,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#name DataK8SQuayRedhatComQuayRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#name DataK8SQuayRedhatComQuayRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#optional DataK8SQuayRedhatComQuayRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#optional DataK8SQuayRedhatComQuayRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5827,13 +5827,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#api_version DataK8SQuayRedhatComQuayRegistryV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#api_version DataK8SQuayRedhatComQuayRegistryV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#field_path DataK8SQuayRedhatComQuayRegistryV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#field_path DataK8SQuayRedhatComQuayRegistryV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -5955,19 +5955,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#container_name DataK8SQuayRedhatComQuayRegistryV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#container_name DataK8SQuayRedhatComQuayRegistryV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#divisor DataK8SQuayRedhatComQuayRegistryV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#divisor DataK8SQuayRedhatComQuayRegistryV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#resource DataK8SQuayRedhatComQuayRegistryV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#resource DataK8SQuayRedhatComQuayRegistryV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6118,19 +6118,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#key DataK8SQuayRedhatComQuayRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#name DataK8SQuayRedhatComQuayRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#name DataK8SQuayRedhatComQuayRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#optional DataK8SQuayRedhatComQuayRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#optional DataK8SQuayRedhatComQuayRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6281,25 +6281,25 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#config_map_key_ref DataK8SQuayRedhatComQuayRegistryV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#config_map_key_ref DataK8SQuayRedhatComQuayRegistryV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#field_ref DataK8SQuayRedhatComQuayRegistryV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#field_ref DataK8SQuayRedhatComQuayRegistryV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#resource_field_ref DataK8SQuayRedhatComQuayRegistryV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#resource_field_ref DataK8SQuayRedhatComQuayRegistryV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#secret_key_ref DataK8SQuayRedhatComQuayRegistryV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#secret_key_ref DataK8SQuayRedhatComQuayRegistryV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesEnvValueFromSecretKeyRef;
 }
@@ -6482,19 +6482,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#name DataK8SQuayRedhatComQuayRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#name DataK8SQuayRedhatComQuayRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#value DataK8SQuayRedhatComQuayRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#value DataK8SQuayRedhatComQuayRegistryV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#value_from DataK8SQuayRedhatComQuayRegistryV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#value_from DataK8SQuayRedhatComQuayRegistryV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesEnvValueFrom;
 }
@@ -6667,13 +6667,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * ResourceList is a set of (resource name, quantity) pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#limits DataK8SQuayRedhatComQuayRegistryV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#limits DataK8SQuayRedhatComQuayRegistryV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * ResourceList is a set of (resource name, quantity) pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#requests DataK8SQuayRedhatComQuayRegistryV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#requests DataK8SQuayRedhatComQuayRegistryV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6798,33 +6798,33 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrid
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#affinity DataK8SQuayRedhatComQuayRegistryV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#affinity DataK8SQuayRedhatComQuayRegistryV1Manifest#affinity}
   */
   readonly affinity?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#annotations DataK8SQuayRedhatComQuayRegistryV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#annotations DataK8SQuayRedhatComQuayRegistryV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#env DataK8SQuayRedhatComQuayRegistryV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#env DataK8SQuayRedhatComQuayRegistryV1Manifest#env}
   */
   readonly env?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#labels DataK8SQuayRedhatComQuayRegistryV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#labels DataK8SQuayRedhatComQuayRegistryV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#replicas DataK8SQuayRedhatComQuayRegistryV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#replicas DataK8SQuayRedhatComQuayRegistryV1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources describes the resource limits and requests for a component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#resources DataK8SQuayRedhatComQuayRegistryV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#resources DataK8SQuayRedhatComQuayRegistryV1Manifest#resources}
   */
   readonly resources?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverridesResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#volume_size DataK8SQuayRedhatComQuayRegistryV1Manifest#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#volume_size DataK8SQuayRedhatComQuayRegistryV1Manifest#volume_size}
   */
   readonly volumeSize?: string;
 }
@@ -7094,19 +7094,19 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponents {
   /**
   * Kind is the unique name of this type of component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#kind DataK8SQuayRedhatComQuayRegistryV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#kind DataK8SQuayRedhatComQuayRegistryV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Managed indicates whether or not the Operator is responsible for the lifecycle of this component. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#managed DataK8SQuayRedhatComQuayRegistryV1Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#managed DataK8SQuayRedhatComQuayRegistryV1Manifest#managed}
   */
   readonly managed: boolean | cdktf.IResolvable;
   /**
   * Overrides holds information regarding component specific configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#overrides DataK8SQuayRedhatComQuayRegistryV1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#overrides DataK8SQuayRedhatComQuayRegistryV1Manifest#overrides}
   */
   readonly overrides?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponentsOverrides;
 }
@@ -7276,13 +7276,13 @@ export interface DataK8SQuayRedhatComQuayRegistryV1ManifestSpec {
   /**
   * Components declare how the Operator should handle backing Quay services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#components DataK8SQuayRedhatComQuayRegistryV1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#components DataK8SQuayRedhatComQuayRegistryV1Manifest#components}
   */
   readonly components?: DataK8SQuayRedhatComQuayRegistryV1ManifestSpecComponents[] | cdktf.IResolvable;
   /**
   * ConfigBundleSecret is the name of the Kubernetes 'Secret' in the same namespace which contains the base Quay config and extra certs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#config_bundle_secret DataK8SQuayRedhatComQuayRegistryV1Manifest#config_bundle_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#config_bundle_secret DataK8SQuayRedhatComQuayRegistryV1Manifest#config_bundle_secret}
   */
   readonly configBundleSecret?: string;
 }
@@ -7405,7 +7405,7 @@ export class DataK8SQuayRedhatComQuayRegistryV1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest k8s_quay_redhat_com_quay_registry_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest k8s_quay_redhat_com_quay_registry_v1_manifest}
 */
 export class DataK8SQuayRedhatComQuayRegistryV1Manifest extends cdktf.TerraformDataSource {
 
@@ -7421,7 +7421,7 @@ export class DataK8SQuayRedhatComQuayRegistryV1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SQuayRedhatComQuayRegistryV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SQuayRedhatComQuayRegistryV1Manifest to import
-  * @param importFromId The id of the existing DataK8SQuayRedhatComQuayRegistryV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SQuayRedhatComQuayRegistryV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SQuayRedhatComQuayRegistryV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7433,7 +7433,7 @@ export class DataK8SQuayRedhatComQuayRegistryV1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest k8s_quay_redhat_com_quay_registry_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/quay_redhat_com_quay_registry_v1_manifest k8s_quay_redhat_com_quay_registry_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7444,8 +7444,8 @@ export class DataK8SQuayRedhatComQuayRegistryV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_quay_redhat_com_quay_registry_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

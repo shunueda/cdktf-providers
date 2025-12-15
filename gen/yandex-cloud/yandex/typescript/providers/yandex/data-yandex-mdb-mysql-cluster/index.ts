@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataYandexMdbMysqlClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#cluster_id DataYandexMdbMysqlCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#cluster_id DataYandexMdbMysqlCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#deletion_protection DataYandexMdbMysqlCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#deletion_protection DataYandexMdbMysqlCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#description DataYandexMdbMysqlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#description DataYandexMdbMysqlCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the KMS key for cluster disk encryption. Restoring without an encryption key will disable encryption if any exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#disk_encryption_key_id DataYandexMdbMysqlCluster#disk_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#disk_encryption_key_id DataYandexMdbMysqlCluster#disk_encryption_key_id}
   */
   readonly diskEncryptionKeyId?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#folder_id DataYandexMdbMysqlCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#folder_id DataYandexMdbMysqlCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#id DataYandexMdbMysqlCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#id DataYandexMdbMysqlCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface DataYandexMdbMysqlClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#labels DataYandexMdbMysqlCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#labels DataYandexMdbMysqlCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * MySQL cluster configuration. For detailed information specific to your MySQL version, please refer to the [API proto specifications](https://github.com/yandex-cloud/cloudapi/tree/master/yandex/cloud/mdb/mysql/v1/config).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#mysql_config DataYandexMdbMysqlCluster#mysql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#mysql_config DataYandexMdbMysqlCluster#mysql_config}
   */
   readonly mysqlConfig?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#name DataYandexMdbMysqlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#name DataYandexMdbMysqlCluster#name}
   */
   readonly name?: string;
   /**
   * access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#access DataYandexMdbMysqlCluster#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#access DataYandexMdbMysqlCluster#access}
   */
   readonly access?: DataYandexMdbMysqlClusterAccess;
 }
@@ -945,21 +945,27 @@ export interface DataYandexMdbMysqlClusterAccess {
   /**
   * Allow access for [Yandex DataLens](https://yandex.cloud/services/datalens).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#data_lens DataYandexMdbMysqlCluster#data_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#data_lens DataYandexMdbMysqlCluster#data_lens}
   */
   readonly dataLens?: boolean | cdktf.IResolvable;
   /**
   * Allow access for [DataTransfer](https://yandex.cloud/services/data-transfer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#data_transfer DataYandexMdbMysqlCluster#data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#data_transfer DataYandexMdbMysqlCluster#data_transfer}
   */
   readonly dataTransfer?: boolean | cdktf.IResolvable;
   /**
   * Allows access for [SQL queries in the management console](https://yandex.cloud/docs/managed-mysql/operations/web-sql-query).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#web_sql DataYandexMdbMysqlCluster#web_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#web_sql DataYandexMdbMysqlCluster#web_sql}
   */
   readonly webSql?: boolean | cdktf.IResolvable;
+  /**
+  * Allow access for [YandexQuery](https://yandex.cloud/services/query).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#yandex_query DataYandexMdbMysqlCluster#yandex_query}
+  */
+  readonly yandexQuery?: boolean | cdktf.IResolvable;
 }
 
 export function dataYandexMdbMysqlClusterAccessToTerraform(struct?: DataYandexMdbMysqlClusterAccessOutputReference | DataYandexMdbMysqlClusterAccess): any {
@@ -971,6 +977,7 @@ export function dataYandexMdbMysqlClusterAccessToTerraform(struct?: DataYandexMd
     data_lens: cdktf.booleanToTerraform(struct!.dataLens),
     data_transfer: cdktf.booleanToTerraform(struct!.dataTransfer),
     web_sql: cdktf.booleanToTerraform(struct!.webSql),
+    yandex_query: cdktf.booleanToTerraform(struct!.yandexQuery),
   }
 }
 
@@ -995,6 +1002,12 @@ export function dataYandexMdbMysqlClusterAccessToHclTerraform(struct?: DataYande
     },
     web_sql: {
       value: cdktf.booleanToHclTerraform(struct!.webSql),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    yandex_query: {
+      value: cdktf.booleanToHclTerraform(struct!.yandexQuery),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1031,6 +1044,10 @@ export class DataYandexMdbMysqlClusterAccessOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.webSql = this._webSql;
     }
+    if (this._yandexQuery !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.yandexQuery = this._yandexQuery;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1040,12 +1057,14 @@ export class DataYandexMdbMysqlClusterAccessOutputReference extends cdktf.Comple
       this._dataLens = undefined;
       this._dataTransfer = undefined;
       this._webSql = undefined;
+      this._yandexQuery = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._dataLens = value.dataLens;
       this._dataTransfer = value.dataTransfer;
       this._webSql = value.webSql;
+      this._yandexQuery = value.yandexQuery;
     }
   }
 
@@ -1096,10 +1115,26 @@ export class DataYandexMdbMysqlClusterAccessOutputReference extends cdktf.Comple
   public get webSqlInput() {
     return this._webSql;
   }
+
+  // yandex_query - computed: true, optional: true, required: false
+  private _yandexQuery?: boolean | cdktf.IResolvable; 
+  public get yandexQuery() {
+    return this.getBooleanAttribute('yandex_query');
+  }
+  public set yandexQuery(value: boolean | cdktf.IResolvable) {
+    this._yandexQuery = value;
+  }
+  public resetYandexQuery() {
+    this._yandexQuery = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get yandexQueryInput() {
+    return this._yandexQuery;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster yandex_mdb_mysql_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster yandex_mdb_mysql_cluster}
 */
 export class DataYandexMdbMysqlCluster extends cdktf.TerraformDataSource {
 
@@ -1115,7 +1150,7 @@ export class DataYandexMdbMysqlCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbMysqlCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbMysqlCluster to import
-  * @param importFromId The id of the existing DataYandexMdbMysqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbMysqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbMysqlCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1127,7 +1162,7 @@ export class DataYandexMdbMysqlCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/mdb_mysql_cluster yandex_mdb_mysql_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_mysql_cluster yandex_mdb_mysql_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1138,8 +1173,8 @@ export class DataYandexMdbMysqlCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_mysql_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

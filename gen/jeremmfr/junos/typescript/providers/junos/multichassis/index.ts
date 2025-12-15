@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MultichassisConfig extends cdktf.TerraformMetaArguments {
   /**
   * Clean entirely `multi-chassis` block when destroy this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis#clean_on_destroy Multichassis#clean_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis#clean_on_destroy Multichassis#clean_on_destroy}
   */
   readonly cleanOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Consistency Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis#mc_lag_consistency_check Multichassis#mc_lag_consistency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis#mc_lag_consistency_check Multichassis#mc_lag_consistency_check}
   */
   readonly mcLagConsistencyCheck?: boolean | cdktf.IResolvable;
   /**
   * Time after which local and remote config are compared (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis#mc_lag_consistency_check_comparison_delay_time Multichassis#mc_lag_consistency_check_comparison_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis#mc_lag_consistency_check_comparison_delay_time Multichassis#mc_lag_consistency_check_comparison_delay_time}
   */
   readonly mcLagConsistencyCheckComparisonDelayTime?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis junos_multichassis}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis junos_multichassis}
 */
 export class Multichassis extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Multichassis extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Multichassis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Multichassis to import
-  * @param importFromId The id of the existing Multichassis that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Multichassis that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Multichassis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Multichassis extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/multichassis junos_multichassis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/multichassis junos_multichassis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Multichassis extends cdktf.TerraformResource {
       terraformResourceType: 'junos_multichassis',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

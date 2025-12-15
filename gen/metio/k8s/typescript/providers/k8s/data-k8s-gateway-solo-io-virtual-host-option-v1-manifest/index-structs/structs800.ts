@@ -101,15 +101,15 @@ dataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecNamespacedStatusesToHclTerraf
 DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecNamespacedStatusesOutputReference } from './structs0'
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsRequestTransformationXsltTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#non_xml_transform DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#non_xml_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#non_xml_transform DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#non_xml_transform}
   */
   readonly nonXmlTransform?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#set_content_type DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#set_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#set_content_type DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#set_content_type}
   */
   readonly setContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#xslt DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#xslt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#xslt DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#xslt}
   */
   readonly xslt?: string;
 }
@@ -261,19 +261,19 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsRequestTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#header_body_transform DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#header_body_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#header_body_transform DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#header_body_transform}
   */
   readonly headerBodyTransform?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsRequestTransformationHeaderBodyTransform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#log_request_response_info DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#log_request_response_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#log_request_response_info DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#log_request_response_info}
   */
   readonly logRequestResponseInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#transformation_template DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#transformation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#transformation_template DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#transformation_template}
   */
   readonly transformationTemplate?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsRequestTransformationTransformationTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#xslt_transformation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#xslt_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#xslt_transformation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#xslt_transformation}
   */
   readonly xsltTransformation?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsRequestTransformationXsltTransformation;
 }
@@ -454,7 +454,7 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationHeaderBodyTransform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#add_request_metadata DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#add_request_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#add_request_metadata DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#add_request_metadata}
   */
   readonly addRequestMetadata?: boolean | cdktf.IResolvable;
 }
@@ -548,7 +548,7 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -642,7 +642,7 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateDynamicMetadataValuesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -736,19 +736,19 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateDynamicMetadataValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#json_to_proto DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#json_to_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#json_to_proto DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#json_to_proto}
   */
   readonly jsonToProto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#key DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#key DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#metadata_namespace DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#metadata_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#metadata_namespace DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#metadata_namespace}
   */
   readonly metadataNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#value DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#value DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#value}
   */
   readonly value?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateDynamicMetadataValuesValue;
 }
@@ -951,27 +951,27 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateExtractors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#body DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#body DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#body}
   */
   readonly body?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#header DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#header DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#mode DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#mode DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#regex DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#regex DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#replacement_text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#replacement_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#replacement_text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#replacement_text}
   */
   readonly replacementText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#subgroup DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#subgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#subgroup DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#subgroup}
   */
   readonly subgroup?: number;
 }
@@ -1210,7 +1210,7 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -1304,7 +1304,7 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateHeadersToAppendValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -1398,11 +1398,11 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateHeadersToAppend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#key DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#key DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#value DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#value DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#value}
   */
   readonly value?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateHeadersToAppendValue;
 }
@@ -1547,7 +1547,7 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#text DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -1641,11 +1641,11 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#override_empty DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#override_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#override_empty DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#override_empty}
   */
   readonly overrideEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#tmpl DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#tmpl DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#tmpl}
   */
   readonly tmpl?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl;
 }
@@ -1768,7 +1768,7 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#json_keys DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#json_keys DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#json_keys}
   */
   readonly jsonKeys?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeys;
 }
@@ -1862,55 +1862,55 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#advanced_templates DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#advanced_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#advanced_templates DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#advanced_templates}
   */
   readonly advancedTemplates?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#body DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#body DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#body}
   */
   readonly body?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateBody;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#dynamic_metadata_values DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#dynamic_metadata_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#dynamic_metadata_values DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#dynamic_metadata_values}
   */
   readonly dynamicMetadataValues?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateDynamicMetadataValues[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#escape_characters DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#escape_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#escape_characters DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#escape_characters}
   */
   readonly escapeCharacters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#extractors DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#extractors DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#extractors}
   */
   readonly extractors?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateExtractors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#headers DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#headers DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#headers}
   */
   readonly headers?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#headers_to_append DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#headers_to_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#headers_to_append DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#headers_to_append}
   */
   readonly headersToAppend?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateHeadersToAppend[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#headers_to_remove DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#headers_to_remove DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#headers_to_remove}
   */
   readonly headersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ignore_error_on_parse DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ignore_error_on_parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ignore_error_on_parse DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ignore_error_on_parse}
   */
   readonly ignoreErrorOnParse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#merge_extractors_to_body DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#merge_extractors_to_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#merge_extractors_to_body DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#merge_extractors_to_body}
   */
   readonly mergeExtractorsToBody?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#merge_json_keys DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#merge_json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#merge_json_keys DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#merge_json_keys}
   */
   readonly mergeJsonKeys?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeys;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#parse_body_behavior DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#parse_body_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#parse_body_behavior DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#parse_body_behavior}
   */
   readonly parseBodyBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#passthrough DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#passthrough DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#passthrough}
   */
   readonly passthrough?: { [key: string]: string };
 }
@@ -2352,15 +2352,15 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationXsltTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#non_xml_transform DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#non_xml_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#non_xml_transform DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#non_xml_transform}
   */
   readonly nonXmlTransform?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#set_content_type DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#set_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#set_content_type DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#set_content_type}
   */
   readonly setContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#xslt DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#xslt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#xslt DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#xslt}
   */
   readonly xslt?: string;
 }
@@ -2512,19 +2512,19 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#header_body_transform DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#header_body_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#header_body_transform DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#header_body_transform}
   */
   readonly headerBodyTransform?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationHeaderBodyTransform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#log_request_response_info DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#log_request_response_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#log_request_response_info DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#log_request_response_info}
   */
   readonly logRequestResponseInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#transformation_template DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#transformation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#transformation_template DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#transformation_template}
   */
   readonly transformationTemplate?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationTransformationTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#xslt_transformation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#xslt_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#xslt_transformation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#xslt_transformation}
   */
   readonly xsltTransformation?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformationXsltTransformation;
 }
@@ -2705,15 +2705,15 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#clear_route_cache DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#clear_route_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#clear_route_cache DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#clear_route_cache}
   */
   readonly clearRouteCache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#request_transformation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#request_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#request_transformation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#request_transformation}
   */
   readonly requestTransformation?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsRequestTransformation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#response_transformation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#response_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#response_transformation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#response_transformation}
   */
   readonly responseTransformation?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformationsResponseTransformation;
 }
@@ -2865,11 +2865,11 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransform
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafAuditLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#action DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#action DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#location DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#location DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#location}
   */
   readonly location?: string;
 }
@@ -2992,11 +2992,11 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafAuditL
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafConfigMapRuleSetsConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#name DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#name DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#namespace DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#namespace DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3119,11 +3119,11 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafConfig
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafConfigMapRuleSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#config_map_ref DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#config_map_ref DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafConfigMapRuleSetsConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#data_map_keys DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#data_map_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#data_map_keys DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#data_map_keys}
   */
   readonly dataMapKeys?: string[];
 }
@@ -3268,11 +3268,11 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafConfig
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafCoreRuleSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#custom_settings_file DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#custom_settings_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#custom_settings_file DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#custom_settings_file}
   */
   readonly customSettingsFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#custom_settings_string DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#custom_settings_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#custom_settings_string DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#custom_settings_string}
   */
   readonly customSettingsString?: string;
 }
@@ -3395,15 +3395,15 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafCoreRu
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafRuleSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#directory DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#directory DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#files DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#files DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#files}
   */
   readonly files?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rule_str DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rule_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rule_str DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rule_str}
   */
   readonly ruleStr?: string;
 }
@@ -3577,35 +3577,35 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafRuleSe
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWaf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#audit_logging DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#audit_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#audit_logging DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#audit_logging}
   */
   readonly auditLogging?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafAuditLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#config_map_rule_sets DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#config_map_rule_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#config_map_rule_sets DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#config_map_rule_sets}
   */
   readonly configMapRuleSets?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafConfigMapRuleSets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#core_rule_set DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#core_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#core_rule_set DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#core_rule_set}
   */
   readonly coreRuleSet?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafCoreRuleSet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#custom_intervention_message DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#custom_intervention_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#custom_intervention_message DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#custom_intervention_message}
   */
   readonly customInterventionMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#disabled DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#disabled DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#request_headers_only DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#request_headers_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#request_headers_only DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#request_headers_only}
   */
   readonly requestHeadersOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#response_headers_only DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#response_headers_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#response_headers_only DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#response_headers_only}
   */
   readonly responseHeadersOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rule_sets DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rule_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rule_sets DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rule_sets}
   */
   readonly ruleSets?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafRuleSets[] | cdktf.IResolvable;
 }
@@ -3902,107 +3902,107 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWafOutput
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#buffer_per_route DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#buffer_per_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#buffer_per_route DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#buffer_per_route}
   */
   readonly bufferPerRoute?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsBufferPerRoute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#cors DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#cors DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#cors}
   */
   readonly cors?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsCors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#cors_policy_merge_settings DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#cors_policy_merge_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#cors_policy_merge_settings DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#cors_policy_merge_settings}
   */
   readonly corsPolicyMergeSettings?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsCorsPolicyMergeSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#csrf DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#csrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#csrf DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#csrf}
   */
   readonly csrf?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsCsrf;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#dlp DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#dlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#dlp DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#dlp}
   */
   readonly dlp?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsDlp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ext_proc DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ext_proc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ext_proc DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ext_proc}
   */
   readonly extProc?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsExtProc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#extauth DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#extauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#extauth DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#extauth}
   */
   readonly extauth?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsExtauth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#extensions DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#extensions DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#extensions}
   */
   readonly extensions?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsExtensions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#header_manipulation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#header_manipulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#header_manipulation DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#header_manipulation}
   */
   readonly headerManipulation?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsHeaderManipulation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#include_attempt_count_in_response DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#include_attempt_count_in_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#include_attempt_count_in_response DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#include_attempt_count_in_response}
   */
   readonly includeAttemptCountInResponse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#include_request_attempt_count DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#include_request_attempt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#include_request_attempt_count DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#include_request_attempt_count}
   */
   readonly includeRequestAttemptCount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#jwt DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#jwt DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#jwt}
   */
   readonly jwt?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsJwt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#jwt_staged DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#jwt_staged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#jwt_staged DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#jwt_staged}
   */
   readonly jwtStaged?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsJwtStaged;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rate_limit_configs DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rate_limit_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rate_limit_configs DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rate_limit_configs}
   */
   readonly rateLimitConfigs?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRateLimitConfigs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rate_limit_early_configs DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rate_limit_early_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rate_limit_early_configs DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rate_limit_early_configs}
   */
   readonly rateLimitEarlyConfigs?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRateLimitEarlyConfigs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rate_limit_regular_configs DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rate_limit_regular_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rate_limit_regular_configs DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rate_limit_regular_configs}
   */
   readonly rateLimitRegularConfigs?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRateLimitRegularConfigs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ratelimit DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ratelimit DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ratelimit}
   */
   readonly ratelimit?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRatelimit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ratelimit_basic DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ratelimit_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ratelimit_basic DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ratelimit_basic}
   */
   readonly ratelimitBasic?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRatelimitBasic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ratelimit_early DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ratelimit_early}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ratelimit_early DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ratelimit_early}
   */
   readonly ratelimitEarly?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRatelimitEarly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ratelimit_regular DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ratelimit_regular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#ratelimit_regular DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#ratelimit_regular}
   */
   readonly ratelimitRegular?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRatelimitRegular;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rbac DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#rbac DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#rbac}
   */
   readonly rbac?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRbac;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#retries DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#retries DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#retries}
   */
   readonly retries?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsRetries;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#staged_transformations DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#staged_transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#staged_transformations DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#staged_transformations}
   */
   readonly stagedTransformations?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsStagedTransformations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#stats DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#stats DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#stats}
   */
   readonly stats?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsStats;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#transformations DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#transformations DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#transformations}
   */
   readonly transformations?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsTransformations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#waf DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#waf DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#waf}
   */
   readonly waf?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsWaf;
 }
@@ -4821,23 +4821,23 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptionsOutputRef
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecTargetRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#group DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#group DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#kind DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#kind DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#name DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#name DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#namespace DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#namespace DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#section_name DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#section_name DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#section_name}
   */
   readonly sectionName?: string;
 }
@@ -5069,15 +5069,15 @@ export class DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecTargetRefsList e
 }
 export interface DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#namespaced_statuses DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#namespaced_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#namespaced_statuses DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#namespaced_statuses}
   */
   readonly namespacedStatuses?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecNamespacedStatuses;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#options DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#options DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#options}
   */
   readonly options?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#target_refs DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#target_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/gateway_solo_io_virtual_host_option_v1_manifest#target_refs DataK8SGatewaySoloIoVirtualHostOptionV1Manifest#target_refs}
   */
   readonly targetRefs?: DataK8SGatewaySoloIoVirtualHostOptionV1ManifestSpecTargetRefs[] | cdktf.IResolvable;
 }

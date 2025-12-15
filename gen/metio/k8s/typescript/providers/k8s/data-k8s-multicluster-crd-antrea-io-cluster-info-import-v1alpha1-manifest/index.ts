@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#metadata DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#metadata DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#spec DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#spec DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#annotations DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#annotations DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#labels DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#labels DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,7 +215,7 @@ export class DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1ManifestMeta
 }
 export interface DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1ManifestSpecGatewayInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#gateway_ip DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#gateway_ip DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#gateway_ip}
   */
   readonly gatewayIp?: string;
 }
@@ -333,7 +333,7 @@ export interface DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest
   /**
   * Public key of the WireGuard tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#public_key DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#public_key DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#public_key}
   */
   readonly publicKey?: string;
 }
@@ -429,31 +429,31 @@ export interface DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest
   /**
   * ClusterID of the member cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * GatewayInfos has information of Gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#gateway_infos DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#gateway_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#gateway_infos DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#gateway_infos}
   */
   readonly gatewayInfos?: DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1ManifestSpecGatewayInfos[] | cdktf.IResolvable;
   /**
   * PodCIDRs is the Pod IP address CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#pod_cidrs DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#pod_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#pod_cidrs DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#pod_cidrs}
   */
   readonly podCidrs?: string[];
   /**
   * ServiceCIDR is the IP ranges used by Service ClusterIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#service_cidr DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#service_cidr DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
   * WireGuardInfo includes information of a WireGuard tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#wire_guard DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#wire_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#wire_guard DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest#wire_guard}
   */
   readonly wireGuard?: DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1ManifestSpecWireGuard;
 }
@@ -663,7 +663,7 @@ export class DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1ManifestSpec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest k8s_multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest k8s_multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest}
 */
 export class DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -679,7 +679,7 @@ export class DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest ext
   * Generates CDKTF code for importing a DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -691,7 +691,7 @@ export class DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest k8s_multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest k8s_multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -702,8 +702,8 @@ export class DataK8SMulticlusterCrdAntreaIoClusterInfoImportV1Alpha1Manifest ext
       terraformResourceType: 'k8s_multicluster_crd_antrea_io_cluster_info_import_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

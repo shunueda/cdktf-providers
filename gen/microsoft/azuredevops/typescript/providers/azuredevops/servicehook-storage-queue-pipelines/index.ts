@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ServicehookStorageQueuePipelinesConfig extends cdktf.TerraformM
   /**
   * A valid account key from the queue's storage account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#account_key ServicehookStorageQueuePipelines#account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#account_key ServicehookStorageQueuePipelines#account_key}
   */
   readonly accountKey: string;
   /**
   * The queue's storage account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#account_name ServicehookStorageQueuePipelines#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#account_name ServicehookStorageQueuePipelines#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#id ServicehookStorageQueuePipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#id ServicehookStorageQueuePipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface ServicehookStorageQueuePipelinesConfig extends cdktf.TerraformM
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#project_id ServicehookStorageQueuePipelines#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#project_id ServicehookStorageQueuePipelines#project_id}
   */
   readonly projectId: string;
   /**
   * The name of the queue that will store the events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#queue_name ServicehookStorageQueuePipelines#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#queue_name ServicehookStorageQueuePipelines#queue_name}
   */
   readonly queueName: string;
   /**
   * event time-to-live - the duration a message can remain in the queue before it's automatically removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#ttl ServicehookStorageQueuePipelines#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#ttl ServicehookStorageQueuePipelines#ttl}
   */
   readonly ttl?: number;
   /**
   * event visibility timout - how long a message is invisible to other consumers after it's been dequeued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#visi_timeout ServicehookStorageQueuePipelines#visi_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#visi_timeout ServicehookStorageQueuePipelines#visi_timeout}
   */
   readonly visiTimeout?: number;
   /**
   * run_state_changed_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#run_state_changed_event ServicehookStorageQueuePipelines#run_state_changed_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#run_state_changed_event ServicehookStorageQueuePipelines#run_state_changed_event}
   */
   readonly runStateChangedEvent?: ServicehookStorageQueuePipelinesRunStateChangedEvent;
   /**
   * stage_state_changed_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#stage_state_changed_event ServicehookStorageQueuePipelines#stage_state_changed_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#stage_state_changed_event ServicehookStorageQueuePipelines#stage_state_changed_event}
   */
   readonly stageStateChangedEvent?: ServicehookStorageQueuePipelinesStageStateChangedEvent;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#timeouts ServicehookStorageQueuePipelines#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#timeouts ServicehookStorageQueuePipelines#timeouts}
   */
   readonly timeouts?: ServicehookStorageQueuePipelinesTimeouts;
 }
@@ -73,19 +73,19 @@ export interface ServicehookStorageQueuePipelinesRunStateChangedEvent {
   /**
   * The pipeline ID to be monitored. If not specified, all pipelines in the project will trigger the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#pipeline_id ServicehookStorageQueuePipelines#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#pipeline_id ServicehookStorageQueuePipelines#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
   * Which run result should generate an event. Only valid if published_event is `RunStateChanged`. If not specified, all results will trigger the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#run_result_filter ServicehookStorageQueuePipelines#run_result_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#run_result_filter ServicehookStorageQueuePipelines#run_result_filter}
   */
   readonly runResultFilter?: string;
   /**
   * Which run state should generate an event. Only valid if published_event is `RunStateChanged`. If not specified, all states will trigger the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#run_state_filter ServicehookStorageQueuePipelines#run_state_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#run_state_filter ServicehookStorageQueuePipelines#run_state_filter}
   */
   readonly runStateFilter?: string;
 }
@@ -229,25 +229,25 @@ export interface ServicehookStorageQueuePipelinesStageStateChangedEvent {
   /**
   * The pipeline ID to be monitored. If not specified, all pipelines in the project will trigger the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#pipeline_id ServicehookStorageQueuePipelines#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#pipeline_id ServicehookStorageQueuePipelines#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
   * Which stage should generate an event. Only valid if published_event is `StageStateChanged`. If not specified, all stages will trigger the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#stage_name ServicehookStorageQueuePipelines#stage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#stage_name ServicehookStorageQueuePipelines#stage_name}
   */
   readonly stageName?: string;
   /**
   * Which stage result should generate an event. Only valid if published_event is `StageStateChanged`. If not specified, all results will trigger the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#stage_result_filter ServicehookStorageQueuePipelines#stage_result_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#stage_result_filter ServicehookStorageQueuePipelines#stage_result_filter}
   */
   readonly stageResultFilter?: string;
   /**
   * Which stage state should generate an event. Only valid if published_event is `StageStateChanged`. If not specified, all states will trigger the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#stage_state_filter ServicehookStorageQueuePipelines#stage_state_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#stage_state_filter ServicehookStorageQueuePipelines#stage_state_filter}
   */
   readonly stageStateFilter?: string;
 }
@@ -418,19 +418,19 @@ export class ServicehookStorageQueuePipelinesStageStateChangedEventOutputReferen
 }
 export interface ServicehookStorageQueuePipelinesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#create ServicehookStorageQueuePipelines#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#create ServicehookStorageQueuePipelines#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#delete ServicehookStorageQueuePipelines#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#delete ServicehookStorageQueuePipelines#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#read ServicehookStorageQueuePipelines#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#read ServicehookStorageQueuePipelines#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#update ServicehookStorageQueuePipelines#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#update ServicehookStorageQueuePipelines#update}
   */
   readonly update?: string;
 }
@@ -611,7 +611,7 @@ export class ServicehookStorageQueuePipelinesTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines azuredevops_servicehook_storage_queue_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines azuredevops_servicehook_storage_queue_pipelines}
 */
 export class ServicehookStorageQueuePipelines extends cdktf.TerraformResource {
 
@@ -627,7 +627,7 @@ export class ServicehookStorageQueuePipelines extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServicehookStorageQueuePipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicehookStorageQueuePipelines to import
-  * @param importFromId The id of the existing ServicehookStorageQueuePipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicehookStorageQueuePipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicehookStorageQueuePipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -639,7 +639,7 @@ export class ServicehookStorageQueuePipelines extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/servicehook_storage_queue_pipelines azuredevops_servicehook_storage_queue_pipelines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/servicehook_storage_queue_pipelines azuredevops_servicehook_storage_queue_pipelines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -650,8 +650,8 @@ export class ServicehookStorageQueuePipelines extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_servicehook_storage_queue_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

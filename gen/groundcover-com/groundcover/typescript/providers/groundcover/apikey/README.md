@@ -1,3 +1,3 @@
 # `groundcover_apikey`
 
-Refer to the Terraform Registry for docs: [`groundcover_apikey`](https://registry.terraform.io/providers/groundcover-com/groundcover/1.4.2/docs/resources/apikey).
+Refer to the Terraform Registry for docs: [`groundcover_apikey`](https://registry.terraform.io/providers/groundcover-com/groundcover/1.5.0/docs/resources/apikey).

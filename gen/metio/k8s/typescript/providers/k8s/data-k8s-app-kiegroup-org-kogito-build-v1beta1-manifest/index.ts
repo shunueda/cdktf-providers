@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#metadata DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#metadata DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestMetadata;
   /**
   * KogitoBuildSpec defines the desired state of KogitoBuild.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#spec DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#spec DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#annotations DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#annotations DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#labels DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#labels DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#namespace DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#namespace DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecArtifact {
   /**
   * Indicates the unique base name of the primary artifact being generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#artifact_id DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#artifact_id DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#artifact_id}
   */
   readonly artifactId?: string;
   /**
   * Indicates the unique identifier of the organization or group that created the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#group_id DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#group_id DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#group_id}
   */
   readonly groupId?: string;
   /**
   * Indicates the version of the artifact generated by the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#version DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#version DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -385,19 +385,19 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFrom
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#key DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#key DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#optional DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#optional DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -548,13 +548,13 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFrom
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#api_version DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#api_version DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#field_path DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#field_path DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -676,19 +676,19 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFrom
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#container_name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#container_name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#divisor DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#divisor DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#resource DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#resource DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -839,19 +839,19 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFrom
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#key DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#key DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#optional DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#optional DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1002,25 +1002,25 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFrom
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#config_map_key_ref DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#config_map_key_ref DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#field_ref DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#field_ref DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#resource_field_ref DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#resource_field_ref DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#secret_key_ref DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#secret_key_ref DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -1203,19 +1203,19 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#name DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#value DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#value_from DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#value_from DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnvValueFrom;
 }
@@ -1388,19 +1388,19 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecGitSource {
   /**
   * Context/subdirectory where the code is located, relative to the repo root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#context_dir DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#context_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#context_dir DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#context_dir}
   */
   readonly contextDir?: string;
   /**
   * Branch to use in the Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#reference DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#reference DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#reference}
   */
   readonly reference?: string;
   /**
   * Git URI for the s2i source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#uri DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#uri DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#uri}
   */
   readonly uri: string;
 }
@@ -1551,13 +1551,13 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecResources {
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#limits DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#limits DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#requests DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#requests DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1682,13 +1682,13 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecWebHooks {
   /**
   * Secret value for webHook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#secret DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#secret DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * WebHook type, either GitHub or Generic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#type DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#type DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1835,85 +1835,85 @@ export interface DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpec {
   /**
   * Artifact contains override information for building the Maven artifact (used for Local Source builds). You might want to override this information when building from decisions, rules or process files. In this scenario the Kogito Images will generate a new Java project for you underneath. This information will be used to generate this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#artifact DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#artifact DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#artifact}
   */
   readonly artifact?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecArtifact;
   /**
   * Image used to build the Kogito Service from source (Local and Remote). If not defined the operator will use image provided by the Kogito Team based on the 'Runtime' field. Example: 'quay.io/kiegroup/kogito-jvm-builder:latest'. On OpenShift an ImageStream will be created in the current namespace pointing to the given image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#build_image DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#build_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#build_image DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#build_image}
   */
   readonly buildImage?: string;
   /**
   * DisableIncremental indicates that source to image builds should NOT be incremental. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#disable_incremental DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#disable_incremental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#disable_incremental DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#disable_incremental}
   */
   readonly disableIncremental?: boolean | cdktf.IResolvable;
   /**
   * If set to true will print the logs for downloading/uploading of maven dependencies. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#enable_maven_download_output DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#enable_maven_download_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#enable_maven_download_output DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#enable_maven_download_output}
   */
   readonly enableMavenDownloadOutput?: boolean | cdktf.IResolvable;
   /**
   * Environment variables used during build time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#env DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#env DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#env}
   */
   readonly env?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * Information about the git repository where the Kogito Service source code resides. Ignored for binary builds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#git_source DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#git_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#git_source DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#git_source}
   */
   readonly gitSource?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecGitSource;
   /**
   * Maven Mirror URL to be used during source-to-image builds (Local and Remote) to considerably increase build speed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#maven_mirror_url DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#maven_mirror_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#maven_mirror_url DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#maven_mirror_url}
   */
   readonly mavenMirrorUrl?: string;
   /**
   * Native indicates if the Kogito Service built should be compiled to run on native mode when Runtime is Quarkus (Source to Image build only). For more information, see https://www.graalvm.org/docs/reference-manual/aot-compilation/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#native DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#native}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#native DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#native}
   */
   readonly native?: boolean | cdktf.IResolvable;
   /**
   * Resources Requirements for builder pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#resources DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#resources DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecResources;
   /**
   * Which runtime Kogito service base image to use when building the Kogito service. If 'BuildImage' is set, this value is ignored by the operator. Default value: quarkus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#runtime DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#runtime DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#runtime}
   */
   readonly runtime?: string;
   /**
   * Image used as the base image for the final Kogito service. This image only has the required packages to run the application. For example: quarkus based services will have only JVM installed, native services only the packages required by the OS. If not defined the operator will use image provided by the Kogito Team based on the 'Runtime' field. Example: 'quay.io/kiegroup/kogito-jvm-builder:latest'. On OpenShift an ImageStream will be created in the current namespace pointing to the given image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#runtime_image DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#runtime_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#runtime_image DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#runtime_image}
   */
   readonly runtimeImage?: string;
   /**
   * Set this field targeting the desired KogitoRuntime when this KogitoBuild instance has a different name than the KogitoRuntime. By default this KogitoBuild instance will generate a final image named after its own name (.metadata.name). On OpenShift, an ImageStream will be created causing a redeployment on any KogitoRuntime with the same name. On Kubernetes, the final image will be pushed to the KogitoRuntime deployment. If you have multiple KogitoBuild instances (let's say BinaryBuildType and Remote Source), you might need that both target the same KogitoRuntime. Both KogitoBuilds will update the same ImageStream or generate a final image to the same KogitoRuntime deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#target_kogito_runtime DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#target_kogito_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#target_kogito_runtime DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#target_kogito_runtime}
   */
   readonly targetKogitoRuntime?: string;
   /**
   * Sets the type of build that this instance will handle: Binary - takes an uploaded binary file already compiled and creates a Kogito service image from it. RemoteSource - pulls the source code from a Git repository, builds the binary and then the final Kogito service image. LocalSource - takes an uploaded resource file such as DRL (rules), DMN (decision) or BPMN (process), builds the binary and the final Kogito service image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#type DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#type DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
   * WebHooks secrets for source to image builds based on Git repositories (Remote Sources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#web_hooks DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#web_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#web_hooks DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest#web_hooks}
   */
   readonly webHooks?: DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecWebHooks[] | cdktf.IResolvable;
 }
@@ -2381,7 +2381,7 @@ export class DataK8SAppKiegroupOrgKogitoBuildV1Beta1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest k8s_app_kiegroup_org_kogito_build_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest k8s_app_kiegroup_org_kogito_build_v1beta1_manifest}
 */
 export class DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2397,7 +2397,7 @@ export class DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2409,7 +2409,7 @@ export class DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest k8s_app_kiegroup_org_kogito_build_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/app_kiegroup_org_kogito_build_v1beta1_manifest k8s_app_kiegroup_org_kogito_build_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2420,8 +2420,8 @@ export class DataK8SAppKiegroupOrgKogitoBuildV1Beta1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_app_kiegroup_org_kogito_build_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

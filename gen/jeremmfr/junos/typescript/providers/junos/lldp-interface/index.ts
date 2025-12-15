@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface LldpInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disable LLDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#disable LldpInterface#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#disable LldpInterface#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Enable LLDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#enable LldpInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#enable LldpInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Interface name or `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#name LldpInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#name LldpInterface#name}
   */
   readonly name: string;
   /**
   * Disable lldp-trap notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#trap_notification_disable LldpInterface#trap_notification_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#trap_notification_disable LldpInterface#trap_notification_disable}
   */
   readonly trapNotificationDisable?: boolean | cdktf.IResolvable;
   /**
   * Enable lldp-trap notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#trap_notification_enable LldpInterface#trap_notification_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#trap_notification_enable LldpInterface#trap_notification_enable}
   */
   readonly trapNotificationEnable?: boolean | cdktf.IResolvable;
   /**
   * power_negotiation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#power_negotiation LldpInterface#power_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#power_negotiation LldpInterface#power_negotiation}
   */
   readonly powerNegotiation?: LldpInterfacePowerNegotiation;
 }
@@ -48,13 +48,13 @@ export interface LldpInterfacePowerNegotiation {
   /**
   * Disable power negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#disable LldpInterface#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#disable LldpInterface#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Enable power negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#enable LldpInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#enable LldpInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -177,7 +177,7 @@ export class LldpInterfacePowerNegotiationOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface junos_lldp_interface}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface junos_lldp_interface}
 */
 export class LldpInterface extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class LldpInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LldpInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LldpInterface to import
-  * @param importFromId The id of the existing LldpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LldpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LldpInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class LldpInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/lldp_interface junos_lldp_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/lldp_interface junos_lldp_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class LldpInterface extends cdktf.TerraformResource {
       terraformResourceType: 'junos_lldp_interface',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

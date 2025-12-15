@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingIstioIoGatewayV1Beta1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#metadata DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#metadata DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingIstioIoGatewayV1Beta1ManifestMetadata;
   /**
   * Configuration affecting edge load balancer. See more details at: https://istio.io/docs/reference/config/networking/gateway.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#spec DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#spec DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingIstioIoGatewayV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#annotations DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#annotations DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#labels DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#labels DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#name DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#name DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#namespace DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#namespace DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,23 +219,23 @@ export interface DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpecServersPort {
   /**
   * Label assigned to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#name DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#name DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * A valid non-negative integer port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#number DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#number DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#number}
   */
   readonly number: number;
   /**
   * The protocol exposed on the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#protocol DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#protocol DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#target_port DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#target_port DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#target_port}
   */
   readonly targetPort?: number;
 }
@@ -409,79 +409,79 @@ export interface DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpecServersTls {
   /**
   * REQUIRED if mode is 'MUTUAL' or 'OPTIONAL_MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#ca_certificates DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#ca_certificates DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * OPTIONAL: The path to the file containing the certificate revocation list (CRL) to use in verifying a presented client side certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#ca_crl DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#ca_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#ca_crl DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#ca_crl}
   */
   readonly caCrl?: string;
   /**
   * Optional: If specified, only support the specified cipher list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#cipher_suites DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#cipher_suites DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * For gateways running on Kubernetes, the name of the secret that holds the TLS certs including the CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#credential_name DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#credential_name DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * If set to true, the load balancer will send a 301 redirect for all http connections, asking the clients to use HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#https_redirect DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#https_redirect DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktf.IResolvable;
   /**
   * Optional: Maximum TLS protocol version. Valid Options: TLS_AUTO, TLSV1_0, TLSV1_1, TLSV1_2, TLSV1_3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#max_protocol_version DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#max_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#max_protocol_version DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#max_protocol_version}
   */
   readonly maxProtocolVersion?: string;
   /**
   * Optional: Minimum TLS protocol version. Valid Options: TLS_AUTO, TLSV1_0, TLSV1_1, TLSV1_2, TLSV1_3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#min_protocol_version DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#min_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#min_protocol_version DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#min_protocol_version}
   */
   readonly minProtocolVersion?: string;
   /**
   * Optional: Indicates whether connections to this port should be secured using TLS. Valid Options: PASSTHROUGH, SIMPLE, MUTUAL, AUTO_PASSTHROUGH, ISTIO_MUTUAL, OPTIONAL_MUTUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#mode DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#mode DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'SIMPLE' or 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#private_key DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#private_key DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * REQUIRED if mode is 'SIMPLE' or 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#server_certificate DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#server_certificate DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
   * A list of alternate names to verify the subject identity in the certificate presented by the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#subject_alt_names DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#subject_alt_names DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
   /**
   * An optional list of hex-encoded SHA-256 hashes of the authorized client certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#verify_certificate_hash DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#verify_certificate_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#verify_certificate_hash DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#verify_certificate_hash}
   */
   readonly verifyCertificateHash?: string[];
   /**
   * An optional list of base64-encoded SHA-256 hashes of the SPKIs of authorized client certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#verify_certificate_spki DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#verify_certificate_spki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#verify_certificate_spki DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#verify_certificate_spki}
   */
   readonly verifyCertificateSpki?: string[];
 }
@@ -925,35 +925,35 @@ export interface DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpecServers {
   /**
   * The ip or the Unix domain socket to which the listener should be bound to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#bind DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#bind DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#bind}
   */
   readonly bind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#default_endpoint DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#default_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#default_endpoint DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#default_endpoint}
   */
   readonly defaultEndpoint?: string;
   /**
   * One or more hosts exposed by this gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#hosts DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#hosts DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * An optional name of the server, when set must be unique across all servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#name DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#name DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The Port on which the proxy should listen for incoming connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#port DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#port DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#port}
   */
   readonly port: DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpecServersPort;
   /**
   * Set of TLS related options that govern the server's behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#tls DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#tls DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpecServersTls;
 }
@@ -1210,13 +1210,13 @@ export interface DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpec {
   /**
   * One or more labels that indicate a specific set of pods/VMs on which this gateway configuration should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#selector DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#selector DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * A list of server specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#servers DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#servers DataK8SNetworkingIstioIoGatewayV1Beta1Manifest#servers}
   */
   readonly servers?: DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpecServers[] | cdktf.IResolvable;
 }
@@ -1339,7 +1339,7 @@ export class DataK8SNetworkingIstioIoGatewayV1Beta1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest k8s_networking_istio_io_gateway_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest k8s_networking_istio_io_gateway_v1beta1_manifest}
 */
 export class DataK8SNetworkingIstioIoGatewayV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1355,7 +1355,7 @@ export class DataK8SNetworkingIstioIoGatewayV1Beta1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SNetworkingIstioIoGatewayV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingIstioIoGatewayV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingIstioIoGatewayV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingIstioIoGatewayV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingIstioIoGatewayV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1367,7 +1367,7 @@ export class DataK8SNetworkingIstioIoGatewayV1Beta1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest k8s_networking_istio_io_gateway_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_gateway_v1beta1_manifest k8s_networking_istio_io_gateway_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1378,8 +1378,8 @@ export class DataK8SNetworkingIstioIoGatewayV1Beta1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_networking_istio_io_gateway_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

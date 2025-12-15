@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#metadata DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#metadata DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestMetadata;
   /**
   * AuthorizerSpec defines the desired state of Authorizer. Represents an authorizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#spec DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#spec DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#annotations DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#annotations DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#labels DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#labels DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestMetadata
 }
 export interface DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpecApiRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#namespace DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpec
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#from DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#from DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpecApiRefFrom;
 }
@@ -440,13 +440,13 @@ export class DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpecApiR
 }
 export interface DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpecJwtConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#audience DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#audience DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#audience}
   */
   readonly audience?: string[];
   /**
   * A string representation of a URI with a length between [1-2048].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#issuer DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#issuer DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#issuer}
   */
   readonly issuer?: string;
 }
@@ -569,55 +569,55 @@ export class DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpecJwtC
 }
 export interface DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#api_id DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#api_id DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#api_id}
   */
   readonly apiId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#api_ref DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#api_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#api_ref DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#api_ref}
   */
   readonly apiRef?: DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpecApiRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_credentials_arn DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_credentials_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_credentials_arn DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_credentials_arn}
   */
   readonly authorizerCredentialsArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_payload_format_version DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_payload_format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_payload_format_version DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_payload_format_version}
   */
   readonly authorizerPayloadFormatVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_result_ttl_in_seconds DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_result_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_result_ttl_in_seconds DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_result_ttl_in_seconds}
   */
   readonly authorizerResultTtlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_type DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_type DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_type}
   */
   readonly authorizerType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_uri DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#authorizer_uri DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#authorizer_uri}
   */
   readonly authorizerUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#enable_simple_responses DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#enable_simple_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#enable_simple_responses DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#enable_simple_responses}
   */
   readonly enableSimpleResponses?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#identity_source DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#identity_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#identity_source DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#identity_source}
   */
   readonly identitySource: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#identity_validation_expression DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#identity_validation_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#identity_validation_expression DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#identity_validation_expression}
   */
   readonly identityValidationExpression?: string;
   /**
   * Represents the configuration of a JWT authorizer. Required for the JWT authorizer type. Supported only for HTTP APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#jwt_configuration DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#jwt_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#jwt_configuration DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#jwt_configuration}
   */
   readonly jwtConfiguration?: DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpecJwtConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#name DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1021,7 +1021,7 @@ export class DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest k8s_apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest k8s_apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest}
 */
 export class DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1037,7 +1037,7 @@ export class DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1049,7 +1049,7 @@ export class DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest k8s_apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest k8s_apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1060,8 +1060,8 @@ export class DataK8SApigatewayv2ServicesK8SAwsAuthorizerV1Alpha1Manifest extends
       terraformResourceType: 'k8s_apigatewayv2_services_k8s_aws_authorizer_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

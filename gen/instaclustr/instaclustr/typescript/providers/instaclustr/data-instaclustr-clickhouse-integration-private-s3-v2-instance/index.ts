@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataInstaclustrClickhouseIntegrationPrivateS3V2InstanceConfig e
   /**
   * ID of the ClickHouse cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance#cluster_id DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance#cluster_id DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance#id DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance#id DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataInstaclustrClickhouseIntegrationPrivateS3V2InstanceConfig e
   /**
   * List of KMS key ARNs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance#kms_key_arns DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#kms_key_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance#kms_key_arns DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#kms_key_arns}
   */
   readonly kmsKeyArns?: string[];
   /**
   * Status of the Private S3 integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance#status DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance#status DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#status}
   */
   readonly status?: string;
   /**
   * buckets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance#buckets DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance#buckets DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#buckets}
   */
   readonly buckets?: DataInstaclustrClickhouseIntegrationPrivateS3V2InstanceBuckets[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface DataInstaclustrClickhouseIntegrationPrivateS3V2InstanceBuckets 
   /**
   * ARN for the S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance#arn DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance#arn DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#arn}
   */
   readonly arn?: string;
   /**
   * Boolean recording whether the S3 bucket is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance#read_only DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance#read_only DataInstaclustrClickhouseIntegrationPrivateS3V2Instance#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -194,7 +194,7 @@ export class DataInstaclustrClickhouseIntegrationPrivateS3V2InstanceBucketsList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance instaclustr_clickhouse_integration_private_s3_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance instaclustr_clickhouse_integration_private_s3_v2_instance}
 */
 export class DataInstaclustrClickhouseIntegrationPrivateS3V2Instance extends cdktf.TerraformDataSource {
 
@@ -210,7 +210,7 @@ export class DataInstaclustrClickhouseIntegrationPrivateS3V2Instance extends cdk
   * Generates CDKTF code for importing a DataInstaclustrClickhouseIntegrationPrivateS3V2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClickhouseIntegrationPrivateS3V2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrClickhouseIntegrationPrivateS3V2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClickhouseIntegrationPrivateS3V2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClickhouseIntegrationPrivateS3V2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class DataInstaclustrClickhouseIntegrationPrivateS3V2Instance extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/clickhouse_integration_private_s3_v2_instance instaclustr_clickhouse_integration_private_s3_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/clickhouse_integration_private_s3_v2_instance instaclustr_clickhouse_integration_private_s3_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class DataInstaclustrClickhouseIntegrationPrivateS3V2Instance extends cdk
       terraformResourceType: 'instaclustr_clickhouse_integration_private_s3_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.35',
-        providerVersionConstraint: '2.1.35'
+        providerVersion: '2.1.36',
+        providerVersionConstraint: '2.1.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

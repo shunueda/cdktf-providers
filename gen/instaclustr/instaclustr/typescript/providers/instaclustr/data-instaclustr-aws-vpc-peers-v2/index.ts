@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataInstaclustrAwsVpcPeersV2Config extends cdktf.TerraformMetaA
   /**
   * UUID of the Instaclustr Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#account_id DataInstaclustrAwsVpcPeersV2#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#account_id DataInstaclustrAwsVpcPeersV2#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#id DataInstaclustrAwsVpcPeersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#id DataInstaclustrAwsVpcPeersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,23 +23,23 @@ export interface DataInstaclustrAwsVpcPeersV2Config extends cdktf.TerraformMetaA
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#filter DataInstaclustrAwsVpcPeersV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#filter DataInstaclustrAwsVpcPeersV2#filter}
   */
   readonly filter?: DataInstaclustrAwsVpcPeersV2Filter[] | cdktf.IResolvable;
   /**
   * peering_requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#peering_requests DataInstaclustrAwsVpcPeersV2#peering_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#peering_requests DataInstaclustrAwsVpcPeersV2#peering_requests}
   */
   readonly peeringRequests?: DataInstaclustrAwsVpcPeersV2PeeringRequests[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrAwsVpcPeersV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#name DataInstaclustrAwsVpcPeersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#name DataInstaclustrAwsVpcPeersV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#values DataInstaclustrAwsVpcPeersV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#values DataInstaclustrAwsVpcPeersV2#values}
   */
   readonly values: string[];
 }
@@ -180,19 +180,19 @@ export interface DataInstaclustrAwsVpcPeersV2PeeringRequests {
   /**
   * ID of the Cluster Data Centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#cdc_id DataInstaclustrAwsVpcPeersV2#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#cdc_id DataInstaclustrAwsVpcPeersV2#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * ID of the current data centre VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#data_centre_vpc_id DataInstaclustrAwsVpcPeersV2#data_centre_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#data_centre_vpc_id DataInstaclustrAwsVpcPeersV2#data_centre_vpc_id}
   */
   readonly dataCentreVpcId?: string;
   /**
   * ID of the VPC peering connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#id DataInstaclustrAwsVpcPeersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#id DataInstaclustrAwsVpcPeersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -201,31 +201,31 @@ export interface DataInstaclustrAwsVpcPeersV2PeeringRequests {
   /**
   * Whether the VPC peering connection is managed by Instaclustr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#is_managed_by_instaclustr DataInstaclustrAwsVpcPeersV2#is_managed_by_instaclustr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#is_managed_by_instaclustr DataInstaclustrAwsVpcPeersV2#is_managed_by_instaclustr}
   */
   readonly isManagedByInstaclustr?: boolean | cdktf.IResolvable;
   /**
   * The AWS account ID of the owner of the accepter VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#peer_aws_account_id DataInstaclustrAwsVpcPeersV2#peer_aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#peer_aws_account_id DataInstaclustrAwsVpcPeersV2#peer_aws_account_id}
   */
   readonly peerAwsAccountId?: string;
   /**
   * Region code for the accepter VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#peer_region DataInstaclustrAwsVpcPeersV2#peer_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#peer_region DataInstaclustrAwsVpcPeersV2#peer_region}
   */
   readonly peerRegion?: string;
   /**
   * The subnets for the peering VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#peer_subnets DataInstaclustrAwsVpcPeersV2#peer_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#peer_subnets DataInstaclustrAwsVpcPeersV2#peer_subnets}
   */
   readonly peerSubnets?: string[];
   /**
   * ID of the VPC with which the peering connection is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#peer_vpc_id DataInstaclustrAwsVpcPeersV2#peer_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#peer_vpc_id DataInstaclustrAwsVpcPeersV2#peer_vpc_id}
   */
   readonly peerVpcId?: string;
 }
@@ -544,7 +544,7 @@ export class DataInstaclustrAwsVpcPeersV2PeeringRequestsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2 instaclustr_aws_vpc_peers_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2 instaclustr_aws_vpc_peers_v2}
 */
 export class DataInstaclustrAwsVpcPeersV2 extends cdktf.TerraformDataSource {
 
@@ -560,7 +560,7 @@ export class DataInstaclustrAwsVpcPeersV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataInstaclustrAwsVpcPeersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrAwsVpcPeersV2 to import
-  * @param importFromId The id of the existing DataInstaclustrAwsVpcPeersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrAwsVpcPeersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrAwsVpcPeersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -572,7 +572,7 @@ export class DataInstaclustrAwsVpcPeersV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/aws_vpc_peers_v2 instaclustr_aws_vpc_peers_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.36/docs/data-sources/aws_vpc_peers_v2 instaclustr_aws_vpc_peers_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -583,8 +583,8 @@ export class DataInstaclustrAwsVpcPeersV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'instaclustr_aws_vpc_peers_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.35',
-        providerVersionConstraint: '2.1.35'
+        providerVersion: '2.1.36',
+        providerVersionConstraint: '2.1.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

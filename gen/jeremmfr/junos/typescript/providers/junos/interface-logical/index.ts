@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface InterfaceLogicalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description for interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#description InterfaceLogical#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#description InterfaceLogical#description}
   */
   readonly description?: string;
   /**
   * Disable this logical interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#disable InterfaceLogical#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#disable InterfaceLogical#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Logical link-layer encapsulation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#encapsulation InterfaceLogical#encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#encapsulation InterfaceLogical#encapsulation}
   */
   readonly encapsulation?: string;
   /**
   * Name of logical interface (with dot).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#name InterfaceLogical#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#name InterfaceLogical#name}
   */
   readonly name: string;
   /**
   * Add this interface in routing_instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#routing_instance InterfaceLogical#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#routing_instance InterfaceLogical#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * The inbound protocols allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#security_inbound_protocols InterfaceLogical#security_inbound_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#security_inbound_protocols InterfaceLogical#security_inbound_protocols}
   */
   readonly securityInboundProtocols?: string[];
   /**
   * The inbound services allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#security_inbound_services InterfaceLogical#security_inbound_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#security_inbound_services InterfaceLogical#security_inbound_services}
   */
   readonly securityInboundServices?: string[];
   /**
   * Add this interface in a security zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#security_zone InterfaceLogical#security_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#security_zone InterfaceLogical#security_zone}
   */
   readonly securityZone?: string;
   /**
   * When destroy this resource, if the name has prefix `st0.`, delete all configurations (not keep empty st0 interface).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#st0_also_on_destroy InterfaceLogical#st0_also_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#st0_also_on_destroy InterfaceLogical#st0_also_on_destroy}
   */
   readonly st0AlsoOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Accept packets destined for virtual gateway address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#virtual_gateway_accept_data InterfaceLogical#virtual_gateway_accept_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#virtual_gateway_accept_data InterfaceLogical#virtual_gateway_accept_data}
   */
   readonly virtualGatewayAcceptData?: boolean | cdktf.IResolvable;
   /**
   * Virtual gateway IPV4 virtual MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#virtual_gateway_v4_mac InterfaceLogical#virtual_gateway_v4_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#virtual_gateway_v4_mac InterfaceLogical#virtual_gateway_v4_mac}
   */
   readonly virtualGatewayV4Mac?: string;
   /**
   * Virtual gateway IPV6 virtual MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#virtual_gateway_v6_mac InterfaceLogical#virtual_gateway_v6_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#virtual_gateway_v6_mac InterfaceLogical#virtual_gateway_v6_mac}
   */
   readonly virtualGatewayV6Mac?: string;
   /**
   * Virtual LAN identifier value for 802.1q VLAN tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#vlan_id InterfaceLogical#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#vlan_id InterfaceLogical#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * Disable the automatic compute of the `vlan_id` argument when not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#vlan_no_compute InterfaceLogical#vlan_no_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#vlan_no_compute InterfaceLogical#vlan_no_compute}
   */
   readonly vlanNoCompute?: boolean | cdktf.IResolvable;
   /**
   * family_inet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#family_inet InterfaceLogical#family_inet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#family_inet InterfaceLogical#family_inet}
   */
   readonly familyInet?: InterfaceLogicalFamilyInet;
   /**
   * family_inet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#family_inet6 InterfaceLogical#family_inet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#family_inet6 InterfaceLogical#family_inet6}
   */
   readonly familyInet6?: InterfaceLogicalFamilyInet6;
   /**
   * tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#tunnel InterfaceLogical#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#tunnel InterfaceLogical#tunnel}
   */
   readonly tunnel?: InterfaceLogicalTunnel;
 }
@@ -114,13 +114,13 @@ export interface InterfaceLogicalFamilyInetAddressVrrpGroupTrackInterface {
   /**
   * Name of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#interface InterfaceLogical#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#interface InterfaceLogical#interface}
   */
   readonly interface: string;
   /**
   * Value to subtract from priority when interface is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#priority_cost InterfaceLogical#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#priority_cost InterfaceLogical#priority_cost}
   */
   readonly priorityCost: number;
 }
@@ -261,19 +261,19 @@ export interface InterfaceLogicalFamilyInetAddressVrrpGroupTrackRoute {
   /**
   * Value to subtract from priority when route is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#priority_cost InterfaceLogical#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#priority_cost InterfaceLogical#priority_cost}
   */
   readonly priorityCost: number;
   /**
   * Route address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#route InterfaceLogical#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#route InterfaceLogical#route}
   */
   readonly route: string;
   /**
   * Routing instance to which route belongs, or `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#routing_instance InterfaceLogical#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#routing_instance InterfaceLogical#routing_instance}
   */
   readonly routingInstance: string;
 }
@@ -440,79 +440,79 @@ export interface InterfaceLogicalFamilyInetAddressVrrpGroup {
   /**
   * Accept packets destined for virtual IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#accept_data InterfaceLogical#accept_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#accept_data InterfaceLogical#accept_data}
   */
   readonly acceptData?: boolean | cdktf.IResolvable;
   /**
   * Advertisement interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#advertise_interval InterfaceLogical#advertise_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#advertise_interval InterfaceLogical#advertise_interval}
   */
   readonly advertiseInterval?: number;
   /**
   * Number of vrrp advertisements missed before declaring master down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#advertisements_threshold InterfaceLogical#advertisements_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#advertisements_threshold InterfaceLogical#advertisements_threshold}
   */
   readonly advertisementsThreshold?: number;
   /**
   * Authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#authentication_key InterfaceLogical#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#authentication_key InterfaceLogical#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#authentication_type InterfaceLogical#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#authentication_type InterfaceLogical#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * ID for vrrp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#identifier InterfaceLogical#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#identifier InterfaceLogical#identifier}
   */
   readonly identifier: number;
   /**
   * Don't accept packets destined for virtual IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#no_accept_data InterfaceLogical#no_accept_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#no_accept_data InterfaceLogical#no_accept_data}
   */
   readonly noAcceptData?: boolean | cdktf.IResolvable;
   /**
   * Don't allow preemption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#no_preempt InterfaceLogical#no_preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#no_preempt InterfaceLogical#no_preempt}
   */
   readonly noPreempt?: boolean | cdktf.IResolvable;
   /**
   * Allow preemption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#preempt InterfaceLogical#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#preempt InterfaceLogical#preempt}
   */
   readonly preempt?: boolean | cdktf.IResolvable;
   /**
   * Virtual router election priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#priority InterfaceLogical#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#priority InterfaceLogical#priority}
   */
   readonly priority?: number;
   /**
   * Virtual IPv4 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#virtual_address InterfaceLogical#virtual_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#virtual_address InterfaceLogical#virtual_address}
   */
   readonly virtualAddress: string[];
   /**
   * track_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#track_interface InterfaceLogical#track_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#track_interface InterfaceLogical#track_interface}
   */
   readonly trackInterface?: InterfaceLogicalFamilyInetAddressVrrpGroupTrackInterface[] | cdktf.IResolvable;
   /**
   * track_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#track_route InterfaceLogical#track_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#track_route InterfaceLogical#track_route}
   */
   readonly trackRoute?: InterfaceLogicalFamilyInetAddressVrrpGroupTrackRoute[] | cdktf.IResolvable;
 }
@@ -972,31 +972,31 @@ export interface InterfaceLogicalFamilyInetAddress {
   /**
   * IPv4 address in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#cidr_ip InterfaceLogical#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#cidr_ip InterfaceLogical#cidr_ip}
   */
   readonly cidrIp: string;
   /**
   * Preferred address on interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#preferred InterfaceLogical#preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#preferred InterfaceLogical#preferred}
   */
   readonly preferred?: boolean | cdktf.IResolvable;
   /**
   * Candidate for primary address in system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#primary InterfaceLogical#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#primary InterfaceLogical#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * Virtual gateway IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#virtual_gateway_address InterfaceLogical#virtual_gateway_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#virtual_gateway_address InterfaceLogical#virtual_gateway_address}
   */
   readonly virtualGatewayAddress?: string;
   /**
   * vrrp_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#vrrp_group InterfaceLogical#vrrp_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#vrrp_group InterfaceLogical#vrrp_group}
   */
   readonly vrrpGroup?: InterfaceLogicalFamilyInetAddressVrrpGroup[] | cdktf.IResolvable;
 }
@@ -1227,115 +1227,115 @@ export interface InterfaceLogicalFamilyInetDhcp {
   /**
   * Client identifier as an ASCII string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_identifier_ascii InterfaceLogical#client_identifier_ascii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_identifier_ascii InterfaceLogical#client_identifier_ascii}
   */
   readonly clientIdentifierAscii?: string;
   /**
   * Client identifier as a hexadecimal string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_identifier_hexadecimal InterfaceLogical#client_identifier_hexadecimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_identifier_hexadecimal InterfaceLogical#client_identifier_hexadecimal}
   */
   readonly clientIdentifierHexadecimal?: string;
   /**
   * Add prefix router host name to client-id option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_identifier_prefix_hostname InterfaceLogical#client_identifier_prefix_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_identifier_prefix_hostname InterfaceLogical#client_identifier_prefix_hostname}
   */
   readonly clientIdentifierPrefixHostname?: boolean | cdktf.IResolvable;
   /**
   * Add prefix routing instance name to client-id option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_identifier_prefix_routing_instance_name InterfaceLogical#client_identifier_prefix_routing_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_identifier_prefix_routing_instance_name InterfaceLogical#client_identifier_prefix_routing_instance_name}
   */
   readonly clientIdentifierPrefixRoutingInstanceName?: boolean | cdktf.IResolvable;
   /**
   * Use the interface description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_identifier_use_interface_description InterfaceLogical#client_identifier_use_interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_identifier_use_interface_description InterfaceLogical#client_identifier_use_interface_description}
   */
   readonly clientIdentifierUseInterfaceDescription?: string;
   /**
   * Add user id as an ASCII string to client-id option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_identifier_userid_ascii InterfaceLogical#client_identifier_userid_ascii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_identifier_userid_ascii InterfaceLogical#client_identifier_userid_ascii}
   */
   readonly clientIdentifierUseridAscii?: string;
   /**
   * Add user id as a hexadecimal string to client-id option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_identifier_userid_hexadecimal InterfaceLogical#client_identifier_userid_hexadecimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_identifier_userid_hexadecimal InterfaceLogical#client_identifier_userid_hexadecimal}
   */
   readonly clientIdentifierUseridHexadecimal?: string;
   /**
   * Send DHCPDISCOVER after DHCPREQUEST retransmission failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#force_discover InterfaceLogical#force_discover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#force_discover InterfaceLogical#force_discover}
   */
   readonly forceDiscover?: boolean | cdktf.IResolvable;
   /**
   * Lease time in seconds requested in DHCP client protocol packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#lease_time InterfaceLogical#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#lease_time InterfaceLogical#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * Lease never expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#lease_time_infinite InterfaceLogical#lease_time_infinite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#lease_time_infinite InterfaceLogical#lease_time_infinite}
   */
   readonly leaseTimeInfinite?: boolean | cdktf.IResolvable;
   /**
   * Client initiated default-route metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#metric InterfaceLogical#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#metric InterfaceLogical#metric}
   */
   readonly metric?: number;
   /**
   * Do not install DNS information learned from DHCP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#no_dns_install InterfaceLogical#no_dns_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#no_dns_install InterfaceLogical#no_dns_install}
   */
   readonly noDnsInstall?: boolean | cdktf.IResolvable;
   /**
   * Do not carry hostname (RFC option code is 12) in packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#options_no_hostname InterfaceLogical#options_no_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#options_no_hostname InterfaceLogical#options_no_hostname}
   */
   readonly optionsNoHostname?: boolean | cdktf.IResolvable;
   /**
   * Number of attempts to retransmit the DHCP client protocol packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#retransmission_attempt InterfaceLogical#retransmission_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#retransmission_attempt InterfaceLogical#retransmission_attempt}
   */
   readonly retransmissionAttempt?: number;
   /**
   * Number of seconds between successive retransmission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#retransmission_interval InterfaceLogical#retransmission_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#retransmission_interval InterfaceLogical#retransmission_interval}
   */
   readonly retransmissionInterval?: number;
   /**
   * DHCP Server-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#server_address InterfaceLogical#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#server_address InterfaceLogical#server_address}
   */
   readonly serverAddress?: string;
   /**
   * For configuration, use the old option name `dhcp-client` instead of `dhcp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#srx_old_option_name InterfaceLogical#srx_old_option_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#srx_old_option_name InterfaceLogical#srx_old_option_name}
   */
   readonly srxOldOptionName?: boolean | cdktf.IResolvable;
   /**
   * Propagate TCP/IP settings to DHCP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#update_server InterfaceLogical#update_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#update_server InterfaceLogical#update_server}
   */
   readonly updateServer?: boolean | cdktf.IResolvable;
   /**
   * Vendor class id for the DHCP Client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#vendor_id InterfaceLogical#vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#vendor_id InterfaceLogical#vendor_id}
   */
   readonly vendorId?: string;
 }
@@ -1953,13 +1953,13 @@ export interface InterfaceLogicalFamilyInetRpfCheck {
   /**
   * Name of filter applied to packets failing RPF check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#fail_filter InterfaceLogical#fail_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#fail_filter InterfaceLogical#fail_filter}
   */
   readonly failFilter?: string;
   /**
   * Use reverse-path-forwarding loose mode instead the strict mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#mode_loose InterfaceLogical#mode_loose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#mode_loose InterfaceLogical#mode_loose}
   */
   readonly modeLoose?: boolean | cdktf.IResolvable;
 }
@@ -2084,49 +2084,49 @@ export interface InterfaceLogicalFamilyInet {
   /**
   * Filter to be applied to received packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#filter_input InterfaceLogical#filter_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#filter_input InterfaceLogical#filter_input}
   */
   readonly filterInput?: string;
   /**
   * Filter to be applied to transmitted packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#filter_output InterfaceLogical#filter_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#filter_output InterfaceLogical#filter_output}
   */
   readonly filterOutput?: string;
   /**
   * Maximum transmission unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#mtu InterfaceLogical#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#mtu InterfaceLogical#mtu}
   */
   readonly mtu?: number;
   /**
   * Sample all packets input on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#sampling_input InterfaceLogical#sampling_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#sampling_input InterfaceLogical#sampling_input}
   */
   readonly samplingInput?: boolean | cdktf.IResolvable;
   /**
   * Sample all packets output on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#sampling_output InterfaceLogical#sampling_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#sampling_output InterfaceLogical#sampling_output}
   */
   readonly samplingOutput?: boolean | cdktf.IResolvable;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#address InterfaceLogical#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#address InterfaceLogical#address}
   */
   readonly address?: InterfaceLogicalFamilyInetAddress[] | cdktf.IResolvable;
   /**
   * dhcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#dhcp InterfaceLogical#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#dhcp InterfaceLogical#dhcp}
   */
   readonly dhcp?: InterfaceLogicalFamilyInetDhcp;
   /**
   * rpf_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#rpf_check InterfaceLogical#rpf_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#rpf_check InterfaceLogical#rpf_check}
   */
   readonly rpfCheck?: InterfaceLogicalFamilyInetRpfCheck;
 }
@@ -2425,13 +2425,13 @@ export interface InterfaceLogicalFamilyInet6AddressVrrpGroupTrackInterface {
   /**
   * Name of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#interface InterfaceLogical#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#interface InterfaceLogical#interface}
   */
   readonly interface: string;
   /**
   * Value to subtract from priority when interface is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#priority_cost InterfaceLogical#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#priority_cost InterfaceLogical#priority_cost}
   */
   readonly priorityCost: number;
 }
@@ -2572,19 +2572,19 @@ export interface InterfaceLogicalFamilyInet6AddressVrrpGroupTrackRoute {
   /**
   * Value to subtract from priority when route is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#priority_cost InterfaceLogical#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#priority_cost InterfaceLogical#priority_cost}
   */
   readonly priorityCost: number;
   /**
   * Route address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#route InterfaceLogical#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#route InterfaceLogical#route}
   */
   readonly route: string;
   /**
   * Routing instance to which route belongs, or `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#routing_instance InterfaceLogical#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#routing_instance InterfaceLogical#routing_instance}
   */
   readonly routingInstance: string;
 }
@@ -2751,73 +2751,73 @@ export interface InterfaceLogicalFamilyInet6AddressVrrpGroup {
   /**
   * Accept packets destined for virtual IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#accept_data InterfaceLogical#accept_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#accept_data InterfaceLogical#accept_data}
   */
   readonly acceptData?: boolean | cdktf.IResolvable;
   /**
   * Advertisement interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#advertise_interval InterfaceLogical#advertise_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#advertise_interval InterfaceLogical#advertise_interval}
   */
   readonly advertiseInterval?: number;
   /**
   * Number of vrrp advertisements missed before declaring master down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#advertisements_threshold InterfaceLogical#advertisements_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#advertisements_threshold InterfaceLogical#advertisements_threshold}
   */
   readonly advertisementsThreshold?: number;
   /**
   * ID for vrrp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#identifier InterfaceLogical#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#identifier InterfaceLogical#identifier}
   */
   readonly identifier: number;
   /**
   * Don't accept packets destined for virtual IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#no_accept_data InterfaceLogical#no_accept_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#no_accept_data InterfaceLogical#no_accept_data}
   */
   readonly noAcceptData?: boolean | cdktf.IResolvable;
   /**
   * Don't allow preemption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#no_preempt InterfaceLogical#no_preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#no_preempt InterfaceLogical#no_preempt}
   */
   readonly noPreempt?: boolean | cdktf.IResolvable;
   /**
   * Allow preemption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#preempt InterfaceLogical#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#preempt InterfaceLogical#preempt}
   */
   readonly preempt?: boolean | cdktf.IResolvable;
   /**
   * Virtual router election priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#priority InterfaceLogical#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#priority InterfaceLogical#priority}
   */
   readonly priority?: number;
   /**
   * Virtual IPv6 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#virtual_address InterfaceLogical#virtual_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#virtual_address InterfaceLogical#virtual_address}
   */
   readonly virtualAddress: string[];
   /**
   * Address IPv6 for Virtual link-local addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#virtual_link_local_address InterfaceLogical#virtual_link_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#virtual_link_local_address InterfaceLogical#virtual_link_local_address}
   */
   readonly virtualLinkLocalAddress: string;
   /**
   * track_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#track_interface InterfaceLogical#track_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#track_interface InterfaceLogical#track_interface}
   */
   readonly trackInterface?: InterfaceLogicalFamilyInet6AddressVrrpGroupTrackInterface[] | cdktf.IResolvable;
   /**
   * track_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#track_route InterfaceLogical#track_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#track_route InterfaceLogical#track_route}
   */
   readonly trackRoute?: InterfaceLogicalFamilyInet6AddressVrrpGroupTrackRoute[] | cdktf.IResolvable;
 }
@@ -3245,31 +3245,31 @@ export interface InterfaceLogicalFamilyInet6Address {
   /**
   * IPv6 address in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#cidr_ip InterfaceLogical#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#cidr_ip InterfaceLogical#cidr_ip}
   */
   readonly cidrIp: string;
   /**
   * Preferred address on interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#preferred InterfaceLogical#preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#preferred InterfaceLogical#preferred}
   */
   readonly preferred?: boolean | cdktf.IResolvable;
   /**
   * Candidate for primary address in system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#primary InterfaceLogical#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#primary InterfaceLogical#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * Virtual gateway IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#virtual_gateway_address InterfaceLogical#virtual_gateway_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#virtual_gateway_address InterfaceLogical#virtual_gateway_address}
   */
   readonly virtualGatewayAddress?: string;
   /**
   * vrrp_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#vrrp_group InterfaceLogical#vrrp_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#vrrp_group InterfaceLogical#vrrp_group}
   */
   readonly vrrpGroup?: InterfaceLogicalFamilyInet6AddressVrrpGroup[] | cdktf.IResolvable;
 }
@@ -3500,73 +3500,73 @@ export interface InterfaceLogicalFamilyInet6Dhcpv6Client {
   /**
   * DHCPv6 client identity association type Non-temporary Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_ia_type_na InterfaceLogical#client_ia_type_na}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_ia_type_na InterfaceLogical#client_ia_type_na}
   */
   readonly clientIaTypeNa?: boolean | cdktf.IResolvable;
   /**
   * DHCPv6 client identity association type Prefix Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_ia_type_pd InterfaceLogical#client_ia_type_pd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_ia_type_pd InterfaceLogical#client_ia_type_pd}
   */
   readonly clientIaTypePd?: boolean | cdktf.IResolvable;
   /**
   * DUID identifying a client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_identifier_duid_type InterfaceLogical#client_identifier_duid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_identifier_duid_type InterfaceLogical#client_identifier_duid_type}
   */
   readonly clientIdentifierDuidType?: string;
   /**
   * DHCPv6 client type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#client_type InterfaceLogical#client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#client_type InterfaceLogical#client_type}
   */
   readonly clientType?: string;
   /**
   * Do not install DNS information learned from DHCP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#no_dns_install InterfaceLogical#no_dns_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#no_dns_install InterfaceLogical#no_dns_install}
   */
   readonly noDnsInstall?: boolean | cdktf.IResolvable;
   /**
   * Client preferred prefix length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#prefix_delegating_preferred_prefix_length InterfaceLogical#prefix_delegating_preferred_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#prefix_delegating_preferred_prefix_length InterfaceLogical#prefix_delegating_preferred_prefix_length}
   */
   readonly prefixDelegatingPreferredPrefixLength?: number;
   /**
   * The sub prefix length for LAN interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#prefix_delegating_sub_prefix_length InterfaceLogical#prefix_delegating_sub_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#prefix_delegating_sub_prefix_length InterfaceLogical#prefix_delegating_sub_prefix_length}
   */
   readonly prefixDelegatingSubPrefixLength?: number;
   /**
   * Option is used to signal the use of the two message exchange for address assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#rapid_commit InterfaceLogical#rapid_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#rapid_commit InterfaceLogical#rapid_commit}
   */
   readonly rapidCommit?: boolean | cdktf.IResolvable;
   /**
   * DHCPV6 client requested option configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#req_option InterfaceLogical#req_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#req_option InterfaceLogical#req_option}
   */
   readonly reqOption?: string[];
   /**
   * Number of attempts to retransmit the DHCPV6 client protocol packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#retransmission_attempt InterfaceLogical#retransmission_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#retransmission_attempt InterfaceLogical#retransmission_attempt}
   */
   readonly retransmissionAttempt?: number;
   /**
   * Interfaces on which to delegate prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#update_router_advertisement_interface InterfaceLogical#update_router_advertisement_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#update_router_advertisement_interface InterfaceLogical#update_router_advertisement_interface}
   */
   readonly updateRouterAdvertisementInterface?: string[];
   /**
   * Propagate TCP/IP settings to DHCP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#update_server InterfaceLogical#update_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#update_server InterfaceLogical#update_server}
   */
   readonly updateServer?: boolean | cdktf.IResolvable;
 }
@@ -3981,13 +3981,13 @@ export interface InterfaceLogicalFamilyInet6RpfCheck {
   /**
   * Name of filter applied to packets failing RPF check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#fail_filter InterfaceLogical#fail_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#fail_filter InterfaceLogical#fail_filter}
   */
   readonly failFilter?: string;
   /**
   * Use reverse-path-forwarding loose mode instead the strict mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#mode_loose InterfaceLogical#mode_loose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#mode_loose InterfaceLogical#mode_loose}
   */
   readonly modeLoose?: boolean | cdktf.IResolvable;
 }
@@ -4112,55 +4112,55 @@ export interface InterfaceLogicalFamilyInet6 {
   /**
   * Disable duplicate-address-detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#dad_disable InterfaceLogical#dad_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#dad_disable InterfaceLogical#dad_disable}
   */
   readonly dadDisable?: boolean | cdktf.IResolvable;
   /**
   * Filter to be applied to received packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#filter_input InterfaceLogical#filter_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#filter_input InterfaceLogical#filter_input}
   */
   readonly filterInput?: string;
   /**
   * Filter to be applied to transmitted packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#filter_output InterfaceLogical#filter_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#filter_output InterfaceLogical#filter_output}
   */
   readonly filterOutput?: string;
   /**
   * Maximum transmission unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#mtu InterfaceLogical#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#mtu InterfaceLogical#mtu}
   */
   readonly mtu?: number;
   /**
   * Sample all packets input on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#sampling_input InterfaceLogical#sampling_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#sampling_input InterfaceLogical#sampling_input}
   */
   readonly samplingInput?: boolean | cdktf.IResolvable;
   /**
   * Sample all packets output on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#sampling_output InterfaceLogical#sampling_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#sampling_output InterfaceLogical#sampling_output}
   */
   readonly samplingOutput?: boolean | cdktf.IResolvable;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#address InterfaceLogical#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#address InterfaceLogical#address}
   */
   readonly address?: InterfaceLogicalFamilyInet6Address[] | cdktf.IResolvable;
   /**
   * dhcpv6_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#dhcpv6_client InterfaceLogical#dhcpv6_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#dhcpv6_client InterfaceLogical#dhcpv6_client}
   */
   readonly dhcpv6Client?: InterfaceLogicalFamilyInet6Dhcpv6Client;
   /**
   * rpf_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#rpf_check InterfaceLogical#rpf_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#rpf_check InterfaceLogical#rpf_check}
   */
   readonly rpfCheck?: InterfaceLogicalFamilyInet6RpfCheck;
 }
@@ -4488,61 +4488,61 @@ export interface InterfaceLogicalTunnel {
   /**
   * Do not set DF bit on packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#allow_fragmentation InterfaceLogical#allow_fragmentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#allow_fragmentation InterfaceLogical#allow_fragmentation}
   */
   readonly allowFragmentation?: boolean | cdktf.IResolvable;
   /**
   * Tunnel destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#destination InterfaceLogical#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#destination InterfaceLogical#destination}
   */
   readonly destination?: string;
   /**
   * Set DF bit on packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#do_not_fragment InterfaceLogical#do_not_fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#do_not_fragment InterfaceLogical#do_not_fragment}
   */
   readonly doNotFragment?: boolean | cdktf.IResolvable;
   /**
   * Flow label field of IP6-header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#flow_label InterfaceLogical#flow_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#flow_label InterfaceLogical#flow_label}
   */
   readonly flowLabel?: number;
   /**
   * Don't enable path MTU discovery for tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#no_path_mtu_discovery InterfaceLogical#no_path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#no_path_mtu_discovery InterfaceLogical#no_path_mtu_discovery}
   */
   readonly noPathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Enable path MTU discovery for tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#path_mtu_discovery InterfaceLogical#path_mtu_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#path_mtu_discovery InterfaceLogical#path_mtu_discovery}
   */
   readonly pathMtuDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Routing instance to which tunnel ends belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#routing_instance_destination InterfaceLogical#routing_instance_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#routing_instance_destination InterfaceLogical#routing_instance_destination}
   */
   readonly routingInstanceDestination?: string;
   /**
   * Tunnel source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#source InterfaceLogical#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#source InterfaceLogical#source}
   */
   readonly source?: string;
   /**
   * TOS/Traffic class field of IP-header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#traffic_class InterfaceLogical#traffic_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#traffic_class InterfaceLogical#traffic_class}
   */
   readonly trafficClass?: number;
   /**
   * Time to live
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#ttl InterfaceLogical#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#ttl InterfaceLogical#ttl}
   */
   readonly ttl?: number;
 }
@@ -4897,7 +4897,7 @@ export class InterfaceLogicalTunnelOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical junos_interface_logical}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical junos_interface_logical}
 */
 export class InterfaceLogical extends cdktf.TerraformResource {
 
@@ -4913,7 +4913,7 @@ export class InterfaceLogical extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLogical resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLogical to import
-  * @param importFromId The id of the existing InterfaceLogical that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLogical that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLogical to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4925,7 +4925,7 @@ export class InterfaceLogical extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/interface_logical junos_interface_logical} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/interface_logical junos_interface_logical} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4936,8 +4936,8 @@ export class InterfaceLogical extends cdktf.TerraformResource {
       terraformResourceType: 'junos_interface_logical',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

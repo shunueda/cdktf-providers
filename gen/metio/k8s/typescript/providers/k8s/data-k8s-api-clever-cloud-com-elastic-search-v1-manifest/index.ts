@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SApiCleverCloudComElasticSearchV1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#metadata DataK8SApiCleverCloudComElasticSearchV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#metadata DataK8SApiCleverCloudComElasticSearchV1Manifest#metadata}
   */
   readonly metadata: DataK8SApiCleverCloudComElasticSearchV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#spec DataK8SApiCleverCloudComElasticSearchV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#spec DataK8SApiCleverCloudComElasticSearchV1Manifest#spec}
   */
   readonly spec: DataK8SApiCleverCloudComElasticSearchV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SApiCleverCloudComElasticSearchV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#annotations DataK8SApiCleverCloudComElasticSearchV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#annotations DataK8SApiCleverCloudComElasticSearchV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#labels DataK8SApiCleverCloudComElasticSearchV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#labels DataK8SApiCleverCloudComElasticSearchV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#name DataK8SApiCleverCloudComElasticSearchV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#name DataK8SApiCleverCloudComElasticSearchV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#namespace DataK8SApiCleverCloudComElasticSearchV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#namespace DataK8SApiCleverCloudComElasticSearchV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,11 +215,11 @@ export class DataK8SApiCleverCloudComElasticSearchV1ManifestMetadataOutputRefere
 }
 export interface DataK8SApiCleverCloudComElasticSearchV1ManifestSpecInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#plan DataK8SApiCleverCloudComElasticSearchV1Manifest#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#plan DataK8SApiCleverCloudComElasticSearchV1Manifest#plan}
   */
   readonly plan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#region DataK8SApiCleverCloudComElasticSearchV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#region DataK8SApiCleverCloudComElasticSearchV1Manifest#region}
   */
   readonly region: string;
 }
@@ -336,19 +336,19 @@ export class DataK8SApiCleverCloudComElasticSearchV1ManifestSpecInstanceOutputRe
 }
 export interface DataK8SApiCleverCloudComElasticSearchV1ManifestSpecOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#apm DataK8SApiCleverCloudComElasticSearchV1Manifest#apm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#apm DataK8SApiCleverCloudComElasticSearchV1Manifest#apm}
   */
   readonly apm: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#encryption DataK8SApiCleverCloudComElasticSearchV1Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#encryption DataK8SApiCleverCloudComElasticSearchV1Manifest#encryption}
   */
   readonly encryption: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#kibana DataK8SApiCleverCloudComElasticSearchV1Manifest#kibana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#kibana DataK8SApiCleverCloudComElasticSearchV1Manifest#kibana}
   */
   readonly kibana: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#version DataK8SApiCleverCloudComElasticSearchV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#version DataK8SApiCleverCloudComElasticSearchV1Manifest#version}
   */
   readonly version: number;
 }
@@ -517,15 +517,15 @@ export class DataK8SApiCleverCloudComElasticSearchV1ManifestSpecOptionsOutputRef
 }
 export interface DataK8SApiCleverCloudComElasticSearchV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#instance DataK8SApiCleverCloudComElasticSearchV1Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#instance DataK8SApiCleverCloudComElasticSearchV1Manifest#instance}
   */
   readonly instance: DataK8SApiCleverCloudComElasticSearchV1ManifestSpecInstance;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#options DataK8SApiCleverCloudComElasticSearchV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#options DataK8SApiCleverCloudComElasticSearchV1Manifest#options}
   */
   readonly options: DataK8SApiCleverCloudComElasticSearchV1ManifestSpecOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#organisation DataK8SApiCleverCloudComElasticSearchV1Manifest#organisation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#organisation DataK8SApiCleverCloudComElasticSearchV1Manifest#organisation}
   */
   readonly organisation: string;
 }
@@ -668,7 +668,7 @@ export class DataK8SApiCleverCloudComElasticSearchV1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest k8s_api_clever_cloud_com_elastic_search_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest k8s_api_clever_cloud_com_elastic_search_v1_manifest}
 */
 export class DataK8SApiCleverCloudComElasticSearchV1Manifest extends cdktf.TerraformDataSource {
 
@@ -684,7 +684,7 @@ export class DataK8SApiCleverCloudComElasticSearchV1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SApiCleverCloudComElasticSearchV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApiCleverCloudComElasticSearchV1Manifest to import
-  * @param importFromId The id of the existing DataK8SApiCleverCloudComElasticSearchV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApiCleverCloudComElasticSearchV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApiCleverCloudComElasticSearchV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -696,7 +696,7 @@ export class DataK8SApiCleverCloudComElasticSearchV1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest k8s_api_clever_cloud_com_elastic_search_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/api_clever_cloud_com_elastic_search_v1_manifest k8s_api_clever_cloud_com_elastic_search_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -707,8 +707,8 @@ export class DataK8SApiCleverCloudComElasticSearchV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_api_clever_cloud_com_elastic_search_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

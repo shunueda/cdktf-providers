@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface EventoptionsPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of events that trigger this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#events EventoptionsPolicy#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#events EventoptionsPolicy#events}
   */
   readonly events: string[];
   /**
   * Name of policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#name EventoptionsPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#name EventoptionsPolicy#name}
   */
   readonly name: string;
   /**
   * attributes_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#attributes_match EventoptionsPolicy#attributes_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#attributes_match EventoptionsPolicy#attributes_match}
   */
   readonly attributesMatch?: EventoptionsPolicyAttributesMatch[] | cdktf.IResolvable;
   /**
   * then block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#then EventoptionsPolicy#then}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#then EventoptionsPolicy#then}
   */
   readonly then?: EventoptionsPolicyThen;
   /**
   * within block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#within EventoptionsPolicy#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#within EventoptionsPolicy#within}
   */
   readonly within?: EventoptionsPolicyWithin[] | cdktf.IResolvable;
 }
@@ -42,19 +42,19 @@ export interface EventoptionsPolicyAttributesMatch {
   /**
   * Type to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#compare EventoptionsPolicy#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#compare EventoptionsPolicy#compare}
   */
   readonly compare: string;
   /**
   * First attribute to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#from EventoptionsPolicy#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#from EventoptionsPolicy#from}
   */
   readonly from: string;
   /**
   * Second attribute or value to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#to EventoptionsPolicy#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#to EventoptionsPolicy#to}
   */
   readonly to: string;
 }
@@ -221,55 +221,55 @@ export interface EventoptionsPolicyThenChangeConfiguration {
   /**
   * List of configuration commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#commands EventoptionsPolicy#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#commands EventoptionsPolicy#commands}
   */
   readonly commands?: string[];
   /**
   * Check correctness of syntax; do not apply changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#commit_options_check EventoptionsPolicy#commit_options_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#commit_options_check EventoptionsPolicy#commit_options_check}
   */
   readonly commitOptionsCheck?: boolean | cdktf.IResolvable;
   /**
   * Synchronize commit check on both Routing Engines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#commit_options_check_synchronize EventoptionsPolicy#commit_options_check_synchronize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#commit_options_check_synchronize EventoptionsPolicy#commit_options_check_synchronize}
   */
   readonly commitOptionsCheckSynchronize?: boolean | cdktf.IResolvable;
   /**
   * Force commit on other Routing Engine (ignore warnings).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#commit_options_force EventoptionsPolicy#commit_options_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#commit_options_force EventoptionsPolicy#commit_options_force}
   */
   readonly commitOptionsForce?: boolean | cdktf.IResolvable;
   /**
   * Message to write to commit log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#commit_options_log EventoptionsPolicy#commit_options_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#commit_options_log EventoptionsPolicy#commit_options_log}
   */
   readonly commitOptionsLog?: string;
   /**
   * Synchronize commit on both Routing Engines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#commit_options_synchronize EventoptionsPolicy#commit_options_synchronize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#commit_options_synchronize EventoptionsPolicy#commit_options_synchronize}
   */
   readonly commitOptionsSynchronize?: boolean | cdktf.IResolvable;
   /**
   * Change configuration retry attempt count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#retry_count EventoptionsPolicy#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#retry_count EventoptionsPolicy#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Time interval between each retry (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#retry_interval EventoptionsPolicy#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#retry_interval EventoptionsPolicy#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * User under whose privileges configuration should be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#user_name EventoptionsPolicy#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#user_name EventoptionsPolicy#user_name}
   */
   readonly userName?: string;
 }
@@ -597,13 +597,13 @@ export interface EventoptionsPolicyThenEventScriptArguments {
   /**
   * Name of the argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#name EventoptionsPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#name EventoptionsPolicy#name}
   */
   readonly name: string;
   /**
   * Value of the argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#value EventoptionsPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#value EventoptionsPolicy#value}
   */
   readonly value: string;
 }
@@ -744,25 +744,25 @@ export interface EventoptionsPolicyThenEventScriptDestination {
   /**
   * Destination name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#name EventoptionsPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#name EventoptionsPolicy#name}
   */
   readonly name?: string;
   /**
   * Upload output-filename retry attempt count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#retry_count EventoptionsPolicy#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#retry_count EventoptionsPolicy#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Time interval between each retry (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#retry_interval EventoptionsPolicy#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#retry_interval EventoptionsPolicy#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * Delay before uploading files (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#transfer_delay EventoptionsPolicy#transfer_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#transfer_delay EventoptionsPolicy#transfer_delay}
   */
   readonly transferDelay?: number;
 }
@@ -945,37 +945,37 @@ export interface EventoptionsPolicyThenEventScript {
   /**
   * Local filename of the script file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#filename EventoptionsPolicy#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#filename EventoptionsPolicy#filename}
   */
   readonly filename: string;
   /**
   * Name of file in which to write event script output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#output_filename EventoptionsPolicy#output_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#output_filename EventoptionsPolicy#output_filename}
   */
   readonly outputFilename?: string;
   /**
   * Format of output from event-script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#output_format EventoptionsPolicy#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#output_format EventoptionsPolicy#output_format}
   */
   readonly outputFormat?: string;
   /**
   * User under whose privileges event script will execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#user_name EventoptionsPolicy#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#user_name EventoptionsPolicy#user_name}
   */
   readonly userName?: string;
   /**
   * arguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#arguments EventoptionsPolicy#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#arguments EventoptionsPolicy#arguments}
   */
   readonly arguments?: EventoptionsPolicyThenEventScriptArguments[] | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#destination EventoptionsPolicy#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#destination EventoptionsPolicy#destination}
   */
   readonly destination?: EventoptionsPolicyThenEventScriptDestination;
 }
@@ -1235,25 +1235,25 @@ export interface EventoptionsPolicyThenExecuteCommandsDestination {
   /**
   * Destination name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#name EventoptionsPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#name EventoptionsPolicy#name}
   */
   readonly name?: string;
   /**
   * Upload output-filename retry attempt count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#retry_count EventoptionsPolicy#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#retry_count EventoptionsPolicy#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Time interval between each retry (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#retry_interval EventoptionsPolicy#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#retry_interval EventoptionsPolicy#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * Delay before uploading file to the destination (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#transfer_delay EventoptionsPolicy#transfer_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#transfer_delay EventoptionsPolicy#transfer_delay}
   */
   readonly transferDelay?: number;
 }
@@ -1436,31 +1436,31 @@ export interface EventoptionsPolicyThenExecuteCommands {
   /**
   * List of CLI commands to issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#commands EventoptionsPolicy#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#commands EventoptionsPolicy#commands}
   */
   readonly commands?: string[];
   /**
   * Name of file in which to write command output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#output_filename EventoptionsPolicy#output_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#output_filename EventoptionsPolicy#output_filename}
   */
   readonly outputFilename?: string;
   /**
   * Format of output from CLI commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#output_format EventoptionsPolicy#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#output_format EventoptionsPolicy#output_format}
   */
   readonly outputFormat?: string;
   /**
   * User under whose privileges command will execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#user_name EventoptionsPolicy#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#user_name EventoptionsPolicy#user_name}
   */
   readonly userName?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#destination EventoptionsPolicy#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#destination EventoptionsPolicy#destination}
   */
   readonly destination?: EventoptionsPolicyThenExecuteCommandsDestination;
 }
@@ -1672,37 +1672,37 @@ export interface EventoptionsPolicyThenUpload {
   /**
   * Location to which to output file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#destination EventoptionsPolicy#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#destination EventoptionsPolicy#destination}
   */
   readonly destination: string;
   /**
   * Name of file to upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#filename EventoptionsPolicy#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#filename EventoptionsPolicy#filename}
   */
   readonly filename: string;
   /**
   * Upload output-filename retry attempt count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#retry_count EventoptionsPolicy#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#retry_count EventoptionsPolicy#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Time interval between each retry (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#retry_interval EventoptionsPolicy#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#retry_interval EventoptionsPolicy#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * Delay before uploading file to the destination (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#transfer_delay EventoptionsPolicy#transfer_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#transfer_delay EventoptionsPolicy#transfer_delay}
   */
   readonly transferDelay?: number;
   /**
   * User under whose privileges upload action will execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#user_name EventoptionsPolicy#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#user_name EventoptionsPolicy#user_name}
   */
   readonly userName?: string;
 }
@@ -1959,49 +1959,49 @@ export interface EventoptionsPolicyThen {
   /**
   * Do not log event or perform any other action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#ignore EventoptionsPolicy#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#ignore EventoptionsPolicy#ignore}
   */
   readonly ignore?: boolean | cdktf.IResolvable;
   /**
   * Change syslog priority facility value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#priority_override_facility EventoptionsPolicy#priority_override_facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#priority_override_facility EventoptionsPolicy#priority_override_facility}
   */
   readonly priorityOverrideFacility?: string;
   /**
   * Change syslog priority severity value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#priority_override_severity EventoptionsPolicy#priority_override_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#priority_override_severity EventoptionsPolicy#priority_override_severity}
   */
   readonly priorityOverrideSeverity?: string;
   /**
   * Raise SNMP trap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#raise_trap EventoptionsPolicy#raise_trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#raise_trap EventoptionsPolicy#raise_trap}
   */
   readonly raiseTrap?: boolean | cdktf.IResolvable;
   /**
   * change_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#change_configuration EventoptionsPolicy#change_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#change_configuration EventoptionsPolicy#change_configuration}
   */
   readonly changeConfiguration?: EventoptionsPolicyThenChangeConfiguration;
   /**
   * event_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#event_script EventoptionsPolicy#event_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#event_script EventoptionsPolicy#event_script}
   */
   readonly eventScript?: EventoptionsPolicyThenEventScript[] | cdktf.IResolvable;
   /**
   * execute_commands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#execute_commands EventoptionsPolicy#execute_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#execute_commands EventoptionsPolicy#execute_commands}
   */
   readonly executeCommands?: EventoptionsPolicyThenExecuteCommands;
   /**
   * upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#upload EventoptionsPolicy#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#upload EventoptionsPolicy#upload}
   */
   readonly upload?: EventoptionsPolicyThenUpload[] | cdktf.IResolvable;
 }
@@ -2300,31 +2300,31 @@ export interface EventoptionsPolicyWithin {
   /**
   * List of events that must occur within time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#events EventoptionsPolicy#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#events EventoptionsPolicy#events}
   */
   readonly events?: string[];
   /**
   * List of events must not occur within time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#not_events EventoptionsPolicy#not_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#not_events EventoptionsPolicy#not_events}
   */
   readonly notEvents?: string[];
   /**
   * Time within which correlated events must occur (or not) (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#time_interval EventoptionsPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#time_interval EventoptionsPolicy#time_interval}
   */
   readonly timeInterval: number;
   /**
   *  Number of occurrences of triggering event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#trigger_count EventoptionsPolicy#trigger_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#trigger_count EventoptionsPolicy#trigger_count}
   */
   readonly triggerCount?: number;
   /**
   * To compare with `trigger_count`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#trigger_when EventoptionsPolicy#trigger_when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#trigger_when EventoptionsPolicy#trigger_when}
   */
   readonly triggerWhen?: string;
 }
@@ -2553,7 +2553,7 @@ export class EventoptionsPolicyWithinList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy junos_eventoptions_policy}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy junos_eventoptions_policy}
 */
 export class EventoptionsPolicy extends cdktf.TerraformResource {
 
@@ -2569,7 +2569,7 @@ export class EventoptionsPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventoptionsPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventoptionsPolicy to import
-  * @param importFromId The id of the existing EventoptionsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventoptionsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventoptionsPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2581,7 +2581,7 @@ export class EventoptionsPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_policy junos_eventoptions_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_policy junos_eventoptions_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2592,8 +2592,8 @@ export class EventoptionsPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'junos_eventoptions_policy',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

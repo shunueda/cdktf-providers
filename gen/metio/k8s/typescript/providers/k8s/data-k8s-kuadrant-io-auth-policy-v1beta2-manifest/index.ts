@@ -15,19 +15,19 @@ export interface DataK8SKuadrantIoAuthPolicyV1Beta2ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#metadata DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#metadata DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestMetadata;
   /**
   * RouteSelectors - implicit default validation RouteSelectors - explicit default validation RouteSelectors - explicit overrides validation Mutual Exclusivity Validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#spec DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#spec DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest k8s_kuadrant_io_auth_policy_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest k8s_kuadrant_io_auth_policy_v1beta2_manifest}
 */
 export class DataK8SKuadrantIoAuthPolicyV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataK8SKuadrantIoAuthPolicyV1Beta2Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SKuadrantIoAuthPolicyV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKuadrantIoAuthPolicyV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SKuadrantIoAuthPolicyV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKuadrantIoAuthPolicyV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKuadrantIoAuthPolicyV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -55,7 +55,7 @@ export class DataK8SKuadrantIoAuthPolicyV1Beta2Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest k8s_kuadrant_io_auth_policy_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest k8s_kuadrant_io_auth_policy_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,8 +66,8 @@ export class DataK8SKuadrantIoAuthPolicyV1Beta2Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_kuadrant_io_auth_policy_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

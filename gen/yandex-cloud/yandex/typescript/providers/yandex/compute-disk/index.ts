@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface ComputeDiskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#allow_recreate ComputeDisk#allow_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#allow_recreate ComputeDisk#allow_recreate}
   */
   readonly allowRecreate?: boolean | cdktf.IResolvable;
   /**
   * Block size of the disk, specified in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#block_size ComputeDisk#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#block_size ComputeDisk#block_size}
   */
   readonly blockSize?: number;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#description ComputeDisk#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#description ComputeDisk#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#folder_id ComputeDisk#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#folder_id ComputeDisk#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#id ComputeDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#id ComputeDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,67 +39,67 @@ export interface ComputeDiskConfig extends cdktf.TerraformMetaArguments {
   /**
   * The source image to use for disk creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#image_id ComputeDisk#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#image_id ComputeDisk#image_id}
   */
   readonly imageId?: string;
   /**
   * ID of KMS symmetric key used to encrypt disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#kms_key_id ComputeDisk#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#kms_key_id ComputeDisk#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#labels ComputeDisk#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#labels ComputeDisk#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#name ComputeDisk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#name ComputeDisk#name}
   */
   readonly name?: string;
   /**
   * Size of the persistent disk, specified in GB. You can specify this field when creating a persistent disk using the `image_id` or `snapshot_id` parameter, or specify it alone to create an empty persistent disk. If you specify this field along with `image_id` or `snapshot_id`, the size value must not be less than the size of the source image or the size of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#size ComputeDisk#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#size ComputeDisk#size}
   */
   readonly size?: number;
   /**
   * The source snapshot to use for disk creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#snapshot_id ComputeDisk#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#snapshot_id ComputeDisk#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Type of disk to create. Provide this when creating a disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#type ComputeDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#type ComputeDisk#type}
   */
   readonly type?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#zone ComputeDisk#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#zone ComputeDisk#zone}
   */
   readonly zone?: string;
   /**
   * disk_placement_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#disk_placement_policy ComputeDisk#disk_placement_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#disk_placement_policy ComputeDisk#disk_placement_policy}
   */
   readonly diskPlacementPolicy?: ComputeDiskDiskPlacementPolicy;
   /**
   * hardware_generation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#hardware_generation ComputeDisk#hardware_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#hardware_generation ComputeDisk#hardware_generation}
   */
   readonly hardwareGeneration?: ComputeDiskHardwareGeneration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#timeouts ComputeDisk#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#timeouts ComputeDisk#timeouts}
   */
   readonly timeouts?: ComputeDiskTimeouts;
 }
@@ -107,7 +107,7 @@ export interface ComputeDiskDiskPlacementPolicy {
   /**
   * Specifies Disk Placement Group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#disk_placement_group_id ComputeDisk#disk_placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#disk_placement_group_id ComputeDisk#disk_placement_group_id}
   */
   readonly diskPlacementGroupId: string;
 }
@@ -239,7 +239,7 @@ export interface ComputeDiskHardwareGenerationLegacyFeatures {
   /**
   * A variant of PCI topology, one of `PCI_TOPOLOGY_V1` or `PCI_TOPOLOGY_V2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#pci_topology ComputeDisk#pci_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#pci_topology ComputeDisk#pci_topology}
   */
   readonly pciTopology?: string;
 }
@@ -325,13 +325,13 @@ export interface ComputeDiskHardwareGeneration {
   /**
   * generation2_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#generation2_features ComputeDisk#generation2_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#generation2_features ComputeDisk#generation2_features}
   */
   readonly generation2Features?: ComputeDiskHardwareGenerationGeneration2Features;
   /**
   * legacy_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#legacy_features ComputeDisk#legacy_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#legacy_features ComputeDisk#legacy_features}
   */
   readonly legacyFeatures?: ComputeDiskHardwareGenerationLegacyFeatures;
 }
@@ -444,15 +444,15 @@ export class ComputeDiskHardwareGenerationOutputReference extends cdktf.ComplexO
 }
 export interface ComputeDiskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#create ComputeDisk#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#create ComputeDisk#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#delete ComputeDisk#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#delete ComputeDisk#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#update ComputeDisk#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#update ComputeDisk#update}
   */
   readonly update?: string;
 }
@@ -604,7 +604,7 @@ export class ComputeDiskTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk yandex_compute_disk}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk yandex_compute_disk}
 */
 export class ComputeDisk extends cdktf.TerraformResource {
 
@@ -620,7 +620,7 @@ export class ComputeDisk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeDisk to import
-  * @param importFromId The id of the existing ComputeDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -632,7 +632,7 @@ export class ComputeDisk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/resources/compute_disk yandex_compute_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_disk yandex_compute_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -643,8 +643,8 @@ export class ComputeDisk extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_disk',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

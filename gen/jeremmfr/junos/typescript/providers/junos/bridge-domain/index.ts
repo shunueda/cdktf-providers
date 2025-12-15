@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface BridgeDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of Community VLANs for private vlan bridge domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#community_vlans BridgeDomain#community_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#community_vlans BridgeDomain#community_vlans}
   */
   readonly communityVlans?: string[];
   /**
   * Text description of bridge domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#description BridgeDomain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#description BridgeDomain#description}
   */
   readonly description?: string;
   /**
   * Domain-id for auto derived Route Target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#domain_id BridgeDomain#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#domain_id BridgeDomain#domain_id}
   */
   readonly domainId?: number;
   /**
   * Forwarding instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#domain_type_bridge BridgeDomain#domain_type_bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#domain_type_bridge BridgeDomain#domain_type_bridge}
   */
   readonly domainTypeBridge?: boolean | cdktf.IResolvable;
   /**
   * Interface for this bridge domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#interface BridgeDomain#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#interface BridgeDomain#interface}
   */
   readonly interface?: string[];
   /**
   * Isolated VLAN ID for private vlan bridge domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#isolated_vlan BridgeDomain#isolated_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#isolated_vlan BridgeDomain#isolated_vlan}
   */
   readonly isolatedVlan?: number;
   /**
   * Bridge domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#name BridgeDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#name BridgeDomain#name}
   */
   readonly name: string;
   /**
   * Routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#routing_instance BridgeDomain#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#routing_instance BridgeDomain#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Routing interface name for this bridge-domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#routing_interface BridgeDomain#routing_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#routing_interface BridgeDomain#routing_interface}
   */
   readonly routingInterface?: string;
   /**
   * Service id required if bridge-domain is of type MC-AE andvlan-id all or vlan-id none or vlan-tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#service_id BridgeDomain#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#service_id BridgeDomain#service_id}
   */
   readonly serviceId?: number;
   /**
   * IEEE 802.1q VLAN identifier for bridging domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#vlan_id BridgeDomain#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#vlan_id BridgeDomain#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * Create bridge-domain for each of the vlan-id specified in the vlan-id-list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#vlan_id_list BridgeDomain#vlan_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#vlan_id_list BridgeDomain#vlan_id_list}
   */
   readonly vlanIdList?: string[];
   /**
   * vxlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#vxlan BridgeDomain#vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#vxlan BridgeDomain#vxlan}
   */
   readonly vxlan?: BridgeDomainVxlan;
 }
@@ -90,55 +90,55 @@ export interface BridgeDomainVxlan {
   /**
   * Accept VXLAN packets with inner VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#decapsulate_accept_inner_vlan BridgeDomain#decapsulate_accept_inner_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#decapsulate_accept_inner_vlan BridgeDomain#decapsulate_accept_inner_vlan}
   */
   readonly decapsulateAcceptInnerVlan?: boolean | cdktf.IResolvable;
   /**
   * Retain inner VLAN in the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#encapsulate_inner_vlan BridgeDomain#encapsulate_inner_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#encapsulate_inner_vlan BridgeDomain#encapsulate_inner_vlan}
   */
   readonly encapsulateInnerVlan?: boolean | cdktf.IResolvable;
   /**
   * Enable ingress node replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#ingress_node_replication BridgeDomain#ingress_node_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#ingress_node_replication BridgeDomain#ingress_node_replication}
   */
   readonly ingressNodeReplication?: boolean | cdktf.IResolvable;
   /**
   * CIDR for Multicast group registered for VXLAN segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#multicast_group BridgeDomain#multicast_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#multicast_group BridgeDomain#multicast_group}
   */
   readonly multicastGroup?: string;
   /**
   * Bridge-domain is managed remotely via VXLAN OVSDB Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#ovsdb_managed BridgeDomain#ovsdb_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#ovsdb_managed BridgeDomain#ovsdb_managed}
   */
   readonly ovsdbManaged?: boolean | cdktf.IResolvable;
   /**
   * Configure bridge domain specific static remote VXLAN tunnel endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#static_remote_vtep_list BridgeDomain#static_remote_vtep_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#static_remote_vtep_list BridgeDomain#static_remote_vtep_list}
   */
   readonly staticRemoteVtepList?: string[];
   /**
   * Unreachable VXLAN tunnel endpoint removal timer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#unreachable_vtep_aging_timer BridgeDomain#unreachable_vtep_aging_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#unreachable_vtep_aging_timer BridgeDomain#unreachable_vtep_aging_timer}
   */
   readonly unreachableVtepAgingTimer?: number;
   /**
   * VXLAN identifier (0..16777214).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#vni BridgeDomain#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#vni BridgeDomain#vni}
   */
   readonly vni?: number;
   /**
   * Extend VNI to EVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#vni_extend_evpn BridgeDomain#vni_extend_evpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#vni_extend_evpn BridgeDomain#vni_extend_evpn}
   */
   readonly vniExtendEvpn?: boolean | cdktf.IResolvable;
 }
@@ -464,7 +464,7 @@ export class BridgeDomainVxlanOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain junos_bridge_domain}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain junos_bridge_domain}
 */
 export class BridgeDomain extends cdktf.TerraformResource {
 
@@ -480,7 +480,7 @@ export class BridgeDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BridgeDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BridgeDomain to import
-  * @param importFromId The id of the existing BridgeDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BridgeDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BridgeDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -492,7 +492,7 @@ export class BridgeDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/bridge_domain junos_bridge_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/bridge_domain junos_bridge_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -503,8 +503,8 @@ export class BridgeDomain extends cdktf.TerraformResource {
       terraformResourceType: 'junos_bridge_domain',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

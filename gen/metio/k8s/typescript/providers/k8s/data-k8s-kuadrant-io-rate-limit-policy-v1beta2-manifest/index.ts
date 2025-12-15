@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#metadata DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#metadata DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestMetadata;
   /**
   * RateLimitPolicySpec defines the desired state of RateLimitPolicy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#spec DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#spec DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#annotations DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#annotations DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#labels DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#labels DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#namespace DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#namespace DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimi
   /**
   * Duration defines the time period for which the Limit specified above applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#duration DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#duration DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#duration}
   */
   readonly duration: number;
   /**
   * Limit defines the max value allowed for a given period of time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limit}
   */
   readonly limit: number;
   /**
   * Duration defines the time uni Possible values are: 'second', 'minute', 'hour', 'day'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#unit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#unit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#unit}
   */
   readonly unit: string;
 }
@@ -398,19 +398,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimi
   /**
   * Name is the name of the HTTP Header to be matched. Name matching MUST be case insensitive. (See https://tools.ietf.org/html/rfc7230#section-3.2). If multiple entries specify equivalent header names, only the first entry with an equivalent name MUST be considered for a match. Subsequent entries with an equivalent header name MUST be ignored. Due to the case-insensitivity of header names, 'foo' and 'Foo' are considered equivalent. When a header is repeated in an HTTP request, it is implementation-specific behavior as to how this is represented. Generally, proxies should follow the guidance from the RFC: https://www.rfc-editor.org/rfc/rfc7230.html#section-3.2.2 regarding processing a repeated header, with special handling for 'Set-Cookie'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Type specifies how to match against the value of the header. Support: Core (Exact) Support: Implementation-specific (RegularExpression) Since RegularExpression HeaderMatchType has implementation-specific conformance, implementations can support POSIX, PCRE or any other dialects of regular expressions. Please read the implementation's documentation to determine the supported dialect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value is the value of HTTP Header to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -580,13 +580,13 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimi
   /**
   * Type specifies how to match against the path Value. Support: Core (Exact, PathPrefix) Support: Implementation-specific (RegularExpression)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value of the HTTP path to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -711,19 +711,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimi
   /**
   * Name is the name of the HTTP query param to be matched. This must be an exact string match. (See https://tools.ietf.org/html/rfc7230#section-2.7.3). If multiple entries specify equivalent query param names, only the first entry with an equivalent name MUST be considered for a match. Subsequent entries with an equivalent query param name MUST be ignored. If a query param is repeated in an HTTP request, the behavior is purposely left undefined, since different data planes have different capabilities. However, it is *recommended* that implementations should match against the first value of the param if the data plane supports it, as this behavior is expected in other load balancing contexts outside of the Gateway API. Users SHOULD NOT route traffic based on repeated query params to guard themselves against potential differences in the implementations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Type specifies how to match against the value of the query parameter. Support: Extended (Exact) Support: Implementation-specific (RegularExpression) Since RegularExpression QueryParamMatchType has Implementation-specific conformance, implementations can support POSIX, PCRE or any other dialects of regular expressions. Please read the implementation's documentation to determine the supported dialect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value is the value of HTTP query param to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -893,25 +893,25 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimi
   /**
   * Headers specifies HTTP request header matchers. Multiple match values are ANDed together, meaning, a request must match all the specified headers to select the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#headers DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#headers DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#headers}
   */
   readonly headers?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimitsRouteSelectorsMatchesHeaders[] | cdktf.IResolvable;
   /**
   * Method specifies HTTP method matcher. When specified, this route will be matched only if the request has the specified method. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#method DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#method DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#method}
   */
   readonly method?: string;
   /**
   * Path specifies a HTTP request path matcher. If this field is not specified, a default prefix match on the '/' path is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#path DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#path DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#path}
   */
   readonly path?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimitsRouteSelectorsMatchesPath;
   /**
   * QueryParams specifies HTTP query parameter matchers. Multiple match values are ANDed together, meaning, a request must match all the specified query parameters to select the route. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#query_params DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#query_params DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#query_params}
   */
   readonly queryParams?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimitsRouteSelectorsMatchesQueryParams[] | cdktf.IResolvable;
 }
@@ -1116,13 +1116,13 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimi
   /**
   * Hostnames defines a set of hostname that should match against the HTTP Host header to select a HTTPRoute to process the request https://gateway-api.sigs.k8s.io/reference/spec/#gateway.networking.k8s.io/v1.HTTPRouteSpec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#hostnames DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#hostnames DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * Matches define conditions used for matching the rule against incoming HTTP requests. https://gateway-api.sigs.k8s.io/reference/spec/#gateway.networking.k8s.io/v1.HTTPRouteSpec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#matches DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#matches DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#matches}
   */
   readonly matches?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimitsRouteSelectorsMatches[] | cdktf.IResolvable;
 }
@@ -1269,19 +1269,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimi
   /**
   * The binary operator to be applied to the content fetched from the selector Possible values are: 'eq' (equal to), 'neq' (not equal to)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#operator DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#operator DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * Selector defines one item from the well known selectors TODO Document properly 'Well-known selector' https://github.com/Kuadrant/architecture/blob/main/rfcs/0001-rlp-v2.md#well-known-selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#selector DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#selector DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#selector}
   */
   readonly selector: string;
   /**
   * The value of reference for the comparison.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -1448,25 +1448,25 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimi
   /**
   * Counters defines additional rate limit counters based on context qualifiers and well known selectors TODO Document properly 'Well-known selector' https://github.com/Kuadrant/architecture/blob/main/rfcs/0001-rlp-v2.md#well-known-selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#counters DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#counters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#counters DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#counters}
   */
   readonly counters?: string[];
   /**
   * Rates holds the list of limit rates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#rates DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#rates DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#rates}
   */
   readonly rates?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimitsRates[] | cdktf.IResolvable;
   /**
   * RouteSelectors defines semantics for matching an HTTP request based on conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#route_selectors DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#route_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#route_selectors DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#route_selectors}
   */
   readonly routeSelectors?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimitsRouteSelectors[] | cdktf.IResolvable;
   /**
   * When holds the list of conditions for the policy to be enforced. Called also 'soft' conditions as route selectors must also match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#when DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#when DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#when}
   */
   readonly when?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimitsWhen[] | cdktf.IResolvable;
 }
@@ -1649,7 +1649,7 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaults {
   /**
   * Limits holds the struct of limits indexed by a unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limits DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limits DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limits}
   */
   readonly limits?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaultsLimits;
 }
@@ -1745,19 +1745,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRates 
   /**
   * Duration defines the time period for which the Limit specified above applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#duration DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#duration DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#duration}
   */
   readonly duration: number;
   /**
   * Limit defines the max value allowed for a given period of time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limit}
   */
   readonly limit: number;
   /**
   * Duration defines the time uni Possible values are: 'second', 'minute', 'hour', 'day'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#unit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#unit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#unit}
   */
   readonly unit: string;
 }
@@ -1924,19 +1924,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteS
   /**
   * Name is the name of the HTTP Header to be matched. Name matching MUST be case insensitive. (See https://tools.ietf.org/html/rfc7230#section-3.2). If multiple entries specify equivalent header names, only the first entry with an equivalent name MUST be considered for a match. Subsequent entries with an equivalent header name MUST be ignored. Due to the case-insensitivity of header names, 'foo' and 'Foo' are considered equivalent. When a header is repeated in an HTTP request, it is implementation-specific behavior as to how this is represented. Generally, proxies should follow the guidance from the RFC: https://www.rfc-editor.org/rfc/rfc7230.html#section-3.2.2 regarding processing a repeated header, with special handling for 'Set-Cookie'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Type specifies how to match against the value of the header. Support: Core (Exact) Support: Implementation-specific (RegularExpression) Since RegularExpression HeaderMatchType has implementation-specific conformance, implementations can support POSIX, PCRE or any other dialects of regular expressions. Please read the implementation's documentation to determine the supported dialect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value is the value of HTTP Header to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -2106,13 +2106,13 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteS
   /**
   * Type specifies how to match against the path Value. Support: Core (Exact, PathPrefix) Support: Implementation-specific (RegularExpression)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value of the HTTP path to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -2237,19 +2237,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteS
   /**
   * Name is the name of the HTTP query param to be matched. This must be an exact string match. (See https://tools.ietf.org/html/rfc7230#section-2.7.3). If multiple entries specify equivalent query param names, only the first entry with an equivalent name MUST be considered for a match. Subsequent entries with an equivalent query param name MUST be ignored. If a query param is repeated in an HTTP request, the behavior is purposely left undefined, since different data planes have different capabilities. However, it is *recommended* that implementations should match against the first value of the param if the data plane supports it, as this behavior is expected in other load balancing contexts outside of the Gateway API. Users SHOULD NOT route traffic based on repeated query params to guard themselves against potential differences in the implementations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Type specifies how to match against the value of the query parameter. Support: Extended (Exact) Support: Implementation-specific (RegularExpression) Since RegularExpression QueryParamMatchType has Implementation-specific conformance, implementations can support POSIX, PCRE or any other dialects of regular expressions. Please read the implementation's documentation to determine the supported dialect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value is the value of HTTP query param to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -2419,25 +2419,25 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteS
   /**
   * Headers specifies HTTP request header matchers. Multiple match values are ANDed together, meaning, a request must match all the specified headers to select the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#headers DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#headers DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#headers}
   */
   readonly headers?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteSelectorsMatchesHeaders[] | cdktf.IResolvable;
   /**
   * Method specifies HTTP method matcher. When specified, this route will be matched only if the request has the specified method. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#method DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#method DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#method}
   */
   readonly method?: string;
   /**
   * Path specifies a HTTP request path matcher. If this field is not specified, a default prefix match on the '/' path is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#path DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#path DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#path}
   */
   readonly path?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteSelectorsMatchesPath;
   /**
   * QueryParams specifies HTTP query parameter matchers. Multiple match values are ANDed together, meaning, a request must match all the specified query parameters to select the route. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#query_params DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#query_params DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#query_params}
   */
   readonly queryParams?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteSelectorsMatchesQueryParams[] | cdktf.IResolvable;
 }
@@ -2642,13 +2642,13 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteS
   /**
   * Hostnames defines a set of hostname that should match against the HTTP Host header to select a HTTPRoute to process the request https://gateway-api.sigs.k8s.io/reference/spec/#gateway.networking.k8s.io/v1.HTTPRouteSpec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#hostnames DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#hostnames DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * Matches define conditions used for matching the rule against incoming HTTP requests. https://gateway-api.sigs.k8s.io/reference/spec/#gateway.networking.k8s.io/v1.HTTPRouteSpec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#matches DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#matches DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#matches}
   */
   readonly matches?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteSelectorsMatches[] | cdktf.IResolvable;
 }
@@ -2795,19 +2795,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsWhen {
   /**
   * The binary operator to be applied to the content fetched from the selector Possible values are: 'eq' (equal to), 'neq' (not equal to)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#operator DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#operator DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * Selector defines one item from the well known selectors TODO Document properly 'Well-known selector' https://github.com/Kuadrant/architecture/blob/main/rfcs/0001-rlp-v2.md#well-known-selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#selector DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#selector DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#selector}
   */
   readonly selector: string;
   /**
   * The value of reference for the comparison.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -2974,25 +2974,25 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimits {
   /**
   * Counters defines additional rate limit counters based on context qualifiers and well known selectors TODO Document properly 'Well-known selector' https://github.com/Kuadrant/architecture/blob/main/rfcs/0001-rlp-v2.md#well-known-selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#counters DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#counters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#counters DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#counters}
   */
   readonly counters?: string[];
   /**
   * Rates holds the list of limit rates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#rates DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#rates DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#rates}
   */
   readonly rates?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRates[] | cdktf.IResolvable;
   /**
   * RouteSelectors defines semantics for matching an HTTP request based on conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#route_selectors DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#route_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#route_selectors DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#route_selectors}
   */
   readonly routeSelectors?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsRouteSelectors[] | cdktf.IResolvable;
   /**
   * When holds the list of conditions for the policy to be enforced. Called also 'soft' conditions as route selectors must also match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#when DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#when DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#when}
   */
   readonly when?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimitsWhen[] | cdktf.IResolvable;
 }
@@ -3175,19 +3175,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLim
   /**
   * Duration defines the time period for which the Limit specified above applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#duration DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#duration DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#duration}
   */
   readonly duration: number;
   /**
   * Limit defines the max value allowed for a given period of time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limit}
   */
   readonly limit: number;
   /**
   * Duration defines the time uni Possible values are: 'second', 'minute', 'hour', 'day'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#unit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#unit DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#unit}
   */
   readonly unit: string;
 }
@@ -3354,19 +3354,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLim
   /**
   * Name is the name of the HTTP Header to be matched. Name matching MUST be case insensitive. (See https://tools.ietf.org/html/rfc7230#section-3.2). If multiple entries specify equivalent header names, only the first entry with an equivalent name MUST be considered for a match. Subsequent entries with an equivalent header name MUST be ignored. Due to the case-insensitivity of header names, 'foo' and 'Foo' are considered equivalent. When a header is repeated in an HTTP request, it is implementation-specific behavior as to how this is represented. Generally, proxies should follow the guidance from the RFC: https://www.rfc-editor.org/rfc/rfc7230.html#section-3.2.2 regarding processing a repeated header, with special handling for 'Set-Cookie'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Type specifies how to match against the value of the header. Support: Core (Exact) Support: Implementation-specific (RegularExpression) Since RegularExpression HeaderMatchType has implementation-specific conformance, implementations can support POSIX, PCRE or any other dialects of regular expressions. Please read the implementation's documentation to determine the supported dialect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value is the value of HTTP Header to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -3536,13 +3536,13 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLim
   /**
   * Type specifies how to match against the path Value. Support: Core (Exact, PathPrefix) Support: Implementation-specific (RegularExpression)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value of the HTTP path to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -3667,19 +3667,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLim
   /**
   * Name is the name of the HTTP query param to be matched. This must be an exact string match. (See https://tools.ietf.org/html/rfc7230#section-2.7.3). If multiple entries specify equivalent query param names, only the first entry with an equivalent name MUST be considered for a match. Subsequent entries with an equivalent query param name MUST be ignored. If a query param is repeated in an HTTP request, the behavior is purposely left undefined, since different data planes have different capabilities. However, it is *recommended* that implementations should match against the first value of the param if the data plane supports it, as this behavior is expected in other load balancing contexts outside of the Gateway API. Users SHOULD NOT route traffic based on repeated query params to guard themselves against potential differences in the implementations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Type specifies how to match against the value of the query parameter. Support: Extended (Exact) Support: Implementation-specific (RegularExpression) Since RegularExpression QueryParamMatchType has Implementation-specific conformance, implementations can support POSIX, PCRE or any other dialects of regular expressions. Please read the implementation's documentation to determine the supported dialect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#type DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
   * Value is the value of HTTP query param to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -3849,25 +3849,25 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLim
   /**
   * Headers specifies HTTP request header matchers. Multiple match values are ANDed together, meaning, a request must match all the specified headers to select the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#headers DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#headers DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#headers}
   */
   readonly headers?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLimitsRouteSelectorsMatchesHeaders[] | cdktf.IResolvable;
   /**
   * Method specifies HTTP method matcher. When specified, this route will be matched only if the request has the specified method. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#method DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#method DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#method}
   */
   readonly method?: string;
   /**
   * Path specifies a HTTP request path matcher. If this field is not specified, a default prefix match on the '/' path is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#path DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#path DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#path}
   */
   readonly path?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLimitsRouteSelectorsMatchesPath;
   /**
   * QueryParams specifies HTTP query parameter matchers. Multiple match values are ANDed together, meaning, a request must match all the specified query parameters to select the route. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#query_params DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#query_params DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#query_params}
   */
   readonly queryParams?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLimitsRouteSelectorsMatchesQueryParams[] | cdktf.IResolvable;
 }
@@ -4072,13 +4072,13 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLim
   /**
   * Hostnames defines a set of hostname that should match against the HTTP Host header to select a HTTPRoute to process the request https://gateway-api.sigs.k8s.io/reference/spec/#gateway.networking.k8s.io/v1.HTTPRouteSpec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#hostnames DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#hostnames DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * Matches define conditions used for matching the rule against incoming HTTP requests. https://gateway-api.sigs.k8s.io/reference/spec/#gateway.networking.k8s.io/v1.HTTPRouteSpec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#matches DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#matches DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#matches}
   */
   readonly matches?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLimitsRouteSelectorsMatches[] | cdktf.IResolvable;
 }
@@ -4225,19 +4225,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLim
   /**
   * The binary operator to be applied to the content fetched from the selector Possible values are: 'eq' (equal to), 'neq' (not equal to)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#operator DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#operator DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * Selector defines one item from the well known selectors TODO Document properly 'Well-known selector' https://github.com/Kuadrant/architecture/blob/main/rfcs/0001-rlp-v2.md#well-known-selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#selector DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#selector DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#selector}
   */
   readonly selector: string;
   /**
   * The value of reference for the comparison.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#value DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -4404,25 +4404,25 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLim
   /**
   * Counters defines additional rate limit counters based on context qualifiers and well known selectors TODO Document properly 'Well-known selector' https://github.com/Kuadrant/architecture/blob/main/rfcs/0001-rlp-v2.md#well-known-selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#counters DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#counters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#counters DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#counters}
   */
   readonly counters?: string[];
   /**
   * Rates holds the list of limit rates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#rates DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#rates DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#rates}
   */
   readonly rates?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLimitsRates[] | cdktf.IResolvable;
   /**
   * RouteSelectors defines semantics for matching an HTTP request based on conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#route_selectors DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#route_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#route_selectors DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#route_selectors}
   */
   readonly routeSelectors?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLimitsRouteSelectors[] | cdktf.IResolvable;
   /**
   * When holds the list of conditions for the policy to be enforced. Called also 'soft' conditions as route selectors must also match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#when DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#when DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#when}
   */
   readonly when?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLimitsWhen[] | cdktf.IResolvable;
 }
@@ -4605,7 +4605,7 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverrides {
   /**
   * Limits holds the struct of limits indexed by a unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limits DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limits DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limits}
   */
   readonly limits?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverridesLimits;
 }
@@ -4701,19 +4701,19 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecTargetRef {
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#group DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#group DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#kind DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#kind DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#name DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -4858,25 +4858,25 @@ export interface DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpec {
   /**
   * Defaults define explicit default values for this policy and for policies inheriting this policy. Defaults are mutually exclusive with implicit defaults defined by RateLimitPolicyCommonSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#defaults DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#defaults DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#defaults}
   */
   readonly defaults?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecDefaults;
   /**
   * Limits holds the struct of limits indexed by a unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limits DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#limits DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#limits}
   */
   readonly limits?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecLimits;
   /**
   * Overrides define override values for this policy and for policies inheriting this policy. Overrides are mutually exclusive with implicit defaults and explicit Defaults defined by RateLimitPolicyCommonSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#overrides DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#overrides DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#overrides}
   */
   readonly overrides?: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOverrides;
   /**
   * TargetRef identifies an API object to apply policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#target_ref DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#target_ref DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest#target_ref}
   */
   readonly targetRef: DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecTargetRef;
 }
@@ -5054,7 +5054,7 @@ export class DataK8SKuadrantIoRateLimitPolicyV1Beta2ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest k8s_kuadrant_io_rate_limit_policy_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest k8s_kuadrant_io_rate_limit_policy_v1beta2_manifest}
 */
 export class DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -5070,7 +5070,7 @@ export class DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5082,7 +5082,7 @@ export class DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest k8s_kuadrant_io_rate_limit_policy_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kuadrant_io_rate_limit_policy_v1beta2_manifest k8s_kuadrant_io_rate_limit_policy_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5093,8 +5093,8 @@ export class DataK8SKuadrantIoRateLimitPolicyV1Beta2Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_kuadrant_io_rate_limit_policy_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

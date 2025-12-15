@@ -3,25 +3,25 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#annotations DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#annotations DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,13 +198,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecExter
   /**
   * parameters are provider-specific key/value configuration parameters. For more information, please see the documentation of the specific replication provider being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#parameters DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#parameters DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * provider is the name of the external replication provider. The name should be of the form: domain.com/provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#provider DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#provider DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#provider}
   */
   readonly provider?: string;
 }
@@ -329,19 +329,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * The name of a ConfigMap that contains the custom CA certificate If ConfigMapName is used then SecretName should not be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#config_map_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#config_map_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * The key within the Secret or ConfigMap containing the CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of a Secret that contains the custom CA certificate If SecretName is used then ConfigMapName should not be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#secret_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#secret_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -495,19 +495,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -677,19 +677,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -859,13 +859,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -990,13 +990,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preference DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preference DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1137,19 +1137,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1319,19 +1319,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1501,13 +1501,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1654,7 +1654,7 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_selector_terms DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_selector_terms DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1747,13 +1747,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1878,19 +1878,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2060,13 +2060,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2191,19 +2191,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2373,13 +2373,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2504,37 +2504,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2772,13 +2772,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2919,19 +2919,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3101,13 +3101,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3232,19 +3232,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3414,13 +3414,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3545,37 +3545,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3835,13 +3835,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3966,19 +3966,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4148,13 +4148,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4279,19 +4279,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4461,13 +4461,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4592,37 +4592,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4860,13 +4860,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5007,19 +5007,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5189,13 +5189,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5320,19 +5320,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5502,13 +5502,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5633,37 +5633,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5923,13 +5923,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6054,19 +6054,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_anti_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_anti_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinityPodAntiAffinity;
 }
@@ -6220,13 +6220,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#request DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#request DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -6370,19 +6370,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#claims DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#claims DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#limits DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#limits DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#requests DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#requests DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6536,13 +6536,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6664,25 +6664,25 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#level DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#level DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#role DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#role DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6865,13 +6865,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6993,13 +6993,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#value DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#value DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7140,25 +7140,25 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#host_process DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#host_process DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -7341,73 +7341,73 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * appArmorProfile is the AppArmor options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#app_armor_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#app_armor_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverSecurityContextAppArmorProfile;
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group_change_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group_change_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_non_root DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_non_root DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#se_linux_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#se_linux_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#seccomp_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#seccomp_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID and fsGroup (if specified). If the SupplementalGroupsPolicy feature is enabled, the supplementalGroupsPolicy field determines whether these are in addition to or instead of any group memberships defined in the container image. If unspecified, no additional groups are added, though group memberships defined in the container image may still be used, depending on the supplementalGroupsPolicy field. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Defines how supplemental groups of the first container processes are calculated. Valid values are 'Merge' and 'Strict'. If not specified, 'Merge' is used. (Alpha) Using the field requires the SupplementalGroupsPolicy feature gate to be enabled and the container runtime must implement support for this feature. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups_policy}
   */
   readonly supplementalGroupsPolicy?: string;
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#sysctls DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#sysctls DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#windows_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#windows_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverSecurityContextWindowsOptions;
 }
@@ -7822,85 +7822,85 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRclon
   /**
   * accessModes can be used to override the accessModes of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * capacity can be used to override the capacity of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * copyMethod describes how a point-in-time (PiT) image of the source volume should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#copy_method DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#copy_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#copy_method DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#copy_method}
   */
   readonly copyMethod?: string;
   /**
   * customCA is a custom CA that will be used to verify the remote
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#custom_ca DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#custom_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#custom_ca DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#custom_ca}
   */
   readonly customCa?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneCustomCa;
   /**
   * MoverAffinity allows specifying the PodAffinity that will be used by the data mover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_affinity}
   */
   readonly moverAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverAffinity;
   /**
   * Labels that should be added to data mover pods These will be in addition to any labels that VolSync may add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_pod_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_pod_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_pod_labels}
   */
   readonly moverPodLabels?: { [key: string]: string };
   /**
   * Resources represents compute resources required by the data mover container. Immutable. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/ This should only be used by advanced users as this can result in a mover pod being unschedulable or crashing due to limited resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_resources DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_resources DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_resources}
   */
   readonly moverResources?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverResources;
   /**
   * MoverSecurityContext allows specifying the PodSecurityContext that will be used by the data mover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_security_context DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_security_context DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_security_context}
   */
   readonly moverSecurityContext?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRcloneMoverSecurityContext;
   /**
   * MoverServiceAccount allows specifying the name of the service account that will be used by the data mover. This should only be used by advanced users who want to override the service account normally used by the mover. The service account needs to exist in the same namespace as this CR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_service_account DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_service_account DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_service_account}
   */
   readonly moverServiceAccount?: string;
   /**
   * RcloneConfig is the rclone secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#rclone_config DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#rclone_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#rclone_config DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#rclone_config}
   */
   readonly rcloneConfig?: string;
   /**
   * RcloneConfigSection is the section in rclone_config file to use for the current job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#rclone_config_section DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#rclone_config_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#rclone_config_section DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#rclone_config_section}
   */
   readonly rcloneConfigSection?: string;
   /**
   * RcloneDestPath is the remote path to sync to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#rclone_dest_path DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#rclone_dest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#rclone_dest_path DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#rclone_dest_path}
   */
   readonly rcloneDestPath?: string;
   /**
   * storageClassName can be used to override the StorageClass of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeSnapshotClassName can be used to specify the VSC to be used if copyMethod is Snapshot. If not set, the default VSC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#volume_snapshot_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#volume_snapshot_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#volume_snapshot_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#volume_snapshot_class_name}
   */
   readonly volumeSnapshotClassName?: string;
 }
@@ -8373,19 +8373,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * The name of a ConfigMap that contains the custom CA certificate If ConfigMapName is used then SecretName should not be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#config_map_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#config_map_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * The key within the Secret or ConfigMap containing the CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of a Secret that contains the custom CA certificate If SecretName is used then ConfigMapName should not be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#secret_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#secret_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -8539,19 +8539,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8721,19 +8721,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8903,13 +8903,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -9034,13 +9034,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preference DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preference DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9181,19 +9181,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9363,19 +9363,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9545,13 +9545,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -9698,7 +9698,7 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_selector_terms DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_selector_terms DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -9791,13 +9791,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -9922,19 +9922,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10104,13 +10104,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10235,19 +10235,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10417,13 +10417,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10548,37 +10548,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -10816,13 +10816,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -10963,19 +10963,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11145,13 +11145,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11276,19 +11276,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11458,13 +11458,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11589,37 +11589,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -11879,13 +11879,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12010,19 +12010,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12192,13 +12192,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12323,19 +12323,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12505,13 +12505,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12636,37 +12636,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12904,13 +12904,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -13051,19 +13051,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13233,13 +13233,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13364,19 +13364,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13546,13 +13546,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13677,37 +13677,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -13967,13 +13967,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -14098,19 +14098,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_anti_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_anti_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinityPodAntiAffinity;
 }
@@ -14264,13 +14264,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#request DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#request DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -14414,19 +14414,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#claims DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#claims DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#limits DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#limits DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#requests DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#requests DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -14580,13 +14580,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -14708,25 +14708,25 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#level DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#level DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#role DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#role DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -14909,13 +14909,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -15037,13 +15037,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#value DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#value DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -15184,25 +15184,25 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#host_process DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#host_process DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -15385,73 +15385,73 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * appArmorProfile is the AppArmor options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#app_armor_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#app_armor_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverSecurityContextAppArmorProfile;
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group_change_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group_change_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_non_root DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_non_root DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#se_linux_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#se_linux_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#seccomp_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#seccomp_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID and fsGroup (if specified). If the SupplementalGroupsPolicy feature is enabled, the supplementalGroupsPolicy field determines whether these are in addition to or instead of any group memberships defined in the container image. If unspecified, no additional groups are added, though group memberships defined in the container image may still be used, depending on the supplementalGroupsPolicy field. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Defines how supplemental groups of the first container processes are calculated. Valid values are 'Merge' and 'Strict'. If not specified, 'Merge' is used. (Alpha) Using the field requires the SupplementalGroupsPolicy feature gate to be enabled and the container runtime must implement support for this feature. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups_policy}
   */
   readonly supplementalGroupsPolicy?: string;
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#sysctls DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#sysctls DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#windows_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#windows_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverSecurityContextWindowsOptions;
 }
@@ -15866,43 +15866,43 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * Daily defines the number of snapshots to be kept daily
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#daily DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#daily DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#daily}
   */
   readonly daily?: number;
   /**
   * Hourly defines the number of snapshots to be kept hourly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#hourly DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#hourly DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#hourly}
   */
   readonly hourly?: number;
   /**
   * Last defines the number of snapshots to be kept
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#last DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#last DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#last}
   */
   readonly last?: string;
   /**
   * Monthly defines the number of snapshots to be kept monthly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#monthly DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#monthly DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#monthly}
   */
   readonly monthly?: number;
   /**
   * Weekly defines the number of snapshots to be kept weekly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weekly DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weekly DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weekly}
   */
   readonly weekly?: number;
   /**
   * Within defines the number of snapshots to be kept Within the given time period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#within DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#within DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#within}
   */
   readonly within?: string;
   /**
   * Yearly defines the number of snapshots to be kept yearly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#yearly DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#yearly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#yearly DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#yearly}
   */
   readonly yearly?: number;
 }
@@ -16172,109 +16172,109 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResti
   /**
   * accessModes can be used to override the accessModes of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * CacheAccessModes can be used to set the accessModes of restic metadata cache volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#cache_access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#cache_access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#cache_access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#cache_access_modes}
   */
   readonly cacheAccessModes?: string[];
   /**
   * cacheCapacity can be used to set the size of the restic metadata cache volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#cache_capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#cache_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#cache_capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#cache_capacity}
   */
   readonly cacheCapacity?: string;
   /**
   * cacheStorageClassName can be used to set the StorageClass of the restic metadata cache volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#cache_storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#cache_storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#cache_storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#cache_storage_class_name}
   */
   readonly cacheStorageClassName?: string;
   /**
   * capacity can be used to override the capacity of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * copyMethod describes how a point-in-time (PiT) image of the source volume should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#copy_method DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#copy_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#copy_method DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#copy_method}
   */
   readonly copyMethod?: string;
   /**
   * customCA is a custom CA that will be used to verify the remote
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#custom_ca DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#custom_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#custom_ca DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#custom_ca}
   */
   readonly customCa?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticCustomCa;
   /**
   * MoverAffinity allows specifying the PodAffinity that will be used by the data mover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_affinity}
   */
   readonly moverAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverAffinity;
   /**
   * Labels that should be added to data mover pods These will be in addition to any labels that VolSync may add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_pod_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_pod_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_pod_labels}
   */
   readonly moverPodLabels?: { [key: string]: string };
   /**
   * Resources represents compute resources required by the data mover container. Immutable. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/ This should only be used by advanced users as this can result in a mover pod being unschedulable or crashing due to limited resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_resources DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_resources DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_resources}
   */
   readonly moverResources?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverResources;
   /**
   * MoverSecurityContext allows specifying the PodSecurityContext that will be used by the data mover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_security_context DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_security_context DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_security_context}
   */
   readonly moverSecurityContext?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticMoverSecurityContext;
   /**
   * MoverServiceAccount allows specifying the name of the service account that will be used by the data mover. This should only be used by advanced users who want to override the service account normally used by the mover. The service account needs to exist in the same namespace as this CR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_service_account DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_service_account DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_service_account}
   */
   readonly moverServiceAccount?: string;
   /**
   * PruneIntervalDays define how often to prune the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#prune_interval_days DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#prune_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#prune_interval_days DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#prune_interval_days}
   */
   readonly pruneIntervalDays?: number;
   /**
   * Repository is the secret name containing repository info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#repository DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#repository DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * ResticRetainPolicy define the retain policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#retain DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#retain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#retain DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#retain}
   */
   readonly retain?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecResticRetain;
   /**
   * storageClassName can be used to override the StorageClass of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * unlock is a string value that schedules an unlock on the restic repository during the next sync operation. Once a sync completes then status.restic.lastUnlocked is set to the same string value. To unlock a repository, set spec.restic.unlock to a known value and then wait for lastUnlocked to be updated by the operator to the same value, which means that the sync unlocked the repository by running a restic unlock command and then ran a backup. Unlock will not be run again unless spec.restic.unlock is set to a different value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#unlock DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#unlock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#unlock DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#unlock}
   */
   readonly unlock?: string;
   /**
   * volumeSnapshotClassName can be used to specify the VSC to be used if copyMethod is Snapshot. If not set, the default VSC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#volume_snapshot_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#volume_snapshot_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#volume_snapshot_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#volume_snapshot_class_name}
   */
   readonly volumeSnapshotClassName?: string;
 }
@@ -16863,13 +16863,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#request DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#request DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -17013,19 +17013,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#claims DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#claims DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncMoverResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#limits DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#limits DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#requests DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#requests DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17179,85 +17179,85 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * accessModes can be used to override the accessModes of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * address is the remote address to connect to for replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#address DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#address DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * capacity can be used to override the capacity of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * copyMethod describes how a point-in-time (PiT) image of the source volume should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#copy_method DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#copy_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#copy_method DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#copy_method}
   */
   readonly copyMethod?: string;
   /**
   * Labels that should be added to data mover pods These will be in addition to any labels that VolSync may add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_pod_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_pod_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_pod_labels}
   */
   readonly moverPodLabels?: { [key: string]: string };
   /**
   * Resources represents compute resources required by the data mover container. Immutable. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/ This should only be used by advanced users as this can result in a mover pod being unschedulable or crashing due to limited resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_resources DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_resources DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_resources}
   */
   readonly moverResources?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncMoverResources;
   /**
   * MoverServiceAccount allows specifying the name of the service account that will be used by the data mover. This should only be used by advanced users who want to override the service account normally used by the mover. The service account needs to exist in the same namespace as the ReplicationSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_service_account DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_service_account DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_service_account}
   */
   readonly moverServiceAccount?: string;
   /**
   * path is the remote path to rsync to. Defaults to '/'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#path DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#path DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * port is the SSH port to connect to for replication. Defaults to 22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#port DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#port DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * serviceType determines the Service type that will be created for incoming SSH connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#service_type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#service_type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#service_type}
   */
   readonly serviceType?: string;
   /**
   * sshKeys is the name of a Secret that contains the SSH keys to be used for authentication. If not provided, the keys will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#ssh_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#ssh_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#ssh_keys}
   */
   readonly sshKeys?: string;
   /**
   * sshUser is the username for outgoing SSH connections. Defaults to 'root'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#ssh_user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#ssh_user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * storageClassName can be used to override the StorageClass of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeSnapshotClassName can be used to specify the VSC to be used if copyMethod is Snapshot. If not set, the default VSC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#volume_snapshot_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#volume_snapshot_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#volume_snapshot_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#volume_snapshot_class_name}
   */
   readonly volumeSnapshotClassName?: string;
 }
@@ -17730,19 +17730,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17912,19 +17912,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18094,13 +18094,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -18225,13 +18225,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preference DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preference DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -18372,19 +18372,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18554,19 +18554,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18736,13 +18736,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_fields DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -18889,7 +18889,7 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_selector_terms DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_selector_terms DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -18982,13 +18982,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -19113,19 +19113,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19295,13 +19295,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19426,19 +19426,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19608,13 +19608,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19739,37 +19739,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20007,13 +20007,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -20154,19 +20154,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20336,13 +20336,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20467,19 +20467,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20649,13 +20649,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20780,37 +20780,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21070,13 +21070,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -21201,19 +21201,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21383,13 +21383,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21514,19 +21514,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21696,13 +21696,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21827,37 +21827,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -22095,13 +22095,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity_term DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#weight DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -22242,19 +22242,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22424,13 +22424,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22555,19 +22555,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22737,13 +22737,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_expressions DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22868,37 +22868,37 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#label_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#match_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mismatch_label_keys DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespace_selector DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#namespaces DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#topology_key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -23158,13 +23158,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -23289,19 +23289,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#node_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_anti_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#pod_anti_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinityPodAntiAffinity;
 }
@@ -23455,13 +23455,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#request DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#request DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -23605,19 +23605,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#claims DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#claims DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#limits DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#limits DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#requests DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#requests DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -23771,13 +23771,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -23899,25 +23899,25 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#level DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#level DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#role DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#role DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -24100,13 +24100,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#localhost_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#type DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -24228,13 +24228,13 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#value DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#value DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -24375,25 +24375,25 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#gmsa_credential_spec_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#host_process DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#host_process DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -24576,73 +24576,73 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * appArmorProfile is the AppArmor options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#app_armor_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#app_armor_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverSecurityContextAppArmorProfile;
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group_change_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#fs_group_change_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_group DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_non_root DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_non_root DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#run_as_user DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#se_linux_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#se_linux_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#seccomp_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#seccomp_profile DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID and fsGroup (if specified). If the SupplementalGroupsPolicy feature is enabled, the supplementalGroupsPolicy field determines whether these are in addition to or instead of any group memberships defined in the container image. If unspecified, no additional groups are added, though group memberships defined in the container image may still be used, depending on the supplementalGroupsPolicy field. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Defines how supplemental groups of the first container processes are calculated. Valid values are 'Merge' and 'Strict'. If not specified, 'Merge' is used. (Alpha) Using the field requires the SupplementalGroupsPolicy feature gate to be enabled and the container runtime must implement support for this feature. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#supplemental_groups_policy DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#supplemental_groups_policy}
   */
   readonly supplementalGroupsPolicy?: string;
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#sysctls DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#sysctls DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#windows_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#windows_options DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverSecurityContextWindowsOptions;
 }
@@ -25057,79 +25057,79 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsync
   /**
   * accessModes can be used to override the accessModes of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#access_modes DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * address is the remote address to connect to for replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#address DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#address DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * capacity can be used to override the capacity of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#capacity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * copyMethod describes how a point-in-time (PiT) image of the source volume should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#copy_method DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#copy_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#copy_method DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#copy_method}
   */
   readonly copyMethod?: string;
   /**
   * keySecret is the name of a Secret that contains the TLS pre-shared key to be used for authentication. If not provided, the key will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key_secret DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key_secret DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: string;
   /**
   * MoverAffinity allows specifying the PodAffinity that will be used by the data mover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_affinity DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_affinity}
   */
   readonly moverAffinity?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverAffinity;
   /**
   * Labels that should be added to data mover pods These will be in addition to any labels that VolSync may add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_pod_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_pod_labels DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_pod_labels}
   */
   readonly moverPodLabels?: { [key: string]: string };
   /**
   * Resources represents compute resources required by the data mover container. Immutable. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/ This should only be used by advanced users as this can result in a mover pod being unschedulable or crashing due to limited resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_resources DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_resources DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_resources}
   */
   readonly moverResources?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverResources;
   /**
   * MoverSecurityContext allows specifying the PodSecurityContext that will be used by the data mover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_security_context DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_security_context DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_security_context}
   */
   readonly moverSecurityContext?: DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecRsyncTlsMoverSecurityContext;
   /**
   * MoverServiceAccount allows specifying the name of the service account that will be used by the data mover. This should only be used by advanced users who want to override the service account normally used by the mover. The service account needs to exist in the same namespace as this CR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_service_account DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#mover_service_account DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#mover_service_account}
   */
   readonly moverServiceAccount?: string;
   /**
   * port is the port to connect to for replication. Defaults to 8000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#port DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#port DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * storageClassName can be used to override the StorageClass of the PiT image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#storage_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeSnapshotClassName can be used to specify the VSC to be used if copyMethod is Snapshot. If not set, the default VSC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#volume_snapshot_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#volume_snapshot_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#volume_snapshot_class_name DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#volume_snapshot_class_name}
   */
   readonly volumeSnapshotClassName?: string;
 }
@@ -25573,19 +25573,19 @@ export interface DataK8SVolsyncBackubeReplicationSourceV1Alpha1ManifestSpecSynct
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#key DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#operator DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/volsync_backube_replication_source_v1alpha1_manifest#values DataK8SVolsyncBackubeReplicationSourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }

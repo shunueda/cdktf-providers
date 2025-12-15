@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#metadata DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#metadata DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#spec DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#spec DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#spec}
   */
   readonly spec?: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#annotations DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#annotations DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#labels DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#labels DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#name DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#name DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#name}
   */
   readonly name: string;
 }
@@ -185,19 +185,19 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecEgressGat
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#key DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#key DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#operator DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#operator DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#values DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#values DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -367,13 +367,13 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecEgressGat
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecEgressGatewayNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -498,19 +498,19 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecEgressGat
   /**
   * EgressIP is the source IP address that the egress traffic is SNATed with. Example: When set to '192.168.1.100', matching egress traffic will be redirected to the node matching the NodeSelector field and SNATed with IP address 192.168.1.100. When none of the Interface or EgressIP fields is specified, the policy will use the first IPv4 assigned to the interface with the default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#egress_ip DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#egress_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#egress_ip DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#egress_ip}
   */
   readonly egressIp?: string;
   /**
   * Interface is the network interface to which the egress IP address that the traffic is SNATed with is assigned. Example: When set to 'eth1', matching egress traffic will be redirected to the node matching the NodeSelector field and SNATed with the first IPv4 address assigned to the eth1 interface. When none of the Interface or EgressIP fields is specified, the policy will use the first IPv4 assigned to the interface with the default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#interface}
   */
   readonly interface?: string;
   /**
   * This is a label selector which selects the node that should act as egress gateway for the given policy. In case multiple nodes are selected, only the first one in the lexical ordering over the node names will be used. This field follows standard label selector semantics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#node_selector DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#node_selector DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#node_selector}
   */
   readonly nodeSelector: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecEgressGatewayNodeSelector;
 }
@@ -661,19 +661,19 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectors
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#key DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#key DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#operator DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#operator DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#values DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#values DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -843,13 +843,13 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectors
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectorsNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -974,19 +974,19 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectors
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#key DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#key DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#operator DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#operator DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#values DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#values DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1156,13 +1156,13 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectors
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectorsPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1287,13 +1287,13 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectors
   /**
   * Selects Namespaces using cluster-scoped labels. This field follows standard label selector semantics; if present but empty, it selects all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#namespace_selector DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#namespace_selector DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectorsNamespaceSelector;
   /**
   * This is a label selector which selects Pods. This field follows standard label selector semantics; if present but empty, it selects all pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#pod_selector DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#pod_selector DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectorsPodSelector;
 }
@@ -1440,25 +1440,25 @@ export interface DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpec {
   /**
   * DestinationCIDRs is a list of destination CIDRs for destination IP addresses. If a destination IP matches any one CIDR, it will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#destination_cidrs DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#destination_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#destination_cidrs DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#destination_cidrs}
   */
   readonly destinationCidrs: string[];
   /**
   * EgressGateway is the gateway node responsible for SNATing traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#egress_gateway DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#egress_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#egress_gateway DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#egress_gateway}
   */
   readonly egressGateway: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecEgressGateway;
   /**
   * ExcludedCIDRs is a list of destination CIDRs that will be excluded from the egress gateway redirection and SNAT logic. Should be a subset of destinationCIDRs otherwise it will not have any effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#excluded_cidrs DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#excluded_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#excluded_cidrs DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#excluded_cidrs}
   */
   readonly excludedCidrs?: string[];
   /**
   * Egress represents a list of rules by which egress traffic is filtered from the source pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#selectors DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#selectors DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest#selectors}
   */
   readonly selectors: DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecSelectors[] | cdktf.IResolvable;
 }
@@ -1630,7 +1630,7 @@ export class DataK8SCiliumIoCiliumEgressGatewayPolicyV2ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest k8s_cilium_io_cilium_egress_gateway_policy_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest k8s_cilium_io_cilium_egress_gateway_policy_v2_manifest}
 */
 export class DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1646,7 +1646,7 @@ export class DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1658,7 +1658,7 @@ export class DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest k8s_cilium_io_cilium_egress_gateway_policy_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_egress_gateway_policy_v2_manifest k8s_cilium_io_cilium_egress_gateway_policy_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1669,8 +1669,8 @@ export class DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_cilium_io_cilium_egress_gateway_policy_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

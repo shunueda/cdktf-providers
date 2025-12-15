@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestMetadata;
   /**
   * EndpointConfigSpec defines the desired state of EndpointConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestMetadat
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsyncInferenceConfigClientConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#max_concurrent_invocations_per_instance DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#max_concurrent_invocations_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#max_concurrent_invocations_per_instance DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#max_concurrent_invocations_per_instance}
   */
   readonly maxConcurrentInvocationsPerInstance?: number;
 }
@@ -311,15 +311,15 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsy
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsyncInferenceConfigOutputConfigNotificationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#error_topic DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#error_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#error_topic DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#error_topic}
   */
   readonly errorTopic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#include_inference_response_in DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#include_inference_response_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#include_inference_response_in DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#include_inference_response_in}
   */
   readonly includeInferenceResponseIn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#success_topic DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#success_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#success_topic DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#success_topic}
   */
   readonly successTopic?: string;
 }
@@ -471,21 +471,21 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsy
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsyncInferenceConfigOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Specifies the configuration for notifications of inference results for asynchronous inference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#notification_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#notification_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#notification_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#notification_config}
   */
   readonly notificationConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsyncInferenceConfigOutputConfigNotificationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#s3_failure_path DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#s3_failure_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#s3_failure_path DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#s3_failure_path}
   */
   readonly s3FailurePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -668,13 +668,13 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpe
   /**
   * Configures the behavior of the client used by SageMaker to interact with the model container during asynchronous inference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#client_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#client_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#client_config}
   */
   readonly clientConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsyncInferenceConfigClientConfig;
   /**
   * Specifies the configuration for asynchronous inference invocation outputs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#output_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#output_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#output_config}
   */
   readonly outputConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsyncInferenceConfigOutputConfig;
 }
@@ -797,11 +797,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsy
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecDataCaptureConfigCaptureContentTypeHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#csv_content_types DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#csv_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#csv_content_types DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#csv_content_types}
   */
   readonly csvContentTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#json_content_types DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#json_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#json_content_types DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#json_content_types}
   */
   readonly jsonContentTypes?: string[];
 }
@@ -924,7 +924,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecDat
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecDataCaptureConfigCaptureOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#capture_mode DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#capture_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#capture_mode DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#capture_mode}
   */
   readonly captureMode?: string;
 }
@@ -1042,27 +1042,27 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpe
   /**
   * Configuration specifying how to treat different headers. If no headers are specified Amazon SageMaker will by default base64 encode when capturing the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#capture_content_type_header DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#capture_content_type_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#capture_content_type_header DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#capture_content_type_header}
   */
   readonly captureContentTypeHeader?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecDataCaptureConfigCaptureContentTypeHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#capture_options DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#capture_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#capture_options DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#capture_options}
   */
   readonly captureOptions?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecDataCaptureConfigCaptureOptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#destination_s3_uri DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#destination_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#destination_s3_uri DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#destination_s3_uri}
   */
   readonly destinationS3Uri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#enable_capture DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#enable_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#enable_capture DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#enable_capture}
   */
   readonly enableCapture?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#initial_sampling_percentage DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#initial_sampling_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#initial_sampling_percentage DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#initial_sampling_percentage}
   */
   readonly initialSamplingPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -1301,11 +1301,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecDat
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariantsCoreDumpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#destination_s3_uri DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#destination_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#destination_s3_uri DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#destination_s3_uri}
   */
   readonly destinationS3Uri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -1428,15 +1428,15 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecPro
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariantsManagedInstanceScaling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#max_instance_count DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#max_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#max_instance_count DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#max_instance_count}
   */
   readonly maxInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#min_instance_count DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#min_instance_count DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#min_instance_count}
   */
   readonly minInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#status DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#status DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -1588,7 +1588,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecPro
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariantsRoutingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#routing_strategy DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#routing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#routing_strategy DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#routing_strategy}
   */
   readonly routingStrategy?: string;
 }
@@ -1682,15 +1682,15 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecPro
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariantsServerlessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#max_concurrency DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#max_concurrency DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#memory_size_in_mb DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#memory_size_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#memory_size_in_mb DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#memory_size_in_mb}
   */
   readonly memorySizeInMb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#provisioned_concurrency DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#provisioned_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#provisioned_concurrency DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#provisioned_concurrency}
   */
   readonly provisionedConcurrency?: number;
 }
@@ -1842,67 +1842,67 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecPro
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariants {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#accelerator_type DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#accelerator_type DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#accelerator_type}
   */
   readonly acceleratorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#container_startup_health_check_timeout_in_seconds DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#container_startup_health_check_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#container_startup_health_check_timeout_in_seconds DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#container_startup_health_check_timeout_in_seconds}
   */
   readonly containerStartupHealthCheckTimeoutInSeconds?: number;
   /**
   * Specifies configuration for a core dump from the model container when the process crashes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#core_dump_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#core_dump_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#core_dump_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#core_dump_config}
   */
   readonly coreDumpConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariantsCoreDumpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#enable_ssm_access DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#enable_ssm_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#enable_ssm_access DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#enable_ssm_access}
   */
   readonly enableSsmAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#initial_instance_count DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#initial_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#initial_instance_count DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#initial_instance_count}
   */
   readonly initialInstanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#initial_variant_weight DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#initial_variant_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#initial_variant_weight DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#initial_variant_weight}
   */
   readonly initialVariantWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Settings that control the range in the number of instances that the endpoint provisions as it scales up or down to accommodate traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#managed_instance_scaling DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#managed_instance_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#managed_instance_scaling DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#managed_instance_scaling}
   */
   readonly managedInstanceScaling?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariantsManagedInstanceScaling;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#model_data_download_timeout_in_seconds DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#model_data_download_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#model_data_download_timeout_in_seconds DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#model_data_download_timeout_in_seconds}
   */
   readonly modelDataDownloadTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#model_name DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#model_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#model_name DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#model_name}
   */
   readonly modelName?: string;
   /**
   * Settings that control how the endpoint routes incoming traffic to the instances that the endpoint hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#routing_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#routing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#routing_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#routing_config}
   */
   readonly routingConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariantsRoutingConfig;
   /**
   * Specifies the serverless configuration for an endpoint variant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#serverless_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#serverless_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#serverless_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#serverless_config}
   */
   readonly serverlessConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariantsServerlessConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#variant_name DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#variant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#variant_name DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#variant_name}
   */
   readonly variantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -2395,11 +2395,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecPro
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2544,11 +2544,11 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecTag
 }
 export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
 }
@@ -2673,55 +2673,55 @@ export interface DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpe
   /**
   * Specifies configuration for how an endpoint performs asynchronous inference. This is a required field in order for your Endpoint to be invoked using InvokeEndpointAsync (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_runtime_InvokeEndpointAsync.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#async_inference_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#async_inference_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#async_inference_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#async_inference_config}
   */
   readonly asyncInferenceConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecAsyncInferenceConfig;
   /**
   * Configuration to control how SageMaker captures inference data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#data_capture_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#data_capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#data_capture_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#data_capture_config}
   */
   readonly dataCaptureConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecDataCaptureConfig;
   /**
   * Sets whether all model containers deployed to the endpoint are isolated. If they are, no inbound or outbound network calls can be made to or from the model containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktf.IResolvable;
   /**
   * The name of the endpoint configuration. You specify this name in a CreateEndpoint (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateEndpoint.html) request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#endpoint_config_name DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#endpoint_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#endpoint_config_name DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#endpoint_config_name}
   */
   readonly endpointConfigName: string;
   /**
   * The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker can assume to perform actions on your behalf. For more information, see SageMaker Roles (https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html). To be able to pass this role to Amazon SageMaker, the caller of this action must have the iam:PassRole permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#execution_role_arn DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#execution_role_arn DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
   * The Amazon Resource Name (ARN) of a Amazon Web Services Key Management Service key that SageMaker uses to encrypt data on the storage volume attached to the ML compute instance that hosts the endpoint. The KmsKeyId can be any of the following formats: * Key ID: 1234abcd-12ab-34cd-56ef-1234567890ab * Key ARN: arn:aws:kms:us-west-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab * Alias name: alias/ExampleAlias * Alias name ARN: arn:aws:kms:us-west-2:111122223333:alias/ExampleAlias The KMS key policy must grant permission to the IAM role that you specify in your CreateEndpoint, UpdateEndpoint requests. For more information, refer to the Amazon Web Services Key Management Service section Using Key Policies in Amazon Web Services KMS (https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html) Certain Nitro-based instances include local storage, dependent on the instance type. Local storage volumes are encrypted using a hardware module on the instance. You can't request a KmsKeyId when using an instance type with local storage. If any of the models that you specify in the ProductionVariants parameter use nitro-based instances with local storage, do not specify a value for the KmsKeyId parameter. If you specify a value for KmsKeyId when using any nitro-based instances with local storage, the call to CreateEndpointConfig fails. For a list of instance types that support local instance storage, see Instance Store Volumes (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html#instance-store-volumes). For more information about local instance storage encryption, see SSD Instance Store Volumes (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ssd-instance-store.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * An array of ProductionVariant objects, one for each model that you want to host at this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#production_variants DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#production_variants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#production_variants DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#production_variants}
   */
   readonly productionVariants: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecProductionVariants[] | cdktf.IResolvable;
   /**
   * An array of key-value pairs. You can use tags to categorize your Amazon Web Services resources in different ways, for example, by purpose, owner, or environment. For more information, see Tagging Amazon Web Services Resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted models, and compute resources have access to. You can control access to and from your resources by configuring a VPC. For more information, see Give SageMaker Access to Resources in your Amazon VPC (https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest#vpc_config}
   */
   readonly vpcConfig?: DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecVpcConfig;
 }
@@ -3041,7 +3041,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3057,7 +3057,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3069,7 +3069,7 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3080,8 +3080,8 @@ export class DataK8SSagemakerServicesK8SAwsEndpointConfigV1Alpha1Manifest extend
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_endpoint_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

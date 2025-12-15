@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#metadata DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#metadata DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestMetadata;
   /**
   * GrafanaDashboardSpec defines the desired state of GrafanaDashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#spec DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#spec DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#namespace DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#namespace DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -380,11 +380,11 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecConf
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecDatasources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#datasource_name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#datasource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#datasource_name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#datasource_name}
   */
   readonly datasourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#input_name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#input_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#input_name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#input_name}
   */
   readonly inputName: string;
 }
@@ -525,19 +525,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -688,19 +688,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -851,13 +851,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#config_map_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#config_map_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvFromConfigMapKeyRef;
   /**
   * Selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#secret_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#secret_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvFromSecretKeyRef;
 }
@@ -1004,19 +1004,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1167,19 +1167,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1330,13 +1330,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#config_map_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#config_map_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvsValueFromConfigMapKeyRef;
   /**
   * Selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#secret_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#secret_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvsValueFromSecretKeyRef;
 }
@@ -1459,19 +1459,19 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvs
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Inline evn value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Reference on value source, might be the reference on a secret or config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#value_from DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#value_from DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvsValueFrom;
 }
@@ -1642,14 +1642,14 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvs
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecGrafanaCom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#id DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#id DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#revision DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#revision DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#revision}
   */
   readonly revision?: number;
 }
@@ -1771,19 +1771,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1953,13 +1953,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecInstanceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2082,15 +2082,15 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecInst
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecJsonnetLib {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#file_name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#file_name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#file_name}
   */
   readonly fileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#gzip_jsonnet_project DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#gzip_jsonnet_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#gzip_jsonnet_project DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#gzip_jsonnet_project}
   */
   readonly gzipJsonnetProject: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#j_path DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#j_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#j_path DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#j_path}
   */
   readonly jPath?: string[];
 }
@@ -2236,11 +2236,11 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecJson
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecPlugins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#version DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#version DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -2381,19 +2381,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2544,19 +2544,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2707,13 +2707,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#password DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#password DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#password}
   */
   readonly password?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecUrlAuthorizationBasicAuthPassword;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#username DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#username DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#username}
   */
   readonly username?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecUrlAuthorizationBasicAuthUsername;
 }
@@ -2836,7 +2836,7 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecUrlA
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecUrlAuthorization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#basic_auth DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#basic_auth DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecUrlAuthorizationBasicAuth;
 }
@@ -2932,115 +2932,115 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpec
   /**
   * allow to import this resources from an operator in a different namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#allow_cross_namespace_import DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#allow_cross_namespace_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#allow_cross_namespace_import DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#allow_cross_namespace_import}
   */
   readonly allowCrossNamespaceImport?: boolean | cdktf.IResolvable;
   /**
   * dashboard from configmap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#config_map_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#config_map_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecConfigMapRef;
   /**
   * Cache duration for dashboards fetched from URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#content_cache_duration DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#content_cache_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#content_cache_duration DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#content_cache_duration}
   */
   readonly contentCacheDuration?: string;
   /**
   * maps required data sources to existing ones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#datasources DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#datasources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#datasources DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#datasources}
   */
   readonly datasources?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecDatasources[] | cdktf.IResolvable;
   /**
   * environments variables from secrets or config maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#env_from DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#env_from DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvFrom[] | cdktf.IResolvable;
   /**
   * environments variables as a map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#envs DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#envs DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#envs}
   */
   readonly envs?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecEnvs[] | cdktf.IResolvable;
   /**
   * folder assignment for dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#folder DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#folder DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#folder}
   */
   readonly folder?: string;
   /**
   * Name of a 'GrafanaFolder' resource in the same namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#folder_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#folder_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#folder_ref DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#folder_ref}
   */
   readonly folderRef?: string;
   /**
   * UID of the target folder for this dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#folder_uid DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#folder_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#folder_uid DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#folder_uid}
   */
   readonly folderUid?: string;
   /**
   * grafana.com/dashboards
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#grafana_com DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#grafana_com}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#grafana_com DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#grafana_com}
   */
   readonly grafanaCom?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecGrafanaCom;
   /**
   * GzipJson the dashboard's JSON compressed with Gzip. Base64-encoded when in YAML.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#gzip_json DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#gzip_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#gzip_json DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#gzip_json}
   */
   readonly gzipJson?: string;
   /**
   * selects Grafanas for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#instance_selector DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#instance_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#instance_selector DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#instance_selector}
   */
   readonly instanceSelector: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecInstanceSelector;
   /**
   * dashboard json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#json DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#json DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#json}
   */
   readonly json?: string;
   /**
   * Jsonnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#jsonnet DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#jsonnet DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#jsonnet}
   */
   readonly jsonnet?: string;
   /**
   * Jsonnet project build
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#jsonnet_lib DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#jsonnet_lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#jsonnet_lib DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#jsonnet_lib}
   */
   readonly jsonnetLib?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecJsonnetLib;
   /**
   * plugins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#plugins DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#plugins DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#plugins}
   */
   readonly plugins?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecPlugins[] | cdktf.IResolvable;
   /**
   * how often the dashboard is refreshed, defaults to 5m if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#resync_period DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#resync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#resync_period DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#resync_period}
   */
   readonly resyncPeriod?: string;
   /**
   * dashboard url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#url DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#url DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#url}
   */
   readonly url?: string;
   /**
   * authorization options for dashboard from url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#url_authorization DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#url_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#url_authorization DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest#url_authorization}
   */
   readonly urlAuthorization?: DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecUrlAuthorization;
 }
@@ -3653,7 +3653,7 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest k8s_grafana_integreatly_org_grafana_dashboard_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest k8s_grafana_integreatly_org_grafana_dashboard_v1beta1_manifest}
 */
 export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -3669,7 +3669,7 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest extends
   * Generates CDKTF code for importing a DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3681,7 +3681,7 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest k8s_grafana_integreatly_org_grafana_dashboard_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/grafana_integreatly_org_grafana_dashboard_v1beta1_manifest k8s_grafana_integreatly_org_grafana_dashboard_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3692,8 +3692,8 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaDashboardV1Beta1Manifest extends
       terraformResourceType: 'k8s_grafana_integreatly_org_grafana_dashboard_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

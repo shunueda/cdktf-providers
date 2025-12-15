@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PolicyoptionsAsPathConfig extends cdktf.TerraformMetaArguments 
   /**
   * Object may exist in dynamic database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path#dynamic_db PolicyoptionsAsPath#dynamic_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path#dynamic_db PolicyoptionsAsPath#dynamic_db}
   */
   readonly dynamicDb?: boolean | cdktf.IResolvable;
   /**
   * Name to identify AS path regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path#name PolicyoptionsAsPath#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path#name PolicyoptionsAsPath#name}
   */
   readonly name: string;
   /**
   * AS path regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path#path PolicyoptionsAsPath#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path#path PolicyoptionsAsPath#path}
   */
   readonly path?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path junos_policyoptions_as_path}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path junos_policyoptions_as_path}
 */
 export class PolicyoptionsAsPath extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PolicyoptionsAsPath extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyoptionsAsPath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyoptionsAsPath to import
-  * @param importFromId The id of the existing PolicyoptionsAsPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyoptionsAsPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyoptionsAsPath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PolicyoptionsAsPath extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path junos_policyoptions_as_path} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path junos_policyoptions_as_path} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PolicyoptionsAsPath extends cdktf.TerraformResource {
       terraformResourceType: 'junos_policyoptions_as_path',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

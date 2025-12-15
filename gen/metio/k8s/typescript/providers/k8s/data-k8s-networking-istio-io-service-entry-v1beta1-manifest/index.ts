@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#metadata DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#metadata DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestMetadata;
   /**
   * Configuration affecting service registry. See more details at: https://istio.io/docs/reference/config/networking/service-entry.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#spec DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#spec DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#annotations DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#annotations DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#labels DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#labels DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#name DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#name DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#namespace DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#namespace DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpecEndpoint
   /**
   * Address associated with the network endpoint without the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#address DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#address DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#address}
   */
   readonly address?: string;
   /**
   * One or more labels associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#labels DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#labels DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The locality associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#locality DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#locality DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#locality}
   */
   readonly locality?: string;
   /**
   * Network enables Istio to group endpoints resident in the same L3 domain/network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#network DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#network DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#network}
   */
   readonly network?: string;
   /**
   * Set of ports associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#ports DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#ports DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#ports}
   */
   readonly ports?: { [key: string]: string };
   /**
   * The service account associated with the workload if a sidecar is present in the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#service_account DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#service_account DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * The load balancing weight associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#weight DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#weight DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -547,25 +547,25 @@ export interface DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpecPorts {
   /**
   * Label assigned to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#name DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#name DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * A valid non-negative integer port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#number DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#number DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#number}
   */
   readonly number: number;
   /**
   * The protocol exposed on the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#protocol DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#protocol DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * The port number on the endpoint where the traffic will be received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#target_port DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#target_port DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#target_port}
   */
   readonly targetPort?: number;
 }
@@ -764,7 +764,7 @@ export interface DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpecWorkload
   /**
   * One or more labels that indicate a specific set of pods/VMs on which the configuration should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#labels DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#labels DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -860,55 +860,55 @@ export interface DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpec {
   /**
   * The virtual IP addresses associated with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#addresses DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#addresses DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#addresses}
   */
   readonly addresses?: string[];
   /**
   * One or more endpoints associated with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#endpoints DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#endpoints DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#endpoints}
   */
   readonly endpoints?: DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpecEndpoints[] | cdktf.IResolvable;
   /**
   * A list of namespaces to which this service is exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#export_to DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#export_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#export_to DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#export_to}
   */
   readonly exportTo?: string[];
   /**
   * The hosts associated with the ServiceEntry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#hosts DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#hosts DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * Specify whether the service should be considered external to the mesh or part of the mesh. Valid Options: MESH_EXTERNAL, MESH_INTERNAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#location DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#location DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#location}
   */
   readonly location?: string;
   /**
   * The ports associated with the external service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#ports DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#ports DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpecPorts[] | cdktf.IResolvable;
   /**
   * Service resolution mode for the hosts. Valid Options: NONE, STATIC, DNS, DNS_ROUND_ROBIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#resolution DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#resolution DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#resolution}
   */
   readonly resolution?: string;
   /**
   * If specified, the proxy will verify that the server certificate's subject alternate name matches one of the specified values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#subject_alt_names DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#subject_alt_names DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
   /**
   * Applicable only for MESH_INTERNAL services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#workload_selector DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#workload_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#workload_selector DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest#workload_selector}
   */
   readonly workloadSelector?: DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpecWorkloadSelector;
 }
@@ -1231,7 +1231,7 @@ export class DataK8SNetworkingIstioIoServiceEntryV1Beta1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest k8s_networking_istio_io_service_entry_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest k8s_networking_istio_io_service_entry_v1beta1_manifest}
 */
 export class DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1247,7 +1247,7 @@ export class DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1259,7 +1259,7 @@ export class DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest k8s_networking_istio_io_service_entry_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_istio_io_service_entry_v1beta1_manifest k8s_networking_istio_io_service_entry_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1270,8 +1270,8 @@ export class DataK8SNetworkingIstioIoServiceEntryV1Beta1Manifest extends cdktf.T
       terraformResourceType: 'k8s_networking_istio_io_service_entry_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

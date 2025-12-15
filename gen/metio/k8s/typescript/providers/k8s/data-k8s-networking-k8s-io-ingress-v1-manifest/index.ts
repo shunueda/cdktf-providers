@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#metadata DataK8SNetworkingK8SIoIngressV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#metadata DataK8SNetworkingK8SIoIngressV1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingK8SIoIngressV1ManifestMetadata;
   /**
   * IngressSpec describes the Ingress the user wishes to exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#spec DataK8SNetworkingK8SIoIngressV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#spec DataK8SNetworkingK8SIoIngressV1Manifest#spec}
   */
   readonly spec?: DataK8SNetworkingK8SIoIngressV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#annotations DataK8SNetworkingK8SIoIngressV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#annotations DataK8SNetworkingK8SIoIngressV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#labels DataK8SNetworkingK8SIoIngressV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#labels DataK8SNetworkingK8SIoIngressV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#namespace DataK8SNetworkingK8SIoIngressV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#namespace DataK8SNetworkingK8SIoIngressV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecDefaultBackendResour
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#api_group DataK8SNetworkingK8SIoIngressV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#api_group DataK8SNetworkingK8SIoIngressV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#kind DataK8SNetworkingK8SIoIngressV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#kind DataK8SNetworkingK8SIoIngressV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
   */
   readonly name: string;
 }
@@ -379,13 +379,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecDefaultBackendServic
   /**
   * name is the name of the port on the Service. This is a mutually exclusive setting with 'Number'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
   */
   readonly name?: string;
   /**
   * number is the numerical port number (e.g. 80) on the Service. This is a mutually exclusive setting with 'Name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#number DataK8SNetworkingK8SIoIngressV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#number DataK8SNetworkingK8SIoIngressV1Manifest#number}
   */
   readonly number?: number;
 }
@@ -510,13 +510,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecDefaultBackendServic
   /**
   * name is the referenced service. The service must exist in the same namespace as the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
   */
   readonly name: string;
   /**
   * ServiceBackendPort is the service port being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#port DataK8SNetworkingK8SIoIngressV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#port DataK8SNetworkingK8SIoIngressV1Manifest#port}
   */
   readonly port?: DataK8SNetworkingK8SIoIngressV1ManifestSpecDefaultBackendServicePort;
 }
@@ -638,13 +638,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecDefaultBackend {
   /**
   * TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#resource DataK8SNetworkingK8SIoIngressV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#resource DataK8SNetworkingK8SIoIngressV1Manifest#resource}
   */
   readonly resource?: DataK8SNetworkingK8SIoIngressV1ManifestSpecDefaultBackendResource;
   /**
   * IngressServiceBackend references a Kubernetes Service as a Backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#service DataK8SNetworkingK8SIoIngressV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#service DataK8SNetworkingK8SIoIngressV1Manifest#service}
   */
   readonly service?: DataK8SNetworkingK8SIoIngressV1ManifestSpecDefaultBackendService;
 }
@@ -769,19 +769,19 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPathsBacken
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#api_group DataK8SNetworkingK8SIoIngressV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#api_group DataK8SNetworkingK8SIoIngressV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#kind DataK8SNetworkingK8SIoIngressV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#kind DataK8SNetworkingK8SIoIngressV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
   */
   readonly name: string;
 }
@@ -929,13 +929,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPathsBacken
   /**
   * name is the name of the port on the Service. This is a mutually exclusive setting with 'Number'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
   */
   readonly name?: string;
   /**
   * number is the numerical port number (e.g. 80) on the Service. This is a mutually exclusive setting with 'Name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#number DataK8SNetworkingK8SIoIngressV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#number DataK8SNetworkingK8SIoIngressV1Manifest#number}
   */
   readonly number?: number;
 }
@@ -1060,13 +1060,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPathsBacken
   /**
   * name is the referenced service. The service must exist in the same namespace as the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#name DataK8SNetworkingK8SIoIngressV1Manifest#name}
   */
   readonly name: string;
   /**
   * ServiceBackendPort is the service port being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#port DataK8SNetworkingK8SIoIngressV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#port DataK8SNetworkingK8SIoIngressV1Manifest#port}
   */
   readonly port?: DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPathsBackendServicePort;
 }
@@ -1188,13 +1188,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPathsBacken
   /**
   * TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#resource DataK8SNetworkingK8SIoIngressV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#resource DataK8SNetworkingK8SIoIngressV1Manifest#resource}
   */
   readonly resource?: DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPathsBackendResource;
   /**
   * IngressServiceBackend references a Kubernetes Service as a Backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#service DataK8SNetworkingK8SIoIngressV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#service DataK8SNetworkingK8SIoIngressV1Manifest#service}
   */
   readonly service?: DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPathsBackendService;
 }
@@ -1319,19 +1319,19 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPaths {
   /**
   * IngressBackend describes all endpoints for a given service and port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#backend DataK8SNetworkingK8SIoIngressV1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#backend DataK8SNetworkingK8SIoIngressV1Manifest#backend}
   */
   readonly backend: DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPathsBackend;
   /**
   * path is matched against the path of an incoming request. Currently it can contain characters disallowed from the conventional 'path' part of a URL as defined by RFC 3986. Paths must begin with a '/' and must be present when using PathType with value 'Exact' or 'Prefix'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#path DataK8SNetworkingK8SIoIngressV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#path DataK8SNetworkingK8SIoIngressV1Manifest#path}
   */
   readonly path?: string;
   /**
   * pathType determines the interpretation of the path matching. PathType can be one of the following values: * Exact: Matches the URL path exactly. * Prefix: Matches based on a URL path prefix split by '/'. Matching is done on a path element by element basis. A path element refers is the list of labels in the path split by the '/' separator. A request is a match for path p if every p is an element-wise prefix of p of the request path. Note that if the last element of the path is a substring of the last element in request path, it is not a match (e.g. /foo/bar matches /foo/bar/baz, but does not match /foo/barbaz). * ImplementationSpecific: Interpretation of the Path matching is up to the IngressClass. Implementations can treat this as a separate PathType or treat it identically to Prefix or Exact path types. Implementations are required to support all path types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#path_type DataK8SNetworkingK8SIoIngressV1Manifest#path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#path_type DataK8SNetworkingK8SIoIngressV1Manifest#path_type}
   */
   readonly pathType: string;
 }
@@ -1501,7 +1501,7 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttp {
   /**
   * paths is a collection of paths that map requests to backends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#paths DataK8SNetworkingK8SIoIngressV1Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#paths DataK8SNetworkingK8SIoIngressV1Manifest#paths}
   */
   readonly paths: DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttpPaths[] | cdktf.IResolvable;
 }
@@ -1594,13 +1594,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecRules {
   /**
   * host is the fully qualified domain name of a network host, as defined by RFC 3986. Note the following deviations from the 'host' part of the URI as defined in RFC 3986: 1. IPs are not allowed. Currently an IngressRuleValue can only apply to the IP in the Spec of the parent Ingress. 2. The ':' delimiter is not respected because ports are not allowed. Currently the port of an Ingress is implicitly :80 for http and :443 for https. Both these may change in the future. Incoming requests are matched against the host before the IngressRuleValue. If the host is unspecified, the Ingress routes all traffic based on the specified IngressRuleValue. host can be 'precise' which is a domain name without the terminating dot of a network host (e.g. 'foo.bar.com') or 'wildcard', which is a domain name prefixed with a single wildcard label (e.g. '*.foo.com'). The wildcard character '*' must appear by itself as the first DNS label and matches only a single label. You cannot have a wildcard label by itself (e.g. Host == '*'). Requests will be matched against the Host field in the following way: 1. If host is precise, the request matches this rule if the http host header is equal to Host. 2. If host is a wildcard, then the request matches this rule if the http host header is to equal to the suffix (removing the first label) of the wildcard rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#host DataK8SNetworkingK8SIoIngressV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#host DataK8SNetworkingK8SIoIngressV1Manifest#host}
   */
   readonly host?: string;
   /**
   * HTTPIngressRuleValue is a list of http selectors pointing to backends. In the example: http://<host>/<path>?<searchpart> -> backend where where parts of the url correspond to RFC 3986, this resource will be used to match against everything after the last '/' and before the first '?' or '#'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#http DataK8SNetworkingK8SIoIngressV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#http DataK8SNetworkingK8SIoIngressV1Manifest#http}
   */
   readonly http?: DataK8SNetworkingK8SIoIngressV1ManifestSpecRulesHttp;
 }
@@ -1747,13 +1747,13 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpecTls {
   /**
   * hosts is a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#hosts DataK8SNetworkingK8SIoIngressV1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#hosts DataK8SNetworkingK8SIoIngressV1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * secretName is the name of the secret used to terminate TLS traffic on port 443. Field is left optional to allow TLS routing based on SNI hostname alone. If the SNI host in a listener conflicts with the 'Host' header field used by an IngressRule, the SNI host is used for termination and value of the 'Host' header is used for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#secret_name DataK8SNetworkingK8SIoIngressV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#secret_name DataK8SNetworkingK8SIoIngressV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -1900,25 +1900,25 @@ export interface DataK8SNetworkingK8SIoIngressV1ManifestSpec {
   /**
   * IngressBackend describes all endpoints for a given service and port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#default_backend DataK8SNetworkingK8SIoIngressV1Manifest#default_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#default_backend DataK8SNetworkingK8SIoIngressV1Manifest#default_backend}
   */
   readonly defaultBackend?: DataK8SNetworkingK8SIoIngressV1ManifestSpecDefaultBackend;
   /**
   * ingressClassName is the name of an IngressClass cluster resource. Ingress controller implementations use this field to know whether they should be serving this Ingress resource, by a transitive connection (controller -> IngressClass -> Ingress resource). Although the 'kubernetes.io/ingress.class' annotation (simple constant name) was never formally defined, it was widely supported by Ingress controllers to create a direct binding between Ingress controller and Ingress resources. Newly created Ingress resources should prefer using the field. However, even though the annotation is officially deprecated, for backwards compatibility reasons, ingress controllers should still honor that annotation if present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#ingress_class_name DataK8SNetworkingK8SIoIngressV1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#ingress_class_name DataK8SNetworkingK8SIoIngressV1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * rules is a list of host rules used to configure the Ingress. If unspecified, or no rule matches, all traffic is sent to the default backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#rules DataK8SNetworkingK8SIoIngressV1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#rules DataK8SNetworkingK8SIoIngressV1Manifest#rules}
   */
   readonly rules?: DataK8SNetworkingK8SIoIngressV1ManifestSpecRules[] | cdktf.IResolvable;
   /**
   * tls represents the TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#tls DataK8SNetworkingK8SIoIngressV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#tls DataK8SNetworkingK8SIoIngressV1Manifest#tls}
   */
   readonly tls?: DataK8SNetworkingK8SIoIngressV1ManifestSpecTls[] | cdktf.IResolvable;
 }
@@ -2099,7 +2099,7 @@ export class DataK8SNetworkingK8SIoIngressV1ManifestSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest k8s_networking_k8s_io_ingress_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest k8s_networking_k8s_io_ingress_v1_manifest}
 */
 export class DataK8SNetworkingK8SIoIngressV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2115,7 +2115,7 @@ export class DataK8SNetworkingK8SIoIngressV1Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SNetworkingK8SIoIngressV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingK8SIoIngressV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingK8SIoIngressV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingK8SIoIngressV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingK8SIoIngressV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2127,7 +2127,7 @@ export class DataK8SNetworkingK8SIoIngressV1Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/networking_k8s_io_ingress_v1_manifest k8s_networking_k8s_io_ingress_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/networking_k8s_io_ingress_v1_manifest k8s_networking_k8s_io_ingress_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2138,8 +2138,8 @@ export class DataK8SNetworkingK8SIoIngressV1Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_networking_k8s_io_ingress_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MstpMstiConfig extends cdktf.TerraformMetaArguments {
   /**
   * Priority of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#backup_bridge_priority MstpMsti#backup_bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#backup_bridge_priority MstpMsti#backup_bridge_priority}
   */
   readonly backupBridgePriority?: string;
   /**
   * Priority of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#bridge_priority MstpMsti#bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#bridge_priority MstpMsti#bridge_priority}
   */
   readonly bridgePriority?: string;
   /**
   * MSTI identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#msti_id MstpMsti#msti_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#msti_id MstpMsti#msti_id}
   */
   readonly mstiId: number;
   /**
   * Routing instance for mstp protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#routing_instance MstpMsti#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#routing_instance MstpMsti#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * VLAN ID or VLAN ID range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#vlan MstpMsti#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#vlan MstpMsti#vlan}
   */
   readonly vlan: string[];
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#interface MstpMsti#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#interface MstpMsti#interface}
   */
   readonly interface?: MstpMstiInterface[] | cdktf.IResolvable;
 }
@@ -48,19 +48,19 @@ export interface MstpMstiInterface {
   /**
   * Cost of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#cost MstpMsti#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#cost MstpMsti#cost}
   */
   readonly cost?: number;
   /**
   * Interface name or `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#name MstpMsti#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#name MstpMsti#name}
   */
   readonly name: string;
   /**
   * Interface priority (in increments of 16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#priority MstpMsti#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#priority MstpMsti#priority}
   */
   readonly priority?: number;
 }
@@ -231,7 +231,7 @@ export class MstpMstiInterfaceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti junos_mstp_msti}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti junos_mstp_msti}
 */
 export class MstpMsti extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class MstpMsti extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MstpMsti resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MstpMsti to import
-  * @param importFromId The id of the existing MstpMsti that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MstpMsti that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MstpMsti to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class MstpMsti extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/mstp_msti junos_mstp_msti} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/mstp_msti junos_mstp_msti} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class MstpMsti extends cdktf.TerraformResource {
       terraformResourceType: 'junos_mstp_msti',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

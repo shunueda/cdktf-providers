@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,163 +10,163 @@ export interface SystemServicesDhcpLocalserverGroupConfig extends cdktf.Terrafor
   /**
   * Access profile to use for AAA services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#access_profile SystemServicesDhcpLocalserverGroup#access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#access_profile SystemServicesDhcpLocalserverGroup#access_profile}
   */
   readonly accessProfile?: string;
   /**
   * DHCP authentication, username password to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#authentication_password SystemServicesDhcpLocalserverGroup#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#authentication_password SystemServicesDhcpLocalserverGroup#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * Dynamic profile to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile SystemServicesDhcpLocalserverGroup#dynamic_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile SystemServicesDhcpLocalserverGroup#dynamic_profile}
   */
   readonly dynamicProfile?: string;
   /**
   * Aggregate client profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_aggregate_clients SystemServicesDhcpLocalserverGroup#dynamic_profile_aggregate_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_aggregate_clients SystemServicesDhcpLocalserverGroup#dynamic_profile_aggregate_clients}
   */
   readonly dynamicProfileAggregateClients?: boolean | cdktf.IResolvable;
   /**
   * Merge or replace the client dynamic profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_aggregate_clients_action SystemServicesDhcpLocalserverGroup#dynamic_profile_aggregate_clients_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_aggregate_clients_action SystemServicesDhcpLocalserverGroup#dynamic_profile_aggregate_clients_action}
   */
   readonly dynamicProfileAggregateClientsAction?: string;
   /**
   * Dynamic profile to use on the primary interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_use_primary SystemServicesDhcpLocalserverGroup#dynamic_profile_use_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_use_primary SystemServicesDhcpLocalserverGroup#dynamic_profile_use_primary}
   */
   readonly dynamicProfileUsePrimary?: string;
   /**
   * Liveness detection failure action options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#liveness_detection_failure_action SystemServicesDhcpLocalserverGroup#liveness_detection_failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#liveness_detection_failure_action SystemServicesDhcpLocalserverGroup#liveness_detection_failure_action}
   */
   readonly livenessDetectionFailureAction?: string;
   /**
   * Group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#name SystemServicesDhcpLocalserverGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#name SystemServicesDhcpLocalserverGroup#name}
   */
   readonly name: string;
   /**
   * Reauthenticate on each renew, rebind, DISCOVER or SOLICIT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#reauthenticate_lease_renewal SystemServicesDhcpLocalserverGroup#reauthenticate_lease_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#reauthenticate_lease_renewal SystemServicesDhcpLocalserverGroup#reauthenticate_lease_renewal}
   */
   readonly reauthenticateLeaseRenewal?: boolean | cdktf.IResolvable;
   /**
   * Reauthenticate on remote-id mismatch for renew, rebind and re-negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#reauthenticate_remote_id_mismatch SystemServicesDhcpLocalserverGroup#reauthenticate_remote_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#reauthenticate_remote_id_mismatch SystemServicesDhcpLocalserverGroup#reauthenticate_remote_id_mismatch}
   */
   readonly reauthenticateRemoteIdMismatch?: boolean | cdktf.IResolvable;
   /**
   * Disconnect session on remote-id mismatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#remote_id_mismatch_disconnect SystemServicesDhcpLocalserverGroup#remote_id_mismatch_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#remote_id_mismatch_disconnect SystemServicesDhcpLocalserverGroup#remote_id_mismatch_disconnect}
   */
   readonly remoteIdMismatchDisconnect?: boolean | cdktf.IResolvable;
   /**
   * Suppress access route addition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#route_suppression_access SystemServicesDhcpLocalserverGroup#route_suppression_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#route_suppression_access SystemServicesDhcpLocalserverGroup#route_suppression_access}
   */
   readonly routeSuppressionAccess?: boolean | cdktf.IResolvable;
   /**
   * Suppress access-internal route addition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#route_suppression_access_internal SystemServicesDhcpLocalserverGroup#route_suppression_access_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#route_suppression_access_internal SystemServicesDhcpLocalserverGroup#route_suppression_access_internal}
   */
   readonly routeSuppressionAccessInternal?: boolean | cdktf.IResolvable;
   /**
   * Suppress destination route addition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#route_suppression_destination SystemServicesDhcpLocalserverGroup#route_suppression_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#route_suppression_destination SystemServicesDhcpLocalserverGroup#route_suppression_destination}
   */
   readonly routeSuppressionDestination?: boolean | cdktf.IResolvable;
   /**
   * Routing instance if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#routing_instance SystemServicesDhcpLocalserverGroup#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#routing_instance SystemServicesDhcpLocalserverGroup#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Dynamic profile to use for default service activation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#service_profile SystemServicesDhcpLocalserverGroup#service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#service_profile SystemServicesDhcpLocalserverGroup#service_profile}
   */
   readonly serviceProfile?: string;
   /**
   * Short cycle lockout max time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#short_cycle_protection_lockout_max_time SystemServicesDhcpLocalserverGroup#short_cycle_protection_lockout_max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#short_cycle_protection_lockout_max_time SystemServicesDhcpLocalserverGroup#short_cycle_protection_lockout_max_time}
   */
   readonly shortCycleProtectionLockoutMaxTime?: number;
   /**
   * hort cycle lockout min time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#short_cycle_protection_lockout_min_time SystemServicesDhcpLocalserverGroup#short_cycle_protection_lockout_min_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#short_cycle_protection_lockout_min_time SystemServicesDhcpLocalserverGroup#short_cycle_protection_lockout_min_time}
   */
   readonly shortCycleProtectionLockoutMinTime?: number;
   /**
   * Version for DHCP or DHCPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#version SystemServicesDhcpLocalserverGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#version SystemServicesDhcpLocalserverGroup#version}
   */
   readonly version?: string;
   /**
   * authentication_username_include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#authentication_username_include SystemServicesDhcpLocalserverGroup#authentication_username_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#authentication_username_include SystemServicesDhcpLocalserverGroup#authentication_username_include}
   */
   readonly authenticationUsernameInclude?: SystemServicesDhcpLocalserverGroupAuthenticationUsernameInclude;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#interface SystemServicesDhcpLocalserverGroup#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#interface SystemServicesDhcpLocalserverGroup#interface}
   */
   readonly interface?: SystemServicesDhcpLocalserverGroupInterface[] | cdktf.IResolvable;
   /**
   * lease_time_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#lease_time_validation SystemServicesDhcpLocalserverGroup#lease_time_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#lease_time_validation SystemServicesDhcpLocalserverGroup#lease_time_validation}
   */
   readonly leaseTimeValidation?: SystemServicesDhcpLocalserverGroupLeaseTimeValidation;
   /**
   * liveness_detection_method_bfd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#liveness_detection_method_bfd SystemServicesDhcpLocalserverGroup#liveness_detection_method_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#liveness_detection_method_bfd SystemServicesDhcpLocalserverGroup#liveness_detection_method_bfd}
   */
   readonly livenessDetectionMethodBfd?: SystemServicesDhcpLocalserverGroupLivenessDetectionMethodBfd;
   /**
   * liveness_detection_method_layer2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#liveness_detection_method_layer2 SystemServicesDhcpLocalserverGroup#liveness_detection_method_layer2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#liveness_detection_method_layer2 SystemServicesDhcpLocalserverGroup#liveness_detection_method_layer2}
   */
   readonly livenessDetectionMethodLayer2?: SystemServicesDhcpLocalserverGroupLivenessDetectionMethodLayer2;
   /**
   * overrides_v4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#overrides_v4 SystemServicesDhcpLocalserverGroup#overrides_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#overrides_v4 SystemServicesDhcpLocalserverGroup#overrides_v4}
   */
   readonly overridesV4?: SystemServicesDhcpLocalserverGroupOverridesV4;
   /**
   * overrides_v6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#overrides_v6 SystemServicesDhcpLocalserverGroup#overrides_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#overrides_v6 SystemServicesDhcpLocalserverGroup#overrides_v6}
   */
   readonly overridesV6?: SystemServicesDhcpLocalserverGroupOverridesV6;
   /**
   * reconfigure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#reconfigure SystemServicesDhcpLocalserverGroup#reconfigure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#reconfigure SystemServicesDhcpLocalserverGroup#reconfigure}
   */
   readonly reconfigure?: SystemServicesDhcpLocalserverGroupReconfigure;
 }
@@ -174,115 +174,115 @@ export interface SystemServicesDhcpLocalserverGroupAuthenticationUsernameInclude
   /**
   * Include circuit type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#circuit_type SystemServicesDhcpLocalserverGroup#circuit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#circuit_type SystemServicesDhcpLocalserverGroup#circuit_type}
   */
   readonly circuitType?: boolean | cdktf.IResolvable;
   /**
   * Include client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#client_id SystemServicesDhcpLocalserverGroup#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#client_id SystemServicesDhcpLocalserverGroup#client_id}
   */
   readonly clientId?: boolean | cdktf.IResolvable;
   /**
   * Exclude all the headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#client_id_exclude_headers SystemServicesDhcpLocalserverGroup#client_id_exclude_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#client_id_exclude_headers SystemServicesDhcpLocalserverGroup#client_id_exclude_headers}
   */
   readonly clientIdExcludeHeaders?: boolean | cdktf.IResolvable;
   /**
   * Use automatic ascii hex username encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#client_id_use_automatic_ascii_hex_encoding SystemServicesDhcpLocalserverGroup#client_id_use_automatic_ascii_hex_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#client_id_use_automatic_ascii_hex_encoding SystemServicesDhcpLocalserverGroup#client_id_use_automatic_ascii_hex_encoding}
   */
   readonly clientIdUseAutomaticAsciiHexEncoding?: boolean | cdktf.IResolvable;
   /**
   * Change delimiter/separator character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delimiter SystemServicesDhcpLocalserverGroup#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delimiter SystemServicesDhcpLocalserverGroup#delimiter}
   */
   readonly delimiter?: string;
   /**
   * Add domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#domain_name SystemServicesDhcpLocalserverGroup#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#domain_name SystemServicesDhcpLocalserverGroup#domain_name}
   */
   readonly domainName?: string;
   /**
   * Include interface description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#interface_description SystemServicesDhcpLocalserverGroup#interface_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#interface_description SystemServicesDhcpLocalserverGroup#interface_description}
   */
   readonly interfaceDescription?: string;
   /**
   * Include interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#interface_name SystemServicesDhcpLocalserverGroup#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#interface_name SystemServicesDhcpLocalserverGroup#interface_name}
   */
   readonly interfaceName?: boolean | cdktf.IResolvable;
   /**
   * Include MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#mac_address SystemServicesDhcpLocalserverGroup#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#mac_address SystemServicesDhcpLocalserverGroup#mac_address}
   */
   readonly macAddress?: boolean | cdktf.IResolvable;
   /**
   * Include option 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#option_60 SystemServicesDhcpLocalserverGroup#option_60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#option_60 SystemServicesDhcpLocalserverGroup#option_60}
   */
   readonly option60?: boolean | cdktf.IResolvable;
   /**
   * Include option 82.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#option_82 SystemServicesDhcpLocalserverGroup#option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#option_82 SystemServicesDhcpLocalserverGroup#option_82}
   */
   readonly option82?: boolean | cdktf.IResolvable;
   /**
   * Include option 82 circuit-id (sub option 1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#option_82_circuit_id SystemServicesDhcpLocalserverGroup#option_82_circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#option_82_circuit_id SystemServicesDhcpLocalserverGroup#option_82_circuit_id}
   */
   readonly option82CircuitId?: boolean | cdktf.IResolvable;
   /**
   * Include option 82 remote-id (sub option 2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#option_82_remote_id SystemServicesDhcpLocalserverGroup#option_82_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#option_82_remote_id SystemServicesDhcpLocalserverGroup#option_82_remote_id}
   */
   readonly option82RemoteId?: boolean | cdktf.IResolvable;
   /**
   * Include the relay agent interface ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#relay_agent_interface_id SystemServicesDhcpLocalserverGroup#relay_agent_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#relay_agent_interface_id SystemServicesDhcpLocalserverGroup#relay_agent_interface_id}
   */
   readonly relayAgentInterfaceId?: boolean | cdktf.IResolvable;
   /**
   * Include the relay agent remote ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#relay_agent_remote_id SystemServicesDhcpLocalserverGroup#relay_agent_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#relay_agent_remote_id SystemServicesDhcpLocalserverGroup#relay_agent_remote_id}
   */
   readonly relayAgentRemoteId?: boolean | cdktf.IResolvable;
   /**
   * Include the relay agent subscriber ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#relay_agent_subscriber_id SystemServicesDhcpLocalserverGroup#relay_agent_subscriber_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#relay_agent_subscriber_id SystemServicesDhcpLocalserverGroup#relay_agent_subscriber_id}
   */
   readonly relayAgentSubscriberId?: boolean | cdktf.IResolvable;
   /**
   * Include routing instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#routing_instance_name SystemServicesDhcpLocalserverGroup#routing_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#routing_instance_name SystemServicesDhcpLocalserverGroup#routing_instance_name}
   */
   readonly routingInstanceName?: boolean | cdktf.IResolvable;
   /**
   * Add user defined prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#user_prefix SystemServicesDhcpLocalserverGroup#user_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#user_prefix SystemServicesDhcpLocalserverGroup#user_prefix}
   */
   readonly userPrefix?: string;
   /**
   * Include the vlan tag(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#vlan_tags SystemServicesDhcpLocalserverGroup#vlan_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#vlan_tags SystemServicesDhcpLocalserverGroup#vlan_tags}
   */
   readonly vlanTags?: boolean | cdktf.IResolvable;
 }
@@ -900,25 +900,25 @@ export interface SystemServicesDhcpLocalserverGroupInterfaceOverridesV4DelayOffe
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#compare SystemServicesDhcpLocalserverGroup#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#compare SystemServicesDhcpLocalserverGroup#compare}
   */
   readonly compare: string;
   /**
   * Option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#option SystemServicesDhcpLocalserverGroup#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#option SystemServicesDhcpLocalserverGroup#option}
   */
   readonly option: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#value SystemServicesDhcpLocalserverGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#value SystemServicesDhcpLocalserverGroup#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#value_type SystemServicesDhcpLocalserverGroup#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#value_type SystemServicesDhcpLocalserverGroup#value_type}
   */
   readonly valueType: string;
 }
@@ -1111,85 +1111,85 @@ export interface SystemServicesDhcpLocalserverGroupInterfaceOverridesV4 {
   /**
   * Allow packets without end-of-option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#allow_no_end_option SystemServicesDhcpLocalserverGroup#allow_no_end_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#allow_no_end_option SystemServicesDhcpLocalserverGroup#allow_no_end_option}
   */
   readonly allowNoEndOption?: boolean | cdktf.IResolvable;
   /**
   * Use a reduced lease time for the client (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_lease_time}
   */
   readonly asymmetricLeaseTime?: number;
   /**
   * Allow processing of bootp requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#bootp_support SystemServicesDhcpLocalserverGroup#bootp_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#bootp_support SystemServicesDhcpLocalserverGroup#bootp_support}
   */
   readonly bootpSupport?: boolean | cdktf.IResolvable;
   /**
   * Use incoming interface or option 60 and option 82 match criteria for DISCOVER PDU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#client_discover_match SystemServicesDhcpLocalserverGroup#client_discover_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#client_discover_match SystemServicesDhcpLocalserverGroup#client_discover_match}
   */
   readonly clientDiscoverMatch?: string;
   /**
   * Time delay between discover and offer (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delay_offer_delay_time SystemServicesDhcpLocalserverGroup#delay_offer_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delay_offer_delay_time SystemServicesDhcpLocalserverGroup#delay_offer_delay_time}
   */
   readonly delayOfferDelayTime?: number;
   /**
   * Delete binding on renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delete_binding_on_renegotiation SystemServicesDhcpLocalserverGroup#delete_binding_on_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delete_binding_on_renegotiation SystemServicesDhcpLocalserverGroup#delete_binding_on_renegotiation}
   */
   readonly deleteBindingOnRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * Dual stack group to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dual_stack SystemServicesDhcpLocalserverGroup#dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dual_stack SystemServicesDhcpLocalserverGroup#dual_stack}
   */
   readonly dualStack?: string;
   /**
   * Include option-82 in FORCERENEW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#include_option_82_forcerenew SystemServicesDhcpLocalserverGroup#include_option_82_forcerenew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#include_option_82_forcerenew SystemServicesDhcpLocalserverGroup#include_option_82_forcerenew}
   */
   readonly includeOption82Forcerenew?: boolean | cdktf.IResolvable;
   /**
   * Include option-82 in NAK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#include_option_82_nak SystemServicesDhcpLocalserverGroup#include_option_82_nak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#include_option_82_nak SystemServicesDhcpLocalserverGroup#include_option_82_nak}
   */
   readonly includeOption82Nak?: boolean | cdktf.IResolvable;
   /**
   * Limit the number of clients allowed on an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#interface_client_limit SystemServicesDhcpLocalserverGroup#interface_client_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#interface_client_limit SystemServicesDhcpLocalserverGroup#interface_client_limit}
   */
   readonly interfaceClientLimit?: number;
   /**
   * Process INFORM PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#process_inform SystemServicesDhcpLocalserverGroup#process_inform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#process_inform SystemServicesDhcpLocalserverGroup#process_inform}
   */
   readonly processInform?: boolean | cdktf.IResolvable;
   /**
   * Pool name for family inet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#process_inform_pool SystemServicesDhcpLocalserverGroup#process_inform_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#process_inform_pool SystemServicesDhcpLocalserverGroup#process_inform_pool}
   */
   readonly processInformPool?: string;
   /**
   * DHCPv4 attributes to use as defined under access protocol-attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#protocol_attributes SystemServicesDhcpLocalserverGroup#protocol_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#protocol_attributes SystemServicesDhcpLocalserverGroup#protocol_attributes}
   */
   readonly protocolAttributes?: string;
   /**
   * delay_offer_based_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delay_offer_based_on SystemServicesDhcpLocalserverGroup#delay_offer_based_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delay_offer_based_on SystemServicesDhcpLocalserverGroup#delay_offer_based_on}
   */
   readonly delayOfferBasedOn?: SystemServicesDhcpLocalserverGroupInterfaceOverridesV4DelayOfferBasedOn[] | cdktf.IResolvable;
 }
@@ -1662,25 +1662,25 @@ export interface SystemServicesDhcpLocalserverGroupInterfaceOverridesV6DelayAdve
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#compare SystemServicesDhcpLocalserverGroup#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#compare SystemServicesDhcpLocalserverGroup#compare}
   */
   readonly compare: string;
   /**
   * Option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#option SystemServicesDhcpLocalserverGroup#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#option SystemServicesDhcpLocalserverGroup#option}
   */
   readonly option: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#value SystemServicesDhcpLocalserverGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#value SystemServicesDhcpLocalserverGroup#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#value_type SystemServicesDhcpLocalserverGroup#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#value_type SystemServicesDhcpLocalserverGroup#value_type}
   */
   readonly valueType: string;
 }
@@ -1873,103 +1873,103 @@ export interface SystemServicesDhcpLocalserverGroupInterfaceOverridesV6 {
   /**
   * Add option-23, DNS recursive name server in Advertise and Reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#always_add_option_dns_server SystemServicesDhcpLocalserverGroup#always_add_option_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#always_add_option_dns_server SystemServicesDhcpLocalserverGroup#always_add_option_dns_server}
   */
   readonly alwaysAddOptionDnsServer?: boolean | cdktf.IResolvable;
   /**
   * Always process option even after address allocation failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#always_process_option_request_option SystemServicesDhcpLocalserverGroup#always_process_option_request_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#always_process_option_request_option SystemServicesDhcpLocalserverGroup#always_process_option_request_option}
   */
   readonly alwaysProcessOptionRequestOption?: boolean | cdktf.IResolvable;
   /**
   * Use a reduced lease time for the client. In seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_lease_time}
   */
   readonly asymmetricLeaseTime?: number;
   /**
   * Use a reduced prefix lease time for the client. In seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_prefix_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_prefix_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_prefix_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_prefix_lease_time}
   */
   readonly asymmetricPrefixLeaseTime?: number;
   /**
   * Use incoming interface match criteria for SOLICIT PDU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#client_negotiation_match_incoming_interface SystemServicesDhcpLocalserverGroup#client_negotiation_match_incoming_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#client_negotiation_match_incoming_interface SystemServicesDhcpLocalserverGroup#client_negotiation_match_incoming_interface}
   */
   readonly clientNegotiationMatchIncomingInterface?: boolean | cdktf.IResolvable;
   /**
   * Time delay between solicit and advertise (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delay_advertise_delay_time SystemServicesDhcpLocalserverGroup#delay_advertise_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delay_advertise_delay_time SystemServicesDhcpLocalserverGroup#delay_advertise_delay_time}
   */
   readonly delayAdvertiseDelayTime?: number;
   /**
   * Delegated pool name for inet6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delegated_pool SystemServicesDhcpLocalserverGroup#delegated_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delegated_pool SystemServicesDhcpLocalserverGroup#delegated_pool}
   */
   readonly delegatedPool?: string;
   /**
   * Delete binding on renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delete_binding_on_renegotiation SystemServicesDhcpLocalserverGroup#delete_binding_on_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delete_binding_on_renegotiation SystemServicesDhcpLocalserverGroup#delete_binding_on_renegotiation}
   */
   readonly deleteBindingOnRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * Dual stack group to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dual_stack SystemServicesDhcpLocalserverGroup#dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dual_stack SystemServicesDhcpLocalserverGroup#dual_stack}
   */
   readonly dualStack?: string;
   /**
   * Limit the number of clients allowed on an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#interface_client_limit SystemServicesDhcpLocalserverGroup#interface_client_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#interface_client_limit SystemServicesDhcpLocalserverGroup#interface_client_limit}
   */
   readonly interfaceClientLimit?: number;
   /**
   * If the client requests multiple addresses place the options in each address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#multi_address_embedded_option_response SystemServicesDhcpLocalserverGroup#multi_address_embedded_option_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#multi_address_embedded_option_response SystemServicesDhcpLocalserverGroup#multi_address_embedded_option_response}
   */
   readonly multiAddressEmbeddedOptionResponse?: boolean | cdktf.IResolvable;
   /**
   * Process INFORM PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#process_inform SystemServicesDhcpLocalserverGroup#process_inform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#process_inform SystemServicesDhcpLocalserverGroup#process_inform}
   */
   readonly processInform?: boolean | cdktf.IResolvable;
   /**
   * Pool name for family inet6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#process_inform_pool SystemServicesDhcpLocalserverGroup#process_inform_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#process_inform_pool SystemServicesDhcpLocalserverGroup#process_inform_pool}
   */
   readonly processInformPool?: string;
   /**
   * DHCPv6 attributes to use as defined under access protocol-attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#protocol_attributes SystemServicesDhcpLocalserverGroup#protocol_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#protocol_attributes SystemServicesDhcpLocalserverGroup#protocol_attributes}
   */
   readonly protocolAttributes?: string;
   /**
   * Enable rapid commit processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#rapid_commit SystemServicesDhcpLocalserverGroup#rapid_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#rapid_commit SystemServicesDhcpLocalserverGroup#rapid_commit}
   */
   readonly rapidCommit?: boolean | cdktf.IResolvable;
   /**
   * A top level status code option rather than encapsulated in IA for NoAddrsAvail in Advertise PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#top_level_status_code SystemServicesDhcpLocalserverGroup#top_level_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#top_level_status_code SystemServicesDhcpLocalserverGroup#top_level_status_code}
   */
   readonly topLevelStatusCode?: boolean | cdktf.IResolvable;
   /**
   * delay_advertise_based_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delay_advertise_based_on SystemServicesDhcpLocalserverGroup#delay_advertise_based_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delay_advertise_based_on SystemServicesDhcpLocalserverGroup#delay_advertise_based_on}
   */
   readonly delayAdvertiseBasedOn?: SystemServicesDhcpLocalserverGroupInterfaceOverridesV6DelayAdvertiseBasedOn[] | cdktf.IResolvable;
 }
@@ -2529,85 +2529,85 @@ export interface SystemServicesDhcpLocalserverGroupInterface {
   /**
   * Access profile to use for AAA services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#access_profile SystemServicesDhcpLocalserverGroup#access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#access_profile SystemServicesDhcpLocalserverGroup#access_profile}
   */
   readonly accessProfile?: string;
   /**
   * Dynamic profile to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile SystemServicesDhcpLocalserverGroup#dynamic_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile SystemServicesDhcpLocalserverGroup#dynamic_profile}
   */
   readonly dynamicProfile?: string;
   /**
   * Aggregate client profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_aggregate_clients SystemServicesDhcpLocalserverGroup#dynamic_profile_aggregate_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_aggregate_clients SystemServicesDhcpLocalserverGroup#dynamic_profile_aggregate_clients}
   */
   readonly dynamicProfileAggregateClients?: boolean | cdktf.IResolvable;
   /**
   * Merge or replace the client dynamic profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_aggregate_clients_action SystemServicesDhcpLocalserverGroup#dynamic_profile_aggregate_clients_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_aggregate_clients_action SystemServicesDhcpLocalserverGroup#dynamic_profile_aggregate_clients_action}
   */
   readonly dynamicProfileAggregateClientsAction?: string;
   /**
   * Dynamic profile to use on the primary interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_use_primary SystemServicesDhcpLocalserverGroup#dynamic_profile_use_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dynamic_profile_use_primary SystemServicesDhcpLocalserverGroup#dynamic_profile_use_primary}
   */
   readonly dynamicProfileUsePrimary?: string;
   /**
   * Exclude this interface range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#exclude SystemServicesDhcpLocalserverGroup#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#exclude SystemServicesDhcpLocalserverGroup#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#name SystemServicesDhcpLocalserverGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#name SystemServicesDhcpLocalserverGroup#name}
   */
   readonly name: string;
   /**
   * Dynamic profile to use for default service activation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#service_profile SystemServicesDhcpLocalserverGroup#service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#service_profile SystemServicesDhcpLocalserverGroup#service_profile}
   */
   readonly serviceProfile?: string;
   /**
   * Short cycle lockout max time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#short_cycle_protection_lockout_max_time SystemServicesDhcpLocalserverGroup#short_cycle_protection_lockout_max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#short_cycle_protection_lockout_max_time SystemServicesDhcpLocalserverGroup#short_cycle_protection_lockout_max_time}
   */
   readonly shortCycleProtectionLockoutMaxTime?: number;
   /**
   * Short cycle lockout min time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#short_cycle_protection_lockout_min_time SystemServicesDhcpLocalserverGroup#short_cycle_protection_lockout_min_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#short_cycle_protection_lockout_min_time SystemServicesDhcpLocalserverGroup#short_cycle_protection_lockout_min_time}
   */
   readonly shortCycleProtectionLockoutMinTime?: number;
   /**
   * Enable tracing for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#trace SystemServicesDhcpLocalserverGroup#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#trace SystemServicesDhcpLocalserverGroup#trace}
   */
   readonly trace?: boolean | cdktf.IResolvable;
   /**
   * Interface up to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#upto SystemServicesDhcpLocalserverGroup#upto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#upto SystemServicesDhcpLocalserverGroup#upto}
   */
   readonly upto?: string;
   /**
   * overrides_v4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#overrides_v4 SystemServicesDhcpLocalserverGroup#overrides_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#overrides_v4 SystemServicesDhcpLocalserverGroup#overrides_v4}
   */
   readonly overridesV4?: SystemServicesDhcpLocalserverGroupInterfaceOverridesV4;
   /**
   * overrides_v6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#overrides_v6 SystemServicesDhcpLocalserverGroup#overrides_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#overrides_v6 SystemServicesDhcpLocalserverGroup#overrides_v6}
   */
   readonly overridesV6?: SystemServicesDhcpLocalserverGroupInterfaceOverridesV6;
 }
@@ -3099,13 +3099,13 @@ export interface SystemServicesDhcpLocalserverGroupLeaseTimeValidation {
   /**
   * Threshold for lease time violation seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#lease_time_threshold SystemServicesDhcpLocalserverGroup#lease_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#lease_time_threshold SystemServicesDhcpLocalserverGroup#lease_time_threshold}
   */
   readonly leaseTimeThreshold?: number;
   /**
   *  Lease time validation violation action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#violation_action SystemServicesDhcpLocalserverGroup#violation_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#violation_action SystemServicesDhcpLocalserverGroup#violation_action}
   */
   readonly violationAction?: string;
 }
@@ -3230,61 +3230,61 @@ export interface SystemServicesDhcpLocalserverGroupLivenessDetectionMethodBfd {
   /**
   * High detection-time triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#detection_time_threshold SystemServicesDhcpLocalserverGroup#detection_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#detection_time_threshold SystemServicesDhcpLocalserverGroup#detection_time_threshold}
   */
   readonly detectionTimeThreshold?: number;
   /**
   * Time to hold the session-UP notification to the client (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#holddown_interval SystemServicesDhcpLocalserverGroup#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#holddown_interval SystemServicesDhcpLocalserverGroup#holddown_interval}
   */
   readonly holddownInterval?: number;
   /**
   * Minimum transmit and receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#minimum_interval SystemServicesDhcpLocalserverGroup#minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#minimum_interval SystemServicesDhcpLocalserverGroup#minimum_interval}
   */
   readonly minimumInterval?: number;
   /**
   * Minimum receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#minimum_receive_interval SystemServicesDhcpLocalserverGroup#minimum_receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#minimum_receive_interval SystemServicesDhcpLocalserverGroup#minimum_receive_interval}
   */
   readonly minimumReceiveInterval?: number;
   /**
   * Detection time multiplier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#multiplier SystemServicesDhcpLocalserverGroup#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#multiplier SystemServicesDhcpLocalserverGroup#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Disable adaptation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#no_adaptation SystemServicesDhcpLocalserverGroup#no_adaptation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#no_adaptation SystemServicesDhcpLocalserverGroup#no_adaptation}
   */
   readonly noAdaptation?: boolean | cdktf.IResolvable;
   /**
   * BFD single-hop or multihop session-mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#session_mode SystemServicesDhcpLocalserverGroup#session_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#session_mode SystemServicesDhcpLocalserverGroup#session_mode}
   */
   readonly sessionMode?: string;
   /**
   * Minimum transmit interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#transmit_interval_minimum SystemServicesDhcpLocalserverGroup#transmit_interval_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#transmit_interval_minimum SystemServicesDhcpLocalserverGroup#transmit_interval_minimum}
   */
   readonly transmitIntervalMinimum?: number;
   /**
   * High transmit interval triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#transmit_interval_threshold SystemServicesDhcpLocalserverGroup#transmit_interval_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#transmit_interval_threshold SystemServicesDhcpLocalserverGroup#transmit_interval_threshold}
   */
   readonly transmitIntervalThreshold?: number;
   /**
   * BFD protocol version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#version SystemServicesDhcpLocalserverGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#version SystemServicesDhcpLocalserverGroup#version}
   */
   readonly version?: string;
 }
@@ -3641,13 +3641,13 @@ export interface SystemServicesDhcpLocalserverGroupLivenessDetectionMethodLayer2
   /**
   * Retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#max_consecutive_retries SystemServicesDhcpLocalserverGroup#max_consecutive_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#max_consecutive_retries SystemServicesDhcpLocalserverGroup#max_consecutive_retries}
   */
   readonly maxConsecutiveRetries?: number;
   /**
   * Transmit interval for address resolution (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#transmit_interval SystemServicesDhcpLocalserverGroup#transmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#transmit_interval SystemServicesDhcpLocalserverGroup#transmit_interval}
   */
   readonly transmitInterval?: number;
 }
@@ -3772,25 +3772,25 @@ export interface SystemServicesDhcpLocalserverGroupOverridesV4DelayOfferBasedOn 
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#compare SystemServicesDhcpLocalserverGroup#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#compare SystemServicesDhcpLocalserverGroup#compare}
   */
   readonly compare: string;
   /**
   * Option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#option SystemServicesDhcpLocalserverGroup#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#option SystemServicesDhcpLocalserverGroup#option}
   */
   readonly option: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#value SystemServicesDhcpLocalserverGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#value SystemServicesDhcpLocalserverGroup#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#value_type SystemServicesDhcpLocalserverGroup#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#value_type SystemServicesDhcpLocalserverGroup#value_type}
   */
   readonly valueType: string;
 }
@@ -3983,85 +3983,85 @@ export interface SystemServicesDhcpLocalserverGroupOverridesV4 {
   /**
   * Allow packets without end-of-option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#allow_no_end_option SystemServicesDhcpLocalserverGroup#allow_no_end_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#allow_no_end_option SystemServicesDhcpLocalserverGroup#allow_no_end_option}
   */
   readonly allowNoEndOption?: boolean | cdktf.IResolvable;
   /**
   * Use a reduced lease time for the client (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_lease_time}
   */
   readonly asymmetricLeaseTime?: number;
   /**
   * Allow processing of bootp requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#bootp_support SystemServicesDhcpLocalserverGroup#bootp_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#bootp_support SystemServicesDhcpLocalserverGroup#bootp_support}
   */
   readonly bootpSupport?: boolean | cdktf.IResolvable;
   /**
   * Use incoming interface or option 60 and option 82 match criteria for DISCOVER PDU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#client_discover_match SystemServicesDhcpLocalserverGroup#client_discover_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#client_discover_match SystemServicesDhcpLocalserverGroup#client_discover_match}
   */
   readonly clientDiscoverMatch?: string;
   /**
   * Time delay between discover and offer (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delay_offer_delay_time SystemServicesDhcpLocalserverGroup#delay_offer_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delay_offer_delay_time SystemServicesDhcpLocalserverGroup#delay_offer_delay_time}
   */
   readonly delayOfferDelayTime?: number;
   /**
   * Delete binding on renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delete_binding_on_renegotiation SystemServicesDhcpLocalserverGroup#delete_binding_on_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delete_binding_on_renegotiation SystemServicesDhcpLocalserverGroup#delete_binding_on_renegotiation}
   */
   readonly deleteBindingOnRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * Dual stack group to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dual_stack SystemServicesDhcpLocalserverGroup#dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dual_stack SystemServicesDhcpLocalserverGroup#dual_stack}
   */
   readonly dualStack?: string;
   /**
   * Include option-82 in FORCERENEW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#include_option_82_forcerenew SystemServicesDhcpLocalserverGroup#include_option_82_forcerenew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#include_option_82_forcerenew SystemServicesDhcpLocalserverGroup#include_option_82_forcerenew}
   */
   readonly includeOption82Forcerenew?: boolean | cdktf.IResolvable;
   /**
   * Include option-82 in NAK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#include_option_82_nak SystemServicesDhcpLocalserverGroup#include_option_82_nak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#include_option_82_nak SystemServicesDhcpLocalserverGroup#include_option_82_nak}
   */
   readonly includeOption82Nak?: boolean | cdktf.IResolvable;
   /**
   * Limit the number of clients allowed on an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#interface_client_limit SystemServicesDhcpLocalserverGroup#interface_client_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#interface_client_limit SystemServicesDhcpLocalserverGroup#interface_client_limit}
   */
   readonly interfaceClientLimit?: number;
   /**
   * Process INFORM PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#process_inform SystemServicesDhcpLocalserverGroup#process_inform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#process_inform SystemServicesDhcpLocalserverGroup#process_inform}
   */
   readonly processInform?: boolean | cdktf.IResolvable;
   /**
   * Pool name for family inet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#process_inform_pool SystemServicesDhcpLocalserverGroup#process_inform_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#process_inform_pool SystemServicesDhcpLocalserverGroup#process_inform_pool}
   */
   readonly processInformPool?: string;
   /**
   * DHCPv4 attributes to use as defined under access protocol-attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#protocol_attributes SystemServicesDhcpLocalserverGroup#protocol_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#protocol_attributes SystemServicesDhcpLocalserverGroup#protocol_attributes}
   */
   readonly protocolAttributes?: string;
   /**
   * delay_offer_based_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delay_offer_based_on SystemServicesDhcpLocalserverGroup#delay_offer_based_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delay_offer_based_on SystemServicesDhcpLocalserverGroup#delay_offer_based_on}
   */
   readonly delayOfferBasedOn?: SystemServicesDhcpLocalserverGroupOverridesV4DelayOfferBasedOn[] | cdktf.IResolvable;
 }
@@ -4534,25 +4534,25 @@ export interface SystemServicesDhcpLocalserverGroupOverridesV6DelayAdvertiseBase
   /**
   * How to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#compare SystemServicesDhcpLocalserverGroup#compare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#compare SystemServicesDhcpLocalserverGroup#compare}
   */
   readonly compare: string;
   /**
   * Option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#option SystemServicesDhcpLocalserverGroup#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#option SystemServicesDhcpLocalserverGroup#option}
   */
   readonly option: string;
   /**
   * String to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#value SystemServicesDhcpLocalserverGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#value SystemServicesDhcpLocalserverGroup#value}
   */
   readonly value: string;
   /**
   * Type of string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#value_type SystemServicesDhcpLocalserverGroup#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#value_type SystemServicesDhcpLocalserverGroup#value_type}
   */
   readonly valueType: string;
 }
@@ -4745,103 +4745,103 @@ export interface SystemServicesDhcpLocalserverGroupOverridesV6 {
   /**
   * Add option-23, DNS recursive name server in Advertise and Reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#always_add_option_dns_server SystemServicesDhcpLocalserverGroup#always_add_option_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#always_add_option_dns_server SystemServicesDhcpLocalserverGroup#always_add_option_dns_server}
   */
   readonly alwaysAddOptionDnsServer?: boolean | cdktf.IResolvable;
   /**
   * Always process option even after address allocation failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#always_process_option_request_option SystemServicesDhcpLocalserverGroup#always_process_option_request_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#always_process_option_request_option SystemServicesDhcpLocalserverGroup#always_process_option_request_option}
   */
   readonly alwaysProcessOptionRequestOption?: boolean | cdktf.IResolvable;
   /**
   * Use a reduced lease time for the client. In seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_lease_time}
   */
   readonly asymmetricLeaseTime?: number;
   /**
   * Use a reduced prefix lease time for the client. In seconds (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_prefix_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_prefix_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#asymmetric_prefix_lease_time SystemServicesDhcpLocalserverGroup#asymmetric_prefix_lease_time}
   */
   readonly asymmetricPrefixLeaseTime?: number;
   /**
   * Use incoming interface match criteria for SOLICIT PDU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#client_negotiation_match_incoming_interface SystemServicesDhcpLocalserverGroup#client_negotiation_match_incoming_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#client_negotiation_match_incoming_interface SystemServicesDhcpLocalserverGroup#client_negotiation_match_incoming_interface}
   */
   readonly clientNegotiationMatchIncomingInterface?: boolean | cdktf.IResolvable;
   /**
   * Time delay between solicit and advertise (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delay_advertise_delay_time SystemServicesDhcpLocalserverGroup#delay_advertise_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delay_advertise_delay_time SystemServicesDhcpLocalserverGroup#delay_advertise_delay_time}
   */
   readonly delayAdvertiseDelayTime?: number;
   /**
   * Delegated pool name for inet6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delegated_pool SystemServicesDhcpLocalserverGroup#delegated_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delegated_pool SystemServicesDhcpLocalserverGroup#delegated_pool}
   */
   readonly delegatedPool?: string;
   /**
   * Delete binding on renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delete_binding_on_renegotiation SystemServicesDhcpLocalserverGroup#delete_binding_on_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delete_binding_on_renegotiation SystemServicesDhcpLocalserverGroup#delete_binding_on_renegotiation}
   */
   readonly deleteBindingOnRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * Dual stack group to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#dual_stack SystemServicesDhcpLocalserverGroup#dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#dual_stack SystemServicesDhcpLocalserverGroup#dual_stack}
   */
   readonly dualStack?: string;
   /**
   * Limit the number of clients allowed on an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#interface_client_limit SystemServicesDhcpLocalserverGroup#interface_client_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#interface_client_limit SystemServicesDhcpLocalserverGroup#interface_client_limit}
   */
   readonly interfaceClientLimit?: number;
   /**
   * If the client requests multiple addresses place the options in each address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#multi_address_embedded_option_response SystemServicesDhcpLocalserverGroup#multi_address_embedded_option_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#multi_address_embedded_option_response SystemServicesDhcpLocalserverGroup#multi_address_embedded_option_response}
   */
   readonly multiAddressEmbeddedOptionResponse?: boolean | cdktf.IResolvable;
   /**
   * Process INFORM PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#process_inform SystemServicesDhcpLocalserverGroup#process_inform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#process_inform SystemServicesDhcpLocalserverGroup#process_inform}
   */
   readonly processInform?: boolean | cdktf.IResolvable;
   /**
   * Pool name for family inet6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#process_inform_pool SystemServicesDhcpLocalserverGroup#process_inform_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#process_inform_pool SystemServicesDhcpLocalserverGroup#process_inform_pool}
   */
   readonly processInformPool?: string;
   /**
   * DHCPv6 attributes to use as defined under access protocol-attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#protocol_attributes SystemServicesDhcpLocalserverGroup#protocol_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#protocol_attributes SystemServicesDhcpLocalserverGroup#protocol_attributes}
   */
   readonly protocolAttributes?: string;
   /**
   * Enable rapid commit processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#rapid_commit SystemServicesDhcpLocalserverGroup#rapid_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#rapid_commit SystemServicesDhcpLocalserverGroup#rapid_commit}
   */
   readonly rapidCommit?: boolean | cdktf.IResolvable;
   /**
   * A top level status code option rather than encapsulated in IA for NoAddrsAvail in Advertise PDUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#top_level_status_code SystemServicesDhcpLocalserverGroup#top_level_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#top_level_status_code SystemServicesDhcpLocalserverGroup#top_level_status_code}
   */
   readonly topLevelStatusCode?: boolean | cdktf.IResolvable;
   /**
   * delay_advertise_based_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#delay_advertise_based_on SystemServicesDhcpLocalserverGroup#delay_advertise_based_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#delay_advertise_based_on SystemServicesDhcpLocalserverGroup#delay_advertise_based_on}
   */
   readonly delayAdvertiseBasedOn?: SystemServicesDhcpLocalserverGroupOverridesV6DelayAdvertiseBasedOn[] | cdktf.IResolvable;
 }
@@ -5401,37 +5401,37 @@ export interface SystemServicesDhcpLocalserverGroupReconfigure {
   /**
   * Number of reconfigure attempts before aborting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#attempts SystemServicesDhcpLocalserverGroup#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#attempts SystemServicesDhcpLocalserverGroup#attempts}
   */
   readonly attempts?: number;
   /**
   * Delete client on reconfiguration abort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#clear_on_abort SystemServicesDhcpLocalserverGroup#clear_on_abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#clear_on_abort SystemServicesDhcpLocalserverGroup#clear_on_abort}
   */
   readonly clearOnAbort?: boolean | cdktf.IResolvable;
   /**
   * Request prefix exclude option in reconfigure message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#support_option_pd_exclude SystemServicesDhcpLocalserverGroup#support_option_pd_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#support_option_pd_exclude SystemServicesDhcpLocalserverGroup#support_option_pd_exclude}
   */
   readonly supportOptionPdExclude?: boolean | cdktf.IResolvable;
   /**
   * Initial timeout value for retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#timeout SystemServicesDhcpLocalserverGroup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#timeout SystemServicesDhcpLocalserverGroup#timeout}
   */
   readonly timeout?: number;
   /**
   * Reconfigure token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#token SystemServicesDhcpLocalserverGroup#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#token SystemServicesDhcpLocalserverGroup#token}
   */
   readonly token?: string;
   /**
   * Trigger DHCP reconfigure by radius initiated disconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#trigger_radius_disconnect SystemServicesDhcpLocalserverGroup#trigger_radius_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#trigger_radius_disconnect SystemServicesDhcpLocalserverGroup#trigger_radius_disconnect}
   */
   readonly triggerRadiusDisconnect?: boolean | cdktf.IResolvable;
 }
@@ -5670,7 +5670,7 @@ export class SystemServicesDhcpLocalserverGroupReconfigureOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group junos_system_services_dhcp_localserver_group}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group junos_system_services_dhcp_localserver_group}
 */
 export class SystemServicesDhcpLocalserverGroup extends cdktf.TerraformResource {
 
@@ -5686,7 +5686,7 @@ export class SystemServicesDhcpLocalserverGroup extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SystemServicesDhcpLocalserverGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemServicesDhcpLocalserverGroup to import
-  * @param importFromId The id of the existing SystemServicesDhcpLocalserverGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemServicesDhcpLocalserverGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemServicesDhcpLocalserverGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5698,7 +5698,7 @@ export class SystemServicesDhcpLocalserverGroup extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/system_services_dhcp_localserver_group junos_system_services_dhcp_localserver_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/system_services_dhcp_localserver_group junos_system_services_dhcp_localserver_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5709,8 +5709,8 @@ export class SystemServicesDhcpLocalserverGroup extends cdktf.TerraformResource 
       terraformResourceType: 'junos_system_services_dhcp_localserver_group',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

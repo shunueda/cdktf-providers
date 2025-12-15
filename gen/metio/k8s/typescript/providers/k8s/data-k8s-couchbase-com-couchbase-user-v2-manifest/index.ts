@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCouchbaseComCouchbaseUserV2ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#metadata DataK8SCouchbaseComCouchbaseUserV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#metadata DataK8SCouchbaseComCouchbaseUserV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseUserV2ManifestMetadata;
   /**
   * CouchbaseUserSpec allows the specification of Couchbase user configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#spec DataK8SCouchbaseComCouchbaseUserV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#spec DataK8SCouchbaseComCouchbaseUserV2Manifest#spec}
   */
   readonly spec: DataK8SCouchbaseComCouchbaseUserV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCouchbaseComCouchbaseUserV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#annotations DataK8SCouchbaseComCouchbaseUserV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#annotations DataK8SCouchbaseComCouchbaseUserV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#labels DataK8SCouchbaseComCouchbaseUserV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#labels DataK8SCouchbaseComCouchbaseUserV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#name DataK8SCouchbaseComCouchbaseUserV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#name DataK8SCouchbaseComCouchbaseUserV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#namespace DataK8SCouchbaseComCouchbaseUserV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#namespace DataK8SCouchbaseComCouchbaseUserV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCouchbaseComCouchbaseUserV2ManifestSpec {
   /**
   * The domain which provides user authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#auth_domain DataK8SCouchbaseComCouchbaseUserV2Manifest#auth_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#auth_domain DataK8SCouchbaseComCouchbaseUserV2Manifest#auth_domain}
   */
   readonly authDomain: string;
   /**
   * Name of Kubernetes secret with password for Couchbase domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#auth_secret DataK8SCouchbaseComCouchbaseUserV2Manifest#auth_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#auth_secret DataK8SCouchbaseComCouchbaseUserV2Manifest#auth_secret}
   */
   readonly authSecret?: string;
   /**
   * Full Name of Couchbase user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#full_name DataK8SCouchbaseComCouchbaseUserV2Manifest#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#full_name DataK8SCouchbaseComCouchbaseUserV2Manifest#full_name}
   */
   readonly fullName?: string;
 }
@@ -380,7 +380,7 @@ export class DataK8SCouchbaseComCouchbaseUserV2ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest k8s_couchbase_com_couchbase_user_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest k8s_couchbase_com_couchbase_user_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseUserV2Manifest extends cdktf.TerraformDataSource {
 
@@ -396,7 +396,7 @@ export class DataK8SCouchbaseComCouchbaseUserV2Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseUserV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseUserV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseUserV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseUserV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseUserV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -408,7 +408,7 @@ export class DataK8SCouchbaseComCouchbaseUserV2Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/couchbase_com_couchbase_user_v2_manifest k8s_couchbase_com_couchbase_user_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/couchbase_com_couchbase_user_v2_manifest k8s_couchbase_com_couchbase_user_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -419,8 +419,8 @@ export class DataK8SCouchbaseComCouchbaseUserV2Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_couchbase_com_couchbase_user_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

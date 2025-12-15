@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppprotectF5ComApLogConfV1Beta1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#metadata DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#metadata DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAppprotectF5ComApLogConfV1Beta1ManifestMetadata;
   /**
   * APLogConfSpec defines the desired state of APLogConf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#spec DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#spec DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppprotectF5ComApLogConfV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#annotations DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#annotations DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#labels DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#labels DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#name DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#name DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#namespace DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#namespace DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1ManifestMetadataOutputReferen
 }
 export interface DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecContentEscapingCharacters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#from DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#from DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#to DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#to DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#to}
   */
   readonly to?: string;
 }
@@ -366,35 +366,35 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecContentEscapingCh
 }
 export interface DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#escaping_characters DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#escaping_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#escaping_characters DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#escaping_characters}
   */
   readonly escapingCharacters?: DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecContentEscapingCharacters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#format DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#format DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#format_string DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#format_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#format_string DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#format_string}
   */
   readonly formatString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#list_delimiter DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#list_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#list_delimiter DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#list_delimiter}
   */
   readonly listDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#list_prefix DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#list_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#list_prefix DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#list_prefix}
   */
   readonly listPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#list_suffix DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#list_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#list_suffix DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#list_suffix}
   */
   readonly listSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#max_message_size DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#max_message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#max_message_size DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#max_message_size}
   */
   readonly maxMessageSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#max_request_size DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#max_request_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#max_request_size DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#max_request_size}
   */
   readonly maxRequestSize?: string;
 }
@@ -691,7 +691,7 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecContentOutputRefe
 }
 export interface DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#request_type DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#request_type DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#request_type}
   */
   readonly requestType?: string;
 }
@@ -785,11 +785,11 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecFilterOutputRefer
 }
 export interface DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#content DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#content DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#content}
   */
   readonly content?: DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecContent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#filter DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#filter DataK8SAppprotectF5ComApLogConfV1Beta1Manifest#filter}
   */
   readonly filter?: DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecFilter;
 }
@@ -912,7 +912,7 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest k8s_appprotect_f5_com_ap_log_conf_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest k8s_appprotect_f5_com_ap_log_conf_v1beta1_manifest}
 */
 export class DataK8SAppprotectF5ComApLogConfV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -928,7 +928,7 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SAppprotectF5ComApLogConfV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppprotectF5ComApLogConfV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppprotectF5ComApLogConfV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppprotectF5ComApLogConfV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppprotectF5ComApLogConfV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -940,7 +940,7 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest k8s_appprotect_f5_com_ap_log_conf_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/appprotect_f5_com_ap_log_conf_v1beta1_manifest k8s_appprotect_f5_com_ap_log_conf_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -951,8 +951,8 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_appprotect_f5_com_ap_log_conf_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

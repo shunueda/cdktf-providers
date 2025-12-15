@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ServicesSslInitiationProfileConfig extends cdktf.TerraformMetaA
   /**
   * Local certificate identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#client_certificate ServicesSslInitiationProfile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#client_certificate ServicesSslInitiationProfile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Custom cipher list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#custom_ciphers ServicesSslInitiationProfile#custom_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#custom_ciphers ServicesSslInitiationProfile#custom_ciphers}
   */
   readonly customCiphers?: string[];
   /**
   * Enable flow tracing for the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#enable_flow_tracing ServicesSslInitiationProfile#enable_flow_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#enable_flow_tracing ServicesSslInitiationProfile#enable_flow_tracing}
   */
   readonly enableFlowTracing?: boolean | cdktf.IResolvable;
   /**
   * Enable SSL session cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#enable_session_cache ServicesSslInitiationProfile#enable_session_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#enable_session_cache ServicesSslInitiationProfile#enable_session_cache}
   */
   readonly enableSessionCache?: boolean | cdktf.IResolvable;
   /**
   * Profile name (Profile identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#name ServicesSslInitiationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#name ServicesSslInitiationProfile#name}
   */
   readonly name: string;
   /**
   * Select preferred ciphers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#preferred_ciphers ServicesSslInitiationProfile#preferred_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#preferred_ciphers ServicesSslInitiationProfile#preferred_ciphers}
   */
   readonly preferredCiphers?: string;
   /**
   * Protocol SSL version accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#protocol_version ServicesSslInitiationProfile#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#protocol_version ServicesSslInitiationProfile#protocol_version}
   */
   readonly protocolVersion?: string;
   /**
   * List of trusted certificate authority profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#trusted_ca ServicesSslInitiationProfile#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#trusted_ca ServicesSslInitiationProfile#trusted_ca}
   */
   readonly trustedCa?: string[];
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#actions ServicesSslInitiationProfile#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#actions ServicesSslInitiationProfile#actions}
   */
   readonly actions?: ServicesSslInitiationProfileActions;
 }
@@ -66,25 +66,25 @@ export interface ServicesSslInitiationProfileActions {
   /**
   * Disable CRL validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#crl_disable ServicesSslInitiationProfile#crl_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#crl_disable ServicesSslInitiationProfile#crl_disable}
   */
   readonly crlDisable?: boolean | cdktf.IResolvable;
   /**
   * Action if CRL information is not present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#crl_if_not_present ServicesSslInitiationProfile#crl_if_not_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#crl_if_not_present ServicesSslInitiationProfile#crl_if_not_present}
   */
   readonly crlIfNotPresent?: string;
   /**
   * Ignore 'Hold Instruction Code' present in the CRL entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#crl_ignore_hold_instruction_code ServicesSslInitiationProfile#crl_ignore_hold_instruction_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#crl_ignore_hold_instruction_code ServicesSslInitiationProfile#crl_ignore_hold_instruction_code}
   */
   readonly crlIgnoreHoldInstructionCode?: boolean | cdktf.IResolvable;
   /**
   * Ignore server authentication failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#ignore_server_auth_failure ServicesSslInitiationProfile#ignore_server_auth_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#ignore_server_auth_failure ServicesSslInitiationProfile#ignore_server_auth_failure}
   */
   readonly ignoreServerAuthFailure?: boolean | cdktf.IResolvable;
 }
@@ -265,7 +265,7 @@ export class ServicesSslInitiationProfileActionsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile junos_services_ssl_initiation_profile}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile junos_services_ssl_initiation_profile}
 */
 export class ServicesSslInitiationProfile extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class ServicesSslInitiationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServicesSslInitiationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicesSslInitiationProfile to import
-  * @param importFromId The id of the existing ServicesSslInitiationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicesSslInitiationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicesSslInitiationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class ServicesSslInitiationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/services_ssl_initiation_profile junos_services_ssl_initiation_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/services_ssl_initiation_profile junos_services_ssl_initiation_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class ServicesSslInitiationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'junos_services_ssl_initiation_profile',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

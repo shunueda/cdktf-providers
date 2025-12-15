@@ -11,6 +11,7 @@ export * as activeActiveSubscriptionDatabase from './active-active-subscription-
 export * as activeActiveSubscriptionPeering from './active-active-subscription-peering';
 export * as activeActiveSubscriptionRegions from './active-active-subscription-regions';
 export * as activeActiveTransitGatewayAttachment from './active-active-transit-gateway-attachment';
+export * as activeActiveTransitGatewayInvitationAcceptor from './active-active-transit-gateway-invitation-acceptor';
 export * as cloudAccount from './cloud-account';
 export * as essentialsDatabase from './essentials-database';
 export * as essentialsSubscription from './essentials-subscription';
@@ -22,6 +23,7 @@ export * as subscription from './subscription';
 export * as subscriptionDatabase from './subscription-database';
 export * as subscriptionPeering from './subscription-peering';
 export * as transitGatewayAttachment from './transit-gateway-attachment';
+export * as transitGatewayInvitationAcceptor from './transit-gateway-invitation-acceptor';
 export * as dataRediscloudAclRole from './data-rediscloud-acl-role';
 export * as dataRediscloudAclRule from './data-rediscloud-acl-rule';
 export * as dataRediscloudAclUser from './data-rediscloud-acl-user';
@@ -33,6 +35,7 @@ export * as dataRediscloudActiveActiveSubscription from './data-rediscloud-activ
 export * as dataRediscloudActiveActiveSubscriptionDatabase from './data-rediscloud-active-active-subscription-database';
 export * as dataRediscloudActiveActiveSubscriptionRegions from './data-rediscloud-active-active-subscription-regions';
 export * as dataRediscloudActiveActiveTransitGateway from './data-rediscloud-active-active-transit-gateway';
+export * as dataRediscloudActiveActiveTransitGatewayInvitations from './data-rediscloud-active-active-transit-gateway-invitations';
 export * as dataRediscloudCloudAccount from './data-rediscloud-cloud-account';
 export * as dataRediscloudDataPersistence from './data-rediscloud-data-persistence';
 export * as dataRediscloudDatabase from './data-rediscloud-database';
@@ -49,5 +52,6 @@ export * as dataRediscloudRegions from './data-rediscloud-regions';
 export * as dataRediscloudSubscription from './data-rediscloud-subscription';
 export * as dataRediscloudSubscriptionPeerings from './data-rediscloud-subscription-peerings';
 export * as dataRediscloudTransitGateway from './data-rediscloud-transit-gateway';
+export * as dataRediscloudTransitGatewayInvitations from './data-rediscloud-transit-gateway-invitations';
 export * as provider from './provider';
 

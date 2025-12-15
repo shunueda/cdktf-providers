@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#metadata DataK8SStorageK8SIoVolumeAttachmentV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#metadata DataK8SStorageK8SIoVolumeAttachmentV1Manifest#metadata}
   */
   readonly metadata: DataK8SStorageK8SIoVolumeAttachmentV1ManifestMetadata;
   /**
   * VolumeAttachmentSpec is the specification of a VolumeAttachment request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#spec DataK8SStorageK8SIoVolumeAttachmentV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#spec DataK8SStorageK8SIoVolumeAttachmentV1Manifest#spec}
   */
   readonly spec: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#annotations DataK8SStorageK8SIoVolumeAttachmentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#annotations DataK8SStorageK8SIoVolumeAttachmentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#labels DataK8SStorageK8SIoVolumeAttachmentV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#labels DataK8SStorageK8SIoVolumeAttachmentV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#partition DataK8SStorageK8SIoVolumeAttachmentV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#partition DataK8SStorageK8SIoVolumeAttachmentV1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -385,37 +385,37 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#caching_mode DataK8SStorageK8SIoVolumeAttachmentV1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#caching_mode DataK8SStorageK8SIoVolumeAttachmentV1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#disk_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#disk_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#disk_uri DataK8SStorageK8SIoVolumeAttachmentV1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#disk_uri DataK8SStorageK8SIoVolumeAttachmentV1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#kind DataK8SStorageK8SIoVolumeAttachmentV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#kind DataK8SStorageK8SIoVolumeAttachmentV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -650,25 +650,25 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * secretNamespace is the namespace of the secret that contains Azure Storage Account Name and Key default is the same as the Pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_namespace}
   */
   readonly secretNamespace?: string;
   /**
   * shareName is the azure Share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#share_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#share_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -845,13 +845,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -976,37 +976,37 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#monitors DataK8SStorageK8SIoVolumeAttachmentV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#monitors DataK8SStorageK8SIoVolumeAttachmentV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_file DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_file DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCephfsSecretRef;
   /**
   * user is Optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#user DataK8SStorageK8SIoVolumeAttachmentV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#user DataK8SStorageK8SIoVolumeAttachmentV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -1244,13 +1244,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1375,25 +1375,25 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType Filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -1573,43 +1573,43 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#api_version DataK8SStorageK8SIoVolumeAttachmentV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#api_version DataK8SStorageK8SIoVolumeAttachmentV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#field_path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#field_path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#kind DataK8SStorageK8SIoVolumeAttachmentV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#kind DataK8SStorageK8SIoVolumeAttachmentV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#resource_version DataK8SStorageK8SIoVolumeAttachmentV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#resource_version DataK8SStorageK8SIoVolumeAttachmentV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#uid DataK8SStorageK8SIoVolumeAttachmentV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#uid DataK8SStorageK8SIoVolumeAttachmentV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1879,13 +1879,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2010,13 +2010,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2141,13 +2141,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2272,13 +2272,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2403,13 +2403,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2534,61 +2534,61 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#controller_expand_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#controller_expand_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#controller_expand_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#controller_expand_secret_ref}
   */
   readonly controllerExpandSecretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCsiControllerExpandSecretRef;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#controller_publish_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#controller_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#controller_publish_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#controller_publish_secret_ref}
   */
   readonly controllerPublishSecretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCsiControllerPublishSecretRef;
   /**
   * driver is the name of the driver to use for this volume. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#driver DataK8SStorageK8SIoVolumeAttachmentV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#driver DataK8SStorageK8SIoVolumeAttachmentV1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_expand_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_expand_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_expand_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_expand_secret_ref}
   */
   readonly nodeExpandSecretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCsiNodeExpandSecretRef;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_publish_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_publish_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCsiNodePublishSecretRef;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_stage_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_stage_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_stage_secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_stage_secret_ref}
   */
   readonly nodeStageSecretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCsiNodeStageSecretRef;
   /**
   * readOnly value to pass to ControllerPublishVolumeRequest. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes of the volume to publish.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_attributes DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_attributes DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
   /**
   * volumeHandle is the unique volume name returned by the CSI volume plugin’s CreateVolume to refer to the volume on all subsequent calls. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_handle DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_handle DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_handle}
   */
   readonly volumeHandle: string;
 }
@@ -2939,31 +2939,31 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#lun DataK8SStorageK8SIoVolumeAttachmentV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#lun DataK8SStorageK8SIoVolumeAttachmentV1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#target_ww_ns DataK8SStorageK8SIoVolumeAttachmentV1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#target_ww_ns DataK8SStorageK8SIoVolumeAttachmentV1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#wwids DataK8SStorageK8SIoVolumeAttachmentV1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#wwids DataK8SStorageK8SIoVolumeAttachmentV1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -3175,13 +3175,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3306,31 +3306,31 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#driver DataK8SStorageK8SIoVolumeAttachmentV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#driver DataK8SStorageK8SIoVolumeAttachmentV1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#options DataK8SStorageK8SIoVolumeAttachmentV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#options DataK8SStorageK8SIoVolumeAttachmentV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecFlexVolumeSecretRef;
 }
@@ -3539,13 +3539,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#dataset_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#dataset_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#dataset_uuid DataK8SStorageK8SIoVolumeAttachmentV1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#dataset_uuid DataK8SStorageK8SIoVolumeAttachmentV1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -3670,25 +3670,25 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#partition DataK8SStorageK8SIoVolumeAttachmentV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#partition DataK8SStorageK8SIoVolumeAttachmentV1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#pd_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#pd_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -3868,25 +3868,25 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#endpoints DataK8SStorageK8SIoVolumeAttachmentV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#endpoints DataK8SStorageK8SIoVolumeAttachmentV1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * endpointsNamespace is the namespace that contains Glusterfs endpoint. If this field is empty, the EndpointNamespace defaults to the same namespace as the bound PVC. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#endpoints_namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#endpoints_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#endpoints_namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#endpoints_namespace}
   */
   readonly endpointsNamespace?: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -4063,13 +4063,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -4191,13 +4191,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4322,67 +4322,67 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#chap_auth_discovery DataK8SStorageK8SIoVolumeAttachmentV1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#chap_auth_discovery DataK8SStorageK8SIoVolumeAttachmentV1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#chap_auth_session DataK8SStorageK8SIoVolumeAttachmentV1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#chap_auth_session DataK8SStorageK8SIoVolumeAttachmentV1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#initiator_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#initiator_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is Target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#iqn DataK8SStorageK8SIoVolumeAttachmentV1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#iqn DataK8SStorageK8SIoVolumeAttachmentV1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#iscsi_interface DataK8SStorageK8SIoVolumeAttachmentV1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#iscsi_interface DataK8SStorageK8SIoVolumeAttachmentV1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun is iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#lun DataK8SStorageK8SIoVolumeAttachmentV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#lun DataK8SStorageK8SIoVolumeAttachmentV1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#portals DataK8SStorageK8SIoVolumeAttachmentV1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#portals DataK8SStorageK8SIoVolumeAttachmentV1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#target_portal DataK8SStorageK8SIoVolumeAttachmentV1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#target_portal DataK8SStorageK8SIoVolumeAttachmentV1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -4759,13 +4759,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is the filesystem type to mount. It applies only when the Path is a block device. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default value is to auto-select a filesystem if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * path of the full path to the volume on the node. It can be either a directory or block device (disk, partition, ...).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
   */
   readonly path: string;
 }
@@ -4887,19 +4887,19 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#server DataK8SStorageK8SIoVolumeAttachmentV1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#server DataK8SStorageK8SIoVolumeAttachmentV1Manifest#server}
   */
   readonly server: string;
 }
@@ -5047,19 +5047,19 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#key DataK8SStorageK8SIoVolumeAttachmentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#key DataK8SStorageK8SIoVolumeAttachmentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#operator DataK8SStorageK8SIoVolumeAttachmentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#operator DataK8SStorageK8SIoVolumeAttachmentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#values DataK8SStorageK8SIoVolumeAttachmentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#values DataK8SStorageK8SIoVolumeAttachmentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5229,19 +5229,19 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#key DataK8SStorageK8SIoVolumeAttachmentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#key DataK8SStorageK8SIoVolumeAttachmentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#operator DataK8SStorageK8SIoVolumeAttachmentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#operator DataK8SStorageK8SIoVolumeAttachmentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#values DataK8SStorageK8SIoVolumeAttachmentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#values DataK8SStorageK8SIoVolumeAttachmentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5411,13 +5411,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#match_expressions DataK8SStorageK8SIoVolumeAttachmentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#match_expressions DataK8SStorageK8SIoVolumeAttachmentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecNodeAffinityRequiredNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#match_fields DataK8SStorageK8SIoVolumeAttachmentV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#match_fields DataK8SStorageK8SIoVolumeAttachmentV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecNodeAffinityRequiredNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -5564,7 +5564,7 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_selector_terms DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_selector_terms DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecNodeAffinityRequiredNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -5657,7 +5657,7 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * A node selector represents the union of the results of one or more label queries over a set of nodes; that is, it represents the OR of the selectors represented by the node selector terms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#required DataK8SStorageK8SIoVolumeAttachmentV1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#required DataK8SStorageK8SIoVolumeAttachmentV1Manifest#required}
   */
   readonly required?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecNodeAffinityRequired;
 }
@@ -5753,13 +5753,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#pd_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#pd_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -5881,19 +5881,19 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -6044,37 +6044,37 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#group DataK8SStorageK8SIoVolumeAttachmentV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#group DataK8SStorageK8SIoVolumeAttachmentV1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#registry DataK8SStorageK8SIoVolumeAttachmentV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#registry DataK8SStorageK8SIoVolumeAttachmentV1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#tenant DataK8SStorageK8SIoVolumeAttachmentV1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#tenant DataK8SStorageK8SIoVolumeAttachmentV1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#user DataK8SStorageK8SIoVolumeAttachmentV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#user DataK8SStorageK8SIoVolumeAttachmentV1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -6309,13 +6309,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6440,49 +6440,49 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#image DataK8SStorageK8SIoVolumeAttachmentV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#image DataK8SStorageK8SIoVolumeAttachmentV1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#keyring DataK8SStorageK8SIoVolumeAttachmentV1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#keyring DataK8SStorageK8SIoVolumeAttachmentV1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#monitors DataK8SStorageK8SIoVolumeAttachmentV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#monitors DataK8SStorageK8SIoVolumeAttachmentV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#pool DataK8SStorageK8SIoVolumeAttachmentV1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#pool DataK8SStorageK8SIoVolumeAttachmentV1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#user DataK8SStorageK8SIoVolumeAttachmentV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#user DataK8SStorageK8SIoVolumeAttachmentV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6775,13 +6775,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6906,61 +6906,61 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#gateway DataK8SStorageK8SIoVolumeAttachmentV1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#gateway DataK8SStorageK8SIoVolumeAttachmentV1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#protection_domain DataK8SStorageK8SIoVolumeAttachmentV1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#protection_domain DataK8SStorageK8SIoVolumeAttachmentV1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecScaleIoSecretRef;
   /**
   * sslEnabled is the flag to enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#ssl_enabled DataK8SStorageK8SIoVolumeAttachmentV1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#ssl_enabled DataK8SStorageK8SIoVolumeAttachmentV1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_mode DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_mode DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_pool DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_pool DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#system DataK8SStorageK8SIoVolumeAttachmentV1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#system DataK8SStorageK8SIoVolumeAttachmentV1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -7308,43 +7308,43 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#api_version DataK8SStorageK8SIoVolumeAttachmentV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#api_version DataK8SStorageK8SIoVolumeAttachmentV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#field_path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#field_path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#kind DataK8SStorageK8SIoVolumeAttachmentV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#kind DataK8SStorageK8SIoVolumeAttachmentV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#resource_version DataK8SStorageK8SIoVolumeAttachmentV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#resource_version DataK8SStorageK8SIoVolumeAttachmentV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#uid DataK8SStorageK8SIoVolumeAttachmentV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#uid DataK8SStorageK8SIoVolumeAttachmentV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -7614,31 +7614,31 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#read_only DataK8SStorageK8SIoVolumeAttachmentV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#secret_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_namespace DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -7850,25 +7850,25 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fs_type DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_policy_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_policy_id DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_policy_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_policy_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -8048,187 +8048,187 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVo
   /**
   * accessModes contains all ways the volume can be mounted. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#access_modes DataK8SStorageK8SIoVolumeAttachmentV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#access_modes DataK8SStorageK8SIoVolumeAttachmentV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * Represents a Persistent Disk resource in AWS. An AWS EBS disk must exist before mounting to a container. The disk must also be in the same AWS zone as the kubelet. An AWS EBS disk can only be mounted as read/write once. AWS EBS volumes support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#aws_elastic_block_store DataK8SStorageK8SIoVolumeAttachmentV1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#aws_elastic_block_store DataK8SStorageK8SIoVolumeAttachmentV1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecAwsElasticBlockStore;
   /**
   * AzureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#azure_disk DataK8SStorageK8SIoVolumeAttachmentV1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#azure_disk DataK8SStorageK8SIoVolumeAttachmentV1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecAzureDisk;
   /**
   * AzureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#azure_file DataK8SStorageK8SIoVolumeAttachmentV1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#azure_file DataK8SStorageK8SIoVolumeAttachmentV1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecAzureFile;
   /**
   * capacity is the description of the persistent volume's resources and capacity. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#capacity DataK8SStorageK8SIoVolumeAttachmentV1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#capacity DataK8SStorageK8SIoVolumeAttachmentV1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * Represents a Ceph Filesystem mount that lasts the lifetime of a pod Cephfs volumes do not support ownership management or SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#cephfs DataK8SStorageK8SIoVolumeAttachmentV1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#cephfs DataK8SStorageK8SIoVolumeAttachmentV1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCephfs;
   /**
   * Represents a cinder volume resource in Openstack. A Cinder volume must exist before mounting to a container. The volume must also be in the same region as the kubelet. Cinder volumes support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#cinder DataK8SStorageK8SIoVolumeAttachmentV1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#cinder DataK8SStorageK8SIoVolumeAttachmentV1Manifest#cinder}
   */
   readonly cinder?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCinder;
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#claim_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#claim_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#claim_ref DataK8SStorageK8SIoVolumeAttachmentV1Manifest#claim_ref}
   */
   readonly claimRef?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecClaimRef;
   /**
   * Represents storage that is managed by an external CSI volume driver (Beta feature)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#csi DataK8SStorageK8SIoVolumeAttachmentV1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#csi DataK8SStorageK8SIoVolumeAttachmentV1Manifest#csi}
   */
   readonly csi?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecCsi;
   /**
   * Represents a Fibre Channel volume. Fibre Channel volumes can only be mounted as read/write once. Fibre Channel volumes support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fc DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#fc DataK8SStorageK8SIoVolumeAttachmentV1Manifest#fc}
   */
   readonly fc?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecFc;
   /**
   * FlexPersistentVolumeSource represents a generic persistent volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#flex_volume DataK8SStorageK8SIoVolumeAttachmentV1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#flex_volume DataK8SStorageK8SIoVolumeAttachmentV1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecFlexVolume;
   /**
   * Represents a Flocker volume mounted by the Flocker agent. One and only one of datasetName and datasetUUID should be set. Flocker volumes do not support ownership management or SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#flocker DataK8SStorageK8SIoVolumeAttachmentV1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#flocker DataK8SStorageK8SIoVolumeAttachmentV1Manifest#flocker}
   */
   readonly flocker?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecFlocker;
   /**
   * Represents a Persistent Disk resource in Google Compute Engine. A GCE PD must exist before mounting to a container. The disk must also be in the same GCE project and zone as the kubelet. A GCE PD can only be mounted as read/write once or read-only many times. GCE PDs support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#gce_persistent_disk DataK8SStorageK8SIoVolumeAttachmentV1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#gce_persistent_disk DataK8SStorageK8SIoVolumeAttachmentV1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecGcePersistentDisk;
   /**
   * Represents a Glusterfs mount that lasts the lifetime of a pod. Glusterfs volumes do not support ownership management or SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#glusterfs DataK8SStorageK8SIoVolumeAttachmentV1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#glusterfs DataK8SStorageK8SIoVolumeAttachmentV1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecGlusterfs;
   /**
   * Represents a host path mapped into a pod. Host path volumes do not support ownership management or SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#host_path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#host_path DataK8SStorageK8SIoVolumeAttachmentV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecHostPath;
   /**
   * ISCSIPersistentVolumeSource represents an ISCSI disk. ISCSI volumes can only be mounted as read/write once. ISCSI volumes support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#iscsi DataK8SStorageK8SIoVolumeAttachmentV1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#iscsi DataK8SStorageK8SIoVolumeAttachmentV1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecIscsi;
   /**
   * Local represents directly-attached storage with node affinity (Beta feature)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#local DataK8SStorageK8SIoVolumeAttachmentV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#local DataK8SStorageK8SIoVolumeAttachmentV1Manifest#local}
   */
   readonly local?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecLocal;
   /**
   * mountOptions is the list of mount options, e.g. ['ro', 'soft']. Not validated - mount will simply fail if one is invalid. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#mount_options DataK8SStorageK8SIoVolumeAttachmentV1Manifest#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#mount_options DataK8SStorageK8SIoVolumeAttachmentV1Manifest#mount_options}
   */
   readonly mountOptions?: string[];
   /**
   * Represents an NFS mount that lasts the lifetime of a pod. NFS volumes do not support ownership management or SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#nfs DataK8SStorageK8SIoVolumeAttachmentV1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#nfs DataK8SStorageK8SIoVolumeAttachmentV1Manifest#nfs}
   */
   readonly nfs?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecNfs;
   /**
   * VolumeNodeAffinity defines constraints that limit what nodes this volume can be accessed from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_affinity DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_affinity DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecNodeAffinity;
   /**
   * persistentVolumeReclaimPolicy defines what happens to a persistent volume when released from its claim. Valid options are Retain (default for manually created PersistentVolumes), Delete (default for dynamically provisioned PersistentVolumes), and Recycle (deprecated). Recycle must be supported by the volume plugin underlying this PersistentVolume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#reclaiming
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#persistent_volume_reclaim_policy DataK8SStorageK8SIoVolumeAttachmentV1Manifest#persistent_volume_reclaim_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#persistent_volume_reclaim_policy DataK8SStorageK8SIoVolumeAttachmentV1Manifest#persistent_volume_reclaim_policy}
   */
   readonly persistentVolumeReclaimPolicy?: string;
   /**
   * Represents a Photon Controller persistent disk resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#photon_persistent_disk DataK8SStorageK8SIoVolumeAttachmentV1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#photon_persistent_disk DataK8SStorageK8SIoVolumeAttachmentV1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecPhotonPersistentDisk;
   /**
   * PortworxVolumeSource represents a Portworx volume resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#portworx_volume DataK8SStorageK8SIoVolumeAttachmentV1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#portworx_volume DataK8SStorageK8SIoVolumeAttachmentV1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecPortworxVolume;
   /**
   * Represents a Quobyte mount that lasts the lifetime of a pod. Quobyte volumes do not support ownership management or SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#quobyte DataK8SStorageK8SIoVolumeAttachmentV1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#quobyte DataK8SStorageK8SIoVolumeAttachmentV1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecQuobyte;
   /**
   * Represents a Rados Block Device mount that lasts the lifetime of a pod. RBD volumes support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#rbd DataK8SStorageK8SIoVolumeAttachmentV1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#rbd DataK8SStorageK8SIoVolumeAttachmentV1Manifest#rbd}
   */
   readonly rbd?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecRbd;
   /**
   * ScaleIOPersistentVolumeSource represents a persistent ScaleIO volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#scale_io DataK8SStorageK8SIoVolumeAttachmentV1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#scale_io DataK8SStorageK8SIoVolumeAttachmentV1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecScaleIo;
   /**
   * storageClassName is the name of StorageClass to which this persistent volume belongs. Empty value means that this volume does not belong to any StorageClass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_class_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storage_class_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * Represents a StorageOS persistent volume resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storageos DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#storageos DataK8SStorageK8SIoVolumeAttachmentV1Manifest#storageos}
   */
   readonly storageos?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecStorageos;
   /**
   * Name of VolumeAttributesClass to which this persistent volume belongs. Empty value is not allowed. When this field is not set, it indicates that this volume does not belong to any VolumeAttributesClass. This field is mutable and can be changed by the CSI driver after a volume has been updated successfully to a new class. For an unbound PersistentVolume, the volumeAttributesClassName will be matched with unbound PersistentVolumeClaims during the binding process. This is a beta field and requires enabling VolumeAttributesClass feature (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_attributes_class_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_attributes_class_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines if a volume is intended to be used with a formatted filesystem or to remain in raw block state. Value of Filesystem is implied when not included in spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_mode DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#volume_mode DataK8SStorageK8SIoVolumeAttachmentV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * Represents a vSphere volume resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#vsphere_volume DataK8SStorageK8SIoVolumeAttachmentV1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#vsphere_volume DataK8SStorageK8SIoVolumeAttachmentV1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpecVsphereVolume;
 }
@@ -9194,13 +9194,13 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSource {
   /**
   * PersistentVolumeSpec is the specification of a persistent volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#inline_volume_spec DataK8SStorageK8SIoVolumeAttachmentV1Manifest#inline_volume_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#inline_volume_spec DataK8SStorageK8SIoVolumeAttachmentV1Manifest#inline_volume_spec}
   */
   readonly inlineVolumeSpec?: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSourceInlineVolumeSpec;
   /**
   * persistentVolumeName represents the name of the persistent volume to attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#persistent_volume_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#persistent_volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#persistent_volume_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#persistent_volume_name}
   */
   readonly persistentVolumeName?: string;
 }
@@ -9325,19 +9325,19 @@ export interface DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpec {
   /**
   * attacher indicates the name of the volume driver that MUST handle this request. This is the name returned by GetPluginName().
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#attacher DataK8SStorageK8SIoVolumeAttachmentV1Manifest#attacher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#attacher DataK8SStorageK8SIoVolumeAttachmentV1Manifest#attacher}
   */
   readonly attacher: string;
   /**
   * nodeName represents the node that the volume should be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#node_name DataK8SStorageK8SIoVolumeAttachmentV1Manifest#node_name}
   */
   readonly nodeName: string;
   /**
   * VolumeAttachmentSource represents a volume that should be attached. Right now only PersistentVolumes can be attached via external attacher, in the future we may allow also inline volumes in pods. Exactly one member can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#source DataK8SStorageK8SIoVolumeAttachmentV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#source DataK8SStorageK8SIoVolumeAttachmentV1Manifest#source}
   */
   readonly source: DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecSource;
 }
@@ -9480,7 +9480,7 @@ export class DataK8SStorageK8SIoVolumeAttachmentV1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest k8s_storage_k8s_io_volume_attachment_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest k8s_storage_k8s_io_volume_attachment_v1_manifest}
 */
 export class DataK8SStorageK8SIoVolumeAttachmentV1Manifest extends cdktf.TerraformDataSource {
 
@@ -9496,7 +9496,7 @@ export class DataK8SStorageK8SIoVolumeAttachmentV1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SStorageK8SIoVolumeAttachmentV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SStorageK8SIoVolumeAttachmentV1Manifest to import
-  * @param importFromId The id of the existing DataK8SStorageK8SIoVolumeAttachmentV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SStorageK8SIoVolumeAttachmentV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SStorageK8SIoVolumeAttachmentV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9508,7 +9508,7 @@ export class DataK8SStorageK8SIoVolumeAttachmentV1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest k8s_storage_k8s_io_volume_attachment_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/storage_k8s_io_volume_attachment_v1_manifest k8s_storage_k8s_io_volume_attachment_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9519,8 +9519,8 @@ export class DataK8SStorageK8SIoVolumeAttachmentV1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_storage_k8s_io_volume_attachment_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRediscloudDatabaseConfig extends cdktf.TerraformMetaArgumen
   /**
   * The id of the database to filter returned databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database#db_id DataRediscloudDatabase#db_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database#db_id DataRediscloudDatabase#db_id}
   */
   readonly dbId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database#id DataRediscloudDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database#id DataRediscloudDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataRediscloudDatabaseConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the database to filter returned databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database#name DataRediscloudDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database#name DataRediscloudDatabase#name}
   */
   readonly name?: string;
   /**
   * The protocol of the database to filter returned databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database#protocol DataRediscloudDatabase#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database#protocol DataRediscloudDatabase#protocol}
   */
   readonly protocol?: string;
   /**
   * The region of the database to filter returned databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database#region DataRediscloudDatabase#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database#region DataRediscloudDatabase#region}
   */
   readonly region?: string;
   /**
   * ID of the subscription that the database belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database#subscription_id DataRediscloudDatabase#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database#subscription_id DataRediscloudDatabase#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -792,7 +792,7 @@ export class DataRediscloudDatabaseModuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database rediscloud_database}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database rediscloud_database}
 */
 export class DataRediscloudDatabase extends cdktf.TerraformDataSource {
 
@@ -808,7 +808,7 @@ export class DataRediscloudDatabase extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRediscloudDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudDatabase to import
-  * @param importFromId The id of the existing DataRediscloudDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -820,7 +820,7 @@ export class DataRediscloudDatabase extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/database rediscloud_database} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/data-sources/database rediscloud_database} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -831,8 +831,8 @@ export class DataRediscloudDatabase extends cdktf.TerraformDataSource {
       terraformResourceType: 'rediscloud_database',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.8.0',
-        providerVersionConstraint: '2.8.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

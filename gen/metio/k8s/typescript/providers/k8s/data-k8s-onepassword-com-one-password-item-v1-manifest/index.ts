@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataK8SOnepasswordComOnePasswordItemV1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#metadata DataK8SOnepasswordComOnePasswordItemV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#metadata DataK8SOnepasswordComOnePasswordItemV1Manifest#metadata}
   */
   readonly metadata: DataK8SOnepasswordComOnePasswordItemV1ManifestMetadata;
   /**
   * OnePasswordItemSpec defines the desired state of OnePasswordItem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#spec DataK8SOnepasswordComOnePasswordItemV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#spec DataK8SOnepasswordComOnePasswordItemV1Manifest#spec}
   */
   readonly spec?: DataK8SOnepasswordComOnePasswordItemV1ManifestSpec;
   /**
   * Kubernetes secret type. More info: https://kubernetes.io/docs/concepts/configuration/secret/#secret-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#type DataK8SOnepasswordComOnePasswordItemV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#type DataK8SOnepasswordComOnePasswordItemV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -30,25 +30,25 @@ export interface DataK8SOnepasswordComOnePasswordItemV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#annotations DataK8SOnepasswordComOnePasswordItemV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#annotations DataK8SOnepasswordComOnePasswordItemV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#labels DataK8SOnepasswordComOnePasswordItemV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#labels DataK8SOnepasswordComOnePasswordItemV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#name DataK8SOnepasswordComOnePasswordItemV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#name DataK8SOnepasswordComOnePasswordItemV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#namespace DataK8SOnepasswordComOnePasswordItemV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#namespace DataK8SOnepasswordComOnePasswordItemV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -223,7 +223,7 @@ export class DataK8SOnepasswordComOnePasswordItemV1ManifestMetadataOutputReferen
 }
 export interface DataK8SOnepasswordComOnePasswordItemV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#item_path DataK8SOnepasswordComOnePasswordItemV1Manifest#item_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#item_path DataK8SOnepasswordComOnePasswordItemV1Manifest#item_path}
   */
   readonly itemPath?: string;
 }
@@ -317,7 +317,7 @@ export class DataK8SOnepasswordComOnePasswordItemV1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest k8s_onepassword_com_one_password_item_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest k8s_onepassword_com_one_password_item_v1_manifest}
 */
 export class DataK8SOnepasswordComOnePasswordItemV1Manifest extends cdktf.TerraformDataSource {
 
@@ -333,7 +333,7 @@ export class DataK8SOnepasswordComOnePasswordItemV1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SOnepasswordComOnePasswordItemV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOnepasswordComOnePasswordItemV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOnepasswordComOnePasswordItemV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOnepasswordComOnePasswordItemV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOnepasswordComOnePasswordItemV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class DataK8SOnepasswordComOnePasswordItemV1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/onepassword_com_one_password_item_v1_manifest k8s_onepassword_com_one_password_item_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/onepassword_com_one_password_item_v1_manifest k8s_onepassword_com_one_password_item_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class DataK8SOnepasswordComOnePasswordItemV1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_onepassword_com_one_password_item_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

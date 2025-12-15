@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestMetadata;
   /**
   * CronAnythingSpec defines the desired state of CronAnything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecFin
   /**
   * The path to the field on the resource that contains a string value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#field_path DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#field_path DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
   /**
   * The values of the field that means the resource has completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#finished_values DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#finished_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#finished_values DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#finished_values}
   */
   readonly finishedValues: string[];
 }
@@ -344,7 +344,7 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecFin
   /**
   * The path to the field on the resource that contains the timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#field_path DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#field_path DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -437,19 +437,19 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecFin
   /**
   * StringField contains the details for how the CronAnything controller can find the string field on the resource needed to decide if the resource has completed. It also lists the values that mean the resource has completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#string_field DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#string_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#string_field DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#string_field}
   */
   readonly stringField?: DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecFinishableStrategyStringField;
   /**
   * TimestampField contains the details for how the CronAnything controller can find the timestamp field on the resource in order to decide if the resource has completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#timestamp_field DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#timestamp_field DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#timestamp_field}
   */
   readonly timestampField?: DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecFinishableStrategyTimestampField;
   /**
   * Type tells which strategy should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -600,7 +600,7 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecRet
   /**
   * The path to the field on the resource that contains the timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#field_path DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#field_path DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -693,13 +693,13 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecRet
   /**
   * FieldResourceTimestampStrategy specifies how the CronAnything controller can find the timestamp for the resource from a field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#field DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#field DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#field}
   */
   readonly field?: DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecRetentionResourceTimestampStrategyField;
   /**
   * Type tells which strategy should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -821,19 +821,19 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecRet
   /**
   * The number of completed resources to keep before deleting them. This only affects finishable resources and the default value is 3. This field is mutable and if it is changed to a number lower than the current number of finished resources, the oldest ones will eventually be deleted until the number of finished resources matches the limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#history_count_limit DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#history_count_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#history_count_limit DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#history_count_limit}
   */
   readonly historyCountLimit?: number;
   /**
   * The time since completion that a resource is kept before deletion. This only affects finishable resources. This does not have any default value and if it is not provided, HistoryCountLimit will be used to prune completed resources. If both HistoryCountLimit and HistoryTimeLimitSeconds are set, it is treated as an OR operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#history_time_limit_seconds DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#history_time_limit_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#history_time_limit_seconds DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#history_time_limit_seconds}
   */
   readonly historyTimeLimitSeconds?: number;
   /**
   * ResourceTimestampStrategy specifies how the CronAnything controller can find the age of a resource. This is needed to support retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#resource_timestamp_strategy DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#resource_timestamp_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#resource_timestamp_strategy DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#resource_timestamp_strategy}
   */
   readonly resourceTimestampStrategy: DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecRetentionResourceTimestampStrategy;
 }
@@ -984,67 +984,67 @@ export interface DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpec {
   /**
   * CascadeDelete tells CronAnything to set up owner references from the created resources to the CronAnything resource. This means that if the CronAnything resource is deleted, all resources created by it will also be deleted. This is an optional field that defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#cascade_delete DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#cascade_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#cascade_delete DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#cascade_delete}
   */
   readonly cascadeDelete?: boolean | cdktf.IResolvable;
   /**
   * ConcurrencyPolicy specifies how to treat concurrent resources if the resource provides a status path that exposes completion. The default policy if not provided is to allow a new resource to be created even if an active resource already exists. If the resource doesn’t have an active/completed status, the only supported concurrency policy is to allow creating new resources. This field is mutable. If the policy is changed to a more stringent policy while multiple resources are active, it will not delete any existing resources. The exception is if a creation of a new resource is triggered and the policy has been changed to Replace. If multiple resources are active, they will all be deleted and replaced by a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#concurrency_policy DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#concurrency_policy DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#concurrency_policy}
   */
   readonly concurrencyPolicy?: string;
   /**
   * FinishableStrategy defines how the CronAnything controller an decide if a resource has completed. Some resources will do some work after they have been created and at some point be finished. Jobs are the most common example. If no strategy is defined, it is assumed that the resources never finish.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#finishable_strategy DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#finishable_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#finishable_strategy DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#finishable_strategy}
   */
   readonly finishableStrategy?: DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecFinishableStrategy;
   /**
   * ResourceBaseName specifies the base name for the resources created by CronAnything, which will be named using the format <ResourceBaseName>-<Timestamp>. This field is optional, and the default is to use the name of the CronAnything resource as the ResourceBaseName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#resource_base_name DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#resource_base_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#resource_base_name DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#resource_base_name}
   */
   readonly resourceBaseName?: string;
   /**
   * ResourceTimestampFormat defines the format of the timestamp in the name of Resources created by CronAnything <ResourceBaseName>-<Timestamp>. This field is optional, and the default is to format the timestamp as unix time. If provided, it must be compatible with time.Format in golang.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#resource_timestamp_format DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#resource_timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#resource_timestamp_format DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#resource_timestamp_format}
   */
   readonly resourceTimestampFormat?: string;
   /**
   * Retention defines the retention policy for resources created by CronAnything. If no retention policy is defined, CronAnything will never delete resources, so cleanup must be handled through some other process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#retention DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#retention DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#retention}
   */
   readonly retention?: DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecRetention;
   /**
   * Schedule defines a time-based schedule, e.g., a standard cron schedule such as “@every 10m”. This field is mandatory and mutable. If it is changed, resources will simply be created at the new interval from then on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#schedule DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#schedule DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#schedule}
   */
   readonly schedule: string;
   /**
   * Suspend tells the controller to suspend creation of additional resources. The default value is false. This field is mutable. It will not affect any existing resources, but only affect creation of additional resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#suspend DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#suspend DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * Template is a template of a resource type for which instances are to be created on the given schedule. This field is mandatory and it must contain a valid template for an existing apiVersion and kind in the cluster. It is immutable, so if the template needs to change, the whole CronAnything resource should be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#template DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#template DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#template}
   */
   readonly template: { [key: string]: string };
   /**
   * TotalResourceLimit specifies the total number of children allowed for a particular CronAnything resource. If this limit is reached, no additional resources will be created. This limit is mostly meant to avoid runaway creation of resources that could bring down the cluster. Both finished and unfinished resources count against this limit. This field is mutable. If it is changed to a lower value than the existing number of resources, none of the existing resources will be deleted as a result, but no additional resources will be created until the number of child resources goes below the limit. The field is optional with a default value of 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#total_resource_limit DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#total_resource_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#total_resource_limit DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#total_resource_limit}
   */
   readonly totalResourceLimit?: number;
   /**
   * TriggerDeadlineSeconds defines Deadline in seconds for creating the resource if it missed the scheduled time. If no deadline is provided, the resource will be created no matter how far after the scheduled time. If multiple triggers were missed, only the last will be triggered and only one resource will be created. This field is mutable and changing it will affect the creation of new resources from that point in time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#trigger_deadline_seconds DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#trigger_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#trigger_deadline_seconds DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest#trigger_deadline_seconds}
   */
   readonly triggerDeadlineSeconds?: number;
 }
@@ -1422,7 +1422,7 @@ export class DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest k8s_oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest k8s_oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest}
 */
 export class DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1438,7 +1438,7 @@ export class DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1450,7 +1450,7 @@ export class DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest k8s_oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest k8s_oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1461,8 +1461,8 @@ export class DataK8SOracleDbAnthosapisComCronAnythingV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_oracle_db_anthosapis_com_cron_anything_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

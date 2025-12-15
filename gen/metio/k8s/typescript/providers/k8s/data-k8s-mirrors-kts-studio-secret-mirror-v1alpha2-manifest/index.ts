@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#metadata DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#metadata DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestMetadata;
   /**
   * SecretMirrorSpec defines the desired behaviour of Secret mirroring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#spec DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#spec DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#annotations DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#annotations DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#labels DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#labels DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinat
   /**
   * Name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -350,25 +350,25 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinat
   /**
   * approle Vault prefix. Default: approle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#app_role_path DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#app_role_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#app_role_path DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#app_role_path}
   */
   readonly appRolePath?: string;
   /**
   * A key in the SecretRef which contains role-id value. Default: role-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#role_id_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#role_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#role_id_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#role_id_key}
   */
   readonly roleIdKey?: string;
   /**
   * A key in the SecretRef which contains secret-id value. Default: secret-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_id_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_id_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_id_key}
   */
   readonly secretIdKey?: string;
   /**
   * Reference to a Secret containing role-id and secret-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_ref DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_ref DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinationVaultAuthApproleSecretRef;
 }
@@ -551,13 +551,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinat
   /**
   * Name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -682,13 +682,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinat
   /**
   * Reference to a Secret containing token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_ref DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_ref DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinationVaultAuthTokenSecretRef;
   /**
   * A key in the SecretRef which contains token value. Default: token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#token_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#token_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#token_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#token_key}
   */
   readonly tokenKey?: string;
 }
@@ -813,13 +813,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinat
   /**
   * VaultAppRoleAuthSpec specifies approle-specific auth data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#approle DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#approle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#approle DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#approle}
   */
   readonly approle?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinationVaultAuthApprole;
   /**
   * VaultTokenAuthSpec specifies token-specific auth data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#token DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#token DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#token}
   */
   readonly token?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinationVaultAuthToken;
 }
@@ -944,19 +944,19 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinat
   /**
   * Addr specifies a Vault endpoint URL (e.g. https://vault.example.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#addr DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#addr DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#addr}
   */
   readonly addr?: string;
   /**
   * VaultAuthSpec describes how to authenticate against a Vault server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#auth DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#auth DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#auth}
   */
   readonly auth?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinationVaultAuth;
   /**
   * Path specifies a vault secret path (e.g. secret/data/some-secret or mongodb/creds/mymongo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#path DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#path DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#path}
   */
   readonly path?: string;
 }
@@ -1110,19 +1110,19 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinat
   /**
   * An array of regular expressions to match namespaces where to copy a source secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespaces DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespaces DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Destination type. Possible values — namespaces, vault. Default: namespaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#type DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#type DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#type}
   */
   readonly type?: string;
   /**
   * VaultSpec contains information of secret location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#vault DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#vault DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#vault}
   */
   readonly vault?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestinationVault;
 }
@@ -1276,13 +1276,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVa
   /**
   * Name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1407,25 +1407,25 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVa
   /**
   * approle Vault prefix. Default: approle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#app_role_path DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#app_role_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#app_role_path DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#app_role_path}
   */
   readonly appRolePath?: string;
   /**
   * A key in the SecretRef which contains role-id value. Default: role-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#role_id_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#role_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#role_id_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#role_id_key}
   */
   readonly roleIdKey?: string;
   /**
   * A key in the SecretRef which contains secret-id value. Default: secret-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_id_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_id_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_id_key}
   */
   readonly secretIdKey?: string;
   /**
   * Reference to a Secret containing role-id and secret-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_ref DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_ref DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVaultAuthApproleSecretRef;
 }
@@ -1608,13 +1608,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVa
   /**
   * Name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#namespace DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1739,13 +1739,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVa
   /**
   * Reference to a Secret containing token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_ref DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#secret_ref DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVaultAuthTokenSecretRef;
   /**
   * A key in the SecretRef which contains token value. Default: token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#token_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#token_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#token_key DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#token_key}
   */
   readonly tokenKey?: string;
 }
@@ -1870,13 +1870,13 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVa
   /**
   * VaultAppRoleAuthSpec specifies approle-specific auth data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#approle DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#approle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#approle DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#approle}
   */
   readonly approle?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVaultAuthApprole;
   /**
   * VaultTokenAuthSpec specifies token-specific auth data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#token DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#token DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#token}
   */
   readonly token?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVaultAuthToken;
 }
@@ -2001,19 +2001,19 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVa
   /**
   * Addr specifies a Vault endpoint URL (e.g. https://vault.example.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#addr DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#addr DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#addr}
   */
   readonly addr?: string;
   /**
   * VaultAuthSpec describes how to authenticate against a Vault server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#auth DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#auth DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#auth}
   */
   readonly auth?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVaultAuth;
   /**
   * Path specifies a vault secret path (e.g. secret/data/some-secret or mongodb/creds/mymongo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#path DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#path DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#path}
   */
   readonly path?: string;
 }
@@ -2165,17 +2165,17 @@ export class DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVaultO
 }
 export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#name DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#type DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#type DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#type}
   */
   readonly type?: string;
   /**
   * VaultSpec contains information of secret location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#vault DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#vault DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#vault}
   */
   readonly vault?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSourceVault;
 }
@@ -2329,25 +2329,25 @@ export interface DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpec {
   /**
   * What to do with Secret objects created by a SecretMirror. Two policies exist – delete (deletes all created secrets) and retain (leaves them in the cluster). Default: delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#delete_policy DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#delete_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#delete_policy DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#delete_policy}
   */
   readonly deletePolicy?: string;
   /**
   * SecretMirrorDestination defines where to sync a secret data to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#destination DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#destination DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#destination}
   */
   readonly destination?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecDestination;
   /**
   * How often to check for secret changes. Default: 180 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#poll_period_seconds DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#poll_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#poll_period_seconds DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#poll_period_seconds}
   */
   readonly pollPeriodSeconds?: number;
   /**
   * SecretMirrorSource defines where to extract a secret data from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#source DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#source DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest#source}
   */
   readonly source?: DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecSource;
 }
@@ -2528,7 +2528,7 @@ export class DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest k8s_mirrors_kts_studio_secret_mirror_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest k8s_mirrors_kts_studio_secret_mirror_v1alpha2_manifest}
 */
 export class DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -2544,7 +2544,7 @@ export class DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2556,7 +2556,7 @@ export class DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest k8s_mirrors_kts_studio_secret_mirror_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/mirrors_kts_studio_secret_mirror_v1alpha2_manifest k8s_mirrors_kts_studio_secret_mirror_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2567,8 +2567,8 @@ export class DataK8SMirrorsKtsStudioSecretMirrorV1Alpha2Manifest extends cdktf.T
       terraformResourceType: 'k8s_mirrors_kts_studio_secret_mirror_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

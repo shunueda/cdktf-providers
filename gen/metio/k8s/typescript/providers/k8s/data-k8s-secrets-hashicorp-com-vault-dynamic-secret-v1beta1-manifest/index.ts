@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#metadata DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#metadata DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestMetadata;
   /**
   * VaultDynamicSecretSpec defines the desired state of VaultDynamicSecret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#spec DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#spec DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpec
   /**
   * Name of the Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Text contains the Go text template format. The template references attributes from the data structure of the source secret. Refer to https://pkg.go.dev/text/template for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#text DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#text DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#text}
   */
   readonly text: string;
 }
@@ -347,13 +347,13 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpec
   /**
   * KeyOverride to the rendered template in the Destination secret. If Key is empty, then the Key from reference spec will be used. Set this to override the Key set from the reference spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#key_override DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#key_override DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#key_override}
   */
   readonly keyOverride?: string;
   /**
   * Name of the Template in SecretTransformationSpec.Templates. the rendered secret data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -497,31 +497,31 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpec
   /**
   * IgnoreExcludes controls whether to use the SecretTransformation's Excludes data key filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#ignore_excludes DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#ignore_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#ignore_excludes DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#ignore_excludes}
   */
   readonly ignoreExcludes?: boolean | cdktf.IResolvable;
   /**
   * IgnoreIncludes controls whether to use the SecretTransformation's Includes data key filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#ignore_includes DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#ignore_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#ignore_includes DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#ignore_includes}
   */
   readonly ignoreIncludes?: boolean | cdktf.IResolvable;
   /**
   * Name of the SecretTransformation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the SecretTransformation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * TemplateRefs map to a Template found in this TransformationRef. If empty, then all templates from the SecretTransformation will be rendered to the K8s Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#template_refs DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#template_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#template_refs DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#template_refs}
   */
   readonly templateRefs?: DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpecDestinationTransformationTransformationRefsTemplateRefs[] | cdktf.IResolvable;
 }
@@ -752,31 +752,31 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpec
   /**
   * ExcludeRaw data from the destination Secret. Exclusion policy can be set globally by including 'exclude-raw' in the '--global-transformation-options' command line flag. If set, the command line flag always takes precedence over this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#exclude_raw DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#exclude_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#exclude_raw DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#exclude_raw}
   */
   readonly excludeRaw?: boolean | cdktf.IResolvable;
   /**
   * Excludes contains regex patterns used to filter top-level source secret data fields for exclusion from the final K8s Secret data. These pattern filters are never applied to templated fields as defined in Templates. They are always applied before any inclusion patterns. To exclude all source secret data fields, you can configure the single pattern '.*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#excludes DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#excludes DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#excludes}
   */
   readonly excludes?: string[];
   /**
   * Includes contains regex patterns used to filter top-level source secret data fields for inclusion in the final K8s Secret data. These pattern filters are never applied to templated fields as defined in Templates. They are always applied last.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#includes DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#includes DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#includes}
   */
   readonly includes?: string[];
   /**
   * Templates maps a template name to its Template. Templates are always included in the rendered K8s Secret, and take precedence over templates defined in a SecretTransformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#templates DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#templates DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#templates}
   */
   readonly templates?: DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpecDestinationTransformationTemplates;
   /**
   * TransformationRefs contain references to template configuration from SecretTransformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#transformation_refs DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#transformation_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#transformation_refs DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#transformation_refs}
   */
   readonly transformationRefs?: DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpecDestinationTransformationTransformationRefs[] | cdktf.IResolvable;
 }
@@ -988,43 +988,43 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpec
   /**
   * Annotations to apply to the Secret. Requires Create to be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Create the destination Secret. If the Secret already exists this should be set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#create DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#create DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
   * Labels to apply to the Secret. Requires Create to be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Overwrite the destination Secret if it exists and Create is true. This is useful when migrating to VSO from a previous secret deployment strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#overwrite DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#overwrite DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * Transformation provides configuration for transforming the secret data before it is stored in the Destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#transformation DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#transformation DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#transformation}
   */
   readonly transformation?: DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpecDestinationTransformation;
   /**
   * Type of Kubernetes Secret. Requires Create to be set to true. Defaults to Opaque.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#type DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#type DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1291,13 +1291,13 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpec
   /**
   * Kind of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#kind DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#kind DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -1438,73 +1438,73 @@ export interface DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpec
   /**
   * AllowStaticCreds should be set when syncing credentials that are periodically rotated by the Vault server, rather than created upon request. These secrets are sometimes referred to as 'static roles', or 'static credentials', with a request path that contains 'static-creds'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#allow_static_creds DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#allow_static_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#allow_static_creds DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#allow_static_creds}
   */
   readonly allowStaticCreds?: boolean | cdktf.IResolvable;
   /**
   * Destination provides configuration necessary for syncing the Vault secret to Kubernetes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#destination DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#destination DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#destination}
   */
   readonly destination: DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpecDestination;
   /**
   * Mount path of the secret's engine in Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#mount DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#mount DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#mount}
   */
   readonly mount: string;
   /**
   * Namespace of the secrets engine mount in Vault. If not set, the namespace that's part of VaultAuth resource will be inferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Params that can be passed when requesting credentials/secrets. When Params is set the configured RequestHTTPMethod will be ignored. See RequestHTTPMethod for more details. Please consult https://developer.hashicorp.com/vault/docs/secrets if you are uncertain about what 'params' should/can be set to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#params DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#params DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#params}
   */
   readonly params?: { [key: string]: string };
   /**
   * Path in Vault to get the credentials for, and is relative to Mount. Please consult https://developer.hashicorp.com/vault/docs/secrets if you are uncertain about what 'path' should be set to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#path DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#path DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * RefreshAfter a period of time for VSO to sync the source secret data, in duration notation e.g. 30s, 1m, 24h. This value only needs to be set when syncing from a secret's engine that does not provide a lease TTL in its response. The value should be within the secret engine's configured ttl or max_ttl. The source secret's lease duration takes precedence over this configuration when it is greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#refresh_after DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#refresh_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#refresh_after DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#refresh_after}
   */
   readonly refreshAfter?: string;
   /**
   * RenewalPercent is the percent out of 100 of the lease duration when the lease is renewed. Defaults to 67 percent plus jitter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#renewal_percent DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#renewal_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#renewal_percent DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#renewal_percent}
   */
   readonly renewalPercent?: number;
   /**
   * RequestHTTPMethod to use when syncing Secrets from Vault. Setting a value here is not typically required. If left unset the Operator will make requests using the GET method. In the case where Params are specified the Operator will use the PUT method. Please consult https://developer.hashicorp.com/vault/docs/secrets if you are uncertain about what method to use. Of note, the Vault client treats PUT and POST as being equivalent. The underlying Vault client implementation will always use the PUT method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#request_http_method DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#request_http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#request_http_method DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#request_http_method}
   */
   readonly requestHttpMethod?: string;
   /**
   * Revoke the existing lease on VDS resource deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#revoke DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#revoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#revoke DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#revoke}
   */
   readonly revoke?: boolean | cdktf.IResolvable;
   /**
   * RolloutRestartTargets should be configured whenever the application(s) consuming the Vault secret does not support dynamically reloading a rotated secret. In that case one, or more RolloutRestartTarget(s) can be configured here. The Operator will trigger a 'rollout-restart' for each target whenever the Vault secret changes between reconciliation events. See RolloutRestartTarget for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#rollout_restart_targets DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#rollout_restart_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#rollout_restart_targets DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#rollout_restart_targets}
   */
   readonly rolloutRestartTargets?: DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpecRolloutRestartTargets[] | cdktf.IResolvable;
   /**
   * VaultAuthRef to the VaultAuth resource, can be prefixed with a namespace, eg: 'namespaceA/vaultAuthRefB'. If no namespace prefix is provided it will default to the namespace of the VaultAuth CR. If no value is specified for VaultAuthRef the Operator will default to the 'default' VaultAuth, configured in the operator's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#vault_auth_ref DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#vault_auth_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#vault_auth_ref DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest#vault_auth_ref}
   */
   readonly vaultAuthRef?: string;
 }
@@ -1908,7 +1908,7 @@ export class DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest k8s_secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest k8s_secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest}
 */
 export class DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1924,7 +1924,7 @@ export class DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest extends
   * Generates CDKTF code for importing a DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1936,7 +1936,7 @@ export class DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest k8s_secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest k8s_secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1947,8 +1947,8 @@ export class DataK8SSecretsHashicorpComVaultDynamicSecretV1Beta1Manifest extends
       terraformResourceType: 'k8s_secrets_hashicorp_com_vault_dynamic_secret_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointCheckmarxScaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#access_control_url ServiceendpointCheckmarxSca#access_control_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#access_control_url ServiceendpointCheckmarxSca#access_control_url}
   */
   readonly accessControlUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#account ServiceendpointCheckmarxSca#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#account ServiceendpointCheckmarxSca#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#description ServiceendpointCheckmarxSca#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#description ServiceendpointCheckmarxSca#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#id ServiceendpointCheckmarxSca#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#id ServiceendpointCheckmarxSca#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#password ServiceendpointCheckmarxSca#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#password ServiceendpointCheckmarxSca#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#project_id ServiceendpointCheckmarxSca#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#project_id ServiceendpointCheckmarxSca#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#server_url ServiceendpointCheckmarxSca#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#server_url ServiceendpointCheckmarxSca#server_url}
   */
   readonly serverUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#service_endpoint_name ServiceendpointCheckmarxSca#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#service_endpoint_name ServiceendpointCheckmarxSca#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#team ServiceendpointCheckmarxSca#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#team ServiceendpointCheckmarxSca#team}
   */
   readonly team?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#username ServiceendpointCheckmarxSca#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#username ServiceendpointCheckmarxSca#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#web_app_url ServiceendpointCheckmarxSca#web_app_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#web_app_url ServiceendpointCheckmarxSca#web_app_url}
   */
   readonly webAppUrl: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#timeouts ServiceendpointCheckmarxSca#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#timeouts ServiceendpointCheckmarxSca#timeouts}
   */
   readonly timeouts?: ServiceendpointCheckmarxScaTimeouts;
 }
 export interface ServiceendpointCheckmarxScaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#create ServiceendpointCheckmarxSca#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#create ServiceendpointCheckmarxSca#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#delete ServiceendpointCheckmarxSca#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#delete ServiceendpointCheckmarxSca#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#read ServiceendpointCheckmarxSca#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#read ServiceendpointCheckmarxSca#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#update ServiceendpointCheckmarxSca#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#update ServiceendpointCheckmarxSca#update}
   */
   readonly update?: string;
 }
@@ -256,7 +256,7 @@ export class ServiceendpointCheckmarxScaTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca azuredevops_serviceendpoint_checkmarx_sca}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca azuredevops_serviceendpoint_checkmarx_sca}
 */
 export class ServiceendpointCheckmarxSca extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class ServiceendpointCheckmarxSca extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointCheckmarxSca resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointCheckmarxSca to import
-  * @param importFromId The id of the existing ServiceendpointCheckmarxSca that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointCheckmarxSca that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointCheckmarxSca to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class ServiceendpointCheckmarxSca extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sca azuredevops_serviceendpoint_checkmarx_sca} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/resources/serviceendpoint_checkmarx_sca azuredevops_serviceendpoint_checkmarx_sca} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class ServiceendpointCheckmarxSca extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_checkmarx_sca',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

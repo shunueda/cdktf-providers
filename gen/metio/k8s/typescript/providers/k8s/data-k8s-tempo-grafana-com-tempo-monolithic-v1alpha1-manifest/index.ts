@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#metadata DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#metadata DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestMetadata;
   /**
   * TempoMonolithicSpec defines the desired state of TempoMonolithic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#spec DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#spec DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_fields DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_fields DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#preference DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#preference DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#weight DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#weight DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_fields DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_fields DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#node_selector_terms DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#node_selector_terms DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,37 +2228,37 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#label_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#label_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mismatch_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mismatch_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespaces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespaces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#topology_key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#topology_key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2496,13 +2496,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#pod_affinity_term DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#pod_affinity_term DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#weight DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#weight DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2643,19 +2643,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2825,13 +2825,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2956,19 +2956,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3138,13 +3138,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3269,37 +3269,37 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#label_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#label_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mismatch_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mismatch_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespaces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespaces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#topology_key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#topology_key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3559,13 +3559,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3690,19 +3690,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3872,13 +3872,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4003,19 +4003,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4185,13 +4185,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4316,37 +4316,37 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#label_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#label_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mismatch_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mismatch_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespaces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespaces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#topology_key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#topology_key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4584,13 +4584,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#pod_affinity_term DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#pod_affinity_term DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#weight DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#weight DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4731,19 +4731,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4913,13 +4913,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5044,19 +5044,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5226,13 +5226,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5357,37 +5357,37 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#label_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#label_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mismatch_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mismatch_label_keys DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespace_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespaces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#namespaces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#topology_key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#topology_key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5647,13 +5647,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5778,19 +5778,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffini
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#node_affinity DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#node_affinity DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#pod_affinity DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#pod_affinity DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#pod_anti_affinity DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#pod_anti_affinity DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5944,7 +5944,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecExtraC
   /**
   * Tempo defines any extra Tempo configuration, which will be merged with the operator's generated Tempo configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tempo DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tempo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tempo DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tempo}
   */
   readonly tempo?: { [key: string]: string };
 }
@@ -6040,25 +6040,25 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngest
   /**
   * CA is the name of a ConfigMap containing a CA certificate (service-ca.crt). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * Cert is the name of a Secret containing a certificate (tls.crt) and private key (tls.key). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#cert_name}
   */
   readonly certName?: string;
   /**
   * Enabled defines if TLS is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * MinVersion defines the minimum acceptable TLS version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
 }
@@ -6241,13 +6241,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngest
   /**
   * Enabled defines if OTLP over gRPC is enabled. Default: enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * TLS defines the TLS configuration for OTLP/gRPC ingestion. On OpenShift when operator config 'servingCertsService' and TLS is enabled but no 'certName' and 'caName' are provided it will use OpenShift serving certificate service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngestionOtlpGrpcTls;
 }
@@ -6369,25 +6369,25 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngest
   /**
   * CA is the name of a ConfigMap containing a CA certificate (service-ca.crt). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * Cert is the name of a Secret containing a certificate (tls.crt) and private key (tls.key). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#cert_name}
   */
   readonly certName?: string;
   /**
   * Enabled defines if TLS is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * MinVersion defines the minimum acceptable TLS version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
 }
@@ -6570,13 +6570,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngest
   /**
   * Enabled defines if OTLP over HTTP is enabled. Default: enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * TLS defines the TLS configuration for OTLP/HTTP ingestion. On OpenShift when operator config 'servingCertsService' and TLS is enabled but no 'certName' and 'caName' are provided it will use OpenShift serving certificate service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngestionOtlpHttpTls;
 }
@@ -6698,13 +6698,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngest
   /**
   * GRPC defines the OTLP over gRPC configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#grpc DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#grpc DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngestionOtlpGrpc;
   /**
   * HTTP defines the OTLP over HTTP configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#http DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#http DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#http}
   */
   readonly http?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngestionOtlpHttp;
 }
@@ -6829,7 +6829,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngest
   /**
   * OTLP defines the ingestion configuration for the OTLP protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#otlp DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#otlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#otlp DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#otlp}
   */
   readonly otlp?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngestionOtlp;
 }
@@ -6925,7 +6925,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaeger
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7040,19 +7040,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaeger
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaegeruiAuthenticationResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7206,19 +7206,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaeger
   /**
   * Defines if the authentication will be enabled for jaeger UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Resources defines the compute resource requirements of the OAuth Proxy container. The OAuth Proxy performs authentication and authorization of incoming requests to Jaeger UI when multi-tenancy is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaegeruiAuthenticationResources;
   /**
   * SAR defines the SAR to be used in the oauth-proxy default is '{'namespace': '<tempo_stack_namespace>', 'resource': 'pods', 'verb': 'get'}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#sar DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#sar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#sar DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#sar}
   */
   readonly sar?: string;
 }
@@ -7372,25 +7372,25 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaeger
   /**
   * Annotations defines the annotations of the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Enabled defines if an Ingress object should be created for Jaeger UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Host defines the hostname of the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#host DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#host DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * IngressClassName defines the name of an IngressClass cluster resource. Defines which ingress controller serves this ingress resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ingress_class_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ingress_class_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
 }
@@ -7570,7 +7570,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaeger
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7685,19 +7685,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaeger
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaegeruiResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7851,25 +7851,25 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaeger
   /**
   * Annotations defines the annotations of the Route object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Enabled defines if a Route object should be created for Jaeger UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Host defines the hostname of the Route object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#host DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#host DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Termination specifies the termination type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#termination DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#termination DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#termination}
   */
   readonly termination?: string;
 }
@@ -8049,43 +8049,43 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaeger
   /**
   * Authentication defines the options for the oauth proxy used to protect jaeger UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#authentication DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#authentication DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaegeruiAuthentication;
   /**
   * Enabled defines if the Jaeger UI component should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * FindTracesConcurrentRequests defines how many concurrent request a single trace search can submit (defaults 2). The search for traces in Jaeger submits limit+1 requests. First requests finds trace IDs and then it fetches entire traces by ID. This property allows Jaeger to fetch traces in parallel. Note that by default a single Tempo querier can process 20 concurrent search jobs. Increasing this property might require scaling up querier instances, especially on error 'job queue full' See also Tempo's extraConfig: querier.max_concurrent_queries (20 default) query_frontend.max_outstanding_per_tenant: (2000 default). Increase if the query-frontend returns 429
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#find_traces_concurrent_requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#find_traces_concurrent_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#find_traces_concurrent_requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#find_traces_concurrent_requests}
   */
   readonly findTracesConcurrentRequests?: number;
   /**
   * Ingress defines the Ingress configuration for the Jaeger UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ingress DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ingress DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaegeruiIngress;
   /**
   * Resources defines the compute resource requirements of the Jaeger UI container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaegeruiResources;
   /**
   * Route defines the OpenShift route configuration for the Jaeger UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#route DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#route DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#route}
   */
   readonly route?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaegeruiRoute;
   /**
   * ServicesQueryDuration defines how long the services will be available in the services list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#services_query_duration DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#services_query_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#services_query_duration DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#services_query_duration}
   */
   readonly servicesQueryDuration?: string;
 }
@@ -8352,7 +8352,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultit
   /**
   * Name of a secret in the namespace configured for tenant secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8448,31 +8448,31 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultit
   /**
   * Group claim field from ID Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#group_claim DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#group_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#group_claim DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#group_claim}
   */
   readonly groupClaim?: string;
   /**
   * IssuerURL defines the URL for issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#issuer_url DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#issuer_url DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
   * RedirectURL defines the URL for redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#redirect_url DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#redirect_url DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * Secret defines the spec for the clientID, clientSecret and issuerCAPath for tenant's authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthenticationOidcSecret;
   /**
   * User claim field from ID Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#username_claim DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#username_claim DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#username_claim}
   */
   readonly usernameClaim?: string;
 }
@@ -8684,19 +8684,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultit
   /**
   * OIDC defines the spec for the OIDC tenant's authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#oidc DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#oidc DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#oidc}
   */
   readonly oidc?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthenticationOidc;
   /**
   * TenantID defines a universally unique identifier of the tenant. Unlike the tenantName, which must be unique at a given time, the tenantId must be unique over the entire lifetime of the Tempo deployment. Tempo uses this ID to prefix objects in the object storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tenant_id DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tenant_id DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId: string;
   /**
   * TenantName defines a human readable, unique name of the tenant. The value of this field must be specified in the X-Scope-OrgID header and in the resources field of a ClusterRole to identify the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tenant_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tenant_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tenant_name}
   */
   readonly tenantName: string;
 }
@@ -8866,11 +8866,11 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultit
   /**
   * SubjectKind is a kind of Tempo Gateway RBAC subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#kind DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#kind DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9009,15 +9009,15 @@ export class DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenan
 }
 export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthorizationRoleBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#roles DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#roles DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#roles}
   */
   readonly roles: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#subjects DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#subjects DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#subjects}
   */
   readonly subjects: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthorizationRoleBindingsSubjects[] | cdktf.IResolvable;
 }
@@ -9182,19 +9182,19 @@ export class DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenan
 }
 export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthorizationRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#permissions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#permissions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#permissions}
   */
   readonly permissions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
   */
   readonly resources: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tenants DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tenants DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tenants}
   */
   readonly tenants: string[];
 }
@@ -9387,13 +9387,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultit
   /**
   * RoleBindings defines configuration to bind a set of roles to a set of subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#role_bindings DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#role_bindings DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#role_bindings}
   */
   readonly roleBindings?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthorizationRoleBindings[] | cdktf.IResolvable;
   /**
   * Roles defines a set of permissions to interact with a tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#roles DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#roles DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#roles}
   */
   readonly roles?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthorizationRoles[] | cdktf.IResolvable;
 }
@@ -9518,7 +9518,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultit
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9633,19 +9633,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultit
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9799,31 +9799,31 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultit
   /**
   * Authentication defines the tempo-gateway component authentication configuration spec per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#authentication DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#authentication DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthentication[] | cdktf.IResolvable;
   /**
   * Authorization defines the tempo-gateway component authorization configuration spec per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#authorization DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#authorization DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyAuthorization;
   /**
   * Enabled defines if multi-tenancy is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Mode defines the multitenancy mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mode DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#mode DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Resources defines the compute resource requirements of the gateway container. The gateway performs authentication and authorization of incoming requests when multi-tenancy is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancyResources;
 }
@@ -10029,19 +10029,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObserv
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#values DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10211,13 +10211,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObserv
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObservabilityGrafanaDataSourceInstanceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10342,13 +10342,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObserv
   /**
   * Enabled defines if a Grafana data source should be created for this Tempo deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * InstanceSelector defines the Grafana instance where the data source should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#instance_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#instance_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#instance_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#instance_selector}
   */
   readonly instanceSelector?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObservabilityGrafanaDataSourceInstanceSelector;
 }
@@ -10470,7 +10470,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObserv
   /**
   * DataSource defines the Grafana data source configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#data_source DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#data_source DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObservabilityGrafanaDataSource;
 }
@@ -10566,7 +10566,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObserv
   /**
   * Enabled defines if PrometheusRule objects should be created for this Tempo deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -10659,7 +10659,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObserv
   /**
   * Enabled defines if ServiceMonitor objects should be created for this Tempo deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -10752,13 +10752,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObserv
   /**
   * ServiceMonitors defines the PrometheusRule configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#prometheus_rules DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#prometheus_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#prometheus_rules DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#prometheus_rules}
   */
   readonly prometheusRules?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObservabilityMetricsPrometheusRules;
   /**
   * ServiceMonitors defines the ServiceMonitor configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#service_monitors DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#service_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#service_monitors DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#service_monitors}
   */
   readonly serviceMonitors?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObservabilityMetricsServiceMonitors;
 }
@@ -10883,13 +10883,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObserv
   /**
   * Grafana defines the Grafana configuration of the Tempo deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#grafana DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#grafana DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#grafana}
   */
   readonly grafana?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObservabilityGrafana;
   /**
   * Metrics defines the metric configuration of the Tempo deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#metrics DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#metrics DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObservabilityMetrics;
 }
@@ -11014,7 +11014,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecResour
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -11129,19 +11129,19 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecResour
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11295,7 +11295,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorag
   /**
   * Secret is the name of a Secret containing credentials for accessing object storage. It needs to be in the same namespace as the TempoMonolithic custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#secret}
   */
   readonly secret: string;
 }
@@ -11388,7 +11388,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorag
   /**
   * Secret is the name of a Secret containing credentials for accessing object storage. It needs to be in the same namespace as the TempoMonolithic custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#secret}
   */
   readonly secret: string;
 }
@@ -11481,25 +11481,25 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorag
   /**
   * CA is the name of a ConfigMap containing a CA certificate (service-ca.crt). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * Cert is the name of a Secret containing a certificate (tls.crt) and private key (tls.key). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#cert_name}
   */
   readonly certName?: string;
   /**
   * Enabled defines if TLS is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * MinVersion defines the minimum acceptable TLS version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
 }
@@ -11682,13 +11682,13 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorag
   /**
   * Secret is the name of a Secret containing credentials for accessing object storage. It needs to be in the same namespace as the TempoMonolithic custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#secret}
   */
   readonly secret: string;
   /**
   * TLS defines the TLS configuration for Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorageTracesS3Tls;
 }
@@ -11810,31 +11810,31 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorag
   /**
   * Azure defines the configuration for Azure Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#azure DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#azure DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#azure}
   */
   readonly azure?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorageTracesAzure;
   /**
   * Backend defines the backend for storing traces. Default: memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#backend DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#backend DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#backend}
   */
   readonly backend: string;
   /**
   * GCP defines the configuration for Google Cloud Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#gcs DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#gcs DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#gcs}
   */
   readonly gcs?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorageTracesGcs;
   /**
   * S3 defines the configuration for Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#s3 DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#s3 DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorageTracesS3;
   /**
   * Size defines the size of the volume where traces are stored. For in-memory storage, this defines the size of the tmpfs volume. For persistent volume storage, this defines the size of the persistent volume. For object storage, this defines the size of the persistent volume containing the Write-Ahead Log (WAL) of Tempo. Default: 2Gi for memory, 10Gi for all other backends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#size DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#size DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -12043,7 +12043,7 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorag
   /**
   * Traces defines the storage configuration for traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#traces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#traces DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#traces}
   */
   readonly traces: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorageTraces;
 }
@@ -12136,31 +12136,31 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecTolera
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#key DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#value DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#value DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -12394,79 +12394,79 @@ export interface DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpec {
   /**
   * Affinity defines the Affinity rules for scheduling pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#affinity DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#affinity DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecAffinity;
   /**
   * ExtraConfig defines any extra (overlay) configuration of components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#extra_config DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#extra_config DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#extra_config}
   */
   readonly extraConfig?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecExtraConfig;
   /**
   * Ingestion defines the trace ingestion configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ingestion DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ingestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#ingestion DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#ingestion}
   */
   readonly ingestion?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecIngestion;
   /**
   * JaegerUI defines the Jaeger UI configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#jaegerui DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#jaegerui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#jaegerui DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#jaegerui}
   */
   readonly jaegerui?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecJaegerui;
   /**
   * ManagementState defines whether this instance is managed by the operator or self-managed. Default: Managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#management DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#management DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#management}
   */
   readonly management?: string;
   /**
   * Multitenancy defines the multi-tenancy configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#multitenancy DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#multitenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#multitenancy DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#multitenancy}
   */
   readonly multitenancy?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecMultitenancy;
   /**
   * NodeSelector defines which labels are required by a node to schedule the pod onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Observability defines the observability configuration of the Tempo deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#observability DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#observability DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#observability}
   */
   readonly observability?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecObservability;
   /**
   * Resources defines the compute resource requirements of the Tempo container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecResources;
   /**
   * ServiceAccount defines the Service Account to use for all Tempo components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#service_account DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#service_account DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Storage defines the storage configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#storage DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#storage DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecStorage;
   /**
   * Timeout configures the same timeout on all components starting at ingress down to the ingestor/querier. Timeout configuration on a specific component has a higher precedence. Default is 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#timeout DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#timeout DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Tolerations defines the tolerations of a node to schedule the pod onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
 }
@@ -12908,7 +12908,7 @@ export class DataK8STempoGrafanaComTempoMonolithicV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest k8s_tempo_grafana_com_tempo_monolithic_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest k8s_tempo_grafana_com_tempo_monolithic_v1alpha1_manifest}
 */
 export class DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -12924,7 +12924,7 @@ export class DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12936,7 +12936,7 @@ export class DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest k8s_tempo_grafana_com_tempo_monolithic_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/tempo_grafana_com_tempo_monolithic_v1alpha1_manifest k8s_tempo_grafana_com_tempo_monolithic_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12947,8 +12947,8 @@ export class DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_tempo_grafana_com_tempo_monolithic_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

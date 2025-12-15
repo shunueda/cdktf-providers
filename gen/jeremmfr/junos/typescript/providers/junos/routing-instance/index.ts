@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface RoutingInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Autonomous system number in plain number or `higher 16bits`.`lower 16 bits` (asdot notation) format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#as RoutingInstance#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#as RoutingInstance#as}
   */
   readonly as?: string;
   /**
   * Configure `route-distinguisher` and `vrf-*` options in other resource (like `junos_evpn`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#configure_rd_vrfopts_singly RoutingInstance#configure_rd_vrfopts_singly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#configure_rd_vrfopts_singly RoutingInstance#configure_rd_vrfopts_singly}
   */
   readonly configureRdVrfoptsSingly?: boolean | cdktf.IResolvable;
   /**
   * Configure `instance-type` option in other resource (like `junos_evpn`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#configure_type_singly RoutingInstance#configure_type_singly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#configure_type_singly RoutingInstance#configure_type_singly}
   */
   readonly configureTypeSingly?: boolean | cdktf.IResolvable;
   /**
   * Text description of routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#description RoutingInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#description RoutingInstance#description}
   */
   readonly description?: string;
   /**
   * Export policy for instance RIBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#instance_export RoutingInstance#instance_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#instance_export RoutingInstance#instance_export}
   */
   readonly instanceExport?: string[];
   /**
   * Import policy for instance RIBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#instance_import RoutingInstance#instance_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#instance_import RoutingInstance#instance_import}
   */
   readonly instanceImport?: string[];
   /**
   * The name of routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#name RoutingInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#name RoutingInstance#name}
   */
   readonly name: string;
   /**
   * Configure static remote VXLAN tunnel endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#remote_vtep_list RoutingInstance#remote_vtep_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#remote_vtep_list RoutingInstance#remote_vtep_list}
   */
   readonly remoteVtepList?: string[];
   /**
   * Configure static ipv6 remote VXLAN tunnel endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#remote_vtep_v6_list RoutingInstance#remote_vtep_v6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#remote_vtep_v6_list RoutingInstance#remote_vtep_v6_list}
   */
   readonly remoteVtepV6List?: string[];
   /**
   * Route distinguisher for this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#route_distinguisher RoutingInstance#route_distinguisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#route_distinguisher RoutingInstance#route_distinguisher}
   */
   readonly routeDistinguisher?: string;
   /**
   * Router identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#router_id RoutingInstance#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#router_id RoutingInstance#router_id}
   */
   readonly routerId?: string;
   /**
   * Type of routing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#type RoutingInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#type RoutingInstance#type}
   */
   readonly type?: string;
   /**
   * Export policy for VRF instance RIBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#vrf_export RoutingInstance#vrf_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#vrf_export RoutingInstance#vrf_export}
   */
   readonly vrfExport?: string[];
   /**
   * Import policy for VRF instance RIBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#vrf_import RoutingInstance#vrf_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#vrf_import RoutingInstance#vrf_import}
   */
   readonly vrfImport?: string[];
   /**
   * Target community to use in import and export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#vrf_target RoutingInstance#vrf_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#vrf_target RoutingInstance#vrf_target}
   */
   readonly vrfTarget?: string;
   /**
   * Auto derive import and export target community from BGP AS & L2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#vrf_target_auto RoutingInstance#vrf_target_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#vrf_target_auto RoutingInstance#vrf_target_auto}
   */
   readonly vrfTargetAuto?: boolean | cdktf.IResolvable;
   /**
   * Target community to use when marking routes on export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#vrf_target_export RoutingInstance#vrf_target_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#vrf_target_export RoutingInstance#vrf_target_export}
   */
   readonly vrfTargetExport?: string;
   /**
   * Target community to use when filtering on import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#vrf_target_import RoutingInstance#vrf_target_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#vrf_target_import RoutingInstance#vrf_target_import}
   */
   readonly vrfTargetImport?: string;
   /**
   * Source layer-3 IFL for VXLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#vtep_source_interface RoutingInstance#vtep_source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#vtep_source_interface RoutingInstance#vtep_source_interface}
   */
   readonly vtepSourceInterface?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance junos_routing_instance}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance junos_routing_instance}
 */
 export class RoutingInstance extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class RoutingInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingInstance to import
-  * @param importFromId The id of the existing RoutingInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class RoutingInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/routing_instance junos_routing_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/routing_instance junos_routing_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class RoutingInstance extends cdktf.TerraformResource {
       terraformResourceType: 'junos_routing_instance',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

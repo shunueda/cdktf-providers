@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestMetadata;
   /**
   * ClusterVersionSpec defines the desired state of ClusterVersion. Deprecated since v0.9. This struct is maintained for backward compatibility and its use is discouraged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecCompon
   /**
   * Specifies the namespace of the referenced configuration template ConfigMap object. An empty namespace is equivalent to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Defines the strategy for merging externally imported templates into component templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#policy DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#policy DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * Specifies the name of the referenced configuration template ConfigMap object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#template_ref}
   */
   readonly templateRef: string;
 }
@@ -350,67 +350,67 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecCompon
   /**
   * Specifies the containers to inject the ConfigMap parameters as environment variables. This is useful when application images accept parameters through environment variables and generate the final configuration file in the startup script based on these variables. This field allows users to specify a list of container names, and KubeBlocks will inject the environment variables converted from the ConfigMap into these designated containers. This provides a flexible way to pass the configuration items from the ConfigMap to the container without modifying the image. Deprecated: 'asEnvFrom' has been deprecated since 0.9.0 and will be removed in 0.10.0. Use 'injectEnvTo' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#as_env_from DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#as_env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#as_env_from DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#as_env_from}
   */
   readonly asEnvFrom?: string[];
   /**
   * Specifies the name of the referenced configuration constraints object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#constraint_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#constraint_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#constraint_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#constraint_ref}
   */
   readonly constraintRef?: string;
   /**
   * The operator attempts to set default file permissions for scripts (0555) and configurations (0444). However, certain database engines may require different file permissions. You can specify the desired file permissions here. Must be specified as an octal value between 0000 and 0777 (inclusive), or as a decimal value between 0 and 511 (inclusive). YAML supports both octal and decimal values for file permissions. Please note that this setting only affects the permissions of the files themselves. Directories within the specified path are not impacted by this setting. It's important to be aware that this setting might conflict with other options that influence the file mode, such as fsGroup. In such cases, the resulting file mode may have additional bits set. Refers to documents of k8s.ConfigMapVolumeSource.defaultMode for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#default_mode DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#default_mode DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Specifies the containers to inject the ConfigMap parameters as environment variables. This is useful when application images accept parameters through environment variables and generate the final configuration file in the startup script based on these variables. This field allows users to specify a list of container names, and KubeBlocks will inject the environment variables converted from the ConfigMap into these designated containers. This provides a flexible way to pass the configuration items from the ConfigMap to the container without modifying the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#inject_env_to DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#inject_env_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#inject_env_to DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#inject_env_to}
   */
   readonly injectEnvTo?: string[];
   /**
   * Specifies the configuration files within the ConfigMap that support dynamic updates. A configuration template (provided in the form of a ConfigMap) may contain templates for multiple configuration files. Each configuration file corresponds to a key in the ConfigMap. Some of these configuration files may support dynamic modification and reloading without requiring a pod restart. If empty or omitted, all configuration files in the ConfigMap are assumed to support dynamic updates, and ConfigConstraint applies to all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#keys DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#keys DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#keys}
   */
   readonly keys?: string[];
   /**
   * Specifies the secondary rendered config spec for pod-specific customization. The template is rendered inside the pod (by the 'config-manager' sidecar container) and merged with the main template's render result to generate the final configuration file. This field is intended to handle scenarios where different pods within the same Component have varying configurations. It allows for pod-specific customization of the configuration. Note: This field will be deprecated in future versions, and the functionality will be moved to 'cluster.spec.componentSpecs[*].instances[*]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#legacy_rendered_config_spec DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#legacy_rendered_config_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#legacy_rendered_config_spec DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#legacy_rendered_config_spec}
   */
   readonly legacyRenderedConfigSpec?: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecComponentVersionsConfigSpecsLegacyRenderedConfigSpec;
   /**
   * Specifies the name of the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#name DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the namespace of the referenced configuration template ConfigMap object. An empty namespace is equivalent to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies whether the configuration needs to be re-rendered after v-scale or h-scale operations to reflect changes. In some scenarios, the configuration may need to be updated to reflect the changes in resource allocation or cluster topology. Examples: - Redis: adjust maxmemory after v-scale operation. - MySQL: increase max connections after v-scale operation. - Zookeeper: update zoo.cfg with new node addresses after h-scale operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#re_render_resource_types DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#re_render_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#re_render_resource_types DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#re_render_resource_types}
   */
   readonly reRenderResourceTypes?: string[];
   /**
   * Specifies the name of the referenced configuration template ConfigMap object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#template_ref}
   */
   readonly templateRef?: string;
   /**
   * Refers to the volume name of PodTemplate. The configuration file produced through the configuration template will be mounted to the corresponding volume. Must be a DNS_LABEL name. The volume name must be defined in podSpec.containers[*].volumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#volume_name DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#volume_name DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#volume_name}
   */
   readonly volumeName: string;
 }
@@ -812,13 +812,13 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecCompon
   /**
   * A list of environment variables that will be injected into the command execution context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Specifies the image used to execute the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#image}
   */
   readonly image: string;
 }
@@ -940,7 +940,7 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecCompon
   /**
   * Represents the configuration for the command executor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#cmd_executor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#cmd_executor_config}
   */
   readonly cmdExecutorConfig: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecComponentVersionsSwitchoverSpecCmdExecutorConfig;
 }
@@ -1033,13 +1033,13 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecCompon
   /**
   * A list of environment variables that will be injected into the command execution context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#env DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Specifies the image used to execute the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#image DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#image}
   */
   readonly image: string;
 }
@@ -1161,7 +1161,7 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecCompon
   /**
   * Configures the method for obtaining the client SDK and executing statements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#cmd_executor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#cmd_executor_config DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#cmd_executor_config}
   */
   readonly cmdExecutorConfig: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecComponentVersionsSystemAccountSpecCmdExecutorConfig;
 }
@@ -1254,13 +1254,13 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecCompon
   /**
   * Provides override values for ClusterDefinition.spec.componentDefs.podSpec.containers. Typically used in scenarios such as updating application container images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#containers DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#containers DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#containers}
   */
   readonly containers?: { [key: string]: string };
   /**
   * Provides override values for ClusterDefinition.spec.componentDefs.podSpec.initContainers. Typically used in scenarios such as updating application container images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#init_containers DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#init_containers DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#init_containers}
   */
   readonly initContainers?: { [key: string]: string };
 }
@@ -1385,31 +1385,31 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecCompon
   /**
   * Specifies a reference to one of the cluster component definition names in the ClusterDefinition API (spec.componentDefs.name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#component_def_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#component_def_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#component_def_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#component_def_ref}
   */
   readonly componentDefRef: string;
   /**
   * Defines a configuration extension mechanism to handle configuration differences between versions. The configTemplateRefs field, in conjunction with the configTemplateRefs in the ClusterDefinition, determines the final configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#config_specs DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#config_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#config_specs DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#config_specs}
   */
   readonly configSpecs?: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecComponentVersionsConfigSpecs[] | cdktf.IResolvable;
   /**
   * Defines the images for the component to perform a switchover. This overrides the image and env attributes defined in clusterDefinition.spec.componentDefs.SwitchoverSpec.CommandExecutorEnvItem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#switchover_spec DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#switchover_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#switchover_spec DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#switchover_spec}
   */
   readonly switchoverSpec?: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecComponentVersionsSwitchoverSpec;
   /**
   * Defines the image for the component to connect to databases or engines. This overrides the 'image' and 'env' attributes defined in clusterDefinition.spec.componentDefs.systemAccountSpec.cmdExecutorConfig. To clear default environment settings, set systemAccountSpec.cmdExecutorConfig.env to an empty list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#system_account_spec DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#system_account_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#system_account_spec DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#system_account_spec}
   */
   readonly systemAccountSpec?: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecComponentVersionsSystemAccountSpec;
   /**
   * Defines the context for container images for component versions. This value replaces the values in clusterDefinition.spec.componentDefs.podSpec.[initContainers | containers].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#versions_context DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#versions_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#versions_context DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#versions_context}
   */
   readonly versionsContext: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecComponentVersionsVersionsContext;
 }
@@ -1637,13 +1637,13 @@ export interface DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpec {
   /**
   * Specifies a reference to the ClusterDefinition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#cluster_definition_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#cluster_definition_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#cluster_definition_ref DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#cluster_definition_ref}
   */
   readonly clusterDefinitionRef: string;
   /**
   * Contains a list of versioning contexts for the components' containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#component_versions DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#component_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#component_versions DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest#component_versions}
   */
   readonly componentVersions: DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecComponentVersions[] | cdktf.IResolvable;
 }
@@ -1760,7 +1760,7 @@ export class DataK8SAppsKubeblocksIoClusterVersionV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest k8s_apps_kubeblocks_io_cluster_version_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest k8s_apps_kubeblocks_io_cluster_version_v1alpha1_manifest}
 */
 export class DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1776,7 +1776,7 @@ export class DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1788,7 +1788,7 @@ export class DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest k8s_apps_kubeblocks_io_cluster_version_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_version_v1alpha1_manifest k8s_apps_kubeblocks_io_cluster_version_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1799,8 +1799,8 @@ export class DataK8SAppsKubeblocksIoClusterVersionV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_apps_kubeblocks_io_cluster_version_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -151,25 +151,25 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesVsph
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#storage_policy_id DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#storage_policy_id DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#storage_policy_name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#storage_policy_name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#volume_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#volume_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -349,181 +349,181 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumes {
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#aws_elastic_block_store DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#aws_elastic_block_store DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#azure_disk DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#azure_disk DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#azure_file DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#azure_file DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#cephfs DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#cephfs DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#cinder DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#cinder DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#csi DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#csi DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#empty_dir DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#empty_dir DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#ephemeral DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#ephemeral DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#fc DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#fc DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#flex_volume DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#flex_volume DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#flocker DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#flocker DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#gce_persistent_disk DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#gce_persistent_disk DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#git_repo DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#git_repo DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#glusterfs DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#glusterfs DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#host_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#host_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#iscsi DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#iscsi DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#nfs DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#nfs DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#persistent_volume_claim DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#persistent_volume_claim DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#photon_persistent_disk DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#photon_persistent_disk DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#portworx_volume DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#portworx_volume DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#projected DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#projected DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#quobyte DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#quobyte DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#rbd DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#rbd DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#scale_io DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#scale_io DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#storageos DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#storageos DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#vsphere_volume DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#vsphere_volume DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumesVsphereVolume;
 }
@@ -1479,19 +1479,19 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvVa
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1642,13 +1642,13 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvVa
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1770,19 +1770,19 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvVa
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1933,19 +1933,19 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvVa
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2096,25 +2096,25 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvVa
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#config_map_key_ref DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#config_map_key_ref DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#secret_key_ref DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#secret_key_ref DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvValueFromSecretKeyRef;
 }
@@ -2297,19 +2297,19 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#value DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#value DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#value_from DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#value_from DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnvValueFrom;
 }
@@ -2482,13 +2482,13 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerPodMe
   /**
   * Annotations are annotations of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels are labels of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -2613,31 +2613,31 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerPorts
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#container_port DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#container_port DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#host_ip DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#host_ip DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#host_port DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#host_port DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#protocol DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#protocol DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -2868,7 +2868,7 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerResou
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2983,19 +2983,19 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerResou
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3149,37 +3149,37 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerVolum
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -3436,61 +3436,61 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorker {
   /**
   * Enabled or Disabled for the components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#enabled DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#enabled DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Environment variables that will be used by JuiceFS component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#env DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#env DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerEnv[] | cdktf.IResolvable;
   /**
   * Whether to use hostnetwork or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#network_mode DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#network_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#network_mode DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#network_mode}
   */
   readonly networkMode?: string;
   /**
   * NodeSelector is a selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#options DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#options DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * PodMetadata defines labels and annotations that will be propagated to JuiceFs's pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerPodMetadata;
   /**
   * Ports used by JuiceFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerPorts[] | cdktf.IResolvable;
   /**
   * Replicas is the desired number of replicas of the given template. If unspecified, defaults to 1. replicas is the min replicas of dataset in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources that will be requested by the JuiceFS component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerResources;
   /**
   * VolumeMounts specifies the volumes listed in '.spec.volumes' to mount into runtime component's filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorkerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -3847,85 +3847,85 @@ export interface DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpec {
   /**
   * CleanCachePolicy defines cleanCache Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#clean_cache_policy DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#clean_cache_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#clean_cache_policy DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#clean_cache_policy}
   */
   readonly cleanCachePolicy?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecCleanCachePolicy;
   /**
   * Configs of JuiceFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#configs DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#configs DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#configs}
   */
   readonly configs?: string[];
   /**
   * Disable monitoring for JuiceFS Runtime Prometheus is enabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#disable_prometheus DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#disable_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#disable_prometheus DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#disable_prometheus}
   */
   readonly disablePrometheus?: boolean | cdktf.IResolvable;
   /**
   * Desired state for JuiceFS Fuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#fuse DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#fuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#fuse DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#fuse}
   */
   readonly fuse?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecFuse;
   /**
   * The spec of init users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#init_users DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#init_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#init_users DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#init_users}
   */
   readonly initUsers?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecInitUsers;
   /**
   * The component spec of JuiceFS job Worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#job_worker DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#job_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#job_worker DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#job_worker}
   */
   readonly jobWorker?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecJobWorker;
   /**
   * The version information that instructs fluid to orchestrate a particular version of JuiceFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#juicefs_version DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#juicefs_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#juicefs_version DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#juicefs_version}
   */
   readonly juicefsVersion?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecJuicefsVersion;
   /**
   * The component spec of JuiceFS master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#master DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#master DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#master}
   */
   readonly master?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecMaster;
   /**
   * PodMetadata defines labels and annotations that will be propagated to JuiceFs's pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecPodMetadata;
   /**
   * The replicas of the worker, need to be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Manage the user to run Juicefs Runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#run_as DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#run_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#run_as DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#run_as}
   */
   readonly runAs?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecRunAs;
   /**
   * Tiered storage used by JuiceFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#tieredstore DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#tieredstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#tieredstore DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#tieredstore}
   */
   readonly tieredstore?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecTieredstore;
   /**
   * Volumes is the list of Kubernetes volumes that can be mounted by the alluxio runtime components and/or fuses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#volumes DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#volumes DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecVolumes[] | cdktf.IResolvable;
   /**
   * The component spec of JuiceFS worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#worker DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/data_fluid_io_juice_fs_runtime_v1alpha1_manifest#worker DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1Manifest#worker}
   */
   readonly worker?: DataK8SDataFluidIoJuiceFsRuntimeV1Alpha1ManifestSpecWorker;
 }

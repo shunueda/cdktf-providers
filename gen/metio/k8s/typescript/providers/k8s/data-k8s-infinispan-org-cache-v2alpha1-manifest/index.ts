@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfinispanOrgCacheV2Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#metadata DataK8SInfinispanOrgCacheV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#metadata DataK8SInfinispanOrgCacheV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SInfinispanOrgCacheV2Alpha1ManifestMetadata;
   /**
   * CacheSpec defines the desired state of Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#spec DataK8SInfinispanOrgCacheV2Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#spec DataK8SInfinispanOrgCacheV2Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SInfinispanOrgCacheV2Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfinispanOrgCacheV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#annotations DataK8SInfinispanOrgCacheV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#annotations DataK8SInfinispanOrgCacheV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#labels DataK8SInfinispanOrgCacheV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#labels DataK8SInfinispanOrgCacheV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#name DataK8SInfinispanOrgCacheV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#name DataK8SInfinispanOrgCacheV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#namespace DataK8SInfinispanOrgCacheV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#namespace DataK8SInfinispanOrgCacheV2Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecAdminAuthPassword 
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#key DataK8SInfinispanOrgCacheV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#key DataK8SInfinispanOrgCacheV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#name DataK8SInfinispanOrgCacheV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#name DataK8SInfinispanOrgCacheV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#optional DataK8SInfinispanOrgCacheV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#optional DataK8SInfinispanOrgCacheV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,19 +382,19 @@ export interface DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecAdminAuthUsername 
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#key DataK8SInfinispanOrgCacheV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#key DataK8SInfinispanOrgCacheV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#name DataK8SInfinispanOrgCacheV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#name DataK8SInfinispanOrgCacheV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#optional DataK8SInfinispanOrgCacheV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#optional DataK8SInfinispanOrgCacheV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -545,19 +545,19 @@ export interface DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecAdminAuth {
   /**
   * Secret and key containing the admin password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#password DataK8SInfinispanOrgCacheV2Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#password DataK8SInfinispanOrgCacheV2Alpha1Manifest#password}
   */
   readonly password?: DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecAdminAuthPassword;
   /**
   * The secret that contains user credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#secret_name DataK8SInfinispanOrgCacheV2Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#secret_name DataK8SInfinispanOrgCacheV2Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * Secret and key containing the admin username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#username DataK8SInfinispanOrgCacheV2Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#username DataK8SInfinispanOrgCacheV2Alpha1Manifest#username}
   */
   readonly username?: DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecAdminAuthUsername;
 }
@@ -711,7 +711,7 @@ export interface DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecUpdates {
   /**
   * How updates to Cache CR template should be applied on the Infinispan server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#strategy DataK8SInfinispanOrgCacheV2Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#strategy DataK8SInfinispanOrgCacheV2Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -807,37 +807,37 @@ export interface DataK8SInfinispanOrgCacheV2Alpha1ManifestSpec {
   /**
   * Deprecated. This no longer has any effect. The operator's admin credentials are now used to perform cache operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#admin_auth DataK8SInfinispanOrgCacheV2Alpha1Manifest#admin_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#admin_auth DataK8SInfinispanOrgCacheV2Alpha1Manifest#admin_auth}
   */
   readonly adminAuth?: DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecAdminAuth;
   /**
   * Infinispan cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#cluster_name DataK8SInfinispanOrgCacheV2Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#cluster_name DataK8SInfinispanOrgCacheV2Alpha1Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Name of the cache to be created. If empty ObjectMeta.Name will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#name DataK8SInfinispanOrgCacheV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#name DataK8SInfinispanOrgCacheV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Cache template in XML format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#template DataK8SInfinispanOrgCacheV2Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#template DataK8SInfinispanOrgCacheV2Alpha1Manifest#template}
   */
   readonly template?: string;
   /**
   * Name of the template to be used to create this cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#template_name DataK8SInfinispanOrgCacheV2Alpha1Manifest#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#template_name DataK8SInfinispanOrgCacheV2Alpha1Manifest#template_name}
   */
   readonly templateName?: string;
   /**
   * How updates to Cache CR template should be reconciled on the Infinispan server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#updates DataK8SInfinispanOrgCacheV2Alpha1Manifest#updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#updates DataK8SInfinispanOrgCacheV2Alpha1Manifest#updates}
   */
   readonly updates?: DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecUpdates;
 }
@@ -1073,7 +1073,7 @@ export class DataK8SInfinispanOrgCacheV2Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest k8s_infinispan_org_cache_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest k8s_infinispan_org_cache_v2alpha1_manifest}
 */
 export class DataK8SInfinispanOrgCacheV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1089,7 +1089,7 @@ export class DataK8SInfinispanOrgCacheV2Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SInfinispanOrgCacheV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfinispanOrgCacheV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SInfinispanOrgCacheV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfinispanOrgCacheV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfinispanOrgCacheV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1101,7 +1101,7 @@ export class DataK8SInfinispanOrgCacheV2Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/infinispan_org_cache_v2alpha1_manifest k8s_infinispan_org_cache_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/infinispan_org_cache_v2alpha1_manifest k8s_infinispan_org_cache_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1112,8 +1112,8 @@ export class DataK8SInfinispanOrgCacheV2Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_infinispan_org_cache_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

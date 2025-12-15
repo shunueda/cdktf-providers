@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#metadata DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#metadata DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestMetadata;
   /**
   * Spec is a human readable description of a BGP peering policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#spec DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#spec DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#annotations DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#annotations DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#name DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#name DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecNodeSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecNodeSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,19 +500,19 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * Large holds a list of the BGP Large Communities Attribute (RFC 8092) values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#large DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#large DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#large}
   */
   readonly large?: string[];
   /**
   * Standard holds a list of 'standard' 32-bit BGP Communities Attribute (RFC 1997) values defined as numeric values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#standard DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#standard DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#standard}
   */
   readonly standard?: string[];
   /**
   * WellKnown holds a list 'standard' 32-bit BGP Communities Attribute (RFC 1997) values defined as well-known string aliases to their numeric values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#well_known DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#well_known}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#well_known DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#well_known}
   */
   readonly wellKnown?: string[];
 }
@@ -666,19 +666,19 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -848,13 +848,13 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersNeighborsAdvertisedPathAttributesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -979,25 +979,25 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * Communities defines a set of community values advertised in the supported BGP Communities path attributes. If nil / not set, no BGP Communities path attribute will be advertised.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#communities DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#communities DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#communities}
   */
   readonly communities?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersNeighborsAdvertisedPathAttributesCommunities;
   /**
   * LocalPreference defines the preference value advertised in the BGP Local Preference path attribute. As Local Preference is only valid for iBGP peers, this value will be ignored for eBGP peers (no Local Preference path attribute will be advertised). If nil / not set, the default Local Preference of 100 will be advertised in the Local Preference path attribute for iBGP peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#local_preference DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#local_preference DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Selector selects a group of objects of the SelectorType resulting into routes that will be announced with the configured Attributes. If nil / not set, all objects of the SelectorType are selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#selector DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#selector DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersNeighborsAdvertisedPathAttributesSelector;
   /**
   * SelectorType defines the object type on which the Selector applies: - For 'PodCIDR' the Selector matches k8s CiliumNode resources (path attributes apply to routes announced for PodCIDRs of selected CiliumNodes. Only affects routes of cluster scope / Kubernetes IPAM CIDRs, not Multi-Pool IPAM CIDRs. - For 'CiliumLoadBalancerIPPool' the Selector matches CiliumLoadBalancerIPPool custom resources (path attributes apply to routes announced for selected CiliumLoadBalancerIPPools). - For 'CiliumPodIPPool' the Selector matches CiliumPodIPPool custom resources (path attributes apply to routes announced for allocated CIDRs of selected CiliumPodIPPools).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#selector_type DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#selector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#selector_type DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#selector_type}
   */
   readonly selectorType: string;
 }
@@ -1199,13 +1199,13 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * Afi is the Address Family Identifier (AFI) of the family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#afi DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#afi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#afi DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#afi}
   */
   readonly afi: string;
   /**
   * Safi is the Subsequent Address Family Identifier (SAFI) of the family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#safi DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#safi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#safi DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#safi}
   */
   readonly safi: string;
 }
@@ -1346,13 +1346,13 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * Enabled flag, when set enables graceful restart capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#enabled DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#enabled DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * RestartTimeSeconds is the estimated time it will take for the BGP session to be re-established with peer after a restart. After this period, peer will remove stale routes. This is described RFC 4724 section 4.2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#restart_time_seconds DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#restart_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#restart_time_seconds DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#restart_time_seconds}
   */
   readonly restartTimeSeconds?: number;
 }
@@ -1474,67 +1474,67 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * AdvertisedPathAttributes can be used to apply additional path attributes to selected routes when advertising them to the peer. If empty / nil, no additional path attributes are advertised.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#advertised_path_attributes DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#advertised_path_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#advertised_path_attributes DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#advertised_path_attributes}
   */
   readonly advertisedPathAttributes?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersNeighborsAdvertisedPathAttributes[] | cdktf.IResolvable;
   /**
   * AuthSecretRef is the name of the secret to use to fetch a TCP authentication password for this peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#auth_secret_ref DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#auth_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#auth_secret_ref DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#auth_secret_ref}
   */
   readonly authSecretRef?: string;
   /**
   * ConnectRetryTimeSeconds defines the initial value for the BGP ConnectRetryTimer (RFC 4271, Section 8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#connect_retry_time_seconds DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#connect_retry_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#connect_retry_time_seconds DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#connect_retry_time_seconds}
   */
   readonly connectRetryTimeSeconds?: number;
   /**
   * EBGPMultihopTTL controls the multi-hop feature for eBGP peers. Its value defines the Time To Live (TTL) value used in BGP packets sent to the neighbor. The value 1 implies that eBGP multi-hop feature is disabled (only a single hop is allowed). This field is ignored for iBGP peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#e_bgp_multihop_ttl DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#e_bgp_multihop_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#e_bgp_multihop_ttl DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#e_bgp_multihop_ttl}
   */
   readonly eBgpMultihopTtl?: number;
   /**
   * Families, if provided, defines a set of AFI/SAFIs the speaker will negotiate with it's peer. If this slice is not provided the default families of IPv6 and IPv4 will be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#families DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#families DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#families}
   */
   readonly families?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersNeighborsFamilies[] | cdktf.IResolvable;
   /**
   * GracefulRestart defines graceful restart parameters which are negotiated with this neighbor. If empty / nil, the graceful restart capability is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#graceful_restart DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#graceful_restart DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#graceful_restart}
   */
   readonly gracefulRestart?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersNeighborsGracefulRestart;
   /**
   * HoldTimeSeconds defines the initial value for the BGP HoldTimer (RFC 4271, Section 4.2). Updating this value will cause a session reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#hold_time_seconds DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#hold_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#hold_time_seconds DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#hold_time_seconds}
   */
   readonly holdTimeSeconds?: number;
   /**
   * KeepaliveTimeSeconds defines the initial value for the BGP KeepaliveTimer (RFC 4271, Section 8). It can not be larger than HoldTimeSeconds. Updating this value will cause a session reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#keep_alive_time_seconds DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#keep_alive_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#keep_alive_time_seconds DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#keep_alive_time_seconds}
   */
   readonly keepAliveTimeSeconds?: number;
   /**
   * PeerAddress is the IP address of the peer. This must be in CIDR notation and use a /32 to express a single host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#peer_address DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#peer_address DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#peer_address}
   */
   readonly peerAddress: string;
   /**
   * PeerASN is the ASN of the peer BGP router. Supports extended 32bit ASNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#peer_asn DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#peer_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#peer_asn DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#peer_asn}
   */
   readonly peerAsn: number;
   /**
   * PeerPort is the TCP port of the peer. 1-65535 is the range of valid port numbers that can be specified. If unset, defaults to 179.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#peer_port DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#peer_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#peer_port DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#peer_port}
   */
   readonly peerPort?: number;
 }
@@ -1936,19 +1936,19 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2118,13 +2118,13 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersPodIpPoolSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2249,19 +2249,19 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#key DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#operator DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#values DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2431,13 +2431,13 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_expressions DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersServiceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#match_labels DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2562,37 +2562,37 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtua
   /**
   * ExportPodCIDR determines whether to export the Node's private CIDR block to the configured neighbors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#export_pod_cidr DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#export_pod_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#export_pod_cidr DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#export_pod_cidr}
   */
   readonly exportPodCidr?: boolean | cdktf.IResolvable;
   /**
   * LocalASN is the ASN of this virtual router. Supports extended 32bit ASNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#local_asn DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#local_asn DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#local_asn}
   */
   readonly localAsn: number;
   /**
   * Neighbors is a list of neighboring BGP peers for this virtual router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#neighbors DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#neighbors DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#neighbors}
   */
   readonly neighbors: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersNeighbors[] | cdktf.IResolvable;
   /**
   * PodIPPoolSelector selects CiliumPodIPPools based on labels. The virtual router will announce allocated CIDRs of matching CiliumPodIPPools. If empty / nil no CiliumPodIPPools will be announced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#pod_ip_pool_selector DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#pod_ip_pool_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#pod_ip_pool_selector DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#pod_ip_pool_selector}
   */
   readonly podIpPoolSelector?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersPodIpPoolSelector;
   /**
   * ServiceAdvertisements selects a group of BGP Advertisement(s) to advertise for the selected services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#service_advertisements DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#service_advertisements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#service_advertisements DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#service_advertisements}
   */
   readonly serviceAdvertisements?: string[];
   /**
   * ServiceSelector selects a group of load balancer services which this virtual router will announce. The loadBalancerClass for a service must be nil or specify a class supported by Cilium, e.g. 'io.cilium/bgp-control-plane'. Refer to the following document for additional details regarding load balancer classes: https://kubernetes.io/docs/concepts/services-networking/service/#load-balancer-class If empty / nil no services will be announced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#service_selector DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#service_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#service_selector DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#service_selector}
   */
   readonly serviceSelector?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRoutersServiceSelector;
 }
@@ -2849,13 +2849,13 @@ export interface DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpec {
   /**
   * NodeSelector selects a group of nodes where this BGP Peering Policy applies. If empty / nil this policy applies to all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#node_selector DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#node_selector DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecNodeSelector;
   /**
   * A list of CiliumBGPVirtualRouter(s) which instructs the BGP control plane how to instantiate virtual BGP routers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#virtual_routers DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#virtual_routers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#virtual_routers DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest#virtual_routers}
   */
   readonly virtualRouters: DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecVirtualRouters[] | cdktf.IResolvable;
 }
@@ -2975,7 +2975,7 @@ export class DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest k8s_cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest k8s_cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest}
 */
 export class DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2991,7 +2991,7 @@ export class DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3003,7 +3003,7 @@ export class DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest k8s_cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest k8s_cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3014,8 +3014,8 @@ export class DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

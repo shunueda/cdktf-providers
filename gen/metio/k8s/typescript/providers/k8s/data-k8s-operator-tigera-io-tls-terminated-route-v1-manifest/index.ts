@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#metadata DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#metadata DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#spec DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#spec DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#annotations DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#annotations DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#labels DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#labels DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#name DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#name DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#namespace DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#namespace DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export interface DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecCaBundle
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#key DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#key DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#name DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#name DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#optional DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#optional DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -380,19 +380,19 @@ export interface DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecMtlsCert
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#key DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#key DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#name DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#name DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#optional DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#optional DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -543,19 +543,19 @@ export interface DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecMtlsKey 
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#key DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#key DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#name DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#name DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#optional DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#optional DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -706,19 +706,19 @@ export interface DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecPathMatc
   /**
   * Path is the path portion of the URL based on which we proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#path DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#path DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#path}
   */
   readonly path: string;
   /**
   * PathRegexp, if not nil, checks if Regexp matches the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#path_regexp DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#path_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#path_regexp DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#path_regexp}
   */
   readonly pathRegexp?: string;
   /**
   * PathReplace if not nil will be used to replace PathRegexp matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#path_replace DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#path_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#path_replace DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#path_replace}
   */
   readonly pathReplace?: string;
 }
@@ -869,41 +869,41 @@ export interface DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpec {
   /**
   * CABundle is where we read the CA bundle from to authenticate the destination (if non-empty)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#ca_bundle DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#ca_bundle DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#ca_bundle}
   */
   readonly caBundle?: DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecCaBundle;
   /**
   * Destination is the destination URL where matching traffic is routed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#destination DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#destination DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#destination}
   */
   readonly destination: string;
   /**
   * ForwardingMTLSCert is the certificate used for mTLS between voltron and the destination. Either both ForwardingMTLSCert and ForwardingMTLSKey must be specified, or neither can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#mtls_cert DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#mtls_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#mtls_cert DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#mtls_cert}
   */
   readonly mtlsCert?: DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecMtlsCert;
   /**
   * ForwardingMTLSKey is the key used for mTLS between voltron and the destination. Either both ForwardingMTLSCert and ForwardingMTLSKey must be specified, or neither can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#mtls_key DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#mtls_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#mtls_key DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#mtls_key}
   */
   readonly mtlsKey?: DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecMtlsKey;
   /**
   * PathMatch is used to match requests based on what's in the path. Matching requests will be proxied to the Destination defined in this structure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#path_match DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#path_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#path_match DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#path_match}
   */
   readonly pathMatch: DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecPathMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#target DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#target DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#target}
   */
   readonly target: string;
   /**
   * Unauthenticated says whether the request should go through authentication. This is only applicable if the Target is UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#unauthenticated DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#unauthenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#unauthenticated DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest#unauthenticated}
   */
   readonly unauthenticated?: boolean | cdktf.IResolvable;
 }
@@ -1162,7 +1162,7 @@ export class DataK8SOperatorTigeraIoTlsTerminatedRouteV1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest k8s_operator_tigera_io_tls_terminated_route_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest k8s_operator_tigera_io_tls_terminated_route_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1178,7 +1178,7 @@ export class DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1190,7 +1190,7 @@ export class DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest k8s_operator_tigera_io_tls_terminated_route_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/operator_tigera_io_tls_terminated_route_v1_manifest k8s_operator_tigera_io_tls_terminated_route_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1201,8 +1201,8 @@ export class DataK8SOperatorTigeraIoTlsTerminatedRouteV1Manifest extends cdktf.T
       terraformResourceType: 'k8s_operator_tigera_io_tls_terminated_route_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PolicyoptionsAsPathGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Object may exist in dynamic database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group#dynamic_db PolicyoptionsAsPathGroup#dynamic_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group#dynamic_db PolicyoptionsAsPathGroup#dynamic_db}
   */
   readonly dynamicDb?: boolean | cdktf.IResolvable;
   /**
   * Name to identify AS path group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group#name PolicyoptionsAsPathGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group#name PolicyoptionsAsPathGroup#name}
   */
   readonly name: string;
   /**
   * as_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group#as_path PolicyoptionsAsPathGroup#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group#as_path PolicyoptionsAsPathGroup#as_path}
   */
   readonly asPath?: PolicyoptionsAsPathGroupAsPath[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface PolicyoptionsAsPathGroupAsPath {
   /**
   * Name to identify AS path regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group#name PolicyoptionsAsPathGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group#name PolicyoptionsAsPathGroup#name}
   */
   readonly name: string;
   /**
   * AS path regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group#path PolicyoptionsAsPathGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group#path PolicyoptionsAsPathGroup#path}
   */
   readonly path: string;
 }
@@ -175,7 +175,7 @@ export class PolicyoptionsAsPathGroupAsPathList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group junos_policyoptions_as_path_group}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group junos_policyoptions_as_path_group}
 */
 export class PolicyoptionsAsPathGroup extends cdktf.TerraformResource {
 
@@ -191,7 +191,7 @@ export class PolicyoptionsAsPathGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyoptionsAsPathGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyoptionsAsPathGroup to import
-  * @param importFromId The id of the existing PolicyoptionsAsPathGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyoptionsAsPathGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyoptionsAsPathGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class PolicyoptionsAsPathGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/policyoptions_as_path_group junos_policyoptions_as_path_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/policyoptions_as_path_group junos_policyoptions_as_path_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class PolicyoptionsAsPathGroup extends cdktf.TerraformResource {
       terraformResourceType: 'junos_policyoptions_as_path_group',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

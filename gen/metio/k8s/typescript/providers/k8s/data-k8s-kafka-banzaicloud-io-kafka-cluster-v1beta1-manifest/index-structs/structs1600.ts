@@ -43,13 +43,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_fields DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_fields DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -196,7 +196,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector_terms DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector_terms DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -289,13 +289,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -420,19 +420,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -602,13 +602,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -733,19 +733,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -915,13 +915,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1046,25 +1046,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -1244,13 +1244,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity_term DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity_term DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1391,19 +1391,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1573,13 +1573,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1704,19 +1704,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1886,13 +1886,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2017,25 +2017,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2237,13 +2237,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -2368,19 +2368,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2550,13 +2550,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2681,19 +2681,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2863,13 +2863,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2994,25 +2994,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3192,13 +3192,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity_term DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity_term DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3339,19 +3339,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3521,13 +3521,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3652,19 +3652,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3834,13 +3834,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3965,25 +3965,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4185,13 +4185,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4316,19 +4316,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_anti_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_anti_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinityPodAntiAffinity;
 }
@@ -4482,19 +4482,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * The budget to set for the PDB, can either be static number or a percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#budget}
   */
   readonly budget?: string;
   /**
   * If set to true, will create a podDisruptionBudget
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#create DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#create DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
   * The strategy to be used, either minAvailable or maxUnavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#strategy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#strategy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -4648,7 +4648,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Envoy --concurrency command line argument. See https://www.envoyproxy.io/docs/envoy/latest/operations/cli#cmdoption-concurrency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#concurrency DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#concurrency DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#concurrency}
   */
   readonly concurrency?: number;
 }
@@ -4744,7 +4744,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4862,25 +4862,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#level DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#level DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#role DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#role DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#user DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#user DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -5063,13 +5063,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#localhost_profile DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#localhost_profile DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -5191,13 +5191,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -5338,25 +5338,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gmsa_credential_spec DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gmsa_credential_spec DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gmsa_credential_spec_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gmsa_credential_spec_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#host_process DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#host_process DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_user_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_user_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -5539,61 +5539,61 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#fs_group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#fs_group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#fs_group_change_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#fs_group_change_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_non_root DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_non_root DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_user DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_user DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#se_linux_options DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#se_linux_options DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#seccomp_profile DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#seccomp_profile DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#supplemental_groups DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#supplemental_groups DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#sysctls DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#sysctls DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#windows_options DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#windows_options DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigPodSecurityContextWindowsOptions;
 }
@@ -5950,7 +5950,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -6065,19 +6065,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#claims DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#claims DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#limits DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#limits DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#requests DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#requests DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6231,31 +6231,31 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#effect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#effect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#toleration_seconds DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#toleration_seconds DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6489,19 +6489,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6671,13 +6671,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6802,49 +6802,49 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_label_keys DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_label_keys DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#max_skew DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#max_skew DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#min_domains DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#min_domains DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_affinity_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_affinity_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_taints_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_taints_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#when_unsatisfiable DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#when_unsatisfiable DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -7156,107 +7156,107 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyCo
   /**
   * Envoy admin port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#admin_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#admin_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigAffinity;
   /**
   * Annotations defines the annotations placed on the envoy ingress controller deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * DisruptionBudget is the pod disruption budget attached to Envoy Deployment(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#disruption_budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#disruption_budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#disruption_budget}
   */
   readonly disruptionBudget?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigDisruptionBudget;
   /**
   * EnableHealthCheckHttp10 is a toggle for adding HTTP1.0 support to Envoy health-check, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#enable_health_check_http10 DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#enable_health_check_http10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#enable_health_check_http10 DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#enable_health_check_http10}
   */
   readonly enableHealthCheckHttp10?: boolean | cdktf.IResolvable;
   /**
   * Envoy command line arguments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envoy_command_line_args DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envoy_command_line_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envoy_command_line_args DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envoy_command_line_args}
   */
   readonly envoyCommandLineArgs?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigEnvoyCommandLineArgs;
   /**
   * Envoy health-check port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#health_check_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#health_check_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#health_check_port}
   */
   readonly healthCheckPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * ImagePullSecrets for the envoy image pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#image_pull_secrets DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#image_pull_secrets DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigImagePullSecrets[] | cdktf.IResolvable;
   /**
   * LoadBalancerIP can be used to specify an exact IP for the LoadBalancer service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_ip DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_ip DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature. More info: https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_source_ranges DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_source_ranges DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * NodeSelector is the node selector expression for envoy pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext holds pod-level security attributes and common container settings for the Envoy pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_security_context DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_security_context DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigPodSecurityContext;
   /**
   * PriorityClassName specifies the priority class name for the Envoy pod(s) If specified, the PriorityClass resource with this PriorityClassName must be created beforehand If not specified, the Envoy pods' priority is default to zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#priority_class_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#priority_class_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#replicas DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#replicas DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_requirements DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_requirements DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigResourceRequirements;
   /**
   * ServiceAccountName is the name of service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_account_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_account_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tolerations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tolerations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_spread_constraints DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_spread_constraints DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfigTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -7874,19 +7874,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsVal
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8037,13 +8037,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsVal
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#api_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#api_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_path DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_path DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -8165,19 +8165,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsVal
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#divisor DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#divisor DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -8328,19 +8328,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsVal
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8491,25 +8491,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsVal
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#config_map_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#config_map_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#secret_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#secret_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsValueFromSecretKeyRef;
 }
@@ -8692,19 +8692,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvs {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value_from DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value_from DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsValueFrom;
 }
@@ -8875,11 +8875,11 @@ export class DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvsList ex
 }
 export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioControlPlane {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -8998,19 +8998,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9161,13 +9161,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#api_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#api_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_path DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_path DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9289,19 +9289,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#divisor DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#divisor DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9452,19 +9452,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9615,25 +9615,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#config_map_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#config_map_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigEnvsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigEnvsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigEnvsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#secret_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#secret_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigEnvsValueFromSecretKeyRef;
 }
@@ -9816,19 +9816,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value_from DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value_from DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigEnvsValueFrom;
 }
@@ -10001,73 +10001,73 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * REQUIRED if mode is 'MUTUAL'. The path to a file containing certificate authority certificates to use in verifying a presented client side certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ca_certificates DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ca_certificates DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * Optional: If specified, only support the specified cipher list. Otherwise default to the default cipher list supported by Envoy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cipher_suites DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cipher_suites DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * The credentialName stands for a unique identifier that can be used to identify the serverCertificate and the privateKey. The credentialName appended with suffix '-cacert' is used to identify the CaCertificates associated with this server. Gateway workloads capable of fetching credentials from a remote credential store such as Kubernetes secrets, will be configured to retrieve the serverCertificate and the privateKey using credentialName, instead of using the file system paths specified above. If using mutual TLS, gateway workload instances will retrieve the CaCertificates using credentialName-cacert. The semantics of the name are platform dependent. In Kubernetes, the default Istio supplied credential server expects the credentialName to match the name of the Kubernetes secret that holds the server certificate, the private key, and the CA certificate (if using mutual TLS). Set the 'ISTIO_META_USER_SDS' metadata variable in the gateway's proxy to enable the dynamic credential fetching feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#credential_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#credential_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * If set to true, the load balancer will send a 301 redirect for all http connections, asking the clients to use HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#https_redirect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#https_redirect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktf.IResolvable;
   /**
   * Optional: Maximum TLS protocol version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#max_protocol_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#max_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#max_protocol_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#max_protocol_version}
   */
   readonly maxProtocolVersion?: string;
   /**
   * Optional: Minimum TLS protocol version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#min_protocol_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#min_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#min_protocol_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#min_protocol_version}
   */
   readonly minProtocolVersion?: string;
   /**
   * Optional: Indicates whether connections to this port should be secured using TLS. The value of this field determines how TLS is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#mode DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#mode DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'SIMPLE' or 'MUTUAL'. The path to the file holding the server's private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#private_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#private_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * REQUIRED if mode is 'SIMPLE' or 'MUTUAL'. The path to the file holding the server-side TLS certificate to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#server_certificate DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#server_certificate DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
   * A list of alternate names to verify the subject identity in the certificate presented by the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#subject_alt_names DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#subject_alt_names DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
   /**
   * An optional list of hex-encoded SHA-256 hashes of the authorized client certificates. Both simple and colon separated formats are acceptable. Note: When both verify_certificate_hash and verify_certificate_spki are specified, a hash matching either value will result in the certificate being accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#verify_certificate_hash DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#verify_certificate_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#verify_certificate_hash DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#verify_certificate_hash}
   */
   readonly verifyCertificateHash?: string[];
   /**
   * An optional list of base64-encoded SHA-256 hashes of the SKPIs of authorized client certificates. Note: When both verify_certificate_hash and verify_certificate_spki are specified, a hash matching either value will result in the certificate being accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#verify_certificate_spki DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#verify_certificate_spki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#verify_certificate_spki DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#verify_certificate_spki}
   */
   readonly verifyCertificateSpki?: string[];
 }
@@ -10482,7 +10482,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -10597,19 +10597,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#claims DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#claims DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#limits DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#limits DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#requests DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#requests DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10763,31 +10763,31 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#effect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#effect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#toleration_seconds DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#toleration_seconds DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11021,45 +11021,45 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIn
   /**
   * Annotations defines the annotations placed on the istio ingress controller deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Envs allows to add additional env vars to the istio meshgateway resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envs DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envs DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envs}
   */
   readonly envs?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigEnvs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gateway_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gateway_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gateway_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gateway_config}
   */
   readonly gatewayConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigGatewayConfig;
   /**
   * If specified and supported by the platform, traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_source_ranges DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_source_ranges DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#replicas DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#replicas DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_requirements DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_requirements DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigResourceRequirements;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tolerations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tolerations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfigTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#virtual_service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#virtual_service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#virtual_service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#virtual_service_annotations}
   */
   readonly virtualServiceAnnotations?: { [key: string]: string };
 }
@@ -11387,19 +11387,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11569,19 +11569,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11751,13 +11751,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_fields DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_fields DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -11882,13 +11882,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preference DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preference DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -12029,19 +12029,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12211,19 +12211,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12393,13 +12393,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_fields DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_fields DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -12546,7 +12546,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector_terms DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector_terms DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -12639,13 +12639,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -12770,19 +12770,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12952,13 +12952,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13083,19 +13083,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13265,13 +13265,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13396,25 +13396,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -13594,13 +13594,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity_term DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity_term DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -13741,19 +13741,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13923,13 +13923,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14054,19 +14054,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14236,13 +14236,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14367,25 +14367,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -14587,13 +14587,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -14718,19 +14718,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14900,13 +14900,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15031,19 +15031,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15213,13 +15213,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15344,25 +15344,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -15542,13 +15542,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity_term DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity_term DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#weight DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -15689,19 +15689,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15871,13 +15871,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16002,19 +16002,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16184,13 +16184,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16315,25 +16315,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespace_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#namespaces DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -16535,13 +16535,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -16666,19 +16666,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_anti_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_anti_affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinityPodAntiAffinity;
 }
@@ -16832,19 +16832,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The budget to set for the PDB, can either be static number or a percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#budget}
   */
   readonly budget?: string;
   /**
   * If set to true, will create a podDisruptionBudget
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#create DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#create DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
   * The strategy to be used, either minAvailable or maxUnavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#strategy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#strategy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -16998,7 +16998,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Envoy --concurrency command line argument. See https://www.envoyproxy.io/docs/envoy/latest/operations/cli#cmdoption-concurrency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#concurrency DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#concurrency DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#concurrency}
   */
   readonly concurrency?: number;
 }
@@ -17094,7 +17094,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17212,25 +17212,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#level DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#level DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#role DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#role DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#user DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#user DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -17413,13 +17413,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#localhost_profile DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#localhost_profile DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -17541,13 +17541,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -17688,25 +17688,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gmsa_credential_spec DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gmsa_credential_spec DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gmsa_credential_spec_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gmsa_credential_spec_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#host_process DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#host_process DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_user_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_user_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -17889,61 +17889,61 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#fs_group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#fs_group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#fs_group_change_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#fs_group_change_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_non_root DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_non_root DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_user DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#run_as_user DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#se_linux_options DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#se_linux_options DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#seccomp_profile DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#seccomp_profile DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#supplemental_groups DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#supplemental_groups DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#sysctls DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#sysctls DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#windows_options DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#windows_options DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigPodSecurityContextWindowsOptions;
 }
@@ -18300,7 +18300,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -18415,19 +18415,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#claims DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#claims DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#limits DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#limits DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#requests DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#requests DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -18581,31 +18581,31 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#effect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#effect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#toleration_seconds DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#toleration_seconds DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -18839,19 +18839,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#values DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19021,13 +19021,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_expressions DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19152,49 +19152,49 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#label_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_label_keys DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#match_label_keys DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#max_skew DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#max_skew DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#min_domains DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#min_domains DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_affinity_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_affinity_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_taints_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_taints_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#when_unsatisfiable DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#when_unsatisfiable DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -19506,107 +19506,107 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Envoy admin port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#admin_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#admin_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#affinity DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigAffinity;
   /**
   * Annotations defines the annotations placed on the envoy ingress controller deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * DisruptionBudget is the pod disruption budget attached to Envoy Deployment(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#disruption_budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#disruption_budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#disruption_budget}
   */
   readonly disruptionBudget?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigDisruptionBudget;
   /**
   * EnableHealthCheckHttp10 is a toggle for adding HTTP1.0 support to Envoy health-check, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#enable_health_check_http10 DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#enable_health_check_http10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#enable_health_check_http10 DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#enable_health_check_http10}
   */
   readonly enableHealthCheckHttp10?: boolean | cdktf.IResolvable;
   /**
   * Envoy command line arguments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envoy_command_line_args DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envoy_command_line_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envoy_command_line_args DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envoy_command_line_args}
   */
   readonly envoyCommandLineArgs?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigEnvoyCommandLineArgs;
   /**
   * Envoy health-check port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#health_check_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#health_check_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#health_check_port}
   */
   readonly healthCheckPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * ImagePullSecrets for the envoy image pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#image_pull_secrets DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#image_pull_secrets DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigImagePullSecrets[] | cdktf.IResolvable;
   /**
   * LoadBalancerIP can be used to specify an exact IP for the LoadBalancer service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_ip DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_ip DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature. More info: https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_source_ranges DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_source_ranges DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * NodeSelector is the node selector expression for envoy pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext holds pod-level security attributes and common container settings for the Envoy pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_security_context DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pod_security_context DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigPodSecurityContext;
   /**
   * PriorityClassName specifies the priority class name for the Envoy pod(s) If specified, the PriorityClass resource with this PriorityClassName must be created beforehand If not specified, the Envoy pods' priority is default to zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#priority_class_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#priority_class_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#replicas DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#replicas DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_requirements DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_requirements DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigResourceRequirements;
   /**
   * ServiceAccountName is the name of service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_account_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_account_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tolerations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tolerations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_spread_constraints DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#topology_spread_constraints DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfigTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -20224,19 +20224,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20387,13 +20387,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#api_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#api_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_path DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_path DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -20515,19 +20515,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#divisor DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#divisor DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -20678,19 +20678,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#optional DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20841,25 +20841,25 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#config_map_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#config_map_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigEnvsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigEnvsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_field_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigEnvsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#secret_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#secret_key_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigEnvsValueFromSecretKeyRef;
 }
@@ -21042,19 +21042,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value_from DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value_from DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigEnvsValueFrom;
 }
@@ -21227,73 +21227,73 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * REQUIRED if mode is 'MUTUAL'. The path to a file containing certificate authority certificates to use in verifying a presented client side certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ca_certificates DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ca_certificates DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * Optional: If specified, only support the specified cipher list. Otherwise default to the default cipher list supported by Envoy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cipher_suites DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cipher_suites DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * The credentialName stands for a unique identifier that can be used to identify the serverCertificate and the privateKey. The credentialName appended with suffix '-cacert' is used to identify the CaCertificates associated with this server. Gateway workloads capable of fetching credentials from a remote credential store such as Kubernetes secrets, will be configured to retrieve the serverCertificate and the privateKey using credentialName, instead of using the file system paths specified above. If using mutual TLS, gateway workload instances will retrieve the CaCertificates using credentialName-cacert. The semantics of the name are platform dependent. In Kubernetes, the default Istio supplied credential server expects the credentialName to match the name of the Kubernetes secret that holds the server certificate, the private key, and the CA certificate (if using mutual TLS). Set the 'ISTIO_META_USER_SDS' metadata variable in the gateway's proxy to enable the dynamic credential fetching feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#credential_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#credential_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * If set to true, the load balancer will send a 301 redirect for all http connections, asking the clients to use HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#https_redirect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#https_redirect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktf.IResolvable;
   /**
   * Optional: Maximum TLS protocol version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#max_protocol_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#max_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#max_protocol_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#max_protocol_version}
   */
   readonly maxProtocolVersion?: string;
   /**
   * Optional: Minimum TLS protocol version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#min_protocol_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#min_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#min_protocol_version DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#min_protocol_version}
   */
   readonly minProtocolVersion?: string;
   /**
   * Optional: Indicates whether connections to this port should be secured using TLS. The value of this field determines how TLS is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#mode DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#mode DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'SIMPLE' or 'MUTUAL'. The path to the file holding the server's private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#private_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#private_key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * REQUIRED if mode is 'SIMPLE' or 'MUTUAL'. The path to the file holding the server-side TLS certificate to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#server_certificate DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#server_certificate DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
   * A list of alternate names to verify the subject identity in the certificate presented by the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#subject_alt_names DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#subject_alt_names DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
   /**
   * An optional list of hex-encoded SHA-256 hashes of the authorized client certificates. Both simple and colon separated formats are acceptable. Note: When both verify_certificate_hash and verify_certificate_spki are specified, a hash matching either value will result in the certificate being accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#verify_certificate_hash DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#verify_certificate_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#verify_certificate_hash DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#verify_certificate_hash}
   */
   readonly verifyCertificateHash?: string[];
   /**
   * An optional list of base64-encoded SHA-256 hashes of the SKPIs of authorized client certificates. Note: When both verify_certificate_hash and verify_certificate_spki are specified, a hash matching either value will result in the certificate being accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#verify_certificate_spki DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#verify_certificate_spki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#verify_certificate_spki DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#verify_certificate_spki}
   */
   readonly verifyCertificateSpki?: string[];
 }
@@ -21708,7 +21708,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -21823,19 +21823,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#claims DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#claims DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#limits DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#limits DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#requests DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#requests DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -21989,31 +21989,31 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#effect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#effect DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#key DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#operator DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#toleration_seconds DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#toleration_seconds DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#value DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -22247,45 +22247,45 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Annotations defines the annotations placed on the istio ingress controller deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Envs allows to add additional env vars to the istio meshgateway resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envs DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envs DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envs}
   */
   readonly envs?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigEnvs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gateway_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gateway_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#gateway_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#gateway_config}
   */
   readonly gatewayConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigGatewayConfig;
   /**
   * If specified and supported by the platform, traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_source_ranges DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#load_balancer_source_ranges DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#node_selector DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#replicas DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#replicas DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_requirements DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#resource_requirements DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigResourceRequirements;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tolerations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tolerations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfigTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#virtual_service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#virtual_service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#virtual_service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#virtual_service_annotations}
   */
   readonly virtualServiceAnnotations?: { [key: string]: string };
 }
@@ -22613,37 +22613,37 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * EnvoyConfig defines the config for Envoy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envoy_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envoy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envoy_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envoy_config}
   */
   readonly envoyConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigEnvoyConfig;
   /**
   * externalTrafficPolicy denotes if this Service desires to route external traffic to node-local or cluster-wide endpoints. 'Local' preserves the client source IP and avoids a second hop for LoadBalancer and Nodeport type services, but risks potentially imbalanced traffic spreading. 'Cluster' obscures the client source IP and may cause a second hop to another node, but should have good overall load-spreading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#external_traffic_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#external_traffic_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * In case of external listeners using LoadBalancer access method the value of this field is used to advertise the Kafka broker external listener instead of the public IP of the provisioned LoadBalancer service (e.g. can be used to advertise the listener using a URL recorded in DNS instead of public IP). In case of external listeners using NodePort access method the broker instead of node public IP (see 'brokerConfig.nodePortExternalIP') is advertised on the address having the following format: <kafka-cluster-name>-<broker-id>.<namespace><value-specified-in-hostnameOverride-field>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#hostname_override DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#hostname_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#hostname_override DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#hostname_override}
   */
   readonly hostnameOverride?: string;
   /**
   * IstioIngressConfig defines the config for the Istio Ingress Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#istio_ingress_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#istio_ingress_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#istio_ingress_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#istio_ingress_config}
   */
   readonly istioIngressConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfigIstioIngressConfig;
   /**
   * ServiceAnnotations defines annotations which will be placed to the service or services created for the external listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * Service Type string describes ingress methods for a service Only 'NodePort' and 'LoadBalancer' is supported. Default value is LoadBalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -22882,11 +22882,11 @@ export class DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersCo
 }
 export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#default_ingress_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#default_ingress_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#default_ingress_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#default_ingress_config}
   */
   readonly defaultIngressConfig: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ingress_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ingress_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ingress_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ingress_config}
   */
   readonly ingressConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfigIngressConfig;
 }
@@ -23008,7 +23008,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23104,81 +23104,81 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * accessMethod defines the method which the external listener is exposed through. Two types are supported LoadBalancer and NodePort. The recommended and default is the LoadBalancer. NodePort should be used in Kubernetes environments with no support for provisioning Load Balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#access_method DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#access_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#access_method DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#access_method}
   */
   readonly accessMethod?: string;
   /**
   * configuring AnyCastPort allows kafka cluster access without specifying the exact broker If not defined, 29092 will be used for external clients to reach the kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#any_cast_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#any_cast_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#any_cast_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#any_cast_port}
   */
   readonly anyCastPort?: number;
   /**
   * Config allows to specify ingress controller configuration per external listener if set, it overrides the default 'KafkaClusterSpec.IstioIngressConfig' or 'KafkaClusterSpec.EnvoyConfig' for this external listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#config}
   */
   readonly config?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * externalStartingPort is added to each broker ID to get the port number that will be used for external access to the broker. The choice of broker ID and externalStartingPort must satisfy 0 < broker ID + externalStartingPort <= 65535 If accessMethod is Nodeport and externalStartingPort is set to 0 then the broker IDs are not added and the Nodeport port numbers will be chosen automatically by the K8s Service controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#external_starting_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#external_starting_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#external_starting_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#external_starting_port}
   */
   readonly externalStartingPort: number;
   /**
   * externalTrafficPolicy denotes if this Service desires to route external traffic to node-local or cluster-wide endpoints. 'Local' preserves the client source IP and avoids a second hop for LoadBalancer and Nodeport type services, but risks potentially imbalanced traffic spreading. 'Cluster' obscures the client source IP and may cause a second hop to another node, but should have good overall load-spreading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#external_traffic_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#external_traffic_policy DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * In case of external listeners using LoadBalancer access method the value of this field is used to advertise the Kafka broker external listener instead of the public IP of the provisioned LoadBalancer service (e.g. can be used to advertise the listener using a URL recorded in DNS instead of public IP). In case of external listeners using NodePort access method the broker instead of node public IP (see 'brokerConfig.nodePortExternalIP') is advertised on the address having the following format: <kafka-cluster-name>-<broker-id>.<namespace><value-specified-in-hostnameOverride-field>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#hostname_override DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#hostname_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#hostname_override DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#hostname_override}
   */
   readonly hostnameOverride?: string;
   /**
   * IngressControllerTargetPort defines the container port that the ingress controller uses for handling external traffic. If not defined, 29092 will be used as the default IngressControllerTargetPort value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ingress_controller_target_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ingress_controller_target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ingress_controller_target_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ingress_controller_target_port}
   */
   readonly ingressControllerTargetPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * ServerSSLCertSecret is a reference to the Kubernetes secret that contains the server certificate for the listener to be used for SSL communication. The secret must contain the keystore, truststore jks files and the password for them in base64 encoded format under the keystore.jks, truststore.jks, password data fields. If this field is omitted koperator will auto-create a self-signed server certificate using the configuration provided in 'sslSecrets' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#server_ssl_cert_secret DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#server_ssl_cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#server_ssl_cert_secret DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#server_ssl_cert_secret}
   */
   readonly serverSslCertSecret?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListenersServerSslCertSecret;
   /**
   * ServiceAnnotations defines annotations which will be placed to the service or services created for the external listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * Service Type string describes ingress methods for a service Only 'NodePort' and 'LoadBalancer' is supported. Default value is LoadBalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_type}
   */
   readonly serviceType?: string;
   /**
   * SSLClientAuth specifies whether client authentication is required, requested, or not required. This field defaults to 'required' if it is omitted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ssl_client_auth DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ssl_client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ssl_client_auth DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ssl_client_auth}
   */
   readonly sslClientAuth?: string;
   /**
   * SecurityProtocol is the protocol used to communicate with brokers. Valid values are: plaintext, ssl, sasl_plaintext, sasl_ssl.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -23661,7 +23661,7 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23755,37 +23755,37 @@ export class DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersCo
 }
 export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigInternalListeners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#container_port DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * ServerSSLCertSecret is a reference to the Kubernetes secret that contains the server certificate for the listener to be used for SSL communication. The secret must contain the keystore, truststore jks files and the password for them in base64 encoded format under the keystore.jks, truststore.jks, password data fields. If this field is omitted koperator will auto-create a self-signed server certificate using the configuration provided in 'sslSecrets' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#server_ssl_cert_secret DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#server_ssl_cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#server_ssl_cert_secret DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#server_ssl_cert_secret}
   */
   readonly serverSslCertSecret?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigInternalListenersServerSslCertSecret;
   /**
   * SSLClientAuth specifies whether client authentication is required, requested, or not required. This field defaults to 'required' if it is omitted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ssl_client_auth DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ssl_client_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ssl_client_auth DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ssl_client_auth}
   */
   readonly sslClientAuth?: string;
   /**
   * SecurityProtocol is the protocol used to communicate with brokers. Valid values are: plaintext, ssl, sasl_plaintext, sasl_ssl.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#type DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#used_for_controller_communication DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#used_for_controller_communication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#used_for_controller_communication DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#used_for_controller_communication}
   */
   readonly usedForControllerCommunication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#used_for_inner_broker_communication DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#used_for_inner_broker_communication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#used_for_inner_broker_communication DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#used_for_inner_broker_communication}
   */
   readonly usedForInnerBrokerCommunication: boolean | cdktf.IResolvable;
 }
@@ -24065,19 +24065,19 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListene
   /**
   * Group of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#group DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#kind DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#kind DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -24226,27 +24226,27 @@ export class DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersCo
 }
 export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigSslSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#create DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#create DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
   * ObjectReference is a reference to an object with a given name, kind and group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#issuer_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#issuer_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#issuer_ref DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#issuer_ref}
   */
   readonly issuerRef?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigSslSecretsIssuerRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#jks_password_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#jks_password_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#jks_password_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#jks_password_name}
   */
   readonly jksPasswordName?: string;
   /**
   * PKIBackend represents an interface implementing the PKIManager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pki_backend DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pki_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#pki_backend DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#pki_backend}
   */
   readonly pkiBackend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tls_secret_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tls_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#tls_secret_name DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#tls_secret_name}
   */
   readonly tlsSecretName: string;
 }
@@ -24453,21 +24453,21 @@ export class DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersCo
 }
 export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#external_listeners DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#external_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#external_listeners DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#external_listeners}
   */
   readonly externalListeners?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigExternalListeners[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#internal_listeners DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#internal_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#internal_listeners DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#internal_listeners}
   */
   readonly internalListeners: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigInternalListeners[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#service_annotations DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * SSLSecrets defines the Kafka SSL secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ssl_secrets DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ssl_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ssl_secrets DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ssl_secrets}
   */
   readonly sslSecrets?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfigSslSecrets;
 }
@@ -24645,19 +24645,19 @@ export class DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersCo
 }
 export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecMonitoringConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#c_cjmx_exporter_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#c_cjmx_exporter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#c_cjmx_exporter_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#c_cjmx_exporter_config}
   */
   readonly cCjmxExporterConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#jmx_image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#jmx_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#jmx_image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#jmx_image}
   */
   readonly jmxImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#kafka_jmx_exporter_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#kafka_jmx_exporter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#kafka_jmx_exporter_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#kafka_jmx_exporter_config}
   */
   readonly kafkaJmxExporterConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#path_to_jar DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#path_to_jar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#path_to_jar DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#path_to_jar}
   */
   readonly pathToJar?: string;
 }
@@ -24838,7 +24838,7 @@ export class DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecMonitoringC
 }
 export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecRackAwareness {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#labels}
   */
   readonly labels: string[];
 }
@@ -24931,13 +24931,13 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecRolling
   /**
   * ConcurrentBrokerRestartCountPerRack controls how many brokers can be restarted in parallel during a rolling upgrade. If it is set to a value greater than 1, the operator will restart up to that amount of brokers in parallel, if the brokers are within the same rack (as specified by 'broker.rack' in broker read-only configs). Since using Kafka broker racks spreads out the replicas, we know that restarting multiple brokers in the same rack will not cause more than 1/Nth of the replicas of a topic-partition to be unavailable at the same time, where N is the number of racks used. This is a safe way to speed up the rolling upgrade. Note that for the rack distribution explained above, Cruise Control requires 'com.linkedin.kafka.cruisecontrol.analyzer.goals.RackAwareDistributionGoal' to be configured. Default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#concurrent_broker_restart_count_per_rack DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#concurrent_broker_restart_count_per_rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#concurrent_broker_restart_count_per_rack DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#concurrent_broker_restart_count_per_rack}
   */
   readonly concurrentBrokerRestartCountPerRack?: number;
   /**
   * FailureThreshold controls how many failures the cluster can tolerate during a rolling upgrade. Once the number of failures reaches this threshold a rolling upgrade flow stops. The number of failures is computed as the sum of distinct broker replicas with either offline replicas or out of sync replicas and the number of alerts triggered by alerts with 'rollingupgrade'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#failure_threshold DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#failure_threshold DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold: number;
 }
@@ -25059,145 +25059,145 @@ export interface DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpec {
   /**
   * Custom ports to expose in the container. Example use case: a custom kafka distribution, that includes an integrated metrics api endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#additional_ports DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#additional_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#additional_ports DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#additional_ports}
   */
   readonly additionalPorts?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecAdditionalPorts[] | cdktf.IResolvable;
   /**
   * AlertManagerConfig defines configuration for alert manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#alert_manager_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#alert_manager_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#alert_manager_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#alert_manager_config}
   */
   readonly alertManagerConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecAlertManagerConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#broker_config_groups DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#broker_config_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#broker_config_groups DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#broker_config_groups}
   */
   readonly brokerConfigGroups?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecBrokerConfigGroups;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#brokers DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#brokers DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#brokers}
   */
   readonly brokers: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecBrokers[] | cdktf.IResolvable;
   /**
   * ClientSSLCertSecret is a reference to the Kubernetes secret where custom client SSL certificate can be provided. It will be used by the koperator, cruise control, cruise control metrics reporter to communicate on SSL with that internal listener which is used for interbroker communication. The client certificate must share the same chain of trust as the server certificate used by the corresponding internal listener. The secret must contain the keystore, truststore jks files and the password for them in base64 encoded format under the keystore.jks, truststore.jks, password data fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#client_ssl_cert_secret DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#client_ssl_cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#client_ssl_cert_secret DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#client_ssl_cert_secret}
   */
   readonly clientSslCertSecret?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecClientSslCertSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cluster_image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cluster_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cluster_image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cluster_image}
   */
   readonly clusterImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cluster_metrics_reporter_image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cluster_metrics_reporter_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cluster_metrics_reporter_image DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cluster_metrics_reporter_image}
   */
   readonly clusterMetricsReporterImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cluster_wide_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cluster_wide_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cluster_wide_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cluster_wide_config}
   */
   readonly clusterWideConfig?: string;
   /**
   * CruiseControlConfig defines the config for Cruise Control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cruise_control_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cruise_control_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#cruise_control_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#cruise_control_config}
   */
   readonly cruiseControlConfig: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecCruiseControlConfig;
   /**
   * DisruptionBudget defines the configuration for PodDisruptionBudget where the workload is managed by the kafka-operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#disruption_budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#disruption_budget DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#disruption_budget}
   */
   readonly disruptionBudget?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecDisruptionBudget;
   /**
   * EnvoyConfig defines the config for Envoy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envoy_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envoy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envoy_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envoy_config}
   */
   readonly envoyConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvoyConfig;
   /**
   * Envs defines environment variables for Kafka broker Pods. Adding the '+' prefix to the name prepends the value to that environment variable instead of overwriting it. Add the '+' suffix to append.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envs DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#envs DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#envs}
   */
   readonly envs?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecEnvs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#headless_service_enabled DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#headless_service_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#headless_service_enabled DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#headless_service_enabled}
   */
   readonly headlessServiceEnabled: boolean | cdktf.IResolvable;
   /**
   * IngressController specifies the type of the ingress controller to be used for external listeners. The 'istioingress' ingress controller type requires the 'spec.istioControlPlane' field to be populated as well.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ingress_controller DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ingress_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#ingress_controller DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#ingress_controller}
   */
   readonly ingressController?: string;
   /**
   * IstioControlPlane is a reference to the IstioControlPlane resource for envoy configuration. It must be specified if istio ingress is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#istio_control_plane DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#istio_control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#istio_control_plane DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#istio_control_plane}
   */
   readonly istioControlPlane?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioControlPlane;
   /**
   * IstioIngressConfig defines the config for the Istio Ingress Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#istio_ingress_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#istio_ingress_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#istio_ingress_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#istio_ingress_config}
   */
   readonly istioIngressConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecIstioIngressConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#kubernetes_cluster_domain DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#kubernetes_cluster_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#kubernetes_cluster_domain DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#kubernetes_cluster_domain}
   */
   readonly kubernetesClusterDomain?: string;
   /**
   * ListenersConfig defines the Kafka listener types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#listeners_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#listeners_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#listeners_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#listeners_config}
   */
   readonly listenersConfig: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecListenersConfig;
   /**
   * MonitoringConfig defines the config for monitoring Kafka and Cruise Control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#monitoring_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#monitoring_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#monitoring_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#monitoring_config}
   */
   readonly monitoringConfig?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecMonitoringConfig;
   /**
   * If true OneBrokerPerNode ensures that each kafka broker will be placed on a different node unless a custom Affinity definition overrides this behavior
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#one_broker_per_node DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#one_broker_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#one_broker_per_node DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#one_broker_per_node}
   */
   readonly oneBrokerPerNode: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#propagate_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#propagate_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#propagate_labels DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#propagate_labels}
   */
   readonly propagateLabels?: boolean | cdktf.IResolvable;
   /**
   * RackAwareness defines the required fields to enable kafka's rack aware feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#rack_awareness DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#rack_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#rack_awareness DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#rack_awareness}
   */
   readonly rackAwareness?: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecRackAwareness;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#read_only_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#read_only_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#read_only_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#read_only_config}
   */
   readonly readOnlyConfig?: string;
   /**
   * RemoveUnusedIngressResources when true, the unnecessary resources from the previous ingress state will be removed. when false, they will be kept so the Kafka cluster remains available for those Kafka clients which are still using the previous ingress setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#remove_unused_ingress_resources DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#remove_unused_ingress_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#remove_unused_ingress_resources DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#remove_unused_ingress_resources}
   */
   readonly removeUnusedIngressResources?: boolean | cdktf.IResolvable;
   /**
   * RollingUpgradeConfig defines the desired config of the RollingUpgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#rolling_upgrade_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#rolling_upgrade_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#rolling_upgrade_config DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#rolling_upgrade_config}
   */
   readonly rollingUpgradeConfig: DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1ManifestSpecRollingUpgradeConfig;
   /**
   * ZKAddresses specifies the ZooKeeper connection string in the form hostname:port where host and port are the host and port of a ZooKeeper server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#zk_addresses DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#zk_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#zk_addresses DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#zk_addresses}
   */
   readonly zkAddresses: string[];
   /**
   * ZKPath specifies the ZooKeeper chroot path as part of its ZooKeeper connection string which puts its data under some path in the global ZooKeeper namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#zk_path DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#zk_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_banzaicloud_io_kafka_cluster_v1beta1_manifest#zk_path DataK8SKafkaBanzaicloudIoKafkaClusterV1Beta1Manifest#zk_path}
   */
   readonly zkPath?: string;
 }

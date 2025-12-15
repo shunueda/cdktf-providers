@@ -53,7 +53,7 @@ dataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecSchedulingPolicyToHclTerraf
 DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecSchedulingPolicyOutputReference } from './structs0'
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -147,11 +147,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -290,23 +290,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -513,11 +513,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -637,39 +637,39 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -995,23 +995,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#container_port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#container_port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_ip DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_ip DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#protocol DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#protocol DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -1240,7 +1240,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1334,11 +1334,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1477,23 +1477,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1700,11 +1700,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -1824,39 +1824,39 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2182,11 +2182,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#limits DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#limits DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#requests DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#requests DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2309,11 +2309,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#add DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#add DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#drop DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#drop DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -2436,19 +2436,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#level DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#level DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#role DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#role DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -2629,11 +2629,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#localhost_profile DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#localhost_profile DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -2753,19 +2753,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gmsa_credential_spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gmsa_credential_spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_process DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_process DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_user_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_user_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -2946,47 +2946,47 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#allow_privilege_escalation DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#allow_privilege_escalation DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#capabilities DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#capabilities DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#privileged DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#privileged DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#proc_mount DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#proc_mount DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only_root_filesystem DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only_root_filesystem DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_non_root DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_non_root DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#se_linux_options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#se_linux_options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#seccomp_profile DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#seccomp_profile DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#windows_options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#windows_options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -3370,7 +3370,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3464,11 +3464,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -3607,23 +3607,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_headers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheme DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3830,11 +3830,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#port DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -3954,39 +3954,39 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#exec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#failure_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#http_get DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#initial_delay_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#success_threshold DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tcp_socket DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#timeout_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4312,11 +4312,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#device_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#device_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4455,27 +4455,27 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mount_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mount_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mount_propagation DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mount_propagation DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#sub_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#sub_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#sub_path_expr DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#sub_path_expr DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -4730,91 +4730,91 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#args DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#args DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#command DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#env DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#env DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#env}
   */
   readonly env?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#env_from DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#env_from DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#image DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#image DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#image_pull_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#image_pull_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#lifecycle DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#lifecycle DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#liveness_probe DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#liveness_probe DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ports DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ports DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#readiness_probe DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#readiness_probe DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resources DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resources DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#security_context DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#security_context DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#startup_probe DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#startup_probe DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#stdin DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#stdin DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#stdin_once DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#stdin_once DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_message_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_message_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_message_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_message_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tty DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tty DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_devices DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_devices DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_mounts DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_mounts DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#working_dir DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#working_dir DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -5536,7 +5536,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecReadinessGates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#condition_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#condition_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#condition_type}
   */
   readonly conditionType: string;
 }
@@ -5649,19 +5649,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#level DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#level DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#role DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#role DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -5842,11 +5842,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#localhost_profile DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#localhost_profile DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -5966,11 +5966,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -6109,19 +6109,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gmsa_credential_spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gmsa_credential_spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_process DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_process DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_user_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_user_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6302,43 +6302,43 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_group_change_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_group_change_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_non_root DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_non_root DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#run_as_user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#se_linux_options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#se_linux_options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#seccomp_profile DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#seccomp_profile DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#supplemental_groups DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#supplemental_groups DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#sysctls DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#sysctls DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#windows_options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#windows_options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContextWindowsOptions;
 }
@@ -6693,23 +6693,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#effect DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#effect DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#toleration_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#toleration_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#value DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6941,15 +6941,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7117,11 +7117,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7244,19 +7244,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#label_selector DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#max_skew DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#max_skew DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#topology_key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#when_unsatisfiable DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#when_unsatisfiable DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -7450,19 +7450,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesAwsElasticBlockStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#partition DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#partition DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -7640,27 +7640,27 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesAzureDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#caching_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#caching_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#disk_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#disk_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#disk_uri DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#disk_uri DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#kind DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#kind DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -7893,15 +7893,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesAzureFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#share_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#share_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -8047,7 +8047,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCephfsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8141,27 +8141,27 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCephfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#monitors DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#monitors DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_file DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_file DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCephfsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -8397,7 +8397,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCinderSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8491,19 +8491,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCinder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCinderSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -8681,15 +8681,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -8857,19 +8857,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#default_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#default_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
   */
   readonly items?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9050,7 +9050,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9144,23 +9144,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#driver DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#driver DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#node_publish_secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#node_publish_secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_attributes DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_attributes DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -9367,11 +9367,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9491,15 +9491,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9648,19 +9648,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -9860,11 +9860,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#default_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#default_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
   */
   readonly items?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -9987,11 +9987,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#medium DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#medium DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#size_limit DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#size_limit DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -10114,23 +10114,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#annotations DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#annotations DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#finalizers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#finalizers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#labels DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#labels DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#namespace DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#namespace DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -10340,15 +10340,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#api_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#api_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#kind DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#kind DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -10494,15 +10494,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#api_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#api_group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#kind DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#kind DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -10648,11 +10648,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#limits DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#limits DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#requests DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#requests DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10775,15 +10775,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#operator DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#values DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10951,11 +10951,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#match_expressions DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#match_labels DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11078,35 +11078,35 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#access_modes DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#access_modes DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#data_source DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#data_source DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#data_source_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#data_source_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resources DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resources DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#selector DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#selector DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_class_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_class_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -11403,11 +11403,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#metadata DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#metadata DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -11527,7 +11527,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_claim_template DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_claim_template DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeralVolumeClaimTemplate;
 }
@@ -11621,23 +11621,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesFc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#lun DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#lun DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#target_ww_ns DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#target_ww_ns DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#wwids DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#wwids DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -11847,7 +11847,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesFlexVolumeSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -11941,23 +11941,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesFlexVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#driver DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#driver DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#options DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesFlexVolumeSecretRef;
 }
@@ -12164,11 +12164,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesFlocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#dataset_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#dataset_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#dataset_uuid DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#dataset_uuid DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -12291,19 +12291,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesGcePersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#partition DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#partition DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#pd_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#pd_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -12481,15 +12481,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesGitRepo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#directory DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#directory DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#repository DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#repository DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#revision DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#revision DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -12638,15 +12638,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesGlusterfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#endpoints DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#endpoints DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -12792,11 +12792,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -12916,7 +12916,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesIscsiSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13010,47 +13010,47 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesIscsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#chap_auth_discovery DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#chap_auth_discovery DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#chap_auth_session DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#chap_auth_session DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#initiator_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#initiator_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#iqn DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#iqn DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#iscsi_interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#iscsi_interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#lun DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#lun DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#portals DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#portals DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesIscsiSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#target_portal DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#target_portal DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -13425,15 +13425,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#server DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#server DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -13579,11 +13579,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#claim_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#claim_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -13703,11 +13703,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesPhotonPersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#pd_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#pd_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -13827,15 +13827,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesPortworxVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -13984,15 +13984,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -14160,15 +14160,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
   */
   readonly items?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14320,11 +14320,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#api_version DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#field_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -14444,15 +14444,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#container_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#divisor DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resource DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -14601,19 +14601,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#field_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#resource_field_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -14813,7 +14813,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
   */
   readonly items?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -14907,15 +14907,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -15083,15 +15083,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
   */
   readonly items?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15243,15 +15243,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#audience DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#audience DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#expiration_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#expiration_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -15400,19 +15400,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#config_map DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#config_map DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#downward_api DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#downward_api DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#service_account_token DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#service_account_token DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSourcesServiceAccountToken;
 }
@@ -15615,11 +15615,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#default_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#default_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#sources DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#sources DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -15742,27 +15742,27 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesQuobyte {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#group DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#registry DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#registry DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tenant DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tenant DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -15995,7 +15995,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesRbdSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16089,35 +16089,35 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesRbd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#image DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#image DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#keyring DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#keyring DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#monitors DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#monitors DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#pool DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#pool DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesRbdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#user DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -16408,7 +16408,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesScaleIoSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16502,43 +16502,43 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesScaleIo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gateway DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gateway DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#protection_domain DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#protection_domain DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesScaleIoSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ssl_enabled DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ssl_enabled DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_pool DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_pool DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#system DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#system DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -16884,15 +16884,15 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#key DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -17060,19 +17060,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#default_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#default_mode DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#items DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#items}
   */
   readonly items?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#optional DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -17253,7 +17253,7 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesStorageosSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17347,23 +17347,23 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesStorageos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#read_only DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret_ref DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesStorageosSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_namespace DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_namespace DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -17573,19 +17573,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesVsphereVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fs_type DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_policy_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_policy_id DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_policy_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storage_policy_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volume_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -17763,123 +17763,123 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#aws_elastic_block_store DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#aws_elastic_block_store DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesAwsElasticBlockStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#azure_disk DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#azure_disk DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesAzureDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#azure_file DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#azure_file DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesAzureFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#cephfs DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#cephfs DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCephfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#cinder DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#cinder DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCinder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#config_map DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#config_map DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#csi DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#csi DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesCsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#downward_api DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#downward_api DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#empty_dir DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#empty_dir DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ephemeral DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ephemeral DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesEphemeral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fc DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#fc DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesFc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#flex_volume DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#flex_volume DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesFlexVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#flocker DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#flocker DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesFlocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gce_persistent_disk DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#gce_persistent_disk DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesGcePersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#git_repo DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#git_repo DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesGitRepo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#glusterfs DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#glusterfs DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesGlusterfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_path DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#iscsi DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#iscsi DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesIscsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#nfs DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#nfs DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesNfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#persistent_volume_claim DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#persistent_volume_claim DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#photon_persistent_disk DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#photon_persistent_disk DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesPhotonPersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#portworx_volume DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#portworx_volume DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesPortworxVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#projected DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#projected DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#quobyte DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#quobyte DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesQuobyte;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#rbd DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#rbd DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesRbd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scale_io DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scale_io DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesScaleIo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#secret DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storageos DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#storageos DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesStorageos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#vsphere_volume DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#vsphere_volume DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumesVsphereVolume;
 }
@@ -18833,143 +18833,143 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#active_deadline_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#active_deadline_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#affinity DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#affinity DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#automount_service_account_token DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#automount_service_account_token DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#containers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#containers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#containers}
   */
   readonly containers: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#dns_config DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#dns_config DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#dns_config}
   */
   readonly dnsConfig?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecDnsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#dns_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#dns_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#enable_service_links DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#enable_service_links DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ephemeral_containers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ephemeral_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ephemeral_containers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ephemeral_containers}
   */
   readonly ephemeralContainers?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecEphemeralContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_aliases DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_aliases DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecHostAliases[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_ipc DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_ipc DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_ipc}
   */
   readonly hostIpc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_network DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_network DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_pid DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#host_pid DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#host_pid}
   */
   readonly hostPid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#hostname DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#hostname DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#image_pull_secrets DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#image_pull_secrets DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#init_containers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#init_containers DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#init_containers}
   */
   readonly initContainers?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecInitContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#node_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#node_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#node_selector DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#node_selector DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#overhead DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#overhead DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#overhead}
   */
   readonly overhead?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#preemption_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#preemption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#preemption_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#preemption_policy}
   */
   readonly preemptionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#priority DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#priority DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#priority_class_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#priority_class_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#readiness_gates DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#readiness_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#readiness_gates DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#readiness_gates}
   */
   readonly readinessGates?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecReadinessGates[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#restart_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#restart_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#runtime_class_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#runtime_class_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheduler_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheduler_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#security_context DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#security_context DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#service_account DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#service_account DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#service_account_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#service_account_name DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#set_hostname_as_fqdn DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#set_hostname_as_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#set_hostname_as_fqdn DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#set_hostname_as_fqdn}
   */
   readonly setHostnameAsFqdn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#share_process_namespace DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#share_process_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#share_process_namespace DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#share_process_namespace}
   */
   readonly shareProcessNamespace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#subdomain DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#subdomain DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#subdomain}
   */
   readonly subdomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#termination_grace_period_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tolerations DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#tolerations DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#topology_spread_constraints DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#topology_spread_constraints DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volumes DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#volumes DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpecVolumes[] | cdktf.IResolvable;
 }
@@ -20046,11 +20046,11 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#metadata DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#metadata DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplateSpec;
 }
@@ -20173,19 +20173,19 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#replicas DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#replicas DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#restart_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#restart_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#spot_replica_spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#spot_replica_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#spot_replica_spec DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#spot_replica_spec}
   */
   readonly spotReplicaSpec?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsSpotReplicaSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#template DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#template DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#template}
   */
   readonly template?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecsTemplate;
 }
@@ -20366,31 +20366,31 @@ export class DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpec
 }
 export interface DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#active_deadline_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#active_deadline_seconds DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#backoff_limit DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#backoff_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#backoff_limit DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#backoff_limit}
   */
   readonly backoffLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#clean_pod_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#clean_pod_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#clean_pod_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#clean_pod_policy}
   */
   readonly cleanPodPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#cron_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#cron_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#cron_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#cron_policy}
   */
   readonly cronPolicy?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecCronPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheduling_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheduling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#scheduling_policy DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#scheduling_policy}
   */
   readonly schedulingPolicy?: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecSchedulingPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ttl_seconds_after_finished DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ttl_seconds_after_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#ttl_seconds_after_finished DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#ttl_seconds_after_finished}
   */
   readonly ttlSecondsAfterFinished?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#xgb_replica_specs DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#xgb_replica_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/training_kubedl_io_xg_boost_job_v1alpha1_manifest#xgb_replica_specs DataK8STrainingKubedlIoXgBoostJobV1Alpha1Manifest#xgb_replica_specs}
   */
   readonly xgbReplicaSpecs: DataK8STrainingKubedlIoXgBoostJobV1Alpha1ManifestSpecXgbReplicaSpecs;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#metadata DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#metadata DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestMetadata;
   /**
   * ClusterDefinitionSpec defines the desired state of ClusterDefinition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#spec DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#spec DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#annotations DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#annotations DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#labels DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#labels DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecTopologie
   /**
   * Specifies the exact name, name prefix, or regular expression pattern for matching the name of the ComponentDefinition custom resource (CR) that defines the Component's characteristics and behavior. The system selects the ComponentDefinition CR with the latest version that matches the pattern. This approach allows: 1. Precise selection by providing the exact name of a ComponentDefinition CR. 2. Flexible and automatic selection of the most up-to-date ComponentDefinition CR by specifying a name prefix or regular expression pattern. Once set, this field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#comp_def DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#comp_def}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#comp_def DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#comp_def}
   */
   readonly compDef: string;
   /**
   * Defines the unique identifier of the component within the cluster topology. It follows IANA Service naming rules and is used as part of the Service's DNS name. The name must start with a lowercase letter, can contain lowercase letters, numbers, and hyphens, and must end with a lowercase letter or number. Cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -334,19 +334,19 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecTopologie
   /**
   * Specifies the order for creating and initializing entities. This is designed for entities that depend on one another. Entities without dependencies can be grouped together. Entities that can be provisioned independently or have no dependencies can be listed together in the same stage, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#provision DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#provision DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#provision}
   */
   readonly provision?: string[];
   /**
   * Outlines the order for stopping and deleting entities. This sequence is designed for entities that require a graceful shutdown or have interdependencies. Entities that can be terminated independently or have no dependencies can be listed together in the same stage, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#terminate DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#terminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#terminate DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#terminate}
   */
   readonly terminate?: string[];
   /**
   * Update determines the order for updating entities' specifications, such as image upgrades or resource scaling. This sequence is designed for entities that have dependencies or require specific update procedures. Entities that can be updated independently or have no dependencies can be listed together in the same stage, separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#update DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#update DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#update}
   */
   readonly update?: string[];
 }
@@ -500,13 +500,13 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecTopologie
   /**
   * Defines the unique identifier of the sharding within the cluster topology. It follows IANA Service naming rules and is used as part of the Service's DNS name. The name must start with a lowercase letter, can contain lowercase letters, numbers, and hyphens, and must end with a lowercase letter or number. Cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the sharding definition that defines the characteristics and behavior of the sharding. The system selects the ShardingDefinition CR with the latest version that matches the pattern. This approach allows: 1. Precise selection by providing the exact name of a ShardingDefinition CR. 2. Flexible and automatic selection of the most up-to-date ShardingDefinition CR by specifying a regular expression pattern. Once set, this field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#sharding_def DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#sharding_def}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#sharding_def DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#sharding_def}
   */
   readonly shardingDef: string;
 }
@@ -647,31 +647,31 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecTopologie
   /**
   * Components specifies the components in the topology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#components DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#components DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#components}
   */
   readonly components?: DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecTopologiesComponents[] | cdktf.IResolvable;
   /**
   * Default indicates whether this topology serves as the default configuration. When set to true, this topology is automatically used unless another is explicitly specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#default DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#default DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Name is the unique identifier for the cluster topology. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#name DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the sequence in which components within a cluster topology are started, stopped, and upgraded. This ordering is crucial for maintaining the correct dependencies and operational flow across components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#orders DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#orders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#orders DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#orders}
   */
   readonly orders?: DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecTopologiesOrders;
   /**
   * Shardings specifies the shardings in the topology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#shardings DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#shardings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#shardings DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#shardings}
   */
   readonly shardings?: DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecTopologiesShardings[] | cdktf.IResolvable;
 }
@@ -902,7 +902,7 @@ export interface DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpec {
   /**
   * Topologies defines all possible topologies within the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#topologies DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#topologies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#topologies DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest#topologies}
   */
   readonly topologies?: DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecTopologies[] | cdktf.IResolvable;
 }
@@ -996,7 +996,7 @@ export class DataK8SAppsKubeblocksIoClusterDefinitionV1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest k8s_apps_kubeblocks_io_cluster_definition_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest k8s_apps_kubeblocks_io_cluster_definition_v1_manifest}
 */
 export class DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1012,7 +1012,7 @@ export class DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1024,7 +1024,7 @@ export class DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest k8s_apps_kubeblocks_io_cluster_definition_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/apps_kubeblocks_io_cluster_definition_v1_manifest k8s_apps_kubeblocks_io_cluster_definition_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1035,8 +1035,8 @@ export class DataK8SAppsKubeblocksIoClusterDefinitionV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_apps_kubeblocks_io_cluster_definition_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

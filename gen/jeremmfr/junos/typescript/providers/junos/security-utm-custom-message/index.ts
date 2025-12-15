@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_message
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecurityUtmCustomMessageConfig extends cdktf.TerraformMetaArgum
   /**
   * Content of custom message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_message#content SecurityUtmCustomMessage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_message#content SecurityUtmCustomMessage#content}
   */
   readonly content?: string;
   /**
   * Name of custom page file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_message#custom_page_file SecurityUtmCustomMessage#custom_page_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_message#custom_page_file SecurityUtmCustomMessage#custom_page_file}
   */
   readonly customPageFile?: string;
   /**
   * The name of security utm custom-object custom-message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_message#name SecurityUtmCustomMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_message#name SecurityUtmCustomMessage#name}
   */
   readonly name: string;
   /**
   * Type of custom message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_message#type SecurityUtmCustomMessage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_message#type SecurityUtmCustomMessage#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_message junos_security_utm_custom_message}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_message junos_security_utm_custom_message}
 */
 export class SecurityUtmCustomMessage extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SecurityUtmCustomMessage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityUtmCustomMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityUtmCustomMessage to import
-  * @param importFromId The id of the existing SecurityUtmCustomMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityUtmCustomMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityUtmCustomMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SecurityUtmCustomMessage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_utm_custom_message junos_security_utm_custom_message} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_utm_custom_message junos_security_utm_custom_message} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SecurityUtmCustomMessage extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_utm_custom_message',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

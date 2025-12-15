@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DirectThousandeyesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#description DirectThousandeyes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#description DirectThousandeyes#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#display_name DirectThousandeyes#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#display_name DirectThousandeyes#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#id DirectThousandeyes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#id DirectThousandeyes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DirectThousandeyesConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Logs documentation](https://docs.nobl9.com/features/slo-troubleshooting/event-logs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#log_collection_enabled DirectThousandeyes#log_collection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#log_collection_enabled DirectThousandeyes#log_collection_enabled}
   */
   readonly logCollectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#name DirectThousandeyes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#name DirectThousandeyes#name}
   */
   readonly name: string;
   /**
   * [required] | ThousandEyes OAuth Bearer Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#oauth_bearer_token DirectThousandeyes#oauth_bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#oauth_bearer_token DirectThousandeyes#oauth_bearer_token}
   */
   readonly oauthBearerToken?: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#project DirectThousandeyes#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#project DirectThousandeyes#project}
   */
   readonly project: string;
   /**
   * Release channel of the created data source [stable/beta]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#release_channel DirectThousandeyes#release_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#release_channel DirectThousandeyes#release_channel}
   */
   readonly releaseChannel?: string;
   /**
   * This value indicated whether the field was a source of metrics and/or services. 'source_of' is deprecated and not used anywhere; however, it's kept for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#source_of DirectThousandeyes#source_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#source_of DirectThousandeyes#source_of}
   */
   readonly sourceOf?: string[];
   /**
   * query_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#query_delay DirectThousandeyes#query_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#query_delay DirectThousandeyes#query_delay}
   */
   readonly queryDelay?: DirectThousandeyesQueryDelay;
 }
@@ -73,13 +73,13 @@ export interface DirectThousandeyesQueryDelay {
   /**
   * Must be one of Minute or Second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#unit DirectThousandeyes#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#unit DirectThousandeyes#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#value DirectThousandeyes#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#value DirectThousandeyes#value}
   */
   readonly value: number;
 }
@@ -186,7 +186,7 @@ export class DirectThousandeyesQueryDelayOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes nobl9_direct_thousandeyes}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes nobl9_direct_thousandeyes}
 */
 export class DirectThousandeyes extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class DirectThousandeyes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DirectThousandeyes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectThousandeyes to import
-  * @param importFromId The id of the existing DirectThousandeyes that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectThousandeyes that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectThousandeyes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class DirectThousandeyes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_thousandeyes nobl9_direct_thousandeyes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/resources/direct_thousandeyes nobl9_direct_thousandeyes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class DirectThousandeyes extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_direct_thousandeyes',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

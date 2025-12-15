@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface EventoptionsGenerateEventConfig extends cdktf.TerraformMetaArgu
   /**
   * Name of the event to be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event#name EventoptionsGenerateEvent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event#name EventoptionsGenerateEvent#name}
   */
   readonly name: string;
   /**
   * Avoid event generation delay propagating to next event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event#no_drift EventoptionsGenerateEvent#no_drift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event#no_drift EventoptionsGenerateEvent#no_drift}
   */
   readonly noDrift?: boolean | cdktf.IResolvable;
   /**
   * Start-time to generate event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event#start_time EventoptionsGenerateEvent#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event#start_time EventoptionsGenerateEvent#start_time}
   */
   readonly startTime?: string;
   /**
   * Frequency for generating the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event#time_interval EventoptionsGenerateEvent#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event#time_interval EventoptionsGenerateEvent#time_interval}
   */
   readonly timeInterval?: number;
   /**
   * Time of day at which to generate event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event#time_of_day EventoptionsGenerateEvent#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event#time_of_day EventoptionsGenerateEvent#time_of_day}
   */
   readonly timeOfDay?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event junos_eventoptions_generate_event}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event junos_eventoptions_generate_event}
 */
 export class EventoptionsGenerateEvent extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class EventoptionsGenerateEvent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventoptionsGenerateEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventoptionsGenerateEvent to import
-  * @param importFromId The id of the existing EventoptionsGenerateEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventoptionsGenerateEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventoptionsGenerateEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class EventoptionsGenerateEvent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_generate_event junos_eventoptions_generate_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_generate_event junos_eventoptions_generate_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class EventoptionsGenerateEvent extends cdktf.TerraformResource {
       terraformResourceType: 'junos_eventoptions_generate_event',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

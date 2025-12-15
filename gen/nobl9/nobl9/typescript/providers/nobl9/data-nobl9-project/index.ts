@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/project
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/data-sources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataNobl9ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the resource, must conform to the [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names) naming convention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/project#name DataNobl9Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/data-sources/project#name DataNobl9Project#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/project nobl9_project}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/data-sources/project nobl9_project}
 */
 export class DataNobl9Project extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataNobl9Project extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNobl9Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNobl9Project to import
-  * @param importFromId The id of the existing DataNobl9Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNobl9Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNobl9Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataNobl9Project extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/project nobl9_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.1/docs/data-sources/project nobl9_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataNobl9Project extends cdktf.TerraformDataSource {
       terraformResourceType: 'nobl9_project',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.45.0',
-        providerVersionConstraint: '0.45.0'
+        providerVersion: '0.45.1',
+        providerVersionConstraint: '0.45.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

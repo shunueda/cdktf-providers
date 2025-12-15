@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#metadata DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#metadata DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestMetadata;
   /**
   * LokiStackSpec defines the desired state of LokiStack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#spec DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#spec DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#annotations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#annotations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#labels DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#labels DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#namespace DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#namespace DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsGlobalIn
   /**
   * IngestionBurstSize defines the local rate-limited sample size per distributor replica. It should be set to the set at least to the maximum logs size expected in a single push request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion_burst_size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion_burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion_burst_size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion_burst_size}
   */
   readonly ingestionBurstSize?: number;
   /**
   * IngestionRate defines the sample size per second. Units MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion_rate DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion_rate DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion_rate}
   */
   readonly ingestionRate?: number;
   /**
   * MaxGlobalStreamsPerTenant defines the maximum number of active streams per tenant, across the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_global_streams_per_tenant DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_global_streams_per_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_global_streams_per_tenant DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_global_streams_per_tenant}
   */
   readonly maxGlobalStreamsPerTenant?: number;
   /**
   * MaxLabelNameLength defines the maximum number of characters allowed for label keys in log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_name_length DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_name_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_name_length DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_name_length}
   */
   readonly maxLabelNameLength?: number;
   /**
   * MaxLabelNamesPerSeries defines the maximum number of label names per series in each log stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_names_per_series DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_names_per_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_names_per_series DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_names_per_series}
   */
   readonly maxLabelNamesPerSeries?: number;
   /**
   * MaxLabelValueLength defines the maximum number of characters allowed for label values in log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_value_length DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_value_length DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_value_length}
   */
   readonly maxLabelValueLength?: number;
   /**
   * MaxLineSize defines the maximum line size on ingestion path. Units in Bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_line_size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_line_size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_line_size}
   */
   readonly maxLineSize?: number;
 }
@@ -525,19 +525,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsGlobalQu
   /**
   * MaxChunksPerQuery defines the maximum number of chunks that can be fetched by a single query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_chunks_per_query DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_chunks_per_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_chunks_per_query DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_chunks_per_query}
   */
   readonly maxChunksPerQuery?: number;
   /**
   * MaxEntriesLimitsPerQuery defines the maximum number of log entries that will be returned for a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_entries_limit_per_query DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_entries_limit_per_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_entries_limit_per_query DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_entries_limit_per_query}
   */
   readonly maxEntriesLimitPerQuery?: number;
   /**
   * MaxQuerySeries defines the maximum of unique series that is returned by a metric query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_query_series DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_query_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_query_series DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_query_series}
   */
   readonly maxQuerySeries?: number;
 }
@@ -691,13 +691,13 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsGlobal {
   /**
   * IngestionLimits defines the limits applied on ingested log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion}
   */
   readonly ingestion?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsGlobalIngestion;
   /**
   * QueryLimits defines the limit applied on querying log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#queries DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#queries DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#queries}
   */
   readonly queries?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsGlobalQueries;
 }
@@ -822,43 +822,43 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsTenantsI
   /**
   * IngestionBurstSize defines the local rate-limited sample size per distributor replica. It should be set to the set at least to the maximum logs size expected in a single push request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion_burst_size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion_burst_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion_burst_size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion_burst_size}
   */
   readonly ingestionBurstSize?: number;
   /**
   * IngestionRate defines the sample size per second. Units MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion_rate DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion_rate DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion_rate}
   */
   readonly ingestionRate?: number;
   /**
   * MaxGlobalStreamsPerTenant defines the maximum number of active streams per tenant, across the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_global_streams_per_tenant DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_global_streams_per_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_global_streams_per_tenant DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_global_streams_per_tenant}
   */
   readonly maxGlobalStreamsPerTenant?: number;
   /**
   * MaxLabelNameLength defines the maximum number of characters allowed for label keys in log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_name_length DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_name_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_name_length DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_name_length}
   */
   readonly maxLabelNameLength?: number;
   /**
   * MaxLabelNamesPerSeries defines the maximum number of label names per series in each log stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_names_per_series DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_names_per_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_names_per_series DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_names_per_series}
   */
   readonly maxLabelNamesPerSeries?: number;
   /**
   * MaxLabelValueLength defines the maximum number of characters allowed for label values in log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_value_length DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_label_value_length DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_label_value_length}
   */
   readonly maxLabelValueLength?: number;
   /**
   * MaxLineSize defines the maximum line size on ingestion path. Units in Bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_line_size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_line_size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_line_size}
   */
   readonly maxLineSize?: number;
 }
@@ -1128,19 +1128,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsTenantsQ
   /**
   * MaxChunksPerQuery defines the maximum number of chunks that can be fetched by a single query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_chunks_per_query DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_chunks_per_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_chunks_per_query DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_chunks_per_query}
   */
   readonly maxChunksPerQuery?: number;
   /**
   * MaxEntriesLimitsPerQuery defines the maximum number of log entries that will be returned for a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_entries_limit_per_query DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_entries_limit_per_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_entries_limit_per_query DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_entries_limit_per_query}
   */
   readonly maxEntriesLimitPerQuery?: number;
   /**
   * MaxQuerySeries defines the maximum of unique series that is returned by a metric query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_query_series DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_query_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#max_query_series DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#max_query_series}
   */
   readonly maxQuerySeries?: number;
 }
@@ -1294,13 +1294,13 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsTenants 
   /**
   * IngestionLimits defines the limits applied on ingested log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingestion DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingestion}
   */
   readonly ingestion?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsTenantsIngestion;
   /**
   * QueryLimits defines the limit applied on querying log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#queries DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#queries DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#queries}
   */
   readonly queries?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsTenantsQueries;
 }
@@ -1425,13 +1425,13 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimits {
   /**
   * Global defines the limits applied globally across the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#global DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#global DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#global}
   */
   readonly global?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsGlobal;
   /**
   * Tenants defines the limits and overrides applied per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenants DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenants DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenants}
   */
   readonly tenants?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimitsTenants;
 }
@@ -1556,19 +1556,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRulesNamespace
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#values DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#values DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1738,13 +1738,13 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRulesNamespace
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#match_expressions DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#match_expressions DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRulesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#match_labels DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#match_labels DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1869,19 +1869,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRulesSelectorM
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#values DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#values DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2051,13 +2051,13 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRulesSelector 
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#match_expressions DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#match_expressions DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRulesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#match_labels DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#match_labels DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2182,19 +2182,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRules {
   /**
   * Enabled defines a flag to enable/disable the ruler component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#enabled DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#enabled DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Namespaces to be selected for PrometheusRules discovery. If unspecified, only the same namespace as the LokiStack object is in is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#namespace_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#namespace_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRulesNamespaceSelector;
   /**
   * A selector to select which LokiRules to mount for loading alerting/recording rules from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRulesSelector;
 }
@@ -2345,13 +2345,13 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecStorageSchemas
   /**
   * EffectiveDate is the date in UTC that the schema will be applied on. To ensure readibility of logs, this date should be before the current date in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effective_date DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effective_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effective_date DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effective_date}
   */
   readonly effectiveDate: string;
   /**
   * Version for writing and reading logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#version DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#version DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -2492,13 +2492,13 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecStorageSecret 
   /**
   * Name of a secret in the namespace configured for object storage secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Type of object storage that should be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#type DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#type DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -2617,7 +2617,7 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecStorageTls {
   /**
   * CA is the name of a ConfigMap containing a CA certificate. It needs to be in the same namespace as the LokiStack custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ca_name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ca_name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ca_name}
   */
   readonly caName?: string;
 }
@@ -2713,19 +2713,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecStorage {
   /**
   * Schemas for reading and writing logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#schemas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#schemas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#schemas}
   */
   readonly schemas?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecStorageSchemas[] | cdktf.IResolvable;
   /**
   * Secret for object storage authentication. Name of a secret in the same namespace as the LokiStack custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#secret DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#secret DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#secret}
   */
   readonly secret: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecStorageSecret;
   /**
   * TLS configuration for reaching the object storage endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tls DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tls DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecStorageTls;
 }
@@ -2876,31 +2876,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateCompac
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3134,19 +3134,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateCompac
   /**
   * NodeSelector defines the labels required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Replicas defines the number of replica pods of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Tolerations defines the tolerations required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateCompactorTolerations[] | cdktf.IResolvable;
 }
@@ -3300,31 +3300,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateDistri
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3558,19 +3558,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateDistri
   /**
   * NodeSelector defines the labels required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Replicas defines the number of replica pods of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Tolerations defines the tolerations required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateDistributorTolerations[] | cdktf.IResolvable;
 }
@@ -3724,31 +3724,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateGatewa
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3982,19 +3982,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateGatewa
   /**
   * NodeSelector defines the labels required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Replicas defines the number of replica pods of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Tolerations defines the tolerations required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateGatewayTolerations[] | cdktf.IResolvable;
 }
@@ -4148,31 +4148,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateIndexG
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4406,19 +4406,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateIndexG
   /**
   * NodeSelector defines the labels required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Replicas defines the number of replica pods of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Tolerations defines the tolerations required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateIndexGatewayTolerations[] | cdktf.IResolvable;
 }
@@ -4572,31 +4572,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateIngest
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4830,19 +4830,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateIngest
   /**
   * NodeSelector defines the labels required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Replicas defines the number of replica pods of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Tolerations defines the tolerations required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateIngesterTolerations[] | cdktf.IResolvable;
 }
@@ -4996,31 +4996,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateQuerie
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5254,19 +5254,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateQuerie
   /**
   * NodeSelector defines the labels required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Replicas defines the number of replica pods of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Tolerations defines the tolerations required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateQuerierTolerations[] | cdktf.IResolvable;
 }
@@ -5420,31 +5420,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateQueryF
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5678,19 +5678,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateQueryF
   /**
   * NodeSelector defines the labels required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Replicas defines the number of replica pods of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Tolerations defines the tolerations required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateQueryFrontendTolerations[] | cdktf.IResolvable;
 }
@@ -5844,31 +5844,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateRulerT
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#effect DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#key DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#operator DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#toleration_seconds DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#value DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6102,19 +6102,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateRuler 
   /**
   * NodeSelector defines the labels required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#node_selector DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Replicas defines the number of replica pods of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replicas DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Tolerations defines the tolerations required by a node to schedule the component onto it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tolerations DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateRulerTolerations[] | cdktf.IResolvable;
 }
@@ -6268,49 +6268,49 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplate {
   /**
   * Compactor defines the compaction component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#compactor DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#compactor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#compactor DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#compactor}
   */
   readonly compactor?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateCompactor;
   /**
   * Distributor defines the distributor component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#distributor DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#distributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#distributor DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#distributor}
   */
   readonly distributor?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateDistributor;
   /**
   * Gateway defines the lokistack gateway component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#gateway DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#gateway DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#gateway}
   */
   readonly gateway?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateGateway;
   /**
   * IndexGateway defines the index gateway component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#index_gateway DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#index_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#index_gateway DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#index_gateway}
   */
   readonly indexGateway?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateIndexGateway;
   /**
   * Ingester defines the ingester component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingester DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingester}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ingester DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ingester}
   */
   readonly ingester?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateIngester;
   /**
   * Querier defines the querier component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#querier DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#querier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#querier DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#querier}
   */
   readonly querier?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateQuerier;
   /**
   * QueryFrontend defines the query frontend component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#query_frontend DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#query_frontend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#query_frontend DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#query_frontend}
   */
   readonly queryFrontend?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateQueryFrontend;
   /**
   * Ruler defines the ruler component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ruler DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ruler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#ruler DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#ruler}
   */
   readonly ruler?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplateRuler;
 }
@@ -6609,7 +6609,7 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthent
   /**
   * Name of a secret in the namespace configured for tenant secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -6702,31 +6702,31 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthent
   /**
   * Group claim field from ID Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#group_claim DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#group_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#group_claim DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#group_claim}
   */
   readonly groupClaim?: string;
   /**
   * IssuerURL defines the URL for issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#issuer_url DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#issuer_url DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * RedirectURL defines the URL for redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#redirect_url DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#redirect_url DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * Secret defines the spec for the clientID, clientSecret and issuerCAPath for tenant's authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#secret DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#secret DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#secret}
   */
   readonly secret: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthenticationOidcSecret;
   /**
   * User claim field from ID Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#username_claim DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#username_claim DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#username_claim}
   */
   readonly usernameClaim?: string;
 }
@@ -6932,19 +6932,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthent
   /**
   * OIDC defines the spec for the OIDC tenant's authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#oidc DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#oidc DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#oidc}
   */
   readonly oidc: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthenticationOidc;
   /**
   * TenantID defines the id of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenant_id DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenant_id DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenant_id}
   */
   readonly tenantId: string;
   /**
   * TenantName defines the name of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenant_name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenant_name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenant_name}
   */
   readonly tenantName: string;
 }
@@ -7111,7 +7111,7 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthori
   /**
   * URL defines the third-party endpoint for authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#url DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#url DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#url}
   */
   readonly url: string;
 }
@@ -7204,11 +7204,11 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthori
   /**
   * SubjectKind is a kind of LokiStack Gateway RBAC subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#kind DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#kind DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -7347,15 +7347,15 @@ export class DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorizati
 }
 export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorizationRoleBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#roles DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#roles DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#roles}
   */
   readonly roles: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#subjects DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#subjects DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#subjects}
   */
   readonly subjects: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorizationRoleBindingsSubjects[] | cdktf.IResolvable;
 }
@@ -7520,19 +7520,19 @@ export class DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorizati
 }
 export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorizationRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#permissions DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#permissions DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#permissions}
   */
   readonly permissions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#resources DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#resources DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#resources}
   */
   readonly resources: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenants DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenants DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenants}
   */
   readonly tenants: string[];
 }
@@ -7725,19 +7725,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthori
   /**
   * OPA defines the spec for the third-party endpoint for tenant's authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#opa DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#opa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#opa DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#opa}
   */
   readonly opa?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorizationOpa;
   /**
   * RoleBindings defines configuration to bind a set of roles to a set of subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#role_bindings DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#role_bindings DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#role_bindings}
   */
   readonly roleBindings?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorizationRoleBindings[] | cdktf.IResolvable;
   /**
   * Roles defines a set of permissions to interact with a tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#roles DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#roles DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#roles}
   */
   readonly roles?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorizationRoles[] | cdktf.IResolvable;
 }
@@ -7891,19 +7891,19 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenants {
   /**
   * Authentication defines the lokistack-gateway component authentication configuration spec per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#authentication DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#authentication DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#authentication}
   */
   readonly authentication?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthentication[] | cdktf.IResolvable;
   /**
   * Authorization defines the lokistack-gateway component authorization configuration spec per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#authorization DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#authorization DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenantsAuthorization;
   /**
   * Mode defines the mode in which lokistack-gateway component will be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#mode DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#mode DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#mode}
   */
   readonly mode: string;
 }
@@ -8054,55 +8054,55 @@ export interface DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpec {
   /**
   * Limits defines the per-tenant limits to be applied to log stream processing and the per-tenant the config overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#limits DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#limits DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecLimits;
   /**
   * ManagementState defines if the CR should be managed by the operator or not. Default is managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#management_state DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#management_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#management_state DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#management_state}
   */
   readonly managementState: string;
   /**
   * ReplicationFactor defines the policy for log stream replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replication_factor DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#replication_factor DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
   * Rules defines the spec for the ruler component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#rules DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#rules DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#rules}
   */
   readonly rules?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecRules;
   /**
   * Size defines one of the support Loki deployment scale out sizes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#size DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#size}
   */
   readonly size: string;
   /**
   * Storage defines the spec for the object storage endpoint to store logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#storage DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#storage DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#storage}
   */
   readonly storage: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecStorage;
   /**
   * Storage class name defines the storage class for ingester/querier PVCs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#storage_class_name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#storage_class_name DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#storage_class_name}
   */
   readonly storageClassName: string;
   /**
   * Template defines the resource/limits/tolerations/nodeselectors per component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#template DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#template DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#template}
   */
   readonly template?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTemplate;
   /**
   * Tenants defines the per-tenant authentication and authorization spec for the lokistack-gateway component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenants DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#tenants DataK8SLokiGrafanaComLokiStackV1Beta1Manifest#tenants}
   */
   readonly tenants?: DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecTenants;
 }
@@ -8416,7 +8416,7 @@ export class DataK8SLokiGrafanaComLokiStackV1Beta1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest k8s_loki_grafana_com_loki_stack_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest k8s_loki_grafana_com_loki_stack_v1beta1_manifest}
 */
 export class DataK8SLokiGrafanaComLokiStackV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -8432,7 +8432,7 @@ export class DataK8SLokiGrafanaComLokiStackV1Beta1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SLokiGrafanaComLokiStackV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLokiGrafanaComLokiStackV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SLokiGrafanaComLokiStackV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLokiGrafanaComLokiStackV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLokiGrafanaComLokiStackV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8444,7 +8444,7 @@ export class DataK8SLokiGrafanaComLokiStackV1Beta1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest k8s_loki_grafana_com_loki_stack_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/loki_grafana_com_loki_stack_v1beta1_manifest k8s_loki_grafana_com_loki_stack_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8455,8 +8455,8 @@ export class DataK8SLokiGrafanaComLokiStackV1Beta1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_loki_grafana_com_loki_stack_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

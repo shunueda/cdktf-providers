@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface RipGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable demand circuit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#demand_circuit RipGroup#demand_circuit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#demand_circuit RipGroup#demand_circuit}
   */
   readonly demandCircuit?: boolean | cdktf.IResolvable;
   /**
   * Export policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#export RipGroup#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#export RipGroup#export}
   */
   readonly export?: string[];
   /**
   * Import policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#import RipGroup#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#import RipGroup#import}
   */
   readonly import?: string[];
   /**
   * Maximum time to re-transmit a message in demand-circuit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#max_retrans_time RipGroup#max_retrans_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#max_retrans_time RipGroup#max_retrans_time}
   */
   readonly maxRetransTime?: number;
   /**
   * Default metric of exported routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#metric_out RipGroup#metric_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#metric_out RipGroup#metric_out}
   */
   readonly metricOut?: number;
   /**
   * The name of group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#name RipGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#name RipGroup#name}
   */
   readonly name: string;
   /**
   * Protocol `ripng` instead of `rip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#ng RipGroup#ng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#ng RipGroup#ng}
   */
   readonly ng?: boolean | cdktf.IResolvable;
   /**
   * Preference of routes learned by this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#preference RipGroup#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#preference RipGroup#preference}
   */
   readonly preference?: number;
   /**
   * Delay before routes time out (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#route_timeout RipGroup#route_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#route_timeout RipGroup#route_timeout}
   */
   readonly routeTimeout?: number;
   /**
   * Routing instance for RIP group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#routing_instance RipGroup#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#routing_instance RipGroup#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Interval between regular route updates (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#update_interval RipGroup#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#update_interval RipGroup#update_interval}
   */
   readonly updateInterval?: number;
   /**
   * bfd_liveness_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#bfd_liveness_detection RipGroup#bfd_liveness_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#bfd_liveness_detection RipGroup#bfd_liveness_detection}
   */
   readonly bfdLivenessDetection?: RipGroupBfdLivenessDetection;
 }
@@ -84,67 +84,67 @@ export interface RipGroupBfdLivenessDetection {
   /**
   * Authentication algorithm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#authentication_algorithm RipGroup#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#authentication_algorithm RipGroup#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * Authentication key chain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#authentication_key_chain RipGroup#authentication_key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#authentication_key_chain RipGroup#authentication_key_chain}
   */
   readonly authenticationKeyChain?: string;
   /**
   * Verify authentication only if authentication is negotiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#authentication_loose_check RipGroup#authentication_loose_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#authentication_loose_check RipGroup#authentication_loose_check}
   */
   readonly authenticationLooseCheck?: boolean | cdktf.IResolvable;
   /**
   * High detection-time triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#detection_time_threshold RipGroup#detection_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#detection_time_threshold RipGroup#detection_time_threshold}
   */
   readonly detectionTimeThreshold?: number;
   /**
   * Minimum transmit and receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#minimum_interval RipGroup#minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#minimum_interval RipGroup#minimum_interval}
   */
   readonly minimumInterval?: number;
   /**
   * Minimum receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#minimum_receive_interval RipGroup#minimum_receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#minimum_receive_interval RipGroup#minimum_receive_interval}
   */
   readonly minimumReceiveInterval?: number;
   /**
   * Detection time multiplier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#multiplier RipGroup#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#multiplier RipGroup#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Disable adaptation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#no_adaptation RipGroup#no_adaptation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#no_adaptation RipGroup#no_adaptation}
   */
   readonly noAdaptation?: boolean | cdktf.IResolvable;
   /**
   * Minimum transmit interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#transmit_interval_minimum_interval RipGroup#transmit_interval_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#transmit_interval_minimum_interval RipGroup#transmit_interval_minimum_interval}
   */
   readonly transmitIntervalMinimumInterval?: number;
   /**
   * High transmit interval triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#transmit_interval_threshold RipGroup#transmit_interval_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#transmit_interval_threshold RipGroup#transmit_interval_threshold}
   */
   readonly transmitIntervalThreshold?: number;
   /**
   * BFD protocol version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#version RipGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#version RipGroup#version}
   */
   readonly version?: string;
 }
@@ -528,7 +528,7 @@ export class RipGroupBfdLivenessDetectionOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group junos_rip_group}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group junos_rip_group}
 */
 export class RipGroup extends cdktf.TerraformResource {
 
@@ -544,7 +544,7 @@ export class RipGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RipGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RipGroup to import
-  * @param importFromId The id of the existing RipGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RipGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RipGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -556,7 +556,7 @@ export class RipGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rip_group junos_rip_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rip_group junos_rip_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -567,8 +567,8 @@ export class RipGroup extends cdktf.TerraformResource {
       terraformResourceType: 'junos_rip_group',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

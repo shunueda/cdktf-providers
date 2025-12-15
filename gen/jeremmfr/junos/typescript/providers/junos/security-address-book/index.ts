@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SecurityAddressBookConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of zones to attach address book to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#attach_zone SecurityAddressBook#attach_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#attach_zone SecurityAddressBook#attach_zone}
   */
   readonly attachZone?: string[];
   /**
   * The description of the address book.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#description SecurityAddressBook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#description SecurityAddressBook#description}
   */
   readonly description?: string;
   /**
   * The name of address book.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#name SecurityAddressBook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#name SecurityAddressBook#name}
   */
   readonly name?: string;
   /**
   * address_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#address_set SecurityAddressBook#address_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#address_set SecurityAddressBook#address_set}
   */
   readonly addressSet?: SecurityAddressBookAddressSet[] | cdktf.IResolvable;
   /**
   * dns_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#dns_name SecurityAddressBook#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#dns_name SecurityAddressBook#dns_name}
   */
   readonly dnsName?: SecurityAddressBookDnsName[] | cdktf.IResolvable;
   /**
   * network_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#network_address SecurityAddressBook#network_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#network_address SecurityAddressBook#network_address}
   */
   readonly networkAddress?: SecurityAddressBookNetworkAddress[] | cdktf.IResolvable;
   /**
   * range_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#range_address SecurityAddressBook#range_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#range_address SecurityAddressBook#range_address}
   */
   readonly rangeAddress?: SecurityAddressBookRangeAddress[] | cdktf.IResolvable;
   /**
   * wildcard_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#wildcard_address SecurityAddressBook#wildcard_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#wildcard_address SecurityAddressBook#wildcard_address}
   */
   readonly wildcardAddress?: SecurityAddressBookWildcardAddress[] | cdktf.IResolvable;
 }
@@ -60,25 +60,25 @@ export interface SecurityAddressBookAddressSet {
   /**
   * List of address names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#address SecurityAddressBook#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#address SecurityAddressBook#address}
   */
   readonly address?: string[];
   /**
   * List of address-set names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#address_set SecurityAddressBook#address_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#address_set SecurityAddressBook#address_set}
   */
   readonly addressSet?: string[];
   /**
   * Description of address-set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#description SecurityAddressBook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#description SecurityAddressBook#description}
   */
   readonly description?: string;
   /**
   * Name of address-set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#name SecurityAddressBook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#name SecurityAddressBook#name}
   */
   readonly name: string;
 }
@@ -280,31 +280,31 @@ export interface SecurityAddressBookDnsName {
   /**
   * Description of dns name address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#description SecurityAddressBook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#description SecurityAddressBook#description}
   */
   readonly description?: string;
   /**
   * IPv4 dns address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#ipv4_only SecurityAddressBook#ipv4_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#ipv4_only SecurityAddressBook#ipv4_only}
   */
   readonly ipv4Only?: boolean | cdktf.IResolvable;
   /**
   * IPv6 dns address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#ipv6_only SecurityAddressBook#ipv6_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#ipv6_only SecurityAddressBook#ipv6_only}
   */
   readonly ipv6Only?: boolean | cdktf.IResolvable;
   /**
   * Name of dns name address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#name SecurityAddressBook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#name SecurityAddressBook#name}
   */
   readonly name: string;
   /**
   * DNS name string value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#value SecurityAddressBook#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#value SecurityAddressBook#value}
   */
   readonly value: string;
 }
@@ -532,19 +532,19 @@ export interface SecurityAddressBookNetworkAddress {
   /**
   * Description of network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#description SecurityAddressBook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#description SecurityAddressBook#description}
   */
   readonly description?: string;
   /**
   * Name of network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#name SecurityAddressBook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#name SecurityAddressBook#name}
   */
   readonly name: string;
   /**
   * CIDR value of network address (`192.0.0.0/24`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#value SecurityAddressBook#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#value SecurityAddressBook#value}
   */
   readonly value: string;
 }
@@ -714,25 +714,25 @@ export interface SecurityAddressBookRangeAddress {
   /**
   * Description of range address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#description SecurityAddressBook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#description SecurityAddressBook#description}
   */
   readonly description?: string;
   /**
   * IP address of start of range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#from SecurityAddressBook#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#from SecurityAddressBook#from}
   */
   readonly from: string;
   /**
   * Name of range address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#name SecurityAddressBook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#name SecurityAddressBook#name}
   */
   readonly name: string;
   /**
   * IP address of end of range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#to SecurityAddressBook#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#to SecurityAddressBook#to}
   */
   readonly to: string;
 }
@@ -928,19 +928,19 @@ export interface SecurityAddressBookWildcardAddress {
   /**
   * Description of wildcard address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#description SecurityAddressBook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#description SecurityAddressBook#description}
   */
   readonly description?: string;
   /**
   * Name of wildcard address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#name SecurityAddressBook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#name SecurityAddressBook#name}
   */
   readonly name: string;
   /**
   * Network and mask of wildcard address (`192.0.0.0/255.255.0.255`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#value SecurityAddressBook#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#value SecurityAddressBook#value}
   */
   readonly value: string;
 }
@@ -1108,7 +1108,7 @@ export class SecurityAddressBookWildcardAddressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book junos_security_address_book}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book junos_security_address_book}
 */
 export class SecurityAddressBook extends cdktf.TerraformResource {
 
@@ -1124,7 +1124,7 @@ export class SecurityAddressBook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityAddressBook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityAddressBook to import
-  * @param importFromId The id of the existing SecurityAddressBook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityAddressBook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityAddressBook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1136,7 +1136,7 @@ export class SecurityAddressBook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_address_book junos_security_address_book} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_address_book junos_security_address_book} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1147,8 +1147,8 @@ export class SecurityAddressBook extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_address_book',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -144,6 +144,7 @@ export * as organizationmanagerIdpApplicationSamlApplication from './organizatio
 export * as organizationmanagerIdpApplicationSamlSignatureCertificate from './organizationmanager-idp-application-saml-signature-certificate';
 export * as organizationmanagerIdpUser from './organizationmanager-idp-user';
 export * as organizationmanagerIdpUserpool from './organizationmanager-idp-userpool';
+export * as organizationmanagerMfaEnforcement from './organizationmanager-mfa-enforcement';
 export * as organizationmanagerOrganizationIamBinding from './organizationmanager-organization-iam-binding';
 export * as organizationmanagerOrganizationIamMember from './organizationmanager-organization-iam-member';
 export * as organizationmanagerOsLoginSettings from './organizationmanager-os-login-settings';
@@ -297,6 +298,7 @@ export * as dataYandexOrganizationmanagerIdpApplicationSamlApplication from './d
 export * as dataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate from './data-yandex-organizationmanager-idp-application-saml-signature-certificate';
 export * as dataYandexOrganizationmanagerIdpUser from './data-yandex-organizationmanager-idp-user';
 export * as dataYandexOrganizationmanagerIdpUserpool from './data-yandex-organizationmanager-idp-userpool';
+export * as dataYandexOrganizationmanagerMfaEnforcement from './data-yandex-organizationmanager-mfa-enforcement';
 export * as dataYandexOrganizationmanagerOsLoginSettings from './data-yandex-organizationmanager-os-login-settings';
 export * as dataYandexOrganizationmanagerSamlFederation from './data-yandex-organizationmanager-saml-federation';
 export * as dataYandexOrganizationmanagerSamlFederationUserAccount from './data-yandex-organizationmanager-saml-federation-user-account';

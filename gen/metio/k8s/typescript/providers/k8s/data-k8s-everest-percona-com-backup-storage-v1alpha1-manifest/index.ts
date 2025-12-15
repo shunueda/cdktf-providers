@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEverestPerconaComBackupStorageV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#metadata DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#metadata DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEverestPerconaComBackupStorageV1Alpha1ManifestMetadata;
   /**
   * BackupStorageSpec defines the desired state of BackupStorage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#spec DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#spec DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEverestPerconaComBackupStorageV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEverestPerconaComBackupStorageV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#annotations DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#annotations DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#labels DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#labels DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#name DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#name DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#namespace DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#namespace DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,55 +219,55 @@ export interface DataK8SEverestPerconaComBackupStorageV1Alpha1ManifestSpec {
   /**
   * AllowedNamespaces is the list of namespaces where the operator will copy secrets provided in the CredentialsSecretsName. Deprecated: BackupStorages are now used only in the namespaces where they are created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#allowed_namespaces DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#allowed_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#allowed_namespaces DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#allowed_namespaces}
   */
   readonly allowedNamespaces?: string[];
   /**
   * Bucket is a name of bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#bucket DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#bucket DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#bucket}
   */
   readonly bucket: string;
   /**
   * CredentialsSecretName is the name of the secret with credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#credentials_secret_name DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#credentials_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#credentials_secret_name DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#credentials_secret_name}
   */
   readonly credentialsSecretName: string;
   /**
   * Description stores description of a backup storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#description DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#description DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * EndpointURL is an endpoint URL of backup storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#endpoint_url DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#endpoint_url DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
   * ForcePathStyle is set to use path-style URLs. If unspecified, the default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#force_path_style DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#force_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#force_path_style DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#force_path_style}
   */
   readonly forcePathStyle?: boolean | cdktf.IResolvable;
   /**
   * Region is a region where the bucket is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#region DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#region DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
   * Type is a type of backup storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#type DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#type DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * VerifyTLS is set to ensure TLS/SSL verification. If unspecified, the default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#verify_tls DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#verify_tls DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
 }
@@ -584,7 +584,7 @@ export class DataK8SEverestPerconaComBackupStorageV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest k8s_everest_percona_com_backup_storage_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest k8s_everest_percona_com_backup_storage_v1alpha1_manifest}
 */
 export class DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -600,7 +600,7 @@ export class DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -612,7 +612,7 @@ export class DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest k8s_everest_percona_com_backup_storage_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/everest_percona_com_backup_storage_v1alpha1_manifest k8s_everest_percona_com_backup_storage_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -623,8 +623,8 @@ export class DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_everest_percona_com_backup_storage_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

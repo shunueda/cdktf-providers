@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestMetadata;
   /**
   * APIMgmtSpec defines the desired state of APIMgmt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#spec DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#spec DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#labels DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#labels DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#name DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#name DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpecPropertie
   /**
   * Description - Description of API Version Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#description DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#description DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * ID - Identifier for existing API Version Set. Omit this value to create a new Version Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#id DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#id DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -234,7 +234,7 @@ export interface DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpecPropertie
   /**
   * Name - The display Name of the API Version Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#name DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#name DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -388,97 +388,97 @@ export interface DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpecPropertie
   /**
   * APIRevision - Describes the Revision of the Api. If no value is provided, default revision 1 is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_revision DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_revision DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_revision}
   */
   readonly apiRevision?: string;
   /**
   * APIRevisionDescription - Description of the Api Revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_revision_description DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_revision_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_revision_description DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_revision_description}
   */
   readonly apiRevisionDescription?: string;
   /**
   * APIVersion - Indicates the Version identifier of the API if the API is versioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_version DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_version DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * APIVersionDescription - Description of the Api Version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_version_description DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_version_description DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_version_description}
   */
   readonly apiVersionDescription?: string;
   /**
   * APIVersionSetID - A resource identifier for the related ApiVersionSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_version_set_id DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_version_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_version_set_id DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_version_set_id}
   */
   readonly apiVersionSetId?: string;
   /**
   * APIVersionSet - APIVersionSetContractDetails an API Version Set contains the common configuration for a set of API versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_version_sets DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_version_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_version_sets DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_version_sets}
   */
   readonly apiVersionSets?: DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpecPropertiesApiVersionSets;
   /**
   * Description - Description of the API. May include HTML formatting tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#description DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#description DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * DisplayName - API name. Must be 1 to 300 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#display_name DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#display_name DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
   * Format - Format of the Content in which the API is getting imported. Possible values include: 'WadlXML', 'WadlLinkJSON', 'SwaggerJSON', 'SwaggerLinkJSON', 'Wsdl', 'WsdlLink', 'Openapi', 'Openapijson', 'OpenapiLink'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#format DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#format DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * IsCurrent - Indicates if API revision is current api revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#is_current DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#is_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#is_current DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#is_current}
   */
   readonly isCurrent?: boolean | cdktf.IResolvable;
   /**
   * IsOnline - READ-ONLY; Indicates if API revision is accessible via the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#is_online DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#is_online}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#is_online DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#is_online}
   */
   readonly isOnline?: boolean | cdktf.IResolvable;
   /**
   * Path - Relative URL uniquely identifying this API and all of its resource paths within the API Management service instance. It is appended to the API endpoint base URL specified during the service instance creation to form a public URL for this API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#path DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#path DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Protocols - Describes on which protocols the operations in this API can be invoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#protocols DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#protocols DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#protocols}
   */
   readonly protocols?: string[];
   /**
   * ServiceURL - Absolute URL of the backend service implementing this API. Cannot be more than 2000 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#service_url DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#service_url DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#service_url}
   */
   readonly serviceUrl?: string;
   /**
   * SourceAPIID - API identifier of the source API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#source_api_id DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#source_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#source_api_id DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#source_api_id}
   */
   readonly sourceApiId?: string;
   /**
   * SubscriptionRequired - Specifies whether an API or Product subscription is required for accessing the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#subscription_required DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#subscription_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#subscription_required DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#subscription_required}
   */
   readonly subscriptionRequired?: boolean | cdktf.IResolvable;
 }
@@ -1007,23 +1007,23 @@ export class DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpecPropertiesOut
 }
 export interface DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_id DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_id DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_id}
   */
   readonly apiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_service DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#api_service DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#api_service}
   */
   readonly apiService: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#location DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#location DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#properties DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#properties DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#properties}
   */
   readonly properties: DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpecProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest#resource_group}
   */
   readonly resourceGroup: string;
 }
@@ -1218,7 +1218,7 @@ export class DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest k8s_azure_microsoft_com_api_mgmt_api_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest k8s_azure_microsoft_com_api_mgmt_api_v1alpha1_manifest}
 */
 export class DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1234,7 +1234,7 @@ export class DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1246,7 +1246,7 @@ export class DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest k8s_azure_microsoft_com_api_mgmt_api_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/azure_microsoft_com_api_mgmt_api_v1alpha1_manifest k8s_azure_microsoft_com_api_mgmt_api_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1257,8 +1257,8 @@ export class DataK8SAzureMicrosoftComApiMgmtApiV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_azure_microsoft_com_api_mgmt_api_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

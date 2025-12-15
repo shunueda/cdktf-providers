@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export interface DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestSpecB
   /**
   * BackupRetention is the number of successful backups to keep around. The default is 7. A value of 0 means 'do not delete backups based on count'. Max of 512 allows for ~21 days of hourly backups or ~1.4 years of daily backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_retention DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_retention DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_retention}
   */
   readonly backupRetention?: number;
 }
@@ -313,109 +313,109 @@ export interface DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestSpecB
   /**
   * For a Physical backup this slice can be used to indicate what PDBs, schemas, tablespaces or tables to back up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_items DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_items DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_items}
   */
   readonly backupItems?: string[];
   /**
   * For a Physical backup the choices are Backupset and Image Copies. Backupset is the default, but if Image Copies are required, flip this flag to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backupset DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backupset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backupset DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backupset}
   */
   readonly backupset?: boolean | cdktf.IResolvable;
   /**
   * For a Physical backup, optionally turn on an additional 'check logical' option. The default is off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#check_logical DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#check_logical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#check_logical DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#check_logical}
   */
   readonly checkLogical?: boolean | cdktf.IResolvable;
   /**
   * For a Physical backup, optionally turn on compression, by flipping this flag to true. The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#compressed DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#compressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#compressed DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#compressed}
   */
   readonly compressed?: boolean | cdktf.IResolvable;
   /**
   * For a Physical backup, optionally indicate a degree of parallelism also known as DOP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#dop DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#dop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#dop DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#dop}
   */
   readonly dop?: number;
   /**
   * For a Physical backup, optionally specify filesperset. The default depends on a type of backup, generally 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#filesperset DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#filesperset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#filesperset DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#filesperset}
   */
   readonly filesperset?: number;
   /**
   * Similar to GcsPath but specify a Gcs directory. The backup sets of physical backup will be transferred to this GcsDir under a folder named .backup.Spec.Name. This field is usually set in .backupSchedule.Spec.backSpec to specify a GcsDir which all scheduled backups will be uploaded to. A user is to ensure proper write access to the bucket from within the Oracle Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#gcs_dir DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#gcs_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#gcs_dir DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#gcs_dir}
   */
   readonly gcsDir?: string;
   /**
   * If set up ahead of time, the backup sets of a physical backup can be optionally transferred to a GCS bucket. A user is to ensure proper write access to the bucket from within the Oracle Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#gcs_path DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#gcs_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#gcs_path DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#gcs_path}
   */
   readonly gcsPath?: string;
   /**
   * Instance is a name of an instance to take a backup for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#instance DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#instance DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#instance}
   */
   readonly instance?: string;
   /**
   * KeepDataOnDeletion defines whether to keep backup data when backup resource is removed. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#keep_data_on_deletion DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#keep_data_on_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#keep_data_on_deletion DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#keep_data_on_deletion}
   */
   readonly keepDataOnDeletion?: boolean | cdktf.IResolvable;
   /**
   * For a Physical backup, optionally specify an incremental level. The default is 0 (the whole database).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#level DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#level DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#level}
   */
   readonly level?: number;
   /**
   * For a Physical backup, optionally specify a local backup dir. If omitted, /u03/app/oracle/rman is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#local_path DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#local_path DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
   * Mode specifies how this backup will be managed by the operator. if it is not set, the operator tries to create a backup based on the specifications. if it is set to VerifyExists, the operator verifies the existence of a backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#mode DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#mode DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * For a Physical backup, optionally specify a section size in various units (K M G).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#section_size DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#section_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#section_size DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#section_size}
   */
   readonly sectionSize?: string;
   /**
   * Backup sub-type, which is only relevant for a Physical backup type (e.g. RMAN). If omitted, the default of Instance(Level) is assumed. Supported options at this point are: Instance or Database level backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#sub_type DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#sub_type DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#sub_type}
   */
   readonly subType?: string;
   /**
   * For a Physical backup, optionally specify the time threshold. If a threshold is reached, the backup request would time out and error out. The threshold is expressed in minutes. Don't include the unit (minutes), just the integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#time_limit_minutes DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#time_limit_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#time_limit_minutes DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#time_limit_minutes}
   */
   readonly timeLimitMinutes?: number;
   /**
   * Type describes a type of a backup to take. Immutable. Available options are: - Snapshot: storage level disk snapshot. - Physical: database engine specific backup that relies on a redo stream / continuous archiving (WAL) and may allow a PITR. Examples include pg_backup, pgBackRest, mysqlbackup. A Physical backup may be file based or database block based (e.g. Oracle RMAN). - Logical: database engine specific backup that relies on running SQL statements, e.g. mysqldump, pg_dump, expdp. If not specified, the default of Snapshot is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * VolumeSnapshotClass points to a particular CSI driver and is used for taking a volume snapshot. If requested here at the Backup level, this setting overrides the platform default as well as the default set via the Config (global user preferences).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#volume_snapshot_class DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#volume_snapshot_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#volume_snapshot_class DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#volume_snapshot_class}
   */
   readonly volumeSnapshotClass?: string;
 }
@@ -1004,37 +1004,37 @@ export interface DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestSpec 
   /**
   * BackupLabels define the desired labels that scheduled backups will be created with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_labels DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_labels DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_labels}
   */
   readonly backupLabels?: { [key: string]: string };
   /**
   * BackupRetentionPolicy is the policy used to trigger automatic deletion of backups produced from this BackupSchedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_retention_policy DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_retention_policy DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_retention_policy}
   */
   readonly backupRetentionPolicy?: DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestSpecBackupRetentionPolicy;
   /**
   * BackupSpec defines the Backup that will be created on the provided schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_spec DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#backup_spec DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#backup_spec}
   */
   readonly backupSpec: DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestSpecBackupSpec;
   /**
   * Schedule is a cron-style expression of the schedule on which Backup will be created. For allowed syntax, see en.wikipedia.org/wiki/Cron and godoc.org/github.com/robfig/cron.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#schedule DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#schedule DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#schedule}
   */
   readonly schedule: string;
   /**
   * StartingDeadlineSeconds is an optional deadline in seconds for starting the backup creation if it misses scheduled time for any reason. The default is 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#starting_deadline_seconds DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#starting_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#starting_deadline_seconds DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#starting_deadline_seconds}
   */
   readonly startingDeadlineSeconds?: number;
   /**
   * Suspend tells the controller to suspend operations - both creation of new Backup and retention actions. This will not have any effect on backups currently in progress. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#suspend DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#suspend DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
 }
@@ -1267,7 +1267,7 @@ export class DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest k8s_oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest k8s_oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest}
 */
 export class DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1283,7 +1283,7 @@ export class DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1295,7 +1295,7 @@ export class DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest k8s_oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest k8s_oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1306,8 +1306,8 @@ export class DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

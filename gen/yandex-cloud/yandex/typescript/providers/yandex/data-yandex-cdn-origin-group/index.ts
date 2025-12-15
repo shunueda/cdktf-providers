@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cdn_origin_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/cdn_origin_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexCdnOriginGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cdn_origin_group#folder_id DataYandexCdnOriginGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/cdn_origin_group#folder_id DataYandexCdnOriginGroup#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cdn_origin_group#id DataYandexCdnOriginGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/cdn_origin_group#id DataYandexCdnOriginGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataYandexCdnOriginGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cdn_origin_group#name DataYandexCdnOriginGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/cdn_origin_group#name DataYandexCdnOriginGroup#name}
   */
   readonly name?: string;
   /**
   * The ID of a specific origin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cdn_origin_group#origin_group_id DataYandexCdnOriginGroup#origin_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/cdn_origin_group#origin_group_id DataYandexCdnOriginGroup#origin_group_id}
   */
   readonly originGroupId?: string;
 }
@@ -125,7 +125,7 @@ export class DataYandexCdnOriginGroupOriginList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cdn_origin_group yandex_cdn_origin_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/cdn_origin_group yandex_cdn_origin_group}
 */
 export class DataYandexCdnOriginGroup extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataYandexCdnOriginGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexCdnOriginGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexCdnOriginGroup to import
-  * @param importFromId The id of the existing DataYandexCdnOriginGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cdn_origin_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexCdnOriginGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/cdn_origin_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexCdnOriginGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataYandexCdnOriginGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.175.0/docs/data-sources/cdn_origin_group yandex_cdn_origin_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/cdn_origin_group yandex_cdn_origin_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataYandexCdnOriginGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_cdn_origin_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.175.0',
-        providerVersionConstraint: '0.175.0'
+        providerVersion: '0.176.0',
+        providerVersionConstraint: '0.176.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

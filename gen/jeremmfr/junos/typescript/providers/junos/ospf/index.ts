@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface OspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disable OSPF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#disable Ospf#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#disable Ospf#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Configure domain ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#domain_id Ospf#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#domain_id Ospf#domain_id}
   */
   readonly domainId?: string;
   /**
   * Export policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#export Ospf#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#export Ospf#export}
   */
   readonly export?: string[];
   /**
   * Preference of external routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#external_preference Ospf#external_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#external_preference Ospf#external_preference}
   */
   readonly externalPreference?: number;
   /**
   * Set forwarding address in Type 5 LSA in broadcast network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#forwarding_address_to_broadcast Ospf#forwarding_address_to_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#forwarding_address_to_broadcast Ospf#forwarding_address_to_broadcast}
   */
   readonly forwardingAddressToBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Import policy (for external routes or setting priority).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#import Ospf#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#import Ospf#import}
   */
   readonly import?: string[];
   /**
   * Preference of labeled routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#labeled_preference Ospf#labeled_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#labeled_preference Ospf#labeled_preference}
   */
   readonly labeledPreference?: number;
   /**
   * SA refresh interval (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#lsa_refresh_interval Ospf#lsa_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#lsa_refresh_interval Ospf#lsa_refresh_interval}
   */
   readonly lsaRefreshInterval?: number;
   /**
   * Disable full NSSA functionality at ABR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#no_nssa_abr Ospf#no_nssa_abr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#no_nssa_abr Ospf#no_nssa_abr}
   */
   readonly noNssaAbr?: boolean | cdktf.IResolvable;
   /**
   * Disable RFC1583 compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#no_rfc1583 Ospf#no_rfc1583}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#no_rfc1583 Ospf#no_rfc1583}
   */
   readonly noRfc1583?: boolean | cdktf.IResolvable;
   /**
   * Preference of internal routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#preference Ospf#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#preference Ospf#preference}
   */
   readonly preference?: number;
   /**
   * Maximum number of prefixes that can be exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#prefix_export_limit Ospf#prefix_export_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#prefix_export_limit Ospf#prefix_export_limit}
   */
   readonly prefixExportLimit?: number;
   /**
   * Bandwidth for calculating metric defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#reference_bandwidth Ospf#reference_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#reference_bandwidth Ospf#reference_bandwidth}
   */
   readonly referenceBandwidth?: string;
   /**
   * Routing table group for importing OSPF routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#rib_group Ospf#rib_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#rib_group Ospf#rib_group}
   */
   readonly ribGroup?: string;
   /**
   * Routing instance for ospf protocol if not root level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#routing_instance Ospf#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#routing_instance Ospf#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Configure parameters for sham links.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#sham_link Ospf#sham_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#sham_link Ospf#sham_link}
   */
   readonly shamLink?: boolean | cdktf.IResolvable;
   /**
   * Local sham link endpoint address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#sham_link_local Ospf#sham_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#sham_link_local Ospf#sham_link_local}
   */
   readonly shamLinkLocal?: string;
   /**
   * Version of ospf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#version Ospf#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#version Ospf#version}
   */
   readonly version?: string;
   /**
   * database_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#database_protection Ospf#database_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#database_protection Ospf#database_protection}
   */
   readonly databaseProtection?: OspfDatabaseProtection;
   /**
   * graceful_restart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#graceful_restart Ospf#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#graceful_restart Ospf#graceful_restart}
   */
   readonly gracefulRestart?: OspfGracefulRestart;
   /**
   * overload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#overload Ospf#overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#overload Ospf#overload}
   */
   readonly overload?: OspfOverload;
   /**
   * spf_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#spf_options Ospf#spf_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#spf_options Ospf#spf_options}
   */
   readonly spfOptions?: OspfSpfOptions;
 }
@@ -144,37 +144,37 @@ export interface OspfDatabaseProtection {
   /**
   * Maximum number of times to go into ignore state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#ignore_count Ospf#ignore_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#ignore_count Ospf#ignore_count}
   */
   readonly ignoreCount?: number;
   /**
   * Time to stay in ignore state and ignore all neighbors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#ignore_time Ospf#ignore_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#ignore_time Ospf#ignore_time}
   */
   readonly ignoreTime?: number;
   /**
   * Maximum allowed non self-generated LSAs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#maximum_lsa Ospf#maximum_lsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#maximum_lsa Ospf#maximum_lsa}
   */
   readonly maximumLsa?: number;
   /**
   * Time after which the ignore count gets reset to zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#reset_time Ospf#reset_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#reset_time Ospf#reset_time}
   */
   readonly resetTime?: number;
   /**
   * Emit only a warning when LSA maximum limit is exceeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#warning_only Ospf#warning_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#warning_only Ospf#warning_only}
   */
   readonly warningOnly?: boolean | cdktf.IResolvable;
   /**
   * Percentage of LSA maximum above which to trigger warning (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#warning_threshold Ospf#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#warning_threshold Ospf#warning_threshold}
   */
   readonly warningThreshold?: number;
 }
@@ -415,37 +415,37 @@ export interface OspfGracefulRestart {
   /**
   * Disable OSPF graceful restart capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#disable Ospf#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#disable Ospf#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Disable graceful restart helper capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#helper_disable Ospf#helper_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#helper_disable Ospf#helper_disable}
   */
   readonly helperDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable graceful restart helper capability for specific type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#helper_disable_type Ospf#helper_disable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#helper_disable_type Ospf#helper_disable_type}
   */
   readonly helperDisableType?: string;
   /**
   * Do not abort graceful helper mode upon LSA changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#no_strict_lsa_checking Ospf#no_strict_lsa_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#no_strict_lsa_checking Ospf#no_strict_lsa_checking}
   */
   readonly noStrictLsaChecking?: boolean | cdktf.IResolvable;
   /**
   * Time to send all max-aged grace LSAs (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#notify_duration Ospf#notify_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#notify_duration Ospf#notify_duration}
   */
   readonly notifyDuration?: number;
   /**
   * Time for all neighbors to become full (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#restart_duration Ospf#restart_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#restart_duration Ospf#restart_duration}
   */
   readonly restartDuration?: number;
 }
@@ -686,25 +686,25 @@ export interface OspfOverload {
   /**
   * Allow routes to be leaked when overload is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#allow_route_leaking Ospf#allow_route_leaking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#allow_route_leaking Ospf#allow_route_leaking}
   */
   readonly allowRouteLeaking?: boolean | cdktf.IResolvable;
   /**
   * Advertise As External with maximum usable metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#as_external Ospf#as_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#as_external Ospf#as_external}
   */
   readonly asExternal?: boolean | cdktf.IResolvable;
   /**
   * Advertise Stub Network with maximum metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#stub_network Ospf#stub_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#stub_network Ospf#stub_network}
   */
   readonly stubNetwork?: boolean | cdktf.IResolvable;
   /**
   * Time after which overload mode is reset (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#timeout Ospf#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#timeout Ospf#timeout}
   */
   readonly timeout?: number;
 }
@@ -887,25 +887,25 @@ export interface OspfSpfOptions {
   /**
   * Time to wait before running an SPF (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#delay Ospf#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#delay Ospf#delay}
   */
   readonly delay?: number;
   /**
   * Time to hold down before running an SPF (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#holddown Ospf#holddown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#holddown Ospf#holddown}
   */
   readonly holddown?: number;
   /**
   * Do not ignore self-generated external and NSSA LSAs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#no_ignore_our_externals Ospf#no_ignore_our_externals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#no_ignore_our_externals Ospf#no_ignore_our_externals}
   */
   readonly noIgnoreOurExternals?: boolean | cdktf.IResolvable;
   /**
   * Number of maximum rapid SPF runs before holddown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#rapid_runs Ospf#rapid_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#rapid_runs Ospf#rapid_runs}
   */
   readonly rapidRuns?: number;
 }
@@ -1086,7 +1086,7 @@ export class OspfSpfOptionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf junos_ospf}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf junos_ospf}
 */
 export class Ospf extends cdktf.TerraformResource {
 
@@ -1102,7 +1102,7 @@ export class Ospf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ospf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ospf to import
-  * @param importFromId The id of the existing Ospf that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ospf that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ospf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1114,7 +1114,7 @@ export class Ospf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf junos_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf junos_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1125,8 +1125,8 @@ export class Ospf extends cdktf.TerraformResource {
       terraformResourceType: 'junos_ospf',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

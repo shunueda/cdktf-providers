@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#metadata DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#metadata DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestMetadata;
   /**
   * DBProxySpec defines the desired state of DBProxy. The data structure representing a proxy managed by the RDS Proxy. This data type is used as a response element in the DescribeDBProxies action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#spec DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#spec DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#annotations DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#annotations DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#labels DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#labels DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,27 +217,27 @@ export class DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestMetadataOutputRefere
 }
 export interface DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestSpecAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#auth_scheme DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#auth_scheme DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#auth_scheme}
   */
   readonly authScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#client_password_auth_type DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#client_password_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#client_password_auth_type DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#client_password_auth_type}
   */
   readonly clientPasswordAuthType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#description DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#description DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#iam_auth DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#iam_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#iam_auth DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#iam_auth}
   */
   readonly iamAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#secret_arn DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#secret_arn DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#user_name DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#user_name DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#user_name}
   */
   readonly userName?: string;
 }
@@ -498,11 +498,11 @@ export class DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestSpecAuthList extends
 }
 export interface DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#key DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#key DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#value DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#value DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -649,61 +649,61 @@ export interface DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestSpec {
   /**
   * The authorization mechanism that the proxy uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#auth DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#auth DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestSpecAuth[] | cdktf.IResolvable;
   /**
   * Whether the proxy includes detailed information about SQL statements in its logs. This information helps you to debug issues involving SQL behavior or the performance and scalability of the proxy connections. The debug information includes the text of SQL statements that you submit through the proxy. Thus, only enable this setting when needed for debugging, and only when you have security measures in place to safeguard any sensitive information that appears in the logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#debug_logging DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#debug_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#debug_logging DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#debug_logging}
   */
   readonly debugLogging?: boolean | cdktf.IResolvable;
   /**
   * The kinds of databases that the proxy can connect to. This value determines which database network protocol the proxy recognizes when it interprets network traffic to and from the database. For Aurora MySQL, RDS for MariaDB, and RDS for MySQL databases, specify MYSQL. For Aurora PostgreSQL and RDS for PostgreSQL databases, specify POSTGRESQL. For RDS for Microsoft SQL Server, specify SQLSERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#engine_family DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#engine_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#engine_family DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#engine_family}
   */
   readonly engineFamily: string;
   /**
   * The number of seconds that a connection to the proxy can be inactive before the proxy disconnects it. You can set this value higher or lower than the connection timeout limit for the associated database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#idle_client_timeout DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#idle_client_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#idle_client_timeout DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#idle_client_timeout}
   */
   readonly idleClientTimeout?: number;
   /**
   * The identifier for the proxy. This name must be unique for all proxies owned by your Amazon Web Services account in the specified Amazon Web Services Region. An identifier must begin with a letter and must contain only ASCII letters, digits, and hyphens; it can't end with a hyphen or contain two consecutive hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * A Boolean parameter that specifies whether Transport Layer Security (TLS) encryption is required for connections to the proxy. By enabling this setting, you can enforce encrypted TLS connections to the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#require_tls DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#require_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#require_tls DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#require_tls}
   */
   readonly requireTls?: boolean | cdktf.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the IAM role that the proxy uses to access secrets in Amazon Web Services Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#role_arn DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#role_arn DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#role_arn}
   */
   readonly roleArn: string;
   /**
   * An optional set of key-value pairs to associate arbitrary data of your choosing with the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#tags DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#tags DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * One or more VPC security group IDs to associate with the new proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#vpc_security_group_i_ds DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#vpc_security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#vpc_security_group_i_ds DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#vpc_security_group_i_ds}
   */
   readonly vpcSecurityGroupIDs?: string[];
   /**
   * One or more VPC subnet IDs to associate with the new proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#vpc_subnet_i_ds DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#vpc_subnet_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#vpc_subnet_i_ds DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest#vpc_subnet_i_ds}
   */
   readonly vpcSubnetIDs: string[];
 }
@@ -1043,7 +1043,7 @@ export class DataK8SRdsServicesK8SAwsDbProxyV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest k8s_rds_services_k8s_aws_db_proxy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest k8s_rds_services_k8s_aws_db_proxy_v1alpha1_manifest}
 */
 export class DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1059,7 +1059,7 @@ export class DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1071,7 +1071,7 @@ export class DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest k8s_rds_services_k8s_aws_db_proxy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/rds_services_k8s_aws_db_proxy_v1alpha1_manifest k8s_rds_services_k8s_aws_db_proxy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1082,8 +1082,8 @@ export class DataK8SRdsServicesK8SAwsDbProxyV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_rds_services_k8s_aws_db_proxy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

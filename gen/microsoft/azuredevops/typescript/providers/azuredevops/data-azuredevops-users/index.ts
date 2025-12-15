@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#id DataAzuredevopsUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#id DataAzuredevopsUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#origin DataAzuredevopsUsers#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#origin DataAzuredevopsUsers#origin}
   */
   readonly origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#origin_id DataAzuredevopsUsers#origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#origin_id DataAzuredevopsUsers#origin_id}
   */
   readonly originId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#principal_name DataAzuredevopsUsers#principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#principal_name DataAzuredevopsUsers#principal_name}
   */
   readonly principalName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#subject_types DataAzuredevopsUsers#subject_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#subject_types DataAzuredevopsUsers#subject_types}
   */
   readonly subjectTypes?: string[];
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#features DataAzuredevopsUsers#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#features DataAzuredevopsUsers#features}
   */
   readonly features?: DataAzuredevopsUsersFeatures;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#timeouts DataAzuredevopsUsers#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#timeouts DataAzuredevopsUsers#timeouts}
   */
   readonly timeouts?: DataAzuredevopsUsersTimeouts;
 }
@@ -150,7 +150,7 @@ export class DataAzuredevopsUsersUsersList extends cdktf.ComplexList {
 }
 export interface DataAzuredevopsUsersFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#concurrent_workers DataAzuredevopsUsers#concurrent_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#concurrent_workers DataAzuredevopsUsers#concurrent_workers}
   */
   readonly concurrentWorkers?: number;
 }
@@ -234,7 +234,7 @@ export class DataAzuredevopsUsersFeaturesOutputReference extends cdktf.ComplexOb
 }
 export interface DataAzuredevopsUsersTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#read DataAzuredevopsUsers#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#read DataAzuredevopsUsers#read}
   */
   readonly read?: string;
 }
@@ -328,7 +328,7 @@ export class DataAzuredevopsUsersTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users azuredevops_users}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users azuredevops_users}
 */
 export class DataAzuredevopsUsers extends cdktf.TerraformDataSource {
 
@@ -344,7 +344,7 @@ export class DataAzuredevopsUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsUsers to import
-  * @param importFromId The id of the existing DataAzuredevopsUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -356,7 +356,7 @@ export class DataAzuredevopsUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/users azuredevops_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.1/docs/data-sources/users azuredevops_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -367,8 +367,8 @@ export class DataAzuredevopsUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_users',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.12.0',
-        providerVersionConstraint: '1.12.0'
+        providerVersion: '1.12.1',
+        providerVersionConstraint: '1.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

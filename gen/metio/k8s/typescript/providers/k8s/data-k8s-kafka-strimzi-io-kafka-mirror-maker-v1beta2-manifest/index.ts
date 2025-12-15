@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestMetadata;
   /**
   * The specification of Kafka MirrorMaker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#spec DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#spec DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * The key under which the secret value is stored in the Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Kubernetes Secret containing the secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -344,19 +344,19 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * The name of the file certificate in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
   */
   readonly certificate: string;
   /**
   * The name of the private key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Secret containing the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -501,13 +501,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * The key under which the secret value is stored in the Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Kubernetes Secret containing the secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -626,13 +626,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * The key under which the secret value is stored in the Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Kubernetes Secret containing the secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -751,13 +751,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * The name of the key in the Secret under which the password is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#password DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#password DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#password}
   */
   readonly password: string;
   /**
   * The name of the Secret containing the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -876,13 +876,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * The key under which the secret value is stored in the Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Kubernetes Secret containing the secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -1001,19 +1001,19 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * The name of the file certificate in the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * Pattern for the certificate files in the secret. Use the link:https://en.wikipedia.org/wiki/Glob_(programming)[_glob syntax_] for the pattern. All files in the secret that match the pattern are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pattern DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pattern DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pattern}
   */
   readonly pattern?: string;
   /**
   * The name of the Secret containing the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -1186,157 +1186,157 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * Link to Kubernetes Secret containing the access token which was obtained from the authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token}
   */
   readonly accessToken?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerAuthenticationAccessToken;
   /**
   * Configure whether access token should be treated as JWT. This should be set to 'false' if the authorization server returns opaque tokens. Defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token_is_jwt DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token_is_jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token_is_jwt DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token_is_jwt}
   */
   readonly accessTokenIsJwt?: boolean | cdktf.IResolvable;
   /**
   * Path to the token file containing an access token to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token_location DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token_location DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token_location}
   */
   readonly accessTokenLocation?: string;
   /**
   * OAuth audience to use when authenticating against the authorization server. Some authorization servers require the audience to be explicitly set. The possible values depend on how the authorization server is configured. By default, 'audience' is not specified when performing the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#audience DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#audience DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#audience}
   */
   readonly audience?: string;
   /**
   * Reference to the 'Secret' which holds the certificate and private key pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate_and_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate_and_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate_and_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate_and_key}
   */
   readonly certificateAndKey?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerAuthenticationCertificateAndKey;
   /**
   * Link to Kubernetes secret containing the client assertion which was manually configured for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion}
   */
   readonly clientAssertion?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerAuthenticationClientAssertion;
   /**
   * Path to the file containing the client assertion to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion_location DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion_location DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion_location}
   */
   readonly clientAssertionLocation?: string;
   /**
   * The client assertion type. If not set, and either 'clientAssertion' or 'clientAssertionLocation' is configured, this value defaults to 'urn:ietf:params:oauth:client-assertion-type:jwt-bearer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion_type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion_type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion_type}
   */
   readonly clientAssertionType?: string;
   /**
   * OAuth Client ID which the Kafka client can use to authenticate against the OAuth server and use the token endpoint URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_id DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_id DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * Link to Kubernetes Secret containing the OAuth client secret which the Kafka client can use to authenticate against the OAuth server and use the token endpoint URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerAuthenticationClientSecret;
   /**
   * The connect timeout in seconds when connecting to authorization server. If not set, the effective connect timeout is 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#connect_timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#connect_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#connect_timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#connect_timeout_seconds}
   */
   readonly connectTimeoutSeconds?: number;
   /**
   * Enable or disable TLS hostname verification. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#disable_tls_hostname_verification DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#disable_tls_hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#disable_tls_hostname_verification DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#disable_tls_hostname_verification}
   */
   readonly disableTlsHostnameVerification?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable OAuth metrics. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#enable_metrics DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#enable_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#enable_metrics DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#enable_metrics}
   */
   readonly enableMetrics?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of retries to attempt if an initial HTTP request fails. If not set, the default is to not attempt any retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#http_retries DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#http_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#http_retries DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#http_retries}
   */
   readonly httpRetries?: number;
   /**
   * The pause to take before retrying a failed HTTP request. If not set, the default is to not pause at all but to immediately repeat a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#http_retry_pause_ms DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#http_retry_pause_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#http_retry_pause_ms DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#http_retry_pause_ms}
   */
   readonly httpRetryPauseMs?: number;
   /**
   * Whether the Accept header should be set in requests to the authorization servers. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#include_accept_header DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#include_accept_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#include_accept_header DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#include_accept_header}
   */
   readonly includeAcceptHeader?: boolean | cdktf.IResolvable;
   /**
   * Set or limit time-to-live of the access tokens to the specified number of seconds. This should be set if the authorization server returns opaque tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#max_token_expiry_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#max_token_expiry_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#max_token_expiry_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#max_token_expiry_seconds}
   */
   readonly maxTokenExpirySeconds?: number;
   /**
   * Reference to the 'Secret' which holds the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#password_secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#password_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#password_secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#password_secret}
   */
   readonly passwordSecret?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerAuthenticationPasswordSecret;
   /**
   * The read timeout in seconds when connecting to authorization server. If not set, the effective read timeout is 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_timeout_seconds}
   */
   readonly readTimeoutSeconds?: number;
   /**
   * Link to Kubernetes Secret containing the refresh token which can be used to obtain access token from the authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#refresh_token DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#refresh_token DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#refresh_token}
   */
   readonly refreshToken?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerAuthenticationRefreshToken;
   /**
   * SASL extensions parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sasl_extensions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sasl_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sasl_extensions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sasl_extensions}
   */
   readonly saslExtensions?: { [key: string]: string };
   /**
   * OAuth scope to use when authenticating against the authorization server. Some authorization servers require this to be set. The possible values depend on how authorization server is configured. By default 'scope' is not specified when doing the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#scope DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#scope DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#scope}
   */
   readonly scope?: string;
   /**
   * Trusted certificates for TLS connection to the OAuth server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tls_trusted_certificates DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tls_trusted_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tls_trusted_certificates DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tls_trusted_certificates}
   */
   readonly tlsTrustedCertificates?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerAuthenticationTlsTrustedCertificates[] | cdktf.IResolvable;
   /**
   * Authorization server token endpoint URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#token_endpoint_uri DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#token_endpoint_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#token_endpoint_uri DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#token_endpoint_uri}
   */
   readonly tokenEndpointUri?: string;
   /**
   * Authentication type. Currently the supported types are 'tls', 'scram-sha-256', 'scram-sha-512', 'plain', and 'oauth'. 'scram-sha-256' and 'scram-sha-512' types use SASL SCRAM-SHA-256 and SASL SCRAM-SHA-512 Authentication, respectively. 'plain' type uses SASL PLAIN Authentication. 'oauth' type uses SASL OAUTHBEARER Authentication. The 'tls' type uses TLS Client Authentication. The 'tls' type is supported only over TLS connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type: string;
   /**
   * Username used for the authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#username DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#username DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#username}
   */
   readonly username?: string;
 }
@@ -2154,19 +2154,19 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * The name of the file certificate in the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * Pattern for the certificate files in the secret. Use the link:https://en.wikipedia.org/wiki/Glob_(programming)[_glob syntax_] for the pattern. All files in the secret that match the pattern are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pattern DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pattern DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pattern}
   */
   readonly pattern?: string;
   /**
   * The name of the Secret containing the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -2339,7 +2339,7 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * Trusted certificates for TLS connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#trusted_certificates DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#trusted_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#trusted_certificates DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#trusted_certificates}
   */
   readonly trustedCertificates?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerTlsTrustedCertificates[] | cdktf.IResolvable;
 }
@@ -2435,43 +2435,43 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsume
   /**
   * Authentication configuration for connecting to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#authentication DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#authentication DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#authentication}
   */
   readonly authentication?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerAuthentication;
   /**
   * A list of host:port pairs for establishing the initial connection to the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#bootstrap_servers DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#bootstrap_servers DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * The MirrorMaker consumer config. Properties with the following prefixes cannot be set: ssl., bootstrap.servers, group.id, sasl., security., interceptor.classes (with the exception of: ssl.endpoint.identification.algorithm, ssl.cipher.suites, ssl.protocol, ssl.enabled.protocols).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * A unique string that identifies the consumer group this consumer belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#group_id DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#group_id DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Specifies the number of consumer stream threads to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#num_streams DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#num_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#num_streams DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#num_streams}
   */
   readonly numStreams?: number;
   /**
   * Specifies the offset auto-commit interval in ms. Default value is 60000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#offset_commit_interval DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#offset_commit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#offset_commit_interval DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#offset_commit_interval}
   */
   readonly offsetCommitInterval?: number;
   /**
   * TLS configuration for connecting MirrorMaker to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tls DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tls DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tls}
   */
   readonly tls?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumerTls;
 }
@@ -2735,13 +2735,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecJvmOpti
   /**
   * The system property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * The system property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -2888,31 +2888,31 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecJvmOpti
   /**
   * Specifies whether the Garbage Collection logging is enabled. The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gc_logging_enabled DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gc_logging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gc_logging_enabled DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gc_logging_enabled}
   */
   readonly gcLoggingEnabled?: boolean | cdktf.IResolvable;
   /**
   * A map of additional system properties which will be passed using the '-D' option to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#java_system_properties DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#java_system_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#java_system_properties DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#java_system_properties}
   */
   readonly javaSystemProperties?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecJvmOptionsJavaSystemProperties[] | cdktf.IResolvable;
   /**
   * -Xms option to to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#xms DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#xms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#xms DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#xms}
   */
   readonly xms?: string;
   /**
   * -Xmx option to to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#xmx DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#xmx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#xmx DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#xmx}
   */
   readonly xmx?: string;
   /**
   * A map of -XX options to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#xx DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#xx DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#xx}
   */
   readonly xx?: { [key: string]: string };
 }
@@ -3124,31 +3124,31 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLivenes
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -3358,15 +3358,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLivenessPro
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLoggingValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3520,7 +3520,7 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLogging
   /**
   * Reference to the key in the ConfigMap containing the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config_map_key_ref DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config_map_key_ref DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLoggingValueFromConfigMapKeyRef;
 }
@@ -3616,19 +3616,19 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLogging
   /**
   * A Map from logger name to logger level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#loggers DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#loggers DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#loggers}
   */
   readonly loggers?: { [key: string]: string };
   /**
   * Logging type, must be either 'inline' or 'external'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type: string;
   /**
   * 'ConfigMap' entry where the logging configuration is stored. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLoggingValueFrom;
 }
@@ -3777,15 +3777,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLoggingOutp
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecMetricsConfigValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3939,7 +3939,7 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecMetrics
   /**
   * Reference to the key in the ConfigMap containing the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config_map_key_ref DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config_map_key_ref DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecMetricsConfigValueFromConfigMapKeyRef;
 }
@@ -4035,13 +4035,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecMetrics
   /**
   * Metrics type. Only 'jmxPrometheusExporter' supported currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type: string;
   /**
   * ConfigMap entry where the Prometheus JMX Exporter configuration is stored. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value_from}
   */
   readonly valueFrom: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecMetricsConfigValueFrom;
 }
@@ -4160,13 +4160,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * The key under which the secret value is stored in the Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Kubernetes Secret containing the secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -4285,19 +4285,19 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * The name of the file certificate in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
   */
   readonly certificate: string;
   /**
   * The name of the private key in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Secret containing the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -4442,13 +4442,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * The key under which the secret value is stored in the Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Kubernetes Secret containing the secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -4567,13 +4567,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * The key under which the secret value is stored in the Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Kubernetes Secret containing the secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -4692,13 +4692,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * The name of the key in the Secret under which the password is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#password DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#password DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#password}
   */
   readonly password: string;
   /**
   * The name of the Secret containing the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -4817,13 +4817,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * The key under which the secret value is stored in the Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The name of the Kubernetes Secret containing the secret value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -4942,19 +4942,19 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * The name of the file certificate in the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * Pattern for the certificate files in the secret. Use the link:https://en.wikipedia.org/wiki/Glob_(programming)[_glob syntax_] for the pattern. All files in the secret that match the pattern are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pattern DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pattern DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pattern}
   */
   readonly pattern?: string;
   /**
   * The name of the Secret containing the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -5127,157 +5127,157 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * Link to Kubernetes Secret containing the access token which was obtained from the authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token}
   */
   readonly accessToken?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerAuthenticationAccessToken;
   /**
   * Configure whether access token should be treated as JWT. This should be set to 'false' if the authorization server returns opaque tokens. Defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token_is_jwt DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token_is_jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token_is_jwt DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token_is_jwt}
   */
   readonly accessTokenIsJwt?: boolean | cdktf.IResolvable;
   /**
   * Path to the token file containing an access token to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token_location DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#access_token_location DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#access_token_location}
   */
   readonly accessTokenLocation?: string;
   /**
   * OAuth audience to use when authenticating against the authorization server. Some authorization servers require the audience to be explicitly set. The possible values depend on how the authorization server is configured. By default, 'audience' is not specified when performing the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#audience DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#audience DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#audience}
   */
   readonly audience?: string;
   /**
   * Reference to the 'Secret' which holds the certificate and private key pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate_and_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate_and_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate_and_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate_and_key}
   */
   readonly certificateAndKey?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerAuthenticationCertificateAndKey;
   /**
   * Link to Kubernetes secret containing the client assertion which was manually configured for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion}
   */
   readonly clientAssertion?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerAuthenticationClientAssertion;
   /**
   * Path to the file containing the client assertion to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion_location DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion_location DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion_location}
   */
   readonly clientAssertionLocation?: string;
   /**
   * The client assertion type. If not set, and either 'clientAssertion' or 'clientAssertionLocation' is configured, this value defaults to 'urn:ietf:params:oauth:client-assertion-type:jwt-bearer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion_type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_assertion_type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_assertion_type}
   */
   readonly clientAssertionType?: string;
   /**
   * OAuth Client ID which the Kafka client can use to authenticate against the OAuth server and use the token endpoint URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_id DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_id DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * Link to Kubernetes Secret containing the OAuth client secret which the Kafka client can use to authenticate against the OAuth server and use the token endpoint URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#client_secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerAuthenticationClientSecret;
   /**
   * The connect timeout in seconds when connecting to authorization server. If not set, the effective connect timeout is 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#connect_timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#connect_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#connect_timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#connect_timeout_seconds}
   */
   readonly connectTimeoutSeconds?: number;
   /**
   * Enable or disable TLS hostname verification. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#disable_tls_hostname_verification DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#disable_tls_hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#disable_tls_hostname_verification DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#disable_tls_hostname_verification}
   */
   readonly disableTlsHostnameVerification?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable OAuth metrics. Default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#enable_metrics DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#enable_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#enable_metrics DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#enable_metrics}
   */
   readonly enableMetrics?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of retries to attempt if an initial HTTP request fails. If not set, the default is to not attempt any retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#http_retries DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#http_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#http_retries DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#http_retries}
   */
   readonly httpRetries?: number;
   /**
   * The pause to take before retrying a failed HTTP request. If not set, the default is to not pause at all but to immediately repeat a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#http_retry_pause_ms DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#http_retry_pause_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#http_retry_pause_ms DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#http_retry_pause_ms}
   */
   readonly httpRetryPauseMs?: number;
   /**
   * Whether the Accept header should be set in requests to the authorization servers. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#include_accept_header DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#include_accept_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#include_accept_header DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#include_accept_header}
   */
   readonly includeAcceptHeader?: boolean | cdktf.IResolvable;
   /**
   * Set or limit time-to-live of the access tokens to the specified number of seconds. This should be set if the authorization server returns opaque tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#max_token_expiry_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#max_token_expiry_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#max_token_expiry_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#max_token_expiry_seconds}
   */
   readonly maxTokenExpirySeconds?: number;
   /**
   * Reference to the 'Secret' which holds the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#password_secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#password_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#password_secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#password_secret}
   */
   readonly passwordSecret?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerAuthenticationPasswordSecret;
   /**
   * The read timeout in seconds when connecting to authorization server. If not set, the effective read timeout is 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_timeout_seconds}
   */
   readonly readTimeoutSeconds?: number;
   /**
   * Link to Kubernetes Secret containing the refresh token which can be used to obtain access token from the authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#refresh_token DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#refresh_token DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#refresh_token}
   */
   readonly refreshToken?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerAuthenticationRefreshToken;
   /**
   * SASL extensions parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sasl_extensions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sasl_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sasl_extensions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sasl_extensions}
   */
   readonly saslExtensions?: { [key: string]: string };
   /**
   * OAuth scope to use when authenticating against the authorization server. Some authorization servers require this to be set. The possible values depend on how authorization server is configured. By default 'scope' is not specified when doing the token endpoint request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#scope DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#scope DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#scope}
   */
   readonly scope?: string;
   /**
   * Trusted certificates for TLS connection to the OAuth server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tls_trusted_certificates DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tls_trusted_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tls_trusted_certificates DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tls_trusted_certificates}
   */
   readonly tlsTrustedCertificates?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerAuthenticationTlsTrustedCertificates[] | cdktf.IResolvable;
   /**
   * Authorization server token endpoint URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#token_endpoint_uri DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#token_endpoint_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#token_endpoint_uri DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#token_endpoint_uri}
   */
   readonly tokenEndpointUri?: string;
   /**
   * Authentication type. Currently the supported types are 'tls', 'scram-sha-256', 'scram-sha-512', 'plain', and 'oauth'. 'scram-sha-256' and 'scram-sha-512' types use SASL SCRAM-SHA-256 and SASL SCRAM-SHA-512 Authentication, respectively. 'plain' type uses SASL PLAIN Authentication. 'oauth' type uses SASL OAUTHBEARER Authentication. The 'tls' type uses TLS Client Authentication. The 'tls' type is supported only over TLS connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type: string;
   /**
   * Username used for the authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#username DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#username DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#username}
   */
   readonly username?: string;
 }
@@ -6095,19 +6095,19 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * The name of the file certificate in the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#certificate DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * Pattern for the certificate files in the secret. Use the link:https://en.wikipedia.org/wiki/Glob_(programming)[_glob syntax_] for the pattern. All files in the secret that match the pattern are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pattern DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pattern DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pattern}
   */
   readonly pattern?: string;
   /**
   * The name of the Secret containing the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -6280,7 +6280,7 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * Trusted certificates for TLS connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#trusted_certificates DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#trusted_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#trusted_certificates DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#trusted_certificates}
   */
   readonly trustedCertificates?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerTlsTrustedCertificates[] | cdktf.IResolvable;
 }
@@ -6376,31 +6376,31 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProduce
   /**
   * Flag to set the MirrorMaker to exit on a failed send. Default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#abort_on_send_failure DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#abort_on_send_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#abort_on_send_failure DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#abort_on_send_failure}
   */
   readonly abortOnSendFailure?: boolean | cdktf.IResolvable;
   /**
   * Authentication configuration for connecting to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#authentication DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#authentication DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#authentication}
   */
   readonly authentication?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerAuthentication;
   /**
   * A list of host:port pairs for establishing the initial connection to the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#bootstrap_servers DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#bootstrap_servers DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * The MirrorMaker producer config. Properties with the following prefixes cannot be set: ssl., bootstrap.servers, sasl., security., interceptor.classes (with the exception of: ssl.endpoint.identification.algorithm, ssl.cipher.suites, ssl.protocol, ssl.enabled.protocols).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * TLS configuration for connecting MirrorMaker to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tls DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tls DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tls}
   */
   readonly tls?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducerTls;
 }
@@ -6609,31 +6609,31 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecReadine
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -6843,7 +6843,7 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecReadinessPr
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -6959,15 +6959,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecResourcesCl
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7121,13 +7121,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -7252,13 +7252,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Pod replacement strategy for deployment configuration changes. Valid values are 'RollingUpdate' and 'Recreate'. Defaults to 'RollingUpdate'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#deployment_strategy DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#deployment_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#deployment_strategy DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#deployment_strategy}
   */
   readonly deploymentStrategy?: string;
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateDeploymentMetadata;
 }
@@ -7383,13 +7383,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * The environment variable key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * The environment variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -7534,11 +7534,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMir
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -7661,11 +7661,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMir
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -7788,19 +7788,19 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMir
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -7981,11 +7981,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMir
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -8108,19 +8108,19 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMir
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -8301,51 +8301,51 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMir
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContextWindowsOptions;
 }
@@ -8758,31 +8758,31 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMir
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -9074,19 +9074,19 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Environment variables which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#env}
   */
   readonly env?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerEnv[] | cdktf.IResolvable;
   /**
   * Security context for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#security_context}
   */
   readonly securityContext?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerSecurityContext;
   /**
   * Additional volume mounts which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -9238,15 +9238,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMir
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9420,15 +9420,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9602,11 +9602,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_fields DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_fields DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -9729,11 +9729,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#preference DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#preference DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#preference}
   */
   readonly preference?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -9878,15 +9878,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10060,15 +10060,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10242,11 +10242,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_fields DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_fields DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -10391,7 +10391,7 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#node_selector_terms DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#node_selector_terms DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -10485,11 +10485,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -10612,15 +10612,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10794,11 +10794,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10921,15 +10921,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11103,11 +11103,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11230,27 +11230,27 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -11489,11 +11489,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_affinity_term DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_affinity_term DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -11638,15 +11638,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11820,11 +11820,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11947,15 +11947,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12129,11 +12129,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12256,27 +12256,27 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -12537,11 +12537,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12664,15 +12664,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12846,11 +12846,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12973,15 +12973,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13155,11 +13155,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13282,27 +13282,27 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -13541,11 +13541,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_affinity_term DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_affinity_term DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -13690,15 +13690,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13872,11 +13872,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13999,15 +13999,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14181,11 +14181,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14308,27 +14308,27 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -14589,11 +14589,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -14716,15 +14716,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#node_affinity DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#node_affinity DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_affinity DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_affinity DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_anti_affinity DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_anti_affinity DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinityPodAntiAffinity;
 }
@@ -14876,11 +14876,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#hostnames DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#hostnames DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#ip DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#ip DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -15025,7 +15025,7 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -15143,13 +15143,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -15272,11 +15272,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -15399,19 +15399,19 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -15592,11 +15592,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -15719,11 +15719,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -15868,19 +15868,19 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16061,47 +16061,47 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#fs_group DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#fs_group DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#fs_group_change_policy DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#fs_group_change_policy DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#supplemental_groups DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#supplemental_groups DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sysctls DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#sysctls DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#sysctls}
   */
   readonly sysctls?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContextWindowsOptions;
 }
@@ -16485,23 +16485,23 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#effect DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#effect DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#toleration_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#toleration_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -16733,15 +16733,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16915,11 +16915,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17042,35 +17042,35 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#max_skew DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#max_skew DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#max_skew}
   */
   readonly maxSkew?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#min_domains DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#min_domains DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#node_affinity_policy DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#node_affinity_policy DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#node_taints_policy DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#node_taints_policy DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#when_unsatisfiable DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#when_unsatisfiable DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable?: string;
 }
@@ -17389,15 +17389,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#path}
   */
   readonly path?: string;
 }
@@ -17571,19 +17571,19 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#items}
   */
   readonly items?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17764,11 +17764,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesEmptyDirSizeLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#amount DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#amount DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#amount}
   */
   readonly amount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#format DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#format DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#format}
   */
   readonly format?: string;
 }
@@ -17891,11 +17891,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#medium DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#medium DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#size_limit DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#size_limit DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#size_limit}
   */
   readonly sizeLimit?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesEmptyDirSizeLimit;
 }
@@ -18018,11 +18018,11 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#claim_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#claim_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#claim_name}
   */
   readonly claimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -18145,15 +18145,15 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#path}
   */
   readonly path?: string;
 }
@@ -18327,19 +18327,19 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod
 }
 export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#items}
   */
   readonly items?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -18522,31 +18522,31 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * ConfigMap to use to populate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config_map DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#config_map DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#config_map}
   */
   readonly configMap?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesConfigMap;
   /**
   * EmptyDir to use to populate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#empty_dir DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#empty_dir DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesEmptyDir;
   /**
   * Name to use for the volume. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * PersistentVolumeClaim object to use to populate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#persistent_volume_claim DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#persistent_volume_claim DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesPersistentVolumeClaim;
   /**
   * Secret to use populate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#secret DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#secret}
   */
   readonly secret?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumesSecret;
 }
@@ -18780,79 +18780,79 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * The pod's affinity rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#affinity DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#affinity DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#affinity}
   */
   readonly affinity?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodAffinity;
   /**
   * Indicates whether information about services should be injected into Pod's environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#enable_service_links DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#enable_service_links DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
   * The pod's HostAliases. HostAliases is an optional list of hosts and IPs that will be injected into the Pod's hosts file if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#host_aliases DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#host_aliases DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodHostAliases[] | cdktf.IResolvable;
   /**
   * List of references to secrets in the same namespace to use for pulling any of the images used by this Pod. When the 'STRIMZI_IMAGE_PULL_SECRETS' environment variable in Cluster Operator and the 'imagePullSecrets' option are specified, only the 'imagePullSecrets' variable is used and the 'STRIMZI_IMAGE_PULL_SECRETS' variable is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#image_pull_secrets DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#image_pull_secrets DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodMetadata;
   /**
   * The name of the priority class used to assign priority to the pods. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#priority_class_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#priority_class_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * The name of the scheduler used to dispatch this 'Pod'. If not specified, the default scheduler will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#scheduler_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#scheduler_name DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * Configures pod-level security attributes and common container settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#security_context}
   */
   readonly securityContext?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodSecurityContext;
   /**
   * The grace period is the duration in seconds after the processes running in the pod are sent a termination signal, and the time when the processes are forcibly halted with a kill signal. Set this value to longer than the expected cleanup time for your process. Value must be a non-negative integer. A zero value indicates delete immediately. You might need to increase the grace period for very large Kafka clusters, so that the Kafka brokers have enough time to transfer their work to another broker before they are terminated. Defaults to 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#termination_grace_period_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#termination_grace_period_seconds DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Defines the total amount of pod memory allocated for the temporary 'EmptyDir' volume '/tmp'. Specify the allocation in memory units, for example, '100Mi' for 100 mebibytes. Default value is '5Mi'. The '/tmp' volume is backed by pod memory, not disk storage, so avoid setting a high value as it consumes pod memory resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tmp_dir_size_limit DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tmp_dir_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tmp_dir_size_limit DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tmp_dir_size_limit}
   */
   readonly tmpDirSizeLimit?: string;
   /**
   * The pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tolerations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tolerations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodTolerations[] | cdktf.IResolvable;
   /**
   * The pod's topology spread constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_spread_constraints DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#topology_spread_constraints DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
   * Additional volumes that can be mounted to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#volumes DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#volumes DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#volumes}
   */
   readonly volumes?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodVolumes[] | cdktf.IResolvable;
 }
@@ -19296,13 +19296,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -19427,13 +19427,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Maximum number of unavailable pods to allow automatic Pod eviction. A Pod eviction is allowed when the 'maxUnavailable' number of pods or fewer are unavailable after the eviction. Setting this value to 0 prevents all voluntary evictions, so the pods must be evicted manually. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#max_unavailable DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#max_unavailable DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
   * Metadata to apply to the 'PodDisruptionBudgetTemplate' resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodDisruptionBudgetMetadata;
 }
@@ -19558,13 +19558,13 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -19689,7 +19689,7 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateServiceAccountMetadata;
 }
@@ -19785,31 +19785,31 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplat
   /**
   * Template for Kafka MirrorMaker 'Deployment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#deployment DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#deployment DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#deployment}
   */
   readonly deployment?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateDeployment;
   /**
   * Template for Kafka MirrorMaker container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mirror_maker_container DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mirror_maker_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#mirror_maker_container DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#mirror_maker_container}
   */
   readonly mirrorMakerContainer?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateMirrorMakerContainer;
   /**
   * Template for Kafka MirrorMaker 'Pods'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod}
   */
   readonly pod?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePod;
   /**
   * Template for Kafka MirrorMaker 'PodDisruptionBudget'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_disruption_budget DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#pod_disruption_budget DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplatePodDisruptionBudget;
   /**
   * Template for the Kafka MirrorMaker service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#service_account DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#service_account DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplateServiceAccount;
 }
@@ -20021,7 +20021,7 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTracing
   /**
   * Type of the tracing used. Currently the only supported type is 'opentelemetry' for OpenTelemetry tracing. As of Strimzi 0.37.0, 'jaeger' type is not supported anymore and this option is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#type}
   */
   readonly type: string;
 }
@@ -20114,91 +20114,91 @@ export interface DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpec {
   /**
   * Configuration of source cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#consumer DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#consumer DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#consumer}
   */
   readonly consumer: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecConsumer;
   /**
   * The container image used for Kafka MirrorMaker pods. If no image name is explicitly specified, it is determined based on the 'spec.version' configuration. The image names are specifically mapped to corresponding versions in the Cluster Operator configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#image DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#image DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#image}
   */
   readonly image?: string;
   /**
   * List of topics which are included for mirroring. This option allows any regular expression using Java-style regular expressions. Mirroring two topics named A and B is achieved by using the expression 'A|B'. Or, as a special case, you can mirror all topics using the regular expression '*'. You can also specify multiple regular expressions separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#include DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#include DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#include}
   */
   readonly include?: string;
   /**
   * JVM Options for pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#jvm_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#jvm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#jvm_options DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#jvm_options}
   */
   readonly jvmOptions?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecJvmOptions;
   /**
   * Pod liveness checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#liveness_probe DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#liveness_probe DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLivenessProbe;
   /**
   * Logging configuration for MirrorMaker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#logging DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#logging DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#logging}
   */
   readonly logging?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecLogging;
   /**
   * Metrics configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metrics_config DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metrics_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#metrics_config DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#metrics_config}
   */
   readonly metricsConfig?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecMetricsConfig;
   /**
   * Configuration of target cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#producer DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#producer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#producer DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#producer}
   */
   readonly producer: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecProducer;
   /**
   * Pod readiness checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#readiness_probe DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#readiness_probe DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecReadinessProbe;
   /**
   * The number of pods in the 'Deployment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#replicas DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#replicas DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#replicas}
   */
   readonly replicas: number;
   /**
   * CPU and memory resources to reserve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#resources DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#resources DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#resources}
   */
   readonly resources?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecResources;
   /**
   * Template to specify how Kafka MirrorMaker resources, 'Deployments' and 'Pods', are generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#template DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#template DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#template}
   */
   readonly template?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTemplate;
   /**
   * The configuration of tracing in Kafka MirrorMaker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tracing DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#tracing DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#tracing}
   */
   readonly tracing?: DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecTracing;
   /**
   * The Kafka MirrorMaker version. Defaults to the latest version. Consult the documentation to understand the process required to upgrade or downgrade the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#version DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#version DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#version}
   */
   readonly version?: string;
   /**
   * List of topics which are included for mirroring. This option allows any regular expression using Java-style regular expressions. Mirroring two topics named A and B is achieved by using the expression 'A|B'. Or, as a special case, you can mirror all topics using the regular expression '*'. You can also specify multiple regular expressions separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#whitelist DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#whitelist DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest#whitelist}
   */
   readonly whitelist?: string;
 }
@@ -20689,7 +20689,7 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest k8s_kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest k8s_kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest}
 */
 export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -20705,7 +20705,7 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -20717,7 +20717,7 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest k8s_kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest k8s_kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -20728,8 +20728,8 @@ export class DataK8SKafkaStrimziIoKafkaMirrorMakerV1Beta2Manifest extends cdktf.
       terraformResourceType: 'k8s_kafka_strimzi_io_kafka_mirror_maker_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

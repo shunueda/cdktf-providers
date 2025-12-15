@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Mani
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#metadata DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#metadata DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#metadata}
   */
   readonly metadata: DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4ManifestMetadata;
   /**
   * ClusterResourceSetBindingSpec defines the desired state of ClusterResourceSetBinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#spec DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#spec DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#spec}
   */
   readonly spec?: DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Mani
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#annotations DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#annotations DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#labels DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#labels DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#name DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#name DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#namespace DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#namespace DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Mani
   /**
   * Applied is to track if a resource is applied to the cluster or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#applied DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#applied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#applied DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#applied}
   */
   readonly applied: boolean | cdktf.IResolvable;
   /**
   * Hash is the hash of a resource's data. This can be used to decide if a resource is changed. For 'ApplyOnce' ClusterResourceSet.spec.strategy, this is no-op as that strategy does not act on change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#hash DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#hash DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#hash}
   */
   readonly hash?: string;
   /**
   * Kind of the resource. Supported kinds are: Secrets and ConfigMaps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#kind DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#kind DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#kind}
   */
   readonly kind: string;
   /**
   * LastAppliedTime identifies when this resource was last applied to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#last_applied_time DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#last_applied_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#last_applied_time DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#last_applied_time}
   */
   readonly lastAppliedTime?: string;
   /**
   * Name of the resource that is in the same namespace with ClusterResourceSet object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#name DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#name DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -468,13 +468,13 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Mani
   /**
   * ClusterResourceSetName is the name of the ClusterResourceSet that is applied to the owner cluster of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#cluster_resource_set_name DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#cluster_resource_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#cluster_resource_set_name DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#cluster_resource_set_name}
   */
   readonly clusterResourceSetName: string;
   /**
   * Resources is a list of resources that the ClusterResourceSet has.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#resources DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#resources DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#resources}
   */
   readonly resources?: DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4ManifestSpecBindingsResources[] | cdktf.IResolvable;
 }
@@ -618,7 +618,7 @@ export interface DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Mani
   /**
   * Bindings is a list of ClusterResourceSets and their resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#bindings DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#bindings DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest#bindings}
   */
   readonly bindings?: DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4ManifestSpecBindings[] | cdktf.IResolvable;
 }
@@ -712,7 +712,7 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest k8s_addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest k8s_addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest}
 */
 export class DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest extends cdktf.TerraformDataSource {
 
@@ -728,7 +728,7 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest
   * Generates CDKTF code for importing a DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest to import
-  * @param importFromId The id of the existing DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -740,7 +740,7 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest k8s_addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest k8s_addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -751,8 +751,8 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha4Manifest
       terraformResourceType: 'k8s_addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

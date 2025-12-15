@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/oam_gretunnel_interface
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/oam_gretunnel_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OamGretunnelInterfaceConfig extends cdktf.TerraformMetaArgument
   /**
   * Hold time (5..250 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/oam_gretunnel_interface#hold_time OamGretunnelInterface#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/oam_gretunnel_interface#hold_time OamGretunnelInterface#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Keepalive time (1..50 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/oam_gretunnel_interface#keepalive_time OamGretunnelInterface#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/oam_gretunnel_interface#keepalive_time OamGretunnelInterface#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * Name of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/oam_gretunnel_interface#name OamGretunnelInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/oam_gretunnel_interface#name OamGretunnelInterface#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/oam_gretunnel_interface junos_oam_gretunnel_interface}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/oam_gretunnel_interface junos_oam_gretunnel_interface}
 */
 export class OamGretunnelInterface extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class OamGretunnelInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OamGretunnelInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OamGretunnelInterface to import
-  * @param importFromId The id of the existing OamGretunnelInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/oam_gretunnel_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OamGretunnelInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/oam_gretunnel_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OamGretunnelInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class OamGretunnelInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/oam_gretunnel_interface junos_oam_gretunnel_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/oam_gretunnel_interface junos_oam_gretunnel_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class OamGretunnelInterface extends cdktf.TerraformResource {
       terraformResourceType: 'junos_oam_gretunnel_interface',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

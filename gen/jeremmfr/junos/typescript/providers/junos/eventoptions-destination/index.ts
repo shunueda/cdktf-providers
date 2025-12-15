@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface EventoptionsDestinationConfig extends cdktf.TerraformMetaArgume
   /**
   * Destination name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination#name EventoptionsDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination#name EventoptionsDestination#name}
   */
   readonly name: string;
   /**
   * Delay before transferring files (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination#transfer_delay EventoptionsDestination#transfer_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination#transfer_delay EventoptionsDestination#transfer_delay}
   */
   readonly transferDelay?: number;
   /**
   * archive_site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination#archive_site EventoptionsDestination#archive_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination#archive_site EventoptionsDestination#archive_site}
   */
   readonly archiveSite?: EventoptionsDestinationArchiveSite[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface EventoptionsDestinationArchiveSite {
   /**
   * Password for login into the archive site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination#password EventoptionsDestination#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination#password EventoptionsDestination#password}
   */
   readonly password?: string;
   /**
   * URL of destination for file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination#url EventoptionsDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination#url EventoptionsDestination#url}
   */
   readonly url: string;
 }
@@ -178,7 +178,7 @@ export class EventoptionsDestinationArchiveSiteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination junos_eventoptions_destination}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination junos_eventoptions_destination}
 */
 export class EventoptionsDestination extends cdktf.TerraformResource {
 
@@ -194,7 +194,7 @@ export class EventoptionsDestination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventoptionsDestination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventoptionsDestination to import
-  * @param importFromId The id of the existing EventoptionsDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventoptionsDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventoptionsDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class EventoptionsDestination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/eventoptions_destination junos_eventoptions_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/eventoptions_destination junos_eventoptions_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class EventoptionsDestination extends cdktf.TerraformResource {
       terraformResourceType: 'junos_eventoptions_destination',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

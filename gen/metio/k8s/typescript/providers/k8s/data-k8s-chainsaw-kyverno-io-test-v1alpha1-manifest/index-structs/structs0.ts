@@ -3,19 +3,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#annotations DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#annotations DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -166,19 +166,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecBindings {
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -348,19 +348,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommandBin
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -530,13 +530,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommandClu
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -658,19 +658,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommandEnv
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -840,25 +840,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommandOut
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -1057,67 +1057,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommand {
   /**
   * Args is the command arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommandBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommandClusters;
   /**
   * Entrypoint is the command entry point to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
   */
   readonly entrypoint: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommandEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommandOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -1500,19 +1500,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDeleteBind
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -1682,13 +1682,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDeleteClus
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -1810,13 +1810,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDeleteExpe
   /**
   * Check defines the verification statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check: { [key: string]: string };
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
 }
@@ -1960,31 +1960,31 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDeleteRef 
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Label selector to match objects to delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2190,55 +2190,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDelete {
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDeleteBindings[] | cdktf.IResolvable;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDeleteClusters;
   /**
   * DeletionPropagationPolicy decides if a deletion will propagate to the dependents of the object, and how the garbage collector will handle the propagation. Overrides the deletion propagation policy set in the Configuration, the Test and the TestStep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion_propagation_policy DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion_propagation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion_propagation_policy DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion_propagation_policy}
   */
   readonly deletionPropagationPolicy?: string;
   /**
   * Expect defines a list of matched checks to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
   */
   readonly expect?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDeleteExpect[] | cdktf.IResolvable;
   /**
   * File is the path to the referenced file. This can be a direct path to a file or an expression that matches multiple files, such as 'manifest/*.yaml' for all YAML files within the 'manifest' directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Ref determines objects to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#ref DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#ref DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#ref}
   */
   readonly ref?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDeleteRef;
   /**
   * Template determines whether resources should be considered for templating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2566,13 +2566,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDescribeCl
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -2694,55 +2694,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDescribe {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDescribeClusters;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Show Events indicates whether to include related events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#show_events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#show_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#show_events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#show_events}
   */
   readonly showEvents?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -3064,13 +3064,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchEventsClus
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -3192,43 +3192,43 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchEvents {
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchEventsClusters;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -3498,13 +3498,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchGetCluster
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -3626,55 +3626,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchGet {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchGetClusters;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -3996,13 +3996,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchPodLogsClu
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -4124,49 +4124,49 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchPodLogs {
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchPodLogsClusters;
   /**
   * Container in pod to get logs from else --all-containers is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#container DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#container DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#container}
   */
   readonly container?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Tail is the number of last lines to collect from pods. If omitted or zero, then the default is 10 if you use a selector, or -1 (all) if you use a pod name. This matches default behavior of 'kubectl logs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#tail DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#tail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#tail DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#tail}
   */
   readonly tail?: number;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -4465,19 +4465,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScriptBind
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -4647,13 +4647,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScriptClus
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -4775,19 +4775,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScriptEnv 
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -4957,25 +4957,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScriptOutp
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -5174,61 +5174,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScript {
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScriptBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScriptClusters;
   /**
   * Content defines a shell script (run with 'sh -c ...').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#content DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#content DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#content}
   */
   readonly content?: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScriptEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScriptOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -5585,7 +5585,7 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchSleep {
   /**
   * Duration is the delay used for sleeping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#duration DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#duration DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#duration}
   */
   readonly duration: string;
 }
@@ -5678,13 +5678,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWaitCluste
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -5806,13 +5806,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWaitForCon
   /**
   * Name defines the specific condition to wait for, e.g., 'Available', 'Ready'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value defines the specific condition status to wait for, e.g., 'True', 'False'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5934,13 +5934,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWaitForJso
   /**
   * Path defines the json path to wait for, e.g. '{.status.phase}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value defines the expected value to wait for, e.g., 'Running'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6062,19 +6062,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWaitFor {
   /**
   * Condition specifies the condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#condition DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#condition DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#condition}
   */
   readonly condition?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWaitForCondition;
   /**
   * Deletion specifies parameters for waiting on a resource's deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion}
   */
   readonly deletion?: { [key: string]: string };
   /**
   * JsonPath specifies the json path condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#json_path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#json_path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#json_path}
   */
   readonly jsonPath?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWaitForJsonPath;
 }
@@ -6228,61 +6228,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWait {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWaitClusters;
   /**
   * WaitFor specifies the condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#for DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#for DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#for}
   */
   readonly for: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWaitFor;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -6630,67 +6630,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatch {
   /**
   * Command defines a command to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#command DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#command DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#command}
   */
   readonly command?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchCommand;
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Delete represents a deletion operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
   */
   readonly delete?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDelete;
   /**
   * Describe determines the resource describe collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#describe DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#describe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#describe DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#describe}
   */
   readonly describe?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchDescribe;
   /**
   * Description contains a description of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#description DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#description DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Events determines the events collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#events}
   */
   readonly events?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchEvents;
   /**
   * Get determines the resource get collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#get DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#get DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#get}
   */
   readonly get?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchGet;
   /**
   * PodLogs determines the pod logs collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#pod_logs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#pod_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#pod_logs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#pod_logs}
   */
   readonly podLogs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchPodLogs;
   /**
   * Script defines a script to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#script DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#script DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#script}
   */
   readonly script?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchScript;
   /**
   * Sleep defines zzzz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#sleep DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#sleep DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchSleep;
   /**
   * Wait determines the resource wait collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#wait DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#wait DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#wait}
   */
   readonly wait?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecCatchWait;
 }
@@ -7098,13 +7098,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecClusters {
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -7226,19 +7226,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecScenariosBindin
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -7408,7 +7408,7 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecScenarios {
   /**
   * Bindings defines binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecScenariosBindings[] | cdktf.IResolvable;
 }
@@ -7526,19 +7526,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsBindings {
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -7708,19 +7708,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchComma
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -7890,13 +7890,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchComma
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -8018,19 +8018,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchComma
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -8200,25 +8200,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchComma
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -8417,67 +8417,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchComma
   /**
   * Args is the command arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchCommandBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchCommandClusters;
   /**
   * Entrypoint is the command entry point to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
   */
   readonly entrypoint: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchCommandEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchCommandOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -8860,19 +8860,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDelet
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -9042,13 +9042,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDelet
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -9170,13 +9170,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDelet
   /**
   * Check defines the verification statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check: { [key: string]: string };
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
 }
@@ -9320,31 +9320,31 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDelet
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Label selector to match objects to delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9550,55 +9550,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDelet
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDeleteBindings[] | cdktf.IResolvable;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDeleteClusters;
   /**
   * DeletionPropagationPolicy decides if a deletion will propagate to the dependents of the object, and how the garbage collector will handle the propagation. Overrides the deletion propagation policy set in the Configuration, the Test and the TestStep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion_propagation_policy DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion_propagation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion_propagation_policy DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion_propagation_policy}
   */
   readonly deletionPropagationPolicy?: string;
   /**
   * Expect defines a list of matched checks to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
   */
   readonly expect?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDeleteExpect[] | cdktf.IResolvable;
   /**
   * File is the path to the referenced file. This can be a direct path to a file or an expression that matches multiple files, such as 'manifest/*.yaml' for all YAML files within the 'manifest' directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Ref determines objects to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#ref DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#ref DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#ref}
   */
   readonly ref?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDeleteRef;
   /**
   * Template determines whether resources should be considered for templating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -9926,13 +9926,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDescr
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -10054,55 +10054,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDescr
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDescribeClusters;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Show Events indicates whether to include related events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#show_events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#show_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#show_events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#show_events}
   */
   readonly showEvents?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -10424,13 +10424,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchEvent
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -10552,43 +10552,43 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchEvent
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchEventsClusters;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -10858,13 +10858,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchGetCl
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -10986,55 +10986,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchGet {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchGetClusters;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -11356,13 +11356,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchPodLo
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -11484,49 +11484,49 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchPodLo
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchPodLogsClusters;
   /**
   * Container in pod to get logs from else --all-containers is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#container DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#container DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#container}
   */
   readonly container?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Tail is the number of last lines to collect from pods. If omitted or zero, then the default is 10 if you use a selector, or -1 (all) if you use a pod name. This matches default behavior of 'kubectl logs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#tail DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#tail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#tail DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#tail}
   */
   readonly tail?: number;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -11825,19 +11825,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScrip
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -12007,13 +12007,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScrip
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -12135,19 +12135,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScrip
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -12317,25 +12317,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScrip
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -12534,61 +12534,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScrip
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScriptBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScriptClusters;
   /**
   * Content defines a shell script (run with 'sh -c ...').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#content DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#content DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#content}
   */
   readonly content?: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScriptEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScriptOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -12945,7 +12945,7 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchSleep
   /**
   * Duration is the delay used for sleeping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#duration DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#duration DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#duration}
   */
   readonly duration: string;
 }
@@ -13038,13 +13038,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWaitC
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -13166,13 +13166,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWaitF
   /**
   * Name defines the specific condition to wait for, e.g., 'Available', 'Ready'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value defines the specific condition status to wait for, e.g., 'True', 'False'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13294,13 +13294,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWaitF
   /**
   * Path defines the json path to wait for, e.g. '{.status.phase}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value defines the expected value to wait for, e.g., 'Running'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13422,19 +13422,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWaitF
   /**
   * Condition specifies the condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#condition DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#condition DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#condition}
   */
   readonly condition?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWaitForCondition;
   /**
   * Deletion specifies parameters for waiting on a resource's deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion}
   */
   readonly deletion?: { [key: string]: string };
   /**
   * JsonPath specifies the json path condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#json_path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#json_path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#json_path}
   */
   readonly jsonPath?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWaitForJsonPath;
 }
@@ -13588,61 +13588,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWait 
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWaitClusters;
   /**
   * WaitFor specifies the condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#for DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#for DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#for}
   */
   readonly for: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWaitFor;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -13990,67 +13990,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatch {
   /**
   * Command defines a command to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#command DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#command DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#command}
   */
   readonly command?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchCommand;
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Delete represents a deletion operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
   */
   readonly delete?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDelete;
   /**
   * Describe determines the resource describe collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#describe DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#describe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#describe DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#describe}
   */
   readonly describe?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchDescribe;
   /**
   * Description contains a description of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#description DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#description DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Events determines the events collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#events}
   */
   readonly events?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchEvents;
   /**
   * Get determines the resource get collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#get DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#get DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#get}
   */
   readonly get?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchGet;
   /**
   * PodLogs determines the pod logs collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#pod_logs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#pod_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#pod_logs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#pod_logs}
   */
   readonly podLogs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchPodLogs;
   /**
   * Script defines a script to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#script DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#script DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#script}
   */
   readonly script?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchScript;
   /**
   * Sleep defines zzzz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#sleep DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#sleep DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchSleep;
   /**
   * Wait determines the resource wait collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#wait DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#wait DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#wait}
   */
   readonly wait?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCatchWait;
 }
@@ -14458,19 +14458,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCom
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -14640,13 +14640,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCom
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -14768,19 +14768,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCom
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -14950,25 +14950,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCom
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -15167,67 +15167,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCom
   /**
   * Args is the command arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCommandBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCommandClusters;
   /**
   * Entrypoint is the command entry point to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
   */
   readonly entrypoint: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCommandEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCommandOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -15610,19 +15610,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDel
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -15792,13 +15792,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDel
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -15920,13 +15920,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDel
   /**
   * Check defines the verification statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check: { [key: string]: string };
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
 }
@@ -16070,31 +16070,31 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDel
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Label selector to match objects to delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -16300,55 +16300,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDel
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDeleteBindings[] | cdktf.IResolvable;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDeleteClusters;
   /**
   * DeletionPropagationPolicy decides if a deletion will propagate to the dependents of the object, and how the garbage collector will handle the propagation. Overrides the deletion propagation policy set in the Configuration, the Test and the TestStep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion_propagation_policy DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion_propagation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion_propagation_policy DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion_propagation_policy}
   */
   readonly deletionPropagationPolicy?: string;
   /**
   * Expect defines a list of matched checks to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
   */
   readonly expect?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDeleteExpect[] | cdktf.IResolvable;
   /**
   * File is the path to the referenced file. This can be a direct path to a file or an expression that matches multiple files, such as 'manifest/*.yaml' for all YAML files within the 'manifest' directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Ref determines objects to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#ref DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#ref DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#ref}
   */
   readonly ref?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDeleteRef;
   /**
   * Template determines whether resources should be considered for templating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -16676,13 +16676,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDes
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -16804,55 +16804,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDes
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDescribeClusters;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Show Events indicates whether to include related events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#show_events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#show_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#show_events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#show_events}
   */
   readonly showEvents?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -17174,13 +17174,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupEve
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -17302,43 +17302,43 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupEve
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupEventsClusters;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -17608,13 +17608,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupGet
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -17736,55 +17736,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupGet
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupGetClusters;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -18106,13 +18106,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupPod
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -18234,49 +18234,49 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupPod
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupPodLogsClusters;
   /**
   * Container in pod to get logs from else --all-containers is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#container DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#container DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#container}
   */
   readonly container?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Tail is the number of last lines to collect from pods. If omitted or zero, then the default is 10 if you use a selector, or -1 (all) if you use a pod name. This matches default behavior of 'kubectl logs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#tail DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#tail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#tail DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#tail}
   */
   readonly tail?: number;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -18575,19 +18575,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScr
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -18757,13 +18757,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScr
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -18885,19 +18885,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScr
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -19067,25 +19067,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScr
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -19284,61 +19284,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScr
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScriptBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScriptClusters;
   /**
   * Content defines a shell script (run with 'sh -c ...').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#content DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#content DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#content}
   */
   readonly content?: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScriptEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScriptOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -19695,7 +19695,7 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupSle
   /**
   * Duration is the delay used for sleeping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#duration DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#duration DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#duration}
   */
   readonly duration: string;
 }
@@ -19788,13 +19788,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWai
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -19916,13 +19916,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWai
   /**
   * Name defines the specific condition to wait for, e.g., 'Available', 'Ready'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value defines the specific condition status to wait for, e.g., 'True', 'False'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -20044,13 +20044,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWai
   /**
   * Path defines the json path to wait for, e.g. '{.status.phase}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value defines the expected value to wait for, e.g., 'Running'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -20172,19 +20172,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWai
   /**
   * Condition specifies the condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#condition DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#condition DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#condition}
   */
   readonly condition?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWaitForCondition;
   /**
   * Deletion specifies parameters for waiting on a resource's deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion}
   */
   readonly deletion?: { [key: string]: string };
   /**
   * JsonPath specifies the json path condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#json_path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#json_path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#json_path}
   */
   readonly jsonPath?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWaitForJsonPath;
 }
@@ -20338,61 +20338,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWai
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWaitClusters;
   /**
   * WaitFor specifies the condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#for DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#for DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#for}
   */
   readonly for: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWaitFor;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -20740,67 +20740,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanup {
   /**
   * Command defines a command to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#command DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#command DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#command}
   */
   readonly command?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupCommand;
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Delete represents a deletion operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
   */
   readonly delete?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDelete;
   /**
   * Describe determines the resource describe collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#describe DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#describe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#describe DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#describe}
   */
   readonly describe?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupDescribe;
   /**
   * Description contains a description of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#description DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#description DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Events determines the events collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#events}
   */
   readonly events?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupEvents;
   /**
   * Get determines the resource get collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#get DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#get DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#get}
   */
   readonly get?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupGet;
   /**
   * PodLogs determines the pod logs collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#pod_logs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#pod_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#pod_logs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#pod_logs}
   */
   readonly podLogs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupPodLogs;
   /**
   * Script defines a script to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#script DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#script DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#script}
   */
   readonly script?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupScript;
   /**
   * Sleep defines zzzz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#sleep DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#sleep DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupSleep;
   /**
   * Wait determines the resource wait collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#wait DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#wait DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#wait}
   */
   readonly wait?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsCleanupWait;
 }
@@ -21208,13 +21208,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsClusters {
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -21336,19 +21336,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCom
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -21518,13 +21518,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCom
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -21646,19 +21646,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCom
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -21828,25 +21828,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCom
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -22045,67 +22045,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCom
   /**
   * Args is the command arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCommandBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCommandClusters;
   /**
   * Entrypoint is the command entry point to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
   */
   readonly entrypoint: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCommandEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCommandOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -22488,19 +22488,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDel
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -22670,13 +22670,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDel
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -22798,13 +22798,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDel
   /**
   * Check defines the verification statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check: { [key: string]: string };
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
 }
@@ -22948,31 +22948,31 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDel
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Label selector to match objects to delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#labels DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -23178,55 +23178,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDel
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDeleteBindings[] | cdktf.IResolvable;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDeleteClusters;
   /**
   * DeletionPropagationPolicy decides if a deletion will propagate to the dependents of the object, and how the garbage collector will handle the propagation. Overrides the deletion propagation policy set in the Configuration, the Test and the TestStep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion_propagation_policy DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion_propagation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion_propagation_policy DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion_propagation_policy}
   */
   readonly deletionPropagationPolicy?: string;
   /**
   * Expect defines a list of matched checks to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
   */
   readonly expect?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDeleteExpect[] | cdktf.IResolvable;
   /**
   * File is the path to the referenced file. This can be a direct path to a file or an expression that matches multiple files, such as 'manifest/*.yaml' for all YAML files within the 'manifest' directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Ref determines objects to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#ref DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#ref DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#ref}
   */
   readonly ref?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDeleteRef;
   /**
   * Template determines whether resources should be considered for templating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -23554,13 +23554,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDes
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -23682,55 +23682,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDes
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDescribeClusters;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Show Events indicates whether to include related events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#show_events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#show_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#show_events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#show_events}
   */
   readonly showEvents?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -24052,13 +24052,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyEve
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -24180,43 +24180,43 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyEve
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyEventsClusters;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -24486,13 +24486,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyGet
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -24614,55 +24614,55 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyGet
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyGetClusters;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -24984,13 +24984,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyPod
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -25112,49 +25112,49 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyPod
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyPodLogsClusters;
   /**
   * Container in pod to get logs from else --all-containers is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#container DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#container DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#container}
   */
   readonly container?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Tail is the number of last lines to collect from pods. If omitted or zero, then the default is 10 if you use a selector, or -1 (all) if you use a pod name. This matches default behavior of 'kubectl logs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#tail DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#tail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#tail DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#tail}
   */
   readonly tail?: number;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -25453,19 +25453,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScr
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -25635,13 +25635,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScr
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -25763,19 +25763,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScr
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -25945,25 +25945,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScr
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -26162,61 +26162,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScr
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScriptBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScriptClusters;
   /**
   * Content defines a shell script (run with 'sh -c ...').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#content DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#content DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#content}
   */
   readonly content?: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScriptEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScriptOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -26573,7 +26573,7 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallySle
   /**
   * Duration is the delay used for sleeping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#duration DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#duration DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#duration}
   */
   readonly duration: string;
 }
@@ -26666,13 +26666,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWai
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -26794,13 +26794,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWai
   /**
   * Name defines the specific condition to wait for, e.g., 'Available', 'Ready'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value defines the specific condition status to wait for, e.g., 'True', 'False'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -26922,13 +26922,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWai
   /**
   * Path defines the json path to wait for, e.g. '{.status.phase}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value defines the expected value to wait for, e.g., 'Running'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -27050,19 +27050,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWai
   /**
   * Condition specifies the condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#condition DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#condition DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#condition}
   */
   readonly condition?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWaitForCondition;
   /**
   * Deletion specifies parameters for waiting on a resource's deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#deletion DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#deletion}
   */
   readonly deletion?: { [key: string]: string };
   /**
   * JsonPath specifies the json path condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#json_path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#json_path DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#json_path}
   */
   readonly jsonPath?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWaitForJsonPath;
 }
@@ -27216,61 +27216,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWai
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#api_version DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWaitClusters;
   /**
   * WaitFor specifies the condition to wait for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#for DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#for DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#for}
   */
   readonly for: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWaitFor;
   /**
   * Format determines the output format (json or yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#format DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kind DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#namespace DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Selector defines labels selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#selector DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -27618,67 +27618,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinally {
   /**
   * Command defines a command to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#command DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#command DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#command}
   */
   readonly command?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyCommand;
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Delete represents a deletion operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
   */
   readonly delete?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDelete;
   /**
   * Describe determines the resource describe collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#describe DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#describe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#describe DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#describe}
   */
   readonly describe?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyDescribe;
   /**
   * Description contains a description of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#description DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#description DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Events determines the events collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#events DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#events}
   */
   readonly events?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyEvents;
   /**
   * Get determines the resource get collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#get DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#get DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#get}
   */
   readonly get?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyGet;
   /**
   * PodLogs determines the pod logs collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#pod_logs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#pod_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#pod_logs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#pod_logs}
   */
   readonly podLogs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyPodLogs;
   /**
   * Script defines a script to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#script DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#script DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#script}
   */
   readonly script?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyScript;
   /**
   * Sleep defines zzzz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#sleep DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#sleep DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallySleep;
   /**
   * Wait determines the resource wait collector to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#wait DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#wait DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#wait}
   */
   readonly wait?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsFinallyWait;
 }
@@ -28086,37 +28086,37 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTimeouts {
   /**
   * Apply defines the timeout for the apply operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#apply DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#apply DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#apply}
   */
   readonly apply?: string;
   /**
   * Assert defines the timeout for the assert operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#assert DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#assert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#assert DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#assert}
   */
   readonly assert?: string;
   /**
   * Cleanup defines the timeout for the cleanup operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cleanup DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cleanup DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cleanup}
   */
   readonly cleanup?: string;
   /**
   * Delete defines the timeout for the delete operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#delete DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#delete}
   */
   readonly delete?: string;
   /**
   * Error defines the timeout for the error operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#error DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#error DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#error}
   */
   readonly error?: string;
   /**
   * Exec defines the timeout for exec operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#exec DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#exec DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#exec}
   */
   readonly exec?: string;
 }
@@ -28357,19 +28357,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApplyBi
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -28539,13 +28539,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApplyCl
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -28667,13 +28667,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApplyEx
   /**
   * Check defines the verification statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check: { [key: string]: string };
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
 }
@@ -28817,25 +28817,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApplyOu
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -29034,61 +29034,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApply {
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApplyBindings[] | cdktf.IResolvable;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApplyClusters;
   /**
   * DryRun determines whether the file should be applied in dry run mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#dry_run DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#dry_run DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * Expect defines a list of matched checks to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
   */
   readonly expect?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApplyExpect[] | cdktf.IResolvable;
   /**
   * File is the path to the referenced file. This can be a direct path to a file or an expression that matches multiple files, such as 'manifest/*.yaml' for all YAML files within the 'manifest' directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryApplyOutputs[] | cdktf.IResolvable;
   /**
   * Resource provides a resource to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#resource DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#resource DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#resource}
   */
   readonly resource?: { [key: string]: string };
   /**
   * Template determines whether resources should be considered for templating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -29445,19 +29445,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryAssertB
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -29627,13 +29627,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryAssertC
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -29755,43 +29755,43 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryAssert 
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryAssertBindings[] | cdktf.IResolvable;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryAssertClusters;
   /**
   * File is the path to the referenced file. This can be a direct path to a file or an expression that matches multiple files, such as 'manifest/*.yaml' for all YAML files within the 'manifest' directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Check provides a check used in assertions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#resource DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#resource DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#resource}
   */
   readonly resource?: { [key: string]: string };
   /**
   * Template determines whether resources should be considered for templating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -30061,19 +30061,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommand
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -30243,13 +30243,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommand
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -30371,19 +30371,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommand
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -30553,25 +30553,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommand
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -30770,67 +30770,67 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommand
   /**
   * Args is the command arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#args DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommandBindings[] | cdktf.IResolvable;
   /**
   * Check is an assertion tree to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check?: { [key: string]: string };
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommandClusters;
   /**
   * Entrypoint is the command entry point to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#entrypoint DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#entrypoint}
   */
   readonly entrypoint: string;
   /**
   * Env defines additional environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#env DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommandEnv[] | cdktf.IResolvable;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCommandOutputs[] | cdktf.IResolvable;
   /**
   * SkipLogOutput removes the output from the command. Useful for sensitive logs or to reduce noise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#skip_log_output DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#skip_log_output}
   */
   readonly skipLogOutput?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * WorkDir is the working directory for command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#work_dir DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#work_dir}
   */
   readonly workDir?: string;
 }
@@ -31213,19 +31213,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreateB
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -31395,13 +31395,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreateC
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -31523,13 +31523,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreateE
   /**
   * Check defines the verification statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#check DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#check}
   */
   readonly check: { [key: string]: string };
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
 }
@@ -31673,25 +31673,25 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreateO
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Match defines the matching statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#match DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -31890,61 +31890,61 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreate 
   /**
   * Bindings defines additional binding key/values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#bindings DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#bindings}
   */
   readonly bindings?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreateBindings[] | cdktf.IResolvable;
   /**
   * Cluster defines the target cluster (will be inherited if not specified).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#cluster DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#cluster}
   */
   readonly cluster?: string;
   /**
   * Clusters holds a registry to clusters to support multi-cluster tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#clusters DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreateClusters;
   /**
   * DryRun determines whether the file should be applied in dry run mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#dry_run DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#dry_run DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * Expect defines a list of matched checks to validate the operation outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#expect DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#expect}
   */
   readonly expect?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreateExpect[] | cdktf.IResolvable;
   /**
   * File is the path to the referenced file. This can be a direct path to a file or an expression that matches multiple files, such as 'manifest/*.yaml' for all YAML files within the 'manifest' directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#file DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#file}
   */
   readonly file?: string;
   /**
   * Outputs defines output bindings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#outputs DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#outputs}
   */
   readonly outputs?: DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryCreateOutputs[] | cdktf.IResolvable;
   /**
   * Resource provides a resource to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#resource DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#resource DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#resource}
   */
   readonly resource?: { [key: string]: string };
   /**
   * Template determines whether resources should be considered for templating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#template DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Timeout for the operation. Overrides the global timeout set in the Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#timeout DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -32301,19 +32301,19 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryDeleteB
   /**
   * Compiler defines the default compiler to use when evaluating expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#compiler DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#compiler}
   */
   readonly compiler?: string;
   /**
   * Name the name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#name DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value value of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#value DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -32483,13 +32483,13 @@ export interface DataK8SChainsawKyvernoIoTestV1Alpha1ManifestSpecStepsTryDeleteC
   /**
   * Context is the name of the context to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#context DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#context}
   */
   readonly context?: string;
   /**
   * Kubeconfig is the path to the referenced file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chainsaw_kyverno_io_test_v1alpha1_manifest#kubeconfig DataK8SChainsawKyvernoIoTestV1Alpha1Manifest#kubeconfig}
   */
   readonly kubeconfig: string;
 }

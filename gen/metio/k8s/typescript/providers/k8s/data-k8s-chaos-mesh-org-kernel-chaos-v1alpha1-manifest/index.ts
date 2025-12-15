@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#metadata DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#metadata DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestMetadata;
   /**
   * Spec defines the behavior of a kernel chaos experiment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#spec DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#spec DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#annotations DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#annotations DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#labels DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#labels DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#name DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#name DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#namespace DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#namespace DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecFailKernReque
   /**
   * Funcname can be find from kernel source or '/proc/kallsyms', such as 'ext4_mount'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#funcname DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#funcname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#funcname DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#funcname}
   */
   readonly funcname?: string;
   /**
   * Parameters is used with predicate, for example, if you want to inject slab error in 'd_alloc_parallel(struct dentry *parent, const struct qstr *name)' with a special name 'bananas', you need to set it to 'struct dentry *parent, const struct qstr *name' otherwise omit it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#parameters DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#parameters DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#parameters}
   */
   readonly parameters?: string;
   /**
   * Predicate will access the arguments of this Frame, example with Parameters's, you can set it to 'STRNCMP(name->name, 'bananas', 8)' to make inject only with it, or omit it to inject for all d_alloc_parallel call chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#predicate DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#predicate DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#predicate}
   */
   readonly predicate?: string;
 }
@@ -407,31 +407,31 @@ export interface DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecFailKernReque
   /**
   * Callchain indicate a special call chain, such as: ext4_mount -> mount_subtree -> ... -> should_failslab With an optional set of predicates and an optional set of parameters, which used with predicates. You can read call chan and predicate examples from https://github.com/chaos-mesh/bpfki/tree/develop/examples to learn more. If no special call chain, just keep Callchain empty, which means it will fail at any call chain with slab alloc (eg: kmalloc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#callchain DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#callchain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#callchain DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#callchain}
   */
   readonly callchain?: DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecFailKernRequestCallchain[] | cdktf.IResolvable;
   /**
   * FailType indicates what to fail, can be set to '0' / '1' / '2' If '0', indicates slab to fail (should_failslab) If '1', indicates alloc_page to fail (should_fail_alloc_page) If '2', indicates bio to fail (should_fail_bio) You can read: 1. https://www.kernel.org/doc/html/latest/fault-injection/fault-injection.html 2. http://github.com/iovisor/bcc/blob/master/tools/inject_example.txt to learn more
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#failtype DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#failtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#failtype DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#failtype}
   */
   readonly failtype: number;
   /**
   * Headers indicates the appropriate kernel headers you need. Eg: 'linux/mmzone.h', 'linux/blkdev.h' and so on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#headers DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#headers DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * Probability indicates the fails with probability. If you want 1%, please set this field with 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#probability DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#probability DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#probability}
   */
   readonly probability?: number;
   /**
   * Times indicates the max times of fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#times DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#times DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#times}
   */
   readonly times?: number;
 }
@@ -640,19 +640,19 @@ export interface DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecSelectorExpre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#key DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#key DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#operator DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#operator DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#values DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#values DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -822,55 +822,55 @@ export interface DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecSelector {
   /**
   * Map of string keys and values that can be used to select objects. A selector based on annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#annotation_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#annotation_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#annotation_selectors}
   */
   readonly annotationSelectors?: { [key: string]: string };
   /**
   * a slice of label selector expressions that can be used to select objects. A list of selectors based on set-based label expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#expression_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#expression_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#expression_selectors}
   */
   readonly expressionSelectors?: DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecSelectorExpressionSelectors[] | cdktf.IResolvable;
   /**
   * Map of string keys and values that can be used to select objects. A selector based on fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#field_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#field_selectors}
   */
   readonly fieldSelectors?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to select objects. A selector based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#label_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#label_selectors}
   */
   readonly labelSelectors?: { [key: string]: string };
   /**
   * Namespaces is a set of namespace to which objects belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#namespaces DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Map of string keys and values that can be used to select nodes. Selector which must match a node's labels, and objects must belong to these selected nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#node_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#node_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#node_selectors}
   */
   readonly nodeSelectors?: { [key: string]: string };
   /**
   * Nodes is a set of node name and objects must belong to these nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#nodes DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#nodes DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#nodes}
   */
   readonly nodes?: string[];
   /**
   * PodPhaseSelectors is a set of condition of a pod at the current time. supported value: Pending / Running / Succeeded / Failed / Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#pod_phase_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#pod_phase_selectors DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#pod_phase_selectors}
   */
   readonly podPhaseSelectors?: string[];
   /**
   * Pods is a map of string keys and a set values that used to select pods. The key defines the namespace which pods belong, and the each values is a set of pod names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#pods DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#pods DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#pods}
   */
   readonly pods?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -1198,43 +1198,43 @@ export interface DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpec {
   /**
   * ContainerNames indicates list of the name of affected container. If not set, the first container will be injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#container_names DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#container_names DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * Duration represents the duration of the chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * FailKernRequest defines the request of kernel injection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#fail_kern_request DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#fail_kern_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#fail_kern_request DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#fail_kern_request}
   */
   readonly failKernRequest: DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecFailKernRequest;
   /**
   * Mode defines the mode to run chaos action. Supported mode: one / all / fixed / fixed-percent / random-max-percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#mode DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#mode DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * Selector is used to select pods that are used to inject chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#selector DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#selector DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecSelector;
   /**
   * Value is required when the mode is set to 'FixedMode' / 'FixedPercentMode' / 'RandomMaxPercentMode'. If 'FixedMode', provide an integer of pods to do chaos action. If 'FixedPercentMode', provide a number from 0-100 to specify the percent of pods the server can do chaos action. IF 'RandomMaxPercentMode', provide a number from 0-100 to specify the max percent of pods to do chaos action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#value DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#value DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1493,7 +1493,7 @@ export class DataK8SChaosMeshOrgKernelChaosV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest k8s_chaos_mesh_org_kernel_chaos_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest k8s_chaos_mesh_org_kernel_chaos_v1alpha1_manifest}
 */
 export class DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1509,7 +1509,7 @@ export class DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1521,7 +1521,7 @@ export class DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest k8s_chaos_mesh_org_kernel_chaos_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/chaos_mesh_org_kernel_chaos_v1alpha1_manifest k8s_chaos_mesh_org_kernel_chaos_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1532,8 +1532,8 @@ export class DataK8SChaosMeshOrgKernelChaosV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_chaos_mesh_org_kernel_chaos_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

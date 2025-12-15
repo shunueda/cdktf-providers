@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#metadata DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#metadata DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestMetadata;
   /**
   * LimitadorSpec defines the desired state of Limitador
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#spec DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#spec DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#annotations DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#annotations DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_fields DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_fields DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#preference DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#preference DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#weight DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#weight DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_fields DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_fields DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#node_selector_terms DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#node_selector_terms DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,25 +2228,25 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#label_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#label_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespaces DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespaces DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#topology_key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#topology_key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2426,13 +2426,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pod_affinity_term DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pod_affinity_term DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#weight DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#weight DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2573,19 +2573,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2755,13 +2755,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2886,19 +2886,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3068,13 +3068,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3199,25 +3199,25 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#label_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#label_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespaces DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespaces DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#topology_key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#topology_key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3419,13 +3419,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3550,19 +3550,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3732,13 +3732,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3863,19 +3863,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4045,13 +4045,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4176,25 +4176,25 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#label_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#label_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespaces DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespaces DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#topology_key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#topology_key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4374,13 +4374,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pod_affinity_term DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pod_affinity_term DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#weight DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#weight DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4521,19 +4521,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4703,13 +4703,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4834,19 +4834,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#operator DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#values DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5016,13 +5016,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_expressions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#match_labels DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5147,25 +5147,25 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#label_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#label_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace_selector DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespaces DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespaces DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#topology_key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#topology_key DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5367,13 +5367,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5498,19 +5498,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#node_affinity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#node_affinity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pod_affinity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pod_affinity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pod_anti_affinity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pod_anti_affinity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5664,7 +5664,7 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecImagePul
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5780,27 +5780,27 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecImagePullSec
 }
 export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#conditions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#conditions DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#conditions}
   */
   readonly conditions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#max_value DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#max_value DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#max_value}
   */
   readonly maxValue: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#namespace DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#seconds DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#seconds DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#variables DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#variables DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#variables}
   */
   readonly variables: string[];
 }
@@ -6046,7 +6046,7 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecLimitsList e
 }
 export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecListenerGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#port DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#port DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -6140,7 +6140,7 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecListenerGrpc
 }
 export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecListenerHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#port DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#port DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -6234,11 +6234,11 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecListenerHttp
 }
 export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecListener {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#grpc DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#grpc DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecListenerGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#http DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#http DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecListenerHttp;
 }
@@ -6363,13 +6363,13 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecPdb {
   /**
   * An eviction is allowed if at most 'maxUnavailable' limitador pods are unavailable after the eviction, i.e. even in absence of the evicted pod. For example, one can prevent all voluntary evictions by specifying 0. This is a mutually exclusive setting with 'minAvailable'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#max_unavailable DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#max_unavailable DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * An eviction is allowed if at least 'minAvailable' limitador pods will still be available after the eviction, i.e. even in the absence of the evicted pod. So for example you can prevent all voluntary evictions by specifying '100%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#min_available DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#min_available DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#min_available}
   */
   readonly minAvailable?: string;
 }
@@ -6494,7 +6494,7 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecResource
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6609,19 +6609,19 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecResource
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#claims DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#claims DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#limits DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#limits DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#requests DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#requests DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6775,7 +6775,7 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageD
   /**
   * Storage Resource requests to be used on the PersistentVolumeClaim. To learn more about resource requests see: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#requests DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#requests DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#requests}
   */
   readonly requests: string;
 }
@@ -6868,17 +6868,17 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageD
   /**
   * Resources represents the minimum resources the volume should have. Ignored when VolumeName field is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#resources DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#resources DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageDiskPersistentVolumeClaimResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#storage_class_name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#storage_class_name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * VolumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#volume_name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#volume_name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -7032,11 +7032,11 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageD
   /**
   * DiskOptimizeType defines the valid options for 'optimize' option of the disk persistence type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#optimize DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#optimize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#optimize DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#optimize}
   */
   readonly optimize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#persistent_volume_claim DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#persistent_volume_claim DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageDiskPersistentVolumeClaim;
 }
@@ -7161,7 +7161,7 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageR
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7257,7 +7257,7 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageR
   /**
   * LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#config_secret_ref DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#config_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#config_secret_ref DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#config_secret_ref}
   */
   readonly configSecretRef?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageRedisConfigSecretRef;
 }
@@ -7353,7 +7353,7 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageR
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#name DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7449,25 +7449,25 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageR
   /**
   * BatchSize defines the size of entries to flush in as single flush [default: 100]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#batch_size DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#batch_size DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
   * FlushPeriod for counters in milliseconds [default: 1000]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#flush_period DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#flush_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#flush_period DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#flush_period}
   */
   readonly flushPeriod?: number;
   /**
   * MaxCached refers to the maximum amount of counters cached [default: 10000]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#max_cached DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#max_cached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#max_cached DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#max_cached}
   */
   readonly maxCached?: number;
   /**
   * ResponseTimeout defines the timeout for Redis commands in milliseconds [default: 350]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#response_timeout DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#response_timeout DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#response_timeout}
   */
   readonly responseTimeout?: number;
 }
@@ -7650,11 +7650,11 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageR
   /**
   * LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#config_secret_ref DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#config_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#config_secret_ref DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#config_secret_ref}
   */
   readonly configSecretRef?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageRedisCachedConfigSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#options DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#options DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageRedisCachedOptions;
 }
@@ -7777,15 +7777,15 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageRedis
 }
 export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#disk DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#disk DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#disk}
   */
   readonly disk?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#redis DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#redis DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#redis}
   */
   readonly redis?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageRedis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#redis_cached DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#redis_cached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#redis_cached DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#redis_cached}
   */
   readonly redisCached?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageRedisCached;
 }
@@ -7937,7 +7937,7 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorageOutpu
 }
 export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecTracing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#endpoint DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#endpoint DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#endpoint}
   */
   readonly endpoint: string;
 }
@@ -8030,71 +8030,71 @@ export interface DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpec {
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#affinity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#affinity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#image DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#image DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#image_pull_secrets DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#image_pull_secrets DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#limits DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#limits DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#limits}
   */
   readonly limits?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecLimits[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#listener DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#listener DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#listener}
   */
   readonly listener?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecListener;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pdb DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#pdb DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#pdb}
   */
   readonly pdb?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecPdb;
   /**
   * RateLimitHeadersType defines the valid options for the --rate-limit-headers arg
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#rate_limit_headers DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#rate_limit_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#rate_limit_headers DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#rate_limit_headers}
   */
   readonly rateLimitHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#replicas DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#replicas DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#resource_requirements DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#resource_requirements DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecResourceRequirements;
   /**
   * Storage contains the options for Limitador counters database or in-memory data storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#storage DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#storage DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecStorage;
   /**
   * Telemetry defines the level of metrics Limitador will expose to the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#telemetry DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#telemetry DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#telemetry}
   */
   readonly telemetry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#tracing DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#tracing DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#tracing}
   */
   readonly tracing?: DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecTracing;
   /**
   * Sets the level of verbosity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#verbosity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#verbosity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#verbosity DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#verbosity}
   */
   readonly verbosity?: number;
   /**
   * [Deprecated] Use spec.image instead. Docker tag used as limitador image. The repo is hardcoded to quay.io/kuadrant/limitador
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#version DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#version DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -8565,7 +8565,7 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest k8s_limitador_kuadrant_io_limitador_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest k8s_limitador_kuadrant_io_limitador_v1alpha1_manifest}
 */
 export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -8581,7 +8581,7 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8593,7 +8593,7 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest k8s_limitador_kuadrant_io_limitador_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/limitador_kuadrant_io_limitador_v1alpha1_manifest k8s_limitador_kuadrant_io_limitador_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8604,8 +8604,8 @@ export class DataK8SLimitadorKuadrantIoLimitadorV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_limitador_kuadrant_io_limitador_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

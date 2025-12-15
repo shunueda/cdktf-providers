@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rib_group
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rib_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RibGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Export routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rib_group#export_rib RibGroup#export_rib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rib_group#export_rib RibGroup#export_rib}
   */
   readonly exportRib?: string;
   /**
   * List of policy for import route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rib_group#import_policy RibGroup#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rib_group#import_policy RibGroup#import_policy}
   */
   readonly importPolicy?: string[];
   /**
   * List of import routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rib_group#import_rib RibGroup#import_rib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rib_group#import_rib RibGroup#import_rib}
   */
   readonly importRib?: string[];
   /**
   * The name of rib group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rib_group#name RibGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rib_group#name RibGroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rib_group junos_rib_group}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rib_group junos_rib_group}
 */
 export class RibGroup extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class RibGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RibGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RibGroup to import
-  * @param importFromId The id of the existing RibGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rib_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RibGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rib_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RibGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class RibGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/rib_group junos_rib_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/rib_group junos_rib_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class RibGroup extends cdktf.TerraformResource {
       terraformResourceType: 'junos_rib_group',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

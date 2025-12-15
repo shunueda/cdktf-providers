@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecurityAuthenticationKeyChainConfig extends cdktf.TerraformMet
   /**
   * Text description of this authentication-key-chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#description SecurityAuthenticationKeyChain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#description SecurityAuthenticationKeyChain#description}
   */
   readonly description?: string;
   /**
   * Name of authentication key chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#name SecurityAuthenticationKeyChain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#name SecurityAuthenticationKeyChain#name}
   */
   readonly name: string;
   /**
   * Clock skew tolerance (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#tolerance SecurityAuthenticationKeyChain#tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#tolerance SecurityAuthenticationKeyChain#tolerance}
   */
   readonly tolerance?: number;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#key SecurityAuthenticationKeyChain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#key SecurityAuthenticationKeyChain#key}
   */
   readonly key?: SecurityAuthenticationKeyChainKey[] | cdktf.IResolvable;
 }
@@ -36,37 +36,37 @@ export interface SecurityAuthenticationKeyChainKey {
   /**
   * Authentication algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#algorithm SecurityAuthenticationKeyChain#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#algorithm SecurityAuthenticationKeyChain#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Cryptographic algorithm for TCP-AO Traffic key and MAC digest generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#ao_cryptographic_algorithm SecurityAuthenticationKeyChain#ao_cryptographic_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#ao_cryptographic_algorithm SecurityAuthenticationKeyChain#ao_cryptographic_algorithm}
   */
   readonly aoCryptographicAlgorithm?: string;
   /**
   * Recv id for TCP-AO entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#ao_recv_id SecurityAuthenticationKeyChain#ao_recv_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#ao_recv_id SecurityAuthenticationKeyChain#ao_recv_id}
   */
   readonly aoRecvId?: number;
   /**
   * Send id for TCP-AO entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#ao_send_id SecurityAuthenticationKeyChain#ao_send_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#ao_send_id SecurityAuthenticationKeyChain#ao_send_id}
   */
   readonly aoSendId?: number;
   /**
   * Include TCP-AO option within message header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#ao_tcp_ao_option SecurityAuthenticationKeyChain#ao_tcp_ao_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#ao_tcp_ao_option SecurityAuthenticationKeyChain#ao_tcp_ao_option}
   */
   readonly aoTcpAoOption?: string;
   /**
   * Authentication element identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#id SecurityAuthenticationKeyChain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#id SecurityAuthenticationKeyChain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,25 +75,25 @@ export interface SecurityAuthenticationKeyChainKey {
   /**
   * Key name in hexadecimal format used for macsec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#key_name SecurityAuthenticationKeyChain#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#key_name SecurityAuthenticationKeyChain#key_name}
   */
   readonly keyName?: string;
   /**
   * Protocol's transmission encoding format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#options SecurityAuthenticationKeyChain#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#options SecurityAuthenticationKeyChain#options}
   */
   readonly options?: string;
   /**
   * Authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#secret SecurityAuthenticationKeyChain#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#secret SecurityAuthenticationKeyChain#secret}
   */
   readonly secret: string;
   /**
   * Start time for key transmission (YYYY-MM-DD.HH:MM:SS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#start_time SecurityAuthenticationKeyChain#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#start_time SecurityAuthenticationKeyChain#start_time}
   */
   readonly startTime: string;
 }
@@ -461,7 +461,7 @@ export class SecurityAuthenticationKeyChainKeyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain junos_security_authentication_key_chain}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain junos_security_authentication_key_chain}
 */
 export class SecurityAuthenticationKeyChain extends cdktf.TerraformResource {
 
@@ -477,7 +477,7 @@ export class SecurityAuthenticationKeyChain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityAuthenticationKeyChain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityAuthenticationKeyChain to import
-  * @param importFromId The id of the existing SecurityAuthenticationKeyChain that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityAuthenticationKeyChain that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityAuthenticationKeyChain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -489,7 +489,7 @@ export class SecurityAuthenticationKeyChain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/security_authentication_key_chain junos_security_authentication_key_chain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/security_authentication_key_chain junos_security_authentication_key_chain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -500,8 +500,8 @@ export class SecurityAuthenticationKeyChain extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_authentication_key_chain',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

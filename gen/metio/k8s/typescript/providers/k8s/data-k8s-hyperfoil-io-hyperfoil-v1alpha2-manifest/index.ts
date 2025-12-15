@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#metadata DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#metadata DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestMetadata;
   /**
   * HyperfoilSpec defines the desired state of Hyperfoil.It Configures Hyperfoil Controller and related resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#spec DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#spec DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#annotations DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#annotations DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#labels DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#labels DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#name DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#name DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#namespace DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#namespace DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestSpecAuth {
   /**
   * Optional; Name of secret used for basic authentication. Must contain key 'password'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#secret DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#secret DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -315,19 +315,19 @@ export interface DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestSpecRoute {
   /**
   * Host for the route leading to Controller REST endpoint. Example: hyperfoil.apps.cloud.example.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#host DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#host DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#host}
   */
   readonly host?: string;
   /**
   * Optional for edge and reencrypt routes, required for passthrough; Name of the secret hosting 'tls.crt', 'tls.key' and optionally 'ca.crt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#tls DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#tls DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#tls}
   */
   readonly tls?: string;
   /**
   * Either 'http' (for plain-text routes - not recommended), 'edge', 'reencrypt' or 'passthrough'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#type DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#type DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#type}
   */
   readonly type?: string;
 }
@@ -481,79 +481,79 @@ export interface DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestSpec {
   /**
   * AdditionalArgs specifies additional arguments to pass to the Hyperfoil controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#additional_args DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#additional_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#additional_args DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#additional_args}
   */
   readonly additionalArgs?: string[];
   /**
   * Deploy timeout for agents, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#agent_deploy_timeout DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#agent_deploy_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#agent_deploy_timeout DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#agent_deploy_timeout}
   */
   readonly agentDeployTimeout?: number;
   /**
   * Authentication/authorization settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#auth DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#auth DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#auth}
   */
   readonly auth?: DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestSpecAuth;
   /**
   * Controller image. If 'version' is defined, too, the tag is replaced (or appended). Defaults to 'quay.io/hyperfoil/hyperfoil'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#image DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#image DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#image}
   */
   readonly image?: string;
   /**
   * Name of the config map and optionally its entry (separated by '/': e.g myconfigmap/log4j2-superverbose.xml) storing Log4j2 configuration file. By default the Controller uses its embedded configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#log DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#log DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#log}
   */
   readonly log?: string;
   /**
   * Name of the PVC hyperfoil should mount for its workdir.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#persistent_volume_claim DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#persistent_volume_claim DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: string;
   /**
   * Names of config maps and optionally keys (separated by '/') holding hooks that run after the run finishes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#post_hooks DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#post_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#post_hooks DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#post_hooks}
   */
   readonly postHooks?: string[];
   /**
   * Names of config maps and optionally keys (separated by '/') holding hooks that run before the run starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#pre_hooks DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#pre_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#pre_hooks DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#pre_hooks}
   */
   readonly preHooks?: string[];
   /**
   * Specification of the exposed route. This setting is ignored when Openshift Routes are not available (on vanilla Kubernetes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#route DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#route DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#route}
   */
   readonly route?: DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestSpecRoute;
   /**
   * List of secrets in this namespace; each entry from those secrets will be mapped as environment variable, using the key as variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#secret_env_vars DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#secret_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#secret_env_vars DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#secret_env_vars}
   */
   readonly secretEnvVars?: string[];
   /**
   * Type of the service being exposed. By default this is ClusterIP if Openshift Route resource is available (the route will target this service). If Openshift Routes are not available (on vanilla Kubernetes) the default is NodePort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#service_type DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#service_type DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#service_type}
   */
   readonly serviceType?: string;
   /**
   * If this is set the controller does not start benchmark run right away after hitting /benchmark/my-benchmark/start ; instead it responds with status 301 and header Location set to concatenation of this string and 'BENCHMARK=my-benchmark&RUN_ID=xxxx'. CLI interprets that response as a request to hit CI instance on this URL, assuming that CI will trigger a new job that will eventually call /benchmark/my-benchmark/start?runId=xxxx with header 'x-trigger-job'. This is useful if the the CI has to synchronize Hyperfoil to other benchmarks that don't use this controller instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#trigger_url DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#trigger_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#trigger_url DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#trigger_url}
   */
   readonly triggerUrl?: string;
   /**
   * Tag for controller image. Defaults to version matching the operator version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#version DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#version DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest#version}
   */
   readonly version?: string;
 }
@@ -995,7 +995,7 @@ export class DataK8SHyperfoilIoHyperfoilV1Alpha2ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest k8s_hyperfoil_io_hyperfoil_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest k8s_hyperfoil_io_hyperfoil_v1alpha2_manifest}
 */
 export class DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -1011,7 +1011,7 @@ export class DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1023,7 +1023,7 @@ export class DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.8/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest k8s_hyperfoil_io_hyperfoil_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.15/docs/data-sources/hyperfoil_io_hyperfoil_v1alpha2_manifest k8s_hyperfoil_io_hyperfoil_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1034,8 +1034,8 @@ export class DataK8SHyperfoilIoHyperfoilV1Alpha2Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_hyperfoil_io_hyperfoil_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.12.8',
-        providerVersionConstraint: '2025.12.8'
+        providerVersion: '2025.12.15',
+        providerVersionConstraint: '2025.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

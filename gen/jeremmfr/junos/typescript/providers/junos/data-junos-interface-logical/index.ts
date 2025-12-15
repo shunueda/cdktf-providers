@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_logical
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_logical
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataJunosInterfaceLogicalConfig extends cdktf.TerraformMetaArgu
   /**
   * Specifies the interface part for search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_logical#config_interface DataJunosInterfaceLogical#config_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_logical#config_interface DataJunosInterfaceLogical#config_interface}
   */
   readonly configInterface?: string;
   /**
   * Regex string to filter lines and find only one interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_logical#match DataJunosInterfaceLogical#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_logical#match DataJunosInterfaceLogical#match}
   */
   readonly match?: string;
 }
@@ -1472,7 +1472,7 @@ export class DataJunosInterfaceLogicalTunnelOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_logical junos_interface_logical}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_logical junos_interface_logical}
 */
 export class DataJunosInterfaceLogical extends cdktf.TerraformDataSource {
 
@@ -1488,7 +1488,7 @@ export class DataJunosInterfaceLogical extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataJunosInterfaceLogical resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataJunosInterfaceLogical to import
-  * @param importFromId The id of the existing DataJunosInterfaceLogical that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_logical#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataJunosInterfaceLogical that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_logical#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataJunosInterfaceLogical to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1500,7 +1500,7 @@ export class DataJunosInterfaceLogical extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/data-sources/interface_logical junos_interface_logical} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/data-sources/interface_logical junos_interface_logical} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1511,8 +1511,8 @@ export class DataJunosInterfaceLogical extends cdktf.TerraformDataSource {
       terraformResourceType: 'junos_interface_logical',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

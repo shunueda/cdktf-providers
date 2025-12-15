@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area
+// https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface OspfAreaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Area ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#area_id OspfArea#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#area_id OspfArea#area_id}
   */
   readonly areaId: string;
   /**
   * Configure context identifier in support of edge protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#context_identifier OspfArea#context_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#context_identifier OspfArea#context_identifier}
   */
   readonly contextIdentifier?: string[];
   /**
   * Export policy for Inter Area Prefix LSAs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#inter_area_prefix_export OspfArea#inter_area_prefix_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#inter_area_prefix_export OspfArea#inter_area_prefix_export}
   */
   readonly interAreaPrefixExport?: string[];
   /**
   * Import policy for Inter Area Prefix LSAs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#inter_area_prefix_import OspfArea#inter_area_prefix_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#inter_area_prefix_import OspfArea#inter_area_prefix_import}
   */
   readonly interAreaPrefixImport?: string[];
   /**
   * Export policy for Type 3 Summary LSAs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#network_summary_export OspfArea#network_summary_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#network_summary_export OspfArea#network_summary_export}
   */
   readonly networkSummaryExport?: string[];
   /**
   * Import policy for Type 3 Summary LSAs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#network_summary_import OspfArea#network_summary_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#network_summary_import OspfArea#network_summary_import}
   */
   readonly networkSummaryImport?: string[];
   /**
   * Disable context identifier advertisements in this area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_context_identifier_advertisement OspfArea#no_context_identifier_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_context_identifier_advertisement OspfArea#no_context_identifier_advertisement}
   */
   readonly noContextIdentifierAdvertisement?: boolean | cdktf.IResolvable;
   /**
   * OSPFv3 realm configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#realm OspfArea#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#realm OspfArea#realm}
   */
   readonly realm?: string;
   /**
   * Routing instance for ospf area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#routing_instance OspfArea#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#routing_instance OspfArea#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Version of ospf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#version OspfArea#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#version OspfArea#version}
   */
   readonly version?: string;
   /**
   * area_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#area_range OspfArea#area_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#area_range OspfArea#area_range}
   */
   readonly areaRange?: OspfAreaAreaRange[] | cdktf.IResolvable;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#interface OspfArea#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#interface OspfArea#interface}
   */
   readonly interface?: OspfAreaInterface[] | cdktf.IResolvable;
   /**
   * nssa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#nssa OspfArea#nssa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#nssa OspfArea#nssa}
   */
   readonly nssa?: OspfAreaNssa;
   /**
   * stub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#stub OspfArea#stub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#stub OspfArea#stub}
   */
   readonly stub?: OspfAreaStub;
   /**
   * virtual_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#virtual_link OspfArea#virtual_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#virtual_link OspfArea#virtual_link}
   */
   readonly virtualLink?: OspfAreaVirtualLink[] | cdktf.IResolvable;
 }
@@ -102,25 +102,25 @@ export interface OspfAreaAreaRange {
   /**
   * Enforce exact match for advertisement of this area range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#exact OspfArea#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#exact OspfArea#exact}
   */
   readonly exact?: boolean | cdktf.IResolvable;
   /**
   * Override the dynamic metric for this area-range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#override_metric OspfArea#override_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#override_metric OspfArea#override_metric}
   */
   readonly overrideMetric?: number;
   /**
   * Range to summarize routes in this area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#range OspfArea#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#range OspfArea#range}
   */
   readonly range: string;
   /**
   * Restrict advertisement of this area range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#restrict OspfArea#restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#restrict OspfArea#restrict}
   */
   readonly restrict?: boolean | cdktf.IResolvable;
 }
@@ -322,19 +322,19 @@ export interface OspfAreaInterfaceAuthenticationMd5 {
   /**
   * MD5 authentication key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#key OspfArea#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#key OspfArea#key}
   */
   readonly key: string;
   /**
   * Key ID for MD5 authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#key_id OspfArea#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#key_id OspfArea#key_id}
   */
   readonly keyId: number;
   /**
   * Start time for key transmission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#start_time OspfArea#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#start_time OspfArea#start_time}
   */
   readonly startTime?: string;
 }
@@ -504,13 +504,13 @@ export interface OspfAreaInterfaceBandwidthBasedMetrics {
   /**
   * Bandwidth threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#bandwidth OspfArea#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#bandwidth OspfArea#bandwidth}
   */
   readonly bandwidth: string;
   /**
   * Metric associated with specified bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#metric OspfArea#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#metric OspfArea#metric}
   */
   readonly metric: number;
 }
@@ -651,79 +651,79 @@ export interface OspfAreaInterfaceBfdLivenessDetection {
   /**
   * Authentication algorithm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#authentication_algorithm OspfArea#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#authentication_algorithm OspfArea#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * Authentication key chain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#authentication_key_chain OspfArea#authentication_key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#authentication_key_chain OspfArea#authentication_key_chain}
   */
   readonly authenticationKeyChain?: string;
   /**
   * Verify authentication only if authentication is negotiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#authentication_loose_check OspfArea#authentication_loose_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#authentication_loose_check OspfArea#authentication_loose_check}
   */
   readonly authenticationLooseCheck?: boolean | cdktf.IResolvable;
   /**
   * High detection-time triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#detection_time_threshold OspfArea#detection_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#detection_time_threshold OspfArea#detection_time_threshold}
   */
   readonly detectionTimeThreshold?: number;
   /**
   * Setup BFD sessions only to Full neighbors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#full_neighbors_only OspfArea#full_neighbors_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#full_neighbors_only OspfArea#full_neighbors_only}
   */
   readonly fullNeighborsOnly?: boolean | cdktf.IResolvable;
   /**
   * Time to hold the session-UP notification to the client (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#holddown_interval OspfArea#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#holddown_interval OspfArea#holddown_interval}
   */
   readonly holddownInterval?: number;
   /**
   * Minimum transmit and receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#minimum_interval OspfArea#minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#minimum_interval OspfArea#minimum_interval}
   */
   readonly minimumInterval?: number;
   /**
   * Minimum receive interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#minimum_receive_interval OspfArea#minimum_receive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#minimum_receive_interval OspfArea#minimum_receive_interval}
   */
   readonly minimumReceiveInterval?: number;
   /**
   * Detection time multiplier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#multiplier OspfArea#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#multiplier OspfArea#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Disable adaptation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_adaptation OspfArea#no_adaptation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_adaptation OspfArea#no_adaptation}
   */
   readonly noAdaptation?: boolean | cdktf.IResolvable;
   /**
   * Minimum transmit interval (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#transmit_interval_minimum_interval OspfArea#transmit_interval_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#transmit_interval_minimum_interval OspfArea#transmit_interval_minimum_interval}
   */
   readonly transmitIntervalMinimumInterval?: number;
   /**
   * High transmit interval triggering a trap (milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#transmit_interval_threshold OspfArea#transmit_interval_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#transmit_interval_threshold OspfArea#transmit_interval_threshold}
   */
   readonly transmitIntervalThreshold?: number;
   /**
   * BFD protocol version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#version OspfArea#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#version OspfArea#version}
   */
   readonly version?: string;
 }
@@ -1167,13 +1167,13 @@ export interface OspfAreaInterfaceNeighbor {
   /**
   * Address of neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#address OspfArea#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#address OspfArea#address}
   */
   readonly address: string;
   /**
   * Eligible to be DR on an NBMA network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#eligible OspfArea#eligible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#eligible OspfArea#eligible}
   */
   readonly eligible?: boolean | cdktf.IResolvable;
 }
@@ -1317,223 +1317,223 @@ export interface OspfAreaInterface {
   /**
   * Authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#authentication_simple_password OspfArea#authentication_simple_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#authentication_simple_password OspfArea#authentication_simple_password}
   */
   readonly authenticationSimplePassword?: string;
   /**
   * Dead interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#dead_interval OspfArea#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#dead_interval OspfArea#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Interface functions as a demand circuit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#demand_circuit OspfArea#demand_circuit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#demand_circuit OspfArea#demand_circuit}
   */
   readonly demandCircuit?: boolean | cdktf.IResolvable;
   /**
   * Disable OSPF on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#disable OspfArea#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#disable OspfArea#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Learn neighbors dynamically on a p2mp interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#dynamic_neighbors OspfArea#dynamic_neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#dynamic_neighbors OspfArea#dynamic_neighbors}
   */
   readonly dynamicNeighbors?: boolean | cdktf.IResolvable;
   /**
   * Enable flood reduction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#flood_reduction OspfArea#flood_reduction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#flood_reduction OspfArea#flood_reduction}
   */
   readonly floodReduction?: boolean | cdktf.IResolvable;
   /**
   * Hello interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#hello_interval OspfArea#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#hello_interval OspfArea#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Type of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#interface_type OspfArea#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#interface_type OspfArea#interface_type}
   */
   readonly interfaceType?: string;
   /**
   * IPSec security association name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#ipsec_sa OspfArea#ipsec_sa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#ipsec_sa OspfArea#ipsec_sa}
   */
   readonly ipsecSa?: string;
   /**
   * Type to define adjacency SID is eligible for protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#ipv4_adjacency_segment_protected_type OspfArea#ipv4_adjacency_segment_protected_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#ipv4_adjacency_segment_protected_type OspfArea#ipv4_adjacency_segment_protected_type}
   */
   readonly ipv4AdjacencySegmentProtectedType?: string;
   /**
   * Value for index or label to define adjacency SID is eligible for protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#ipv4_adjacency_segment_protected_value OspfArea#ipv4_adjacency_segment_protected_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#ipv4_adjacency_segment_protected_value OspfArea#ipv4_adjacency_segment_protected_value}
   */
   readonly ipv4AdjacencySegmentProtectedValue?: string;
   /**
   * Type to define adjacency SID uneligible for protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#ipv4_adjacency_segment_unprotected_type OspfArea#ipv4_adjacency_segment_unprotected_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#ipv4_adjacency_segment_unprotected_type OspfArea#ipv4_adjacency_segment_unprotected_type}
   */
   readonly ipv4AdjacencySegmentUnprotectedType?: string;
   /**
   * Value for index or label to define adjacency SID uneligible for protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#ipv4_adjacency_segment_unprotected_value OspfArea#ipv4_adjacency_segment_unprotected_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#ipv4_adjacency_segment_unprotected_value OspfArea#ipv4_adjacency_segment_unprotected_value}
   */
   readonly ipv4AdjacencySegmentUnprotectedValue?: string;
   /**
   * Protect interface from link faults only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#link_protection OspfArea#link_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#link_protection OspfArea#link_protection}
   */
   readonly linkProtection?: boolean | cdktf.IResolvable;
   /**
   * Interface metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#metric OspfArea#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#metric OspfArea#metric}
   */
   readonly metric?: number;
   /**
   * Maximum OSPF packet size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#mtu OspfArea#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#mtu OspfArea#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of interface or interface-range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#name OspfArea#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#name OspfArea#name}
   */
   readonly name: string;
   /**
   * Do not advertise an adjacency segment for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_advertise_adjacency_segment OspfArea#no_advertise_adjacency_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_advertise_adjacency_segment OspfArea#no_advertise_adjacency_segment}
   */
   readonly noAdvertiseAdjacencySegment?: boolean | cdktf.IResolvable;
   /**
   * Not eligible to backup traffic from protected interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_eligible_backup OspfArea#no_eligible_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_eligible_backup OspfArea#no_eligible_backup}
   */
   readonly noEligibleBackup?: boolean | cdktf.IResolvable;
   /**
   * Not eligible for Remote-LFA backup traffic from protected interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_eligible_remote_backup OspfArea#no_eligible_remote_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_eligible_remote_backup OspfArea#no_eligible_remote_backup}
   */
   readonly noEligibleRemoteBackup?: boolean | cdktf.IResolvable;
   /**
   * Do not send interface state change traps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_interface_state_traps OspfArea#no_interface_state_traps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_interface_state_traps OspfArea#no_interface_state_traps}
   */
   readonly noInterfaceStateTraps?: boolean | cdktf.IResolvable;
   /**
   * Don't inform other protocols about neighbor down events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_neighbor_down_notification OspfArea#no_neighbor_down_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_neighbor_down_notification OspfArea#no_neighbor_down_notification}
   */
   readonly noNeighborDownNotification?: boolean | cdktf.IResolvable;
   /**
   * Protect interface from both link and node faults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#node_link_protection OspfArea#node_link_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#node_link_protection OspfArea#node_link_protection}
   */
   readonly nodeLinkProtection?: boolean | cdktf.IResolvable;
   /**
   * Do not run OSPF, but advertise it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#passive OspfArea#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#passive OspfArea#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Advertise TE link information, remote address of the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#passive_traffic_engineering_remote_node_id OspfArea#passive_traffic_engineering_remote_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#passive_traffic_engineering_remote_node_id OspfArea#passive_traffic_engineering_remote_node_id}
   */
   readonly passiveTrafficEngineeringRemoteNodeId?: string;
   /**
   * Advertise TE link information, TE Router-ID of the remote node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#passive_traffic_engineering_remote_node_router_id OspfArea#passive_traffic_engineering_remote_node_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#passive_traffic_engineering_remote_node_router_id OspfArea#passive_traffic_engineering_remote_node_router_id}
   */
   readonly passiveTrafficEngineeringRemoteNodeRouterId?: string;
   /**
   * Poll interval for NBMA interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#poll_interval OspfArea#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#poll_interval OspfArea#poll_interval}
   */
   readonly pollInterval?: number;
   /**
   * Designated router priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#priority OspfArea#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#priority OspfArea#priority}
   */
   readonly priority?: number;
   /**
   * Retransmission interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#retransmit_interval OspfArea#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#retransmit_interval OspfArea#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Treat interface as secondary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#secondary OspfArea#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#secondary OspfArea#secondary}
   */
   readonly secondary?: boolean | cdktf.IResolvable;
   /**
   * Enable strict bfd over this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#strict_bfd OspfArea#strict_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#strict_bfd OspfArea#strict_bfd}
   */
   readonly strictBfd?: boolean | cdktf.IResolvable;
   /**
   * Traffic engineering metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#te_metric OspfArea#te_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#te_metric OspfArea#te_metric}
   */
   readonly teMetric?: number;
   /**
   * Transit delay (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#transit_delay OspfArea#transit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#transit_delay OspfArea#transit_delay}
   */
   readonly transitDelay?: number;
   /**
   * authentication_md5 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#authentication_md5 OspfArea#authentication_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#authentication_md5 OspfArea#authentication_md5}
   */
   readonly authenticationMd5?: OspfAreaInterfaceAuthenticationMd5[] | cdktf.IResolvable;
   /**
   * bandwidth_based_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#bandwidth_based_metrics OspfArea#bandwidth_based_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#bandwidth_based_metrics OspfArea#bandwidth_based_metrics}
   */
   readonly bandwidthBasedMetrics?: OspfAreaInterfaceBandwidthBasedMetrics[] | cdktf.IResolvable;
   /**
   * bfd_liveness_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#bfd_liveness_detection OspfArea#bfd_liveness_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#bfd_liveness_detection OspfArea#bfd_liveness_detection}
   */
   readonly bfdLivenessDetection?: OspfAreaInterfaceBfdLivenessDetection;
   /**
   * neighbor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#neighbor OspfArea#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#neighbor OspfArea#neighbor}
   */
   readonly neighbor?: OspfAreaInterfaceNeighbor[] | cdktf.IResolvable;
 }
@@ -2692,25 +2692,25 @@ export interface OspfAreaNssaAreaRange {
   /**
   * Enforce exact match for advertisement of this area range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#exact OspfArea#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#exact OspfArea#exact}
   */
   readonly exact?: boolean | cdktf.IResolvable;
   /**
   * Override the dynamic metric for this area-range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#override_metric OspfArea#override_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#override_metric OspfArea#override_metric}
   */
   readonly overrideMetric?: number;
   /**
   * Range to summarize routes in this area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#range OspfArea#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#range OspfArea#range}
   */
   readonly range: string;
   /**
   * Restrict advertisement of this area range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#restrict OspfArea#restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#restrict OspfArea#restrict}
   */
   readonly restrict?: boolean | cdktf.IResolvable;
 }
@@ -2912,19 +2912,19 @@ export interface OspfAreaNssaDefaultLsa {
   /**
   * Metric for the default route in this area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#default_metric OspfArea#default_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#default_metric OspfArea#default_metric}
   */
   readonly defaultMetric?: number;
   /**
   * External metric type for the default type 7 LSA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#metric_type OspfArea#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#metric_type OspfArea#metric_type}
   */
   readonly metricType?: number;
   /**
   * Flood type 7 default LSA if no-summaries is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#type_7 OspfArea#type_7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#type_7 OspfArea#type_7}
   */
   readonly type7?: boolean | cdktf.IResolvable;
 }
@@ -3078,25 +3078,25 @@ export interface OspfAreaNssa {
   /**
   * Don't flood summary LSAs into this NSSA area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_summaries OspfArea#no_summaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_summaries OspfArea#no_summaries}
   */
   readonly noSummaries?: boolean | cdktf.IResolvable;
   /**
   * Flood summary LSAs into this NSSA area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#summaries OspfArea#summaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#summaries OspfArea#summaries}
   */
   readonly summaries?: boolean | cdktf.IResolvable;
   /**
   * area_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#area_range OspfArea#area_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#area_range OspfArea#area_range}
   */
   readonly areaRange?: OspfAreaNssaAreaRange[] | cdktf.IResolvable;
   /**
   * default_lsa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#default_lsa OspfArea#default_lsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#default_lsa OspfArea#default_lsa}
   */
   readonly defaultLsa?: OspfAreaNssaDefaultLsa;
 }
@@ -3279,19 +3279,19 @@ export interface OspfAreaStub {
   /**
   * Metric for the default route in this stub area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#default_metric OspfArea#default_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#default_metric OspfArea#default_metric}
   */
   readonly defaultMetric?: number;
   /**
   * Don't flood summary LSAs into this stub area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#no_summaries OspfArea#no_summaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#no_summaries OspfArea#no_summaries}
   */
   readonly noSummaries?: boolean | cdktf.IResolvable;
   /**
   * Flood summary LSAs into this stub area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#summaries OspfArea#summaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#summaries OspfArea#summaries}
   */
   readonly summaries?: boolean | cdktf.IResolvable;
 }
@@ -3445,67 +3445,67 @@ export interface OspfAreaVirtualLink {
   /**
   * Dead interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#dead_interval OspfArea#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#dead_interval OspfArea#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Interface functions as a demand circuit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#demand_circuit OspfArea#demand_circuit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#demand_circuit OspfArea#demand_circuit}
   */
   readonly demandCircuit?: boolean | cdktf.IResolvable;
   /**
   * Disable this virtual link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#disable OspfArea#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#disable OspfArea#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Enable flood reduction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#flood_reduction OspfArea#flood_reduction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#flood_reduction OspfArea#flood_reduction}
   */
   readonly floodReduction?: boolean | cdktf.IResolvable;
   /**
   * Hello interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#hello_interval OspfArea#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#hello_interval OspfArea#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * IPSec security association name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#ipsec_sa OspfArea#ipsec_sa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#ipsec_sa OspfArea#ipsec_sa}
   */
   readonly ipsecSa?: string;
   /**
   * Maximum OSPF packet size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#mtu OspfArea#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#mtu OspfArea#mtu}
   */
   readonly mtu?: number;
   /**
   * Router ID of a virtual neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#neighbor_id OspfArea#neighbor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#neighbor_id OspfArea#neighbor_id}
   */
   readonly neighborId: string;
   /**
   * Retransmission interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#retransmit_interval OspfArea#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#retransmit_interval OspfArea#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Transit area in common with virtual neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#transit_area OspfArea#transit_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#transit_area OspfArea#transit_area}
   */
   readonly transitArea: string;
   /**
   * Transit delay (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#transit_delay OspfArea#transit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#transit_delay OspfArea#transit_delay}
   */
   readonly transitDelay?: number;
 }
@@ -3905,7 +3905,7 @@ export class OspfAreaVirtualLinkList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area junos_ospf_area}
+* Represents a {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area junos_ospf_area}
 */
 export class OspfArea extends cdktf.TerraformResource {
 
@@ -3921,7 +3921,7 @@ export class OspfArea extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OspfArea resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OspfArea to import
-  * @param importFromId The id of the existing OspfArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OspfArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OspfArea to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3933,7 +3933,7 @@ export class OspfArea extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.15.0/docs/resources/ospf_area junos_ospf_area} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jeremmfr/junos/2.16.0/docs/resources/ospf_area junos_ospf_area} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3944,8 +3944,8 @@ export class OspfArea extends cdktf.TerraformResource {
       terraformResourceType: 'junos_ospf_area',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

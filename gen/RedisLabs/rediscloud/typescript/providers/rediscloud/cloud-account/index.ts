@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CloudAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloud provider access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#access_key_id CloudAccount#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#access_key_id CloudAccount#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Cloud provider secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#access_secret_key CloudAccount#access_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#access_secret_key CloudAccount#access_secret_key}
   */
   readonly accessSecretKey: string;
   /**
   * Cloud provider management console password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#console_password CloudAccount#console_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#console_password CloudAccount#console_password}
   */
   readonly consolePassword: string;
   /**
   * Cloud provider management console username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#console_username CloudAccount#console_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#console_username CloudAccount#console_username}
   */
   readonly consoleUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#id CloudAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#id CloudAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface CloudAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Display name of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#name CloudAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#name CloudAccount#name}
   */
   readonly name: string;
   /**
   * Cloud provider type - either `AWS` or `GCP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#provider_type CloudAccount#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#provider_type CloudAccount#provider_type}
   */
   readonly providerType: string;
   /**
   * Cloud provider management console login URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#sign_in_login_url CloudAccount#sign_in_login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#sign_in_login_url CloudAccount#sign_in_login_url}
   */
   readonly signInLoginUrl: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#timeouts CloudAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#timeouts CloudAccount#timeouts}
   */
   readonly timeouts?: CloudAccountTimeouts;
 }
 export interface CloudAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#create CloudAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#create CloudAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#delete CloudAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#delete CloudAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#read CloudAccount#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#read CloudAccount#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#update CloudAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#update CloudAccount#update}
   */
   readonly update?: string;
 }
@@ -258,7 +258,7 @@ export class CloudAccountTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account rediscloud_cloud_account}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account rediscloud_cloud_account}
 */
 export class CloudAccount extends cdktf.TerraformResource {
 
@@ -274,7 +274,7 @@ export class CloudAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudAccount to import
-  * @param importFromId The id of the existing CloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class CloudAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/cloud_account rediscloud_cloud_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.9.0/docs/resources/cloud_account rediscloud_cloud_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class CloudAccount extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_cloud_account',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.8.0',
-        providerVersionConstraint: '2.8.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
